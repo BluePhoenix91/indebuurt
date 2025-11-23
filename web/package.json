@@ -1,8 +1,8 @@
 {
-  "name": "indebuurt-web",
+  "name": "buurtkompas-web",
   "type": "module",
   "version": "0.1.0",
-  "description": "indebuurt.be - Neighborhood discovery platform for Belgium",
+  "description": "buurtkompas.be - Neighborhood discovery platform for Belgium",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
