@@ -1,0 +1,121 @@
+---
+// ListingCard component - Reusable card for displaying property listings
+
+interface Props {
+	title: string;
+	price: number;
+	neighborhoodName: string;
+	neighborhoodUrl: string;
+	listingUrl: string;
+}
+
+const { title, price, neighborhoodName, neighborhoodUrl, listingUrl } = Astro.props;
+
+// Format price with thousand separators
+const formattedPrice = price.toLocaleString('nl-BE', {
+	style: 'currency',
+	currency: 'EUR',
+	minimumFractionDigits: 0,
+	maximumFractionDigits: 0
+});
+---
+
+<div class="listing-card">
+	<div class="listing-content">
+		<h3 class="listing-title">{title}</h3>
+		<p class="listing-price">{formattedPrice}</p>
+		<p class="listing-location">
+			<span class="location-icon">📍</span>
+			<a href={neighborhoodUrl} class="neighborhood-link">{neighborhoodName}</a>
+		</p>
+	</div>
+	<div class="listing-actions">
+		<a href={listingUrl} class="btn-primary" target="_blank" rel="noopener">Bekijk woning</a>
+	</div>
+</div>
+
+<style>
+	.listing-card {
+		background: white;
+		border: 2px solid #e0e0e0;
+		border-radius: 8px;
+		padding: 1.5rem;
+		transition: transform 0.2s, box-shadow 0.2s;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+	}
+
+	.listing-card:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		border-color: #3498db;
+	}
+
+	.listing-content {
+		flex: 1;
+	}
+
+	.listing-title {
+		font-size: 1.25rem;
+		margin: 0 0 1rem 0;
+		color: #2c3e50;
+		line-height: 1.3;
+	}
+
+	.listing-price {
+		font-size: 1.75rem;
+		font-weight: bold;
+		color: #27ae60;
+		margin: 0 0 1rem 0;
+	}
+
+	.listing-location {
+		font-size: 1rem;
+		color: #7f8c8d;
+		margin: 0;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.location-icon {
+		font-size: 1.2rem;
+	}
+
+	.neighborhood-link {
+		color: #3498db;
+		text-decoration: none;
+		font-weight: 500;
+		transition: color 0.2s;
+	}
+
+	.neighborhood-link:hover {
+		color: #2980b9;
+		text-decoration: underline;
+	}
+
+	.listing-actions {
+		margin-top: 1.5rem;
+		padding-top: 1rem;
+		border-top: 1px solid #e0e0e0;
+	}
+
+	.btn-primary {
+		display: inline-block;
+		background: #3498db;
+		color: white;
+		padding: 0.75rem 1.5rem;
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 600;
+		transition: background 0.2s;
+		text-align: center;
+		width: 100%;
+	}
+
+	.btn-primary:hover {
+		background: #2980b9;
+	}
+</style>

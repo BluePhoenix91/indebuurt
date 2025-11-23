@@ -52,3 +52,18 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Data files
+*.csv
+
+# Node.js / Astro
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,177 @@
+======================================================================
+STREET SAMPLING POC - PERFORMANCE REPORT
+======================================================================
+Generated: 2025-11-11 12:37:11
+
+NOTE: This report analyzes existing output files.
+Processing times are estimated based on typical performance.
+
+======================================================================
+1. ESTIMATED PROCESSING TIMES
+======================================================================
+
+Based on observed performance:
+Phase 1 - Street Extraction:      ~    30.00 seconds
+Phase 2 - Sample Generation:      ~     5.00 seconds
+Phase 3 - POI Extraction:         ~    60.00 seconds
+Phase 4 - Distance Calculation:   ~    15.00 seconds
+Phase 5 - Label Aggregation:      ~     1.00 seconds
+Phase 6 - Map Generation:         ~    30.00 seconds
+----------------------------------------------------------------------
+ESTIMATED TOTAL TIME:             ~   141.00 seconds (~2.35 minutes)
+
+NOTE: Actual times may vary based on system performance and OSM data size.
+
+======================================================================
+2. DATA VOLUMES
+======================================================================
+
+Neighborhoods:                          10
+Street segments:                     4,575
+Street sample points:                4,416
+POIs - Supermarkets:                   154
+POIs - Public Transport:               564
+POIs - Green Spaces:                    38
+POIs - Total:                          756
+Distance records:                   13,248
+Neighborhood labels:                    10
+
+======================================================================
+3. SAMPLE POINTS PER NEIGHBORHOOD
+======================================================================
+
+  Korenmarkt/Veldstraat                       955 samples
+  Dampoort/Brugse Poort                       730 samples
+  Meir                                        603 samples
+  Oude Markt                                  591 samples
+  Gentbrugge/Ledeberg                         393 samples
+  City Center                                 327 samples
+  't Bist (Edegem area)                       254 samples
+  Mortsel                                     241 samples
+  Wijgmaal                                    180 samples
+  Sint-Martens-Latem                          142 samples
+----------------------------------------------------------------------
+  TOTAL                                     4,416 samples
+  AVERAGE                                   441.6 samples
+  MEDIAN                                    360.0 samples
+
+======================================================================
+4. OUTPUT FILE SIZES
+======================================================================
+
+  neighborhoods                           0.00 MB
+  streets                                 3.36 MB
+  street_samples                          0.54 MB
+  supermarkets                            0.01 MB
+  pt_stops                                0.05 MB
+  green_spaces                            0.00 MB
+  distances                               2.08 MB
+  labels_summary                          0.00 MB
+  html_map                               12.04 MB
+----------------------------------------------------------------------
+  TOTAL                                  18.09 MB
+
+======================================================================
+5. SCALABILITY PROJECTIONS
+======================================================================
+
+For   50 neighborhoods (scale factor: 5.0x):
+  - Estimated processing time:      11.8 minutes (0.20 hours)
+  - Estimated sample points:      22,080
+  - Estimated storage size:         90.5 MB (0.09 GB)
+
+For  100 neighborhoods (scale factor: 10.0x):
+  - Estimated processing time:      23.5 minutes (0.39 hours)
+  - Estimated sample points:      44,160
+  - Estimated storage size:        180.9 MB (0.18 GB)
+
+For  500 neighborhoods (scale factor: 50.0x):
+  - Estimated processing time:     117.5 minutes (1.96 hours)
+  - Estimated sample points:     220,800
+  - Estimated storage size:        904.5 MB (0.88 GB)
+
+For 1000 neighborhoods (scale factor: 100.0x):
+  - Estimated processing time:     235.0 minutes (3.92 hours)
+  - Estimated sample points:     441,600
+  - Estimated storage size:       1809.1 MB (1.77 GB)
+
+NOTE: These are linear projections. Actual performance may vary due to:
+  - Neighborhood density variations (urban vs rural)
+  - OSM data density differences
+  - System resource constraints
+  - Potential parallelization optimizations
+
+======================================================================
+5B. FLANDERS-SPECIFIC PROJECTIONS
+======================================================================
+
+Flanders context:
+  - 308 municipalities
+  - Estimated 2,000-5,000 distinct neighborhoods (depends on granularity)
+  - Mix of urban centers, suburbs, and rural areas
+
+Conservative (2,000 neighborhoods):
+  Single-threaded processing:
+    - Time:              7.8 hours (0.3 days)
+    - Sample points:     883,200
+    - Storage:           3.5 GB
+  With 8-core parallelization:
+    - Time:              1.0 hours
+
+Moderate (3,000 neighborhoods):
+  Single-threaded processing:
+    - Time:             11.8 hours (0.5 days)
+    - Sample points:   1,324,800
+    - Storage:           5.3 GB
+  With 8-core parallelization:
+    - Time:              1.5 hours
+
+Comprehensive (5,000 neighborhoods):
+  Single-threaded processing:
+    - Time:             19.6 hours (0.8 days)
+    - Sample points:   2,208,000
+    - Storage:           8.8 GB
+  With 8-core parallelization:
+    - Time:              2.4 hours
+
+Key insights for Flanders rollout:
+  - Single-threaded: 2,000 neighborhoods = ~7.8 hours
+  - With 8 cores:    2,000 neighborhoods = ~1.0 hour
+  - Full Flanders (5,000): ~2.4 hours with 8-core parallelization
+  - Storage requirements: 3-9 GB for full Flanders dataset
+
+Recommended approach:
+  1. Phase 1: Major cities + suburbs (~500 neighborhoods, ~15 min parallel)
+  2. Phase 2: Mid-size towns (~1,000 neighborhoods, ~30 min parallel)
+  3. Phase 3: Full coverage (~2,000-5,000 neighborhoods, ~1-2 hours)
+  4. Ongoing: Weekly incremental updates (~1 hour/week)
+
+======================================================================
+6. PERFORMANCE CHARACTERISTICS
+======================================================================
+
+Estimated throughput:
+  - Sample points generated:            31.3 samples/second
+  - Distance calculations:             883.2 calculations/second
+  - Neighborhoods processed:            4.26 neighborhoods/minute
+
+Key bottlenecks:
+  1. POI Extraction (~60s, ~43%)
+  2. Street Extraction (~30s, ~21%)
+  3. Map Generation (~30s, ~21%)
+
+======================================================================
+7. RECOMMENDATIONS
+======================================================================
+
+For production deployment:
+  - Consider batch processing neighborhoods in parallel (multi-core)
+  - Implement incremental updates for OSM data (avoid full reprocessing)
+  - Use spatial database (PostGIS) for efficient distance queries
+  - Pre-compute and cache SmartLabels for common queries
+  - Monitor memory usage for large-scale processing
+  - Consider map tile generation instead of single large HTML file
+
+======================================================================
+END OF REPORT
+======================================================================

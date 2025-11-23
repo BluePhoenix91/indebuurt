@@ -1,0 +1,36 @@
+---
+// NeighborhoodLayout - Layout specifically for neighborhood pages
+// Extends BaseLayout with neighborhood-specific structure
+
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+	title: string;
+	description: string;
+	canonical?: string;
+}
+
+const { title, description, canonical } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} canonical={canonical}>
+	<slot name="head" slot="head" />
+	<article class="neighborhood-page">
+		<slot />
+	</article>
+</BaseLayout>
+
+<style>
+	.neighborhood-page {
+		background: white;
+		border-radius: 8px;
+		padding: 2rem;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	}
+
+	@media (max-width: 768px) {
+		.neighborhood-page {
+			padding: 1rem;
+		}
+	}
+</style>

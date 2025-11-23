@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk:*)",
+      "Bash(python test_javascript.py:*)",
+      "Bash(python create_map_with_lines.py:*)",
+      "Bash(python measure_performance.py:*)",
+      "Bash(python:*)",
+      "Bash(npm create astro@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(time npm run build:*)",
+      "Bash(for i in {1..3})",
+      "Bash(do echo \"Build $i:\")",
+      "Bash(done)",
+      "Bash(find:*)",
+      "Bash(npm run preview:*)",
+      "Bash(cat:*)",
+      "Bash(tree:*)",
+      "Bash(dir /s \"d:\\Repos\\indebuurt\\indebuurt\")",
+      "Bash(powershell:*)",
+      "Bash(mv:*)",
+      "Bash(mv peaceful-photon/public peaceful-photon/src .)",
+      "Bash(rm:*)",
+      "Bash(npx astro add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

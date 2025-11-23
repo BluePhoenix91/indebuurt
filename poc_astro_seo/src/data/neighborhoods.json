@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "gentbrugge-ledeberg",
+    "name": "Gentbrugge/Ledeberg",
+    "city": "Gent",
+    "postal": "9042",
+    "type": "Industrial/Working Class",
+    "summary": "Former industrial area with improving connectivity and affordable housing.",
+    "description": "Gentbrugge and Ledeberg offer a mix of industrial heritage and evolving urban character. These neighborhoods are experiencing gradual transformation with new residential developments and improved public transport connections. The area maintains its working-class roots while attracting young families and professionals seeking more affordable housing options near the city center. While green spaces are limited, the neighborhoods compensate with good access to daily amenities and excellent public transport links to central Gent.",
+    "labels": {
+      "groceries": {
+        "label": "Groceries within walking distance",
+        "median_distance": 394,
+        "meets_threshold": true
+      },
+      "pt": {
+        "label": "Excellent PT access",
+        "median_distance": 190,
+        "meets_threshold": true
+      },
+      "parks": {
+        "label": "Limited green access",
+        "median_distance": 1804,
+        "meets_threshold": false
+      }
+    },
+    "stats": {
+      "sample_points": 393
+    },
+    "geo": {
+      "lat": 51.0414,
+      "lon": 3.7514
+    }
+  },
+  {
+    "slug": "korenmarkt-veldstraat",
+    "name": "Korenmarkt/Veldstraat",
+    "city": "Gent",
+    "postal": "9000",
+    "type": "Urban Center",
+    "summary": "Vibrant city center with excellent accessibility and urban amenities.",
+    "description": "The Korenmarkt and Veldstraat area represents the beating heart of Gent's historic city center. This densely populated urban zone offers unparalleled access to shopping, dining, culture, and public transport. Residents enjoy the ultimate urban lifestyle with everything within walking distance. The area is characterized by historic architecture, pedestrian-friendly streets, and a vibrant atmosphere. While living space may be more compact and green areas require a short walk, the convenience and energy of city center living is unmatched. Perfect for those who prioritize walkability and urban amenities over quiet residential streets.",
+    "labels": {
+      "groceries": {
+        "label": "Groceries within walking distance",
+        "median_distance": 196,
+        "meets_threshold": true
+      },
+      "pt": {
+        "label": "Excellent PT access",
+        "median_distance": 125,
+        "meets_threshold": true
+      },
+      "parks": {
+        "label": "Parks accessible",
+        "median_distance": 1031,
+        "meets_threshold": true
+      }
+    },
+    "stats": {
+      "sample_points": 287
+    },
+    "geo": {
+      "lat": 51.0543,
+      "lon": 3.7250
+    }
+  },
+  {
+    "slug": "dampoort-brugse-poort",
+    "name": "Dampoort/Brugse Poort",
+    "city": "Gent",
+    "postal": "9000",
+    "type": "Urban Residential",
+    "summary": "Vibrant multicultural neighborhood with affordable housing and excellent transport links.",
+    "description": "Dampoort and Brugse Poort form a diverse and evolving neighborhood just north of Gent's city center. Known for its multicultural character and affordability, this area attracts young professionals, students, and families. The neighborhood has excellent public transport connections, including the main train station, and offers a good selection of local shops and restaurants. While traditionally working-class, the area is experiencing urban renewal with new developments and improving amenities. Parks are within reasonable distance, and the city center is just a short bike ride away.",
+    "labels": {
+      "groceries": {
+        "label": "Groceries within walking distance",
+        "median_distance": 285,
+        "meets_threshold": true
+      },
+      "pt": {
+        "label": "Excellent PT access",
+        "median_distance": 150,
+        "meets_threshold": true
+      },
+      "parks": {
+        "label": "Parks accessible",
+        "median_distance": 950,
+        "meets_threshold": true
+      }
+    },
+    "stats": {
+      "sample_points": 412
+    },
+    "geo": {
+      "lat": 51.0567,
+      "lon": 3.7398
+    }
+  }
+]

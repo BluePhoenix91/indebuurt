@@ -1,0 +1,78 @@
+---
+// LabelCard component - Reusable card for displaying SmartLabel data
+
+interface Props {
+	category: string;
+	label: string;
+	medianDistance: number;
+	meetsThreshold: boolean;
+}
+
+const { category, label, medianDistance, meetsThreshold } = Astro.props;
+---
+
+<div class="label-card">
+	<div class="label-icon" data-status={meetsThreshold ? "good" : "limited"}>
+		{meetsThreshold ? "✓" : "×"}
+	</div>
+	<h3>{category}</h3>
+	<p class="label-text">{label}</p>
+	<p class="distance">{medianDistance} m</p>
+</div>
+
+<style>
+	.label-card {
+		background: #f8f9fa;
+		border-radius: 8px;
+		padding: 1.5rem;
+		text-align: center;
+		border: 2px solid #e0e0e0;
+		transition: transform 0.2s, box-shadow 0.2s;
+	}
+
+	.label-card:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	}
+
+	.label-icon {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto 1rem;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+
+	.label-icon[data-status="good"] {
+		background: #27ae60;
+		color: white;
+	}
+
+	.label-icon[data-status="limited"] {
+		background: #e74c3c;
+		color: white;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+		margin: 0.5rem 0;
+		color: #2c3e50;
+	}
+
+	.label-text {
+		color: #555;
+		font-size: 1rem;
+		margin: 0.5rem 0;
+	}
+
+	.distance {
+		font-size: 1.5rem;
+		font-weight: bold;
+		color: #3498db;
+		margin: 0;
+	}
+</style>

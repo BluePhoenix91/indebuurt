@@ -1,0 +1,102 @@
+======================================================================
+STREET SAMPLING POC - LABEL VALIDATION REPORT
+======================================================================
+Generated: 2025-11-11 12:40:56
+
+OVERALL ACCURACY
+----------------------------------------------------------------------
+Neighborhoods tested: 10
+Perfect matches (3/3): 4 (40.0%)
+Overall accuracy: 66.7%
+
+PER-CATEGORY ACCURACY
+----------------------------------------------------------------------
+Groceries: 7/10 (70.0%)
+PT:        7/10 (70.0%)
+Parks:     6/10 (60.0%)
+
+DETAILED COMPARISON
+----------------------------------------------------------------------
+
+Korenmarkt/Veldstraat:
+  Match rate: 100% (3/3)
+  Groceries: Groceries nearby -> Groceries within walking distance [196m] MATCH
+  PT:        Excellent PT access -> Excellent PT access [125m] MATCH
+  Parks:     Limited green access -> Limited green access [1031m] MATCH
+
+Meir:
+  Match rate: 67% (2/3)
+  Groceries: Groceries nearby -> Groceries within walking distance [194m] MATCH
+  PT:        Excellent PT access -> Excellent PT access [132m] MATCH
+  Parks:     Limited green access -> Park within walking distance [609m] MISMATCH
+
+Sint-Martens-Latem:
+  Match rate: 0% (0/3)
+  Groceries: Limited grocery access -> Groceries within walking distance [589m] MISMATCH
+  PT:        Limited PT access -> Excellent PT access [303m] MISMATCH
+  Parks:     Green space nearby -> Limited green access [6028m] MISMATCH
+
+Mortsel:
+  Match rate: 67% (2/3)
+  Groceries: Groceries within reach -> Limited grocery access [1214m] MISMATCH
+  PT:        Good PT access -> Excellent PT access [343m] MATCH
+  Parks:     Moderate green access -> Limited green access [2175m] MATCH
+
+Dampoort/Brugse Poort:
+  Match rate: 100% (3/3)
+  Groceries: Groceries nearby -> Groceries within walking distance [264m] MATCH
+  PT:        Excellent PT access -> Excellent PT access [193m] MATCH
+  Parks:     Moderate green access -> Park within walking distance [975m] MATCH
+
+Wijgmaal:
+  Match rate: 100% (3/3)
+  Groceries: Groceries within reach -> Groceries within walking distance [692m] MATCH
+  PT:        Moderate PT access -> Limited PT access [409m] MATCH
+  Parks:     Green space nearby -> Park within walking distance [510m] MATCH
+
+Oude Markt:
+  Match rate: 33% (1/3)
+  Groceries: Groceries nearby -> Groceries within walking distance [218m] MATCH
+  PT:        Excellent PT access -> Limited PT access [639m] MISMATCH
+  Parks:     Limited green access -> Park within walking distance [480m] MISMATCH
+
+'t Bist (Edegem area):
+  Match rate: 33% (1/3)
+  Groceries: Limited grocery access -> Groceries within walking distance [520m] MISMATCH
+  PT:        Limited PT access -> Excellent PT access [284m] MISMATCH
+  Parks:     Green space nearby -> Park within walking distance [748m] MATCH
+
+City Center:
+  Match rate: 67% (2/3)
+  Groceries: Groceries nearby -> Groceries within walking distance [347m] MATCH
+  PT:        Good PT access -> Excellent PT access [207m] MATCH
+  Parks:     Park nearby -> Limited green access [24142m] MISMATCH
+
+Gentbrugge/Ledeberg:
+  Match rate: 100% (3/3)
+  Groceries: Groceries within reach -> Groceries within walking distance [394m] MATCH
+  PT:        Good PT access -> Excellent PT access [190m] MATCH
+  Parks:     Moderate green access -> Limited green access [1804m] MATCH
+
+======================================================================
+KEY FINDINGS
+======================================================================
+
+1. PT Threshold Issue:
+   - 400m threshold appears too lenient
+   - Even rural/suburban areas get 'Excellent PT access'
+   - Recommendation: Reduce to 250-300m for 'Excellent'
+
+2. Green Space Data Quality:
+   - OSM data includes facade gardens, not just public parks
+   - Leads to mismatches in expected park access
+   - Recommendation: Filter to leisure=park only
+
+3. Label Granularity:
+   - POC uses simplified 2-tier system (within/limited)
+   - Expected profiles assume 3-4 tiers
+   - This causes some 'mismatches' that are actually reasonable
+
+======================================================================
+END OF REPORT
+======================================================================

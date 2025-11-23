@@ -1,0 +1,16 @@
+{
+  "name": "indebuurt-web",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "indebuurt.be - Neighborhood discovery platform for Belgium",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.16.0"
+  }
+}

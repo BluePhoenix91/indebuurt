@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_061bcbedbe91138704a63f44a68240f5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_061bcbedbe91138704a63f44a68240f5" ></div>
+        
+
+<script>
+console.log("=== JavaScript Test Starting ===");
+
+setTimeout(function() {
+    console.log("Map object:", typeof map);
+    console.log("Window.map:", typeof window.map);
+
+    // Try to find the map in different ways
+    var foundMap = null;
+
+    // Method 1: Check if map is a global
+    if (typeof map !== 'undefined') {
+        foundMap = map;
+        console.log("Found map as global variable");
+    }
+
+    // Method 2: Check window.map
+    if (!foundMap && typeof window.map !== 'undefined') {
+        foundMap = window.map;
+        console.log("Found map as window.map");
+    }
+
+    // Method 3: Look for Leaflet map instances
+    if (!foundMap) {
+        var mapDivs = document.querySelectorAll('.folium-map');
+        console.log("Found map divs:", mapDivs.length);
+        if (mapDivs.length > 0) {
+            var mapId = mapDivs[0].id;
+            console.log("Map div ID:", mapId);
+
+            // Try to get map from Leaflet
+            if (typeof window[mapId] !== 'undefined') {
+                foundMap = window[mapId];
+                console.log("Found map by ID:", mapId);
+            }
+        }
+    }
+
+    if (foundMap) {
+        console.log("✓ Successfully found map object!");
+        console.log("Map center:", foundMap.getCenter());
+
+        // Test: Draw a line
+        var testLine = L.polyline(
+            [[50.85, 4.35], [50.86, 4.36]],
+            {color: 'red', weight: 3}
+        ).addTo(foundMap);
+
+        console.log("✓ Test line drawn");
+
+        // Test: Add click handler
+        foundMap.on('click', function(e) {
+            console.log("Map clicked at:", e.latlng);
+            alert("Clicked at: " + e.latlng.lat + ", " + e.latlng.lng);
+        });
+
+        console.log("✓ Click handler added");
+    } else {
+        console.log("✗ Could not find map object");
+    }
+
+    console.log("=== JavaScript Test Complete ===");
+}, 2000);
+</script>
+</body>
+<script>
+    
+    
+            var map_061bcbedbe91138704a63f44a68240f5 = L.map(
+                "map_061bcbedbe91138704a63f44a68240f5",
+                {
+                    center: [50.85, 4.35],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3c696621572510f3be788ca66d917a85 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3c696621572510f3be788ca66d917a85.addTo(map_061bcbedbe91138704a63f44a68240f5);
+        
+    
+            var marker_8f0c6625818d2f68c31929c2c5fe1ff9 = L.marker(
+                [50.85, 4.35],
+                {
+}
+            ).addTo(map_061bcbedbe91138704a63f44a68240f5);
+        
+    
+        var popup_5e0492fde930ad92fb5d98bfdfba7792 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69b82c7a7a37af9f37b49dfae714bad9 = $(`<div id="html_69b82c7a7a37af9f37b49dfae714bad9" style="width: 100.0%; height: 100.0%;">Test point</div>`)[0];
+                popup_5e0492fde930ad92fb5d98bfdfba7792.setContent(html_69b82c7a7a37af9f37b49dfae714bad9);
+            
+        
+
+        marker_8f0c6625818d2f68c31929c2c5fe1ff9.bindPopup(popup_5e0492fde930ad92fb5d98bfdfba7792)
+        ;
+
+        
+    
+    
+            marker_8f0c6625818d2f68c31929c2c5fe1ff9.bindTooltip(
+                `<div>
+                     Click me
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

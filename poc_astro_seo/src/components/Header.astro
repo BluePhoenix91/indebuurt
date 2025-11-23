@@ -1,0 +1,53 @@
+---
+// Header component - Site navigation
+---
+
+<header>
+	<div class="container">
+		<div class="logo">
+			<a href="/">indebuurt.be</a>
+		</div>
+		<nav>
+			<a href="/">Home</a>
+			<a href="/9000-gent/huizen-te-koop">Huizen te koop</a>
+		</nav>
+	</div>
+</header>
+
+<style>
+	header {
+		background: #2c3e50;
+		color: white;
+		padding: 1rem 0;
+		border-bottom: 3px solid #3498db;
+	}
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 1rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo {
+		margin: 0;
+		font-size: 1.5rem;
+	}
+	.logo a {
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	nav {
+		display: flex;
+		gap: 1.5rem;
+	}
+	nav a {
+		color: white;
+		text-decoration: none;
+		transition: color 0.2s;
+	}
+	nav a:hover {
+		color: #3498db;
+	}
+</style>

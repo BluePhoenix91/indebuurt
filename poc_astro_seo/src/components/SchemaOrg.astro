@@ -1,0 +1,45 @@
+---
+// SchemaOrg component - Generates JSON-LD structured data for SEO
+
+interface Props {
+	type: 'Place';
+	name: string;
+	description: string;
+	addressLocality: string;
+	addressCountry?: string;
+	latitude: number;
+	longitude: number;
+	url?: string;
+}
+
+const {
+	type,
+	name,
+	description,
+	addressLocality,
+	addressCountry = 'BE',
+	latitude,
+	longitude,
+	url
+} = Astro.props;
+
+const schema = {
+	'@context': 'https://schema.org',
+	'@type': type,
+	name: name,
+	description: description,
+	address: {
+		'@type': 'PostalAddress',
+		addressLocality: addressLocality,
+		addressCountry: addressCountry
+	},
+	geo: {
+		'@type': 'GeoCoordinates',
+		latitude: latitude,
+		longitude: longitude
+	},
+	...(url && { url: url })
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema, null, 2)} />

@@ -1,0 +1,100 @@
+---
+// Listings page - Shows houses for sale in Gent
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import listings from '../../data/listings.json';
+
+// For this POC, show all listings (in production, you'd filter by city/postal)
+const title = 'Huizen te koop in Gent | indebuurt.be';
+const description = 'Ontdek beschikbare woningen te koop in Gent. Bekijk huizen in verschillende buurten met volledige buurtinformatie.';
+const canonical = '/9000-gent/huizen-te-koop';
+---
+
+<BaseLayout title={title} description={description} canonical={canonical}>
+	<div class="listings-header">
+		<h1>Huizen te koop in Gent</h1>
+		<p class="subtitle">
+			{listings.length} woningen beschikbaar · Klik op een buurt om meer te weten te komen
+		</p>
+	</div>
+
+	<div class="listings-grid">
+		{listings.map((listing) => (
+			<ListingCard
+				title={listing.title}
+				price={listing.price}
+				neighborhoodName={listing.neighborhood_name}
+				neighborhoodUrl={`/${listing.postal}-${listing.city.toLowerCase()}/${listing.neighborhood_slug}`}
+				listingUrl={listing.url}
+			/>
+		))}
+	</div>
+
+	<div class="info-box">
+		<h2>Meer weten over een buurt?</h2>
+		<p>
+			Klik op een buurtnaam om gedetailleerde informatie te bekijken over toegang tot winkels,
+			openbaar vervoer, parken en meer. Zo vind je de ideale buurt die bij jou past!
+		</p>
+	</div>
+</BaseLayout>
+
+<style>
+	.listings-header {
+		text-align: center;
+		margin-bottom: 3rem;
+		padding-bottom: 2rem;
+		border-bottom: 2px solid #e0e0e0;
+	}
+
+	.listings-header h1 {
+		margin-bottom: 1rem;
+	}
+
+	.subtitle {
+		font-size: 1.125rem;
+		color: #7f8c8d;
+		margin: 0;
+	}
+
+	.listings-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 2rem;
+		margin-bottom: 3rem;
+	}
+
+	.info-box {
+		background: #ecf0f1;
+		border-radius: 8px;
+		padding: 2rem;
+		text-align: center;
+		margin-top: 4rem;
+	}
+
+	.info-box h2 {
+		margin-top: 0;
+		margin-bottom: 1rem;
+		color: #2c3e50;
+	}
+
+	.info-box p {
+		font-size: 1.125rem;
+		color: #34495e;
+		margin: 0;
+		max-width: 800px;
+		margin: 0 auto;
+		line-height: 1.6;
+	}
+
+	@media (max-width: 768px) {
+		.listings-grid {
+			grid-template-columns: 1fr;
+			gap: 1.5rem;
+		}
+
+		.listings-header h1 {
+			font-size: 2rem;
+		}
+	}
+</style>

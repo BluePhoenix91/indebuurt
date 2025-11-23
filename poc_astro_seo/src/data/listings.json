@@ -1,0 +1,52 @@
+[
+  {
+    "id": "listing-001",
+    "title": "Ruime gezinswoning met tuin en garage",
+    "price": 325000,
+    "neighborhood_slug": "gentbrugge-ledeberg",
+    "neighborhood_name": "Gentbrugge/Ledeberg",
+    "city": "Gent",
+    "postal": "9042",
+    "url": "https://example.com/listing/001"
+  },
+  {
+    "id": "listing-002",
+    "title": "Modern appartement in hartje centrum",
+    "price": 285000,
+    "neighborhood_slug": "korenmarkt-veldstraat",
+    "neighborhood_name": "Korenmarkt/Veldstraat",
+    "city": "Gent",
+    "postal": "9000",
+    "url": "https://example.com/listing/002"
+  },
+  {
+    "id": "listing-003",
+    "title": "Karaktervolle stadswoning met 3 slaapkamers",
+    "price": 395000,
+    "neighborhood_slug": "korenmarkt-veldstraat",
+    "neighborhood_name": "Korenmarkt/Veldstraat",
+    "city": "Gent",
+    "postal": "9000",
+    "url": "https://example.com/listing/003"
+  },
+  {
+    "id": "listing-004",
+    "title": "Instapklare woning met zonnig terras",
+    "price": 298000,
+    "neighborhood_slug": "gentbrugge-ledeberg",
+    "neighborhood_name": "Gentbrugge/Ledeberg",
+    "city": "Gent",
+    "postal": "9042",
+    "url": "https://example.com/listing/004"
+  },
+  {
+    "id": "listing-005",
+    "title": "Luxe penthouse met panoramisch zicht",
+    "price": 475000,
+    "neighborhood_slug": "korenmarkt-veldstraat",
+    "neighborhood_name": "Korenmarkt/Veldstraat",
+    "city": "Gent",
+    "postal": "9000",
+    "url": "https://example.com/listing/005"
+  }
+]

@@ -1,0 +1,217 @@
+---
+// Dynamic route for neighborhood pages
+// This ONE file generates MULTIPLE pages based on the neighborhoods.json data
+
+import NeighborhoodLayout from '../../layouts/NeighborhoodLayout.astro';
+import LabelCard from '../../components/LabelCard.astro';
+import SchemaOrg from '../../components/SchemaOrg.astro';
+import neighborhoods from '../../data/neighborhoods.json';
+
+// This function tells Astro which pages to generate
+// It runs at BUILD TIME (not when users visit the site)
+export async function getStaticPaths() {
+	return neighborhoods.map((neighborhood) => {
+		return {
+			params: {
+				postal: neighborhood.postal,
+				city: neighborhood.city.toLowerCase(),
+				slug: neighborhood.slug
+			},
+			props: {
+				neighborhood
+			}
+		};
+	});
+}
+
+// Get the neighborhood data for this specific page
+const { neighborhood } = Astro.props;
+
+// Build the page title and description for SEO
+const title = `Wonen in ${neighborhood.name}, ${neighborhood.city} (${neighborhood.postal}) | indebuurt.be`;
+const description = `Ontdek ${neighborhood.name}: ${neighborhood.labels.groceries.label}, ${neighborhood.labels.pt.label}, ${neighborhood.labels.parks.label}. ${neighborhood.summary}`;
+const canonical = `/${neighborhood.postal}-${neighborhood.city.toLowerCase()}/${neighborhood.slug}`;
+---
+
+<NeighborhoodLayout title={title} description={description} canonical={canonical}>
+	<SchemaOrg
+		slot="head"
+		type="Place"
+		name={neighborhood.name}
+		description={neighborhood.description}
+		addressLocality={neighborhood.city}
+		latitude={neighborhood.geo.lat}
+		longitude={neighborhood.geo.lon}
+		url={`https://indebuurt.be${canonical}`}
+	/>
+
+	<!-- Hero Section -->
+	<header class="hero">
+		<p class="neighborhood-type">{neighborhood.type}</p>
+		<h1>{neighborhood.name}</h1>
+		<p class="location">{neighborhood.city} · Postcode {neighborhood.postal}</p>
+		<p class="summary">{neighborhood.summary}</p>
+	</header>
+
+	<!-- Labels Section -->
+	<section class="labels-section">
+		<h2>SmartLabels</h2>
+		<div class="labels-grid">
+			<LabelCard
+				category="Groceries"
+				label={neighborhood.labels.groceries.label}
+				medianDistance={neighborhood.labels.groceries.median_distance}
+				meetsThreshold={neighborhood.labels.groceries.meets_threshold}
+			/>
+			<LabelCard
+				category="Public Transport"
+				label={neighborhood.labels.pt.label}
+				medianDistance={neighborhood.labels.pt.median_distance}
+				meetsThreshold={neighborhood.labels.pt.meets_threshold}
+			/>
+			<LabelCard
+				category="Parks"
+				label={neighborhood.labels.parks.label}
+				medianDistance={neighborhood.labels.parks.median_distance}
+				meetsThreshold={neighborhood.labels.parks.meets_threshold}
+			/>
+		</div>
+	</section>
+
+	<!-- Description Section -->
+	<section class="description-section">
+		<h2>Over deze buurt</h2>
+		<p>{neighborhood.description}</p>
+	</section>
+
+	<!-- Stats Section -->
+	<section class="stats-section">
+		<h2>Data & Methodologie</h2>
+		<div class="stats-grid">
+			<div class="stat-card">
+				<p class="stat-label">Sample punten</p>
+				<p class="stat-value">{neighborhood.stats.sample_points}</p>
+			</div>
+			<div class="stat-card">
+				<p class="stat-label">Locatie</p>
+				<p class="stat-value">{neighborhood.geo.lat.toFixed(4)}, {neighborhood.geo.lon.toFixed(4)}</p>
+			</div>
+		</div>
+	</section>
+</NeighborhoodLayout>
+
+<style>
+	/* Hero Section */
+	.hero {
+		text-align: center;
+		padding: 2rem 0 3rem;
+		border-bottom: 2px solid #e0e0e0;
+	}
+
+	.neighborhood-type {
+		color: #7f8c8d;
+		text-transform: uppercase;
+		font-size: 0.875rem;
+		letter-spacing: 1px;
+		margin-bottom: 0.5rem;
+	}
+
+	.hero h1 {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+		font-size: 3rem;
+		color: #2c3e50;
+	}
+
+	.location {
+		font-size: 1.25rem;
+		color: #7f8c8d;
+		margin-bottom: 1.5rem;
+	}
+
+	.summary {
+		font-size: 1.25rem;
+		color: #34495e;
+		max-width: 800px;
+		margin: 0 auto;
+		line-height: 1.6;
+	}
+
+	/* Labels Section */
+	.labels-section {
+		padding: 3rem 0;
+		border-bottom: 2px solid #e0e0e0;
+	}
+
+	.labels-section h2 {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.labels-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 1.5rem;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	/* Description Section */
+	.description-section {
+		padding: 3rem 0;
+		border-bottom: 2px solid #e0e0e0;
+	}
+
+	.description-section h2 {
+		margin-bottom: 1.5rem;
+	}
+
+	.description-section p {
+		font-size: 1.125rem;
+		line-height: 1.8;
+		color: #34495e;
+	}
+
+	/* Stats Section */
+	.stats-section {
+		padding: 3rem 0;
+	}
+
+	.stats-section h2 {
+		margin-bottom: 1.5rem;
+	}
+
+	.stats-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1.5rem;
+	}
+
+	.stat-card {
+		background: #ecf0f1;
+		border-radius: 8px;
+		padding: 1.5rem;
+		text-align: center;
+	}
+
+	.stat-label {
+		font-size: 0.875rem;
+		color: #7f8c8d;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin-bottom: 0.5rem;
+	}
+
+	.stat-value {
+		font-size: 1.5rem;
+		font-weight: bold;
+		color: #2c3e50;
+		margin: 0;
+	}
+
+	@media (max-width: 768px) {
+		.hero h1 {
+			font-size: 2rem;
+		}
+	}
+</style>
