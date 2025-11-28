@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://buurtkompas.be/sitemap-index.xml

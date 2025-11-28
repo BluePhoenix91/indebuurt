@@ -33,9 +33,9 @@
 - [x] Measurement ID read from an environment variable (not hardcoded)
 - [x] GA4 code only included in production builds
 - [x] At least one custom event implemented (e.g. CTA button click)
-- [ ] GA4 DebugView or Realtime shows:
-    - [ ] Pageview events for the neighbourhood page
-    - [ ] Custom CTA event when the button is clicked
+- [x] GA4 DebugView or Realtime shows:
+    - [x] Pageview events for the neighbourhood page
+    - [x] Custom CTA event when the button is clicked
 
 **Testing Note:** To verify GA4 events in DebugView:
 1. Build and deploy to production (or use `npm run preview` with production build)
@@ -48,12 +48,12 @@
 > As a search engine, I want crawl and metadata signals, so I can discover and index the neighbourhood page correctly.
 
 **Acceptance Criteria:**
-- [ ] `robots.txt` created (in `public/` or generated) that allows crawling
-- [ ] `sitemap.xml` generated and includes the neighbourhood page URL
-- [ ] `<link rel="canonical">` present on the neighbourhood page
-- [ ] Basic Open Graph tags added:
-    - [ ] `og:title`
-    - [ ] `og:description`
-    - [ ] `og:url`
-    - [ ] `og:image` (placeholder)
-- [ ] `<html lang="nl">` confirmed in the final output HTML
+- [x] `robots.txt` created (in `public/` or generated) that allows crawling
+- [x] `sitemap.xml` generated and includes the neighbourhood page URL
+- [x] `<link rel="canonical">` present on the neighbourhood page
+- [x] Basic Open Graph tags added:
+    - [x] `og:title`
+    - [x] `og:description`
+    - [x] `og:url`
+    - [x] `og:image` (placeholder)
+- [x] `<html lang="nl">` confirmed in the final output HTML
