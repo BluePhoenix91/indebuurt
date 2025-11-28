@@ -1,0 +1,50 @@
+---
+interface Props {
+  href: string;
+  text: string;
+  eventName?: string;
+}
+
+const { href, text, eventName = 'cta_click' } = Astro.props;
+---
+
+<a href={href} class="cta-button" data-event={eventName}>
+  {text}
+</a>
+
+<script>
+  // Track CTA button clicks with GA4
+  document.querySelectorAll('.cta-button').forEach((button) => {
+    button.addEventListener('click', (e) => {
+      const target = e.currentTarget as HTMLElement;
+      const eventName = target.dataset.event || 'cta_click';
+      const href = target.getAttribute('href') || '';
+
+      // Send event to GA4 if gtag is available
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', eventName, {
+          'event_category': 'engagement',
+          'event_label': href,
+          'value': 1
+        });
+      }
+    });
+  });
+</script>
+
+<style>
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+
+  .cta-button:hover {
+    background-color: #0052a3;
+  }
+</style>

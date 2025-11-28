@@ -24,7 +24,8 @@
       "Bash(mv:*)",
       "Bash(mv peaceful-photon/public peaceful-photon/src .)",
       "Bash(rm:*)",
-      "Bash(npx astro add:*)"
+      "Bash(npx astro add:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []

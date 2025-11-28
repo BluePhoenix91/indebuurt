@@ -1,16 +1,19 @@
 ---
-
+import NeighborhoodLayout from '../layouts/NeighborhoodLayout.astro';
+import CTAButton from '../components/CTAButton.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<NeighborhoodLayout
+  title="buurtkompas.be - Vind jouw perfecte buurt"
+  description="Ontdek hondvriendelijke buurten in België. Vind de perfecte plek voor jou en je hond."
+  canonical="https://buurtkompas.be/"
+>
+  <h1>Welkom bij buurtkompas.be</h1>
+  <p>Test pagina voor de NeighborhoodLayout</p>
+
+  <CTAButton
+    href="#"
+    text="Test CTA Button (GA4 Event)"
+    eventName="test_cta_click"
+  />
+</NeighborhoodLayout>
