@@ -10,10 +10,10 @@ header {
   z-index: 100;
 }
 
-nav {
+header nav {
   max-width: $container-max-width;
   margin: 0 auto;
-  padding: $spacing-sm 0;
+  padding: $spacing-sm $spacing-md;
 
   a {
     font-size: $size-body;
@@ -27,6 +27,6 @@ nav {
   }
 
   @media (min-width: $breakpoint-mobile) {
-    padding: $spacing-sm 0;
+    padding: $spacing-sm $spacing-lg;
   }
 }

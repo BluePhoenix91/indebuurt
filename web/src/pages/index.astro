@@ -12,7 +12,7 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
   canonical="https://buurtkompas.be/"
 >
   <section class="hero">
-    <div class="hero-wrapper pt-xxl">
+    <div class="hero-wrapper">
       <div class="hero-content">
         <h1 class="text-h1">Wonen in {neighborhood.name}</h1>
         <p class="text-body bold mt-sm">{neighborhood.subtitle}</p>
@@ -36,21 +36,6 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
             Veel groen
           </Badge>
         </div>
-
-        <nav class="hero-tabs mt-xl">
-          <a href="#overzicht" class="tab tab-active" aria-current="page">
-            <i class="fa-regular fa-list-ul mr-sm"></i>
-            Overzicht
-          </a>
-          <a href="#huizen" class="tab">
-            <i class="fa-regular fa-house mr-sm"></i>
-            Huizen
-          </a>
-          <a href="#demografie" class="tab">
-            <i class="fa-regular fa-users mr-sm"></i>
-            Demografie
-          </a>
-        </nav>
       </div>
 
       <div class="hero-map">
@@ -61,6 +46,21 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
           height="400"
         />
       </div>
+
+      <nav class="hero-tabs">
+        <a href="#overzicht" class="tab tab-active" aria-current="page">
+          <i class="fa-regular fa-list-ul mr-sm"></i>
+          Overzicht
+        </a>
+        <a href="#huizen" class="tab">
+          <i class="fa-regular fa-house mr-sm"></i>
+          Huizen
+        </a>
+        <a href="#demografie" class="tab">
+          <i class="fa-regular fa-users mr-sm"></i>
+          Demografie
+        </a>
+      </nav>
     </div>
   </section>
 
@@ -69,7 +69,6 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
       <nav class="sidebar-nav">
         <a href="#inleiding" class="sidebar-link active"> Inleiding </a>
         <a href="#voorzieningen" class="sidebar-link"> Voorzieningen </a>
-        <a href="#veilig" class="sidebar-link"> Veilig én </a>
         <a href="#statistieken" class="sidebar-link"> Statistieken </a>
       </nav>
     </aside>
