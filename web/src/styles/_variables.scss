@@ -1,0 +1,147 @@
+//
+// Base Settings
+// All sizing and spacing derives from these base units
+//
+
+$base-unit: 1rem; // 16px - Foundation for all spacing
+$base-font-size: 1rem; // 16px - Foundation for all typography
+$base-line-height: 1.5; // Default line height
+
+//
+// Color Palette
+//
+
+$background-white: #fafafa;
+$background-light: #faf4e8;
+$primary: #ff7a70;
+$black: #2a2a2a;
+$accent-2: #5183b5;
+$calm-grey-600: #898989;
+$secondary: #6a8f4e;
+$very-light-grey: #e7ebe9;
+$accent-1: #ffd66b;
+
+//
+// Spacing Scale
+// Based on $base-unit (1rem = 16px)
+//
+
+$spacing-xxs: $base-unit * 0.25; // 0.25rem = 4px
+$spacing-xs: $base-unit * 0.5; // 0.5rem = 8px
+$spacing-sm: $base-unit; // 1rem = 16px
+$spacing-md: $base-unit * 1.5; // 1.5rem = 24px
+$spacing-lg: $base-unit * 2; // 2rem = 32px
+$spacing-xl: $base-unit * 3; // 3rem = 48px
+$spacing-xxl: $base-unit * 4; // 4rem = 64px
+
+// Fine-tuning sizes (for design-specific needs)
+$spacing-xxxs: $base-unit * 0.375; // 0.375rem = 6px
+$spacing-3xl: $base-unit * 0.75; // 0.75rem = 12px
+
+//
+// Typography Scale
+// Based on $base-font-size (1rem = 16px)
+//
+
+// Font sizes
+$font-xs: $base-font-size * 0.9375; // 0.9375rem = 15px
+$font-sm: $base-font-size; // 1rem = 16px
+$font-md: $base-font-size * 1.0625; // 1.0625rem = 17px
+$font-lg: $base-font-size * 1.125; // 1.125rem = 18px
+$font-xl: $base-font-size * 1.5; // 1.5rem = 24px
+$font-2xl: $base-font-size * 2; // 2rem = 32px
+$font-3xl: $base-font-size * 2.625; // 2.625rem = 42px
+
+// Semantic heading sizes (aliases)
+$size-h1: $font-3xl;
+$size-h2: $font-2xl;
+$size-h3: $font-xl;
+$size-h4: $font-lg;
+$size-h5: $font-sm;
+$size-body: $font-md;
+$size-body-small: $font-xs;
+
+// Font weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+//
+// Border Radius
+// Based on $base-unit
+//
+
+$radius-sm: $base-unit * 0.5; // 0.5rem = 8px
+$radius-md: $base-unit * 0.75; // 0.75rem = 12px
+$radius-lg: $base-unit * 1.25; // 1.25rem = 20px
+
+// Semantic aliases
+$radius-button: $radius-sm;
+$radius-card: $radius-lg;
+$radius-badge: $radius-lg;
+
+//
+// Layout
+// Based on $base-unit
+//
+
+$container-max-width: $base-unit * 75; // 75rem = 1200px
+$sidebar-width: $base-unit * 12.5; // 12.5rem = 200px
+
+// Responsive margins/paddings
+$margin-sm: $spacing-sm;
+$margin-md: $spacing-lg;
+
+//
+// Breakpoints
+// Using rem for consistency with user font preferences
+//
+
+$breakpoint-mobile: $base-unit * 48; // 48rem = 768px
+$breakpoint-tablet: $base-unit * 64; // 64rem = 1024px
+$breakpoint-desktop: $base-unit * 80; // 80rem = 1280px
+
+//
+// Icon Sizes
+// Based on $base-unit
+//
+
+$icon-sm: $base-unit; // 1rem = 16px
+$icon-md: $base-unit * 1.5; // 1.5rem = 24px
+$icon-lg: $base-unit * 2; // 2rem = 32px
+
+//
+// Border Widths
+// Pixels are appropriate for borders (don't scale with font size)
+//
+
+$border-thin: 1px;
+$border-regular: 2px;
+$border-thick: 3px;
+
+//
+// Transitions
+//
+
+$transition-fast: 0.15s;
+$transition-normal: 0.2s;
+$transition-slow: 0.3s;
+$transition-function: ease;
+
+// Combined transition values (time + function)
+$transition-fast-ease: $transition-fast $transition-function;
+$transition-normal-ease: $transition-normal $transition-function;
+$transition-slow-ease: $transition-slow $transition-function;
+
+//
+// Shadows
+// Based on $base-unit for vertical offset
+//
+
+$shadow-sm: 0 ($base-unit * 0.125) ($base-unit * 0.25) rgba(0, 0, 0, 0.075); // 0 2px 4px
+$shadow-md: 0 ($base-unit * 0.125) ($base-unit * 0.75) rgba(0, 0, 0, 0.08); // 0 2px 12px
+$shadow-lg: 0 ($base-unit * 0.25) $base-unit rgba(0, 0, 0, 0.12); // 0 4px 16px
+$shadow-top: 0 -2px 4px 0 rgba(0, 0, 0, 0.1); // Upward shadow for tabs
+$shadow-inner-top: inset 0 -2px 4px 0 rgba(0, 0, 0, 0.1); // Inner shadow from bottom

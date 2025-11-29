@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",
+    "@awesome.me/kit-ee3e3d9cbc": "^1.0.3",
     "astro": "^5.16.0"
+  },
+  "devDependencies": {
+    "sass": "^1.94.2"
   }
 }

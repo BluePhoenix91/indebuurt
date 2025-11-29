@@ -1,0 +1,41 @@
+@use '../variables' as *;
+
+/* Text Color Utilities */
+
+.text-black {
+  color: $black;
+}
+
+.text-primary {
+  color: $primary;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-grey {
+  color: $calm-grey-600;
+}
+
+/* Background Color Utilities */
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-light {
+  background-color: $background-light;
+}
+
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}

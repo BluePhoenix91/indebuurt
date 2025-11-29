@@ -1,0 +1,38 @@
+@use "../variables" as *;
+
+/* Badge Component */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: $spacing-xs;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $radius-badge;
+  font-size: $size-body-small;
+  color: $black;
+
+  i {
+    flex-shrink: 0;
+    width: $icon-sm;
+    font-size: $icon-sm;
+  }
+}
+
+.badge-outline {
+  border: $border-thin solid $calm-grey-600;
+}
+
+.badge-primary {
+  background-color: $primary;
+  color: white;
+}
+
+.badge-secondary {
+  background-color: $secondary;
+  color: white;
+}
+
+.badge-accent {
+  background-color: $accent-1;
+  color: $black;
+}

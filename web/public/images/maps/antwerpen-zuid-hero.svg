@@ -1,0 +1,42 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#E8F3F8"/>
+
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C5D9E2" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="url(#grid)"/>
+
+  <!-- Map-like elements -->
+  <path d="M 100 50 Q 150 100, 200 80 T 300 120 L 350 100 L 400 150 L 450 130"
+        stroke="#7FB3D5" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <path d="M 50 200 L 200 180 L 250 220 L 350 200 L 500 240 L 550 220"
+        stroke="#7FB3D5" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Streets -->
+  <line x1="150" y1="50" x2="150" y2="350" stroke="#D0D0D0" stroke-width="2"/>
+  <line x1="300" y1="50" x2="300" y2="350" stroke="#D0D0D0" stroke-width="2"/>
+  <line x1="450" y1="50" x2="450" y2="350" stroke="#D0D0D0" stroke-width="2"/>
+
+  <line x1="50" y1="150" x2="550" y2="150" stroke="#D0D0D0" stroke-width="2"/>
+  <line x1="50" y1="250" x2="550" y2="250" stroke="#D0D0D0" stroke-width="2"/>
+
+  <!-- Park areas -->
+  <rect x="200" y="250" width="80" height="80" fill="#B8DFC8" opacity="0.6" rx="4"/>
+  <rect x="400" y="100" width="100" height="70" fill="#B8DFC8" opacity="0.6" rx="4"/>
+
+  <!-- Location markers -->
+  <circle cx="225" cy="180" r="8" fill="#FF7A70"/>
+  <circle cx="225" cy="180" r="3" fill="white"/>
+
+  <circle cx="380" cy="290" r="8" fill="#FF7A70"/>
+  <circle cx="380" cy="290" r="3" fill="white"/>
+
+  <!-- Text label -->
+  <text x="300" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#898989">
+    Kaart van Antwerpen-Zuid (placeholder)
+  </text>
+</svg>

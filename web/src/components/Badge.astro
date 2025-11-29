@@ -1,0 +1,15 @@
+---
+interface Props {
+  variant?: 'default' | 'primary' | 'secondary' | 'accent' | 'outline';
+  icon?: string; // Font Awesome icon class (e.g., 'fa-solid fa-location-dot')
+}
+
+const { variant = 'default', icon } = Astro.props;
+
+const variantClass = variant === 'outline' ? 'badge-outline' : variant !== 'default' ? `badge-${variant}` : '';
+---
+
+<span class:list={['badge', variantClass]}>
+  {icon && <i class={icon}></i>}
+  <slot />
+</span>

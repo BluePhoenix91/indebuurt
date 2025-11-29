@@ -1,0 +1,101 @@
+@use "../variables" as *;
+
+/* Typography Utilities */
+
+.text-h1 {
+  font-size: $size-h1;
+  font-weight: $font-weight-bold;
+  line-height: 1.2;
+  color: $black;
+}
+
+.text-h2 {
+  font-size: $size-h2;
+  font-weight: $font-weight-bold;
+  line-height: 1.3;
+  color: $black;
+}
+
+.text-h3 {
+  font-size: $size-h3;
+  font-weight: $font-weight-semibold;
+  line-height: 1.4;
+  color: $black;
+}
+
+.text-h4 {
+  font-size: $size-h4;
+  font-weight: $font-weight-semibold;
+  line-height: 1.5;
+  color: $black;
+}
+
+.text-h5 {
+  font-size: $size-h5;
+  font-weight: $font-weight-semibold;
+  line-height: 1.5;
+  color: $black;
+}
+
+.text-body {
+  font-size: $size-body;
+  line-height: 1.6;
+  color: $black;
+}
+
+.text-body-small {
+  font-size: $size-body-small;
+  line-height: 1.6;
+  color: $calm-grey-600;
+}
+
+/* Font Weight Utilities */
+
+.normal {
+  font-weight: $font-weight-normal;
+}
+
+.medium {
+  font-weight: $font-weight-medium;
+}
+
+.semibold {
+  font-weight: $font-weight-semibold;
+}
+
+.bold {
+  font-weight: $font-weight-bold;
+}
+
+/* Base Body Styles */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: $size-body;
+  color: $black;
+  background-color: $background-white;
+  line-height: 1.6;
+}
+
+/* Responsive Typography */
+
+@media (min-width: $breakpoint-mobile) {
+  .text-h1 {
+    font-size: calc($size-h1 * 1.2);
+  }
+
+  .text-h2 {
+    font-size: calc($size-h2 * 1.15);
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .text-h1 {
+    font-size: calc($size-h1 * 1.4);
+  }
+
+  .text-h2 {
+    font-size: calc($size-h2 * 1.3);
+  }
+}

@@ -1,0 +1,16 @@
+// Global styles entry point
+// Forwards all base styles, components, and utilities
+
+// Base styles
+@forward 'base/typography';
+@forward 'base/layout';
+
+// Components
+@forward 'components/button';
+@forward 'components/badge';
+@forward 'components/card';
+
+// Utilities
+@forward 'utilities/spacing';
+@forward 'utilities/effects';
+@forward 'utilities/colors';

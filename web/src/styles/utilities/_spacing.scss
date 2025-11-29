@@ -1,0 +1,67 @@
+@use '../variables' as *;
+
+/* Spacing Utilities */
+
+/* Margin Top */
+.mt-xs { margin-top: $spacing-xs; }
+.mt-sm { margin-top: $spacing-sm; }
+.mt-md { margin-top: $spacing-md; }
+.mt-lg { margin-top: $spacing-lg; }
+.mt-xl { margin-top: $spacing-xl; }
+.mt-xxl { margin-top: $spacing-xxl; }
+
+/* Margin Bottom */
+.mb-xs { margin-bottom: $spacing-xs; }
+.mb-sm { margin-bottom: $spacing-sm; }
+.mb-md { margin-bottom: $spacing-md; }
+.mb-lg { margin-bottom: $spacing-lg; }
+.mb-xl { margin-bottom: $spacing-xl; }
+.mb-xxl { margin-bottom: $spacing-xxl; }
+
+/* Margin Left */
+.ml-xs { margin-left: $spacing-xs; }
+.ml-sm { margin-left: $spacing-sm; }
+.ml-md { margin-left: $spacing-md; }
+.ml-lg { margin-left: $spacing-lg; }
+.ml-xl { margin-left: $spacing-xl; }
+.ml-xxl { margin-left: $spacing-xxl; }
+
+/* Margin Right */
+.mr-xs { margin-right: $spacing-xs; }
+.mr-sm { margin-right: $spacing-sm; }
+.mr-md { margin-right: $spacing-md; }
+.mr-lg { margin-right: $spacing-lg; }
+.mr-xl { margin-right: $spacing-xl; }
+.mr-xxl { margin-right: $spacing-xxl; }
+
+/* Padding Top */
+.pt-xs { padding-top: $spacing-xs; }
+.pt-sm { padding-top: $spacing-sm; }
+.pt-md { padding-top: $spacing-md; }
+.pt-lg { padding-top: $spacing-lg; }
+.pt-xl { padding-top: $spacing-xl; }
+.pt-xxl { padding-top: $spacing-xxl; }
+
+/* Padding Bottom */
+.pb-xs { padding-bottom: $spacing-xs; }
+.pb-sm { padding-bottom: $spacing-sm; }
+.pb-md { padding-bottom: $spacing-md; }
+.pb-lg { padding-bottom: $spacing-lg; }
+.pb-xl { padding-bottom: $spacing-xl; }
+.pb-xxl { padding-bottom: $spacing-xxl; }
+
+/* Padding Left */
+.pl-xs { padding-left: $spacing-xs; }
+.pl-sm { padding-left: $spacing-sm; }
+.pl-md { padding-left: $spacing-md; }
+.pl-lg { padding-left: $spacing-lg; }
+.pl-xl { padding-left: $spacing-xl; }
+.pl-xxl { padding-left: $spacing-xxl; }
+
+/* Padding Right */
+.pr-xs { padding-right: $spacing-xs; }
+.pr-sm { padding-right: $spacing-sm; }
+.pr-md { padding-right: $spacing-md; }
+.pr-lg { padding-right: $spacing-lg; }
+.pr-xl { padding-right: $spacing-xl; }
+.pr-xxl { padding-right: $spacing-xxl; }

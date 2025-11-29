@@ -1,0 +1,19 @@
+@use '../variables' as *;
+
+/* Hover Effects */
+
+.hover-lift {
+  transition: transform $transition-normal ease;
+
+  &:hover {
+    transform: translateY(-0.25rem);
+  }
+}
+
+.hover-shadow {
+  transition: box-shadow $transition-normal ease;
+
+  &:hover {
+    box-shadow: $shadow-lg;
+  }
+}

@@ -1,19 +1,81 @@
 ---
-import NeighborhoodLayout from '../layouts/NeighborhoodLayout.astro';
-import CTAButton from '../components/CTAButton.astro';
+import Badge from "../components/Badge.astro";
+import { neighborhoods } from "../data/neighborhoods";
+import NeighborhoodLayout from "../layouts/NeighborhoodLayout.astro";
+
+const neighborhood = neighborhoods["antwerpen-zuid"];
 ---
 
 <NeighborhoodLayout
-  title="buurtkompas.be - Vind jouw perfecte buurt"
-  description="Ontdek hondvriendelijke buurten in België. Vind de perfecte plek voor jou en je hond."
+  title={`Wonen in ${neighborhood.name} - buurtkompas.be`}
+  description={neighborhood.subtitle}
   canonical="https://buurtkompas.be/"
 >
-  <h1>Welkom bij buurtkompas.be</h1>
-  <p>Ai platanito</p>
+  <section class="hero">
+    <div class="hero-wrapper pt-xxl">
+      <div class="hero-content">
+        <h1 class="text-h1">Wonen in {neighborhood.name}</h1>
+        <p class="text-body bold mt-sm">{neighborhood.subtitle}</p>
 
-  <CTAButton
-    href="#"
-    text="Test CTA Button (GA4 Event)"
-    eventName="test_cta_click"
-  />
+        <div class="hero-meta mt-xs">
+          <span class="hero-meta-item">
+            <i class="fa-regular fa-house"></i>
+            Postcode {neighborhood.postalCode}
+          </span>
+          <span class="hero-meta-item">
+            <i class="fa-regular fa-users"></i>
+            {neighborhood.inhabitants.toLocaleString("nl-BE")} inwoners
+          </span>
+        </div>
+
+        <div class="hero-badges mt-lg">
+          <Badge variant="outline" icon="fa-regular fa-dog">
+            Hondvriendelijk
+          </Badge>
+          <Badge variant="outline" icon="fa-regular fa-tree">
+            Veel groen
+          </Badge>
+        </div>
+
+        <nav class="hero-tabs mt-xl">
+          <a href="#overzicht" class="tab tab-active" aria-current="page">
+            <i class="fa-regular fa-list-ul mr-sm"></i>
+            Overzicht
+          </a>
+          <a href="#huizen" class="tab">
+            <i class="fa-regular fa-house mr-sm"></i>
+            Huizen
+          </a>
+          <a href="#demografie" class="tab">
+            <i class="fa-regular fa-users mr-sm"></i>
+            Demografie
+          </a>
+        </nav>
+      </div>
+
+      <div class="hero-map">
+        <img
+          src={neighborhood.mapImage.src}
+          alt={neighborhood.mapImage.alt}
+          width="600"
+          height="400"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-section">
+    <aside class="intro-sidebar">
+      <nav class="sidebar-nav">
+        <a href="#inleiding" class="sidebar-link active"> Inleiding </a>
+        <a href="#voorzieningen" class="sidebar-link"> Voorzieningen </a>
+        <a href="#veilig" class="sidebar-link"> Veilig én </a>
+        <a href="#statistieken" class="sidebar-link"> Statistieken </a>
+      </nav>
+    </aside>
+
+    <div class="intro-content">
+      {neighborhood.intro.split("\n\n").map((paragraph) => <p>{paragraph}</p>)}
+    </div>
+  </section>
 </NeighborhoodLayout>

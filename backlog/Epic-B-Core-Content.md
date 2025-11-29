@@ -1,19 +1,27 @@
 # Epic B — Core Neighbourhood Page Content
 
-## Story B1: Hero Section With Static Map Image
+## Story B1: Hero Section With Static Map Image ✅
 > As a dog owner, I want a clear hero section, so I immediately understand what this neighbourhood is about.
 
 **Acceptance Criteria:**
-- [ ] H1 renders the neighbourhood title (e.g. "Wonen in Antwerpen-Zuid")
-- [ ] Subtitle rendered directly under the title
-- [ ] Badges displayed for:
-    - [ ] Postal code
-    - [ ] Number of inhabitants
-    - [ ] Popularity / "hondvriendelijk" / "veel groen" labels
-- [ ] Static map placeholder image displayed on the right (no interactivity yet)
-- [ ] Map image has descriptive alt text (e.g. "Kaart van Antwerpen-Zuid")
-- [ ] Introductory paragraph rendered below the hero
-- [ ] All hero content is server-rendered in the HTML (no client-side fetch)
+- [x] H1 renders the neighbourhood title (e.g. "Wonen in Antwerpen-Zuid")
+- [x] Subtitle rendered directly under the title
+- [x] Badges displayed for:
+    - [x] Postal code
+    - [x] Number of inhabitants
+    - [x] Popularity / "hondvriendelijk" / "veel groen" labels
+- [x] Static map placeholder image displayed on the right (no interactivity yet)
+- [x] Map image has descriptive alt text (e.g. "Kaart van Antwerpen-Zuid")
+- [x] Introductory paragraph rendered below the hero
+- [x] All hero content is server-rendered in the HTML (no client-side fetch)
+
+**Implementation Notes:**
+- Created `web/src/data/neighborhoods.ts` with TypeScript interface for neighborhood data
+- Implemented hero section in `web/src/pages/index.astro` with semantic HTML
+- Created `web/src/styles/_hero.scss` with responsive grid layout matching design
+- SVG placeholder map created at `web/public/images/maps/antwerpen-zuid-hero.svg`
+- All content server-rendered, no client-side JavaScript required
+- Verified build output contains all required elements
 
 ## Story B2: "What Dog Owners Value Here" Cards
 > As a dog owner, I want to quickly scan the main advantages of the neighbourhood, so I know whether it fits my lifestyle.
