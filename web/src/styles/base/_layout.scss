@@ -13,8 +13,14 @@
   }
 }
 
-.section {
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xxl;
+
   @media (max-width: $breakpoint-mobile) {
-    padding: $spacing-xl $spacing-md;
+    max-width: 100vw;
+    gap: $spacing-lg;
+    padding: $spacing-md $spacing-md;
   }
 }

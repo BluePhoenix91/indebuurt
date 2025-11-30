@@ -1,12 +1,7 @@
 @use "../variables" as *;
+@use "../mixins" as *;
 
 /* Value Cards Section */
-
-.value-cards-section {
-  @media (max-width: $breakpoint-mobile) {
-    padding: 0 $spacing-md;
-  }
-}
 
 .value-cards-grid {
   display: grid;
@@ -15,8 +10,8 @@
   margin-top: $spacing-md;
 
   @media (max-width: $breakpoint-mobile) {
-    grid-template-columns: 1fr;
     gap: $spacing-md;
+    @include horizontal-scroll-container;
   }
 }
 
@@ -32,11 +27,20 @@
   gap: $spacing-sm;
   transition: all $transition-normal ease;
 
+  @media (max-width: $breakpoint-mobile) {
+    @include horizontal-scroll-item;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: $spacing-sm;
+
+    @media (max-width: $breakpoint-mobile) {
+      flex-direction: column;
+      gap: $spacing-xs;
+    }
 
     > div {
       display: flex;

@@ -1,0 +1,42 @@
+@use "variables" as *;
+
+//
+// Horizontal Scroll Container Mixin
+// Creates a horizontal scrolling list on mobile devices
+//
+
+@mixin horizontal-scroll-container {
+  @media (max-width: $breakpoint-mobile) {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
+    }
+
+    /* Add padding for first and last items */
+    padding-left: $spacing-md;
+    padding-right: $spacing-md;
+
+    /* Negative margin to break out of parent padding */
+    margin-right: calc(-1 * $spacing-md);
+  }
+}
+
+//
+// Horizontal Scroll Item Mixin
+// Styles individual items in a horizontal scroll container
+//
+
+@mixin horizontal-scroll-item {
+  @media (max-width: $breakpoint-mobile) {
+    flex-shrink: 0;
+    width: calc(100vw - ($spacing-md * 4)); /* Full width minus padding on both sides */
+    scroll-snap-align: start;
+  }
+}
+
