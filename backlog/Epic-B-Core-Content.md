@@ -124,16 +124,17 @@
 - [x] Card content loaded from a data structure
 
 **Implementation Notes:**
-
-- Created `PetStoreCard.astro` component reusing established card mixins (`base-card`, `card-header`, `distance-display`)
-- Uses accent-2 color scheme (`$accent-2`) matching value cards: vets (primary), pet stores (accent-2), dog parks (secondary), value cards (accent-2)
+- Created `PetStoreCard.astro` component using enhanced card mixins (`base-card`, `card-header` with wrapper support, `address-display`)
+- Uses accent-2 color scheme (`$accent-2`) matching value cards for visual consistency
 - Address formatted on two lines: street + number + bus (optional) on first line, postal code + municipality on second line
+- Address text styled in black (`$black`) matching value card description text
 - Added `PetStore` interface to `neighborhoods.ts` with structured address fields (same as Vet interface)
 - Implemented three pet stores: Dierenwinkel Antwerpen-Zuid, Pet Shop Deurne, Dierenwinkel Het Huisdier
 - Created `_pet-stores.scss` following same pattern as `_vets.scss`:
   - Grid layout (2 columns on desktop, stacked on mobile)
   - Horizontal scroll container mixin for mobile
   - Sticky map with dynamic height matching list content (max-height for viewport constraint)
+- CTA button uses `btn-accent-2-outline` matching card color scheme
 - Generated placeholder SVG map with numbered markers at `web/public/images/maps/antwerpen-zuid-pet-stores.svg`
 - Map height dynamically matches list height when shorter than viewport, scrolls correctly when longer
 - All content server-rendered, no client-side JavaScript required
