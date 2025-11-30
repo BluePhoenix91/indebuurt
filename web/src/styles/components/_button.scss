@@ -1,5 +1,6 @@
 @use "sass:color";
 @use "../variables" as *;
+@use "../mixins" as *;
 
 /* Button Component */
 
@@ -25,41 +26,17 @@
 }
 
 .btn-primary {
-  background-color: $primary;
-  color: white;
-
-  &:hover {
-    background-color: color.adjust($primary, $lightness: -8%);
-  }
+  @include button-variant($primary);
 }
 
 .btn-primary-outline {
-  background-color: transparent;
-  color: $primary;
-  border: $border-regular solid $primary;
-
-  &:hover {
-    background-color: $primary;
-    color: white;
-  }
+  @include button-variant($primary, $background-white, true);
 }
 
 .btn-secondary {
-  background-color: $secondary;
-  color: white;
-
-  &:hover {
-    background-color: color.adjust($secondary, $lightness: -8%);
-  }
+  @include button-variant($secondary);
 }
 
 .btn-secondary-outline {
-  background-color: transparent;
-  color: $secondary;
-  border: $border-regular solid $secondary;
-
-  &:hover {
-    background-color: $secondary;
-    color: white;
-  }
+  @include button-variant($secondary, $background-white, true);
 }

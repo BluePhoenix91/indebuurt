@@ -1,5 +1,6 @@
 @use "sass:color";
 @use "../variables" as *;
+@use "../mixins" as *;
 
 /* Hero Section */
 
@@ -110,12 +111,7 @@
   padding: 0;
 
   @media (max-width: $breakpoint-mobile) {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Firefox */
-    &::-webkit-scrollbar {
-      display: none; /* Chrome, Safari */
-    }
+    @include horizontal-scroll-container-simple;
   }
 }
 
@@ -188,7 +184,7 @@
     position: sticky;
     top: $header-height; // Stick below header
     z-index: 10;
-    background-color: white;
+    background-color: $background-white;
     width: 100vw;
     overflow-x: hidden;
   }
@@ -204,15 +200,9 @@
 
   @media (max-width: $breakpoint-mobile) {
     flex-direction: row;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Firefox */
-    &::-webkit-scrollbar {
-      display: none; /* Chrome, Safari */
-    }
+    @include horizontal-scroll-container-simple;
     border-radius: 0;
     border: none;
-    border-top: $border-thin solid $primary;
     border-bottom: $border-thin solid $primary;
     padding: $spacing-xs 0;
   }
@@ -232,7 +222,7 @@
   color: $primary;
 
   &:hover {
-    background-color: white;
+    background-color: $background-white;
     color: $primary;
   }
 

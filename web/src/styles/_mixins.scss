@@ -1,8 +1,10 @@
+@use "sass:color";
 @use "variables" as *;
 
 //
 // Horizontal Scroll Container Mixin
 // Creates a horizontal scrolling list on mobile devices
+// Includes padding and negative margin for breaking out of parent padding
 //
 
 @mixin horizontal-scroll-container {
@@ -28,6 +30,24 @@
 }
 
 //
+// Horizontal Scroll Container (Simple)
+// Creates a horizontal scrolling list without padding/margin adjustments
+// Use for tabs, nav, and other cases where padding is handled separately
+//
+
+@mixin horizontal-scroll-container-simple {
+  @media (max-width: $breakpoint-mobile) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
+    }
+  }
+}
+
+//
 // Horizontal Scroll Item Mixin
 // Styles individual items in a horizontal scroll container
 //
@@ -35,7 +55,9 @@
 @mixin horizontal-scroll-item {
   @media (max-width: $breakpoint-mobile) {
     flex-shrink: 0;
-    width: calc(100vw - ($spacing-md * 4)); /* Full width minus padding on both sides */
+    width: calc(
+      100vw - ($spacing-md * 4)
+    ); /* Full width minus padding on both sides */
     scroll-snap-align: start;
   }
 }
@@ -112,3 +134,51 @@
   }
 }
 
+//
+// Button Variant Mixin
+// Creates button variants (solid or outline) with consistent hover behavior
+//
+
+@mixin button-variant(
+  $bg-color,
+  $text-color: $background-white,
+  $is-outline: false
+) {
+  @if $is-outline {
+    background-color: transparent;
+    color: $bg-color;
+    border: $border-regular solid $bg-color;
+
+    &:hover {
+      background-color: $bg-color;
+      color: $text-color;
+    }
+  } @else {
+    background-color: $bg-color;
+    color: $text-color;
+
+    &:hover {
+      background-color: color.adjust($bg-color, $lightness: -8%);
+    }
+  }
+}
+
+//
+// Badge Variant Mixin
+// Creates badge variants with consistent styling
+//
+
+@mixin badge-variant(
+  $bg-color: null,
+  $text-color: $black,
+  $border-color: null
+) {
+  @if $bg-color {
+    background-color: $bg-color;
+    color: $text-color;
+  }
+
+  @if $border-color {
+    border: $border-thin solid $border-color;
+  }
+}

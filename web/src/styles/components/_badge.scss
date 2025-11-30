@@ -1,4 +1,5 @@
 @use "../variables" as *;
+@use "../mixins" as *;
 
 /* Badge Component */
 
@@ -18,25 +19,24 @@
 }
 
 .badge-outline {
-  border: $border-thin solid $calm-grey-600;
+  @include badge-variant($border-color: $calm-grey-600);
 }
 
 .badge-primary {
-  background-color: $primary;
-  color: white;
+  @include badge-variant($primary, $background-white);
 }
 
 .badge-secondary {
-  background-color: $secondary;
-  color: white;
+  @include badge-variant($secondary, $background-white);
 }
 
 .badge-accent {
-  background-color: $accent-1;
-  color: $black;
+  @include badge-variant($accent-1, $black);
 }
 
 .badge-muted {
-  color: $calm-grey-600;
-  border: $border-thin solid $calm-grey-400;
+  @include badge-variant(
+    $text-color: $calm-grey-600,
+    $border-color: $calm-grey-400
+  );
 }

@@ -1,0 +1,15 @@
+---
+interface Props {
+  level: 2 | 3;
+  id?: string;
+}
+
+const { level, id } = Astro.props;
+const HeadingTag = `h${level}` as 'h2' | 'h3';
+const headingClass = level === 2 ? 'text-h2' : 'text-h3';
+---
+
+<HeadingTag class={headingClass} id={id}>
+  <slot />
+</HeadingTag>
+

@@ -1,6 +1,7 @@
 ---
 import Badge from "../components/Badge.astro";
 import ParkCard from "../components/ParkCard.astro";
+import SectionHeading from "../components/SectionHeading.astro";
 import ValueCard from "../components/ValueCard.astro";
 import { neighborhoods } from "../data/neighborhoods";
 import NeighborhoodLayout from "../layouts/NeighborhoodLayout.astro";
@@ -49,7 +50,7 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
         />
       </div>
 
-      <!-- <nav class="hero-tabs">
+      <nav class="hero-tabs">
         <a href="#overzicht" class="tab tab-active" aria-current="page">
           <i class="fa-regular fa-list-ul mr-sm"></i>
           Overzicht
@@ -62,7 +63,7 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
           <i class="fa-regular fa-users mr-sm"></i>
           Demografie
         </a>
-      </nav> -->
+      </nav>
     </div>
   </section>
 
@@ -86,7 +87,7 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
       </section>
 
       <section class="value-cards-section">
-        <h2 class="text-h2">Wat baasjes hier zo waarderen</h2>
+        <SectionHeading level={2}>Wat baasjes hier zo waarderen</SectionHeading>
         <div class="value-cards-grid">
           {
             neighborhood.valueCards.map((card) => (
@@ -104,10 +105,11 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
       </section>
 
       <section id="voorzieningen">
-        <h2 class="text-h2">Hondvriendelijke voorzieningen</h2>
+        <SectionHeading level={2}>Hondvriendelijke voorzieningen</SectionHeading
+        >
         <p class="mt-sm">{neighborhood.facilities.intro}</p>
         <section id="dog-parks" class="mt-xl">
-          <h3 class="text-h3">Hondenparken & losloopzones</h3>
+          <SectionHeading level={3}>Hondenparken & losloopzones</SectionHeading>
           <p class="mt-sm">{neighborhood.dogParks.intro}</p>
           <div class="dog-parks-section">
             <div class="dog-parks-content">
