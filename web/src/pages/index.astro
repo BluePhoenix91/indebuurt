@@ -77,7 +77,7 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
 
     <div class="content">
       <section class="intro-section">
-        <div class="intro-content">
+        <div class="intro-content section">
           {
             neighborhood.intro
               .split("\n\n")
@@ -104,7 +104,7 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
         </div>
       </section>
 
-      <section id="facilities">
+      <section id="facilities" class="section">
         <h2 class="text-h2">Hondvriendelijke voorzieningen</h2>
         <p class="mt-sm">{neighborhood.facilities.intro}</p>
         <section id="dog-parks" class="mt-xl">
@@ -125,6 +125,10 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
                   ))
                 }
               </div>
+              <button class="btn btn-secondary-outline">
+                <i class="fa-regular fa-map"></i>
+                Bekijk op kaart
+              </button>
             </div>
             <div class="dog-parks-map">
               <img

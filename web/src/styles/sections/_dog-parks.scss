@@ -1,3 +1,4 @@
+@use "sass:color";
 @use "../variables" as *;
 
 /* Dog Parks Section */
@@ -11,7 +12,6 @@
   @media (max-width: $breakpoint-mobile) {
     grid-template-columns: 1fr;
     gap: $spacing-md;
-    padding: 0 $spacing-md;
   }
 }
 
@@ -26,6 +26,22 @@
     color: $black;
     margin: 0;
   }
+
+  .btn {
+    display: none;
+
+    @media (max-width: $breakpoint-mobile) {
+      display: inline-flex;
+      align-items: center;
+      gap: $spacing-xs;
+      width: 100%;
+      justify-content: center;
+
+      i {
+        font-size: $size-body;
+      }
+    }
+  }
 }
 
 .dog-parks-list {
@@ -35,9 +51,12 @@
 }
 
 .dog-parks-map {
+  position: sticky;
+  top: $spacing-md;
+  align-self: start;
   border-radius: $radius-card;
   overflow: hidden;
-  height: fit-content;
+  height: calc(100vh - $spacing-md - $spacing-lg);
 
   img {
     width: 100%;
@@ -47,7 +66,7 @@
   }
 
   @media (max-width: $breakpoint-mobile) {
-    order: 3;
+    display: none;
   }
 }
 

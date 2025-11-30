@@ -33,11 +33,33 @@
   }
 }
 
+.btn-primary-outline {
+  background-color: transparent;
+  color: $primary;
+  border: $border-regular solid $primary;
+
+  &:hover {
+    background-color: $primary;
+    color: white;
+  }
+}
+
 .btn-secondary {
   background-color: $secondary;
   color: white;
 
   &:hover {
     background-color: color.adjust($secondary, $lightness: -8%);
+  }
+}
+
+.btn-secondary-outline {
+  background-color: transparent;
+  color: $secondary;
+  border: $border-regular solid $secondary;
+
+  &:hover {
+    background-color: $secondary;
+    color: white;
   }
 }

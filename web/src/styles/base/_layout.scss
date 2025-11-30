@@ -1,4 +1,4 @@
-@use '../variables' as *;
+@use "../variables" as *;
 
 /* Container */
 
@@ -10,5 +10,11 @@
 
   @media (min-width: $breakpoint-mobile) {
     padding: 0 $spacing-lg;
+  }
+}
+
+.section {
+  @media (max-width: $breakpoint-mobile) {
+    padding: $spacing-xl $spacing-md;
   }
 }

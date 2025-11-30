@@ -268,17 +268,11 @@
   gap: $spacing-xxl;
 
   @media (max-width: $breakpoint-mobile) {
-    gap: $spacing-xl;
+    gap: $spacing-sm;
   }
 }
 
 /* Intro Section */
-
-.intro-section {
-  @media (max-width: $breakpoint-mobile) {
-    padding: $spacing-xl $spacing-md;
-  }
-}
 
 .intro-content {
   display: flex;
