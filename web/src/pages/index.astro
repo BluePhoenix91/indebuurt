@@ -218,6 +218,22 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
           </div>
         </section>
       </section>
+
+      <section id="dagelijks-leven" class="daily-life-section">
+        <SectionHeading level={2}>
+          {neighborhood.dailyLife.title}
+        </SectionHeading>
+        <div class="daily-life-content">
+          <p>{neighborhood.dailyLife.intro}</p>
+          <ul class="daily-life-benefits">
+            {
+              neighborhood.dailyLife.benefits.map((benefit) => (
+                <li>{benefit}</li>
+              ))
+            }
+          </ul>
+        </div>
+      </section>
     </div>
   </div>
 

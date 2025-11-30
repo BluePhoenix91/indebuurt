@@ -82,6 +82,11 @@ export interface Neighborhood {
       alt: string;
     };
   };
+  dailyLife: {
+    title: string;
+    intro: string;
+    benefits: string[];
+  };
 }
 
 export const neighborhoods: Record<string, Neighborhood> = {
@@ -166,10 +171,19 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           distance: "8 mins",
           distanceIcon: "fa-regular fa-person-walking",
           features: [
-            { text: "Volledig omheind terrein", icon: "fa-regular fa-shield-check" },
+            {
+              text: "Volledig omheind terrein",
+              icon: "fa-regular fa-shield-check",
+            },
             { text: "Los lopen toegestaan", icon: "fa-regular fa-dog-leashed" },
-            { text: "Open van zonsopgang tot zonsondergang", icon: "fa-regular fa-clock" },
-            { text: "Watervoorziening aanwezig", icon: "fa-regular fa-droplet" },
+            {
+              text: "Open van zonsopgang tot zonsondergang",
+              icon: "fa-regular fa-clock",
+            },
+            {
+              text: "Watervoorziening aanwezig",
+              icon: "fa-regular fa-droplet",
+            },
           ],
         },
         {
@@ -178,10 +192,16 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           distance: "12 mins",
           distanceIcon: "fa-regular fa-person-walking",
           features: [
-            { text: "Volledig omheind terrein", icon: "fa-regular fa-shield-check" },
+            {
+              text: "Volledig omheind terrein",
+              icon: "fa-regular fa-shield-check",
+            },
             { text: "Los lopen toegestaan", icon: "fa-regular fa-dog-leashed" },
             { text: "Open van 07:00 tot 21:00", icon: "fa-regular fa-clock" },
-            { text: "Geschikt voor alle hondenrassen", icon: "fa-regular fa-paw" },
+            {
+              text: "Geschikt voor alle hondenrassen",
+              icon: "fa-regular fa-paw",
+            },
           ],
         },
         {
@@ -190,9 +210,15 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           distance: "15 mins",
           distanceIcon: "fa-regular fa-person-walking",
           features: [
-            { text: "Volledig omheind terrein", icon: "fa-regular fa-shield-check" },
+            {
+              text: "Volledig omheind terrein",
+              icon: "fa-regular fa-shield-check",
+            },
             { text: "Los lopen toegestaan", icon: "fa-regular fa-dog-leashed" },
-            { text: "Open van zonsopgang tot zonsondergang", icon: "fa-regular fa-clock" },
+            {
+              text: "Open van zonsopgang tot zonsondergang",
+              icon: "fa-regular fa-clock",
+            },
             { text: "Schaduwplekken aanwezig", icon: "fa-regular fa-tree" },
           ],
         },
@@ -203,9 +229,15 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           distanceIcon: "fa-regular fa-person-walking",
           features: [
             { text: "Groot groen domein", icon: "fa-regular fa-tree-large" },
-            { text: "Losloopzone in aangewezen zones", icon: "fa-regular fa-dog-leashed" },
+            {
+              text: "Losloopzone in aangewezen zones",
+              icon: "fa-regular fa-dog-leashed",
+            },
             { text: "Open van 06:00 tot 22:00", icon: "fa-regular fa-clock" },
-            { text: "Wandelpaden en open velden", icon: "fa-regular fa-signs-post" },
+            {
+              text: "Wandelpaden en open velden",
+              icon: "fa-regular fa-signs-post",
+            },
           ],
         },
       ],
@@ -293,6 +325,17 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
         src: "/images/maps/antwerpen-zuid-pet-stores.svg",
         alt: "Locaties van dierenwinkels in Antwerpen-Zuid",
       },
+    },
+    dailyLife: {
+      title: "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+      intro:
+        "Het leven in Antwerpen-Zuid met een hond voelt onverwacht makkelijk. De combinatie van korte wandelafstanden, veilige uitlaatplekken en alle benodigde voorzieningen binnen handbereik maakt dat je dagelijkse routine soepel verloopt zonder dat je er veel over na hoeft te denken.",
+      benefits: [
+        "Je dag begint rustiger wanneer je hond zijn energie kwijt kan in het park in de Morekstraat, nog voor jij aan je koffie toe bent.",
+        "De buurt voelt sociaal en vertrouwd: baasjes herkennen elkaar, groeten elkaar, en delen tips over routes en hondvriendelijke plekjes.",
+        "En als er ooit iets gebeurt, is er altijd een dierenarts of dierenwinkel dichtbij.",
+        'De combinatie van korte wandelrondes en langere groene routes maakt je leven "makkelijker zonder dat je het doorhebt".',
+      ],
     },
   },
 };

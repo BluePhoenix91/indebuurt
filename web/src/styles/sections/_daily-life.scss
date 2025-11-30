@@ -1,0 +1,40 @@
+@use "../variables" as *;
+
+/* Daily Life Section */
+
+.daily-life-content {
+  margin-top: $spacing-md;
+
+  p {
+    margin: 0 0 $spacing-lg 0;
+  }
+}
+
+.daily-life-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+
+  li {
+    font-size: $size-body;
+    position: relative;
+    padding-left: $spacing-md;
+
+    &::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: -25%;
+      color: $primary;
+      font-weight: $font-weight-bold;
+      font-size: $size-h3;
+
+      @media (max-width: $breakpoint-mobile) {
+        top: -10%;
+      }
+    }
+  }
+}
