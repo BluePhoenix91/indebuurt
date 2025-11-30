@@ -79,56 +79,17 @@
 /* Park Card Component */
 
 .park-card {
-  background-color: rgba($color: $secondary, $alpha: 0.1);
-  border: $border-thin solid $secondary;
-  border-radius: $radius-card;
-  padding: $spacing-md;
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-sm;
-
-  @media (max-width: $breakpoint-mobile) {
-    @include horizontal-scroll-item;
-  }
+  @include base-card($secondary);
 
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: $spacing-sm;
-
-    @media (max-width: $breakpoint-mobile) {
-      flex-direction: column;
-      gap: $spacing-xs;
-    }
-
-    i {
-      font-size: $size-body;
-      color: $secondary;
-    }
+    @include card-header($secondary);
 
     h3 {
-      font-size: $size-body;
-      font-weight: $font-weight-bold;
-      color: $secondary;
-      margin: 0;
       flex: 1;
     }
 
     .distance {
-      display: flex;
-      align-items: center;
-      gap: $spacing-xxs;
-      font-size: $size-body-small;
-      color: rgba($color: $secondary, $alpha: 0.75);
-      white-space: nowrap;
-
-      i {
-        font-size: $size-body-small;
-        font-weight: $font-weight-normal;
-        color: $secondary;
-        flex-shrink: 0;
-      }
+      @include distance-display($secondary);
     }
   }
 

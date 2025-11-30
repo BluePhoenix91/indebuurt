@@ -40,3 +40,75 @@
   }
 }
 
+//
+// Base Card Mixin
+// Common card styles with color theming
+//
+
+@mixin base-card($color) {
+  background-color: rgba($color: $color, $alpha: 0.1);
+  border: $border-thin solid $color;
+  border-radius: $radius-card;
+  padding: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+  transition: all $transition-normal ease;
+
+  @media (max-width: $breakpoint-mobile) {
+    @include horizontal-scroll-item;
+  }
+}
+
+//
+// Card Header Mixin
+// Common header layout with responsive behavior
+//
+
+@mixin card-header($color, $icon-weight: $font-weight-normal) {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: $spacing-sm;
+
+  @media (max-width: $breakpoint-mobile) {
+    flex-direction: column;
+    gap: $spacing-xs;
+  }
+
+  i {
+    font-size: $size-body;
+    font-weight: $icon-weight;
+    color: $color;
+    flex-shrink: 0;
+  }
+
+  h3 {
+    font-size: $size-body;
+    font-weight: $font-weight-bold;
+    color: $color;
+    margin: 0;
+  }
+}
+
+//
+// Distance Display Mixin
+// Common distance indicator styling
+//
+
+@mixin distance-display($color) {
+  display: flex;
+  align-items: center;
+  gap: $spacing-xxs;
+  font-size: $size-body-small;
+  color: rgba($color: $color, $alpha: 0.75);
+  white-space: nowrap;
+
+  i {
+    font-size: $size-body-small;
+    font-weight: $font-weight-normal;
+    color: $color;
+    flex-shrink: 0;
+  }
+}
+
