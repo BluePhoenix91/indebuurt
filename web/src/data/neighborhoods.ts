@@ -18,6 +18,18 @@ export interface DogPark {
   }[];
 }
 
+export interface Vet {
+  icon: string;
+  name: string;
+  street: string;
+  streetNumber: string;
+  bus?: string;
+  municipality: string;
+  postalCode: string;
+  distance: string;
+  distanceIcon?: string;
+}
+
 export interface Neighborhood {
   id: string;
   name: string;
@@ -37,6 +49,14 @@ export interface Neighborhood {
   dogParks: {
     intro: string;
     parks: DogPark[];
+    mapImage: {
+      src: string;
+      alt: string;
+    };
+  };
+  vets: {
+    intro: string;
+    practices: Vet[];
     mapImage: {
       src: string;
       alt: string;
@@ -172,6 +192,46 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       mapImage: {
         src: "/images/maps/antwerpen-zuid-dogparks.svg",
         alt: "Locaties van hondenspeelweides in Antwerpen-Zuid",
+      },
+    },
+    vets: {
+      intro:
+        "In Antwerpen-Zuid zijn meerdere dierenartsenpraktijken binnen korte afstand beschikbaar. Of het nu voor routinecontroles, vaccinaties of noodgevallen is, je hebt altijd snel toegang tot professionele veterinaire zorg.",
+      practices: [
+        {
+          name: "Dierenkliniek Antwerpen-Zuid",
+          icon: "fa-solid fa-shield-heart",
+          street: "Mechelsesteenweg",
+          streetNumber: "245",
+          municipality: "Antwerpen",
+          postalCode: "2018",
+          distance: "8 mins",
+          distanceIcon: "fa-regular fa-person-walking",
+        },
+        {
+          name: "Dierenarts Van den Berghe",
+          icon: "fa-solid fa-shield-heart",
+          street: "Borsbeeksebrug",
+          streetNumber: "12",
+          municipality: "Antwerpen",
+          postalCode: "2018",
+          distance: "12 mins",
+          distanceIcon: "fa-regular fa-person-walking",
+        },
+        {
+          name: "Dierenkliniek Deurne",
+          icon: "fa-solid fa-shield-heart",
+          street: "Turnhoutsebaan",
+          streetNumber: "456",
+          municipality: "Antwerpen",
+          postalCode: "2140",
+          distance: "15 mins",
+          distanceIcon: "fa-regular fa-car",
+        },
+      ],
+      mapImage: {
+        src: "/images/maps/antwerpen-zuid-vets.svg",
+        alt: "Locaties van dierenartsenpraktijken in Antwerpen-Zuid",
       },
     },
   },

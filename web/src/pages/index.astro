@@ -3,6 +3,7 @@ import Badge from "../components/Badge.astro";
 import ParkCard from "../components/ParkCard.astro";
 import SectionHeading from "../components/SectionHeading.astro";
 import ValueCard from "../components/ValueCard.astro";
+import VetCard from "../components/VetCard.astro";
 import { neighborhoods } from "../data/neighborhoods";
 import NeighborhoodLayout from "../layouts/NeighborhoodLayout.astro";
 
@@ -135,6 +136,43 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
               <img
                 src={neighborhood.dogParks.mapImage.src}
                 alt={neighborhood.dogParks.mapImage.alt}
+                width="600"
+                height="400"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="vets" class="mt-xl">
+          <SectionHeading level={3}>Dierenartsen</SectionHeading>
+          <p class="mt-sm">{neighborhood.vets.intro}</p>
+          <div class="vets-section">
+            <div class="vets-content">
+              <div class="vets-list">
+                {
+                  neighborhood.vets.practices.map((vet) => (
+                    <VetCard
+                      icon={vet.icon}
+                      name={vet.name}
+                      street={vet.street}
+                      streetNumber={vet.streetNumber}
+                      bus={vet.bus}
+                      municipality={vet.municipality}
+                      postalCode={vet.postalCode}
+                      distance={vet.distance}
+                      distanceIcon={vet.distanceIcon}
+                    />
+                  ))
+                }
+              </div>
+              <button class="btn btn-secondary-outline">
+                <i class="fa-regular fa-map"></i>
+                Bekijk op kaart
+              </button>
+            </div>
+            <div class="vets-map">
+              <img
+                src={neighborhood.vets.mapImage.src}
+                alt={neighborhood.vets.mapImage.alt}
                 width="600"
                 height="400"
               />

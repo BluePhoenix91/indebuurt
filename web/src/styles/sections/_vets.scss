@@ -2,9 +2,9 @@
 @use "../variables" as *;
 @use "../mixins" as *;
 
-/* Dog Parks Section */
+/* Vets Section */
 
-.dog-parks-section {
+.vets-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: $spacing-lg;
@@ -17,7 +17,7 @@
   }
 }
 
-.dog-parks-content {
+.vets-content {
   display: flex;
   flex-direction: column;
   gap: $spacing-md;
@@ -46,7 +46,7 @@
   }
 }
 
-.dog-parks-list {
+.vets-list {
   display: flex;
   flex-direction: column;
   gap: $spacing-md;
@@ -56,7 +56,7 @@
   }
 }
 
-.dog-parks-map {
+.vets-map {
   position: sticky;
   top: $spacing-md;
   align-self: start;
@@ -77,27 +77,45 @@
   }
 }
 
-/* Park Card Component */
+/* Vet Card Component */
 
-.park-card {
-  @include base-card($secondary);
+.vet-card {
+  @include base-card($primary);
 
   header {
-    @include card-header($secondary);
+    @include card-header($primary);
+
+    > div {
+      display: flex;
+      align-items: center;
+      gap: $spacing-xs;
+      flex: 1;
+    }
 
     h3 {
       flex: 1;
     }
 
     .distance {
-      @include distance-display($secondary);
+      @include distance-display($primary);
     }
   }
 
-  .park-features {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: $spacing-xs;
+  .vet-address {
+    p {
+      font-size: $size-body;
+      color: $calm-grey-600;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .street-line {
+      display: block;
+    }
+
+    .municipality-line {
+      display: block;
+    }
   }
 }
+
