@@ -1,5 +1,5 @@
 ---
-import Badge from './Badge.astro';
+import Badge from "./Badge.astro";
 
 interface Props {
   name: string;
@@ -23,8 +23,10 @@ const {
 
 <article class="park-card">
   <header>
-    <i class={icon}></i>
-    <h3>{name}</h3>
+    <div>
+      <i class={icon}></i>
+      <h3>{name}</h3>
+    </div>
     <span class="distance">
       <i class={distanceIcon}></i>
       {distance}
@@ -34,7 +36,11 @@ const {
   <div class="park-features">
     {
       features.map((feature) => {
-        return <Badge variant="muted" icon={feature.icon}>{feature.text}</Badge>;
+        return (
+          <Badge variant="muted" icon={feature.icon}>
+            {feature.text}
+          </Badge>
+        );
       })
     }
   </div>

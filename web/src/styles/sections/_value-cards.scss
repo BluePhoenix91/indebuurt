@@ -21,18 +21,7 @@
   @include base-card($accent-2);
 
   header {
-    @include card-header($accent-2, $font-weight-bold);
-
-    > div {
-      display: flex;
-      align-items: center;
-      gap: $spacing-xs;
-      flex: 1;
-    }
-
-    .distance {
-      @include distance-display($accent-2);
-    }
+    @include card-header($accent-2, $font-weight-bold, true, false);
   }
 
   .value-content {

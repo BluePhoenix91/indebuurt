@@ -85,9 +85,10 @@
 //
 // Card Header Mixin
 // Common header layout with responsive behavior
+// Includes icon+title wrapper and distance display
 //
 
-@mixin card-header($color, $icon-weight: $font-weight-normal) {
+@mixin card-header($color, $icon-weight: $font-weight-normal, $include-wrapper: true, $h3-flex: false) {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -96,6 +97,15 @@
   @media (max-width: $breakpoint-mobile) {
     flex-direction: column;
     gap: $spacing-xs;
+  }
+
+  @if $include-wrapper {
+    > div {
+      display: flex;
+      align-items: center;
+      gap: $spacing-xs;
+      flex: 1;
+    }
   }
 
   i {
@@ -110,6 +120,13 @@
     font-weight: $font-weight-bold;
     color: $color;
     margin: 0;
+    @if $h3-flex {
+      flex: 1;
+    }
+  }
+
+  .distance {
+    @include distance-display($color);
   }
 }
 
@@ -131,6 +148,27 @@
     font-weight: $font-weight-normal;
     color: $color;
     flex-shrink: 0;
+  }
+}
+
+//
+// Address Display Mixin
+// Common two-line address styling
+//
+
+@mixin address-display {
+  p {
+    font-size: $size-body;
+    color: $black;
+    margin: 0;
+  }
+
+  .street-line {
+    display: block;
+  }
+
+  .municipality-line {
+    display: block;
   }
 }
 

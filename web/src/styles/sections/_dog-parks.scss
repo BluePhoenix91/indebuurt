@@ -83,15 +83,7 @@
   @include base-card($secondary);
 
   header {
-    @include card-header($secondary);
-
-    h3 {
-      flex: 1;
-    }
-
-    .distance {
-      @include distance-display($secondary);
-    }
+    @include card-header($secondary, $font-weight-normal, true, true);
   }
 
   .park-features {

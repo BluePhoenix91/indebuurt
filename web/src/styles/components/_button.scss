@@ -40,3 +40,7 @@
 .btn-secondary-outline {
   @include button-variant($secondary, $background-white, true);
 }
+
+.btn-accent-2-outline {
+  @include button-variant($accent-2, $background-white, true);
+}
