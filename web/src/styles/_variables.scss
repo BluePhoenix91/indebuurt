@@ -88,6 +88,10 @@ $radius-badge: $radius-lg;
 $container-max-width: $base-unit * 80; // 80rem = 1280px
 $sidebar-width: $base-unit * 12.5; // 12.5rem = 200px
 
+// Sticky header heights (for scroll offset calculations)
+$header-height: 60px; // Main header height
+$sidebar-height-mobile: 60px; // Sidebar navigation height on mobile
+
 // Responsive margins/paddings
 $margin-sm: $spacing-sm;
 $margin-md: $spacing-lg;

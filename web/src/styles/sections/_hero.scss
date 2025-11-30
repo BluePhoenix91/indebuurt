@@ -181,12 +181,12 @@
 
 .sidebar {
   position: sticky;
-  top: calc($spacing-md + 60px); // Account for sticky header height
+  top: calc($spacing-md + $header-height); // Account for sticky header height
   height: fit-content;
 
   @media (max-width: $breakpoint-mobile) {
     position: sticky;
-    top: 60px; // Stick below header
+    top: $header-height; // Stick below header
     z-index: 10;
     background-color: white;
     width: 100vw;
@@ -234,10 +234,6 @@
   &:hover {
     background-color: white;
     color: $primary;
-  }
-
-  &.active {
-    font-weight: $font-weight-bold;
   }
 
   @media (max-width: $breakpoint-mobile) {

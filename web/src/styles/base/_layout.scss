@@ -24,3 +24,16 @@
     padding: $spacing-md $spacing-md;
   }
 }
+
+/* Scroll offset for anchor links to account for sticky headers */
+section[id] {
+  scroll-margin-top: calc(
+    $header-height + $sidebar-height-mobile
+  ); // Account for header + sidebar on mobile
+
+  @media (min-width: $breakpoint-mobile) {
+    scroll-margin-top: calc(
+      $header-height + $spacing-md
+    ); // Account for header + buffer on desktop (sidebar doesn't block)
+  }
+}

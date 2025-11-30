@@ -69,14 +69,13 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
   <div class="content-wrapper">
     <aside class="sidebar">
       <nav class="sidebar-nav">
-        <a href="#inleiding" class="sidebar-link active"> Inleiding </a>
+        <a href="#inleiding" class="sidebar-link"> Inleiding </a>
         <a href="#voorzieningen" class="sidebar-link"> Voorzieningen </a>
-        <a href="#statistieken" class="sidebar-link"> Statistieken </a>
       </nav>
     </aside>
 
     <div class="content-section">
-      <section class="intro-section">
+      <section id="inleiding" class="intro-section">
         <div class="intro-content section">
           {
             neighborhood.intro
@@ -104,7 +103,7 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
         </div>
       </section>
 
-      <section id="facilities">
+      <section id="voorzieningen">
         <h2 class="text-h2">Hondvriendelijke voorzieningen</h2>
         <p class="mt-sm">{neighborhood.facilities.intro}</p>
         <section id="dog-parks" class="mt-xl">
@@ -143,4 +142,9 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
       </section>
     </div>
   </div>
+
+  <script>
+    import { initActiveNavigation } from "../scripts/activeNavigation";
+    initActiveNavigation();
+  </script>
 </NeighborhoodLayout>
