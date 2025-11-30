@@ -1,0 +1,40 @@
+---
+interface Props {
+  icon: string;
+  title: string;
+  distance: string;
+  distanceIcon?: string;
+  description: string;
+  detail: string;
+}
+
+const {
+  icon,
+  title,
+  distance,
+  distanceIcon = "fa-regular fa-person-walking",
+  description,
+  detail,
+} = Astro.props;
+---
+
+<article class="value-card">
+  <header>
+    <div>
+      <i class={icon}></i>
+      <h3>{title}</h3>
+    </div>
+    <span class="distance">
+      <i class={distanceIcon}></i>
+      {distance}
+    </span>
+  </header>
+
+  <div class="value-content">
+    <p>{description}</p>
+    <div>
+      <i class="fa-regular fa-map-pin"></i>
+      {detail}
+    </div>
+  </div>
+</article>

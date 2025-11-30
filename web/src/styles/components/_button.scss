@@ -1,11 +1,11 @@
-@use 'sass:color';
-@use '../variables' as *;
+@use "sass:color";
+@use "../variables" as *;
 
 /* Button Component */
 
 .btn {
   display: inline-block;
-  padding: $spacing-3xl $spacing-md;
+  padding: $spacing-md $spacing-lg;
   border-radius: $radius-button;
   font-weight: $font-weight-semibold;
   font-size: $size-body-small;

@@ -14,12 +14,14 @@ $base-line-height: 1.5; // Default line height
 $background-white: #fafafa;
 $background-light: #faf4e8;
 $primary: #ff7a70;
-$black: #2a2a2a;
-$accent-2: #5183b5;
-$calm-grey-600: #898989;
 $secondary: #6a8f4e;
-$very-light-grey: #e7ebe9;
+$black: #2a2a2a;
+$calm-grey-800: #4a4a4a;
+$calm-grey-600: #898989;
+$calm-grey-400: #d2d2d2;
+$calm-grey-200: #e8e8e8;
 $accent-1: #ffd66b;
+$accent-2: #5183b5;
 
 //
 // Spacing Scale
@@ -33,10 +35,6 @@ $spacing-md: $base-unit * 1.5; // 1.5rem = 24px
 $spacing-lg: $base-unit * 2; // 2rem = 32px
 $spacing-xl: $base-unit * 3; // 3rem = 48px
 $spacing-xxl: $base-unit * 4; // 4rem = 64px
-
-// Fine-tuning sizes (for design-specific needs)
-$spacing-xxxs: $base-unit * 0.375; // 0.375rem = 6px
-$spacing-3xl: $base-unit * 0.75; // 0.75rem = 12px
 
 //
 // Typography Scale
@@ -62,7 +60,7 @@ $size-body: $font-md;
 $size-body-small: $font-xs;
 
 // Font weights
-$font-weight-light: 300;
+$font-weight-light: 200;
 $font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-semibold: 600;
@@ -87,7 +85,7 @@ $radius-badge: $radius-lg;
 // Based on $base-unit
 //
 
-$container-max-width: $base-unit * 75; // 75rem = 1200px
+$container-max-width: $base-unit * 80; // 80rem = 1280px
 $sidebar-width: $base-unit * 12.5; // 12.5rem = 200px
 
 // Responsive margins/paddings
@@ -102,15 +100,6 @@ $margin-md: $spacing-lg;
 $breakpoint-mobile: $base-unit * 48; // 48rem = 768px
 $breakpoint-tablet: $base-unit * 64; // 64rem = 1024px
 $breakpoint-desktop: $base-unit * 80; // 80rem = 1280px
-
-//
-// Icon Sizes
-// Based on $base-unit
-//
-
-$icon-sm: $base-unit; // 1rem = 16px
-$icon-md: $base-unit * 1.5; // 1.5rem = 24px
-$icon-lg: $base-unit * 2; // 2rem = 32px
 
 //
 // Border Widths

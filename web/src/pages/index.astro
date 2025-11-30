@@ -1,5 +1,6 @@
 ---
 import Badge from "../components/Badge.astro";
+import ValueCard from "../components/ValueCard.astro";
 import { neighborhoods } from "../data/neighborhoods";
 import NeighborhoodLayout from "../layouts/NeighborhoodLayout.astro";
 
@@ -64,8 +65,8 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
     </div>
   </section>
 
-  <section class="intro-section">
-    <aside class="intro-sidebar">
+  <div class="content-wrapper">
+    <aside class="sidebar">
       <nav class="sidebar-nav">
         <a href="#inleiding" class="sidebar-link active"> Inleiding </a>
         <a href="#voorzieningen" class="sidebar-link"> Voorzieningen </a>
@@ -73,8 +74,34 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
       </nav>
     </aside>
 
-    <div class="intro-content">
-      {neighborhood.intro.split("\n\n").map((paragraph) => <p>{paragraph}</p>)}
+    <div class="content">
+      <section class="intro-section">
+        <div class="intro-content">
+          {
+            neighborhood.intro
+              .split("\n\n")
+              .map((paragraph) => <p>{paragraph}</p>)
+          }
+        </div>
+      </section>
+
+      <section class="value-cards-section">
+        <h2 class="text-h2">Wat baasjes hier zo waarderen</h2>
+        <div class="value-cards-grid">
+          {
+            neighborhood.valueCards.map((card) => (
+              <ValueCard
+                icon={card.icon}
+                title={card.title}
+                distance={card.distance}
+                distanceIcon={card.distanceIcon}
+                description={card.description}
+                detail={card.detail}
+              />
+            ))
+          }
+        </div>
+      </section>
     </div>
-  </section>
+  </div>
 </NeighborhoodLayout>

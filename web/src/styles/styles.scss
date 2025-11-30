@@ -1,8 +1,11 @@
 // Main SCSS entry point
-// Import order: reset → variables → global styles → components
+// Import order: reset → variables → global styles → sections
 
 @use 'reset';
 @use 'variables';
 @use 'global';
-@use 'header';
-@use 'hero';
+
+// Page sections
+@use 'sections/header';
+@use 'sections/hero';
+@use 'sections/value-cards';

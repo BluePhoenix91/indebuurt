@@ -1,3 +1,12 @@
+export interface ValueCard {
+  icon: string;
+  title: string;
+  distance: string;
+  distanceIcon?: string;
+  description: string;
+  detail: string;
+}
+
 export interface Neighborhood {
   id: string;
   name: string;
@@ -10,6 +19,7 @@ export interface Neighborhood {
     src: string;
     alt: string;
   };
+  valueCards: ValueCard[];
 }
 
 export const neighborhoods: Record<string, Neighborhood> = {
@@ -29,5 +39,55 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       src: '/images/maps/antwerpen-zuid-hero.svg',
       alt: 'Kaart van Antwerpen-Zuid',
     },
+    valueCards: [
+      {
+        icon: 'fa-solid fa-dog',
+        title: 'Hondenparken',
+        distance: '10 mins',
+        distanceIcon: 'fa-regular fa-person-walking',
+        description: 'Altijd dichtbij - perfect voor snelle wandelroutes',
+        detail: 'Meestal binnen 800 meter',
+      },
+      {
+        icon: 'fa-solid fa-shield-heart',
+        title: 'Dierenartsen',
+        distance: '10 mins',
+        distanceIcon: 'fa-regular fa-car',
+        description: 'Altijd snel hulp bij nood',
+        detail: 'Meestal binnen 1 000 meter',
+      },
+      {
+        icon: 'fa-solid fa-bag-shopping',
+        title: 'Dierenwinkels',
+        distance: '20 mins',
+        distanceIcon: 'fa-regular fa-bicycle',
+        description: 'Voor een extra speeltje ben je nooit ver weg',
+        detail: 'Meestal binnen 600 meter',
+      },
+      {
+        icon: 'fa-solid fa-trees',
+        title: 'Groene ruimtes',
+        distance: '10 mins',
+        distanceIcon: 'fa-regular fa-person-walking',
+        description: 'Je moet er even voor stappen',
+        detail: 'Meestal binnen de 2 000 meter',
+      },
+      {
+        icon: 'fa-solid fa-bus',
+        title: 'Openbaar vervoer',
+        distance: '10 mins',
+        distanceIcon: 'fa-regular fa-person-walking',
+        description: 'Je raakt overal makkelijk zonder auto',
+        detail: 'Meestal binnen 800 meter',
+      },
+      {
+        icon: 'fa-solid fa-house',
+        title: 'Gemiddelde woningprijs',
+        distance: '10 mins',
+        distanceIcon: 'fa-regular fa-person-walking',
+        description: 'Prijsniveau in lijn met overige buurten',
+        detail: '€ 385.000 mediaanprijs',
+      },
+    ],
   },
 };

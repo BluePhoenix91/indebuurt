@@ -1,0 +1,32 @@
+@use "../variables" as *;
+
+/* Header & Navigation */
+
+body > header {
+  background-color: white;
+  border-bottom: $border-thin solid $calm-grey-200;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  nav {
+    max-width: $container-max-width;
+    margin: 0 auto;
+    padding: $spacing-sm $spacing-md;
+
+    a {
+      font-size: $size-body;
+      color: $black;
+      text-decoration: none;
+      transition: color $transition-normal ease;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+
+    @media (min-width: $breakpoint-mobile) {
+      padding: $spacing-sm $spacing-lg;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 @use "sass:color";
-@use "variables" as *;
+@use "../variables" as *;
 
 /* Hero Section */
 
@@ -90,7 +90,7 @@
   gap: $spacing-xs;
 
   i {
-    font-size: $icon-md;
+    font-size: $size-body;
     color: $primary;
     flex-shrink: 0;
   }
@@ -128,7 +128,7 @@
 .tab {
   display: inline-flex;
   align-items: center;
-  gap: $spacing-xxxs;
+  gap: $spacing-xxs;
   padding: $spacing-sm $spacing-md;
   text-decoration: none;
   margin-bottom: calc($border-regular * -1);
@@ -168,9 +168,9 @@
   }
 }
 
-/* Intro Section */
+/* Content Wrapper with Sidebar */
 
-.intro-section {
+.content-wrapper {
   display: grid;
   grid-template-columns: $sidebar-width 1fr;
   gap: $spacing-xl;
@@ -180,20 +180,24 @@
 
   @media (max-width: $breakpoint-mobile) {
     grid-template-columns: 1fr;
-    gap: $spacing-md;
-    padding: $spacing-md $spacing-md;
+    gap: 0;
+    padding: 0;
   }
 }
 
-.intro-sidebar {
+.sidebar {
   position: sticky;
-  top: $spacing-md;
+  top: calc($spacing-md + 60px); // Account for sticky header height
   height: fit-content;
 
   @media (max-width: $breakpoint-mobile) {
-    position: static;
+    position: sticky;
+    top: 60px; // Stick below header
+    z-index: 10;
+    background-color: white;
     width: 100%;
-    overflow: hidden;
+    margin-left: calc(-1 * $spacing-md);
+    margin-right: calc(-1 * $spacing-md);
   }
 }
 
@@ -215,7 +219,11 @@
     }
     border-radius: 0;
     border: none;
+    border-top: $border-thin solid $primary;
     border-bottom: $border-thin solid $primary;
+    padding: $spacing-xs 0;
+    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -230,6 +238,7 @@
   text-decoration: none;
   border-radius: $radius-button;
   transition: all $transition-normal ease;
+  color: $primary;
 
   &:hover {
     background-color: white;
@@ -237,12 +246,37 @@
   }
 
   &.active {
-    color: $primary;
     font-weight: $font-weight-bold;
   }
 
   @media (max-width: $breakpoint-mobile) {
     white-space: nowrap;
+
+    &:first-child {
+      margin-left: $spacing-md;
+    }
+
+    &:last-child {
+      margin-right: $spacing-md;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xxl;
+
+  @media (max-width: $breakpoint-mobile) {
+    gap: $spacing-xl;
+  }
+}
+
+/* Intro Section */
+
+.intro-section {
+  @media (max-width: $breakpoint-mobile) {
+    padding: $spacing-xl $spacing-md;
   }
 }
 
