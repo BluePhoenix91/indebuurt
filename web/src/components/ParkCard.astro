@@ -1,0 +1,41 @@
+---
+import Badge from './Badge.astro';
+
+interface Props {
+  name: string;
+  distance: string;
+  distanceIcon?: string;
+  icon?: string;
+  features: {
+    text: string;
+    icon: string;
+  }[];
+}
+
+const {
+  name,
+  distance,
+  icon = "fa-solid fa-bench-tree",
+  distanceIcon = "fa-regular fa-person-walking",
+  features,
+} = Astro.props;
+---
+
+<article class="park-card">
+  <header>
+    <i class={icon}></i>
+    <h3>{name}</h3>
+    <span class="distance">
+      <i class={distanceIcon}></i>
+      {distance}
+    </span>
+  </header>
+
+  <div class="park-features">
+    {
+      features.map((feature) => {
+        return <Badge variant="muted" icon={feature.icon}>{feature.text}</Badge>;
+      })
+    }
+  </div>
+</article>

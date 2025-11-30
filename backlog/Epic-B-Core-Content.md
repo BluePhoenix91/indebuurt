@@ -23,40 +23,49 @@
 - All content server-rendered, no client-side JavaScript required
 - Verified build output contains all required elements
 
-## Story B2: "What Dog Owners Value Here" Cards
+## Story B2: "What Dog Owners Value Here" Cards ✅
 > As a dog owner, I want to quickly scan the main advantages of the neighbourhood, so I know whether it fits my lifestyle.
 
 **Acceptance Criteria:**
-- [ ] Section heading for "Wat baasjes hier zo waarderen" rendered as an H2
-- [ ] 6 cards implemented:
-    - [ ] Dog parks
-    - [ ] Vets
-    - [ ] Pet stores
-    - [ ] Green spaces
-    - [ ] Public transport
-    - [ ] Average house price
-- [ ] Each card contains:
-    - [ ] Icon placeholder
-    - [ ] Title
-    - [ ] Short description
-    - [ ] Supporting detail line (distance or price)
-- [ ] Card data loaded from a data structure (e.g. JSON or frontmatter), not hardcoded inline
-- [ ] Responsive layout: 3 columns on desktop, 1–2 columns on smaller viewports
-- [ ] Semantic HTML used (`<section>`, `<article>`, headings, paragraphs)
+- [x] Section heading for "Wat baasjes hier zo waarderen" rendered as an H2
+- [x] 6 cards implemented:
+    - [x] Dog parks
+    - [x] Vets
+    - [x] Pet stores
+    - [x] Green spaces
+    - [x] Public transport
+    - [x] Average house price
+- [x] Each card contains:
+    - [x] Icon placeholder
+    - [x] Title
+    - [x] Short description
+    - [x] Supporting detail line (distance or price)
+- [x] Card data loaded from a data structure (e.g. JSON or frontmatter), not hardcoded inline
+- [x] Responsive layout: 3 columns on desktop, 1–2 columns on smaller viewports
+- [x] Semantic HTML used (`<section>`, `<article>`, headings, paragraphs)
 
-## Story B3: Dog Parks & Off-Leash Zones Section
+## Story B3: Dog Parks & Off-Leash Zones Section ✅
 > As a dog owner, I want to see nearby dog parks and their characteristics, so I know where I can go with my dog.
 
 **Acceptance Criteria:**
-- [ ] Section heading rendered for dog parks/off-leash zones
-- [ ] Introductory text paragraph explains the section
-- [ ] At least two park cards implemented (e.g. Morekstraat, Aziëstraat) with:
-    - [ ] Park name
-    - [ ] Estimated walk time or distance
-    - [ ] Bullet list of key features (e.g. fenced, off-leash allowed, opening hours)
-- [ ] Static map placeholder image placed to the right on desktop
-- [ ] Map image has descriptive alt text (e.g. "Locaties van hondenspeelweides in Antwerpen-Zuid")
-- [ ] On mobile, section stacks vertically in a sensible order (text, cards, then image)
+- [x] Section heading rendered for dog parks/off-leash zones
+- [x] Introductory text paragraph explains the section
+- [x] At least two park cards implemented (e.g. Morekstraat, Aziëstraat) with:
+    - [x] Park name
+    - [x] Estimated walk time or distance
+    - [x] Bullet list of key features (e.g. fenced, off-leash allowed, opening hours)
+- [x] Static map placeholder image placed to the right on desktop
+- [x] Map image has descriptive alt text (e.g. "Locaties van hondenspeelweides in Antwerpen-Zuid")
+- [x] On mobile, section stacks vertically in a sensible order (text, cards, then image)
+
+**Implementation Notes:**
+- Created `ParkCard.astro` component with semantic HTML structure
+- Added `DogPark` interface to `neighborhoods.ts` with park data structure
+- Implemented two park cards: Morekstraat and Aziëstraat with features
+- Created `_dog-parks.scss` with responsive grid layout (2 columns on desktop, stacked on mobile)
+- Generated placeholder SVG map with numbered markers at `web/public/images/maps/antwerpen-zuid-dogparks.svg`
+- All content server-rendered, no client-side JavaScript required
+- Verified build output contains all required elements
 
 ## Story B4: Vets Section
 > As a dog owner, I want to know which veterinarians are nearby, so I feel secure for emergencies.

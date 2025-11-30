@@ -35,3 +35,8 @@
   background-color: $accent-1;
   color: $black;
 }
+
+.badge-muted {
+  color: $calm-grey-600;
+  border: $border-thin solid $calm-grey-400;
+}

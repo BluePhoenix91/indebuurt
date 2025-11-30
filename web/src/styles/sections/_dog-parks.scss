@@ -1,0 +1,107 @@
+@use "../variables" as *;
+
+/* Dog Parks Section */
+
+.dog-parks-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $spacing-lg;
+  margin-top: $spacing-lg;
+
+  @media (max-width: $breakpoint-mobile) {
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+    padding: 0 $spacing-md;
+  }
+}
+
+.dog-parks-content {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+
+  p {
+    font-size: $size-body;
+    line-height: 1.8;
+    color: $black;
+    margin: 0;
+  }
+}
+
+.dog-parks-list {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.dog-parks-map {
+  border-radius: $radius-card;
+  overflow: hidden;
+  height: fit-content;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    order: 3;
+  }
+}
+
+/* Park Card Component */
+
+.park-card {
+  background-color: rgba($color: $secondary, $alpha: 0.1);
+  border: $border-thin solid $secondary;
+  border-radius: $radius-card;
+  padding: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: $spacing-sm;
+
+    i {
+      font-size: $size-body;
+      color: $secondary;
+    }
+
+    h3 {
+      font-size: $size-body;
+      font-weight: $font-weight-bold;
+      color: $secondary;
+      margin: 0;
+      flex: 1;
+    }
+
+    .distance {
+      display: flex;
+      align-items: center;
+      gap: $spacing-xxs;
+      font-size: $size-body-small;
+      color: rgba($color: $secondary, $alpha: 0.75);
+      white-space: nowrap;
+
+      i {
+        font-size: $size-body-small;
+        font-weight: $font-weight-normal;
+        color: $secondary;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  .park-features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: $spacing-xs;
+  }
+}
