@@ -30,6 +30,18 @@ export interface Vet {
   distanceIcon?: string;
 }
 
+export interface PetStore {
+  icon: string;
+  name: string;
+  street: string;
+  streetNumber: string;
+  bus?: string;
+  municipality: string;
+  postalCode: string;
+  distance: string;
+  distanceIcon?: string;
+}
+
 export interface Neighborhood {
   id: string;
   name: string;
@@ -57,6 +69,14 @@ export interface Neighborhood {
   vets: {
     intro: string;
     practices: Vet[];
+    mapImage: {
+      src: string;
+      alt: string;
+    };
+  };
+  petStores: {
+    intro: string;
+    stores: PetStore[];
     mapImage: {
       src: string;
       alt: string;
@@ -232,6 +252,46 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       mapImage: {
         src: "/images/maps/antwerpen-zuid-vets.svg",
         alt: "Locaties van dierenartsenpraktijken in Antwerpen-Zuid",
+      },
+    },
+    petStores: {
+      intro:
+        "Voor hondenvoer, speeltjes, accessoires en andere benodigdheden zijn er verschillende dierenwinkels in de buurt. Alle winkels liggen op wandel- of fietsafstand, waardoor je makkelijk even langs kunt gaan voor een nieuwe voorraad.",
+      stores: [
+        {
+          name: "Dierenwinkel Antwerpen-Zuid",
+          icon: "fa-solid fa-bag-shopping",
+          street: "Mechelsesteenweg",
+          streetNumber: "189",
+          municipality: "Antwerpen",
+          postalCode: "2018",
+          distance: "6 mins",
+          distanceIcon: "fa-regular fa-person-walking",
+        },
+        {
+          name: "Pet Shop Deurne",
+          icon: "fa-solid fa-bag-shopping",
+          street: "Turnhoutsebaan",
+          streetNumber: "312",
+          municipality: "Antwerpen",
+          postalCode: "2140",
+          distance: "12 mins",
+          distanceIcon: "fa-regular fa-bicycle",
+        },
+        {
+          name: "Dierenwinkel Het Huisdier",
+          icon: "fa-solid fa-bag-shopping",
+          street: "Borsbeeksebrug",
+          streetNumber: "45",
+          municipality: "Antwerpen",
+          postalCode: "2018",
+          distance: "10 mins",
+          distanceIcon: "fa-regular fa-person-walking",
+        },
+      ],
+      mapImage: {
+        src: "/images/maps/antwerpen-zuid-pet-stores.svg",
+        alt: "Locaties van dierenwinkels in Antwerpen-Zuid",
       },
     },
   },

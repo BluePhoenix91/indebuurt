@@ -1,6 +1,7 @@
 ---
 import Badge from "../components/Badge.astro";
 import ParkCard from "../components/ParkCard.astro";
+import PetStoreCard from "../components/PetStoreCard.astro";
 import SectionHeading from "../components/SectionHeading.astro";
 import ValueCard from "../components/ValueCard.astro";
 import VetCard from "../components/VetCard.astro";
@@ -173,6 +174,43 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
               <img
                 src={neighborhood.vets.mapImage.src}
                 alt={neighborhood.vets.mapImage.alt}
+                width="600"
+                height="400"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="pet-stores" class="mt-xl">
+          <SectionHeading level={3}>Dierenwinkels</SectionHeading>
+          <p class="mt-sm">{neighborhood.petStores.intro}</p>
+          <div class="pet-stores-section">
+            <div class="pet-stores-content">
+              <div class="pet-stores-list">
+                {
+                  neighborhood.petStores.stores.map((store) => (
+                    <PetStoreCard
+                      icon={store.icon}
+                      name={store.name}
+                      street={store.street}
+                      streetNumber={store.streetNumber}
+                      bus={store.bus}
+                      municipality={store.municipality}
+                      postalCode={store.postalCode}
+                      distance={store.distance}
+                      distanceIcon={store.distanceIcon}
+                    />
+                  ))
+                }
+              </div>
+              <button class="btn btn-secondary-outline">
+                <i class="fa-regular fa-map"></i>
+                Bekijk op kaart
+              </button>
+            </div>
+            <div class="pet-stores-map">
+              <img
+                src={neighborhood.petStores.mapImage.src}
+                alt={neighborhood.petStores.mapImage.alt}
                 width="600"
                 height="400"
               />

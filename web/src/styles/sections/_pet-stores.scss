@@ -2,9 +2,9 @@
 @use "../variables" as *;
 @use "../mixins" as *;
 
-/* Vets Section */
+/* Pet Stores Section */
 
-.vets-section {
+.pet-stores-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: $spacing-lg;
@@ -17,7 +17,7 @@
   }
 }
 
-.vets-content {
+.pet-stores-content {
   display: flex;
   flex-direction: column;
   gap: $spacing-md;
@@ -46,7 +46,7 @@
   }
 }
 
-.vets-list {
+.pet-stores-list {
   display: flex;
   flex-direction: column;
   gap: $spacing-md;
@@ -56,7 +56,7 @@
   }
 }
 
-.vets-map {
+.pet-stores-map {
   position: sticky;
   top: $spacing-md;
   align-self: start;
@@ -77,13 +77,13 @@
   }
 }
 
-/* Vet Card Component */
+/* Pet Store Card Component */
 
-.vet-card {
-  @include base-card($primary);
+.pet-store-card {
+  @include base-card($accent-2);
 
   header {
-    @include card-header($primary);
+    @include card-header($accent-2);
 
     > div {
       display: flex;
@@ -97,11 +97,11 @@
     }
 
     .distance {
-      @include distance-display($primary);
+      @include distance-display($accent-2);
     }
   }
 
-  .vet-address {
+  .pet-store-address {
     p {
       font-size: $size-body;
       color: $black;
@@ -117,4 +117,3 @@
     }
   }
 }
-

@@ -1,0 +1,48 @@
+---
+interface Props {
+  name: string;
+  street: string;
+  streetNumber: string;
+  bus?: string;
+  municipality: string;
+  postalCode: string;
+  distance: string;
+  distanceIcon?: string;
+  icon?: string;
+}
+
+const {
+  name,
+  street,
+  streetNumber,
+  bus,
+  municipality,
+  postalCode,
+  distance,
+  icon = "fa-solid fa-bag-shopping",
+  distanceIcon = "fa-regular fa-person-walking",
+} = Astro.props;
+---
+
+<article class="pet-store-card">
+  <header>
+    <div>
+      <i class={icon}></i>
+      <h3>{name}</h3>
+    </div>
+    <span class="distance">
+      <i class={distanceIcon}></i>
+      {distance}
+    </span>
+  </header>
+
+  <div class="pet-store-address">
+    <p>
+      <span class="street-line"
+        >{street} {streetNumber}{bus ? ` bus ${bus}` : ""}</span
+      >
+      <span class="municipality-line">{postalCode} {municipality}</span>
+    </p>
+  </div>
+</article>
+

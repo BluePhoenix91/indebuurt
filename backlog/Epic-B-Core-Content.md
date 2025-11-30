@@ -107,21 +107,37 @@
 - All content server-rendered, no client-side JavaScript required
 - Verified build output contains all required elements
 
-## Story B5: Pet Stores Section
+## Story B5: Pet Stores Section ✅
 
 > As a dog owner, I want to know where I can buy food and supplies, so I can plan my daily life.
 
 **Acceptance Criteria:**
 
-- [ ] Pet stores section has a subheading
-- [ ] List of pet store cards implemented (minimum two), each including:
-  - [ ] Store name
-  - [ ] Address
-  - [ ] Estimated walk time or distance
-- [ ] Static map placeholder image rendered next to the list on desktop
-- [ ] Map image has descriptive alt text indicating pet store locations
-- [ ] Layout matches the vets section pattern for consistency
-- [ ] Card content loaded from a data structure
+- [x] Pet stores section has a subheading
+- [x] List of pet store cards implemented (minimum two), each including:
+  - [x] Store name
+  - [x] Address
+  - [x] Estimated walk time or distance
+- [x] Static map placeholder image rendered next to the list on desktop
+- [x] Map image has descriptive alt text indicating pet store locations
+- [x] Layout matches the vets section pattern for consistency
+- [x] Card content loaded from a data structure
+
+**Implementation Notes:**
+
+- Created `PetStoreCard.astro` component reusing established card mixins (`base-card`, `card-header`, `distance-display`)
+- Uses accent-2 color scheme (`$accent-2`) matching value cards: vets (primary), pet stores (accent-2), dog parks (secondary), value cards (accent-2)
+- Address formatted on two lines: street + number + bus (optional) on first line, postal code + municipality on second line
+- Added `PetStore` interface to `neighborhoods.ts` with structured address fields (same as Vet interface)
+- Implemented three pet stores: Dierenwinkel Antwerpen-Zuid, Pet Shop Deurne, Dierenwinkel Het Huisdier
+- Created `_pet-stores.scss` following same pattern as `_vets.scss`:
+  - Grid layout (2 columns on desktop, stacked on mobile)
+  - Horizontal scroll container mixin for mobile
+  - Sticky map with dynamic height matching list content (max-height for viewport constraint)
+- Generated placeholder SVG map with numbered markers at `web/public/images/maps/antwerpen-zuid-pet-stores.svg`
+- Map height dynamically matches list height when shorter than viewport, scrolls correctly when longer
+- All content server-rendered, no client-side JavaScript required
+- Verified build output contains all required elements
 
 ## Story B6: Daily Life Narrative Block
 
