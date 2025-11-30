@@ -181,6 +181,7 @@
   @media (max-width: $breakpoint-mobile) {
     grid-template-columns: 1fr;
     gap: $spacing-md;
+    padding: $spacing-md $spacing-md;
   }
 }
 
@@ -191,6 +192,8 @@
 
   @media (max-width: $breakpoint-mobile) {
     position: static;
+    width: 100%;
+    overflow: hidden;
   }
 }
 
@@ -205,6 +208,14 @@
   @media (max-width: $breakpoint-mobile) {
     flex-direction: row;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
+    }
+    border-radius: 0;
+    border: none;
+    border-bottom: $border-thin solid $primary;
   }
 }
 
