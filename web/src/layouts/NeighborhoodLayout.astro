@@ -10,6 +10,7 @@ interface Props {
   ogDescription?: string;
   ogUrl?: string;
   ogImage?: string;
+  heroImage?: string;
 }
 
 const {
@@ -19,7 +20,8 @@ const {
   ogTitle = title,
   ogDescription = description,
   ogUrl = canonical,
-  ogImage = '/favicon.svg'
+  ogImage = '/favicon.svg',
+  heroImage
 } = Astro.props;
 
 const GA4_MEASUREMENT_ID = import.meta.env.PUBLIC_GA4_MEASUREMENT_ID;
@@ -37,6 +39,11 @@ const isProduction = import.meta.env.PROD;
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+
+    <!-- Preload LCP image for better performance -->
+    {heroImage && (
+      <link rel="preload" as="image" href={heroImage} fetchpriority="high" />
+    )}
 
     <!-- Open Graph / Social Media -->
     <meta property="og:title" content={ogTitle} />

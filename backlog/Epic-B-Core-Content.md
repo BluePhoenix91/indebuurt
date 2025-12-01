@@ -124,6 +124,7 @@
 - [x] Card content loaded from a data structure
 
 **Implementation Notes:**
+
 - Created `PetStoreCard.astro` component using enhanced card mixins (`base-card`, `card-header` with wrapper support, `address-display`)
 - Uses accent-2 color scheme (`$accent-2`) matching value cards for visual consistency
 - Address formatted on two lines: street + number + bus (optional) on first line, postal code + municipality on second line
@@ -140,30 +141,58 @@
 - All content server-rendered, no client-side JavaScript required
 - Verified build output contains all required elements
 
-## Story B6: Daily Life Narrative Block
+## Story B6: Daily Life Narrative Block ✅
 
 > As a dog owner, I want a narrative about daily life in this neighbourhood, so I can imagine living there.
 
 **Acceptance Criteria:**
 
-- [ ] Section heading for "Wat dit betekent voor jouw dagelijkse leven…" rendered as H2
-- [ ] One main explanatory paragraph rendered
-- [ ] Bullet list of daily-life benefits (e.g. morning walks, quick access to parks, etc.)
-- [ ] Semantic HTML used (`<p>`, `<ul>`, `<li>`)
-- [ ] Wording includes relevant SEO phrases (e.g. "hondvriendelijke buurt") without keyword stuffing
+- [x] Section heading for "Wat dit betekent voor jouw dagelijkse leven…" rendered as H2
+- [x] One main explanatory paragraph rendered
+- [x] Bullet list of daily-life benefits (e.g. morning walks, quick access to parks, etc.)
+- [x] Semantic HTML used (`<p>`, `<ul>`, `<li>`)
+- [x] Wording includes relevant SEO phrases (e.g. "hondvriendelijke buurt") without keyword stuffing
 
-## Story B7: "Baasjes Helpen Baasjes" Contribution Block
+**Implementation Notes:**
+
+- Added `DailyLife` interface to `neighborhoods.ts` with `title`, `intro`, and `benefits` array
+- Implemented section in `web/src/pages/index.astro` with semantic HTML structure
+- Section heading uses `SectionHeading` component with level={2}
+- Main paragraph renders `neighborhood.dailyLife.intro` content
+- Bullet list implemented with `<ul>` and `<li>` elements mapping over `neighborhood.dailyLife.benefits` array
+- Created `_daily-life.scss` with styled bullet points using primary color
+- Content includes natural SEO phrases: "hondvriendelijke plekjes", "met een hond", "viervoeter", "baasjes"
+- All content server-rendered, no client-side JavaScript required
+- Verified build output contains all required elements
+
+## Story B7: "Baasjes Helpen Baasjes" Contribution Block ✅
 
 > As a dog owner, I want to share my experience of the neighbourhood, so I can help other owners.
 
 **Acceptance Criteria:**
 
-- [ ] Section heading for "Baasjes helpen baasjes" rendered
-- [ ] Short intro text explains why feedback is useful
-- [ ] Visual grey block styled according to design (or close MVP)
-- [ ] Primary CTA button created (e.g. "Deel je ervaring over Antwerpen-Zuid")
-- [ ] CTA navigates to an external survey page (Typeform/Google Forms) or a simple internal feedback page
-- [ ] GA4 custom event fired on CTA click (using the implementation from Story A3)
+- [x] Section heading for "Baasjes helpen baasjes" rendered
+- [x] Short intro text explains why feedback is useful
+- [x] Visual grey block styled according to design (or close MVP)
+- [x] Primary CTA button created (e.g. "Deel je ervaring over Antwerpen-Zuid")
+- [x] CTA navigates to an external survey page (Typeform/Google Forms) or a simple internal feedback page
+- [x] GA4 custom event fired on CTA click (using the implementation from Story A3)
+
+**Implementation Notes:**
+
+- Added `ContributionCTA` interface to `neighborhoods.ts` with `heading`, `intro`, and `typeformId`
+- Created `TypeformEmbed.astro` component with SEO-friendly lazy loading:
+  - Reserves space with `min-height: 600px` to prevent layout shift (CLS)
+  - Uses Intersection Observer to load Typeform script only when section enters viewport
+  - Tracks GA4 `typeform_loaded` event when embed loads
+- Implemented contribution section in `web/src/pages/index.astro`:
+  - Grid layout: 2/3 for Typeform embed, 1/3 for decorative image
+  - Responsive: stacks vertically on mobile with image shown first
+  - Grey background block (`$calm-grey-200`) with rounded corners
+- Created `_contribution.scss` with grid layout and sticky image positioning
+- Added section to sidebar navigation
+- Image uses lazy loading and proper alt text for accessibility
+- All content server-rendered, Typeform script loads client-side only when needed
 
 ## Story B8: Buurtstatistieken Section
 

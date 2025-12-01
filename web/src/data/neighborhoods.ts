@@ -87,6 +87,11 @@ export interface Neighborhood {
     intro: string;
     benefits: string[];
   };
+  contributionCTA: {
+    heading: string;
+    intro: string;
+    typeformId: string;
+  };
 }
 
 export const neighborhoods: Record<string, Neighborhood> = {
@@ -336,6 +341,12 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
         "En als er ooit iets gebeurt, is er altijd een dierenarts of dierenwinkel dichtbij.",
         'De combinatie van korte wandelrondes en langere groene routes maakt je leven "makkelijker zonder dat je het doorhebt".',
       ],
+    },
+    contributionCTA: {
+      heading: "Baasjes helpen baasjes",
+      intro:
+        "Help andere baasjes en schets hoe hondvriendelijk deze buurt is. Vul de enquête hieronder in. Het neemt niet meer dan 5 minuten in beslag en je wordt hun grote held.",
+      typeformId: "01KBDFG2BJG3DYTNX0X9GT2HDT",
     },
   },
 };

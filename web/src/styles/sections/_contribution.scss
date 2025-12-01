@@ -1,0 +1,44 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+/* Contribution Section */
+
+.contribution-intro {
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-lg;
+}
+
+.contribution-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: $spacing-xl;
+  align-items: center;
+
+  @media (max-width: $breakpoint-mobile) {
+    grid-template-columns: 1fr;
+    gap: $spacing-lg;
+  }
+}
+
+.contribution-form {
+  width: 100%;
+}
+
+.contribution-image {
+  position: sticky;
+  top: $spacing-md;
+  align-self: center;
+  border-radius: $radius-card;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+}
