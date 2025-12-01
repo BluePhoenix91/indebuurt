@@ -5,7 +5,7 @@
   "description": "buurtkompas.be - Neighborhood discovery platform for Belgium",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node src/scripts/font-display-fix.js",
     "preview": "astro preview",
     "astro": "astro"
   },
