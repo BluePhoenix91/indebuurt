@@ -1,5 +1,7 @@
 ---
 import Badge from "../components/Badge.astro";
+import InteractiveMap from "../components/InteractiveMap.astro";
+import MapModal from "../components/MapModal.astro";
 import ParkCard from "../components/ParkCard.astro";
 import PetStoreCard from "../components/PetStoreCard.astro";
 import SectionHeading from "../components/SectionHeading.astro";
@@ -47,13 +49,9 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
       </div>
 
       <div class="hero-map">
-        <img
-          src={neighborhood.mapImage.src}
-          alt={neighborhood.mapImage.alt}
-          width="600"
-          height="400"
-          fetchpriority="high"
-          decoding="async"
+        <InteractiveMap
+          center={neighborhood.coordinates}
+          height="400px"
         />
       </div>
 
@@ -138,17 +136,21 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
                   ))
                 }
               </div>
-              <button class="btn btn-secondary-outline">
+              <button class="btn btn-secondary-outline" data-open-modal="map-modal-dog-parks">
                 <i class="fa-regular fa-map"></i>
                 Bekijk op kaart
               </button>
             </div>
-            <div class="dog-parks-map">
-              <img
-                src={neighborhood.dogParks.mapImage.src}
-                alt={neighborhood.dogParks.mapImage.alt}
-                width="600"
-                height="400"
+            <div id="dog-parks-map" class="dog-parks-map">
+              <InteractiveMap
+                center={neighborhood.coordinates}
+                markers={neighborhood.dogParks.parks.map((park, index) => ({
+                  lat: park.coordinates.lat,
+                  lon: park.coordinates.lon,
+                  name: park.name,
+                  number: index + 1,
+                }))}
+                markerColor="#6a8f4e"
               />
             </div>
           </div>
@@ -175,17 +177,21 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
                   ))
                 }
               </div>
-              <button class="btn btn-primary-outline">
+              <button class="btn btn-primary-outline" data-open-modal="map-modal-vets">
                 <i class="fa-regular fa-map"></i>
                 Bekijk op kaart
               </button>
             </div>
-            <div class="vets-map">
-              <img
-                src={neighborhood.vets.mapImage.src}
-                alt={neighborhood.vets.mapImage.alt}
-                width="600"
-                height="400"
+            <div id="vets-map" class="vets-map">
+              <InteractiveMap
+                center={neighborhood.coordinates}
+                markers={neighborhood.vets.practices.map((vet, index) => ({
+                  lat: vet.coordinates.lat,
+                  lon: vet.coordinates.lon,
+                  name: vet.name,
+                  number: index + 1,
+                }))}
+                markerColor="#ff7a70"
               />
             </div>
           </div>
@@ -212,17 +218,21 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
                   ))
                 }
               </div>
-              <button class="btn btn-accent-2-outline">
+              <button class="btn btn-accent-2-outline" data-open-modal="map-modal-pet-stores">
                 <i class="fa-regular fa-map"></i>
                 Bekijk op kaart
               </button>
             </div>
-            <div class="pet-stores-map">
-              <img
-                src={neighborhood.petStores.mapImage.src}
-                alt={neighborhood.petStores.mapImage.alt}
-                width="600"
-                height="400"
+            <div id="pet-stores-map" class="pet-stores-map">
+              <InteractiveMap
+                center={neighborhood.coordinates}
+                markers={neighborhood.petStores.stores.map((store, index) => ({
+                  lat: store.coordinates.lat,
+                  lon: store.coordinates.lon,
+                  name: store.name,
+                  number: index + 1,
+                }))}
+                markerColor="#5183b5"
               />
             </div>
           </div>
@@ -299,8 +309,84 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
     </div>
   </div>
 
+  <!-- Map Modals -->
+  <MapModal
+    id="dog-parks"
+    title="Hondenparken & losloopzones"
+    center={neighborhood.coordinates}
+    markers={neighborhood.dogParks.parks.map((park, index) => ({
+      lat: park.coordinates.lat,
+      lon: park.coordinates.lon,
+      name: park.name,
+      number: index + 1,
+    }))}
+    markerColor="#6a8f4e"
+  />
+  <MapModal
+    id="vets"
+    title="Dierenartsen"
+    center={neighborhood.coordinates}
+    markers={neighborhood.vets.practices.map((vet, index) => ({
+      lat: vet.coordinates.lat,
+      lon: vet.coordinates.lon,
+      name: vet.name,
+      number: index + 1,
+    }))}
+    markerColor="#ff7a70"
+  />
+  <MapModal
+    id="pet-stores"
+    title="Dierenwinkels"
+    center={neighborhood.coordinates}
+    markers={neighborhood.petStores.stores.map((store, index) => ({
+      lat: store.coordinates.lat,
+      lon: store.coordinates.lon,
+      name: store.name,
+      number: index + 1,
+    }))}
+    markerColor="#5183b5"
+  />
+
   <script>
     import { initActiveNavigation } from "../scripts/activeNavigation";
     initActiveNavigation();
+
+    // Handle "Bekijk op kaart" button clicks - open modal on mobile, scroll on desktop
+    document.addEventListener("DOMContentLoaded", function() {
+      const openModalButtons = document.querySelectorAll("[data-open-modal]");
+      
+      openModalButtons.forEach(function(button) {
+        button.addEventListener("click", function(e) {
+          e.preventDefault();
+          const modalId = button.getAttribute("data-open-modal");
+          
+          // Check if we're on mobile (maps are hidden)
+          const isMobile = window.matchMedia("(max-width: 768px)").matches;
+          
+          if (isMobile && modalId) {
+            // Open modal on mobile
+            const openFunction = window[`openMapModal_${modalId}`];
+            if (openFunction) {
+              openFunction();
+            }
+          } else {
+            // Scroll to map on desktop
+            const mapId = modalId.replace("map-modal-", "");
+            const targetElement = document.getElementById(mapId);
+            
+            if (targetElement) {
+              const headerOffset = 80;
+              const elementPosition = targetElement.getBoundingClientRect().top;
+              const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+              window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+              });
+            }
+          }
+        });
+      });
+    });
   </script>
 </NeighborhoodLayout>

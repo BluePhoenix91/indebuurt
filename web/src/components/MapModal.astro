@@ -1,0 +1,204 @@
+---
+import InteractiveMap from "./InteractiveMap.astro";
+
+interface Marker {
+  lat: number;
+  lon: number;
+  name: string;
+  number?: number;
+}
+
+interface Props {
+  id: string;
+  title: string;
+  center: {
+    lat: number;
+    lon: number;
+    zoom: number;
+  };
+  markers?: Marker[];
+  markerColor?: string;
+}
+
+const { id, title, center, markers = [], markerColor = "#ff7a70" } = Astro.props;
+const modalId = `map-modal-${id}`;
+---
+
+<div id={modalId} class="map-modal" role="dialog" aria-labelledby={`${modalId}-title`} aria-modal="true">
+  <div class="map-modal-backdrop" data-close-modal={modalId}></div>
+  <div class="map-modal-content">
+    <header class="map-modal-header">
+      <h2 id={`${modalId}-title`} class="map-modal-title">{title}</h2>
+      <button class="map-modal-close" data-close-modal={modalId} aria-label="Sluit kaart">
+        <i class="fa-regular fa-xmark"></i>
+      </button>
+    </header>
+    <div class="map-modal-body">
+      <InteractiveMap
+        center={center}
+        markers={markers}
+        height="100%"
+        className="map-modal-map"
+        markerColor={markerColor}
+      />
+    </div>
+  </div>
+</div>
+
+<script define:vars={{ modalId }}>
+  document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.getElementById(modalId);
+    if (!modal) return;
+
+    // Open modal function
+    window[`openMapModal_${modalId}`] = function() {
+      modal.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+      
+      // Initialize any pending maps in this modal and invalidate existing maps
+      setTimeout(function() {
+        // Initialize pending maps
+        if (window.initPendingMaps) {
+          window.initPendingMaps(modal);
+        }
+        
+        // Invalidate size of existing maps (in case they were initialized but container was hidden)
+        const maps = modal.querySelectorAll('[data-map-id]');
+        maps.forEach(function(mapContainer) {
+          if (mapContainer._leafletMap) {
+            mapContainer._leafletMap.invalidateSize();
+          }
+        });
+      }, 100);
+    };
+
+    // Close modal function
+    function closeModal() {
+      modal.classList.remove("is-open");
+      document.body.style.overflow = "";
+    }
+
+    // Close buttons
+    const closeButtons = modal.querySelectorAll(`[data-close-modal="${modalId}"]`);
+    closeButtons.forEach(function(button) {
+      button.addEventListener("click", closeModal);
+    });
+
+    // Close on ESC key
+    document.addEventListener("keydown", function(e) {
+      if (e.key === "Escape" && modal.classList.contains("is-open")) {
+        closeModal();
+      }
+    });
+  });
+</script>
+
+<style>
+  .map-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .map-modal.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .map-modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+  }
+
+  .map-modal-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+  }
+
+  .map-modal.is-open .map-modal-content {
+    transform: scale(1);
+  }
+
+  .map-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #e8e8e8;
+    flex-shrink: 0;
+  }
+
+  .map-modal-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin: 0;
+  }
+
+  .map-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #898989;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .map-modal-close:hover {
+    background-color: #e8e8e8;
+    color: #2a2a2a;
+  }
+
+  .map-modal-body {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .map-modal-map {
+    height: 100%;
+    border-radius: 0;
+  }
+
+  @media (min-width: 48rem) {
+    .map-modal-content {
+      width: 90%;
+      height: 90%;
+      max-width: 1200px;
+      max-height: 800px;
+      border-radius: 1.25rem;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .map-modal-map {
+      border-radius: 0 0 1.25rem 1.25rem;
+    }
+  }
+</style>
+

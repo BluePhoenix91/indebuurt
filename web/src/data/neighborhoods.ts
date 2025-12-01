@@ -12,6 +12,10 @@ export interface DogPark {
   name: string;
   distance: string;
   distanceIcon?: string;
+  coordinates: {
+    lat: number;
+    lon: number;
+  };
   features: {
     text: string;
     icon: string;
@@ -28,6 +32,10 @@ export interface Vet {
   postalCode: string;
   distance: string;
   distanceIcon?: string;
+  coordinates: {
+    lat: number;
+    lon: number;
+  };
 }
 
 export interface PetStore {
@@ -40,6 +48,10 @@ export interface PetStore {
   postalCode: string;
   distance: string;
   distanceIcon?: string;
+  coordinates: {
+    lat: number;
+    lon: number;
+  };
 }
 
 export interface Neighborhood {
@@ -50,6 +62,11 @@ export interface Neighborhood {
   inhabitants: number;
   labels: string[];
   intro: string;
+  coordinates: {
+    lat: number;
+    lon: number;
+    zoom: number;
+  };
   mapImage: {
     src: string;
     alt: string;
@@ -115,6 +132,11 @@ export const neighborhoods: Record<string, Neighborhood> = {
 Met korte wandelafstanden, 3 hondenspeelweides en groene rustige binnen wandelafstand vind elke buurt meteen ering en voelbare aan voor jou en je hond. Bovendien woon je vooraf hoe makkelijk het dagelijkse leven hier aanvoelt: boodschappen op de hoek, veilige verkeersituaties en alle wat overzichtelijke richten makkelijk te voet of met de fiets.
 
 Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid — en graag wonen op een plek waar dat vanzelfsprekend is.`,
+    coordinates: {
+      lat: 51.2000,
+      lon: 4.4000,
+      zoom: 14,
+    },
     mapImage: {
       src: "/images/maps/antwerpen-zuid-hero.svg",
       alt: "Kaart van Antwerpen-Zuid",
@@ -182,6 +204,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           icon: "fa-solid fa-bench-tree",
           distance: "8 mins",
           distanceIcon: "fa-regular fa-person-walking",
+          coordinates: {
+            lat: 51.1980,
+            lon: 4.3980,
+          },
           features: [
             {
               text: "Volledig omheind terrein",
@@ -203,6 +229,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           icon: "fa-solid fa-bench-tree",
           distance: "12 mins",
           distanceIcon: "fa-regular fa-person-walking",
+          coordinates: {
+            lat: 51.2020,
+            lon: 4.4020,
+          },
           features: [
             {
               text: "Volledig omheind terrein",
@@ -221,6 +251,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           icon: "fa-solid fa-bench-tree",
           distance: "15 mins",
           distanceIcon: "fa-regular fa-person-walking",
+          coordinates: {
+            lat: 51.1960,
+            lon: 4.3950,
+          },
           features: [
             {
               text: "Volledig omheind terrein",
@@ -239,6 +273,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           icon: "fa-solid fa-trees",
           distance: "18 mins",
           distanceIcon: "fa-regular fa-person-walking",
+          coordinates: {
+            lat: 51.2040,
+            lon: 4.4050,
+          },
           features: [
             { text: "Groot groen domein", icon: "fa-regular fa-tree-large" },
             {
@@ -271,6 +309,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           postalCode: "2018",
           distance: "8 mins",
           distanceIcon: "fa-regular fa-person-walking",
+          coordinates: {
+            lat: 51.1990,
+            lon: 4.3990,
+          },
         },
         {
           name: "Dierenarts Van den Berghe",
@@ -281,6 +323,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           postalCode: "2018",
           distance: "12 mins",
           distanceIcon: "fa-regular fa-person-walking",
+          coordinates: {
+            lat: 51.2010,
+            lon: 4.4010,
+          },
         },
         {
           name: "Dierenkliniek Deurne",
@@ -291,6 +337,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           postalCode: "2140",
           distance: "15 mins",
           distanceIcon: "fa-regular fa-car",
+          coordinates: {
+            lat: 51.2030,
+            lon: 4.4030,
+          },
         },
       ],
       mapImage: {
@@ -311,6 +361,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           postalCode: "2018",
           distance: "6 mins",
           distanceIcon: "fa-regular fa-person-walking",
+          coordinates: {
+            lat: 51.1970,
+            lon: 4.3970,
+          },
         },
         {
           name: "Pet Shop Deurne",
@@ -321,6 +375,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           postalCode: "2140",
           distance: "12 mins",
           distanceIcon: "fa-regular fa-bicycle",
+          coordinates: {
+            lat: 51.2005,
+            lon: 4.4005,
+          },
         },
         {
           name: "Dierenwinkel Het Huisdier",
@@ -331,6 +389,10 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
           postalCode: "2018",
           distance: "10 mins",
           distanceIcon: "fa-regular fa-person-walking",
+          coordinates: {
+            lat: 51.1985,
+            lon: 4.3985,
+          },
         },
       ],
       mapImage: {
