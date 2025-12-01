@@ -2,9 +2,10 @@
 interface Props {
   typeformId: string;
   className?: string;
+  initialHeight?: number; // Initial height in pixels (default: 400px)
 }
 
-const { typeformId, className = "" } = Astro.props;
+const { typeformId, className = "", initialHeight = 400 } = Astro.props;
 ---
 
 <div class={`typeform-container ${className}`}>
@@ -16,6 +17,7 @@ const { typeformId, className = "" } = Astro.props;
     data-tf-transitive-search-params
     data-tf-medium="snippet"
     aria-label="Feedback form"
+    style={`min-height: ${initialHeight}px;`}
   >
   </div>
 </div>
@@ -23,26 +25,28 @@ const { typeformId, className = "" } = Astro.props;
 <style>
   .typeform-container {
     width: 100%;
-    min-height: 600px;
     position: relative;
     contain: layout style paint;
   }
 
   .typeform-wrapper {
     width: 100%;
-    height: 600px;
-    min-height: 600px;
     display: block;
+    /* Let Typeform handle the actual height - it will auto-resize */
+    /* We only set min-height to prevent layout shift */
   }
 </style>
 
-<script define:vars={{ typeformId }}>
+<script define:vars={{ typeformId, initialHeight }}>
   // Lazy load Typeform script when container enters viewport
   document.addEventListener("DOMContentLoaded", function () {
     const container = document
       .querySelector(`[data-tf-live="${typeformId}"]`)
       ?.closest(".typeform-container");
     if (!container) return;
+
+    const wrapper = container.querySelector(".typeform-wrapper");
+    if (!wrapper) return;
 
     // Check if script already loaded
     if (document.querySelector('script[src*="embed.typeform.com"]')) {
@@ -65,6 +69,12 @@ const { typeformId, className = "" } = Astro.props;
                   event_label: "contribution_form",
                 });
               }
+
+              // Typeform will auto-resize, but we can remove min-height constraint
+              // after a short delay to let it settle
+              setTimeout(() => {
+                wrapper.style.minHeight = "auto";
+              }, 1000);
             };
             document.body.appendChild(script);
             observer.disconnect();
