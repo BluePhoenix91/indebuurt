@@ -249,20 +249,83 @@
 - All values loaded from `neighborhood.statistics` data structure
 - All content server-rendered, no client-side JavaScript required
 
-## Story B9: Interactive Maps with Location Markers
+## Story B9: Interactive Maps with Location Markers ✅
 
 > As a user, I want to see POIs on an interactive map, so I can zoom and explore locations visually.
 
 **Acceptance Criteria:**
 
-- [ ] Leaflet.js integrated for map rendering (lightweight ~40kb library)
-- [ ] Maps display OpenStreetMap tiles
-- [ ] Numbered markers placed for each POI type (dog parks, vets, pet stores)
-- [ ] Map center coordinates and POI markers loaded from neighborhood JSON data
-- [ ] Maps work on mobile (touch zoom/pan enabled)
-- [ ] Maps are client-side hydrated (page content remains server-rendered for SEO)
-- [ ] At least 3 maps implemented matching the design:
-  - [ ] Dog parks & off-leash zones map
-  - [ ] Vets map
-  - [ ] Pet stores map
-- [ ] Marker click/hover shows POI name (optional tooltip)
+- [x] Leaflet.js integrated for map rendering (lightweight ~40kb library)
+- [x] Maps display OpenStreetMap tiles
+- [x] Numbered markers placed for each POI type (dog parks, vets, pet stores)
+- [x] Map center coordinates and POI markers loaded from neighborhood JSON data
+- [x] Maps work on mobile (touch zoom/pan enabled)
+- [x] Maps are client-side hydrated (page content remains server-rendered for SEO)
+- [x] At least 3 maps implemented matching the design:
+  - [x] Dog parks & off-leash zones map
+  - [x] Vets map
+  - [x] Pet stores map
+- [x] Marker click/hover shows POI name (optional tooltip)
+
+**Implementation Notes:**
+
+- Created `InteractiveMap.astro` component for reusable map instances:
+  - Accepts `center` (lat/lon/zoom), `markers` array, `markerColor`, `height`, and `className` props
+  - Generates unique `mapId` for each map instance to prevent conflicts
+  - Server-rendered `<noscript>` fallback with map center and marker coordinates for SEO
+  - Client-side hydration with Leaflet.js loaded dynamically via CDN
+  - Leaflet CSS and JS loaded only once per page (shared across all maps)
+- Leaflet integration details:
+  - Using Leaflet 1.9.4 from unpkg.com CDN with integrity checks
+  - OpenStreetMap tiles configured with proper attribution
+  - Default marker icon paths fixed for CDN usage
+  - Custom numbered markers using `L.divIcon` with styled HTML
+- Marker implementation:
+  - Numbered markers (1, 2, 3...) with customizable background colors per POI type
+  - Green markers (`#6a8f4e`) for dog parks
+  - Red markers (`#ff7a70`) for vets
+  - Blue markers (`#5183b5`) for pet stores
+  - Markers styled with white border, rounded corners, and shadow
+  - Click/tap on marker shows popup with POI name
+  - Automatic `fitBounds` to show all markers when present
+- Map initialization logic:
+  - Handles maps in hidden containers (marked as pending, initialized when visible)
+  - Special handling for maps in modals (initialized when modal opens)
+  - Retry logic for Leaflet library loading synchronization
+  - Error handling prevents silent failures
+  - Support for containers with `height: 100%` (sets temporary min-height during init)
+- Three main maps implemented:
+  - Dog parks map in `#dog-parks-map` container (green markers)
+  - Vets map in `#vets-map` container (red markers)
+  - Pet stores map in `#pet-stores-map` container (blue markers)
+  - All maps use `neighborhood.coordinates` for center and map POI coordinates from data
+- Mobile support:
+  - Maps hidden on mobile (display: none) in section containers
+  - `MapModal` component created for full-screen map view on mobile
+  - Modal opens via "Bekijk op kaart" button on mobile
+  - Desktop: maps visible inline, button scrolls to map
+  - Touch zoom/pan enabled by default in Leaflet
+- SEO considerations:
+  - All map data server-rendered in `<noscript>` fallback
+  - Map center coordinates and marker locations in HTML
+  - No JavaScript required for content indexing
+  - Maps enhance UX but don't block content access
+- Created `MapModal.astro` component:
+  - Full-screen modal for mobile map viewing
+  - Accessible with ARIA labels and keyboard support (ESC to close)
+  - Backdrop click to close
+  - Proper z-index and transitions
+  - Integrates with `InteractiveMap` component
+- Map styling:
+  - Custom marker styles in component (`custom-numbered-marker` class)
+  - Rounded corners on map container
+  - Popup styling customized for consistency
+  - Responsive height handling
+- All maps load data from `neighborhoods.ts`:
+  - `neighborhood.coordinates` for map center
+  - `neighborhood.dogParks.parks[].coordinates` for dog park markers
+  - `neighborhood.vets.practices[].coordinates` for vet markers
+  - `neighborhood.petStores.stores[].coordinates` for pet store markers
+- Hero map also uses `InteractiveMap` component (no markers, just center view)
+- Verified maps work correctly in both inline sections and modals
+- Maps initialize properly even when containers are initially hidden
