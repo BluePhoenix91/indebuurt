@@ -66,45 +66,91 @@ const mapId = `map-${Math.random().toString(36).substr(2, 9)}`;
 
       // Add markers
       mapMarkers.forEach(function(marker, index) {
-        const markerNumber = marker.number !== undefined ? marker.number : index + 1;
-        
-        const customIcon = L.divIcon({
-          className: "custom-numbered-marker",
-          html: '<div class="marker-number">' + markerNumber + '</div>',
-          iconSize: [30, 30],
-          iconAnchor: [15, 30],
-        });
-        
-        const markerElement = L.marker([marker.lat, marker.lon], { icon: customIcon })
-          .addTo(map)
-          .bindPopup(marker.name);
-        
-        // Apply background color to the marker container after it's added to the map
-        markerElement.on('add', function() {
-          const iconElement = this._icon;
-          if (iconElement) {
-            iconElement.style.backgroundColor = mapMarkerColor;
+        try {
+          const markerNumber = marker.number !== undefined ? marker.number : index + 1;
+          
+          const customIcon = L.divIcon({
+            className: "custom-numbered-marker",
+            html: '<div class="marker-number">' + markerNumber + '</div>',
+            iconSize: [30, 30],
+            iconAnchor: [15, 30],
+          });
+          
+          const markerElement = L.marker([marker.lat, marker.lon], { icon: customIcon })
+            .addTo(map)
+            .bindPopup(marker.name);
+          
+          // Apply background color to the marker container after it's added to the map
+          markerElement.on('add', function() {
+            const iconElement = this._icon;
+            if (iconElement) {
+              iconElement.style.backgroundColor = mapMarkerColor;
+            }
+          });
+          
+          // Also try immediately in case it's already added
+          if (markerElement._icon) {
+            markerElement._icon.style.backgroundColor = mapMarkerColor;
           }
-        });
-        
-        // Also try immediately in case it's already added
-        if (markerElement._icon) {
-          markerElement._icon.style.backgroundColor = mapMarkerColor;
+        } catch (e) {
+          console.error('Error adding marker:', e, marker);
         }
       });
 
       // Fit bounds to show all markers if there are any
+      // Use a delayed approach to ensure map has valid dimensions
       if (mapMarkers.length > 0) {
-        const bounds = L.latLngBounds(
-          mapMarkers.map(function(m) { return [m.lat, m.lon]; })
-        );
-        map.fitBounds(bounds, { padding: [50, 50] });
+        // Ensure map has valid size before fitting bounds
+        map.invalidateSize();
+        
+        // Use requestAnimationFrame to ensure the map is fully rendered
+        requestAnimationFrame(function() {
+          // Double-check map container has valid dimensions
+          const container = map.getContainer();
+          if (container && container.offsetWidth > 0 && container.offsetHeight > 0) {
+            try {
+              const bounds = L.latLngBounds(
+                mapMarkers.map(function(m) { return [m.lat, m.lon]; })
+              );
+              map.fitBounds(bounds, { padding: [50, 50] });
+            } catch (e) {
+              // If fitBounds fails, fall back to setView with the first marker or center
+              if (mapMarkers.length > 0) {
+                map.setView([mapMarkers[0].lat, mapMarkers[0].lon], mapCenter.zoom);
+              } else {
+                map.setView([mapCenter.lat, mapCenter.lon], mapCenter.zoom);
+              }
+            }
+          } else {
+            // Retry after a short delay if dimensions aren't ready
+            setTimeout(function() {
+              map.invalidateSize();
+              const container = map.getContainer();
+              if (container && container.offsetWidth > 0 && container.offsetHeight > 0) {
+                try {
+                  const bounds = L.latLngBounds(
+                    mapMarkers.map(function(m) { return [m.lat, m.lon]; })
+                  );
+                  map.fitBounds(bounds, { padding: [50, 50] });
+                } catch (e) {
+                  if (mapMarkers.length > 0) {
+                    map.setView([mapMarkers[0].lat, mapMarkers[0].lon], mapCenter.zoom);
+                  } else {
+                    map.setView([mapCenter.lat, mapCenter.lon], mapCenter.zoom);
+                  }
+                }
+              }
+            }, 100);
+          }
+        });
       }
     }
 
     function initMap() {
       const L = window.L;
-      if (!L) return;
+      if (!L) {
+        return;
+      }
 
       // Fix for default marker icon path issue
       delete L.Icon.Default.prototype._getIconUrl;
@@ -121,116 +167,211 @@ const mapId = `map-${Math.random().toString(36).substr(2, 9)}`;
         return;
       }
 
+      // Check if map already initialized
+      if (mapContainer._leafletMap) {
+        return;
+      }
+
       // Check if container exists and has width (height can be 0 for 100% height containers)
       const hasWidth = mapContainer.offsetWidth > 0;
+      const hasHeight = mapContainer.offsetHeight > 0;
       const parent = mapContainer.parentElement;
       const isInModal = parent && (parent.classList.contains('map-modal-body') || parent.closest('.map-modal'));
       
-      // Only mark as pending if truly hidden (no width) and not in a modal
-      if (!hasWidth && !isInModal) {
+      // Mark as pending if truly hidden (no width)
+      // Maps in modals will be initialized when the modal opens via initPendingMaps
+      if (!hasWidth) {
         mapContainer.setAttribute("data-map-pending", "true");
         mapContainer.setAttribute("data-map-config", JSON.stringify({ center: center, markers: markers, markerColor: markerColor }));
         return;
       }
       
-      // For containers with 100% height, ensure they have a minimum height for Leaflet
-      if (mapContainer.offsetHeight === 0 && !isInModal) {
+      // For containers with 100% height or invalid height, ensure they have a minimum height for Leaflet
+      // This is especially important when markers are present, as fitBounds requires valid dimensions
+      // Skip this check for modals - they'll be handled when the modal opens
+      if (!hasHeight && !isInModal) {
         // Set a temporary min-height so Leaflet can initialize
         const originalMinHeight = mapContainer.style.minHeight;
-        mapContainer.style.minHeight = '400px';
+        const computedStyle = window.getComputedStyle(mapContainer);
+        const heightValue = computedStyle.height;
+        
+        // If height is 100% or 0, set a minimum height
+        if (heightValue === '0px' || heightValue === 'auto' || heightValue.includes('%')) {
+          mapContainer.style.minHeight = '400px';
+        }
         
         // Initialize map
-        const map = L.map(mapContainer).setView([center.lat, center.lon], center.zoom);
-        mapContainer._leafletMap = map;
-        
-        // Setup tiles and markers
-        setupMapContent(map, mapContainer, center, markers, markerColor);
-        
-        // Remove min-height after a short delay (map will resize)
-        setTimeout(function() {
-          mapContainer.style.minHeight = originalMinHeight || '';
-          map.invalidateSize();
-        }, 100);
+        try {
+          const map = L.map(mapContainer).setView([center.lat, center.lon], center.zoom);
+          mapContainer._leafletMap = map;
+          
+          // Setup tiles and markers
+          setupMapContent(map, mapContainer, center, markers, markerColor);
+          
+          // Remove min-height after a short delay (map will resize)
+          setTimeout(function() {
+            mapContainer.style.minHeight = originalMinHeight || '';
+            map.invalidateSize();
+          }, 200);
+        } catch (e) {
+          console.error('Error initializing map (min-height path)', mapId, e);
+        }
         return;
       }
 
       // Create map instance (normal case)
-      const map = L.map(mapContainer).setView([center.lat, center.lon], center.zoom);
-      
-      // Store map instance on container for later access
-      mapContainer._leafletMap = map;
+      try {
+        const map = L.map(mapContainer).setView([center.lat, center.lon], center.zoom);
+        
+        // Store map instance on container for later access
+        mapContainer._leafletMap = map;
 
-      // Setup tiles and markers
-      setupMapContent(map, mapContainer, center, markers, markerColor);
+        // Setup tiles and markers
+        setupMapContent(map, mapContainer, center, markers, markerColor);
+      } catch (e) {
+        console.error('Error initializing map', mapId, e);
+      }
     }
 
     // Function to initialize pending maps (for maps in hidden containers)
     window.initPendingMaps = function(container) {
-      const pendingMaps = container ? 
-        container.querySelectorAll('[data-map-pending="true"]') : 
-        document.querySelectorAll('[data-map-pending="true"]');
+      const L = window.L;
+      if (!L) {
+        return;
+      }
+
+      // Find all map containers in the given container (or document)
+      const allMapContainers = container ? 
+        container.querySelectorAll('[data-map-id]') : 
+        document.querySelectorAll('[data-map-id]');
       
-      pendingMaps.forEach(function(mapContainer) {
+      allMapContainers.forEach(function(mapContainer) {
+        // Skip if already initialized
+        if (mapContainer._leafletMap) {
+          return;
+        }
+
+        // Check if this is a pending map
+        const isPending = mapContainer.getAttribute("data-map-pending") === "true";
         const configStr = mapContainer.getAttribute("data-map-config");
-        if (!configStr) return;
         
-        const config = JSON.parse(configStr);
-        const L = window.L;
-        if (!L) return;
+        if (isPending && configStr) {
+          // This is a pending map with config
+          const config = JSON.parse(configStr);
+          
+          // For modals, initialize even if dimensions aren't ready yet
+          const parent = mapContainer.parentElement;
+          const isInModal = parent && (parent.classList.contains('map-modal-body') || parent.closest('.map-modal'));
+          const isVisible = mapContainer.offsetWidth > 0 && mapContainer.offsetHeight > 0;
+          
+          if (!isVisible && !isInModal) {
+            // Not visible and not in modal, skip for now
+            return;
+          }
 
-        // Check if now visible
-        const isVisible = mapContainer.offsetWidth > 0 && mapContainer.offsetHeight > 0;
-        if (!isVisible) return;
+          // Remove pending flag
+          mapContainer.removeAttribute("data-map-pending");
+          mapContainer.removeAttribute("data-map-config");
 
-        // Remove pending flag
-        mapContainer.removeAttribute("data-map-pending");
-        mapContainer.removeAttribute("data-map-config");
+          // Fix for default marker icon path issue
+          delete L.Icon.Default.prototype._getIconUrl;
+          L.Icon.Default.mergeOptions({
+            iconRetinaUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
+            iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
+            shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+          });
 
-        // Fix for default marker icon path issue
-        delete L.Icon.Default.prototype._getIconUrl;
-        L.Icon.Default.mergeOptions({
-          iconRetinaUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
-          iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
-          shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
-        });
+          // For modals or containers without height, set a temporary min-height
+          if (!isVisible || mapContainer.offsetHeight === 0) {
+            const originalMinHeight = mapContainer.style.minHeight;
+            mapContainer.style.minHeight = '400px';
+            
+            try {
+              // Create map instance
+              const map = L.map(mapContainer).setView([config.center.lat, config.center.lon], config.center.zoom);
+              mapContainer._leafletMap = map;
 
-        // Create map instance
-        const map = L.map(mapContainer).setView([config.center.lat, config.center.lon], config.center.zoom);
-        mapContainer._leafletMap = map;
+              // Setup tiles and markers using the shared function
+              const markerColorValue = config.markerColor || markerColor;
+              setupMapContent(map, mapContainer, config.center, config.markers, markerColorValue);
+              
+              // Remove min-height and invalidate size after a delay
+              setTimeout(function() {
+                mapContainer.style.minHeight = originalMinHeight || '';
+                map.invalidateSize();
+              }, 200);
+            } catch (e) {
+              console.error('Error initializing pending map', e);
+              mapContainer.style.minHeight = originalMinHeight || '';
+            }
+          } else {
+            // Normal initialization
+            try {
+              const map = L.map(mapContainer).setView([config.center.lat, config.center.lon], config.center.zoom);
+              mapContainer._leafletMap = map;
 
-        // Setup tiles and markers using the shared function
-        const markerColorValue = config.markerColor || markerColor;
-        setupMapContent(map, mapContainer, config.center, config.markers, markerColorValue);
-        
-        // Invalidate size after a short delay to ensure proper rendering
-        setTimeout(function() {
-          map.invalidateSize();
-        }, 100);
+              // Setup tiles and markers using the shared function
+              const markerColorValue = config.markerColor || markerColor;
+              setupMapContent(map, mapContainer, config.center, config.markers, markerColorValue);
+              
+              // Invalidate size after a short delay to ensure proper rendering
+              setTimeout(function() {
+                map.invalidateSize();
+              }, 100);
+            } catch (e) {
+              console.error('Error initializing pending map', e);
+            }
+          }
+        }
       });
     };
 
     // Load Leaflet JS if not already loaded, then initialize
-    if (window.L) {
-      // Leaflet already loaded, initialize immediately
-      if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", initMap);
-      } else {
+    function tryInitMap() {
+      if (window.L) {
+        // Leaflet is loaded, initialize map
         initMap();
+      } else {
+        // Leaflet not loaded yet, wait a bit and retry
+        setTimeout(tryInitMap, 50);
       }
-    } else if (!document.querySelector('script[src*="leaflet"]')) {
-      // Load Leaflet JS
-      const script = document.createElement("script");
-      script.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
-      script.integrity = "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=";
-      script.crossOrigin = "";
-      script.onload = function() {
+    }
+
+    if (window.L) {
+      // Leaflet already loaded
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", tryInitMap);
+      } else {
+        tryInitMap();
+      }
+    } else {
+      // Check if Leaflet script is already being loaded
+      const existingScript = document.querySelector('script[src*="leaflet"]');
+      if (!existingScript) {
+        // Load Leaflet JS
+        const script = document.createElement("script");
+        script.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+        script.integrity = "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=";
+        script.crossOrigin = "";
+        script.onload = function() {
+          if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", tryInitMap);
+          } else {
+            tryInitMap();
+          }
+        };
+        script.onerror = function() {
+          console.error('Failed to load Leaflet library');
+        };
+        document.head.appendChild(script);
+      } else {
+        // Script is already being loaded, wait for it
         if (document.readyState === "loading") {
-          document.addEventListener("DOMContentLoaded", initMap);
+          document.addEventListener("DOMContentLoaded", tryInitMap);
         } else {
-          initMap();
+          tryInitMap();
         }
-      };
-      document.head.appendChild(script);
+      }
     }
   })();
 </script>
