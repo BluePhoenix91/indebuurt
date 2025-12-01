@@ -1,0 +1,33 @@
+@use "../variables" as *;
+
+/* Statistics Section */
+
+.statistics-section {
+  margin-top: $spacing-xxl;
+
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: $spacing-lg;
+  }
+}
+
+.statistics-intro {
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-lg;
+  font-size: $size-body;
+  color: $black;
+}
+
+.statistics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $spacing-lg;
+
+  @media (max-width: $breakpoint-mobile) {
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

@@ -182,9 +182,11 @@
 
 - Added `ContributionCTA` interface to `neighborhoods.ts` with `heading`, `intro`, and `typeformId`
 - Created `TypeformEmbed.astro` component with SEO-friendly lazy loading:
-  - Reserves space with `min-height: 600px` to prevent layout shift (CLS)
+  - Reserves space with configurable `initialHeight` (default: 400px) to prevent layout shift (CLS)
   - Uses Intersection Observer to load Typeform script only when section enters viewport
+  - Typeform auto-resizes after loading, container adapts dynamically
   - Tracks GA4 `typeform_loaded` event when embed loads
+  - Optimized for performance with deferred script loading
 - Implemented contribution section in `web/src/pages/index.astro`:
   - Grid layout: 2/3 for Typeform embed, 1/3 for decorative image
   - Responsive: stacks vertically on mobile with image shown first
@@ -194,25 +196,58 @@
 - Image uses lazy loading and proper alt text for accessibility
 - All content server-rendered, Typeform script loads client-side only when needed
 
-## Story B8: Buurtstatistieken Section
+## Story B8: Buurtstatistieken Section ✅
 
 > As a user, I want key numbers about the neighbourhood, so I can compare areas quickly.
 
 **Acceptance Criteria:**
 
-- [ ] Section heading for "Buurtstatistieken" rendered
-- [ ] Statistic cards implemented for at least:
-  - [ ] Median house price
-  - [ ] Number of inhabitants
-  - [ ] Available homes
-  - [ ] Price per m²
-- [ ] Each card shows:
-  - [ ] Label
-  - [ ] Large number/value
-  - [ ] Short explanatory text if needed
-- [ ] All values loaded from a structured data source (not copy-pasted literals)
-- [ ] Responsive layout so cards remain readable on mobile
-- [ ] Semantic HTML structure used
+- [x] Section heading for "Buurtstatistieken" rendered
+- [x] Statistic cards implemented for at least:
+  - [x] Median house price
+  - [x] Number of inhabitants
+  - [x] Available homes
+  - [x] Price per m²
+- [x] Each card shows:
+  - [x] Label
+  - [x] Large number/value
+  - [x] Short explanatory text if needed
+- [x] All values loaded from a structured data source (not copy-pasted literals)
+- [x] Responsive layout so cards remain readable on mobile
+- [x] Semantic HTML structure used
+
+**Implementation Notes:**
+
+- Added `Statistics` interface to `neighborhoods.ts` with `intro`, `medianPrice`, `inhabitants`, `availableHomes`, and `pricePerSqm`
+- Created `StatisticCard.astro` component with:
+  - Icon and value displayed side-by-side in a header row (centered)
+  - Label displayed below the value
+  - Number formatting for Dutch locale (nl-BE) with dot as thousand separator
+  - Price formatting with euro symbol (€) and per m² support
+  - Primary color border and text for visual consistency
+  - Body size text for value and icon (not large/heading size)
+  - Equal width cards in grid layout
+  - Hover effects with subtle lift and shadow
+- Implemented statistics section in `web/src/pages/index.astro`:
+  - Section heading "Buurtstatistieken" as H2
+  - Intro paragraph explaining the statistics
+  - Four statistic cards displaying all required metrics:
+    - Mediaan woningprijs (median house price) with coins icon
+    - Aantal inwoners (number of inhabitants) with users icon
+    - Beschikbare woningen (available homes) with house icon
+    - Prijs per m² (price per m²) with ruler icon
+  - Responsive grid: 4 columns on tablet+, 2 columns on mobile, 1 column on small screens
+  - All cards have equal width using `width: 100%` in grid
+  - Semantic HTML with `<article>` elements
+- Created `_statistics.scss` with responsive grid layout and intro text styling
+- Created `_statistic-card.scss` component styles using SCSS variables:
+  - Primary color border (`$primary`)
+  - Primary color for value and icon text
+  - Body size font for main content
+  - Centered layout with flexbox
+- Added section to sidebar navigation (positioned after contribution section)
+- All values loaded from `neighborhood.statistics` data structure
+- All content server-rendered, no client-side JavaScript required
 
 ## Story B9: Interactive Maps with Location Markers
 

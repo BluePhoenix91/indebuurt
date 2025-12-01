@@ -1,0 +1,47 @@
+@use "../variables" as *;
+
+/* Statistic Card Component */
+
+.statistic-card {
+  background-color: $background-white;
+  border-radius: $radius-card;
+  padding: $spacing-lg;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+  border: 1px solid $primary;
+  text-align: center;
+}
+
+.statistic-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-xs;
+}
+
+.statistic-icon {
+  color: $primary;
+  font-size: $size-body;
+  flex-shrink: 0;
+}
+
+.statistic-value {
+  font-size: $size-body;
+  font-weight: $font-weight-bold;
+  color: $primary;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.statistic-label {
+  font-size: $size-body-small;
+  color: $calm-grey-600;
+  margin: 0;
+}
+
+.statistic-description {
+  font-size: $size-body-small;
+  color: $calm-grey-600;
+  margin: 0;
+}

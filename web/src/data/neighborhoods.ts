@@ -92,6 +92,13 @@ export interface Neighborhood {
     intro: string;
     typeformId: string;
   };
+  statistics: {
+    intro: string;
+    medianPrice: number;
+    inhabitants: number;
+    availableHomes: number;
+    pricePerSqm: number;
+  };
 }
 
 export const neighborhoods: Record<string, Neighborhood> = {
@@ -347,6 +354,14 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       intro:
         "Help andere baasjes en schets hoe hondvriendelijk deze buurt is. Vul de enquête hieronder in. Het neemt niet meer dan 5 minuten in beslag en je wordt hun grote held.",
       typeformId: "01KBDFG2BJG3DYTNX0X9GT2HDT",
+    },
+    statistics: {
+      intro:
+        "Hieronder vind je de belangrijkste cijfers over Antwerpen-Zuid. Deze statistieken helpen je om de buurt beter te begrijpen en te vergelijken met andere wijken.",
+      medianPrice: 485175,
+      inhabitants: 12450,
+      availableHomes: 29,
+      pricePerSqm: 3650,
     },
   },
 };

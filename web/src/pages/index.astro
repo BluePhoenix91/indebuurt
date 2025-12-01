@@ -3,6 +3,7 @@ import Badge from "../components/Badge.astro";
 import ParkCard from "../components/ParkCard.astro";
 import PetStoreCard from "../components/PetStoreCard.astro";
 import SectionHeading from "../components/SectionHeading.astro";
+import StatisticCard from "../components/StatisticCard.astro";
 import TypeformEmbed from "../components/TypeformEmbed.astro";
 import ValueCard from "../components/ValueCard.astro";
 import VetCard from "../components/VetCard.astro";
@@ -82,6 +83,7 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
         <a href="#contribution" class="sidebar-link">
           Baasjes helpen baasjes
         </a>
+        <a href="#statistieken" class="sidebar-link"> Buurtstatistieken </a>
       </nav>
     </aside>
 
@@ -263,6 +265,35 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
               loading="lazy"
             />
           </div>
+        </div>
+      </section>
+
+      <section id="statistieken" class="statistics-section">
+        <SectionHeading level={2}>Buurtstatistieken</SectionHeading>
+        <p class="statistics-intro">{neighborhood.statistics.intro}</p>
+        <div class="statistics-grid">
+          <StatisticCard
+            label="Mediaan woningprijs"
+            value={neighborhood.statistics.medianPrice}
+            unit="€"
+            icon="fa-regular fa-coins"
+          />
+          <StatisticCard
+            label="Aantal inwoners"
+            value={neighborhood.statistics.inhabitants}
+            icon="fa-regular fa-users"
+          />
+          <StatisticCard
+            label="Beschikbare woningen"
+            value={neighborhood.statistics.availableHomes}
+            icon="fa-regular fa-house"
+          />
+          <StatisticCard
+            label="Prijs per m²"
+            value={neighborhood.statistics.pricePerSqm}
+            unit="€/m²"
+            icon="fa-regular fa-ruler-combined"
+          />
         </div>
       </section>
     </div>

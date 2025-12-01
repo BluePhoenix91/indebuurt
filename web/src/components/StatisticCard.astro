@@ -1,0 +1,45 @@
+---
+interface Props {
+  label: string;
+  value: number | string;
+  unit?: string;
+  description?: string;
+  icon?: string;
+}
+
+const { label, value, unit = "", description, icon } = Astro.props;
+
+// Format number with thousand separators for Dutch locale
+function formatNumber(num: number): string {
+  return num.toLocaleString("nl-BE");
+}
+
+// Format value based on type
+function formatValue(val: number | string, unit: string): string {
+  if (typeof val === "number") {
+    const formatted = formatNumber(val);
+    if (unit === "€") {
+      return `€${formatted}`;
+    } else if (unit === "€/m²") {
+      return `€${formatted}/m²`;
+    }
+    return formatted + (unit ? ` ${unit}` : "");
+  }
+  return val + (unit ? ` ${unit}` : "");
+}
+---
+
+<article class="statistic-card">
+  <div class="statistic-header">
+    {
+      icon && (
+        <div class="statistic-icon">
+          <i class={icon} />
+        </div>
+      )
+    }
+    <p class="statistic-value">{formatValue(value, unit)}</p>
+  </div>
+  <p class="statistic-label">{label}</p>
+  {description && <p class="statistic-description">{description}</p>}
+</article>
