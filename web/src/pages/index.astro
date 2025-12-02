@@ -49,10 +49,7 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
       </div>
 
       <div class="hero-map">
-        <InteractiveMap
-          center={neighborhood.coordinates}
-          height="400px"
-        />
+        <InteractiveMap center={neighborhood.coordinates} height="400px" />
       </div>
 
       <nav class="hero-tabs">
@@ -136,7 +133,10 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
                   ))
                 }
               </div>
-              <button class="btn btn-secondary-outline" data-open-modal="map-modal-dog-parks">
+              <button
+                class="btn btn-secondary-outline"
+                data-open-modal="map-modal-dog-parks"
+              >
                 <i class="fa-regular fa-map"></i>
                 Bekijk op kaart
               </button>
@@ -177,7 +177,10 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
                   ))
                 }
               </div>
-              <button class="btn btn-primary-outline" data-open-modal="map-modal-vets">
+              <button
+                class="btn btn-primary-outline"
+                data-open-modal="map-modal-vets"
+              >
                 <i class="fa-regular fa-map"></i>
                 Bekijk op kaart
               </button>
@@ -218,7 +221,10 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
                   ))
                 }
               </div>
-              <button class="btn btn-accent-2-outline" data-open-modal="map-modal-pet-stores">
+              <button
+                class="btn btn-accent-2-outline"
+                data-open-modal="map-modal-pet-stores"
+              >
                 <i class="fa-regular fa-map"></i>
                 Bekijk op kaart
               </button>
@@ -352,20 +358,24 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
     initActiveNavigation();
 
     // Handle "Bekijk op kaart" button clicks - open modal on mobile, scroll on desktop
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       const openModalButtons = document.querySelectorAll("[data-open-modal]");
-      
-      openModalButtons.forEach(function(button) {
-        button.addEventListener("click", function(e) {
+
+      openModalButtons.forEach(function (button) {
+        button.addEventListener("click", function (e) {
           e.preventDefault();
           const modalId = button.getAttribute("data-open-modal");
-          
+
+          if (!modalId) return;
+
           // Check if we're on mobile (maps are hidden)
           const isMobile = window.matchMedia("(max-width: 768px)").matches;
-          
-          if (isMobile && modalId) {
+
+          if (isMobile) {
             // Open modal on mobile
-            const openFunction = window[`openMapModal_${modalId}`];
+            const openFunction = (window as any)[`openMapModal_${modalId}`] as
+              | (() => void)
+              | undefined;
             if (openFunction) {
               openFunction();
             }
@@ -373,15 +383,16 @@ const neighborhood = neighborhoods["antwerpen-zuid"];
             // Scroll to map on desktop
             const mapId = modalId.replace("map-modal-", "");
             const targetElement = document.getElementById(mapId);
-            
+
             if (targetElement) {
               const headerOffset = 80;
               const elementPosition = targetElement.getBoundingClientRect().top;
-              const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+              const offsetPosition =
+                elementPosition + window.pageYOffset - headerOffset;
 
               window.scrollTo({
                 top: offsetPosition,
-                behavior: "smooth"
+                behavior: "smooth",
               });
             }
           }
