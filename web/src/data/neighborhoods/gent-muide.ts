@@ -64,7 +64,7 @@ Deze buurt is vooral geschikt voor baasjes die zoeken naar ruimte, water en een 
       title: "Gemiddelde woningprijs",
       distance: "",
       distanceIcon: "",
-      description: "Prijsniveau is lager dan in de buurtgemeenten",
+      description: "Prijsniveau is lager dan in de buurtwijken",
       detail: "€ 325.000 mediaanprijs",
     },
   ],
@@ -104,10 +104,8 @@ Deze buurt is vooral geschikt voor baasjes die zoeken naar ruimte, water en een 
     practices: [],
   },
   petStores: {
-    intro:
-      "In Gent-Muide zijn geen dierenwinkels beschikbaar.",
-    stores: [
-    ],
+    intro: "In Gent-Muide zijn geen dierenwinkels beschikbaar.",
+    stores: [],
   },
   dailyLife: {
     title: "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
