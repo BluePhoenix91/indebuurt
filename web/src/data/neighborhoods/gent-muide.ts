@@ -8,11 +8,11 @@ export const gentMuide: Neighborhood = {
   postalCode: "9000",
   inhabitants: 12450,
   labels: ["Wandelvriendelijk", "Opkomende buurt", "Veel groen"],
-  intro: `Gent-Muide is een rustige, groene buurt waar je hond volop ruimte vindt om te wandelen.
+  intro: `De Muide is een buurt met karakter: oude havenkranen, water en veel creatieve energie. Je wandelt er met je hond langs brede kades, tussen voormalige pakhuizen en nieuwe gezinsbuurten. Het Kapitein Zeppospark aan het Houtdok is de groene long van de wijk — 3 hectare park waar je binnen 5 minuten loopt en waar baasjes elkaar kruisen tijdens de ochtend- en avondrondes.
 
-Wat deze buurt bijzonder maakt, zijn de korte afstanden naar groenstroken en parken — meestal binnen 5 minuten lopen. Er is één hondenspeelweide op ongeveer 18 minuten wandelen, en de buurt biedt verder vooral rust en ruimte voor langere wandelingen door groen. Dierenartsen en dierenwinkels zijn er niet in de directe omgeving, maar de rustige leefomgeving en de nabijheid van groen maken het een fijne plek voor wie een ontspannen buurt zoekt voor dagelijkse hondenrondes.
+Wat de Muide bijzonder maakt, is hoe snel de buurt verandert van industrieel naar rustig woonerf. De 4 kilometer lange maritieme promenade langs de oude dokken biedt ruimte voor lange wandelingen met je hond, terwijl groene plekken als het Kapitein Zeppospark perfect zijn voor een korte uitlaatbeurt. Een hondenspeelweide ligt op 18 minuten wandelen, maar dierenartsen en dierenwinkels zijn er niet in de buurt zelf.
 
-Deze buurt is vooral geschikt voor baasjes die waarde hechten aan ruimte en rust, en minder waarde hechten aan de nabijheid van gespecialiseerde hondenvoorzieningen.`,
+Deze buurt is vooral geschikt voor baasjes die zoeken naar ruimte, water en een wijk die nog in beweging is — en minder waarde hechten aan nabijheid van gespecialiseerde hondenvoorzieningen.`,
   coordinates: {
     lat: 51.0759,
     lon: 3.7307,
@@ -112,12 +112,12 @@ Deze buurt is vooral geschikt voor baasjes die waarde hechten aan ruimte en rust
   dailyLife: {
     title: "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
     intro:
-      "Het leven in Gent-Muide met een hond draait vooral om rust en ruimte. De nabijheid van groen (5 minuten lopen) maakt dagelijkse uitlaatrondjes eenvoudig en aangenaam. Voor gespecialiseerde voorzieningen zoals een dierenarts of dierenwinkel moet je de buurt uit, maar de rustige sfeer en groene omgeving compenseren dat voor veel baasjes.",
+      "Het leven in de Muide met een hond draait om water, ruimte en variatie. De 4 kilometer lange maritieme promenade langs de oude dokken geeft je eindeloos veel wandelroutes, van korte ochtendrondes langs de kades tot langere avondwandelingen met uitzicht over het water. Het Kapitein Zeppospark ligt op enkele minuten en is dé plek waar baasjes uit de buurt elkaar tegenkomen.",
     benefits: [
-      "Je dag begint rustig met een korte wandeling naar het dichtsbijzijnde groen, meestal binnen 5 minuten lopen.",
-      "De buurt is overzichtelijk en rustig, wat zorgt voor ontspannen wandelrondes zonder drukke verkeerssituaties.",
-      "Voor spoedgevallen of boodschappen voor je hond moet je de buurt uit, wat een aandachtspunt is als je behoefte hebt aan directe nabijheid van dierenartsen of winkels.",
-      "De groene omgeving en rustige sfeer maken Gent-Muide vooral geschikt voor baasjes die prioriteit geven aan ruimte en rust boven voorzieningen.",
+      "Je ochtend begint met een snelle wandeling naar het Kapitein Zeppospark, of — als je tijd hebt — een langere route langs de Schipperskaai of Kleindokkaai met uitzicht op de oude havenkranen.",
+      "De buurt voelt levendig maar overzichtelijk: een mix van gezinnen, creatieve types en hondenbaasjes die elkaar groeten en tips delen over routes en uitlaatplekken.",
+      "Voor dierenarts of dierenwinkels moet je de wijk uit, wat lastig kan zijn bij spoedgevallen — een aandachtspunt als je veel waarde hecht aan nabijheid van deze voorzieningen.",
+      "De combinatie van industrieel erfgoed, water en groen maakt elke wandeling net iets anders — en dat maakt het dagelijkse leven met je hond in de Muide minder voorspelbaar en juist daarom leuker.",
     ],
   },
   contributionCTA: {
@@ -129,7 +129,7 @@ Deze buurt is vooral geschikt voor baasjes die waarde hechten aan ruimte en rust
   statistics: {
     intro:
       "Hieronder vind je de belangrijkste cijfers over Gent-Muide. Deze statistieken helpen je om de buurt beter te begrijken en te vergelijken met andere wijken.",
-    medianPrice: 485175,
+    medianPrice: 325000,
     inhabitants: 12450,
     availableHomes: 29,
     pricePerSqm: 3650,
