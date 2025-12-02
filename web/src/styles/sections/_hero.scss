@@ -110,6 +110,10 @@
   gap: 0;
   padding: 0;
 
+  @media (min-width: $breakpoint-mobile) {
+    align-self: end;
+  }
+
   @media (max-width: $breakpoint-mobile) {
     @include horizontal-scroll-container-simple;
   }

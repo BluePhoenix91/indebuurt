@@ -1,403 +1,160 @@
 ---
 import Badge from "../components/Badge.astro";
-import InteractiveMap from "../components/InteractiveMap.astro";
-import MapModal from "../components/MapModal.astro";
-import ParkCard from "../components/ParkCard.astro";
-import PetStoreCard from "../components/PetStoreCard.astro";
 import SectionHeading from "../components/SectionHeading.astro";
-import StatisticCard from "../components/StatisticCard.astro";
-import TypeformEmbed from "../components/TypeformEmbed.astro";
-import ValueCard from "../components/ValueCard.astro";
-import VetCard from "../components/VetCard.astro";
-import { neighborhoods } from "../data/neighborhoods";
+import { neighborhoods } from "../data/neighborhoods/index";
 import NeighborhoodLayout from "../layouts/NeighborhoodLayout.astro";
 
-const neighborhood = neighborhoods["antwerpen-zuid"];
+const neighborhoodsList = Object.values(neighborhoods);
 ---
 
 <NeighborhoodLayout
-  title={`Wonen in ${neighborhood.name} - buurtkompas.be`}
-  description={neighborhood.subtitle}
+  title="Buurtkompas - Vind de perfecte hondvriendelijke buurt"
+  description="Ontdek hondvriendelijke buurten in België. Vind de perfecte plek voor jou en je hond met gedetailleerde informatie over voorzieningen, parken en meer."
   canonical="https://buurtkompas.be/"
-  heroImage={neighborhood.mapImage.src}
 >
   <section class="hero">
     <div class="hero-wrapper">
       <div class="hero-content">
-        <h1 class="text-h1">Wonen in {neighborhood.name}</h1>
-        <p class="text-body bold mt-sm">{neighborhood.subtitle}</p>
-
-        <div class="hero-meta mt-xs">
-          <span class="hero-meta-item">
-            <i class="fa-regular fa-house"></i>
-            Postcode {neighborhood.postalCode}
-          </span>
-          <span class="hero-meta-item">
-            <i class="fa-regular fa-users"></i>
-            {neighborhood.inhabitants.toLocaleString("nl-BE")} inwoners
-          </span>
-        </div>
-
-        <div class="hero-badges mt-lg">
-          <Badge variant="outline" icon="fa-regular fa-dog">
-            Hondvriendelijk
-          </Badge>
-          <Badge variant="outline" icon="fa-regular fa-tree">
-            Veel groen
-          </Badge>
-        </div>
+        <h1 class="text-h1">Vind de perfecte hondvriendelijke buurt</h1>
+        <p class="text-body bold mt-sm">
+          Ontdek buurten die perfect zijn voor baasjes en hun honden. Met
+          gedetailleerde informatie over voorzieningen, parken, dierenartsen en
+          meer.
+        </p>
       </div>
-
-      <div class="hero-map">
-        <InteractiveMap center={neighborhood.coordinates} height="400px" />
-      </div>
-
-      <nav class="hero-tabs">
-        <a href="#overzicht" class="tab tab-active" aria-current="page">
-          <i class="fa-regular fa-list-ul mr-sm"></i>
-          Overzicht
-        </a>
-        <a href="#huizen" class="tab">
-          <i class="fa-regular fa-house mr-sm"></i>
-          Huizen
-        </a>
-        <a href="#demografie" class="tab">
-          <i class="fa-regular fa-users mr-sm"></i>
-          Demografie
-        </a>
-      </nav>
     </div>
   </section>
 
   <div class="content-wrapper">
-    <aside class="sidebar">
-      <nav class="sidebar-nav">
-        <a href="#inleiding" class="sidebar-link"> Inleiding </a>
-        <a href="#voorzieningen" class="sidebar-link"> Voorzieningen </a>
-        <a href="#dagelijks-leven" class="sidebar-link"> Dagelijks leven </a>
-        <a href="#contribution" class="sidebar-link">
-          Baasjes helpen baasjes
-        </a>
-        <a href="#statistieken" class="sidebar-link"> Buurtstatistieken </a>
-      </nav>
-    </aside>
-
     <div class="content-section">
-      <section id="inleiding" class="intro-section">
-        <div class="intro-content section">
-          {
-            neighborhood.intro
-              .split("\n\n")
-              .map((paragraph) => <p>{paragraph}</p>)
-          }
-        </div>
-      </section>
+      <section class="neighborhoods-overview">
+        <SectionHeading level={2}>
+          Beschikbare buurten ({neighborhoodsList.length})
+        </SectionHeading>
+        <p class="mt-sm">
+          Klik op een buurt om meer te weten te komen over de hondvriendelijke
+          voorzieningen en het dagelijkse leven daar.
+        </p>
 
-      <section class="value-cards-section">
-        <SectionHeading level={2}>Wat baasjes hier zo waarderen</SectionHeading>
-        <div class="value-cards-grid">
+        <div class="neighborhoods-grid">
           {
-            neighborhood.valueCards.map((card) => (
-              <ValueCard
-                icon={card.icon}
-                title={card.title}
-                distance={card.distance}
-                distanceIcon={card.distanceIcon}
-                description={card.description}
-                detail={card.detail}
-              />
+            neighborhoodsList.map((neighborhood) => (
+              <a href={`/buurt/${neighborhood.id}`} class="neighborhood-card">
+                <div class="neighborhood-card-content">
+                  <h3 class="neighborhood-card-title">{neighborhood.name}</h3>
+                  <p class="neighborhood-card-subtitle">
+                    {neighborhood.subtitle}
+                  </p>
+                  <div class="neighborhood-card-meta">
+                    <span class="neighborhood-card-meta-item">
+                      <i class="fa-regular fa-house" />
+                      Postcode {neighborhood.postalCode}
+                    </span>
+                    <span class="neighborhood-card-meta-item">
+                      <i class="fa-regular fa-users" />
+                      {neighborhood.inhabitants.toLocaleString("nl-BE")}{" "}
+                      inwoners
+                    </span>
+                  </div>
+                  <div class="neighborhood-card-badges">
+                    {neighborhood.labels.map((label) => (
+                      <Badge variant="outline" icon="fa-regular fa-dog">
+                        {label}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+              </a>
             ))
           }
         </div>
       </section>
-
-      <section id="voorzieningen">
-        <SectionHeading level={2}>Hondvriendelijke voorzieningen</SectionHeading
-        >
-        <p class="mt-sm">{neighborhood.facilities.intro}</p>
-        <section id="dog-parks" class="mt-xl">
-          <SectionHeading level={3}>Hondenparken & losloopzones</SectionHeading>
-          <p class="mt-sm">{neighborhood.dogParks.intro}</p>
-          <div class="dog-parks-section">
-            <div class="dog-parks-content">
-              <div class="dog-parks-list">
-                {
-                  neighborhood.dogParks.parks.map((park) => (
-                    <ParkCard
-                      icon={park.icon}
-                      name={park.name}
-                      distance={park.distance}
-                      distanceIcon={park.distanceIcon}
-                      features={park.features}
-                    />
-                  ))
-                }
-              </div>
-              <button
-                class="btn btn-secondary-outline"
-                data-open-modal="map-modal-dog-parks"
-              >
-                <i class="fa-regular fa-map"></i>
-                Bekijk op kaart
-              </button>
-            </div>
-            <div id="dog-parks-map" class="dog-parks-map">
-              <InteractiveMap
-                center={neighborhood.coordinates}
-                markers={neighborhood.dogParks.parks.map((park, index) => ({
-                  lat: park.coordinates.lat,
-                  lon: park.coordinates.lon,
-                  name: park.name,
-                  number: index + 1,
-                }))}
-                markerColor="#6a8f4e"
-              />
-            </div>
-          </div>
-        </section>
-        <section id="vets" class="mt-xl">
-          <SectionHeading level={3}>Dierenartsen</SectionHeading>
-          <p class="mt-sm">{neighborhood.vets.intro}</p>
-          <div class="vets-section">
-            <div class="vets-content">
-              <div class="vets-list">
-                {
-                  neighborhood.vets.practices.map((vet) => (
-                    <VetCard
-                      icon={vet.icon}
-                      name={vet.name}
-                      street={vet.street}
-                      streetNumber={vet.streetNumber}
-                      bus={vet.bus}
-                      municipality={vet.municipality}
-                      postalCode={vet.postalCode}
-                      distance={vet.distance}
-                      distanceIcon={vet.distanceIcon}
-                    />
-                  ))
-                }
-              </div>
-              <button
-                class="btn btn-primary-outline"
-                data-open-modal="map-modal-vets"
-              >
-                <i class="fa-regular fa-map"></i>
-                Bekijk op kaart
-              </button>
-            </div>
-            <div id="vets-map" class="vets-map">
-              <InteractiveMap
-                center={neighborhood.coordinates}
-                markers={neighborhood.vets.practices.map((vet, index) => ({
-                  lat: vet.coordinates.lat,
-                  lon: vet.coordinates.lon,
-                  name: vet.name,
-                  number: index + 1,
-                }))}
-                markerColor="#ff7a70"
-              />
-            </div>
-          </div>
-        </section>
-        <section id="pet-stores" class="mt-xl">
-          <SectionHeading level={3}>Dierenwinkels</SectionHeading>
-          <p class="mt-sm">{neighborhood.petStores.intro}</p>
-          <div class="pet-stores-section">
-            <div class="pet-stores-content">
-              <div class="pet-stores-list">
-                {
-                  neighborhood.petStores.stores.map((store) => (
-                    <PetStoreCard
-                      icon={store.icon}
-                      name={store.name}
-                      street={store.street}
-                      streetNumber={store.streetNumber}
-                      bus={store.bus}
-                      municipality={store.municipality}
-                      postalCode={store.postalCode}
-                      distance={store.distance}
-                      distanceIcon={store.distanceIcon}
-                    />
-                  ))
-                }
-              </div>
-              <button
-                class="btn btn-accent-2-outline"
-                data-open-modal="map-modal-pet-stores"
-              >
-                <i class="fa-regular fa-map"></i>
-                Bekijk op kaart
-              </button>
-            </div>
-            <div id="pet-stores-map" class="pet-stores-map">
-              <InteractiveMap
-                center={neighborhood.coordinates}
-                markers={neighborhood.petStores.stores.map((store, index) => ({
-                  lat: store.coordinates.lat,
-                  lon: store.coordinates.lon,
-                  name: store.name,
-                  number: index + 1,
-                }))}
-                markerColor="#5183b5"
-              />
-            </div>
-          </div>
-        </section>
-      </section>
-
-      <section id="dagelijks-leven" class="daily-life-section">
-        <SectionHeading level={2}>
-          {neighborhood.dailyLife.title}
-        </SectionHeading>
-        <div class="daily-life-content">
-          <p>{neighborhood.dailyLife.intro}</p>
-          <ul class="daily-life-benefits">
-            {
-              neighborhood.dailyLife.benefits.map((benefit) => (
-                <li>{benefit}</li>
-              ))
-            }
-          </ul>
-        </div>
-      </section>
-
-      <section id="contribution" class="contribution-section">
-        <SectionHeading level={2}>
-          {neighborhood.contributionCTA.heading}
-        </SectionHeading>
-        <p class="contribution-intro">{neighborhood.contributionCTA.intro}</p>
-        <div class="contribution-content">
-          <div class="contribution-form">
-            <TypeformEmbed
-              typeformId={neighborhood.contributionCTA.typeformId}
-            />
-          </div>
-          <div class="contribution-image">
-            <img
-              src="/images/stamp_texture_paw_prints 1.png"
-              alt="Pootafdrukken decoratie"
-              width="400"
-              height="600"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section id="statistieken" class="statistics-section">
-        <SectionHeading level={2}>Buurtstatistieken</SectionHeading>
-        <p class="statistics-intro">{neighborhood.statistics.intro}</p>
-        <div class="statistics-grid">
-          <StatisticCard
-            label="Mediaan woningprijs"
-            value={neighborhood.statistics.medianPrice}
-            unit="€"
-            icon="fa-regular fa-coins"
-          />
-          <StatisticCard
-            label="Aantal inwoners"
-            value={neighborhood.statistics.inhabitants}
-            icon="fa-regular fa-users"
-          />
-          <StatisticCard
-            label="Beschikbare woningen"
-            value={neighborhood.statistics.availableHomes}
-            icon="fa-regular fa-house"
-          />
-          <StatisticCard
-            label="Prijs per m²"
-            value={neighborhood.statistics.pricePerSqm}
-            unit="€/m²"
-            icon="fa-regular fa-ruler-combined"
-          />
-        </div>
-      </section>
     </div>
   </div>
-
-  <!-- Map Modals -->
-  <MapModal
-    id="dog-parks"
-    title="Hondenparken & losloopzones"
-    center={neighborhood.coordinates}
-    markers={neighborhood.dogParks.parks.map((park, index) => ({
-      lat: park.coordinates.lat,
-      lon: park.coordinates.lon,
-      name: park.name,
-      number: index + 1,
-    }))}
-    markerColor="#6a8f4e"
-  />
-  <MapModal
-    id="vets"
-    title="Dierenartsen"
-    center={neighborhood.coordinates}
-    markers={neighborhood.vets.practices.map((vet, index) => ({
-      lat: vet.coordinates.lat,
-      lon: vet.coordinates.lon,
-      name: vet.name,
-      number: index + 1,
-    }))}
-    markerColor="#ff7a70"
-  />
-  <MapModal
-    id="pet-stores"
-    title="Dierenwinkels"
-    center={neighborhood.coordinates}
-    markers={neighborhood.petStores.stores.map((store, index) => ({
-      lat: store.coordinates.lat,
-      lon: store.coordinates.lon,
-      name: store.name,
-      number: index + 1,
-    }))}
-    markerColor="#5183b5"
-  />
-
-  <script>
-    import { initActiveNavigation } from "../scripts/activeNavigation";
-    initActiveNavigation();
-
-    // Handle "Bekijk op kaart" button clicks - open modal on mobile, scroll on desktop
-    document.addEventListener("DOMContentLoaded", function () {
-      const openModalButtons = document.querySelectorAll("[data-open-modal]");
-
-      openModalButtons.forEach(function (button) {
-        button.addEventListener("click", function (e) {
-          e.preventDefault();
-          const modalId = button.getAttribute("data-open-modal");
-
-          if (!modalId) return;
-
-          // Check if we're on mobile (maps are hidden)
-          const isMobile = window.matchMedia("(max-width: 768px)").matches;
-
-          if (isMobile) {
-            // Open modal on mobile
-            const openFunction = (window as any)[`openMapModal_${modalId}`] as
-              | (() => void)
-              | undefined;
-            if (openFunction) {
-              openFunction();
-            }
-          } else {
-            // Scroll to map on desktop
-            const mapId = modalId.replace("map-modal-", "");
-            const targetElement = document.getElementById(mapId);
-
-            if (targetElement) {
-              const headerOffset = 80;
-              const elementPosition = targetElement.getBoundingClientRect().top;
-              const offsetPosition =
-                elementPosition + window.pageYOffset - headerOffset;
-
-              window.scrollTo({
-                top: offsetPosition,
-                behavior: "smooth",
-              });
-            }
-          }
-        });
-      });
-    });
-  </script>
 </NeighborhoodLayout>
+
+<style>
+  @use "../styles/variables" as *;
+
+  .neighborhoods-overview {
+    margin-top: $spacing-lg;
+  }
+
+  .neighborhoods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: $spacing-lg;
+    margin-top: $spacing-lg;
+
+    @media (max-width: $breakpoint-mobile) {
+      grid-template-columns: 1fr;
+      gap: $spacing-md;
+    }
+  }
+
+  .neighborhood-card {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-white;
+    border: $border-thin solid $calm-grey-200;
+    border-radius: $radius-card;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: all $transition-normal-ease;
+    box-shadow: $shadow-sm;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: $shadow-md;
+      border-color: $primary;
+    }
+  }
+
+  .neighborhood-card-content {
+    padding: $spacing-md;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+
+  .neighborhood-card-title {
+    font-size: $size-h3;
+    font-weight: $font-weight-bold;
+    color: $black;
+    margin: 0;
+  }
+
+  .neighborhood-card-subtitle {
+    font-size: $size-body;
+    color: $calm-grey-600;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .neighborhood-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-sm;
+    margin-top: $spacing-xs;
+  }
+
+  .neighborhood-card-meta-item {
+    display: flex;
+    align-items: center;
+    gap: $spacing-xs;
+    font-size: $size-body-small;
+    color: $calm-grey-600;
+
+    i {
+      color: $primary;
+    }
+  }
+
+  .neighborhood-card-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-xs;
+    margin-top: $spacing-xs;
+  }
+</style>
