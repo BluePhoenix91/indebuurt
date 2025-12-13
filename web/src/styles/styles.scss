@@ -1,18 +1,22 @@
 // Main SCSS entry point
 // Import order: reset → variables → global styles → sections
 
-@use 'reset';
-@use 'variables';
-@use 'global';
-@use 'base/fonts';
+@use "reset";
+@use "variables";
+@use "global";
+@use "base/fonts";
+
+// Components
+@use "components/neighborhood-card";
+@use "components/neighborhood-grid";
 
 // Page sections
-@use 'sections/header';
-@use 'sections/hero';
-@use 'sections/value-cards';
-@use 'sections/dog-parks';
-@use 'sections/vets';
-@use 'sections/pet-stores';
-@use 'sections/daily-life';
-@use 'sections/statistics';
-@use 'sections/contribution';
+@use "sections/header";
+@use "sections/hero";
+@use "sections/value-cards";
+@use "sections/dog-parks";
+@use "sections/vets";
+@use "sections/pet-stores";
+@use "sections/daily-life";
+@use "sections/statistics";
+@use "sections/contribution";

@@ -220,3 +220,25 @@
     border: $border-thin solid $border-color;
   }
 }
+
+//
+// Card Variant Mixin
+// Creates card color variants with consistent theming
+//
+
+@mixin card-variant($color, $text-color: null) {
+  background-color: rgba($color, 0.1);
+  border-color: rgba($color, 0.3);
+
+  .neighborhood-card__title,
+  .neighborhood-card__tag,
+  .neighborhood-card__tag i,
+  .neighborhood-card__cta {
+    color: if($text-color, $text-color, $color);
+  }
+
+  .neighborhood-card__tag {
+    background-color: rgba($color, 0.1);
+    border-color: rgba($color, 0.3);
+  }
+}

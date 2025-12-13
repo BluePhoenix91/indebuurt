@@ -1,0 +1,51 @@
+---
+interface Props {
+  title: string;
+  date: string;
+  dateIcon?: string;
+  description: string;
+  tags: Array<{ icon: string; text: string }>;
+  color?: "primary" | "secondary" | "accent-1" | "accent-2";
+}
+
+const {
+  title,
+  date,
+  dateIcon = "fa-regular fa-clock",
+  description,
+  tags,
+  color = "primary",
+} = Astro.props;
+
+const colorClass = `neighborhood-card--${color}`;
+---
+
+<div class={`neighborhood-card ${colorClass}`}>
+  <header class="neighborhood-card__header">
+    <h2 class="neighborhood-card__title">{title}</h2>
+    <div class="neighborhood-card__date">
+      <i class={dateIcon}></i>
+      <span>{date}</span>
+    </div>
+  </header>
+
+  <p class="neighborhood-card__description">{description}</p>
+
+  {
+    tags && tags.length > 0 && (
+      <div class="neighborhood-card__tags">
+        {tags.map((tag) => (
+          <span class="neighborhood-card__tag">
+            <i class={tag.icon} />
+            <span>{tag.text}</span>
+          </span>
+        ))}
+      </div>
+    )
+  }
+
+  <div class="neighborhood-card__cta">
+    <span>Lees meer</span>
+    <i class="fa-solid fa-arrow-right"></i>
+  </div>
+</div>

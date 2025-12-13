@@ -1,0 +1,44 @@
+@use "../variables" as *;
+
+/* Index Page Styles */
+
+.about-section {
+  margin-top: $spacing-xxl;
+  margin-bottom: $spacing-xxl;
+
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: $spacing-xl;
+    margin-bottom: $spacing-xl;
+  }
+}
+
+.about-content {
+  max-width: 50%;
+
+  @media (max-width: $breakpoint-mobile) {
+    max-width: 100%;
+  }
+
+  p {
+    font-size: $size-body;
+    line-height: 1.8;
+    color: $black;
+    margin: 0;
+  }
+}
+
+.all-neighborhoods-section {
+  margin-bottom: $spacing-xxl;
+
+  @media (max-width: $breakpoint-mobile) {
+    margin-bottom: $spacing-xl;
+  }
+}
+
+.recent-neighborhoods-section {
+  margin-bottom: $spacing-xxl;
+
+  @media (max-width: $breakpoint-mobile) {
+    margin-bottom: $spacing-xl;
+  }
+}

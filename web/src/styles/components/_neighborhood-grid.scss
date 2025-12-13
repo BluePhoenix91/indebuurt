@@ -1,0 +1,37 @@
+@use "../variables" as *;
+
+/* Neighborhood Cards Grid */
+
+.neighborhood-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-md;
+  margin-top: $spacing-md;
+
+  // 2 columns on tablet
+  @media (min-width: $breakpoint-mobile) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: $spacing-lg;
+  }
+
+  // 3 columns on desktop
+  @media (min-width: $breakpoint-tablet) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  height: 100%;
+  transition: transform $transition-normal-ease;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  .neighborhood-card {
+    flex: 1;
+  }
+}

@@ -257,3 +257,27 @@
     margin: 0;
   }
 }
+
+/* Index Hero Section */
+
+.hero-wrapper-index {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: $spacing-xxl $spacing-md;
+
+  @media (max-width: $breakpoint-mobile) {
+    padding: $spacing-xl $spacing-md;
+  }
+}
+
+.hero-content-index {
+  max-width: 800px;
+
+  h1 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+}

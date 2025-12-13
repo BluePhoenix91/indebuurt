@@ -1,18 +1,15 @@
 ---
-import Badge from "../components/Badge.astro";
-import SectionHeading from "../components/SectionHeading.astro";
-import { neighborhoods } from "../data/neighborhoods/index";
+import NeighborhoodCard from "../components/NeighborhoodCard.astro";
+import { neighborhoods } from "../data/neighborhoods";
 import NeighborhoodLayout from "../layouts/NeighborhoodLayout.astro";
 
-const neighborhoodsList = Object.values(neighborhoods);
-const RECENT_NEIGHBORHOODS_LIMIT = 4;
+// Get all neighborhoods and sort by date added (most recent first)
+const allNeighborhoods = Object.values(neighborhoods).sort(
+  (a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
+);
 
-const recentNeighborhoods = neighborhoodsList
-  .slice()
-  .sort(
-    (a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
-  )
-  .slice(0, RECENT_NEIGHBORHOODS_LIMIT);
+// Get the 3 most recent neighborhoods
+const recentNeighborhoods = allNeighborhoods.slice(0, 3);
 ---
 
 <NeighborhoodLayout
@@ -21,228 +18,72 @@ const recentNeighborhoods = neighborhoodsList
   canonical="https://buurtkompas.be/"
 >
   <section class="hero">
-    <div class="hero-wrapper">
-      <div class="hero-content">
-        <h1 class="text-h1">Vind de perfecte hondvriendelijke buurt</h1>
+    <div class="hero-wrapper-index">
+      <div class="hero-content-index">
+        <h1 class="text-h1">Buurtkompas</h1>
         <p class="text-body bold mt-sm">
-          Ontdek buurten die perfect zijn voor baasjes en hun honden. Met
-          gedetailleerde informatie over voorzieningen, parken, dierenartsen en
-          meer.
+          Ontdek buurten in Gent vanuit het perspectief van hondeneigenaars.
+        </p>
+        <p class="text-body mt-sm">
+          Data én echte ervaringen, speciaal voor hondenliefhebbers.
         </p>
       </div>
     </div>
   </section>
 
-  <div class="content-wrapper">
-    <div class="content-section">
-      <section class="recent-neighborhoods">
-        <SectionHeading level={2}>Recent toegevoegde buurten</SectionHeading>
-        <p class="mt-sm">
-          De nieuwste aanvullingen op Buurtkompas, gesorteerd op
-          publicatiedatum.
+  <div class="container">
+    <section class="about-section">
+      <h2 class="text-h2">Wat is Buurtkompas</h2>
+      <div class="about-content">
+        <p>
+          Buurtkompas helpt hondeneigenaars buurten ontdekken op straatniveau.
+          Geen grote stadsstatistieken van een half jaar oud — maar hyperlokale
+          info over groen, veiligheid, hondvriendelijkheid, wandelroutes en
+          voorzieningen in de buurt. Perfect voor wie écht wil weten hoe het
+          leven daar voelt.
         </p>
+      </div>
+    </section>
 
-        <div class="neighborhoods-grid">
-          {
-            recentNeighborhoods.map((neighborhood) => (
-              <a
-                href={`/buurt/${neighborhood.id}`}
-                class="neighborhood-card recent-card"
-              >
-                <div class="neighborhood-card-content">
-                  <h3 class="neighborhood-card-title">{neighborhood.name}</h3>
-                  <p class="neighborhood-card-subtitle">
-                    {neighborhood.subtitle}
-                  </p>
-                  <div class="neighborhood-card-meta">
-                    <span class="neighborhood-card-meta-item">
-                      <i class="fa-regular fa-house" />
-                      Postcode {neighborhood.postalCode}
-                    </span>
-                    <span class="neighborhood-card-meta-item">
-                      <i class="fa-regular fa-users" />
-                      {neighborhood.inhabitants.toLocaleString("nl-BE")}{" "}
-                      inwoners
-                    </span>
-                  </div>
-                  <div class="neighborhood-card-badges">
-                    {neighborhood.labels.map((label) => (
-                      <Badge variant="outline" icon={label.icon}>
-                        {label.text}
-                      </Badge>
-                    ))}
-                  </div>
-                  <div class="recent-card-meta">
-                    <span class="recent-date">
-                      <i class="fa-regular fa-clock" />
-                      Toegevoegd{" "}
-                      {new Intl.DateTimeFormat("nl-BE", {
-                        dateStyle: "medium",
-                      }).format(new Date(neighborhood.dateAdded))}
-                    </span>
-                  </div>
-                </div>
-              </a>
-            ))
-          }
-        </div>
-      </section>
+    <section class="all-neighborhoods-section">
+      <h2 class="text-h2">Buurten die je nu kan ontdekken</h2>
+      <p class="mt-sm">
+        Hieronder vind je alle buurten die we momenteel al geanalyseerd hebben:
+      </p>
+      <div class="neighborhood-cards-grid">
+        {
+          allNeighborhoods.map((neighborhood) => (
+            <a href={`/buurt/${neighborhood.id}`} class="card-link">
+              <NeighborhoodCard
+                title={neighborhood.name}
+                date={neighborhood.dateAdded}
+                description={neighborhood.intro.split("\n\n")[0]}
+                tags={neighborhood.labels}
+                color="primary"
+              />
+            </a>
+          ))
+        }
+      </div>
+    </section>
 
-      <section class="neighborhoods-overview">
-        <SectionHeading level={2}>
-          Beschikbare buurten ({neighborhoodsList.length})
-        </SectionHeading>
-        <p class="mt-sm">
-          Klik op een buurt om meer te weten te komen over de hondvriendelijke
-          voorzieningen en het dagelijkse leven daar.
-        </p>
-
-        <div class="neighborhoods-grid">
-          {
-            neighborhoodsList.map((neighborhood) => (
-              <a href={`/buurt/${neighborhood.id}`} class="neighborhood-card">
-                <div class="neighborhood-card-content">
-                  <h3 class="neighborhood-card-title">{neighborhood.name}</h3>
-                  <p class="neighborhood-card-subtitle">
-                    {neighborhood.subtitle}
-                  </p>
-                  <div class="neighborhood-card-meta">
-                    <span class="neighborhood-card-meta-item">
-                      <i class="fa-regular fa-house" />
-                      Postcode {neighborhood.postalCode}
-                    </span>
-                    <span class="neighborhood-card-meta-item">
-                      <i class="fa-regular fa-users" />
-                      {neighborhood.inhabitants.toLocaleString("nl-BE")}{" "}
-                      inwoners
-                    </span>
-                  </div>
-                  <div class="neighborhood-card-badges">
-                    {neighborhood.labels.map((label) => (
-                      <Badge variant="outline" icon={label.icon}>
-                        {label.text}
-                      </Badge>
-                    ))}
-                  </div>
-                </div>
-              </a>
-            ))
-          }
-        </div>
-      </section>
-    </div>
+    <section class="recent-neighborhoods-section">
+      <h2 class="text-h2">Recentste buurten</h2>
+      <div class="neighborhood-cards-grid">
+        {
+          recentNeighborhoods.map((neighborhood) => (
+            <a href={`/buurt/${neighborhood.id}`} class="card-link">
+              <NeighborhoodCard
+                title={neighborhood.name}
+                date={neighborhood.dateAdded}
+                description={neighborhood.intro.split("\n\n")[0]}
+                tags={neighborhood.labels}
+                color="accent-2"
+              />
+            </a>
+          ))
+        }
+      </div>
+    </section>
   </div>
 </NeighborhoodLayout>
-
-<style>
-  @use "../styles/variables" as *;
-
-  .recent-neighborhoods {
-    margin-top: $spacing-lg;
-  }
-
-  .recent-card {
-    border-color: $primary;
-    box-shadow: $shadow-md;
-  }
-
-  .recent-card-meta {
-    margin-top: $spacing-sm;
-    display: flex;
-    align-items: center;
-  }
-
-  .recent-date {
-    display: inline-flex;
-    align-items: center;
-    gap: $spacing-xs;
-    font-size: $size-body-small;
-    color: $calm-grey-700;
-
-    i {
-      color: $primary;
-    }
-  }
-
-  .neighborhoods-overview {
-    margin-top: $spacing-lg;
-  }
-
-  .neighborhoods-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: $spacing-lg;
-    margin-top: $spacing-lg;
-
-    @media (max-width: $breakpoint-mobile) {
-      grid-template-columns: 1fr;
-      gap: $spacing-md;
-    }
-  }
-
-  .neighborhood-card {
-    display: flex;
-    flex-direction: column;
-    background-color: $background-white;
-    border: $border-thin solid $calm-grey-200;
-    border-radius: $radius-card;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    transition: all $transition-normal-ease;
-    box-shadow: $shadow-sm;
-
-    &:hover {
-      transform: translateY(-4px);
-      box-shadow: $shadow-md;
-      border-color: $primary;
-    }
-  }
-
-  .neighborhood-card-content {
-    padding: $spacing-md;
-    display: flex;
-    flex-direction: column;
-    gap: $spacing-sm;
-  }
-
-  .neighborhood-card-title {
-    font-size: $size-h3;
-    font-weight: $font-weight-bold;
-    color: $black;
-    margin: 0;
-  }
-
-  .neighborhood-card-subtitle {
-    font-size: $size-body;
-    color: $calm-grey-600;
-    margin: 0;
-    line-height: 1.5;
-  }
-
-  .neighborhood-card-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: $spacing-sm;
-    margin-top: $spacing-xs;
-  }
-
-  .neighborhood-card-meta-item {
-    display: flex;
-    align-items: center;
-    gap: $spacing-xs;
-    font-size: $size-body-small;
-    color: $calm-grey-600;
-
-    i {
-      color: $primary;
-    }
-  }
-
-  .neighborhood-card-badges {
-    display: flex;
-    flex-wrap: wrap;
-    gap: $spacing-xs;
-    margin-top: $spacing-xs;
-  }
-</style>
