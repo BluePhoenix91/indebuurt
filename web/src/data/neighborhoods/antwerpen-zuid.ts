@@ -5,12 +5,13 @@ export const antwerpenZuid: Neighborhood = {
   name: "Antwerpen-Zuid",
   subtitle:
     "Voor baasjes die op zoek zijn naar een buurt die klapt voor hen én hun hond",
+  dateAdded: "2025-12-01",
   postalCode: "2000",
   inhabitants: 12450,
   labels: [
     { text: "Hondvriendelijk", icon: "fa-regular fa-dog" },
     { text: "Populair buurt", icon: "fa-regular fa-star" },
-    { text: "Veel groen", icon: "fa-regular fa-trees" }
+    { text: "Veel groen", icon: "fa-regular fa-trees" },
   ],
   intro: `Antwerpen-Zuid is een van de meest hondvriendelijke buurten van Antwerpen.
 

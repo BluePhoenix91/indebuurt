@@ -5,6 +5,14 @@ import { neighborhoods } from "../data/neighborhoods/index";
 import NeighborhoodLayout from "../layouts/NeighborhoodLayout.astro";
 
 const neighborhoodsList = Object.values(neighborhoods);
+const RECENT_NEIGHBORHOODS_LIMIT = 4;
+
+const recentNeighborhoods = neighborhoodsList
+  .slice()
+  .sort(
+    (a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
+  )
+  .slice(0, RECENT_NEIGHBORHOODS_LIMIT);
 ---
 
 <NeighborhoodLayout
@@ -27,6 +35,59 @@ const neighborhoodsList = Object.values(neighborhoods);
 
   <div class="content-wrapper">
     <div class="content-section">
+      <section class="recent-neighborhoods">
+        <SectionHeading level={2}>Recent toegevoegde buurten</SectionHeading>
+        <p class="mt-sm">
+          De nieuwste aanvullingen op Buurtkompas, gesorteerd op
+          publicatiedatum.
+        </p>
+
+        <div class="neighborhoods-grid">
+          {
+            recentNeighborhoods.map((neighborhood) => (
+              <a
+                href={`/buurt/${neighborhood.id}`}
+                class="neighborhood-card recent-card"
+              >
+                <div class="neighborhood-card-content">
+                  <h3 class="neighborhood-card-title">{neighborhood.name}</h3>
+                  <p class="neighborhood-card-subtitle">
+                    {neighborhood.subtitle}
+                  </p>
+                  <div class="neighborhood-card-meta">
+                    <span class="neighborhood-card-meta-item">
+                      <i class="fa-regular fa-house" />
+                      Postcode {neighborhood.postalCode}
+                    </span>
+                    <span class="neighborhood-card-meta-item">
+                      <i class="fa-regular fa-users" />
+                      {neighborhood.inhabitants.toLocaleString("nl-BE")}{" "}
+                      inwoners
+                    </span>
+                  </div>
+                  <div class="neighborhood-card-badges">
+                    {neighborhood.labels.map((label) => (
+                      <Badge variant="outline" icon={label.icon}>
+                        {label.text}
+                      </Badge>
+                    ))}
+                  </div>
+                  <div class="recent-card-meta">
+                    <span class="recent-date">
+                      <i class="fa-regular fa-clock" />
+                      Toegevoegd{" "}
+                      {new Intl.DateTimeFormat("nl-BE", {
+                        dateStyle: "medium",
+                      }).format(new Date(neighborhood.dateAdded))}
+                    </span>
+                  </div>
+                </div>
+              </a>
+            ))
+          }
+        </div>
+      </section>
+
       <section class="neighborhoods-overview">
         <SectionHeading level={2}>
           Beschikbare buurten ({neighborhoodsList.length})
@@ -75,6 +136,33 @@ const neighborhoodsList = Object.values(neighborhoods);
 
 <style>
   @use "../styles/variables" as *;
+
+  .recent-neighborhoods {
+    margin-top: $spacing-lg;
+  }
+
+  .recent-card {
+    border-color: $primary;
+    box-shadow: $shadow-md;
+  }
+
+  .recent-card-meta {
+    margin-top: $spacing-sm;
+    display: flex;
+    align-items: center;
+  }
+
+  .recent-date {
+    display: inline-flex;
+    align-items: center;
+    gap: $spacing-xs;
+    font-size: $size-body-small;
+    color: $calm-grey-700;
+
+    i {
+      color: $primary;
+    }
+  }
 
   .neighborhoods-overview {
     margin-top: $spacing-lg;

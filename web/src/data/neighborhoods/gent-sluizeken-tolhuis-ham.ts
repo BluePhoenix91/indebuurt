@@ -5,12 +5,13 @@ export const gentSluizekenTolhuisHam: Neighborhood = {
   name: "Sluizeken-Tolhuis-Ham",
   subtitle:
     "Voor baasjes die een groene, rustige buurt zoeken met parken om de hoek",
+  dateAdded: "2025-12-13",
   postalCode: "9000",
   inhabitants: 8200,
   labels: [
     { text: "Veel parken", icon: "fa-regular fa-trees" },
     { text: "Waterrijk", icon: "fa-regular fa-water" },
-    { text: "Divers", icon: "fa-regular fa-people-group" }
+    { text: "Divers", icon: "fa-regular fa-people-group" },
   ],
   intro: `Sluizeken-Tolhuis-Ham is een 19de-eeuwse gordelwijk die aan drie kanten door water wordt omringd: het Tolhuisdok en de Blaisantvest in het noorden, het Handelsdok in het oosten, en de Leie in het zuiden. Dit maakt de buurt ideaal voor baasjes die van waterkanten houden — je wandelt langs rustige kades en historische havenstructuren. Met vijftien parken binnen de wijk heb je als baasje eindeloos veel keuze voor korte en lange wandelingen. Het Tolhuispark, Vogelenzangpark en Van Crombrugghepark liggen allemaal op een paar minuten lopen.
 
@@ -104,7 +105,8 @@ Deze buurt is vooral geschikt voor baasjes die houden van een diverse, levendige
     ],
   },
   vets: {
-    intro: "In Sluizeken-Tolhuis-Ham zijn geen dierenartsenpraktijken binnen de buurt zelf. De dichtstbijzijnde praktijk is Heughebaert Anne op de Recollettenlei, op ongeveer 24 minuten wandelen — wat in de praktijk betekent dat je de fiets of auto zult nemen voor een bezoek aan de dierenarts.",
+    intro:
+      "In Sluizeken-Tolhuis-Ham zijn geen dierenartsenpraktijken binnen de buurt zelf. De dichtstbijzijnde praktijk is Heughebaert Anne op de Recollettenlei, op ongeveer 24 minuten wandelen — wat in de praktijk betekent dat je de fiets of auto zult nemen voor een bezoek aan de dierenarts.",
     practices: [
       {
         name: "Heughebaert Anne",
@@ -123,7 +125,8 @@ Deze buurt is vooral geschikt voor baasjes die houden van een diverse, levendige
     ],
   },
   petStores: {
-    intro: "In Sluizeken-Tolhuis-Ham zijn geen dierenwinkels binnen de buurt zelf. De dichtstbijzijnde dierenwinkel is Tom & Co op de Dendermondsesteenweg in Dampoort, op ongeveer vijf minuten fietsen — een korte rit voor voeding, snacks en accessoires voor je hond.",
+    intro:
+      "In Sluizeken-Tolhuis-Ham zijn geen dierenwinkels binnen de buurt zelf. De dichtstbijzijnde dierenwinkel is Tom & Co op de Dendermondsesteenweg in Dampoort, op ongeveer vijf minuten fietsen — een korte rit voor voeding, snacks en accessoires voor je hond.",
     stores: [
       {
         name: "Tom & Co",

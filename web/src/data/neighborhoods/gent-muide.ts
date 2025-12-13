@@ -5,12 +5,13 @@ export const gentMuide: Neighborhood = {
   name: "Muide-Meulestede-Afrikalaan",
   subtitle:
     "Voor baasjes die op zoek zijn naar een buurt die klapt voor hen én hun hond",
+  dateAdded: "2024-12-10",
   postalCode: "9000",
   inhabitants: 12450,
   labels: [
     { text: "Wandelvriendelijk", icon: "fa-regular fa-person-walking" },
     { text: "Opkomende buurt", icon: "fa-regular fa-arrow-trend-up" },
-    { text: "Veel groen", icon: "fa-regular fa-trees" }
+    { text: "Veel groen", icon: "fa-regular fa-trees" },
   ],
   intro: `De Muide is een buurt met karakter: oude havenkranen, water en veel creatieve energie. Je wandelt er met je hond langs brede kades, tussen voormalige pakhuizen en nieuwe gezinsbuurten. Het Kapitein Zeppospark aan het Houtdok is de groene long van de wijk — 3 hectare park waar je binnen 5 minuten loopt en waar baasjes elkaar kruisen tijdens de ochtend- en avondrondes.
 

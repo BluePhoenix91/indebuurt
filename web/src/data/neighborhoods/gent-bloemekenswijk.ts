@@ -5,12 +5,13 @@ export const gentBloemekenswijk: Neighborhood = {
   name: "Bloemekenswijk",
   subtitle:
     "Voor baasjes die houden van een jonge, levendige buurt met parken op letterlijk elke hoek",
+  dateAdded: "2025-12-13",
   postalCode: "9030",
   inhabitants: 12500,
   labels: [
     { text: "Zeer jong", icon: "fa-regular fa-baby" },
     { text: "Levendig", icon: "fa-regular fa-sparkles" },
-    { text: "Groene parken", icon: "fa-regular fa-tree-city" }
+    { text: "Groene parken", icon: "fa-regular fa-tree-city" },
   ],
   intro: `Bloemekenswijk is Gents jongste buurt — bijna 1 op 4 inwoners is tussen 0 en 17 jaar oud. Gelegen tussen Rabot en Wondelgem, combineert de wijk arbeiderswoningen uit de late 19de en vroege 20ste eeuw met een levendige, diverse gemeenschap. Wat opvalt: hoewel de buurt dichtbebouwd aanvoelt vanaf de straat, oogt ze verrassend groen vanuit de lucht. Met twaalf parken binnen de wijk — waaronder het centrale Bloemekenspark op letterlijk 50 meter van het centrum — heb je als baasje eindeloos veel keuze voor korte en lange wandelingen.
 
@@ -159,7 +160,7 @@ Deze buurt is vooral geschikt voor baasjes die houden van een jonge, diverse en 
         distanceIcon: "fa-regular fa-bicycle",
         coordinates: {
           lat: 51.089123,
-          lon: 3.707950,
+          lon: 3.70795,
         },
       },
     ],

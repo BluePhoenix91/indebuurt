@@ -5,6 +5,7 @@ export const gentWondelgem: Neighborhood = {
   name: "Wondelgem",
   subtitle:
     "Voor baasjes die willen verdwalen tussen eindeloos veel parken en groene plekken",
+  dateAdded: "2025-12-10",
   postalCode: "9032",
   inhabitants: 18212,
   labels: [

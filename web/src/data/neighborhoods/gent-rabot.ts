@@ -4,12 +4,13 @@ export const gentRabot: Neighborhood = {
   id: "gent-rabot",
   name: "Gent-Rabot",
   subtitle: "Een dichtbevolkte buurt met veel leven en een centrale ligging",
+  dateAdded: "2025-12-10",
   postalCode: "9000",
   inhabitants: 9668,
   labels: [
     { text: "Stadse buurt", icon: "fa-regular fa-city" },
     { text: "Multicultureel", icon: "fa-regular fa-people-group" },
-    { text: "Dicht bij centrum", icon: "fa-regular fa-location-dot" }
+    { text: "Dicht bij centrum", icon: "fa-regular fa-location-dot" },
   ],
   intro: `Het Rabot is een buurt die ademt: superdiversiteit, dichtbevolkt en altijd in beweging. Je wandelt er met je hond door smalle straten met arbeidershuisjes uit de textielindustrie, tussen multiculturele winkeltjes en buurtbewoners die elkaar kennen. Het Rabotpark is de groene uitlaatklep — een compact park met speelterreinen, wandelpaden en banken waar baasjes uit de buurt samenkomen.
 

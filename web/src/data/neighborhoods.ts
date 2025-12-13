@@ -63,6 +63,7 @@ export interface Neighborhood {
   id: string;
   name: string;
   subtitle: string;
+  dateAdded: string;
   postalCode: string;
   inhabitants: number;
   labels: Label[];
