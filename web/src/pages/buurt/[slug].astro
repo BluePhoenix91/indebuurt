@@ -52,8 +52,8 @@ const neighborhood = neighborhoods[slug];
         <div class="hero-badges mt-lg">
           {
             neighborhood.labels.map((label) => (
-              <Badge variant="outline" icon="fa-regular fa-dog">
-                {label}
+              <Badge variant="outline" icon={label.icon}>
+                {label.text}
               </Badge>
             ))
           }

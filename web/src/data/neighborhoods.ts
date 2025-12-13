@@ -54,13 +54,18 @@ export interface PetStore {
   };
 }
 
+export interface Label {
+  text: string;
+  icon: string;
+}
+
 export interface Neighborhood {
   id: string;
   name: string;
   subtitle: string;
   postalCode: string;
   inhabitants: number;
-  labels: string[];
+  labels: Label[];
   intro: string;
   coordinates: {
     lat: number;

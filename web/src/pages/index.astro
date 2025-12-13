@@ -58,8 +58,8 @@ const neighborhoodsList = Object.values(neighborhoods);
                   </div>
                   <div class="neighborhood-card-badges">
                     {neighborhood.labels.map((label) => (
-                      <Badge variant="outline" icon="fa-regular fa-dog">
-                        {label}
+                      <Badge variant="outline" icon={label.icon}>
+                        {label.text}
                       </Badge>
                     ))}
                   </div>

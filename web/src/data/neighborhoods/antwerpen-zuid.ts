@@ -7,7 +7,11 @@ export const antwerpenZuid: Neighborhood = {
     "Voor baasjes die op zoek zijn naar een buurt die klapt voor hen én hun hond",
   postalCode: "2000",
   inhabitants: 12450,
-  labels: ["Hondvriendelijk", "Populair buurt", "Veel groen"],
+  labels: [
+    { text: "Hondvriendelijk", icon: "fa-regular fa-dog" },
+    { text: "Populair buurt", icon: "fa-regular fa-star" },
+    { text: "Veel groen", icon: "fa-regular fa-trees" }
+  ],
   intro: `Antwerpen-Zuid is een van de meest hondvriendelijke buurten van Antwerpen.
 
 Met korte wandelafstanden, 3 hondenspeelweides en groene rustige binnen wandelafstand vind elke buurt meteen ering en voelbare aan voor jou en je hond. Bovendien woon je vooraf hoe makkelijk het dagelijkse leven hier aanvoelt: boodschappen op de hoek, veilige verkeersituaties en alle wat overzichtelijke richten makkelijk te voet of met de fiets.
@@ -20,7 +24,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
   },
   valueCards: [
     {
-      icon: "fa-solid fa-dog",
+      icon: "fa-regular fa-dog",
       title: "Hondenparken",
       distance: "10 mins",
       distanceIcon: "fa-regular fa-person-walking",
@@ -28,7 +32,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       detail: "Meestal binnen 800 meter",
     },
     {
-      icon: "fa-solid fa-shield-heart",
+      icon: "fa-solid fa-user-doctor",
       title: "Dierenartsen",
       distance: "10 mins",
       distanceIcon: "fa-regular fa-car",
@@ -44,7 +48,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       detail: "Meestal binnen 600 meter",
     },
     {
-      icon: "fa-solid fa-trees",
+      icon: "fa-regular fa-trees",
       title: "Groene ruimtes",
       distance: "10 mins",
       distanceIcon: "fa-regular fa-person-walking",
@@ -60,7 +64,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       detail: "Meestal binnen 800 meter",
     },
     {
-      icon: "fa-solid fa-house",
+      icon: "fa-regular fa-house",
       title: "Gemiddelde woningprijs",
       distance: "10 mins",
       distanceIcon: "fa-regular fa-person-walking",
@@ -175,7 +179,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
     practices: [
       {
         name: "Dierenkliniek Antwerpen-Zuid",
-        icon: "fa-solid fa-shield-heart",
+        icon: "fa-solid fa-hospital",
         street: "Mechelsesteenweg",
         streetNumber: "245",
         municipality: "Antwerpen",
@@ -189,7 +193,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       },
       {
         name: "Dierenarts Van den Berghe",
-        icon: "fa-solid fa-shield-heart",
+        icon: "fa-solid fa-hospital",
         street: "Borsbeeksebrug",
         streetNumber: "12",
         municipality: "Antwerpen",
@@ -203,7 +207,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       },
       {
         name: "Dierenkliniek Deurne",
-        icon: "fa-solid fa-shield-heart",
+        icon: "fa-solid fa-hospital",
         street: "Turnhoutsebaan",
         streetNumber: "456",
         municipality: "Antwerpen",
@@ -223,7 +227,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
     stores: [
       {
         name: "Dierenwinkel Antwerpen-Zuid",
-        icon: "fa-solid fa-bag-shopping",
+        icon: "fa-solid fa-store",
         street: "Mechelsesteenweg",
         streetNumber: "189",
         municipality: "Antwerpen",
@@ -237,7 +241,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       },
       {
         name: "Pet Shop Deurne",
-        icon: "fa-solid fa-bag-shopping",
+        icon: "fa-solid fa-store",
         street: "Turnhoutsebaan",
         streetNumber: "312",
         municipality: "Antwerpen",
@@ -251,7 +255,7 @@ Deze buurt is ideaal voor mensen die hun hond zien als volwaarding gezinslid —
       },
       {
         name: "Dierenwinkel Het Huisdier",
-        icon: "fa-solid fa-bag-shopping",
+        icon: "fa-solid fa-store",
         street: "Borsbeeksebrug",
         streetNumber: "45",
         municipality: "Antwerpen",

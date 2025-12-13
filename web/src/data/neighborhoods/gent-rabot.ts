@@ -6,7 +6,11 @@ export const gentRabot: Neighborhood = {
   subtitle: "Een dichtbevolkte buurt met veel leven en een centrale ligging",
   postalCode: "9000",
   inhabitants: 9668,
-  labels: ["Stadse buurt", "Multicultureel", "Dicht bij centrum"],
+  labels: [
+    { text: "Stadse buurt", icon: "fa-regular fa-city" },
+    { text: "Multicultureel", icon: "fa-regular fa-people-group" },
+    { text: "Dicht bij centrum", icon: "fa-regular fa-location-dot" }
+  ],
   intro: `Het Rabot is een buurt die ademt: superdiversiteit, dichtbevolkt en altijd in beweging. Je wandelt er met je hond door smalle straten met arbeidershuisjes uit de textielindustrie, tussen multiculturele winkeltjes en buurtbewoners die elkaar kennen. Het Rabotpark is de groene uitlaatklep — een compact park met speelterreinen, wandelpaden en banken waar baasjes uit de buurt samenkomen.
 
 Wat het Rabot bijzonder maakt, is de mix van authenticiteit en vernieuwing. De buurt ligt op een steenworp van het centrum, waardoor je snel overal bent, maar behoudt zijn volkse, stedelijke karakter. Het is een 19e-eeuwse gordel die volop in transitie is — denk aan het stadsvernieuwingsproject "Bruggen naar Rabot" — en waar ruimte schaars maar gezelligheid groot is. Voor honden is het vooral een buurt voor korte, stadse rondes in plaats van lange groene wandelingen.
@@ -19,15 +23,15 @@ Deze buurt is vooral geschikt voor baasjes die houden van stedelijke levendighei
   },
   valueCards: [
     {
-      icon: "fa-solid fa-dog",
+      icon: "fa-regular fa-dog",
       title: "Hondenparken",
       distance: "20 mins",
       distanceIcon: "fa-regular fa-person-walking",
-      description: "Er is één parkje beschikbaar binnen wandelafstand",
+      description: "Er is twee parkjes beschikbaar binnen wandelafstand",
       detail: "Meestal binnen 2 500 meter",
     },
     {
-      icon: "fa-solid fa-shield-heart",
+      icon: "fa-solid fa-user-doctor",
       title: "Dierenartsen",
       distance: "",
       distanceIcon: "",
@@ -43,7 +47,7 @@ Deze buurt is vooral geschikt voor baasjes die houden van stedelijke levendighei
       detail: "",
     },
     {
-      icon: "fa-solid fa-trees",
+      icon: "fa-regular fa-trees",
       title: "Groene ruimtes",
       distance: "10 mins",
       distanceIcon: "fa-regular fa-person-walking",
@@ -59,7 +63,7 @@ Deze buurt is vooral geschikt voor baasjes die houden van stedelijke levendighei
       detail: "Meestal binnen 500 meter",
     },
     {
-      icon: "fa-solid fa-house",
+      icon: "fa-regular fa-house",
       title: "Gemiddelde woningprijs",
       distance: "",
       distanceIcon: "",
@@ -73,7 +77,7 @@ Deze buurt is vooral geschikt voor baasjes die houden van stedelijke levendighei
   },
   dogParks: {
     intro:
-      "Het Rabot heeft één omheinde hondenspeelweide op ongeveer 20 minuten lopen: de Hondenspeelweide Neuseplein. Voor wie meer variatie zoekt, ligt dat net iets verder dan ideaal, maar de centrale ligging van de buurt betekent dat je snel in andere wijken bent met meer uitlaatopties. Het Rabot is vooral een buurt voor korte, stadse wandelrondes — het Rabotpark en de smalle straatjes zijn perfect voor snelle ochtenduitlaatbeurten.",
+      "Het Rabot heeft twee omheinde hondenspeelweide op ongeveer 20 minuten lopen: de Hondenspeelweide Neuseplein. Voor wie meer variatie zoekt, ligt dat net iets verder dan ideaal, maar de centrale ligging van de buurt betekent dat je snel in andere wijken bent met meer uitlaatopties. Het Rabot is vooral een buurt voor korte, stadse wandelrondes — het Rabotpark en de smalle straatjes zijn perfect voor snelle ochtenduitlaatbeurten.",
     parks: [
       {
         name: "Hondenspeelweide Neuseplein",
@@ -83,6 +87,27 @@ Deze buurt is vooral geschikt voor baasjes die houden van stedelijke levendighei
         coordinates: {
           lat: 51.0670556,
           lon: 3.7265774,
+        },
+        features: [
+          {
+            text: "Volledig omheind terrein",
+            icon: "fa-regular fa-shield-check",
+          },
+          { text: "Los lopen toegestaan", icon: "fa-regular fa-dog-leashed" },
+          {
+            text: "Open van zonsopgang tot zonsondergang",
+            icon: "fa-regular fa-clock",
+          },
+        ],
+      },
+      {
+        name: "Hondenspeelweide Rabotpark",
+        icon: "fa-solid fa-bench-tree",
+        distance: "16 mins",
+        distanceIcon: "fa-regular fa-person-walking",
+        coordinates: {
+          lat: 51.0636779,
+          lon: 3.7177188,
         },
         features: [
           {

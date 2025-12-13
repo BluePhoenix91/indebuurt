@@ -2,12 +2,16 @@ import type { Neighborhood } from "../neighborhoods";
 
 export const gentMuide: Neighborhood = {
   id: "gent-muide",
-  name: "Gent-Muide",
+  name: "Muide-Meulestede-Afrikalaan",
   subtitle:
     "Voor baasjes die op zoek zijn naar een buurt die klapt voor hen én hun hond",
   postalCode: "9000",
   inhabitants: 12450,
-  labels: ["Wandelvriendelijk", "Opkomende buurt", "Veel groen"],
+  labels: [
+    { text: "Wandelvriendelijk", icon: "fa-regular fa-person-walking" },
+    { text: "Opkomende buurt", icon: "fa-regular fa-arrow-trend-up" },
+    { text: "Veel groen", icon: "fa-regular fa-trees" }
+  ],
   intro: `De Muide is een buurt met karakter: oude havenkranen, water en veel creatieve energie. Je wandelt er met je hond langs brede kades, tussen voormalige pakhuizen en nieuwe gezinsbuurten. Het Kapitein Zeppospark aan het Houtdok is de groene long van de wijk — 3 hectare park waar je binnen 5 minuten loopt en waar baasjes elkaar kruisen tijdens de ochtend- en avondrondes.
 
 Wat de Muide bijzonder maakt, is hoe snel de buurt verandert van industrieel naar rustig woonerf. De 4 kilometer lange maritieme promenade langs de oude dokken biedt ruimte voor lange wandelingen met je hond, terwijl groene plekken als het Kapitein Zeppospark perfect zijn voor een korte uitlaatbeurt. Een hondenspeelweide ligt op 18 minuten wandelen, maar dierenartsen en dierenwinkels zijn er niet in de buurt zelf.
@@ -20,7 +24,7 @@ Deze buurt is vooral geschikt voor baasjes die zoeken naar ruimte, water en een 
   },
   valueCards: [
     {
-      icon: "fa-solid fa-dog",
+      icon: "fa-regular fa-dog",
       title: "Hondenparken",
       distance: "18 mins",
       distanceIcon: "fa-regular fa-person-walking",
@@ -28,7 +32,7 @@ Deze buurt is vooral geschikt voor baasjes die zoeken naar ruimte, water en een 
       detail: "Meestal binnen 1 500 meter",
     },
     {
-      icon: "fa-solid fa-shield-heart",
+      icon: "fa-solid fa-user-doctor",
       title: "Dierenartsen",
       distance: "",
       distanceIcon: "",
@@ -44,7 +48,7 @@ Deze buurt is vooral geschikt voor baasjes die zoeken naar ruimte, water en een 
       detail: "",
     },
     {
-      icon: "fa-solid fa-trees",
+      icon: "fa-regular fa-trees",
       title: "Groene ruimtes",
       distance: "5 mins",
       distanceIcon: "fa-regular fa-person-walking",
@@ -60,7 +64,7 @@ Deze buurt is vooral geschikt voor baasjes die zoeken naar ruimte, water en een 
       detail: "Meestal binnen 500 meter",
     },
     {
-      icon: "fa-solid fa-house",
+      icon: "fa-regular fa-house",
       title: "Gemiddelde woningprijs",
       distance: "",
       distanceIcon: "",
