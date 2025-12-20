@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://buurtkompas.be',
+  site: 'https://www.buurtkompas.be',
   output: 'static',
   integrations: [
     sitemap({
@@ -14,7 +14,7 @@ export default defineConfig({
       lastmod: new Date(),
       serialize(item) {
         // Homepage gets highest priority
-        if (item.url === 'https://buurtkompas.be/') {
+        if (item.url === 'https://www.buurtkompas.be/') {
           item.priority = 1.0;
         }
         return item;
