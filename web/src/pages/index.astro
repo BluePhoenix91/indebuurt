@@ -53,7 +53,7 @@ const recentNeighborhoods = allNeighborhoods.slice(0, 3);
       <div class="neighborhood-cards-grid">
         {
           allNeighborhoods.map((neighborhood) => (
-            <a href={`/buurt/${neighborhood.id}`} class="card-link">
+            <a href={`/buurt/${neighborhood.id}/`} class="card-link">
               <NeighborhoodCard
                 title={neighborhood.name}
                 date={neighborhood.dateAdded}
@@ -72,7 +72,7 @@ const recentNeighborhoods = allNeighborhoods.slice(0, 3);
       <div class="neighborhood-cards-grid">
         {
           recentNeighborhoods.map((neighborhood) => (
-            <a href={`/buurt/${neighborhood.id}`} class="card-link">
+            <a href={`/buurt/${neighborhood.id}/`} class="card-link">
               <NeighborhoodCard
                 title={neighborhood.name}
                 date={neighborhood.dateAdded}

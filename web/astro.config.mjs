@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://www.buurtkompas.be',
   output: 'static',
+  trailingSlash: 'always',
   integrations: [
     sitemap({
       // Add priority and change frequency hints for search engines
