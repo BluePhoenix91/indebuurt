@@ -152,4 +152,13 @@ Maar de Binnenstad is geen wijk voor wie zoekt naar een hecht wijkgevoel of beta
       "Nu je weet dat de Binnenstad bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
     hasOwnPostalCode: false,
   },
+  neighboringNeighborhoods: [
+    "gent-elisabethbegijnhof",
+    "gent-ledeberg",
+    "gent-macharius-heirnis",
+    "gent-oud-gentbrugge",
+    "gent-sluizeken-tolhuis-ham",
+    "gent-stationsbuurt-noord",
+    "gent-watersportbaan-ekkergem",
+  ],
 };

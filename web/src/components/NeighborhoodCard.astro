@@ -1,8 +1,9 @@
 ---
 interface Props {
   title: string;
-  date: string;
+  date?: string;
   dateIcon?: string;
+  showDate?: boolean;
   description: string;
   tags: Array<{ icon: string; text: string }>;
   color?: "primary" | "secondary" | "accent-1" | "accent-2";
@@ -12,6 +13,7 @@ const {
   title,
   date,
   dateIcon = "fa-regular fa-clock",
+  showDate = false,
   description,
   tags,
   color = "primary",
@@ -23,10 +25,14 @@ const colorClass = `neighborhood-card--${color}`;
 <div class={`neighborhood-card ${colorClass}`}>
   <header class="neighborhood-card__header">
     <h2 class="neighborhood-card__title">{title}</h2>
-    <div class="neighborhood-card__date">
-      <i class={dateIcon}></i>
-      <span>{date}</span>
-    </div>
+    {
+      showDate && date && (
+        <div class="neighborhood-card__date">
+          <i class={dateIcon} />
+          <span>{date}</span>
+        </div>
+      )
+    }
   </header>
 
   <p class="neighborhood-card__description">{description}</p>

@@ -195,4 +195,12 @@ Deze buurt is vooral geschikt voor baasjes die houden van een groene, gezinsvrie
       "Nu je weet dat Wondelgem bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenars. Immoweb zoekt op postcode-niveau (9032), dus je ziet ook nabije buurten — filter hierna zelf verder om resultaten in Wondelgem te vinden.",
     hasOwnPostalCode: true,
   },
+  neighboringNeighborhoods: [
+    "gent-bloemekenswijk",
+    "gent-kanaaldorpen",
+    "gent-mariakerke",
+    "gent-muide",
+    "gent-rabot",
+    "gent-sluizeken-tolhuis-ham",
+  ],
 };

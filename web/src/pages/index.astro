@@ -56,7 +56,6 @@ const recentNeighborhoods = allNeighborhoods.slice(0, 3);
             <a href={`/buurt/${neighborhood.id}/`} class="card-link">
               <NeighborhoodCard
                 title={neighborhood.name}
-                date={neighborhood.dateAdded}
                 description={neighborhood.intro.split("\n\n")[0]}
                 tags={neighborhood.labels}
                 color="primary"
@@ -76,6 +75,7 @@ const recentNeighborhoods = allNeighborhoods.slice(0, 3);
               <NeighborhoodCard
                 title={neighborhood.name}
                 date={neighborhood.dateAdded}
+                showDate={true}
                 description={neighborhood.intro.split("\n\n")[0]}
                 tags={neighborhood.labels}
                 color="accent-2"

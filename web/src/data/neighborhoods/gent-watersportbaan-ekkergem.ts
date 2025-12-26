@@ -175,4 +175,14 @@ Wat betreft hondenvoorzieningen: een omheinde hondenspeelweide in de wijk zelf (
       "Nu je weet dat Watersportbaan - Ekkergem bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
     hasOwnPostalCode: false,
   },
+  neighboringNeighborhoods: [
+    "gent-binnenstad",
+    "gent-brugse-poort",
+    "gent-drongen",
+    "gent-elisabethbegijnhof",
+    "gent-rabot",
+    "gent-sint-denijs-westrem-afsnee",
+    "gent-stationsbuurt-noord",
+    "gent-stationsbuurt-zuid",
+  ],
 };

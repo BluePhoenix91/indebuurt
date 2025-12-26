@@ -1,0 +1,18 @@
+@use "../variables" as *;
+
+/* Neighboring Neighborhoods Section */
+
+.neighboring-section {
+  margin-top: $spacing-xxl;
+
+  @media (max-width: $breakpoint-mobile) {
+    margin-top: $spacing-lg;
+  }
+}
+
+.neighboring-intro {
+  margin-top: $spacing-md;
+  margin-bottom: $spacing-lg;
+  font-size: $size-body;
+  color: $black;
+}

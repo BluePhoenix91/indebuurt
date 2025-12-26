@@ -1,6 +1,7 @@
 ---
 import InteractiveMap from "../../../components/InteractiveMap.astro";
 import MapModal from "../../../components/MapModal.astro";
+import NeighborhoodCard from "../../../components/NeighborhoodCard.astro";
 import NeighborhoodHero from "../../../components/NeighborhoodHero.astro";
 import ParkCard from "../../../components/ParkCard.astro";
 import PetStoreCard from "../../../components/PetStoreCard.astro";
@@ -25,6 +26,11 @@ if (!slug || !neighborhoods[slug]) {
 }
 
 const neighborhood = neighborhoods[slug];
+
+// Get neighboring neighborhoods that have pages
+const neighboringNeighborhoods = neighborhood.neighboringNeighborhoods
+  ?.map((id) => neighborhoods[id])
+  .filter(Boolean);
 ---
 
 <NeighborhoodLayout
@@ -44,6 +50,9 @@ const neighborhood = neighborhoods[slug];
           Baasjes helpen baasjes
         </a>
         <a href="#statistieken" class="sidebar-link"> Buurtstatistieken </a>
+        <a href="#aangrenzende-buurten" class="sidebar-link">
+          Aangrenzende buurten
+        </a>
       </nav>
     </aside>
 
@@ -277,6 +286,30 @@ const neighborhood = neighborhoods[slug];
           />
         </div>
       </section>
+
+      {
+        neighboringNeighborhoods && neighboringNeighborhoods.length > 0 && (
+          <section id="aangrenzende-buurten" class="neighboring-section">
+            <SectionHeading level={2}>Aangrenzende buurten</SectionHeading>
+            <p class="neighboring-intro">
+              Ontdek de buurten die grenzen aan {neighborhood.name}. Misschien
+              past een van deze wijken nog beter bij jou en je viervoeter.
+            </p>
+            <div class="neighborhood-cards-grid">
+              {neighboringNeighborhoods.map((neighbor) => (
+                <a href={`/buurt/${neighbor.id}/`} class="card-link">
+                  <NeighborhoodCard
+                    title={neighbor.name}
+                    description={neighbor.intro.split("\n\n")[0]}
+                    tags={neighbor.labels}
+                    color="accent-2"
+                  />
+                </a>
+              ))}
+            </div>
+          </section>
+        )
+      }
     </div>
   </div>
 

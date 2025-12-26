@@ -110,6 +110,7 @@ export interface Neighborhood {
     intro: string;
     hasOwnPostalCode: boolean;
   };
+  neighboringNeighborhoods?: string[];
 }
 
 // Re-export neighborhoods from the neighborhoods folder

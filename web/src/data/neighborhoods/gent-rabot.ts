@@ -164,4 +164,12 @@ Deze buurt is vooral geschikt voor baasjes die houden van stedelijke levendighei
       "Nu je weet dat het Rabot bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
     hasOwnPostalCode: false,
   },
+  neighboringNeighborhoods: [
+    "gent-bloemekenswijk",
+    "gent-brugse-poort",
+    "gent-elisabethbegijnhof",
+    "gent-sluizeken-tolhuis-ham",
+    "gent-watersportbaan-ekkergem",
+    "gent-wondelgem",
+  ],
 };

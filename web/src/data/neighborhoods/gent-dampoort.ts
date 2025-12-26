@@ -196,4 +196,13 @@ Maar het echte verhaal van Dampoort draait om toegankelijkheid. Een dierenarts o
       "Nu je weet dat Dampoort bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
     hasOwnPostalCode: false,
   },
+  neighboringNeighborhoods: [
+    "gent-gentbrugge",
+    "gent-kanaaldorpen",
+    "gent-macharius-heirnis",
+    "gent-muide",
+    "gent-oud-gentbrugge",
+    "gent-sint-amandsberg",
+    "gent-sluizeken-tolhuis-ham",
+  ],
 };

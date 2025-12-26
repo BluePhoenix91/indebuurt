@@ -138,4 +138,10 @@ Wat betreft hondenvoorzieningen: één dierenarts binnen de wijk (Heughebaert An
       "Nu je weet dat Elisabethbegijnhof - Prinsenhof bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
     hasOwnPostalCode: false,
   },
+  neighboringNeighborhoods: [
+    "gent-binnenstad",
+    "gent-rabot",
+    "gent-sluizeken-tolhuis-ham",
+    "gent-watersportbaan-ekkergem",
+  ],
 };

@@ -175,4 +175,11 @@ Hoewel de wijk zelf geen dierenarts, dierenwinkel of hondenspeelweide heeft, lig
       "Nu je weet dat Macharius-Heirnis bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
     hasOwnPostalCode: false,
   },
+  neighboringNeighborhoods: [
+    "gent-binnenstad",
+    "gent-dampoort",
+    "gent-muide",
+    "gent-oud-gentbrugge",
+    "gent-sluizeken-tolhuis-ham",
+  ],
 };
