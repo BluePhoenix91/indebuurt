@@ -161,4 +161,9 @@ Maar de Brugse Poort is geen wijk zonder uitdagingen. Het is de jongste en meest
     availableHomes: 32,
     pricePerSqm: 3150,
   },
+  houses: {
+    intro:
+      "Nu je weet dat Brugse Poort - Rooigem bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    hasOwnPostalCode: false,
+  },
 };

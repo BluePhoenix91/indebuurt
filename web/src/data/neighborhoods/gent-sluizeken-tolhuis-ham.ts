@@ -169,4 +169,9 @@ Deze buurt is vooral geschikt voor baasjes die houden van een diverse, levendige
     availableHomes: 18,
     pricePerSqm: 3250,
   },
+  houses: {
+    intro:
+      "Nu je weet dat Sluizeken-Tolhuis-Ham bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    hasOwnPostalCode: false,
+  },
 };

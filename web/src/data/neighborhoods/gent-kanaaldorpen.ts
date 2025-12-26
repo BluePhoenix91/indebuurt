@@ -170,4 +170,9 @@ Maar deze rust en ruimte hebben een keerzijde: voorzieningen voor huisdieren zij
     availableHomes: 12,
     pricePerSqm: 2950,
   },
+  houses: {
+    intro:
+      "Nu je weet dat de Gentse Kanaaldorpen bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    hasOwnPostalCode: false,
+  },
 };

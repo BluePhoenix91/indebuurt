@@ -1,0 +1,97 @@
+---
+interface Props {
+  icon: string;
+  title: string;
+  description: string;
+  url: string;
+}
+
+const { icon, title, description, url } = Astro.props;
+---
+
+<a href={url} target="_blank" rel="noopener" class="property-link-card">
+  <div class="property-link-card-header">
+    <div class="property-link-card-icon">
+      <i class={icon}></i>
+    </div>
+    <h3 class="text-body bold">{title}</h3>
+  </div>
+  <p class="property-link-card-description">{description}</p>
+  <div class="property-link-card-action">
+    <span class="property-link-card-link-text"
+      >Ontdek het aanbod op ImmoWeb</span
+    >
+    <i class="fa-regular fa-arrow-right"></i>
+  </div>
+</a>
+
+<style lang="scss">
+  @use "../styles/variables" as *;
+
+  .property-link-card {
+    display: flex;
+    flex-direction: column;
+    padding: $spacing-lg $spacing-md;
+    border: 1px solid $calm-grey-400;
+    border-radius: $radius-card;
+    text-decoration: none;
+    color: $black;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+      border-color: $primary;
+
+      .property-link-card-link-text {
+        color: $primary;
+      }
+
+      .property-link-card-action i {
+        transform: translateX(4px);
+      }
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: $spacing-sm;
+    }
+  }
+
+  .property-link-card-header {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    margin-bottom: $spacing-xs;
+  }
+
+  .property-link-card-icon {
+    color: $primary;
+    font-size: $size-body;
+  }
+
+  .property-link-card-description {
+    font-size: $size-body-small;
+    margin: 0;
+    margin-bottom: $spacing-md;
+    color: $calm-grey-600;
+  }
+
+  .property-link-card-action {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    margin-top: auto;
+    font-size: $size-body-small;
+    transition: all 0.2s ease;
+
+    @media (max-width: $breakpoint-mobile) {
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    i {
+      transition: transform 0.2s ease;
+    }
+  }
+</style>

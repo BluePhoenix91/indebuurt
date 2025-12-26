@@ -1,4 +1,5 @@
 ---
+import { ClientRouter } from 'astro:transitions';
 import '../styles/styles.scss';
 import '@awesome.me/kit-ee3e3d9cbc/icons/css/all.css';
 
@@ -36,6 +37,8 @@ const isProduction = import.meta.env.PROD;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
 
+    <ClientRouter />
+
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -66,17 +69,17 @@ const isProduction = import.meta.env.PROD;
     )}
   </head>
   <body>
-    <header>
+    <header transition:persist>
       <nav>
         <a href="/">buurtkompas.be</a>
       </nav>
     </header>
 
-    <main>
+    <main transition:animate="fade">
       <slot />
     </main>
 
-    <footer>
+    <footer transition:persist>
       <p>&copy; {new Date().getFullYear()} buurtkompas.be</p>
     </footer>
   </body>

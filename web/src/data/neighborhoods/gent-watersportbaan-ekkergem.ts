@@ -170,4 +170,9 @@ Wat betreft hondenvoorzieningen: een omheinde hondenspeelweide in de wijk zelf (
     availableHomes: 28,
     pricePerSqm: 3200,
   },
+  houses: {
+    intro:
+      "Nu je weet dat Watersportbaan - Ekkergem bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    hasOwnPostalCode: false,
+  },
 };

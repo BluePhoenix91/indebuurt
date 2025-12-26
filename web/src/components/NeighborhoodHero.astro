@@ -1,0 +1,74 @@
+---
+import Badge from "./Badge.astro";
+import InteractiveMap from "./InteractiveMap.astro";
+import type { Neighborhood } from "../data/neighborhoods";
+
+interface Props {
+  neighborhood: Neighborhood;
+  slug: string;
+  activeTab?: 'overzicht' | 'huizen' | 'demografie';
+}
+
+const { neighborhood, slug, activeTab = 'overzicht' } = Astro.props;
+---
+
+<section class="hero" transition:name="hero" transition:animate="none">
+  <div class="hero-wrapper">
+    <div class="hero-content">
+      <h1 class="text-h1">Wonen in {neighborhood.name}</h1>
+      <p class="text-body bold mt-sm">{neighborhood.subtitle}</p>
+
+      <div class="hero-meta mt-xs">
+        <span class="hero-meta-item">
+          <i class="fa-regular fa-house"></i>
+          Postcode {neighborhood.postalCode}
+        </span>
+        <span class="hero-meta-item">
+          <i class="fa-regular fa-users"></i>
+          {neighborhood.inhabitants.toLocaleString("nl-BE")} inwoners
+        </span>
+      </div>
+
+      <div class="hero-badges mt-lg">
+        {
+          neighborhood.labels.map((label) => (
+            <Badge variant="outline" icon={label.icon}>
+              {label.text}
+            </Badge>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="hero-map" transition:name="hero-map">
+      <InteractiveMap center={neighborhood.coordinates} height="400px" />
+    </div>
+
+    <nav class="hero-tabs">
+      <a
+        href={`/buurt/${slug}/`}
+        class:list={["tab", { "tab-active": activeTab === 'overzicht' }]}
+        aria-current={activeTab === 'overzicht' ? 'page' : undefined}
+      >
+        <i class="fa-regular fa-list-ul mr-sm"></i>
+        Overzicht
+      </a>
+      <a
+        href={`/buurt/${slug}/huizen/`}
+        class:list={["tab", { "tab-active": activeTab === 'huizen' }]}
+        aria-current={activeTab === 'huizen' ? 'page' : undefined}
+      >
+        <i class="fa-regular fa-house mr-sm"></i>
+        Huizen
+      </a>
+      <a
+        href={`/buurt/${slug}/demografie/`}
+        class:list={["tab", { "tab-active": activeTab === 'demografie' }]}
+        aria-current={activeTab === 'demografie' ? 'page' : undefined}
+      >
+        <i class="fa-regular fa-users mr-sm"></i>
+        Demografie
+      </a>
+    </nav>
+  </div>
+</section>

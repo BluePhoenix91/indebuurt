@@ -106,6 +106,10 @@ export interface Neighborhood {
     availableHomes: number;
     pricePerSqm: number;
   };
+  houses: {
+    intro: string;
+    hasOwnPostalCode: boolean;
+  };
 }
 
 // Re-export neighborhoods from the neighborhoods folder

@@ -147,4 +147,9 @@ Maar de Binnenstad is geen wijk voor wie zoekt naar een hecht wijkgevoel of beta
     availableHomes: 45,
     pricePerSqm: 4250,
   },
+  houses: {
+    intro:
+      "Nu je weet dat de Binnenstad bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    hasOwnPostalCode: false,
+  },
 };

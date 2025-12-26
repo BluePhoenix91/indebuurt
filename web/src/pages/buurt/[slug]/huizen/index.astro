@@ -1,0 +1,124 @@
+---
+import DisclaimerBox from "../../../../components/DisclaimerBox.astro";
+import NeighborhoodHero from "../../../../components/NeighborhoodHero.astro";
+import PropertyLinkCard from "../../../../components/PropertyLinkCard.astro";
+import SectionHeading from "../../../../components/SectionHeading.astro";
+import { neighborhoods } from "../../../../data/neighborhoods/index";
+import NeighborhoodLayout from "../../../../layouts/NeighborhoodLayout.astro";
+
+export async function getStaticPaths() {
+  return Object.keys(neighborhoods).map((slug) => ({
+    params: { slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+if (!slug || !neighborhoods[slug]) {
+  return Astro.redirect("/404");
+}
+
+const neighborhood = neighborhoods[slug];
+
+// Helper function to generate Immoweb URLs
+function generateImmowebUrl(type: string): string {
+  const baseUrl = "https://www.immoweb.be/nl/zoeken/huis/te-koop";
+  const neighborhoodName = neighborhood.name.toLowerCase();
+  const postalCode = neighborhood.postalCode;
+
+  let url = `${baseUrl}/${neighborhoodName}/${postalCode}?countries=BE`;
+
+  switch (type) {
+    case "garden":
+      url += "&hasGarden=true";
+      break;
+    case "terrace":
+      url = url.replace("/huis/", "/appartement/");
+      url += "&hasTerrace=true";
+      break;
+    case "spacious":
+      url += "&minBedroomCount=3";
+      break;
+    // 'all' doesn't need extra parameters
+  }
+
+  url += "&page=1&orderBy=relevance";
+  return url;
+}
+---
+
+<NeighborhoodLayout
+  title={`Huizen te koop in ${neighborhood.name} - buurtkompas.be`}
+  description={`Bekijk beschikbare huizen en appartementen in ${neighborhood.name}. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.`}
+  canonical={`https://buurtkompas.be/buurt/${slug}/huizen/`}
+>
+  <NeighborhoodHero
+    neighborhood={neighborhood}
+    slug={slug}
+    activeTab="huizen"
+  />
+
+  <div class="content-wrapper">
+    <div class="content-section content-section-full">
+      <section class="houses-section">
+        <SectionHeading level={2}>Klaar om verder te kijken?</SectionHeading>
+        <p class="mt-sm">{neighborhood.houses.intro}</p>
+
+        <div class="houses-links">
+          <PropertyLinkCard
+            icon="fa-regular fa-house"
+            title="Huizen met een tuin"
+            description="Perfect voor je hond om te spelen"
+            url={generateImmowebUrl("garden")}
+          />
+          <PropertyLinkCard
+            icon="fa-regular fa-building"
+            title="Appartementen met terras"
+            description="Buitenruimte zonder groot onderhoud"
+            url={generateImmowebUrl("terrace")}
+          />
+
+          <PropertyLinkCard
+            icon="fa-regular fa-home"
+            title="Alle woningen"
+            description="Bekijk het volledige aanbod aan huizen en appartementen"
+            url={generateImmowebUrl("all")}
+          />
+          <PropertyLinkCard
+            icon="fa-regular fa-expand-wide"
+            title="Ruime woningen"
+            description="Meer dan 3 slaapkamers met ruimte voor het hele gezin"
+            url={generateImmowebUrl("spacious")}
+          />
+        </div>
+
+        {
+          !neighborhood.houses.hasOwnPostalCode && (
+            <DisclaimerBox
+              message={`Deze links tonen woningen in postcode ${neighborhood.postalCode}. ${neighborhood.name} deelt deze postcode met enkele nabije buurten. Filter op Immoweb verder als je specifiek woningen in deze buurt wilt zoeken.`}
+            />
+          )
+        }
+      </section>
+    </div>
+  </div>
+
+  <style lang="scss">
+    @use "../../../../styles/variables" as *;
+
+    .content-section-full {
+      grid-column: 1 / -1;
+    }
+
+    .houses-links {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: $spacing-md;
+      margin-top: $spacing-lg;
+
+      @media (max-width: $breakpoint-mobile) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  </style>
+</NeighborhoodLayout>

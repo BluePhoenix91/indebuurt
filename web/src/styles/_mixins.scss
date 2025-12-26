@@ -1,12 +1,13 @@
 @use "sass:color";
 @use "variables" as *;
 
-//
-// Horizontal Scroll Container Mixin
-// Creates a horizontal scrolling list on mobile devices
-// Includes padding and negative margin for breaking out of parent padding
-//
-
+/// Creates a horizontal scrolling list on mobile devices.
+/// Includes padding and negative margin for breaking out of parent padding.
+/// @group layout
+/// @example scss
+///   .card-list {
+///     @include horizontal-scroll-container;
+///   }
 @mixin horizontal-scroll-container {
   @media (max-width: $breakpoint-mobile) {
     display: flex;
@@ -29,12 +30,13 @@
   }
 }
 
-//
-// Horizontal Scroll Container (Simple)
-// Creates a horizontal scrolling list without padding/margin adjustments
-// Use for tabs, nav, and other cases where padding is handled separately
-//
-
+/// Creates a horizontal scrolling list without padding/margin adjustments.
+/// Use for tabs, nav, and other cases where padding is handled separately.
+/// @group layout
+/// @example scss
+///   .tab-list {
+///     @include horizontal-scroll-container-simple;
+///   }
 @mixin horizontal-scroll-container-simple {
   @media (max-width: $breakpoint-mobile) {
     overflow-x: auto;
@@ -47,11 +49,13 @@
   }
 }
 
-//
-// Horizontal Scroll Item Mixin
-// Styles individual items in a horizontal scroll container
-//
-
+/// Styles individual items in a horizontal scroll container.
+/// Sets full-width sizing with snap alignment on mobile.
+/// @group layout
+/// @example scss
+///   .card {
+///     @include horizontal-scroll-item;
+///   }
 @mixin horizontal-scroll-item {
   @media (max-width: $breakpoint-mobile) {
     flex-shrink: 0;
@@ -62,11 +66,14 @@
   }
 }
 
-//
-// Base Card Mixin
-// Common card styles with color theming
-//
-
+/// Common card styles with color theming.
+/// Includes responsive horizontal scroll behavior on mobile.
+/// @param {Color} $color - The theme color for background tint and border
+/// @group components
+/// @example scss
+///   .park-card {
+///     @include base-card($green);
+///   }
 @mixin base-card($color) {
   background-color: rgba($color: $color, $alpha: 0.1);
   border: $border-thin solid $color;
@@ -82,13 +89,23 @@
   }
 }
 
-//
-// Card Header Mixin
-// Common header layout with responsive behavior
-// Includes icon+title wrapper and distance display
-//
-
-@mixin card-header($color, $icon-weight: $font-weight-normal, $include-wrapper: true, $h3-flex: false) {
+/// Common header layout with responsive behavior.
+/// Includes icon, title, and optional distance display.
+/// @param {Color} $color - Theme color for icon and title
+/// @param {Number} $icon-weight [$font-weight-normal] - Font weight for the icon
+/// @param {Bool} $include-wrapper [true] - Whether to style a wrapper div for icon+title
+/// @param {Bool} $h3-flex [false] - Whether h3 should flex to fill available space
+/// @group components
+/// @example scss
+///   .card-header {
+///     @include card-header($green, $include-wrapper: true);
+///   }
+@mixin card-header(
+  $color,
+  $icon-weight: $font-weight-normal,
+  $include-wrapper: true,
+  $h3-flex: false
+) {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -130,11 +147,13 @@
   }
 }
 
-//
-// Distance Display Mixin
-// Common distance indicator styling
-//
-
+/// Common distance indicator styling with icon and text.
+/// @param {Color} $color - Theme color (text displays at 75% opacity)
+/// @group components
+/// @example scss
+///   .distance-badge {
+///     @include distance-display($blue);
+///   }
 @mixin distance-display($color) {
   display: flex;
   align-items: center;
@@ -151,11 +170,13 @@
   }
 }
 
-//
-// Address Display Mixin
-// Common two-line address styling
-//
-
+/// Common two-line address styling.
+/// Formats street and municipality on separate lines.
+/// @group components
+/// @example scss
+///   .address {
+///     @include address-display;
+///   }
 @mixin address-display {
   p {
     font-size: $size-body;
@@ -172,11 +193,19 @@
   }
 }
 
-//
-// Button Variant Mixin
-// Creates button variants (solid or outline) with consistent hover behavior
-//
-
+/// Creates button variants (solid or outline) with consistent hover behavior.
+/// @param {Color} $bg-color - Primary button color
+/// @param {Color} $text-color [$background-white] - Text color (used for solid buttons and outline hover)
+/// @param {Bool} $is-outline [false] - Whether to render as outline style
+/// @group components
+/// @example scss - Solid button
+///   .btn-primary {
+///     @include button-variant($primary);
+///   }
+/// @example scss - Outline button
+///   .btn-outline {
+///     @include button-variant($primary, $is-outline: true);
+///   }
 @mixin button-variant(
   $bg-color,
   $text-color: $background-white,
@@ -201,11 +230,15 @@
   }
 }
 
-//
-// Badge Variant Mixin
-// Creates badge variants with consistent styling
-//
-
+/// Creates badge variants with consistent styling.
+/// @param {Color} $bg-color [null] - Background color (optional)
+/// @param {Color} $text-color [$black] - Text color
+/// @param {Color} $border-color [null] - Border color (optional)
+/// @group components
+/// @example scss
+///   .badge-success {
+///     @include badge-variant($green-light, $green-dark, $green);
+///   }
 @mixin badge-variant(
   $bg-color: null,
   $text-color: $black,
@@ -221,11 +254,15 @@
   }
 }
 
-//
-// Card Variant Mixin
-// Creates card color variants with consistent theming
-//
-
+/// Creates card color variants with consistent theming.
+/// Applies color to background, border, and nested elements.
+/// @param {Color} $color - Primary theme color
+/// @param {Color} $text-color [null] - Override text color (defaults to $color)
+/// @group components
+/// @example scss
+///   .neighborhood-card--parks {
+///     @include card-variant($green);
+///   }
 @mixin card-variant($color, $text-color: null) {
   background-color: rgba($color, 0.1);
   border-color: rgba($color, 0.3);

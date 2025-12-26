@@ -1,0 +1,88 @@
+---
+import NeighborhoodHero from "../../../../components/NeighborhoodHero.astro";
+import SectionHeading from "../../../../components/SectionHeading.astro";
+import StatisticCard from "../../../../components/StatisticCard.astro";
+import { neighborhoods } from "../../../../data/neighborhoods/index";
+import NeighborhoodLayout from "../../../../layouts/NeighborhoodLayout.astro";
+
+export async function getStaticPaths() {
+  return Object.keys(neighborhoods).map((slug) => ({
+    params: { slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+if (!slug || !neighborhoods[slug]) {
+  return Astro.redirect("/404");
+}
+
+const neighborhood = neighborhoods[slug];
+---
+
+<NeighborhoodLayout
+  title={`Demografie ${neighborhood.name} - buurtkompas.be`}
+  description={`Buurtstatistieken en demografische gegevens van ${neighborhood.name}. Inzicht in inwoners, woningprijzen en meer.`}
+  canonical={`https://buurtkompas.be/buurt/${slug}/demografie/`}
+>
+  <NeighborhoodHero neighborhood={neighborhood} slug={slug} activeTab="demografie" />
+
+  <div class="content-wrapper">
+    <div class="content-section content-section-full">
+      <section class="statistics-section">
+        <SectionHeading level={2}>Buurtstatistieken</SectionHeading>
+        <p class="statistics-intro">{neighborhood.statistics.intro}</p>
+        <div class="statistics-grid">
+          <StatisticCard
+            label="Mediaan woningprijs"
+            value={neighborhood.statistics.medianPrice}
+            unit="€"
+            icon="fa-regular fa-coins"
+          />
+          <StatisticCard
+            label="Aantal inwoners"
+            value={neighborhood.statistics.inhabitants}
+            icon="fa-regular fa-users"
+          />
+          <StatisticCard
+            label="Beschikbare woningen"
+            value={neighborhood.statistics.availableHomes}
+            icon="fa-regular fa-house"
+          />
+          <StatisticCard
+            label="Prijs per m²"
+            value={neighborhood.statistics.pricePerSqm}
+            unit="€/m²"
+            icon="fa-regular fa-ruler-combined"
+          />
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <style lang="scss">
+    @use "../../../../styles/variables" as *;
+
+    .content-section-full {
+      grid-column: 1 / -1;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .statistics-section {
+      margin-top: $spacing-xl;
+    }
+
+    .statistics-intro {
+      margin-top: $spacing-sm;
+      margin-bottom: $spacing-lg;
+    }
+
+    .statistics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: $spacing-md;
+      margin-top: $spacing-lg;
+    }
+  </style>
+</NeighborhoodLayout>

@@ -1,0 +1,47 @@
+---
+interface Props {
+  message: string;
+}
+
+const { message } = Astro.props;
+---
+
+<div class="disclaimer-box">
+  <div class="disclaimer-icon">
+    <i class="fa-regular fa-circle-info"></i>
+  </div>
+  <p class="disclaimer-message">{message}</p>
+</div>
+
+<style lang="scss">
+  @use "../styles/variables" as *;
+
+  .disclaimer-box {
+    display: flex;
+    gap: $spacing-md;
+    padding: $spacing-lg;
+    background: #fffbea;
+    border: 1px solid #ffeaa7;
+    border-radius: $radius-md;
+    margin: $spacing-xl 0;
+  }
+
+  .disclaimer-icon {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f39c12;
+    font-size: 20px;
+  }
+
+  .disclaimer-message {
+    flex: 1;
+    margin: 0;
+    font-size: $font-sm;
+    color: $black;
+    line-height: 1.6;
+  }
+</style>

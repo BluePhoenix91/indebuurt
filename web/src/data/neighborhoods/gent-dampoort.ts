@@ -191,4 +191,9 @@ Maar het echte verhaal van Dampoort draait om toegankelijkheid. Een dierenarts o
     availableHomes: 22,
     pricePerSqm: 3250,
   },
+  houses: {
+    intro:
+      "Nu je weet dat Dampoort bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    hasOwnPostalCode: false,
+  },
 };

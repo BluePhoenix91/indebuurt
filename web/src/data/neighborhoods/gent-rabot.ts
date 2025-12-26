@@ -159,4 +159,9 @@ Deze buurt is vooral geschikt voor baasjes die houden van stedelijke levendighei
     availableHomes: 0, // TODO: Add actual available homes
     pricePerSqm: 0, // TODO: Add actual price per sqm
   },
+  houses: {
+    intro:
+      "Nu je weet dat het Rabot bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    hasOwnPostalCode: false,
+  },
 };

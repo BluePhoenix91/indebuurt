@@ -1,16 +1,16 @@
 ---
-import Badge from "../../components/Badge.astro";
-import InteractiveMap from "../../components/InteractiveMap.astro";
-import MapModal from "../../components/MapModal.astro";
-import ParkCard from "../../components/ParkCard.astro";
-import PetStoreCard from "../../components/PetStoreCard.astro";
-import SectionHeading from "../../components/SectionHeading.astro";
-import StatisticCard from "../../components/StatisticCard.astro";
-import TypeformEmbed from "../../components/TypeformEmbed.astro";
-import ValueCard from "../../components/ValueCard.astro";
-import VetCard from "../../components/VetCard.astro";
-import { neighborhoods } from "../../data/neighborhoods/index";
-import NeighborhoodLayout from "../../layouts/NeighborhoodLayout.astro";
+import InteractiveMap from "../../../components/InteractiveMap.astro";
+import MapModal from "../../../components/MapModal.astro";
+import NeighborhoodHero from "../../../components/NeighborhoodHero.astro";
+import ParkCard from "../../../components/ParkCard.astro";
+import PetStoreCard from "../../../components/PetStoreCard.astro";
+import SectionHeading from "../../../components/SectionHeading.astro";
+import StatisticCard from "../../../components/StatisticCard.astro";
+import TypeformEmbed from "../../../components/TypeformEmbed.astro";
+import ValueCard from "../../../components/ValueCard.astro";
+import VetCard from "../../../components/VetCard.astro";
+import { neighborhoods } from "../../../data/neighborhoods/index";
+import NeighborhoodLayout from "../../../layouts/NeighborhoodLayout.astro";
 
 export async function getStaticPaths() {
   return Object.keys(neighborhoods).map((slug) => ({
@@ -32,54 +32,7 @@ const neighborhood = neighborhoods[slug];
   description={neighborhood.subtitle}
   canonical={`https://buurtkompas.be/buurt/${slug}/`}
 >
-  <section class="hero">
-    <div class="hero-wrapper">
-      <div class="hero-content">
-        <h1 class="text-h1">Wonen in {neighborhood.name}</h1>
-        <p class="text-body bold mt-sm">{neighborhood.subtitle}</p>
-
-        <div class="hero-meta mt-xs">
-          <span class="hero-meta-item">
-            <i class="fa-regular fa-house"></i>
-            Postcode {neighborhood.postalCode}
-          </span>
-          <span class="hero-meta-item">
-            <i class="fa-regular fa-users"></i>
-            {neighborhood.inhabitants.toLocaleString("nl-BE")} inwoners
-          </span>
-        </div>
-
-        <div class="hero-badges mt-lg">
-          {
-            neighborhood.labels.map((label) => (
-              <Badge variant="outline" icon={label.icon}>
-                {label.text}
-              </Badge>
-            ))
-          }
-        </div>
-      </div>
-
-      <div class="hero-map">
-        <InteractiveMap center={neighborhood.coordinates} height="400px" />
-      </div>
-
-      <nav class="hero-tabs">
-        <a href="#overzicht" class="tab tab-active" aria-current="page">
-          <i class="fa-regular fa-list-ul mr-sm"></i>
-          Overzicht
-        </a>
-        <a href="#huizen" class="tab">
-          <i class="fa-regular fa-house mr-sm"></i>
-          Huizen
-        </a>
-        <a href="#demografie" class="tab">
-          <i class="fa-regular fa-users mr-sm"></i>
-          Demografie
-        </a>
-      </nav>
-    </div>
-  </section>
+  <NeighborhoodHero neighborhood={neighborhood} slug={slug} activeTab="overzicht" />
 
   <div class="content-wrapper">
     <aside class="sidebar">
@@ -366,7 +319,7 @@ const neighborhood = neighborhoods[slug];
   />
 
   <script>
-    import { initActiveNavigation } from "../../scripts/activeNavigation";
+    import { initActiveNavigation } from "../../../scripts/activeNavigation";
     initActiveNavigation();
 
     // Handle "Bekijk op kaart" button clicks - open modal on mobile, scroll on desktop
