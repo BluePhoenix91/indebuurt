@@ -1,0 +1,102 @@
+@use "sass:color";
+@use "../variables" as *;
+
+.neighborhood-boundary-map {
+  width: 100%;
+  border-radius: $radius-md;
+  overflow: hidden;
+  background-color: $calm-grey-200;
+
+  .leaflet-interactive {
+    cursor: pointer;
+    outline: none;
+  }
+
+  path:focus {
+    outline: none;
+  }
+}
+
+.map-fallback {
+  padding: $spacing-lg;
+  text-align: center;
+  color: $calm-grey-600;
+}
+
+// Tooltips
+.boundary-tooltip {
+  background: rgba($background-white, 0.95);
+  border: none;
+  border-radius: $radius-sm;
+  padding: $spacing-xxs $spacing-xs;
+  font-size: $font-xs;
+  font-weight: $font-weight-medium;
+  box-shadow: $shadow-sm;
+
+  &-current {
+    background: $primary;
+    color: $background-white;
+    font-weight: $font-weight-semibold;
+    font-size: $font-sm;
+  }
+
+  &-neighbor {
+    background: $accent-2;
+    color: $background-white;
+  }
+
+  &-other {
+    background: rgba($background-white, 0.9);
+    color: $calm-grey-800;
+  }
+}
+
+// Popup
+.boundary-popup-container {
+  .leaflet-popup-content-wrapper {
+    border-radius: $radius-sm;
+    padding: 0;
+  }
+
+  .leaflet-popup-content {
+    margin: 0;
+  }
+}
+
+.boundary-popup {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+  padding: $spacing-sm;
+
+  strong {
+    font-size: $font-sm;
+    color: $black;
+  }
+}
+
+// Higher specificity for elements inside Leaflet popup
+.boundary-popup-container {
+  .boundary-popup-link {
+    display: inline-block;
+    padding: $spacing-xxs $spacing-sm;
+    background: $accent-2;
+    color: $background-white;
+    border-radius: $radius-sm;
+    font-size: $font-xs;
+    font-weight: $font-weight-medium;
+    text-align: center;
+    text-decoration: none;
+    transition: background $transition-normal-ease;
+
+    &:hover {
+      background: color.adjust($accent-2, $lightness: -10%);
+    }
+  }
+
+  .boundary-popup-unavailable {
+    font-size: $font-xs;
+    color: $calm-grey-600;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,272 @@
+---
+interface Props {
+  currentNeighborhoodId: string;
+  neighboringIds?: string[];
+  availableIds?: string[];
+  height?: string;
+  className?: string;
+}
+
+const {
+  currentNeighborhoodId,
+  neighboringIds = [],
+  availableIds = [],
+  height = "400px",
+  className = "",
+} = Astro.props;
+
+const mapId = `boundary-map-${Math.random().toString(36).substr(2, 9)}`;
+---
+
+<div
+  class={`neighborhood-boundary-map ${className}`}
+  data-boundary-map-id={mapId}
+  data-current-id={currentNeighborhoodId}
+  data-neighboring-ids={JSON.stringify(neighboringIds)}
+  data-available-ids={JSON.stringify(availableIds)}
+  style={`height: ${height};`}
+>
+  <noscript>
+    <div class="map-fallback">
+      <p>Kaart van {currentNeighborhoodId} en aangrenzende buurten</p>
+    </div>
+  </noscript>
+</div>
+
+<script is:inline>
+  (function () {
+    // Load Leaflet CSS if not already loaded
+    if (!document.querySelector('link[href*="leaflet"]')) {
+      const link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+      link.integrity = "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=";
+      link.crossOrigin = "";
+      document.head.appendChild(link);
+    }
+
+    // Colors matching the design system
+    const COLORS = {
+      current: "#ff7a70", // primary
+      neighbor: "#5183b5", // accent-2
+      other: "#d2d2d2", // calm-grey-400
+      border: "#ffffff",
+    };
+
+    let geojsonData = null;
+
+    async function loadGeoJSON() {
+      if (geojsonData) return geojsonData;
+
+      try {
+        const response = await fetch("/data/geo/gent-boundaries.geojson");
+        geojsonData = await response.json();
+        return geojsonData;
+      } catch (e) {
+        console.error("Failed to load GeoJSON boundaries:", e);
+        return null;
+      }
+    }
+
+    function getFeatureStyle(featureId, currentId, neighboringIds) {
+      if (featureId === currentId) {
+        return {
+          fillColor: COLORS.current,
+          fillOpacity: 0.5,
+          color: COLORS.border,
+          weight: 2,
+        };
+      } else if (neighboringIds.includes(featureId)) {
+        return {
+          fillColor: COLORS.neighbor,
+          fillOpacity: 0.5,
+          color: COLORS.border,
+          weight: 2,
+        };
+      } else {
+        return {
+          fillColor: COLORS.other,
+          fillOpacity: 0.3,
+          color: COLORS.border,
+          weight: 1,
+        };
+      }
+    }
+
+    async function initBoundaryMap(mapContainer) {
+      const L = window.L;
+      if (!L || !mapContainer) return;
+
+      // Check if already initialized
+      if (mapContainer._leafletMap) return;
+
+      const currentId = mapContainer.getAttribute("data-current-id");
+      const neighboringIds = JSON.parse(
+        mapContainer.getAttribute("data-neighboring-ids") || "[]"
+      );
+      const availableIds = JSON.parse(
+        mapContainer.getAttribute("data-available-ids") || "[]"
+      );
+
+      // Load GeoJSON data
+      const data = await loadGeoJSON();
+      if (!data) {
+        console.error("No GeoJSON data available");
+        return;
+      }
+
+      // Create map instance
+      const map = L.map(mapContainer, {
+        scrollWheelZoom: false,
+      });
+      mapContainer._leafletMap = map;
+      // Store current ID to detect navigation changes
+      map._boundaryCurrentId = currentId;
+
+      // Add OpenStreetMap tiles
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 19,
+      }).addTo(map);
+
+      // Track bounds of current and neighboring neighborhoods
+      let focusBounds = null;
+
+      // Add GeoJSON layer
+      const geojsonLayer = L.geoJSON(data, {
+        style: function (feature) {
+          const featureId = feature.properties.id;
+          return getFeatureStyle(featureId, currentId, neighboringIds);
+        },
+        onEachFeature: function (feature, layer) {
+          const featureId = feature.properties.id;
+          const featureName = feature.properties.name;
+          const isCurrent = featureId === currentId;
+          const isNeighbor = neighboringIds.includes(featureId);
+
+          // Add tooltip with neighborhood name
+          layer.bindTooltip(featureName, {
+            permanent: isCurrent,
+            direction: "center",
+            className: isCurrent
+              ? "boundary-tooltip boundary-tooltip-current"
+              : isNeighbor
+                ? "boundary-tooltip boundary-tooltip-neighbor"
+                : "boundary-tooltip boundary-tooltip-other",
+          });
+
+          // Track bounds for focus area (only current neighborhood)
+          if (isCurrent) {
+            focusBounds = layer.getBounds();
+          }
+
+          // Add click handler - show popup with link instead of immediate navigation
+          if (isNeighbor) {
+            const hasPage = availableIds.includes(featureId);
+            const popupContent = hasPage
+              ? '<div class="boundary-popup">' +
+                  '<strong>' + featureName + '</strong>' +
+                  '<a href="/buurt/' + featureId + '/" class="boundary-popup-link">Bekijk buurt →</a>' +
+                '</div>'
+              : '<div class="boundary-popup">' +
+                  '<strong>' + featureName + '</strong>' +
+                  '<span class="boundary-popup-unavailable">Binnenkort beschikbaar</span>' +
+                '</div>';
+
+            layer.bindPopup(popupContent, {
+              closeButton: true,
+              className: 'boundary-popup-container'
+            });
+
+            layer.on("mouseover", function () {
+              this.setStyle({
+                fillOpacity: 0.7,
+                weight: 3,
+              });
+            });
+            layer.on("mouseout", function () {
+              const style = getFeatureStyle(featureId, currentId, neighboringIds);
+              this.setStyle(style);
+            });
+          }
+        },
+      }).addTo(map);
+
+      // Fit map to show current neighborhood (neighbors visible around edges)
+      if (focusBounds) {
+        map.fitBounds(focusBounds, { padding: [50, 50] });
+      } else {
+        // Fallback: fit to all features
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+      }
+
+      // Invalidate size after render to ensure proper display
+      setTimeout(function () {
+        map.invalidateSize();
+      }, 100);
+    }
+
+    function initAllBoundaryMaps() {
+      document
+        .querySelectorAll("[data-boundary-map-id]")
+        .forEach(function (container) {
+          // Check if map needs initialization or re-initialization
+          const needsInit = !container._leafletMap ||
+            // Re-init if the neighborhood ID changed (after navigation)
+            container._leafletMap._boundaryCurrentId !== container.getAttribute("data-current-id");
+
+          if (needsInit && container.offsetWidth > 0) {
+            // Clean up old map if exists
+            if (container._leafletMap) {
+              container._leafletMap.remove();
+              container._leafletMap = null;
+            }
+            initBoundaryMap(container);
+          }
+        });
+    }
+
+    // Load Leaflet and initialize
+    function tryInit() {
+      if (window.L) {
+        initAllBoundaryMaps();
+      } else {
+        setTimeout(tryInit, 50);
+      }
+    }
+
+    function init() {
+      if (window.L) {
+        tryInit();
+      } else {
+        // Check if script is already loading
+        const existingScript = document.querySelector('script[src*="leaflet"]');
+        if (!existingScript) {
+          const script = document.createElement("script");
+          script.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+          script.integrity =
+            "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=";
+          script.crossOrigin = "";
+          script.onload = tryInit;
+          document.head.appendChild(script);
+        } else {
+          // Script exists but not loaded yet, wait for it
+          setTimeout(tryInit, 50);
+        }
+      }
+    }
+
+    // Initialize on page load
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", init);
+    } else {
+      init();
+    }
+
+    // Re-initialize after Astro page navigation
+    document.addEventListener("astro:page-load", init);
+  })();
+</script>
+
+<!-- Styles are in /styles/components/_boundary-map.scss -->

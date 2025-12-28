@@ -16,3 +16,32 @@
   font-size: $size-body;
   color: $black;
 }
+
+.neighboring-map-btn {
+  display: none;
+  width: 100%;
+  margin-bottom: $spacing-lg;
+
+  @media (max-width: $breakpoint-mobile) {
+    display: inline-flex;
+    align-items: center;
+    gap: $spacing-xs;
+    width: 100%;
+    justify-content: center;
+
+    i {
+      font-size: $size-body;
+    }
+  }
+}
+
+.neighboring-map {
+  margin-bottom: $spacing-lg;
+  border-radius: $radius-md;
+  overflow: hidden;
+  box-shadow: $shadow-sm;
+
+  @media (max-width: $breakpoint-mobile) {
+    display: none;
+  }
+}

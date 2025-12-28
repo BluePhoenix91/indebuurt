@@ -1,6 +1,8 @@
 ---
+import BoundaryMapModal from "../../../components/BoundaryMapModal.astro";
 import InteractiveMap from "../../../components/InteractiveMap.astro";
 import MapModal from "../../../components/MapModal.astro";
+import NeighborhoodBoundaryMap from "../../../components/NeighborhoodBoundaryMap.astro";
 import NeighborhoodCard from "../../../components/NeighborhoodCard.astro";
 import NeighborhoodHero from "../../../components/NeighborhoodHero.astro";
 import ParkCard from "../../../components/ParkCard.astro";
@@ -26,6 +28,9 @@ if (!slug || !neighborhoods[slug]) {
 }
 
 const neighborhood = neighborhoods[slug];
+
+// Get all available neighborhood IDs (those with pages)
+const availableNeighborhoodIds = Object.keys(neighborhoods);
 
 // Get neighboring neighborhoods that have pages
 const neighboringNeighborhoods = neighborhood.neighboringNeighborhoods
@@ -295,6 +300,21 @@ const neighboringNeighborhoods = neighborhood.neighboringNeighborhoods
               Ontdek de buurten die grenzen aan {neighborhood.name}. Misschien
               past een van deze wijken nog beter bij jou en je viervoeter.
             </p>
+            <button
+              class="btn btn-accent-2-outline neighboring-map-btn"
+              data-open-modal="map-modal-neighboring"
+            >
+              <i class="fa-regular fa-map"></i>
+              Bekijk op kaart
+            </button>
+            <div id="neighboring" class="neighboring-map">
+              <NeighborhoodBoundaryMap
+                currentNeighborhoodId={neighborhood.id}
+                neighboringIds={neighborhood.neighboringNeighborhoods}
+                availableIds={availableNeighborhoodIds}
+                height="350px"
+              />
+            </div>
             <div class="neighborhood-cards-grid">
               {neighboringNeighborhoods.map((neighbor) => (
                 <a href={`/buurt/${neighbor.id}/`} class="card-link">
@@ -350,16 +370,26 @@ const neighboringNeighborhoods = neighborhood.neighboringNeighborhoods
     }))}
     markerColor="#5183b5"
   />
+  <BoundaryMapModal
+    id="neighboring"
+    title="Aangrenzende buurten"
+    currentNeighborhoodId={neighborhood.id}
+    neighboringIds={neighborhood.neighboringNeighborhoods}
+    availableIds={availableNeighborhoodIds}
+  />
 
   <script>
     import { initActiveNavigation } from "../../../scripts/activeNavigation";
     initActiveNavigation();
 
     // Handle "Bekijk op kaart" button clicks - open modal on mobile, scroll on desktop
-    document.addEventListener("DOMContentLoaded", function () {
+    function initModalButtons() {
       const openModalButtons = document.querySelectorAll("[data-open-modal]");
 
       openModalButtons.forEach(function (button) {
+        if ((button as any)._modalInitialized) return;
+        (button as any)._modalInitialized = true;
+
         button.addEventListener("click", function (e) {
           e.preventDefault();
           const modalId = button.getAttribute("data-open-modal");
@@ -396,6 +426,16 @@ const neighboringNeighborhoods = neighborhood.neighboringNeighborhoods
           }
         });
       });
-    });
+    }
+
+    // Initialize on page load
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initModalButtons);
+    } else {
+      initModalButtons();
+    }
+
+    // Re-initialize after Astro page navigation
+    document.addEventListener("astro:page-load", initModalButtons);
   </script>
 </NeighborhoodLayout>

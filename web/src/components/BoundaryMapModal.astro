@@ -1,0 +1,267 @@
+---
+import NeighborhoodBoundaryMap from "./NeighborhoodBoundaryMap.astro";
+
+interface Props {
+  id: string;
+  title: string;
+  currentNeighborhoodId: string;
+  neighboringIds?: string[];
+  availableIds?: string[];
+}
+
+const {
+  id,
+  title,
+  currentNeighborhoodId,
+  neighboringIds = [],
+  availableIds = [],
+} = Astro.props;
+
+const modalId = `map-modal-${id}`;
+---
+
+<div
+  id={modalId}
+  class="map-modal"
+  role="dialog"
+  aria-labelledby={`${modalId}-title`}
+  aria-modal="true"
+>
+  <div class="map-modal-backdrop" data-close-modal={modalId}></div>
+  <div class="map-modal-content">
+    <header class="map-modal-header">
+      <h2 id={`${modalId}-title`} class="map-modal-title">{title}</h2>
+      <button
+        class="map-modal-close"
+        data-close-modal={modalId}
+        aria-label="Sluit kaart"
+      >
+        <i class="fa-regular fa-xmark"></i>
+      </button>
+    </header>
+    <div class="map-modal-body">
+      <NeighborhoodBoundaryMap
+        currentNeighborhoodId={currentNeighborhoodId}
+        neighboringIds={neighboringIds}
+        availableIds={availableIds}
+        height="100%"
+        className="map-modal-map"
+      />
+    </div>
+  </div>
+</div>
+
+<!-- Inline script to move modal to body immediately - runs before DOMContentLoaded -->
+<script is:inline>
+  // Move all map modals to body immediately when they're in the DOM
+  // This runs as soon as the script tag is parsed, before DOMContentLoaded
+  (function () {
+    function moveModalsToBody() {
+      const modals = document.querySelectorAll(".map-modal");
+      modals.forEach(function (modal) {
+        if (modal.parentElement !== document.body) {
+          document.body.appendChild(modal);
+          // Note: z-index and position are handled by CSS with !important
+          // Just ensure it's moved to body to escape stacking contexts
+        }
+      });
+    }
+
+    // Try immediately if DOM is ready
+    if (document.body) {
+      moveModalsToBody();
+      // Also check after a short delay to catch modals added during page load
+      setTimeout(moveModalsToBody, 10);
+      setTimeout(moveModalsToBody, 100);
+    } else {
+      // If body doesn't exist yet, wait for it
+      const observer = new MutationObserver(function () {
+        if (document.body) {
+          moveModalsToBody();
+          setTimeout(moveModalsToBody, 10);
+          setTimeout(moveModalsToBody, 100);
+          observer.disconnect();
+        }
+      });
+      observer.observe(document.documentElement, { childList: true });
+    }
+
+    // Also run on DOMContentLoaded as a fallback
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", moveModalsToBody);
+    }
+  })();
+</script>
+
+<script define:vars={{ modalId }}>
+  function initBoundaryMapModal() {
+    const modal = document.getElementById(modalId);
+    if (!modal || modal._initialized) return;
+    modal._initialized = true;
+
+    // Note: Modal is already moved to body by the inline script above
+    // This function just handles the modal behavior (open/close)
+
+    // Open modal function
+    window[`openMapModal_${modalId}`] = function () {
+      modal.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+
+      // Initialize and invalidate boundary maps
+      setTimeout(function () {
+        const maps = modal.querySelectorAll("[data-boundary-map-id]");
+        maps.forEach(function (mapContainer) {
+          if (mapContainer._leafletMap) {
+            mapContainer._leafletMap.invalidateSize();
+          }
+        });
+      }, 100);
+    };
+
+    // Close modal function
+    function closeModal() {
+      modal.classList.remove("is-open");
+      document.body.style.overflow = "";
+    }
+
+    // Close buttons
+    const closeButtons = modal.querySelectorAll(
+      `[data-close-modal="${modalId}"]`
+    );
+    closeButtons.forEach(function (button) {
+      button.addEventListener("click", closeModal);
+    });
+
+    // Close on ESC key
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && modal.classList.contains("is-open")) {
+        closeModal();
+      }
+    });
+  }
+
+  // Initialize on DOMContentLoaded
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initBoundaryMapModal);
+  } else {
+    initBoundaryMapModal();
+  }
+
+  // Re-initialize after Astro page navigation
+  document.addEventListener("astro:page-load", initBoundaryMapModal);
+</script>
+
+<style>
+  .map-modal {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 9999 !important; /* Higher than header's z-index: 100 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    isolation: isolate; /* Create new stacking context */
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease;
+  }
+
+  .map-modal.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .map-modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    z-index: -1; /* Behind content but still visible */
+  }
+
+  .map-modal-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+  }
+
+  .map-modal.is-open .map-modal-content {
+    transform: scale(1);
+  }
+
+  .map-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #e8e8e8;
+    flex-shrink: 0;
+  }
+
+  .map-modal-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin: 0;
+  }
+
+  .map-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #898989;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease;
+  }
+
+  .map-modal-close:hover {
+    background-color: #e8e8e8;
+    color: #2a2a2a;
+  }
+
+  .map-modal-body {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+
+  :global(.map-modal-map) {
+    height: 100%;
+    border-radius: 0;
+  }
+
+  @media (min-width: 48rem) {
+    .map-modal-content {
+      width: 90%;
+      height: 90%;
+      max-width: 1200px;
+      max-height: 800px;
+      border-radius: 1.25rem;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    :global(.map-modal-map) {
+      border-radius: 0 0 1.25rem 1.25rem;
+    }
+  }
+</style>
