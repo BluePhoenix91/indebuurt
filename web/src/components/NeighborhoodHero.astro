@@ -1,6 +1,7 @@
 ---
 import Badge from "./Badge.astro";
 import InteractiveMap from "./InteractiveMap.astro";
+import { PAGE_TYPE_CONFIG } from "../config/pageTypes";
 import type { Neighborhood } from "../data/neighborhoods";
 
 interface Props {
@@ -10,6 +11,7 @@ interface Props {
 }
 
 const { neighborhood, slug, activeTab = 'overzicht' } = Astro.props;
+const showDemografieTab = PAGE_TYPE_CONFIG.demografie.enabled;
 ---
 
 <section class="hero" transition:name="hero" transition:animate="none">
@@ -61,14 +63,16 @@ const { neighborhood, slug, activeTab = 'overzicht' } = Astro.props;
         <i class="fa-regular fa-house mr-sm"></i>
         Huizen
       </a>
-      <a
-        href={`/buurt/${slug}/demografie/`}
-        class:list={["tab", { "tab-active": activeTab === 'demografie' }]}
-        aria-current={activeTab === 'demografie' ? 'page' : undefined}
-      >
-        <i class="fa-regular fa-users mr-sm"></i>
-        Demografie
-      </a>
+      {showDemografieTab && (
+        <a
+          href={`/buurt/${slug}/demografie/`}
+          class:list={["tab", { "tab-active": activeTab === 'demografie' }]}
+          aria-current={activeTab === 'demografie' ? 'page' : undefined}
+        >
+          <i class="fa-regular fa-users mr-sm"></i>
+          Demografie
+        </a>
+      )}
     </nav>
   </div>
 </section>

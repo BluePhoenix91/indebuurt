@@ -2,10 +2,16 @@
 import NeighborhoodHero from "../../../../components/NeighborhoodHero.astro";
 import SectionHeading from "../../../../components/SectionHeading.astro";
 import StatisticCard from "../../../../components/StatisticCard.astro";
+import { PAGE_TYPE_CONFIG } from "../../../../config/pageTypes";
 import { neighborhoods } from "../../../../data/neighborhoods/index";
 import NeighborhoodLayout from "../../../../layouts/NeighborhoodLayout.astro";
 
 export async function getStaticPaths() {
+  // Don't generate pages if demografie is disabled
+  if (!PAGE_TYPE_CONFIG.demografie.enabled) {
+    return [];
+  }
+
   return Object.keys(neighborhoods).map((slug) => ({
     params: { slug },
   }));
