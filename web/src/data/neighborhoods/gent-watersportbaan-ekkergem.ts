@@ -2,6 +2,7 @@ import type { Neighborhood } from "../neighborhoods";
 
 export const gentWatersportbaanEkkergem: Neighborhood = {
   id: "gent-watersportbaan-ekkergem",
+  city: "Gent",
   name: "Watersportbaan - Ekkergem",
   subtitle:
     "Voor baasjes die houden van groen, water én een jong, dynamisch wijkleven met dorpsgevoel",

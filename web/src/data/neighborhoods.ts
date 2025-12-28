@@ -61,6 +61,7 @@ export interface Label {
 
 export interface Neighborhood {
   id: string;
+  city: string;
   name: string;
   subtitle: string;
   dateAdded: string;

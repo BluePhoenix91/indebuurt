@@ -1,0 +1,59 @@
+---
+import NeighborhoodCard from "../../components/NeighborhoodCard.astro";
+import { neighborhoods } from "../../data/neighborhoods";
+import NeighborhoodLayout from "../../layouts/NeighborhoodLayout.astro";
+
+// Get all Gent neighborhoods and sort by name
+const gentNeighborhoods = Object.values(neighborhoods)
+  .filter((n) => n.city === "Gent")
+  .sort((a, b) => a.name.localeCompare(b.name, "nl"));
+
+// Schema.org data
+const canonicalUrl = "https://buurtkompas.be/gent/";
+
+const breadcrumbs = [
+  { name: "buurtkompas.be", url: "https://buurtkompas.be/" },
+  { name: "Gent", url: canonicalUrl },
+];
+---
+
+<NeighborhoodLayout
+  title="Buurten in Gent - buurtkompas.be"
+  description="Ontdek alle hondvriendelijke buurten in Gent. Vind de perfecte plek voor jou en je hond met gedetailleerde informatie over voorzieningen, parken en meer."
+  canonical={canonicalUrl}
+  breadcrumbs={breadcrumbs}
+>
+  <section class="hero">
+    <div class="hero-wrapper-index">
+      <div class="hero-content-index">
+        <h1 class="text-h1">Buurten in Gent</h1>
+        <p class="text-body bold mt-sm">
+          Ontdek {gentNeighborhoods.length} buurten vanuit het perspectief van hondeneigenaars.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="all-neighborhoods-section">
+      <h2 class="text-h2">Alle buurten in Gent</h2>
+      <p class="mt-sm">
+        Hieronder vind je alle Gentse buurten die we al geanalyseerd hebben:
+      </p>
+      <div class="neighborhood-cards-grid">
+        {
+          gentNeighborhoods.map((neighborhood) => (
+            <a href={`/buurt/${neighborhood.id}/`} class="card-link">
+              <NeighborhoodCard
+                title={neighborhood.name}
+                description={neighborhood.intro.split("\n\n")[0]}
+                tags={neighborhood.labels}
+                color="primary"
+              />
+            </a>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+</NeighborhoodLayout>

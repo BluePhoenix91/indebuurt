@@ -1,0 +1,1178 @@
+{
+  "summary": {
+    "total_pages_analyzed": 37,
+    "total_internal_links_found": 37,
+    "total_external_links_found": 48,
+    "pages_with_issues": 36,
+    "errors": 0
+  },
+  "metrics": {
+    "average_word_count": 548.0,
+    "average_internal_links_per_page": 5.6,
+    "pages_with_schema_markup": 0,
+    "schema_usage_percentage": 0.0
+  },
+  "issues": {
+    "missing_title": 0,
+    "missing_meta_description": 0,
+    "missing_h1": 0,
+    "missing_canonical": 0,
+    "common_issues": {
+      "Low word count": 24,
+      "Description too short": 21,
+      "Title too long": 3
+    }
+  },
+  "technical_seo": {
+    "robots_txt": {
+      "exists": true,
+      "content": "User-agent: *\nAllow: /\n\nSitemap: https://buurtkompas.be/sitemap-index.xml\n",
+      "status_code": 200
+    },
+    "sitemap": {
+      "https://www.buurtkompas.be/sitemap-index.xml": {
+        "exists": true,
+        "content_type": "text/xml",
+        "size": 232
+      }
+    }
+  },
+  "pages": [
+    {
+      "url": "https://www.buurtkompas.be",
+      "status_code": 200,
+      "title": "Buurtkompas - Vind de perfecte hondvriendelijke buurt",
+      "meta_description": "Ontdek hondvriendelijke buurten in België. Vind de perfecte plek voor jou en je hond met gedetailleerde informatie over voorzieningen, parken en meer.",
+      "og_title": "Buurtkompas - Vind de perfecte hondvriendelijke buurt",
+      "og_description": "Ontdek hondvriendelijke buurten in België. Vind de perfecte plek voor jou en je hond met gedetailleerde informatie over voorzieningen, parken en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Buurtkompas"
+      ],
+      "h2_count": 18,
+      "h2_tags": [
+        "Wat is Buurtkompas",
+        "Buurten die je nu kan ontdekken",
+        "Binnenstad",
+        "Brugse Poort - Rooigem",
+        "Dampoort"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 13,
+      "word_count": 1230,
+      "issues": [],
+      "response_size": 24314
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-binnenstad",
+      "status_code": 200,
+      "title": "Wonen in Binnenstad - buurtkompas.be",
+      "meta_description": "Voor baasjes die houden van historisch stadsleven, voetgangersvriendelijkheid én parken om elke hoek",
+      "og_title": "Wonen in Binnenstad - buurtkompas.be",
+      "og_description": "Voor baasjes die houden van historisch stadsleven, voetgangersvriendelijkheid én parken om elke hoek",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-binnenstad/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Binnenstad"
+      ],
+      "h2_count": 14,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 8,
+      "word_count": 1324,
+      "issues": [
+        "Description too short (100 chars, recommended: 150-160)"
+      ],
+      "response_size": 160225
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-binnenstad/demografie",
+      "status_code": 200,
+      "title": "Demografie Binnenstad - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Binnenstad. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Binnenstad - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Binnenstad. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-binnenstad/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Binnenstad"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 79,
+      "issues": [
+        "Description too short (103 chars, recommended: 150-160)",
+        "Low word count (79 words, recommended: 300+)"
+      ],
+      "response_size": 25516
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-binnenstad/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Binnenstad - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Binnenstad. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Binnenstad - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Binnenstad. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-binnenstad/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Binnenstad"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 176,
+      "issues": [
+        "Low word count (176 words, recommended: 300+)"
+      ],
+      "response_size": 30175
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-bloemekenswijk",
+      "status_code": 200,
+      "title": "Wonen in Bloemekenswijk - buurtkompas.be",
+      "meta_description": "Voor baasjes die houden van een jonge, levendige buurt met parken op letterlijk elke hoek",
+      "og_title": "Wonen in Bloemekenswijk - buurtkompas.be",
+      "og_description": "Voor baasjes die houden van een jonge, levendige buurt met parken op letterlijk elke hoek",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-bloemekenswijk/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Bloemekenswijk"
+      ],
+      "h2_count": 13,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 7,
+      "word_count": 1310,
+      "issues": [
+        "Description too short (89 chars, recommended: 150-160)"
+      ],
+      "response_size": 160511
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-bloemekenswijk/demografie",
+      "status_code": 200,
+      "title": "Demografie Bloemekenswijk - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Bloemekenswijk. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Bloemekenswijk - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Bloemekenswijk. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-bloemekenswijk/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Bloemekenswijk"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 81,
+      "issues": [
+        "Description too short (107 chars, recommended: 150-160)",
+        "Low word count (81 words, recommended: 300+)"
+      ],
+      "response_size": 25523
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-bloemekenswijk/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Bloemekenswijk - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Bloemekenswijk. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Bloemekenswijk - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Bloemekenswijk. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-bloemekenswijk/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Bloemekenswijk"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 171,
+      "issues": [
+        "Low word count (171 words, recommended: 300+)"
+      ],
+      "response_size": 29913
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-brugse-poort",
+      "status_code": 200,
+      "title": "Wonen in Brugse Poort - Rooigem - buurtkompas.be",
+      "meta_description": "Voor baasjes die houden van diversiteit, groen rondom de hoek én twee hondenspeelweiden in de buurt",
+      "og_title": "Wonen in Brugse Poort - Rooigem - buurtkompas.be",
+      "og_description": "Voor baasjes die houden van diversiteit, groen rondom de hoek én twee hondenspeelweiden in de buurt",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-brugse-poort/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Brugse Poort - Rooigem"
+      ],
+      "h2_count": 13,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 7,
+      "word_count": 1309,
+      "issues": [
+        "Description too short (99 chars, recommended: 150-160)"
+      ],
+      "response_size": 159602
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-brugse-poort/demografie",
+      "status_code": 200,
+      "title": "Demografie Brugse Poort - Rooigem - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Brugse Poort - Rooigem. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Brugse Poort - Rooigem - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Brugse Poort - Rooigem. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-brugse-poort/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Brugse Poort - Rooigem"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 91,
+      "issues": [
+        "Description too short (115 chars, recommended: 150-160)",
+        "Low word count (91 words, recommended: 300+)"
+      ],
+      "response_size": 25592
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-brugse-poort/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Brugse Poort - Rooigem - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Brugse Poort - Rooigem. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Brugse Poort - Rooigem - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Brugse Poort - Rooigem. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-brugse-poort/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Brugse Poort - Rooigem"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 191,
+      "issues": [
+        "Low word count (191 words, recommended: 300+)"
+      ],
+      "response_size": 30311
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-dampoort",
+      "status_code": 200,
+      "title": "Wonen in Dampoort - buurtkompas.be",
+      "meta_description": "Voor baasjes die houden van stadsleven, diversiteit én hondenvoorzieningen binnen handbereik",
+      "og_title": "Wonen in Dampoort - buurtkompas.be",
+      "og_description": "Voor baasjes die houden van stadsleven, diversiteit én hondenvoorzieningen binnen handbereik",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-dampoort/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Dampoort"
+      ],
+      "h2_count": 14,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 8,
+      "word_count": 1303,
+      "issues": [
+        "Description too short (92 chars, recommended: 150-160)"
+      ],
+      "response_size": 161382
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-dampoort/demografie",
+      "status_code": 200,
+      "title": "Demografie Dampoort - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Dampoort. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Dampoort - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Dampoort. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-dampoort/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Dampoort"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 77,
+      "issues": [
+        "Description too short (101 chars, recommended: 150-160)",
+        "Low word count (77 words, recommended: 300+)"
+      ],
+      "response_size": 25482
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-dampoort/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Dampoort - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Dampoort. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Dampoort - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Dampoort. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-dampoort/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Dampoort"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 174,
+      "issues": [
+        "Low word count (174 words, recommended: 300+)"
+      ],
+      "response_size": 30131
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-elisabethbegijnhof",
+      "status_code": 200,
+      "title": "Wonen in Elisabethbegijnhof - Prinsenhof - buurtkompas.be",
+      "meta_description": "Voor baasjes die houden van historisch erfgoed, studentenleven én een dierenarts om de hoek",
+      "og_title": "Wonen in Elisabethbegijnhof - Prinsenhof - buurtkompas.be",
+      "og_description": "Voor baasjes die houden van historisch erfgoed, studentenleven én een dierenarts om de hoek",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-elisabethbegijnhof/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Elisabethbegijnhof - Prinsenhof"
+      ],
+      "h2_count": 14,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 8,
+      "word_count": 1274,
+      "issues": [
+        "Description too short (91 chars, recommended: 150-160)"
+      ],
+      "response_size": 159371
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-elisabethbegijnhof/demografie",
+      "status_code": 200,
+      "title": "Demografie Elisabethbegijnhof - Prinsenhof - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Elisabethbegijnhof - Prinsenhof. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Elisabethbegijnhof - Prinsenhof - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Elisabethbegijnhof - Prinsenhof. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-elisabethbegijnhof/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Elisabethbegijnhof - Prinsenhof"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 86,
+      "issues": [
+        "Low word count (86 words, recommended: 300+)"
+      ],
+      "response_size": 25667
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-elisabethbegijnhof/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Elisabethbegijnhof - Prinsenhof - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Elisabethbegijnhof - Prinsenhof. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Elisabethbegijnhof - Prinsenhof - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Elisabethbegijnhof - Prinsenhof. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-elisabethbegijnhof/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Elisabethbegijnhof - Prinsenhof"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 185,
+      "issues": [
+        "Title too long (66 chars, recommended: 50-60)",
+        "Low word count (185 words, recommended: 300+)"
+      ],
+      "response_size": 30432
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-kanaaldorpen",
+      "status_code": 200,
+      "title": "Wonen in Gentse Kanaaldorpen en -zone - buurtkompas.be",
+      "meta_description": "Voor baasjes die dromen van ruimte, rust en eindeloos groen rondom hun woning",
+      "og_title": "Wonen in Gentse Kanaaldorpen en -zone - buurtkompas.be",
+      "og_description": "Voor baasjes die dromen van ruimte, rust en eindeloos groen rondom hun woning",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-kanaaldorpen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Gentse Kanaaldorpen en -zone"
+      ],
+      "h2_count": 13,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 7,
+      "word_count": 1167,
+      "issues": [
+        "Description too short (77 chars, recommended: 150-160)"
+      ],
+      "response_size": 158991
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-kanaaldorpen/demografie",
+      "status_code": 200,
+      "title": "Demografie Gentse Kanaaldorpen en -zone - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Gentse Kanaaldorpen en -zone. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Gentse Kanaaldorpen en -zone - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Gentse Kanaaldorpen en -zone. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-kanaaldorpen/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Gentse Kanaaldorpen en -zone"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 91,
+      "issues": [
+        "Low word count (91 words, recommended: 300+)"
+      ],
+      "response_size": 25603
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-kanaaldorpen/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Gentse Kanaaldorpen en -zone - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Gentse Kanaaldorpen en -zone. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Gentse Kanaaldorpen en -zone - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Gentse Kanaaldorpen en -zone. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-kanaaldorpen/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Gentse Kanaaldorpen en -zone"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 189,
+      "issues": [
+        "Title too long (63 chars, recommended: 50-60)",
+        "Low word count (189 words, recommended: 300+)"
+      ],
+      "response_size": 30344
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-macharius-heirnis",
+      "status_code": 200,
+      "title": "Wonen in Macharius - Heirnis - buurtkompas.be",
+      "meta_description": "Voor baasjes die houden van groen rondom de hoek én alles binnen handbereik",
+      "og_title": "Wonen in Macharius - Heirnis - buurtkompas.be",
+      "og_description": "Voor baasjes die houden van groen rondom de hoek én alles binnen handbereik",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-macharius-heirnis/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Macharius - Heirnis"
+      ],
+      "h2_count": 14,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 8,
+      "word_count": 1301,
+      "issues": [
+        "Description too short (75 chars, recommended: 150-160)"
+      ],
+      "response_size": 160653
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-macharius-heirnis/demografie",
+      "status_code": 200,
+      "title": "Demografie Macharius - Heirnis - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Macharius - Heirnis. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Macharius - Heirnis - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Macharius - Heirnis. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-macharius-heirnis/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Macharius - Heirnis"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 83,
+      "issues": [
+        "Description too short (112 chars, recommended: 150-160)",
+        "Low word count (83 words, recommended: 300+)"
+      ],
+      "response_size": 25569
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-macharius-heirnis/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Macharius - Heirnis - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Macharius - Heirnis. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Macharius - Heirnis - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Macharius - Heirnis. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-macharius-heirnis/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Macharius - Heirnis"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 182,
+      "issues": [
+        "Low word count (182 words, recommended: 300+)"
+      ],
+      "response_size": 30274
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-muide",
+      "status_code": 200,
+      "title": "Wonen in Muide-Meulestede-Afrikalaan - buurtkompas.be",
+      "meta_description": "Voor baasjes die op zoek zijn naar een buurt die klapt voor hen én hun hond",
+      "og_title": "Wonen in Muide-Meulestede-Afrikalaan - buurtkompas.be",
+      "og_description": "Voor baasjes die op zoek zijn naar een buurt die klapt voor hen én hun hond",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-muide/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Muide-Meulestede-Afrikalaan"
+      ],
+      "h2_count": 15,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 9,
+      "word_count": 1147,
+      "issues": [
+        "Description too short (75 chars, recommended: 150-160)"
+      ],
+      "response_size": 158980
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-muide/demografie",
+      "status_code": 200,
+      "title": "Demografie Muide-Meulestede-Afrikalaan - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Muide-Meulestede-Afrikalaan. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Muide-Meulestede-Afrikalaan - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Muide-Meulestede-Afrikalaan. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-muide/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Muide-Meulestede-Afrikalaan"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 81,
+      "issues": [
+        "Low word count (81 words, recommended: 300+)"
+      ],
+      "response_size": 25545
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-muide/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Muide-Meulestede-Afrikalaan - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Muide-Meulestede-Afrikalaan. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Muide-Meulestede-Afrikalaan - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Muide-Meulestede-Afrikalaan. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-muide/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Muide-Meulestede-Afrikalaan"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 178,
+      "issues": [
+        "Title too long (62 chars, recommended: 50-60)",
+        "Low word count (178 words, recommended: 300+)"
+      ],
+      "response_size": 30289
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-rabot",
+      "status_code": 200,
+      "title": "Wonen in Gent-Rabot - buurtkompas.be",
+      "meta_description": "Een dichtbevolkte buurt met veel leven en een centrale ligging",
+      "og_title": "Wonen in Gent-Rabot - buurtkompas.be",
+      "og_description": "Een dichtbevolkte buurt met veel leven en een centrale ligging",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-rabot/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Gent-Rabot"
+      ],
+      "h2_count": 16,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 10,
+      "word_count": 1393,
+      "issues": [
+        "Description too short (62 chars, recommended: 150-160)"
+      ],
+      "response_size": 162122
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-rabot/demografie",
+      "status_code": 200,
+      "title": "Demografie Gent-Rabot - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Gent-Rabot. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Gent-Rabot - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Gent-Rabot. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-rabot/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Gent-Rabot"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 77,
+      "issues": [
+        "Description too short (103 chars, recommended: 150-160)",
+        "Low word count (77 words, recommended: 300+)"
+      ],
+      "response_size": 25428
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-rabot/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Gent-Rabot - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Gent-Rabot. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Gent-Rabot - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Gent-Rabot. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-rabot/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Gent-Rabot"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 174,
+      "issues": [
+        "Low word count (174 words, recommended: 300+)"
+      ],
+      "response_size": 30099
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-sluizeken-tolhuis-ham",
+      "status_code": 200,
+      "title": "Wonen in Sluizeken-Tolhuis-Ham - buurtkompas.be",
+      "meta_description": "Voor baasjes die een groene, rustige buurt zoeken met parken om de hoek",
+      "og_title": "Wonen in Sluizeken-Tolhuis-Ham - buurtkompas.be",
+      "og_description": "Voor baasjes die een groene, rustige buurt zoeken met parken om de hoek",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-sluizeken-tolhuis-ham/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Sluizeken-Tolhuis-Ham"
+      ],
+      "h2_count": 17,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 11,
+      "word_count": 1492,
+      "issues": [
+        "Description too short (71 chars, recommended: 150-160)"
+      ],
+      "response_size": 164260
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-sluizeken-tolhuis-ham/demografie",
+      "status_code": 200,
+      "title": "Demografie Sluizeken-Tolhuis-Ham - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Sluizeken-Tolhuis-Ham. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Sluizeken-Tolhuis-Ham - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Sluizeken-Tolhuis-Ham. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-sluizeken-tolhuis-ham/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Sluizeken-Tolhuis-Ham"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 78,
+      "issues": [
+        "Description too short (114 chars, recommended: 150-160)",
+        "Low word count (78 words, recommended: 300+)"
+      ],
+      "response_size": 25575
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-sluizeken-tolhuis-ham/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Sluizeken-Tolhuis-Ham - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Sluizeken-Tolhuis-Ham. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Sluizeken-Tolhuis-Ham - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Sluizeken-Tolhuis-Ham. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-sluizeken-tolhuis-ham/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Sluizeken-Tolhuis-Ham"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 174,
+      "issues": [
+        "Low word count (174 words, recommended: 300+)"
+      ],
+      "response_size": 30285
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-watersportbaan-ekkergem",
+      "status_code": 200,
+      "title": "Wonen in Watersportbaan - Ekkergem - buurtkompas.be",
+      "meta_description": "Voor baasjes die houden van groen, water én een jong, dynamisch wijkleven met dorpsgevoel",
+      "og_title": "Wonen in Watersportbaan - Ekkergem - buurtkompas.be",
+      "og_description": "Voor baasjes die houden van groen, water én een jong, dynamisch wijkleven met dorpsgevoel",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-watersportbaan-ekkergem/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Watersportbaan - Ekkergem"
+      ],
+      "h2_count": 14,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 8,
+      "word_count": 1387,
+      "issues": [
+        "Description too short (89 chars, recommended: 150-160)"
+      ],
+      "response_size": 161426
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-watersportbaan-ekkergem/demografie",
+      "status_code": 200,
+      "title": "Demografie Watersportbaan - Ekkergem - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Watersportbaan - Ekkergem. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Watersportbaan - Ekkergem - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Watersportbaan - Ekkergem. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-watersportbaan-ekkergem/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Watersportbaan - Ekkergem"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 86,
+      "issues": [
+        "Description too short (118 chars, recommended: 150-160)",
+        "Low word count (86 words, recommended: 300+)"
+      ],
+      "response_size": 25655
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-watersportbaan-ekkergem/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Watersportbaan - Ekkergem - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Watersportbaan - Ekkergem. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Watersportbaan - Ekkergem - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Watersportbaan - Ekkergem. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-watersportbaan-ekkergem/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Watersportbaan - Ekkergem"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 185,
+      "issues": [
+        "Low word count (185 words, recommended: 300+)"
+      ],
+      "response_size": 30389
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-wondelgem",
+      "status_code": 200,
+      "title": "Wonen in Wondelgem - buurtkompas.be",
+      "meta_description": "Voor baasjes die willen verdwalen tussen eindeloos veel parken en groene plekken",
+      "og_title": "Wonen in Wondelgem - buurtkompas.be",
+      "og_description": "Voor baasjes die willen verdwalen tussen eindeloos veel parken en groene plekken",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-wondelgem/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Wondelgem"
+      ],
+      "h2_count": 15,
+      "h2_tags": [
+        "Wat baasjes hier zo waarderen",
+        "Hondvriendelijke voorzieningen",
+        "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+        "Baasjes helpen baasjes",
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 1,
+      "images_with_alt": 1,
+      "images_without_alt": 0,
+      "internal_links": 9,
+      "word_count": 1488,
+      "issues": [
+        "Description too short (80 chars, recommended: 150-160)"
+      ],
+      "response_size": 163031
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-wondelgem/demografie",
+      "status_code": 200,
+      "title": "Demografie Wondelgem - buurtkompas.be",
+      "meta_description": "Buurtstatistieken en demografische gegevens van Wondelgem. Inzicht in inwoners, woningprijzen en meer.",
+      "og_title": "Demografie Wondelgem - buurtkompas.be",
+      "og_description": "Buurtstatistieken en demografische gegevens van Wondelgem. Inzicht in inwoners, woningprijzen en meer.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-wondelgem/demografie/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Wondelgem"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Buurtstatistieken"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 79,
+      "issues": [
+        "Description too short (102 chars, recommended: 150-160)",
+        "Low word count (79 words, recommended: 300+)"
+      ],
+      "response_size": 25483
+    },
+    {
+      "url": "https://www.buurtkompas.be/buurt/gent-wondelgem/huizen",
+      "status_code": 200,
+      "title": "Huizen te koop in Wondelgem - buurtkompas.be",
+      "meta_description": "Bekijk beschikbare huizen en appartementen in Wondelgem. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_title": "Huizen te koop in Wondelgem - buurtkompas.be",
+      "og_description": "Bekijk beschikbare huizen en appartementen in Wondelgem. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+      "og_image": "/favicon.svg",
+      "canonical": "https://buurtkompas.be/buurt/gent-wondelgem/huizen/",
+      "h1_count": 1,
+      "h1_tags": [
+        "Wonen in Wondelgem"
+      ],
+      "h2_count": 1,
+      "h2_tags": [
+        "Klaar om verder te kijken?"
+      ],
+      "schema_count": 0,
+      "schema_types": [],
+      "images_total": 0,
+      "images_with_alt": 0,
+      "images_without_alt": 0,
+      "internal_links": 4,
+      "word_count": 169,
+      "issues": [
+        "Low word count (169 words, recommended: 300+)"
+      ],
+      "response_size": 29847
+    }
+  ],
+  "errors": []
+}

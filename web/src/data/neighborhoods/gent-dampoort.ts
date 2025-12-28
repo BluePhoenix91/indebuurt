@@ -2,6 +2,7 @@ import type { Neighborhood } from "../neighborhoods";
 
 export const gentDampoort: Neighborhood = {
   id: "gent-dampoort",
+  city: "Gent",
   name: "Dampoort",
   subtitle:
     "Voor baasjes die houden van stadsleven, diversiteit én hondenvoorzieningen binnen handbereik",

@@ -2,6 +2,23 @@
 import { ClientRouter } from 'astro:transitions';
 import '../styles/styles.scss';
 import '@awesome.me/kit-ee3e3d9cbc/icons/css/all.css';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import NeighborhoodSchema from '../components/NeighborhoodSchema.astro';
+
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+interface NeighborhoodSchemaData {
+  name: string;
+  description: string;
+  city: string;
+  postalCode: string;
+  latitude: number;
+  longitude: number;
+  url: string;
+}
 
 interface Props {
   title: string;
@@ -12,6 +29,8 @@ interface Props {
   ogUrl?: string;
   ogImage?: string;
   heroImage?: string;
+  breadcrumbs?: BreadcrumbItem[];
+  neighborhoodSchema?: NeighborhoodSchemaData;
 }
 
 const {
@@ -22,7 +41,9 @@ const {
   ogDescription = description,
   ogUrl = canonical,
   ogImage = '/favicon.svg',
-  heroImage
+  heroImage,
+  breadcrumbs,
+  neighborhoodSchema
 } = Astro.props;
 
 const GA4_MEASUREMENT_ID = import.meta.env.PUBLIC_GA4_MEASUREMENT_ID;
@@ -54,6 +75,20 @@ const isProduction = import.meta.env.PROD;
     <meta property="og:url" content={ogUrl} />
     <meta property="og:image" content={ogImage} />
     <meta property="og:type" content="website" />
+
+    <!-- Schema.org Structured Data -->
+    {breadcrumbs && <BreadcrumbSchema items={breadcrumbs} />}
+    {neighborhoodSchema && (
+      <NeighborhoodSchema
+        name={neighborhoodSchema.name}
+        description={neighborhoodSchema.description}
+        city={neighborhoodSchema.city}
+        postalCode={neighborhoodSchema.postalCode}
+        latitude={neighborhoodSchema.latitude}
+        longitude={neighborhoodSchema.longitude}
+        url={neighborhoodSchema.url}
+      />
+    )}
 
     <!-- Google Analytics 4 (Production only) -->
     {isProduction && GA4_MEASUREMENT_ID && (

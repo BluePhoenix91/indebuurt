@@ -36,12 +36,34 @@ const availableNeighborhoodIds = Object.keys(neighborhoods);
 const neighboringNeighborhoods = neighborhood.neighboringNeighborhoods
   ?.map((id) => neighborhoods[id])
   .filter(Boolean);
+
+// Schema.org data
+const canonicalUrl = `https://buurtkompas.be/buurt/${slug}/`;
+const cityUrl = `https://buurtkompas.be/${neighborhood.city.toLowerCase()}/`;
+
+const breadcrumbs = [
+  { name: "buurtkompas.be", url: "https://buurtkompas.be/" },
+  { name: neighborhood.city, url: cityUrl },
+  { name: neighborhood.name, url: canonicalUrl },
+];
+
+const neighborhoodSchema = {
+  name: neighborhood.name,
+  description: neighborhood.subtitle,
+  city: neighborhood.city,
+  postalCode: neighborhood.postalCode,
+  latitude: neighborhood.coordinates.lat,
+  longitude: neighborhood.coordinates.lon,
+  url: canonicalUrl,
+};
 ---
 
 <NeighborhoodLayout
   title={`Wonen in ${neighborhood.name} - buurtkompas.be`}
   description={neighborhood.subtitle}
-  canonical={`https://buurtkompas.be/buurt/${slug}/`}
+  canonical={canonicalUrl}
+  breadcrumbs={breadcrumbs}
+  neighborhoodSchema={neighborhoodSchema}
 >
   <NeighborhoodHero neighborhood={neighborhood} slug={slug} activeTab="overzicht" />
 

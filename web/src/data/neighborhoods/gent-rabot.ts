@@ -2,6 +2,7 @@ import type { Neighborhood } from "../neighborhoods";
 
 export const gentRabot: Neighborhood = {
   id: "gent-rabot",
+  city: "Gent",
   name: "Gent-Rabot",
   subtitle: "Een dichtbevolkte buurt met veel leven en een centrale ligging",
   dateAdded: "2025-12-10",

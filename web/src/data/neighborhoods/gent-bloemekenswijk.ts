@@ -2,6 +2,7 @@ import type { Neighborhood } from "../neighborhoods";
 
 export const gentBloemekenswijk: Neighborhood = {
   id: "gent-bloemekenswijk",
+  city: "Gent",
   name: "Bloemekenswijk",
   subtitle:
     "Voor baasjes die houden van een jonge, levendige buurt met parken op letterlijk elke hoek",
