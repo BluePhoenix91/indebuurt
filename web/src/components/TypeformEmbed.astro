@@ -24,15 +24,17 @@ const { typeformId, className = "", initialHeight = 400 } = Astro.props;
 
 <style>
   .typeform-container {
-    width: 100%;
     position: relative;
+    width: 100%;
     contain: layout style paint;
   }
 
   .typeform-wrapper {
-    width: 100%;
     display: block;
+    width: 100%;
+
     /* Let Typeform handle the actual height - it will auto-resize */
+
     /* We only set min-height to prevent layout shift */
   }
 </style>

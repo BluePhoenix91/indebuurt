@@ -1,0 +1,10 @@
+{
+  "stylelint.validate": ["css", "scss", "astro"],
+  "stylelint.workingDirectory": {
+    "directory": "./web",
+    "changeProcessCWD": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "always"
+  }
+}

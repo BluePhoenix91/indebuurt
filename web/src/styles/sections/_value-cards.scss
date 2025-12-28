@@ -11,6 +11,7 @@
 
   @media (max-width: $breakpoint-mobile) {
     gap: $spacing-md;
+
     @include horizontal-scroll-container;
   }
 }
@@ -26,8 +27,8 @@
 
   .value-content {
     p {
-      font-size: $size-body;
       margin: 0;
+      font-size: $size-body;
     }
 
     div {
@@ -35,9 +36,9 @@
       color: $calm-grey-600;
 
       i {
+        flex-shrink: 0;
         font-size: $size-body;
         font-weight: $font-weight-light;
-        flex-shrink: 0;
         transform: rotate(36deg);
       }
     }

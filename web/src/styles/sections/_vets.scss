@@ -23,10 +23,10 @@
   gap: $spacing-md;
 
   p {
+    margin: 0;
     font-size: $size-body;
     line-height: 1.8;
     color: $black;
-    margin: 0;
   }
 
   .btn {
@@ -34,10 +34,10 @@
 
     @media (max-width: $breakpoint-mobile) {
       display: inline-flex;
-      align-items: center;
       gap: $spacing-xs;
-      width: 100%;
+      align-items: center;
       justify-content: center;
+      width: 100%;
 
       i {
         font-size: $size-body;
@@ -60,16 +60,16 @@
   position: sticky;
   top: $spacing-md;
   align-self: start;
-  border-radius: $radius-card;
-  overflow: hidden;
   height: 100%;
   max-height: calc(100vh - $spacing-md - $spacing-lg);
+  overflow: hidden;
+  border-radius: $radius-card;
 
   img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
   }
 
   @media (max-width: $breakpoint-mobile) {

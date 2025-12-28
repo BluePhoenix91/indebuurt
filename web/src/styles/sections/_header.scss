@@ -3,27 +3,27 @@
 /* Header & Navigation */
 
 body > header {
-  background-color: $background-white;
-  border-bottom: $border-thin solid $calm-grey-200;
   position: sticky;
   top: 0;
   z-index: 100;
   width: 100%;
+  background-color: $background-white;
+  border-bottom: $border-thin solid $calm-grey-200;
 
   nav {
-    max-width: $container-max-width;
-    margin: 0 auto;
-    padding: $spacing-sm $spacing-md;
     display: flex;
     align-items: center;
+    max-width: $container-max-width;
     min-height: $header-height;
+    padding: $spacing-sm $spacing-md;
+    margin: 0 auto;
 
     a {
       font-size: $size-body;
+      font-weight: $font-weight-semibold;
       color: $black;
       text-decoration: none;
       transition: color $transition-normal ease;
-      font-weight: $font-weight-semibold;
 
       &:hover {
         color: $primary;

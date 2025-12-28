@@ -28,13 +28,13 @@
   position: sticky;
   top: $spacing-md;
   align-self: center;
-  border-radius: $radius-card;
   overflow: hidden;
+  border-radius: $radius-card;
 
   img {
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
     object-fit: contain;
   }
 

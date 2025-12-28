@@ -12,21 +12,21 @@
   @media (max-width: $breakpoint-mobile) {
     display: flex;
     flex-direction: row;
+    padding-right: $spacing-md;
+
+    /* Add padding for first and last items */
+    padding-left: $spacing-md;
+
+    /* Negative margin to break out of parent padding */
+    margin-right: calc(-1 * $spacing-md);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
     scrollbar-width: none; /* Firefox */
+    -webkit-overflow-scrolling: touch;
 
     &::-webkit-scrollbar {
       display: none; /* Chrome, Safari */
     }
-
-    /* Add padding for first and last items */
-    padding-left: $spacing-md;
-    padding-right: $spacing-md;
-
-    /* Negative margin to break out of parent padding */
-    margin-right: calc(-1 * $spacing-md);
   }
 }
 
@@ -62,6 +62,7 @@
     width: calc(
       100vw - ($spacing-md * 4)
     ); /* Full width minus padding on both sides */
+
     scroll-snap-align: start;
   }
 }
@@ -75,13 +76,13 @@
 ///     @include base-card($green);
 ///   }
 @mixin base-card($color) {
-  background-color: rgba($color: $color, $alpha: 0.1);
-  border: $border-thin solid $color;
-  border-radius: $radius-card;
-  padding: $spacing-md;
   display: flex;
   flex-direction: column;
   gap: $spacing-sm;
+  padding: $spacing-md;
+  background-color: rgba($color: $color, $alpha: 10%);
+  border: $border-thin solid $color;
+  border-radius: $radius-card;
   transition: all $transition-normal ease;
 
   @media (max-width: $breakpoint-mobile) {
@@ -107,9 +108,9 @@
   $h3-flex: false
 ) {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   gap: $spacing-sm;
+  align-items: flex-start;
+  justify-content: space-between;
 
   @media (max-width: $breakpoint-mobile) {
     flex-direction: column;
@@ -119,24 +120,25 @@
   @if $include-wrapper {
     > div {
       display: flex;
-      align-items: center;
-      gap: $spacing-xs;
       flex: 1;
+      gap: $spacing-xs;
+      align-items: center;
     }
   }
 
   i {
+    flex-shrink: 0;
     font-size: $size-body;
     font-weight: $icon-weight;
     color: $color;
-    flex-shrink: 0;
   }
 
   h3 {
+    margin: 0;
     font-size: $size-body;
     font-weight: $font-weight-bold;
     color: $color;
-    margin: 0;
+
     @if $h3-flex {
       flex: 1;
     }
@@ -156,17 +158,17 @@
 ///   }
 @mixin distance-display($color) {
   display: flex;
-  align-items: center;
   gap: $spacing-xxs;
+  align-items: center;
   font-size: $size-body-small;
-  color: rgba($color: $color, $alpha: 0.75);
+  color: rgba($color: $color, $alpha: 75%);
   white-space: nowrap;
 
   i {
+    flex-shrink: 0;
     font-size: $size-body-small;
     font-weight: $font-weight-normal;
     color: $color;
-    flex-shrink: 0;
   }
 }
 
@@ -179,9 +181,9 @@
 ///   }
 @mixin address-display {
   p {
+    margin: 0;
     font-size: $size-body;
     color: $black;
-    margin: 0;
   }
 
   .street-line {
@@ -212,17 +214,17 @@
   $is-outline: false
 ) {
   @if $is-outline {
-    background-color: transparent;
     color: $bg-color;
+    background-color: transparent;
     border: $border-regular solid $bg-color;
 
     &:hover {
-      background-color: $bg-color;
       color: $text-color;
+      background-color: $bg-color;
     }
   } @else {
-    background-color: $bg-color;
     color: $text-color;
+    background-color: $bg-color;
 
     &:hover {
       background-color: color.adjust($bg-color, $lightness: -8%);
@@ -245,8 +247,8 @@
   $border-color: null
 ) {
   @if $bg-color {
-    background-color: $bg-color;
     color: $text-color;
+    background-color: $bg-color;
   }
 
   @if $border-color {

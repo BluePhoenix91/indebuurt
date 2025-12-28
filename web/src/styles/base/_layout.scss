@@ -5,8 +5,8 @@
 .container {
   width: 100%;
   max-width: $container-max-width;
-  margin: 0 auto;
   padding: 0 $spacing-md;
+  margin: 0 auto;
 
   @media (min-width: $breakpoint-mobile) {
     padding: 0 $spacing-lg;
@@ -19,8 +19,8 @@
   gap: $spacing-xxl;
 
   @media (max-width: $breakpoint-mobile) {
-    max-width: 100vw;
     gap: $spacing-lg;
+    max-width: 100vw;
     padding: $spacing-md $spacing-md;
   }
 }

@@ -3,9 +3,9 @@
 
 .neighborhood-boundary-map {
   width: 100%;
-  border-radius: $radius-md;
   overflow: hidden;
   background-color: $calm-grey-200;
+  border-radius: $radius-md;
 
   .leaflet-interactive {
     cursor: pointer;
@@ -19,43 +19,43 @@
 
 .map-fallback {
   padding: $spacing-lg;
-  text-align: center;
   color: $calm-grey-600;
+  text-align: center;
 }
 
 // Tooltips
 .boundary-tooltip {
-  background: rgba($background-white, 0.95);
-  border: none;
-  border-radius: $radius-sm;
   padding: $spacing-xxs $spacing-xs;
   font-size: $font-xs;
   font-weight: $font-weight-medium;
+  background: rgba($background-white, 0.95);
+  border: none;
+  border-radius: $radius-sm;
   box-shadow: $shadow-sm;
 
   &-current {
-    background: $primary;
-    color: $background-white;
-    font-weight: $font-weight-semibold;
     font-size: $font-sm;
+    font-weight: $font-weight-semibold;
+    color: $background-white;
+    background: $primary;
   }
 
   &-neighbor {
-    background: $accent-2;
     color: $background-white;
+    background: $accent-2;
   }
 
   &-other {
-    background: rgba($background-white, 0.9);
     color: $calm-grey-800;
+    background: rgba($background-white, 0.9);
   }
 }
 
 // Popup
 .boundary-popup-container {
   .leaflet-popup-content-wrapper {
-    border-radius: $radius-sm;
     padding: 0;
+    border-radius: $radius-sm;
   }
 
   .leaflet-popup-content {
@@ -80,13 +80,13 @@
   .boundary-popup-link {
     display: inline-block;
     padding: $spacing-xxs $spacing-sm;
-    background: $accent-2;
-    color: $background-white;
-    border-radius: $radius-sm;
     font-size: $font-xs;
     font-weight: $font-weight-medium;
+    color: $background-white;
     text-align: center;
     text-decoration: none;
+    background: $accent-2;
+    border-radius: $radius-sm;
     transition: background $transition-normal-ease;
 
     &:hover {
@@ -96,7 +96,7 @@
 
   .boundary-popup-unavailable {
     font-size: $font-xs;
-    color: $calm-grey-600;
     font-style: italic;
+    color: $calm-grey-600;
   }
 }

@@ -133,8 +133,8 @@ $transition-slow-ease: $transition-slow $transition-function;
 // Based on $base-unit for vertical offset
 //
 
-$shadow-sm: 0 ($base-unit * 0.125) ($base-unit * 0.25) rgba(0, 0, 0, 0.075); // 0 2px 4px
-$shadow-md: 0 ($base-unit * 0.125) ($base-unit * 0.75) rgba(0, 0, 0, 0.08); // 0 2px 12px
-$shadow-lg: 0 ($base-unit * 0.25) $base-unit rgba(0, 0, 0, 0.12); // 0 4px 16px
-$shadow-top: 0 -2px 4px 0 rgba(0, 0, 0, 0.1); // Upward shadow for tabs
-$shadow-inner-top: inset 0 -2px 4px 0 rgba(0, 0, 0, 0.1); // Inner shadow from bottom
+$shadow-sm: 0 ($base-unit * 0.125) ($base-unit * 0.25) rgb(0 0 0 / 7.5%); // 0 2px 4px
+$shadow-md: 0 ($base-unit * 0.125) ($base-unit * 0.75) rgb(0 0 0 / 8%); // 0 2px 12px
+$shadow-lg: 0 ($base-unit * 0.25) $base-unit rgb(0 0 0 / 12%); // 0 4px 16px
+$shadow-top: 0 -2px 4px 0 rgb(0 0 0 / 10%); // Upward shadow for tabs
+$shadow-inner-top: inset 0 -2px 4px 0 rgb(0 0 0 / 10%); // Inner shadow from bottom

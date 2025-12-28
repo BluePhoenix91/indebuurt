@@ -21,10 +21,10 @@
 }
 
 .card-link {
-  text-decoration: none;
-  color: inherit;
   display: flex;
   height: 100%;
+  color: inherit;
+  text-decoration: none;
   transition: transform $transition-normal-ease;
 
   &:hover {

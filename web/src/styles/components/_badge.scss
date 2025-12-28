@@ -5,12 +5,12 @@
 
 .badge {
   display: inline-flex;
-  align-items: center;
   gap: $spacing-xs;
+  align-items: center;
   padding: $spacing-xs $spacing-sm;
-  border-radius: $radius-badge;
   font-size: $size-body-small;
   color: $black;
+  border-radius: $radius-badge;
 
   i {
     flex-shrink: 0;

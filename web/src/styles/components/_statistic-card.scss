@@ -3,45 +3,45 @@
 /* Statistic Card Component */
 
 .statistic-card {
-  background-color: $background-white;
-  border-radius: $radius-card;
-  padding: $spacing-lg;
   display: flex;
   flex-direction: column;
   gap: $spacing-xs;
-  border: 1px solid $primary;
+  padding: $spacing-lg;
   text-align: center;
+  background-color: $background-white;
+  border: 1px solid $primary;
+  border-radius: $radius-card;
 }
 
 .statistic-header {
   display: flex;
+  gap: $spacing-xs;
   align-items: center;
   justify-content: center;
-  gap: $spacing-xs;
 }
 
 .statistic-icon {
-  color: $primary;
-  font-size: $size-body;
   flex-shrink: 0;
+  font-size: $size-body;
+  color: $primary;
 }
 
 .statistic-value {
+  margin: 0;
   font-size: $size-body;
   font-weight: $font-weight-bold;
-  color: $primary;
-  margin: 0;
   line-height: 1.2;
+  color: $primary;
 }
 
 .statistic-label {
+  margin: 0;
   font-size: $size-body-small;
   color: $calm-grey-600;
-  margin: 0;
 }
 
 .statistic-description {
+  margin: 0;
   font-size: $size-body-small;
   color: $calm-grey-600;
-  margin: 0;
 }

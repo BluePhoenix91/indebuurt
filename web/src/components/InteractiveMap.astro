@@ -379,21 +379,21 @@ const mapId = `map-${Math.random().toString(36).substr(2, 9)}`;
 <style>
   .interactive-map {
     width: 100%;
-    border-radius: 12px;
     overflow: hidden;
     background-color: #f0f0f0;
+    border-radius: 12px;
   }
 
   .map-fallback {
     padding: 2rem;
-    text-align: center;
     color: #666;
+    text-align: center;
   }
 
   .map-fallback ul {
-    list-style: none;
     padding: 0;
     margin-top: 1rem;
+    list-style: none;
   }
 
   .map-fallback li {
@@ -403,30 +403,30 @@ const mapId = `map-${Math.random().toString(36).substr(2, 9)}`;
 
   /* Custom numbered marker styles */
   :global(.custom-numbered-marker) {
-    border: 2px solid white;
-    border-radius: 4px;
-    width: 30px;
-    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 30px;
+    height: 30px;
     padding: 0;
     margin: 0;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
   }
 
   :global(.marker-number) {
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
     text-align: center;
     background-color: transparent;
   }

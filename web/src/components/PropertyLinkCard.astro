@@ -32,12 +32,12 @@ const { icon, title, description, url } = Astro.props;
     display: flex;
     flex-direction: column;
     padding: $spacing-lg $spacing-md;
+    color: $black;
+    text-decoration: none;
+    cursor: pointer;
     border: 1px solid $calm-grey-400;
     border-radius: $radius-card;
-    text-decoration: none;
-    color: $black;
     transition: all 0.2s ease;
-    cursor: pointer;
 
     &:hover {
       border-color: $primary;
@@ -53,41 +53,41 @@ const { icon, title, description, url } = Astro.props;
 
     @media (max-width: $breakpoint-mobile) {
       flex-direction: column;
-      align-items: flex-start;
       gap: $spacing-sm;
+      align-items: flex-start;
     }
   }
 
   .property-link-card-header {
     display: flex;
-    align-items: center;
     gap: $spacing-sm;
+    align-items: center;
     margin-bottom: $spacing-xs;
   }
 
   .property-link-card-icon {
-    color: $primary;
     font-size: $size-body;
+    color: $primary;
   }
 
   .property-link-card-description {
-    font-size: $size-body-small;
     margin: 0;
     margin-bottom: $spacing-md;
+    font-size: $size-body-small;
     color: $calm-grey-600;
   }
 
   .property-link-card-action {
     display: flex;
-    align-items: center;
     gap: $spacing-sm;
+    align-items: center;
     margin-top: auto;
     font-size: $size-body-small;
     transition: all 0.2s ease;
 
     @media (max-width: $breakpoint-mobile) {
-      width: 100%;
       justify-content: space-between;
+      width: 100%;
     }
 
     i {

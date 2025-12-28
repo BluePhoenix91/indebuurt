@@ -5,18 +5,15 @@
 /* Hero Section */
 
 .hero {
-  background-color: $background-light;
   position: relative;
+  background-color: $background-light;
 
   &::after {
-    content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    box-shadow: $shadow-inner-top;
+    inset: 0;
     pointer-events: none;
+    content: "";
+    box-shadow: $shadow-inner-top;
   }
 }
 
@@ -25,12 +22,12 @@
   grid-template-columns: 2fr 1fr;
   gap: $spacing-xl;
   max-width: $container-max-width;
-  margin: 0 auto;
   padding: $spacing-xl $spacing-md;
+  margin: 0 auto;
 
   @media (min-width: $breakpoint-mobile) {
-    padding: $spacing-xl 0 0 0;
     grid-template-rows: auto auto;
+    padding: $spacing-xl 0 0 0;
   }
 
   @media (max-width: $breakpoint-mobile) {
@@ -41,8 +38,8 @@
 
   .hero-content {
     @media (min-width: $breakpoint-mobile) {
-      grid-column: 1;
       grid-row: 1;
+      grid-column: 1;
     }
 
     @media (max-width: $breakpoint-mobile) {
@@ -52,8 +49,8 @@
 
   .hero-map {
     @media (min-width: $breakpoint-mobile) {
-      grid-column: 2;
       grid-row: 1 / 3;
+      grid-column: 2;
     }
 
     @media (max-width: $breakpoint-mobile) {
@@ -63,8 +60,8 @@
 
   .hero-tabs {
     @media (min-width: $breakpoint-mobile) {
-      grid-column: 1;
       grid-row: 2;
+      grid-column: 1;
     }
 
     @media (max-width: $breakpoint-mobile) {
@@ -81,13 +78,13 @@
 
 .hero-meta-item {
   display: inline-flex;
-  align-items: center;
   gap: $spacing-xs;
+  align-items: center;
 
   i {
+    flex-shrink: 0;
     font-size: $size-body;
     color: $primary;
-    flex-shrink: 0;
   }
 }
 
@@ -97,9 +94,9 @@
   gap: $spacing-md;
 
   .badge-outline {
+    color: $primary;
     background-color: transparent;
     border-color: $primary;
-    color: $primary;
   }
 }
 
@@ -120,17 +117,17 @@
 }
 
 .tab {
-  display: inline-flex;
-  align-items: center;
-  gap: $spacing-xxs;
-  padding: $spacing-sm $spacing-md;
-  text-decoration: none;
-  margin-bottom: calc($border-regular * -1);
-  transition: all $transition-normal ease;
-  border-radius: $radius-button $radius-button 0 0;
   position: relative;
   z-index: 1;
+  display: inline-flex;
+  gap: $spacing-xxs;
+  align-items: center;
+  padding: $spacing-sm $spacing-md;
+  margin-bottom: calc($border-regular * -1);
   white-space: nowrap;
+  text-decoration: none;
+  border-radius: $radius-button $radius-button 0 0;
+  transition: all $transition-normal ease;
 
   &:hover {
     color: $primary;
@@ -147,14 +144,14 @@
 /* Hero Map */
 
 .hero-map {
-  border-radius: $radius-card $radius-card 0 0;
   overflow: hidden;
+  border-radius: $radius-card $radius-card 0 0;
 
   img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
   }
 
   @media (max-width: $breakpoint-mobile) {
@@ -169,8 +166,8 @@
   grid-template-columns: $sidebar-width 1fr;
   gap: $spacing-xl;
   max-width: $container-max-width;
-  margin: 0 auto;
   padding: $spacing-xxl 0;
+  margin: 0 auto;
 
   @media (max-width: $breakpoint-mobile) {
     grid-template-columns: 1fr;
@@ -188,9 +185,9 @@
     position: sticky;
     top: $header-height; // Stick below header
     z-index: 10;
-    background-color: $background-white;
     width: 100vw;
     overflow-x: hidden;
+    background-color: $background-white;
   }
 }
 
@@ -198,36 +195,37 @@
   display: flex;
   flex-direction: column;
   gap: $spacing-xxs;
-  border-radius: $radius-card;
-  border: $border-thin solid $primary;
   padding: $spacing-xs;
+  border: $border-thin solid $primary;
+  border-radius: $radius-card;
 
   @media (max-width: $breakpoint-mobile) {
     flex-direction: row;
-    @include horizontal-scroll-container-simple;
-    border-radius: 0;
+    padding: $spacing-xs 0;
     border: none;
     border-bottom: $border-thin solid $primary;
-    padding: $spacing-xs 0;
+    border-radius: 0;
+
+    @include horizontal-scroll-container-simple;
   }
 }
 
 .sidebar-link {
   display: flex;
-  align-items: center;
   gap: $spacing-xs;
+  align-items: center;
   padding: $spacing-xs $spacing-sm;
   font-size: $size-body-small;
   font-weight: 500;
   color: $black;
+  color: $primary;
   text-decoration: none;
   border-radius: $radius-button;
   transition: all $transition-normal ease;
-  color: $primary;
 
   &:hover {
-    background-color: $background-white;
     color: $primary;
+    background-color: $background-white;
   }
 
   @media (max-width: $breakpoint-mobile) {
@@ -251,10 +249,10 @@
   gap: $spacing-md;
 
   p {
+    margin: 0;
     font-size: $size-body;
     line-height: 1.8;
     color: $black;
-    margin: 0;
   }
 }
 
@@ -262,8 +260,8 @@
 
 .hero-wrapper-index {
   max-width: $container-max-width;
-  margin: 0 auto;
   padding: $spacing-xxl $spacing-md;
+  margin: 0 auto;
 
   @media (max-width: $breakpoint-mobile) {
     padding: $spacing-xl $spacing-md;

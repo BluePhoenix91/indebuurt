@@ -24,10 +24,10 @@
 
   @media (max-width: $breakpoint-mobile) {
     display: inline-flex;
-    align-items: center;
     gap: $spacing-xs;
-    width: 100%;
+    align-items: center;
     justify-content: center;
+    width: 100%;
 
     i {
       font-size: $size-body;
@@ -37,8 +37,8 @@
 
 .neighboring-map {
   margin-bottom: $spacing-lg;
-  border-radius: $radius-md;
   overflow: hidden;
+  border-radius: $radius-md;
   box-shadow: $shadow-sm;
 
   @media (max-width: $breakpoint-mobile) {

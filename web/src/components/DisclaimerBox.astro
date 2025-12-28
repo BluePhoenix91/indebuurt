@@ -20,28 +20,28 @@ const { message } = Astro.props;
     display: flex;
     gap: $spacing-md;
     padding: $spacing-lg;
+    margin: $spacing-xl 0;
     background: #fffbea;
     border: 1px solid #ffeaa7;
     border-radius: $radius-md;
-    margin: $spacing-xl 0;
   }
 
   .disclaimer-icon {
-    flex-shrink: 0;
-    width: 24px;
-    height: 24px;
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     justify-content: center;
-    color: #f39c12;
+    width: 24px;
+    height: 24px;
     font-size: 20px;
+    color: #f39c12;
   }
 
   .disclaimer-message {
     flex: 1;
     margin: 0;
     font-size: $font-sm;
-    color: $black;
     line-height: 1.6;
+    color: $black;
   }
 </style>

@@ -4,14 +4,14 @@
 /* Neighborhood Card Component */
 
 .neighborhood-card {
-  background-color: rgba($primary, 0.1);
-  border: $border-thin solid rgba($primary, 0.3);
-  border-radius: $radius-card;
-  padding: $spacing-md;
   display: flex;
   flex-direction: column;
   gap: $spacing-sm;
   width: 100%;
+  padding: $spacing-md;
+  background-color: rgba($primary, 0.1);
+  border: $border-thin solid rgba($primary, 0.3);
+  border-radius: $radius-card;
 
   // Color modifiers
   &--primary {
@@ -33,9 +33,9 @@
 
 .neighborhood-card__header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   gap: $spacing-sm;
+  align-items: flex-start;
+  justify-content: space-between;
 
   @media (max-width: $breakpoint-mobile) {
     flex-direction: column;
@@ -44,21 +44,21 @@
 }
 
 .neighborhood-card__title {
+  margin: 0;
   font-size: $size-h3;
   font-weight: $font-weight-bold;
-  color: $primary;
-  margin: 0;
   line-height: 1.2;
+  color: $primary;
 }
 
 .neighborhood-card__date {
   display: flex;
-  align-items: center;
+  flex-shrink: 0;
   gap: $spacing-xs;
+  align-items: center;
   font-size: $size-body;
   color: $calm-grey-600;
   white-space: nowrap;
-  flex-shrink: 0;
 
   i {
     font-size: $size-body;
@@ -71,16 +71,16 @@
 }
 
 .neighborhood-card__description {
-  font-size: $size-body;
-  color: $black;
-  margin: 0;
-  line-height: 1.5;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
-  line-clamp: 4;
-  -webkit-box-orient: vertical;
+  margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  font-size: $size-body;
+  line-height: 1.5;
+  color: $black;
+  -webkit-box-orient: vertical;
 }
 
 .neighborhood-card__tags {
@@ -91,32 +91,32 @@
 
 .neighborhood-card__tag {
   display: inline-flex;
-  align-items: center;
   gap: $spacing-xs;
+  align-items: center;
   padding: $spacing-xs $spacing-sm;
+  font-size: $size-body-small;
+  color: $primary;
   background-color: rgba($primary, 0.1);
   border: $border-thin solid rgba($primary, 0.3);
   border-radius: $radius-badge;
-  font-size: $size-body-small;
-  color: $primary;
 
   i {
+    flex-shrink: 0;
     font-size: $size-body;
     color: $primary;
-    flex-shrink: 0;
   }
 }
 
 .neighborhood-card__cta {
   display: flex;
+  gap: $spacing-xs;
   align-items: center;
   justify-content: flex-end;
-  gap: $spacing-xs;
-  margin-top: auto;
   padding-top: 0;
-  color: $primary;
-  font-weight: $font-weight-semibold;
+  margin-top: auto;
   font-size: $size-body;
+  font-weight: $font-weight-semibold;
+  color: $primary;
 
   i {
     transition: transform $transition-normal-ease;

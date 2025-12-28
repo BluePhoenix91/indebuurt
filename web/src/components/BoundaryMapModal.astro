@@ -154,46 +154,40 @@ const modalId = `map-modal-${id}`;
 <style>
   .map-modal {
     position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
+    inset: 0 !important;
     z-index: 9999 !important; /* Higher than header's z-index: 100 */
     display: flex;
+    visibility: hidden;
     align-items: center;
     justify-content: center;
-    opacity: 0;
-    visibility: hidden;
     isolation: isolate; /* Create new stacking context */
+    opacity: 0;
     transition:
       opacity 0.3s ease,
       visibility 0.3s ease;
   }
 
   .map-modal.is-open {
-    opacity: 1;
     visibility: visible;
+    opacity: 1;
   }
 
   .map-modal-backdrop {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.75);
-    cursor: pointer;
+    inset: 0;
     z-index: -1; /* Behind content but still visible */
+    cursor: pointer;
+    background-color: rgb(0 0 0 / 75%);
   }
 
   .map-modal-content {
     position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
     transform: scale(0.95);
     transition: transform 0.3s ease;
   }
@@ -204,30 +198,30 @@ const modalId = `map-modal-${id}`;
 
   .map-modal-header {
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 2rem;
     border-bottom: 1px solid #e8e8e8;
-    flex-shrink: 0;
   }
 
   .map-modal-title {
+    margin: 0;
     font-size: 1.5rem;
     font-weight: 700;
     color: #2a2a2a;
-    margin: 0;
   }
 
   .map-modal-close {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    color: #898989;
-    cursor: pointer;
-    padding: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #898989;
+    cursor: pointer;
+    background: none;
+    border: none;
     border-radius: 0.5rem;
     transition:
       background-color 0.2s ease,
@@ -235,14 +229,14 @@ const modalId = `map-modal-${id}`;
   }
 
   .map-modal-close:hover {
-    background-color: #e8e8e8;
     color: #2a2a2a;
+    background-color: #e8e8e8;
   }
 
   .map-modal-body {
+    position: relative;
     flex: 1;
     overflow: hidden;
-    position: relative;
   }
 
   :global(.map-modal-map) {
@@ -250,14 +244,14 @@ const modalId = `map-modal-${id}`;
     border-radius: 0;
   }
 
-  @media (min-width: 48rem) {
+  @media (width >= 48rem) {
     .map-modal-content {
       width: 90%;
-      height: 90%;
       max-width: 1200px;
+      height: 90%;
       max-height: 800px;
       border-radius: 1.25rem;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 4px 16px rgb(0 0 0 / 12%);
     }
 
     :global(.map-modal-map) {

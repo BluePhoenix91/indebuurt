@@ -7,17 +7,17 @@
 .btn {
   display: inline-block;
   padding: $spacing-md $spacing-lg;
-  border-radius: $radius-button;
-  font-weight: $font-weight-semibold;
   font-size: $size-body-small;
+  font-weight: $font-weight-semibold;
   text-decoration: none;
-  border: none;
   cursor: pointer;
+  border: none;
+  border-radius: $radius-button;
   transition: all $transition-normal ease;
 
   &:hover {
-    transform: translateY(-0.125rem);
     box-shadow: $shadow-md;
+    transform: translateY(-0.125rem);
   }
 
   &:active {
