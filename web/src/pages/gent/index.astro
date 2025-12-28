@@ -15,6 +15,9 @@ const breadcrumbs = [
   { name: "buurtkompas.be", url: "https://buurtkompas.be/" },
   { name: "Gent", url: canonicalUrl },
 ];
+
+// OG image for city page
+const ogImage = "https://buurtkompas.be/og/gent.png";
 ---
 
 <NeighborhoodLayout
@@ -22,6 +25,7 @@ const breadcrumbs = [
   description="Ontdek alle hondvriendelijke buurten in Gent. Vind de perfecte plek voor jou en je hond met gedetailleerde informatie over voorzieningen, parken en meer."
   canonical={canonicalUrl}
   breadcrumbs={breadcrumbs}
+  ogImage={ogImage}
 >
   <section class="hero">
     <div class="hero-wrapper-index">

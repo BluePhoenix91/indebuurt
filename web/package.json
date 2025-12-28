@@ -5,7 +5,8 @@
   "description": "buurtkompas.be - Neighborhood discovery platform for Belgium",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node src/scripts/font-display-fix.js",
+    "generate:og": "npx tsx src/scripts/generate-og-images.ts",
+    "build": "npm run generate:og && astro build && node src/scripts/font-display-fix.js",
     "preview": "astro preview",
     "astro": "astro",
     "lint:css": "stylelint \"src/**/*.{scss,astro}\"",
@@ -14,9 +15,11 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",
     "@awesome.me/kit-ee3e3d9cbc": "^1.0.3",
+    "@resvg/resvg-js": "^2.6.2",
     "@types/leaflet": "^1.9.21",
     "astro": "^5.16.0",
-    "leaflet": "^1.9.4"
+    "leaflet": "^1.9.4",
+    "satori": "^0.18.3"
   },
   "devDependencies": {
     "postcss-html": "^1.8.0",
@@ -24,6 +27,7 @@
     "stylelint": "^16.26.1",
     "stylelint-config-recess-order": "^7.4.0",
     "stylelint-config-standard-scss": "^16.0.0",
-    "stylelint-order": "^7.0.0"
+    "stylelint-order": "^7.0.0",
+    "tsx": "^4.21.0"
   }
 }

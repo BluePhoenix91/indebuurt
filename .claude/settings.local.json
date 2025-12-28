@@ -29,7 +29,8 @@
       "Bash(for file in gent-brugse-poort.ts gent-elisabethbegijnhof.ts gent-kanaaldorpen.ts gent-macharius-heirnis.ts gent-muide.ts gent-rabot.ts gent-sluizeken-tolhuis-ham.ts gent-watersportbaan-ekkergem.ts)",
       "Bash(do tail -5 \"$file\")",
       "Bash(if exist nul del nul)",
-      "Bash(npx tsc --noEmit)"
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm run generate:og:*)"
     ],
     "deny": [],
     "ask": []

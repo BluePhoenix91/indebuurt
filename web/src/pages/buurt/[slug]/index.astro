@@ -56,6 +56,9 @@ const neighborhoodSchema = {
   longitude: neighborhood.coordinates.lon,
   url: canonicalUrl,
 };
+
+// OG image for this neighborhood
+const ogImage = `https://buurtkompas.be/og/${slug}.png`;
 ---
 
 <NeighborhoodLayout
@@ -64,6 +67,7 @@ const neighborhoodSchema = {
   canonical={canonicalUrl}
   breadcrumbs={breadcrumbs}
   neighborhoodSchema={neighborhoodSchema}
+  ogImage={ogImage}
 >
   <NeighborhoodHero neighborhood={neighborhood} slug={slug} activeTab="overzicht" />
 
