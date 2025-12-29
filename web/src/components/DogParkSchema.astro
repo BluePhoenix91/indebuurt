@@ -1,0 +1,48 @@
+---
+interface DogPark {
+  name: string;
+  coordinates: {
+    lat: number;
+    lon: number;
+  };
+  features?: {
+    text: string;
+    icon: string;
+  }[];
+}
+
+interface Props {
+  parks: DogPark[];
+  neighborhoodName: string;
+  city: string;
+}
+
+const { parks, neighborhoodName, city } = Astro.props;
+
+// Only render if there are parks with coordinates
+const parksWithCoordinates = parks.filter((park) => park.coordinates?.lat && park.coordinates?.lon);
+
+const parkSchemas = parksWithCoordinates.map((park) => ({
+  "@type": "Park",
+  name: park.name,
+  description: `Hondenspeelweide in ${neighborhoodName}, ${city}`,
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: park.coordinates.lat,
+    longitude: park.coordinates.lon,
+  },
+  isAccessibleForFree: true,
+  publicAccess: true,
+}));
+
+const hasParks = parkSchemas.length > 0;
+
+const schema = hasParks
+  ? {
+      "@context": "https://schema.org",
+      "@graph": parkSchemas,
+    }
+  : null;
+---
+
+{schema && <script type="application/ld+json" set:html={JSON.stringify(schema, null, 2)} />}

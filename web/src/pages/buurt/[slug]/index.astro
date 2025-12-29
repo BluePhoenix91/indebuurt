@@ -68,6 +68,15 @@ const ogImage = `${siteUrl}/og/${slug}.png`;
   canonical={canonicalUrl}
   breadcrumbs={breadcrumbs}
   neighborhoodSchema={neighborhoodSchema}
+  localBusinesses={{
+    vets: neighborhood.vets.practices,
+    petStores: neighborhood.petStores.stores,
+  }}
+  dogParks={{
+    parks: neighborhood.dogParks.parks,
+    neighborhoodName: neighborhood.name,
+    city: neighborhood.city,
+  }}
   ogImage={ogImage}
 >
   <NeighborhoodHero neighborhood={neighborhood} slug={slug} activeTab="overzicht" />

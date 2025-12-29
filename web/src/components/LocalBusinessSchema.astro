@@ -1,0 +1,72 @@
+---
+interface Business {
+  name: string;
+  street: string;
+  streetNumber: string;
+  bus?: string;
+  municipality: string;
+  postalCode: string;
+  coordinates: {
+    lat: number;
+    lon: number;
+  };
+}
+
+interface Props {
+  vets?: Business[];
+  petStores?: Business[];
+}
+
+const { vets = [], petStores = [] } = Astro.props;
+
+// Generate Veterinarian schema items
+const vetSchemas = vets.map((vet) => ({
+  "@type": "Veterinarian",
+  name: vet.name,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: `${vet.street} ${vet.streetNumber}${vet.bus ? ` bus ${vet.bus}` : ""}`,
+    addressLocality: vet.municipality,
+    postalCode: vet.postalCode,
+    addressCountry: "BE",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: vet.coordinates.lat,
+    longitude: vet.coordinates.lon,
+  },
+}));
+
+// Generate PetStore schema items
+const storeSchemas = petStores.map((store) => ({
+  "@type": "PetStore",
+  name: store.name,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: `${store.street} ${store.streetNumber}${store.bus ? ` bus ${store.bus}` : ""}`,
+    addressLocality: store.municipality,
+    postalCode: store.postalCode,
+    addressCountry: "BE",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: store.coordinates.lat,
+    longitude: store.coordinates.lon,
+  },
+}));
+
+// Combine all businesses into a single schema array
+const allBusinesses = [...vetSchemas, ...storeSchemas];
+
+// Only render if there are businesses
+const hasBusinesses = allBusinesses.length > 0;
+
+const schema = hasBusinesses
+  ? {
+      "@context": "https://schema.org",
+      "@graph": allBusinesses,
+    }
+  : null;
+---
+
+{schema && <script type="application/ld+json" set:html={JSON.stringify(schema, null, 2)} />}

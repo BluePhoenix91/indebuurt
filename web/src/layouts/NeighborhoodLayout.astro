@@ -3,6 +3,8 @@ import { ClientRouter } from 'astro:transitions';
 import '../styles/styles.scss';
 import '@awesome.me/kit-ee3e3d9cbc/icons/css/all.css';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import DogParkSchema from '../components/DogParkSchema.astro';
+import LocalBusinessSchema from '../components/LocalBusinessSchema.astro';
 import NeighborhoodSchema from '../components/NeighborhoodSchema.astro';
 
 interface BreadcrumbItem {
@@ -20,6 +22,38 @@ interface NeighborhoodSchemaData {
   url: string;
 }
 
+interface LocalBusiness {
+  name: string;
+  street: string;
+  streetNumber: string;
+  bus?: string;
+  municipality: string;
+  postalCode: string;
+  coordinates: {
+    lat: number;
+    lon: number;
+  };
+}
+
+interface LocalBusinessData {
+  vets?: LocalBusiness[];
+  petStores?: LocalBusiness[];
+}
+
+interface DogPark {
+  name: string;
+  coordinates: {
+    lat: number;
+    lon: number;
+  };
+}
+
+interface DogParkData {
+  parks: DogPark[];
+  neighborhoodName: string;
+  city: string;
+}
+
 interface Props {
   title: string;
   description: string;
@@ -31,6 +65,8 @@ interface Props {
   heroImage?: string;
   breadcrumbs?: BreadcrumbItem[];
   neighborhoodSchema?: NeighborhoodSchemaData;
+  localBusinesses?: LocalBusinessData;
+  dogParks?: DogParkData;
 }
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
@@ -45,7 +81,9 @@ const {
   ogImage = `${siteUrl}/og/default.png`,
   heroImage,
   breadcrumbs,
-  neighborhoodSchema
+  neighborhoodSchema,
+  localBusinesses,
+  dogParks
 } = Astro.props;
 
 const GA4_MEASUREMENT_ID = import.meta.env.PUBLIC_GA4_MEASUREMENT_ID;
@@ -89,6 +127,19 @@ const isProduction = import.meta.env.PROD;
         latitude={neighborhoodSchema.latitude}
         longitude={neighborhoodSchema.longitude}
         url={neighborhoodSchema.url}
+      />
+    )}
+    {localBusinesses && (
+      <LocalBusinessSchema
+        vets={localBusinesses.vets}
+        petStores={localBusinesses.petStores}
+      />
+    )}
+    {dogParks && dogParks.parks.length > 0 && (
+      <DogParkSchema
+        parks={dogParks.parks}
+        neighborhoodName={dogParks.neighborhoodName}
+        city={dogParks.city}
       />
     )}
 
