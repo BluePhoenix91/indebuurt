@@ -28,6 +28,7 @@ if (!slug || !neighborhoods[slug]) {
 }
 
 const neighborhood = neighborhoods[slug];
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
 
 // Get all available neighborhood IDs (those with pages)
 const availableNeighborhoodIds = Object.keys(neighborhoods);
@@ -38,11 +39,11 @@ const neighboringNeighborhoods = neighborhood.neighboringNeighborhoods
   .filter(Boolean);
 
 // Schema.org data
-const canonicalUrl = `https://buurtkompas.be/buurt/${slug}/`;
-const cityUrl = `https://buurtkompas.be/${neighborhood.city.toLowerCase()}/`;
+const canonicalUrl = `${siteUrl}/buurt/${slug}/`;
+const cityUrl = `${siteUrl}/${neighborhood.city.toLowerCase()}/`;
 
 const breadcrumbs = [
-  { name: "buurtkompas.be", url: "https://buurtkompas.be/" },
+  { name: "buurtkompas.be", url: `${siteUrl}/` },
   { name: neighborhood.city, url: cityUrl },
   { name: neighborhood.name, url: canonicalUrl },
 ];
@@ -58,7 +59,7 @@ const neighborhoodSchema = {
 };
 
 // OG image for this neighborhood
-const ogImage = `https://buurtkompas.be/og/${slug}.png`;
+const ogImage = `${siteUrl}/og/${slug}.png`;
 ---
 
 <NeighborhoodLayout

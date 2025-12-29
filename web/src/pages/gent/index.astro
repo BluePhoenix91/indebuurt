@@ -3,21 +3,23 @@ import NeighborhoodCard from "../../components/NeighborhoodCard.astro";
 import { neighborhoods } from "../../data/neighborhoods";
 import NeighborhoodLayout from "../../layouts/NeighborhoodLayout.astro";
 
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
+
 // Get all Gent neighborhoods and sort by name
 const gentNeighborhoods = Object.values(neighborhoods)
   .filter((n) => n.city === "Gent")
   .sort((a, b) => a.name.localeCompare(b.name, "nl"));
 
 // Schema.org data
-const canonicalUrl = "https://buurtkompas.be/gent/";
+const canonicalUrl = `${siteUrl}/gent/`;
 
 const breadcrumbs = [
-  { name: "buurtkompas.be", url: "https://buurtkompas.be/" },
+  { name: "buurtkompas.be", url: `${siteUrl}/` },
   { name: "Gent", url: canonicalUrl },
 ];
 
 // OG image for city page
-const ogImage = "https://buurtkompas.be/og/gent.png";
+const ogImage = `${siteUrl}/og/gent.png`;
 ---
 
 <NeighborhoodLayout

@@ -19,6 +19,7 @@ if (!slug || !neighborhoods[slug]) {
 }
 
 const neighborhood = neighborhoods[slug];
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
 
 // Helper function to generate Immoweb URLs
 function generateImmowebUrl(type: string): string {
@@ -50,7 +51,7 @@ function generateImmowebUrl(type: string): string {
 <NeighborhoodLayout
   title={`Huizen te koop in ${neighborhood.name} - buurtkompas.be`}
   description={`Bekijk beschikbare huizen en appartementen in ${neighborhood.name}. Gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.`}
-  canonical={`https://buurtkompas.be/buurt/${slug}/huizen/`}
+  canonical={`${siteUrl}/buurt/${slug}/huizen/`}
 >
   <NeighborhoodHero
     neighborhood={neighborhood}

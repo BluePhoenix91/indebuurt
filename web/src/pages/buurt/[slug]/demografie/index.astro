@@ -24,12 +24,13 @@ if (!slug || !neighborhoods[slug]) {
 }
 
 const neighborhood = neighborhoods[slug];
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
 ---
 
 <NeighborhoodLayout
   title={`Demografie ${neighborhood.name} - buurtkompas.be`}
   description={`Buurtstatistieken en demografische gegevens van ${neighborhood.name}. Inzicht in inwoners, woningprijzen en meer.`}
-  canonical={`https://buurtkompas.be/buurt/${slug}/demografie/`}
+  canonical={`${siteUrl}/buurt/${slug}/demografie/`}
 >
   <NeighborhoodHero neighborhood={neighborhood} slug={slug} activeTab="demografie" />
 

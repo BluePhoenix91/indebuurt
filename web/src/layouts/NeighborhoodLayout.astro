@@ -33,6 +33,8 @@ interface Props {
   neighborhoodSchema?: NeighborhoodSchemaData;
 }
 
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
+
 const {
   title,
   description,
@@ -40,7 +42,7 @@ const {
   ogTitle = title,
   ogDescription = description,
   ogUrl = canonical,
-  ogImage = 'https://buurtkompas.be/og/default.png',
+  ogImage = `${siteUrl}/og/default.png`,
   heroImage,
   breadcrumbs,
   neighborhoodSchema

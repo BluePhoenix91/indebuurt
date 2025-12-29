@@ -10,11 +10,19 @@ import { Resvg } from '@resvg/resvg-js';
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { config } from 'dotenv';
+
+// Load environment variables
+config();
 
 // Get the directory of the current script
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT_DIR = join(__dirname, '..', '..');
+
+// Site URL from environment (used for display on OG images)
+const SITE_URL = process.env.PUBLIC_SITE_URL || 'https://www.buurtkompas.be';
+const SITE_DISPLAY_NAME = SITE_URL.replace(/^https?:\/\//, ''); // Remove protocol for display
 
 // Import neighborhood data
 import { neighborhoods } from '../data/neighborhoods/index.js';
@@ -104,7 +112,7 @@ async function generateNeighborhoodOG(
                 fontSize: 28,
                 color: COLORS.primary,
               },
-              children: 'www.buurtkompas.be',
+              children: SITE_DISPLAY_NAME,
             },
           },
           // Main content - neighborhood name
@@ -224,7 +232,7 @@ async function generateDefaultOG(
                       fontWeight: 700,
                       color: COLORS.primary,
                     },
-                    children: 'www.buurtkompas.be',
+                    children: SITE_DISPLAY_NAME,
                   },
                 },
                 {
@@ -312,7 +320,7 @@ async function generateCityOG(
                 fontSize: 28,
                 color: COLORS.primary,
               },
-              children: 'www.buurtkompas.be',
+              children: SITE_DISPLAY_NAME,
             },
           },
           // Main content

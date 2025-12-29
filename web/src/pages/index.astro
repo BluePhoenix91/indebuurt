@@ -3,6 +3,8 @@ import NeighborhoodCard from "../components/NeighborhoodCard.astro";
 import { neighborhoods } from "../data/neighborhoods";
 import NeighborhoodLayout from "../layouts/NeighborhoodLayout.astro";
 
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
+
 // Get all neighborhoods and sort by date added (most recent first)
 const allNeighborhoods = Object.values(neighborhoods).sort(
   (a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime()
@@ -15,7 +17,7 @@ const recentNeighborhoods = allNeighborhoods.slice(0, 3);
 <NeighborhoodLayout
   title="Buurtkompas - Vind de perfecte hondvriendelijke buurt"
   description="Ontdek hondvriendelijke buurten in België. Vind de perfecte plek voor jou en je hond met gedetailleerde informatie over voorzieningen, parken en meer."
-  canonical="https://buurtkompas.be/"
+  canonical={`${siteUrl}/`}
 >
   <section class="hero">
     <div class="hero-wrapper-index">
