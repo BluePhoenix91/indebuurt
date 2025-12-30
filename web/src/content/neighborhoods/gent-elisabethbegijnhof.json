@@ -1,0 +1,142 @@
+{
+  "id": "gent-elisabethbegijnhof",
+  "city": "Gent",
+  "name": "Elisabethbegijnhof - Prinsenhof",
+  "subtitle": "Voor baasjes die houden van historisch erfgoed, studentenleven én een dierenarts om de hoek",
+  "dateAdded": "2025-12-14",
+  "postalCode": "9000",
+  "inhabitants": 7200,
+  "labels": [
+    {
+      "text": "UNESCO Erfgoed",
+      "icon": "fa-regular fa-landmark"
+    },
+    {
+      "text": "Dichtbij centrum",
+      "icon": "fa-regular fa-location-dot"
+    },
+    {
+      "text": "Historisch karakter",
+      "icon": "fa-regular fa-monument"
+    }
+  ],
+  "intro": "Elisabethbegijnhof - Prinsenhof is een wijk met twee gezichten: UNESCO-erfgoed met historische pracht enerzijds, dichtbebouwde studentenbuurt met weinig groen anderzijds. Het Oud Begijnhof Sint-Elisabeth — gesticht door Gravin Johanna van Constantinopel — geeft de wijk zijn unieke karakter, met begijnhuisjes, een 13e-eeuwse kerk en een monument van Georges Minne. Maar de nabijheid tot het stadscentrum en de vele studenten zorgen ook voor geluidsoverlast en drukte.\n\nVoor hondenbaasjes is deze wijk een paradox. Er liggen maar liefst 7 parken binnen de wijk — waarvan het Begijnhofdriespark letterlijk om de hoek (35 meter van het wijkcentrum) — maar bewoners geven aan dat er onvoldoende toegankelijk groen is. De parken zijn klein, verborgen tussen de dichte bebouwing, en vaak meer decoratief dan functioneel voor hondenuitlaatplekken. Het Begijnhofdriespark met het Rodenbachmonument is het meest zichtbare groene hart, maar echte wandelruimte vind je eerder buiten de wijk.\n\nWat betreft hondenvoorzieningen: één dierenarts binnen de wijk (Heughebaert Anne, op 6 minuten wandelen), maar geen dierenwinkel of hondenspeelweide. Voor Tom & Co en een hondenspeelweide moet je naar naburige wijken (Watersportbaan-Ekkergem en Brugse Poort, beiden op 10-11 minuten wandelen). Deze wijk is ideaal voor wie houdt van historisch erfgoed, centraal wonen en een dierenarts dichtbij — en minder geschikt voor wie zoekt naar ruime groene wandelgebieden of een rustige buurt zonder geluidsoverlast.",
+  "coordinates": {
+    "lat": 51.0512,
+    "lon": 3.7177,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-regular fa-dog",
+      "title": "Hondenparken",
+      "distance": "11 mins",
+      "distanceIcon": "fa-regular fa-person-walking",
+      "description": "Hondenspeelweide in naburige Brugse Poort",
+      "detail": "Ongeveer 840 meter"
+    },
+    {
+      "icon": "fa-solid fa-user-doctor",
+      "title": "Dierenartsen",
+      "distance": "6 mins",
+      "distanceIcon": "fa-regular fa-person-walking",
+      "description": "Één dierenarts in de wijk zelf",
+      "detail": "Ongeveer 515 meter"
+    },
+    {
+      "icon": "fa-solid fa-bag-shopping",
+      "title": "Dierenwinkels",
+      "distance": "10 mins",
+      "distanceIcon": "fa-regular fa-person-walking",
+      "description": "Tom & Co in naburige Watersportbaan-Ekkergem",
+      "detail": "Ongeveer 815 meter"
+    },
+    {
+      "icon": "fa-regular fa-trees",
+      "title": "Groene ruimtes",
+      "distance": "1 min",
+      "distanceIcon": "fa-regular fa-person-walking",
+      "description": "7 parken, maar beperkt toegankelijk groen",
+      "detail": "Begijnhofdriespark op 35 meter"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "3 mins",
+      "distanceIcon": "fa-regular fa-person-walking",
+      "description": "Goede verbindingen door nabijheid centrum",
+      "detail": "Meestal binnen 200 meter"
+    },
+    {
+      "icon": "fa-regular fa-house",
+      "title": "Gemiddelde woningprijs",
+      "distance": "",
+      "distanceIcon": "",
+      "description": "Prijsniveau rond het Gentse gemiddelde",
+      "detail": "€ 365.000 mediaanprijs"
+    }
+  ],
+  "facilities": {
+    "intro": "Elisabethbegijnhof - Prinsenhof heeft één dierenarts in de wijk (op 6 minuten wandelen) en 7 parken — waarvan het Begijnhofdriespark met het Rodenbachmonument het meest zichtbare groene hart is. Voor dierenwinkel en hondenspeelweide moet je naar naburige wijken (10-11 minuten wandelen). De parken zijn klein en verborgen tussen de dichte bebouwing, maar de nabijheid tot het centrum maakt alles te voet bereikbaar."
+  },
+  "dogParks": {
+    "intro": "Elisabethbegijnhof - Prinsenhof heeft geen eigen omheinde hondenspeelweide. De dichtstbijzijnde ligt in de naburige Brugse Poort, op ongeveer 11 minuten wandelen. Voor dagelijkse uitlaatrondjes heb je de keuze uit 7 verschillende parken binnen de wijk, maar deze zijn klein en eerder decoratief — echte wandelruimte vind je buiten de wijk, bijvoorbeeld richting de Watersportbaan of het Citadelpark.",
+    "parks": []
+  },
+  "vets": {
+    "intro": "In Elisabethbegijnhof - Prinsenhof is één dierenartsenpraktijk beschikbaar: Heughebaert Anne op de Recollettenlaan, op slechts 6 minuten wandelen. Deze nabijheid is ideaal voor regelmatige controles en geeft rust bij spoedgevallen — je bent snel ter plaatse, zelfs te voet.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-house-medical",
+        "name": "Heughebaert Anne",
+        "street": "Recollettenlaan",
+        "streetNumber": "18",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "6 mins",
+        "distanceIcon": "fa-regular fa-person-walking",
+        "coordinates": {
+          "lat": 51.049784,
+          "lon": 3.719543
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Elisabethbegijnhof - Prinsenhof heeft geen eigen dierenwinkel. De dichtstbijzijnde is Tom & Co in het naburige Watersportbaan-Ekkergem, op ongeveer 10 minuten wandelen. Voor regelmatige aankopen is online bestellen een optie, of je combineert een bezoek aan de dierenwinkel met een wandeling naar de Watersportbaan — ideaal voor een langere uitlaatbeurt.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+    "intro": "Het leven in Elisabethbegijnhof - Prinsenhof met een hond draait om historisch erfgoed, centrale ligging en compacte wandelroutes. Je ochtend begint met een wandeling door het Begijnhofdriespark met het Rodenbachmonument — letterlijk om de hoek — of door de Rozentuin of Appelbrugparkje. Voor een langere wandeling loop je naar de Watersportbaan of het Citadelpark. Voor dierenwinkel of hondenspeelweide loop je naar naburige wijken, maar alles is te voet bereikbaar.",
+    "benefits": [
+      "Je ochtend begint met een keuze uit 7 parken binnen de wijk, waarvan het Begijnhofdriespark letterlijk om de hoek (35 meter). Maar de parken zijn klein en eerder decoratief — echte wandelruimte vind je buiten de wijk.",
+      "De wijk voelt historisch en levendig, maar ook druk: veel studenten, geluidsoverlast voor de helft van de bewoners, en een gebrek aan wijkcentrum of ontmoetingsplekken.",
+      "Voor dierenarts hoef je de wijk niet uit (6 minuten wandelen naar Heughebaert Anne). Voor dierenwinkel en hondenspeelweide moet je naar naburige wijken (10-11 minuten), maar alles is te voet bereikbaar.",
+      "De combinatie van UNESCO-erfgoed (gesticht in 1234), nabijheid tot het centrum en historische pracht maakt deze wijk uniek — maar de dichte bebouwing, weinig toegankelijk groen en geluidsoverlast maken het minder geschikt voor wie zoekt naar ruime wandelgebieden of een rustige buurt.",
+      "De begijnhuisjes, 13e-eeuwse kerk en het monument van Georges Minne geven elke wandeling een historisch karakter — maar echte natuur en ruimte vind je eerder buiten de wijk."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Baasjes helpen baasjes",
+    "intro": "Help andere baasjes en schets hoe hondvriendelijk deze buurt is. Vul de enquête hieronder in. Het neemt niet meer dan 5 minuten in beslag en je wordt hun grote held.",
+    "typeformId": "01KBDFG2BJG3DYTNX0X9GT2HDT"
+  },
+  "statistics": {
+    "intro": "Hieronder vind je de belangrijkste cijfers over Elisabethbegijnhof - Prinsenhof. Deze statistieken helpen je om de buurt beter te begrijpen en te vergelijken met andere wijken.",
+    "medianPrice": 365000,
+    "inhabitants": 7200,
+    "availableHomes": 15,
+    "pricePerSqm": 3650
+  },
+  "houses": {
+    "intro": "Nu je weet dat Elisabethbegijnhof - Prinsenhof bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-binnenstad",
+    "gent-rabot",
+    "gent-sluizeken-tolhuis-ham",
+    "gent-watersportbaan-ekkergem"
+  ]
+}

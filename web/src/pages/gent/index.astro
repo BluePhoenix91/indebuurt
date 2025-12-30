@@ -1,12 +1,13 @@
 ---
 import NeighborhoodCard from "../../components/NeighborhoodCard.astro";
-import { neighborhoods } from "../../data/neighborhoods";
+import { getAllNeighborhoods } from "../../lib/neighborhoods";
 import NeighborhoodLayout from "../../layouts/NeighborhoodLayout.astro";
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
 
 // Get all Gent neighborhoods and sort by name
-const gentNeighborhoods = Object.values(neighborhoods)
+const neighborhoodsRecord = await getAllNeighborhoods();
+const gentNeighborhoods = Object.values(neighborhoodsRecord)
   .filter((n) => n.city === "Gent")
   .sort((a, b) => a.name.localeCompare(b.name, "nl"));
 

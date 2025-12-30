@@ -1,0 +1,183 @@
+{
+  "id": "gent-kanaaldorpen",
+  "city": "Gent",
+  "name": "Gentse Kanaaldorpen en -zone",
+  "subtitle": "Voor baasjes die dromen van ruimte, rust en eindeloos groen rondom hun woning",
+  "dateAdded": "2025-12-14",
+  "postalCode": "9000",
+  "inhabitants": 8250,
+  "labels": [
+    {
+      "text": "Landelijk karakter",
+      "icon": "fa-regular fa-tractor"
+    },
+    {
+      "text": "Veel groen & ruimte",
+      "icon": "fa-regular fa-trees"
+    },
+    {
+      "text": "Rustige omgeving",
+      "icon": "fa-regular fa-leaf"
+    }
+  ],
+  "intro": "De Gentse Kanaaldorpen en -zone is de minst dichtbevolkte wijk van heel Gent, maar beslaat wel een kwart van het Gentse grondgebied. Dat betekent vooral één ding: eindeloos veel ruimte, groen en water. Tussen de vier kanaaldorpen — Sint-Kruis-Winkel, Mendonk, Desteldonk en Terdonk — vind je oude hoeves, landbouwgebied en uitgestrekte groene vlaktes waar je met je hond urenlang kunt dwalen zonder een ziel tegen te komen.\n\nHet landelijke karakter maakt deze buurt uniek in stedelijk Gent. In plaats van drukke straten wandel je hier langs rustige kanaaltjes, door de Moervaartvallei en tussen weilanden. Voor baasjes die houden van lange, ongehaaste wandelingen door de natuur is dit een paradijs. Vijf parken liggen binnen wandelafstand van het centrum van de wijk, waaronder het Zuidledepark op slechts 13 minuten lopen — ideaal voor dagelijkse uitlaatrondjes.\n\nMaar deze rust en ruimte hebben een keerzijde: voorzieningen voor huisdieren zijn schaars. Er is geen dierenarts of dierenwinkel in de buurt zelf, en de dichtstbijzijnde hondenspeelweide ligt op fietsafstand. Deze wijk is perfect voor wie zoekt naar natuur en vrijheid, en minder geschikt voor baasjes die waarde hechten aan nabijheid van gespecialiseerde hondenvoorzieningen.",
+  "coordinates": {
+    "lat": 51.1217,
+    "lon": 3.7758,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-regular fa-dog",
+      "title": "Hondenparken",
+      "distance": "20 mins",
+      "distanceIcon": "fa-regular fa-bicycle",
+      "description": "Dichtstbijzijnde hondenspeelweide op fietsafstand",
+      "detail": "Ongeveer 5 kilometer"
+    },
+    {
+      "icon": "fa-solid fa-user-doctor",
+      "title": "Dierenartsen",
+      "distance": "15 mins",
+      "distanceIcon": "fa-regular fa-car",
+      "description": "Dichtstbijzijnde dierenarts in Sint-Amandsberg",
+      "detail": "Ongeveer 7,6 kilometer"
+    },
+    {
+      "icon": "fa-solid fa-bag-shopping",
+      "title": "Dierenwinkels",
+      "distance": "12 mins",
+      "distanceIcon": "fa-regular fa-car",
+      "description": "Dichtstbijzijnde dierenwinkel in Oostakker",
+      "detail": "Ongeveer 7,2 kilometer"
+    },
+    {
+      "icon": "fa-regular fa-trees",
+      "title": "Groene ruimtes",
+      "distance": "13 mins",
+      "distanceIcon": "fa-regular fa-person-walking",
+      "description": "Uitzonderlijk veel groen in en rond de wijk",
+      "detail": "Meestal binnen 1 kilometer"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "",
+      "distanceIcon": "",
+      "description": "Zwak openbaarvervoersnetwerk",
+      "detail": "Auto of fiets zijn aangeraden"
+    },
+    {
+      "icon": "fa-regular fa-house",
+      "title": "Gemiddelde woningprijs",
+      "distance": "",
+      "distanceIcon": "",
+      "description": "Prijsniveau ligt onder het Gentse gemiddelde",
+      "detail": "€ 285.000 mediaanprijs"
+    }
+  ],
+  "facilities": {
+    "intro": "In de Gentse Kanaaldorpen zijn hondenvoorzieningen beperkt: er is geen dierenarts, dierenwinkel of hondenspeelweide in de wijk zelf. De dichtstbijzijnde faciliteiten liggen op 10-20 minuten rijden met de auto in naburige wijken. Wat de buurt wél in overvloed heeft, is groen: vijf parken liggen binnen wandelafstand, en het landelijke karakter biedt eindeloze wandelmogelijkheden door natuur en landbouwgebied."
+  },
+  "dogParks": {
+    "intro": "De Gentse Kanaaldorpen hebben geen eigen omheinde hondenspeelweide. De dichtstbijzijnde bevindt zich in Oostakker, op ongeveer 20 minuten fietsen. Voor baasjes die vooral houden van vrije wandelingen door de natuur biedt de wijk genoeg ruimte — met uitgestrekte landbouwgebieden, kanaaltjes en rustige wegen waar je hond veilig naast je kan lopen.",
+    "parks": [
+      {
+        "name": "Dog Park near Oeverzwaluwpad",
+        "icon": "fa-solid fa-bench-tree",
+        "distance": "20 mins",
+        "distanceIcon": "fa-regular fa-bicycle",
+        "coordinates": {
+          "lat": 51.091333,
+          "lon": 3.792161
+        },
+        "features": [
+          {
+            "text": "Volledig omheind terrein",
+            "icon": "fa-regular fa-shield-check"
+          },
+          {
+            "text": "Los lopen toegestaan",
+            "icon": "fa-regular fa-dog-leashed"
+          },
+          {
+            "text": "Open van zonsopgang tot zonsondergang",
+            "icon": "fa-regular fa-clock"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de Gentse Kanaaldorpen zijn geen dierenartsenpraktijken beschikbaar. De dichtstbijzijnde praktijk ligt in Sint-Amandsberg, op ongeveer 15 minuten rijden met de auto. Voor spoedgevallen is dit een aandachtspunt — baasjes doen er goed aan om vooraf een dierenarts in de buurt van hun werk of op een makkelijk bereikbare locatie te selecteren.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-house-medical",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Sint-Amandsberg",
+        "postalCode": "9040",
+        "distance": "15 mins",
+        "distanceIcon": "fa-regular fa-car",
+        "coordinates": {
+          "lat": 51.072638,
+          "lon": 3.755583
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "In de Gentse Kanaaldorpen zijn geen dierenwinkels beschikbaar. De dichtstbijzijnde winkel ligt in Oostakker, op ongeveer 12 minuten rijden met de auto. Voor regelmatige aankopen van voeding en benodigdheden is online bestellen of een weekelijkse rit naar Oostakker de praktische oplossing.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-store",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "12 mins",
+        "distanceIcon": "fa-regular fa-car",
+        "coordinates": {
+          "lat": 51.075737,
+          "lon": 3.761371
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
+    "intro": "Het leven in de Gentse Kanaaldorpen met een hond draait om ruimte, vrijheid en natuur. Je ochtend begint met een wandeling door wijde landbouwgebieden of langs rustige kanaaltjes, waar je vaak alleen bent met je hond en de vogels. Het Zuidledepark ligt op 13 minuten wandelen en biedt een groene uitvalsbasis voor korte uitlaatrondjes, terwijl Margaretapark en Cisterciënzerspark variatie brengen.",
+    "benefits": [
+      "Je ochtend begint met een wandeling door uitgestrekt groen — vaak zonder andere mensen tegen te komen. De rust en ruimte maken elke wandeling ontspannend voor jou én je hond.",
+      "De wijk voelt landelijk en vredig: oude hoeves, weilanden en kanaaltjes geven het gevoel dat je ver van de stad bent, terwijl Gent-centrum op slechts 20 minuten fietsen ligt.",
+      "Voor dierenarts, dierenwinkel of hondenspeelweide moet je met de auto naar naburige wijken rijden (10-20 minuten). Spoedgevallen of regelmatige aankopen vragen dus vooruitplanning en een auto.",
+      "Het zwakke openbaarvervoersnetwerk maakt een auto bijna onmisbaar voor hondenvoorzieningen, hoewel je voor dagelijkse wandelingen genoeg groen vlakbij hebt.",
+      "De combinatie van eindeloos groen, rust en landelijk karakter maakt deze wijk uniek — maar alleen geschikt voor baasjes die zelfvoorzienend zijn en van afzondering houden."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Baasjes helpen baasjes",
+    "intro": "Help andere baasjes en schets hoe hondvriendelijk deze buurt is. Vul de enquête hieronder in. Het neemt niet meer dan 5 minuten in beslag en je wordt hun grote held.",
+    "typeformId": "01KBDFG2BJG3DYTNX0X9GT2HDT"
+  },
+  "statistics": {
+    "intro": "Hieronder vind je de belangrijkste cijfers over de Gentse Kanaaldorpen en -zone. Deze statistieken helpen je om de buurt beter te begrijpen en te vergelijken met andere wijken.",
+    "medianPrice": 285000,
+    "inhabitants": 8250,
+    "availableHomes": 12,
+    "pricePerSqm": 2950
+  },
+  "houses": {
+    "intro": "Nu je weet dat de Gentse Kanaaldorpen bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-dampoort",
+    "gent-muide",
+    "gent-oostakker",
+    "gent-sint-amandsberg",
+    "gent-wondelgem"
+  ]
+}

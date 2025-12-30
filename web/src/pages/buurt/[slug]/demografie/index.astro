@@ -3,7 +3,10 @@ import NeighborhoodHero from "../../../../components/NeighborhoodHero.astro";
 import SectionHeading from "../../../../components/SectionHeading.astro";
 import StatisticCard from "../../../../components/StatisticCard.astro";
 import { PAGE_TYPE_CONFIG } from "../../../../config/pageTypes";
-import { neighborhoods } from "../../../../data/neighborhoods/index";
+import {
+  getAllNeighborhoodSlugs,
+  getNeighborhood,
+} from "../../../../lib/neighborhoods";
 import NeighborhoodLayout from "../../../../layouts/NeighborhoodLayout.astro";
 
 export async function getStaticPaths() {
@@ -12,18 +15,20 @@ export async function getStaticPaths() {
     return [];
   }
 
-  return Object.keys(neighborhoods).map((slug) => ({
+  const slugs = await getAllNeighborhoodSlugs();
+  return slugs.map((slug) => ({
     params: { slug },
   }));
 }
 
 const { slug } = Astro.params;
+const neighborhoodData = slug ? await getNeighborhood(slug) : null;
 
-if (!slug || !neighborhoods[slug]) {
+if (!slug || !neighborhoodData) {
   return Astro.redirect("/404");
 }
 
-const neighborhood = neighborhoods[slug];
+const neighborhood = neighborhoodData;
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
 ---
 

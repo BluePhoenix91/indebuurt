@@ -12,30 +12,37 @@ import StatisticCard from "../../../components/StatisticCard.astro";
 import TypeformEmbed from "../../../components/TypeformEmbed.astro";
 import ValueCard from "../../../components/ValueCard.astro";
 import VetCard from "../../../components/VetCard.astro";
-import { neighborhoods } from "../../../data/neighborhoods/index";
+import {
+  getAllNeighborhoodSlugs,
+  getAllNeighborhoods,
+  getNeighborhood,
+} from "../../../lib/neighborhoods";
 import NeighborhoodLayout from "../../../layouts/NeighborhoodLayout.astro";
 
 export async function getStaticPaths() {
-  return Object.keys(neighborhoods).map((slug) => ({
+  const slugs = await getAllNeighborhoodSlugs();
+  return slugs.map((slug) => ({
     params: { slug },
   }));
 }
 
 const { slug } = Astro.params;
+const neighborhood = slug ? await getNeighborhood(slug) : null;
 
-if (!slug || !neighborhoods[slug]) {
+if (!slug || !neighborhood) {
   return Astro.redirect("/404");
 }
-
-const neighborhood = neighborhoods[slug];
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') || 'https://www.buurtkompas.be';
 
+// Get all neighborhoods for lookups
+const allNeighborhoods = await getAllNeighborhoods();
+
 // Get all available neighborhood IDs (those with pages)
-const availableNeighborhoodIds = Object.keys(neighborhoods);
+const availableNeighborhoodIds = Object.keys(allNeighborhoods);
 
 // Get neighboring neighborhoods that have pages
 const neighboringNeighborhoods = neighborhood.neighboringNeighborhoods
-  ?.map((id) => neighborhoods[id])
+  ?.map((id) => allNeighborhoods[id])
   .filter(Boolean);
 
 // Schema.org data

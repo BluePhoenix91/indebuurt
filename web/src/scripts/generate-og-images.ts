@@ -7,7 +7,7 @@
 
 import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { config } from 'dotenv';
@@ -24,8 +24,24 @@ const ROOT_DIR = join(__dirname, '..', '..');
 const SITE_URL = process.env.PUBLIC_SITE_URL || 'https://www.buurtkompas.be';
 const SITE_DISPLAY_NAME = SITE_URL.replace(/^https?:\/\//, ''); // Remove protocol for display
 
-// Import neighborhood data
-import { neighborhoods } from '../data/neighborhoods/index.js';
+// Load neighborhood data from Content Collections (JSON files)
+interface NeighborhoodData {
+  id: string;
+  name: string;
+  city: string;
+}
+
+function loadNeighborhoods(): NeighborhoodData[] {
+  const neighborhoodsDir = join(ROOT_DIR, 'src', 'content', 'neighborhoods');
+  const files = readdirSync(neighborhoodsDir).filter(f => f.endsWith('.json'));
+
+  return files.map(file => {
+    const content = readFileSync(join(neighborhoodsDir, file), 'utf-8');
+    return JSON.parse(content) as NeighborhoodData;
+  });
+}
+
+const neighborhoods = loadNeighborhoods();
 
 // Brand colors from _variables.scss
 const COLORS = {
