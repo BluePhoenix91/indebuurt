@@ -56,6 +56,10 @@ nunit-*.xml
 # Data files
 *.csv
 *.osm.pbf
+*.geojson
+database/data/*.geojson
+database/data/*.zip
+database/data/pois/*.json
 
 # Node.js / Astro
 node_modules/

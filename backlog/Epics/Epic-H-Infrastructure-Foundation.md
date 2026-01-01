@@ -56,19 +56,28 @@
 
 ---
 
-## Story H3: PostGIS MCP Server Setup
+## Story H3: PostGIS MCP Server Setup ✅
 > As a developer, I want Claude to query my PostGIS database directly via MCP, so that AI agents can look up real neighborhood data instead of hallucinating facts.
 
 **Context:** MCP (Model Context Protocol) allows Claude to execute SQL queries against PostGIS. This is how agents will get POI counts, distances, and statistics.
 
 **Acceptance Criteria:**
-- [ ] `@modelcontextprotocol/server-postgres` installed and configured
-- [ ] MCP server connects to local PostGIS database
-- [ ] Claude can execute read-only queries via MCP
-- [ ] Test query works: "Find all vets within 1km of Gent Binnenstad center"
-- [ ] Test query works: "Get inhabitant count for neighborhood X"
-- [ ] Connection documented in project README or setup guide
-- [ ] Security: read-only access, no destructive queries possible
+- [x] `@modelcontextprotocol/server-postgres` installed and configured
+- [x] MCP server connects to local PostGIS database
+- [x] Claude can execute read-only queries via MCP
+- [x] Test query works: "Find all vets within 1km of Gent Binnenstad center"
+- [x] Test query works: "Get inhabitant count for neighborhood X"
+- [x] Connection documented in project README or setup guide
+- [x] Security: read-only access, no destructive queries possible
+
+**Implementation Notes:**
+- Created `buurtkompas` database with PostGIS extension on native PostgreSQL
+- Created `buurtkompas_readonly` user with SELECT-only permissions for MCP
+- Schema in `database/schema/01-setup.sql` with tables: `neighborhoods`, `pois`, `neighborhood_statistics`
+- Helper function `find_nearest_pois(lat, lon, category, limit)` for proximity queries
+- MCP configured via `.mcp.json` at project root using `@modelcontextprotocol/server-postgres`
+- Documentation in `database/README.md`
+- Verified: spatial queries work, INSERT blocked (read-only enforced)
 
 ---
 
