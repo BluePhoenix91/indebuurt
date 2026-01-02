@@ -7,7 +7,6 @@
  * - FinalOutput: Matches Astro Content Collections schema exactly
  *
  * Schema version: 1.0.0
- * Test change to trigger hook
  */
 
 import { z } from "zod";
