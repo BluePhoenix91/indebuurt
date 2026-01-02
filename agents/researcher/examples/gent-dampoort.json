@@ -1,0 +1,161 @@
+{
+  "$comment": "ANNOTATED EXAMPLE: Researcher output for Gent Dampoort - Urban diverse neighborhood with good dog facilities",
+
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2025-12-14T10:35:00Z",
+
+  "neighborhoodId": "gent-dampoort",
+  "neighborhoodName": "Dampoort",
+  "city": "Gent",
+  "postalCode": "9000",
+
+  "centerCoordinates": {
+    "lat": 51.0524,
+    "lon": 3.7453
+  },
+
+  "boundingBox": {
+    "north": 51.0600,
+    "south": 51.0450,
+    "east": 3.7600,
+    "west": 3.7350
+  },
+
+  "_annotation_vets": "One vet very close by - this is a selling point the Writer should highlight",
+  "vets": [
+    {
+      "name": "Dierenartsenprkatijk Dr. Sofie Breugelmans",
+      "street": "Adolf Baeyensstraat",
+      "streetNumber": "147",
+      "municipality": "Sint-Amandsberg",
+      "postalCode": "9040",
+      "coordinates": {
+        "lat": 51.051934,
+        "lon": 3.747935
+      },
+      "distanceMeters": 155,
+      "walkingTimeMinutes": 2,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "_annotation_petStores": "Tom & Co in the neighborhood - practical for daily needs",
+  "petStores": [
+    {
+      "name": "Tom & Co",
+      "street": "Dendermondsesteenweg",
+      "streetNumber": "134b",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": {
+        "lat": 51.052916,
+        "lon": 3.742646
+      },
+      "distanceMeters": 510,
+      "walkingTimeMinutes": 6,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "_annotation_dogParks": "Two dedicated dog parks - unusual for urban Gent neighborhoods. Key differentiator.",
+  "dogParks": [
+    {
+      "name": "Dog Park near Evarist De Buckstraat",
+      "coordinates": {
+        "lat": 51.054479,
+        "lon": 3.746365
+      },
+      "distanceMeters": 190,
+      "walkingTimeMinutes": 3,
+      "isFenced": true,
+      "hasWater": false,
+      "surface": "grass",
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Dog Park near Brugsevaart",
+      "coordinates": {
+        "lat": 51.054218,
+        "lon": 3.745926
+      },
+      "distanceMeters": 380,
+      "walkingTimeMinutes": 5,
+      "isFenced": true,
+      "hasWater": false,
+      "surface": "grass",
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "_annotation_parks": "9 parks despite being historically 'stone' neighborhood - transformation story",
+  "parks": [
+    {
+      "name": "Wolterspark",
+      "coordinates": { "lat": 51.0525, "lon": 3.7452 },
+      "distanceMeters": 9,
+      "areaHectares": 0.4,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Banierpark",
+      "coordinates": { "lat": 51.0530, "lon": 3.7445 },
+      "distanceMeters": 65,
+      "areaHectares": 0.6,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Bijgaardepark",
+      "coordinates": { "lat": 51.0518, "lon": 3.7460 },
+      "distanceMeters": 78,
+      "areaHectares": 0.3,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "poiCounts": {
+    "vets": 1,
+    "petStores": 1,
+    "dogParks": 2,
+    "parks": 9,
+    "supermarkets": 5,
+    "restaurants": 42,
+    "cafes": 28,
+    "schools": 6,
+    "publicTransportStops": 12
+  },
+
+  "_annotation_statistics": "Below-average house prices for Gent - affordable option",
+  "statistics": {
+    "inhabitants": 11200,
+    "medianHousePrice": 295000,
+    "pricePerSqm": 3250,
+    "availableHomes": 22,
+    "populationDensity": 8500,
+    "source": "Statbel 2024-Q3"
+  },
+
+  "context": {
+    "neighboringNeighborhoods": [
+      { "id": "gent-binnenstad", "name": "Binnenstad", "distanceMeters": 720 },
+      { "id": "gent-muide", "name": "Muide", "distanceMeters": 850 },
+      { "id": "gent-sint-amandsberg", "name": "Sint-Amandsberg", "distanceMeters": 620 }
+    ],
+    "cityContext": {
+      "name": "Gent",
+      "totalNeighborhoods": 25
+    }
+  },
+
+  "dataSources": [
+    {
+      "name": "OpenStreetMap",
+      "date": "2024-12-01",
+      "coverage": "POIs, parks, addresses"
+    },
+    {
+      "name": "Statbel",
+      "date": "2024-Q3",
+      "coverage": "Population, house prices"
+    }
+  ]
+}

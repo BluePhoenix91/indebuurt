@@ -1,0 +1,90 @@
+{
+  "$comment": "Character and word limits for agent-generated content. These are TARGET ranges, not hard limits.",
+  "version": "1.0.0",
+
+  "fields": {
+    "subtitle": {
+      "minChars": 80,
+      "maxChars": 120,
+      "guidance": "Compelling one-liner that captures the neighborhood's essence for dog owners"
+    },
+    "intro": {
+      "minWords": 400,
+      "maxWords": 800,
+      "guidance": "Main introduction covering character, dog-friendliness, and honest trade-offs. Should flow naturally, not feel padded."
+    },
+    "facilities.intro": {
+      "minWords": 50,
+      "maxWords": 100,
+      "guidance": "Brief overview of dog-relevant facilities in the neighborhood"
+    },
+    "dogParks.intro": {
+      "minWords": 50,
+      "maxWords": 120,
+      "guidance": "Introduction to dog park situation, including alternatives if none exist"
+    },
+    "vets.intro": {
+      "minWords": 40,
+      "maxWords": 100,
+      "guidance": "Introduction to veterinary options, honest about distance if far"
+    },
+    "petStores.intro": {
+      "minWords": 40,
+      "maxWords": 100,
+      "guidance": "Introduction to pet store options"
+    },
+    "dailyLife.intro": {
+      "minWords": 60,
+      "maxWords": 150,
+      "guidance": "What daily life looks like for dog owners, painting a picture"
+    },
+    "dailyLife.benefits": {
+      "minItems": 3,
+      "maxItems": 7,
+      "itemMinWords": 30,
+      "itemMaxWords": 80,
+      "guidance": "Each benefit should be specific and substantive, not generic"
+    },
+    "statistics.intro": {
+      "minWords": 20,
+      "maxWords": 50,
+      "guidance": "Brief introduction to statistics section"
+    },
+    "houses.intro": {
+      "minWords": 30,
+      "maxWords": 80,
+      "guidance": "Introduction to housing search, mention postal code filtering"
+    },
+    "valueCards": {
+      "minItems": 4,
+      "maxItems": 8,
+      "title": {
+        "maxChars": 25
+      },
+      "description": {
+        "maxChars": 60
+      },
+      "detail": {
+        "maxChars": 50
+      }
+    },
+    "labels": {
+      "minItems": 2,
+      "maxItems": 5,
+      "text": {
+        "maxChars": 25
+      }
+    }
+  },
+
+  "seoGuidelines": {
+    "title": {
+      "note": "Page title is generated from neighborhood name, not agent content",
+      "targetChars": "50-60"
+    },
+    "metaDescription": {
+      "note": "Derived from subtitle, should work as meta description",
+      "targetChars": "150-160"
+    }
+  }
+}

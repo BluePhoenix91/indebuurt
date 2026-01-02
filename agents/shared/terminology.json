@@ -1,0 +1,72 @@
+{
+  "$comment": "Brand terminology guide for Writer and Brand Reviewer agents",
+  "version": "1.0.0",
+
+  "preferredTerms": {
+    "baasjes": {
+      "use": "baasjes",
+      "avoid": ["eigenaars", "eigenaren", "bezitters", "houders"],
+      "context": "Always refer to dog owners as 'baasjes' - it's friendly and personal"
+    },
+    "viervoeter": {
+      "use": "viervoeter",
+      "avoid": ["huisdier", "dier"],
+      "context": "Use 'viervoeter' as affectionate alternative to 'hond'"
+    },
+    "hond": {
+      "use": "hond",
+      "avoid": [],
+      "context": "Primary term, can be used interchangeably with 'viervoeter'"
+    },
+    "wijk": {
+      "use": "wijk",
+      "avoid": ["buurt"],
+      "context": "Use 'wijk' for neighborhoods, 'buurt' only in 'buurtgevoel'"
+    },
+    "wandeling": {
+      "use": "wandeling",
+      "avoid": ["wandeltocht"],
+      "context": "Keep it simple and daily"
+    },
+    "uitlaten": {
+      "use": "uitlaten",
+      "avoid": ["wandelen met"],
+      "context": "Common Dutch term for walking the dog"
+    },
+    "hondenspeelweide": {
+      "use": "hondenspeelweide",
+      "avoid": ["hondenpark", "dog park"],
+      "context": "Dutch term for fenced dog play area"
+    },
+    "dierenarts": {
+      "use": "dierenarts",
+      "avoid": ["veterinair", "veearts"],
+      "context": "Standard term"
+    }
+  },
+
+  "toneGuidelines": {
+    "voice": "Friendly, informative, honest - like advice from a fellow dog owner",
+    "perspective": "Second person ('je', 'jouw') - direct address to the reader",
+    "honesty": "Always mention trade-offs honestly - no neighborhood is perfect",
+    "specificity": "Use specific numbers and distances, not vague descriptions",
+    "localAuthenticity": "Include local details that only someone who knows the area would mention"
+  },
+
+  "avoidPatterns": [
+    "ideaal voor iedereen",
+    "perfecte wijk",
+    "unieke locatie",
+    "bruisende buurt",
+    "gezellige sfeer",
+    "op een steenworp afstand",
+    "in het hart van"
+  ],
+
+  "encouragedPatterns": [
+    "specific distance in meters or minutes",
+    "exact counts (e.g., '23 parken', '2 dierenartsen')",
+    "honest trade-offs (e.g., 'geen dierenarts in de wijk zelf')",
+    "practical daily scenarios"
+  ]
+}

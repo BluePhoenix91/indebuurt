@@ -1,0 +1,176 @@
+{
+  "$comment": "ANNOTATED EXAMPLE: Researcher output for Gent Wondelgem - Suburban green neighborhood, vet far away",
+
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2025-12-10T14:20:00Z",
+
+  "neighborhoodId": "gent-wondelgem",
+  "neighborhoodName": "Wondelgem",
+  "city": "Gent",
+  "postalCode": "9032",
+
+  "centerCoordinates": {
+    "lat": 51.0887,
+    "lon": 3.7118
+  },
+
+  "boundingBox": {
+    "north": 51.1000,
+    "south": 51.0780,
+    "east": 3.7350,
+    "west": 3.6900
+  },
+
+  "_annotation_vets": "No vets in neighborhood! Nearest is in Mariakerke - this is a notable drawback the Writer must address honestly",
+  "vets": [
+    {
+      "name": "Dierenartsencentrum De Brug",
+      "street": "Brugsesteenweg",
+      "streetNumber": "588",
+      "municipality": "Mariakerke",
+      "postalCode": "9030",
+      "coordinates": {
+        "lat": 51.074023,
+        "lon": 3.680784
+      },
+      "distanceMeters": 3100,
+      "walkingTimeMinutes": 39,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "_annotation_petStores": "Tom & Co centrally located - good for daily shopping",
+  "petStores": [
+    {
+      "name": "Tom & Co",
+      "street": "Botestraat",
+      "streetNumber": "14",
+      "municipality": "Gent",
+      "postalCode": "9032",
+      "coordinates": {
+        "lat": 51.089123,
+        "lon": 3.70795
+      },
+      "distanceMeters": 550,
+      "walkingTimeMinutes": 8,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "_annotation_dogParks": "Two dog parks at different distances - gives variety for dog owners",
+  "dogParks": [
+    {
+      "name": "Hondenspeelweide Boeierstraat",
+      "coordinates": {
+        "lat": 51.087269,
+        "lon": 3.720681
+      },
+      "distanceMeters": 300,
+      "walkingTimeMinutes": 4,
+      "isFenced": true,
+      "hasWater": false,
+      "surface": "grass",
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Hondenspeelweide Industrieweg",
+      "coordinates": {
+        "lat": 51.092409,
+        "lon": 3.699085
+      },
+      "distanceMeters": 1100,
+      "walkingTimeMinutes": 14,
+      "isFenced": true,
+      "hasWater": false,
+      "surface": "grass",
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "_annotation_parks": "23 parks! This is the main selling point of Wondelgem - extremely green",
+  "parks": [
+    {
+      "name": "Vroonstalledries",
+      "coordinates": { "lat": 51.0890, "lon": 3.7125 },
+      "distanceMeters": 45,
+      "areaHectares": 0.3,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Het Houtjen",
+      "coordinates": { "lat": 51.0875, "lon": 3.7080 },
+      "distanceMeters": 320,
+      "areaHectares": 1.8,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Ter Durmenpark",
+      "coordinates": { "lat": 51.0920, "lon": 3.7150 },
+      "distanceMeters": 380,
+      "areaHectares": 2.1,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Driemasterpark",
+      "coordinates": { "lat": 51.0850, "lon": 3.7200 },
+      "distanceMeters": 520,
+      "areaHectares": 3.5,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Merenpark",
+      "coordinates": { "lat": 51.0910, "lon": 3.7050 },
+      "distanceMeters": 680,
+      "areaHectares": 1.2,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "_annotation_poiCounts": "Note the 23 parks vs only 1 vet (outside neighborhood) - this contrast defines Wondelgem",
+  "poiCounts": {
+    "vets": 0,
+    "petStores": 1,
+    "dogParks": 2,
+    "parks": 23,
+    "supermarkets": 4,
+    "restaurants": 18,
+    "cafes": 12,
+    "schools": 8,
+    "publicTransportStops": 8
+  },
+
+  "statistics": {
+    "inhabitants": 18212,
+    "medianHousePrice": 295000,
+    "pricePerSqm": 3150,
+    "availableHomes": 22,
+    "populationDensity": 4200,
+    "source": "Statbel 2024-Q3"
+  },
+
+  "context": {
+    "_annotation": "Note: vets count is 0 in neighborhood, but we list nearest one in the vets array for practical info",
+    "neighboringNeighborhoods": [
+      { "id": "gent-mariakerke", "name": "Mariakerke", "distanceMeters": 1200 },
+      { "id": "gent-bloemekenswijk", "name": "Bloemekenswijk", "distanceMeters": 980 },
+      { "id": "gent-muide", "name": "Muide", "distanceMeters": 1450 }
+    ],
+    "cityContext": {
+      "name": "Gent",
+      "totalNeighborhoods": 25
+    }
+  },
+
+  "dataSources": [
+    {
+      "name": "OpenStreetMap",
+      "date": "2024-12-01",
+      "coverage": "POIs, parks, addresses"
+    },
+    {
+      "name": "Statbel",
+      "date": "2024-Q3",
+      "coverage": "Population, house prices"
+    }
+  ]
+}

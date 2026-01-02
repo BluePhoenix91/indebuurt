@@ -1,0 +1,524 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://indebuurt.be/schemas/writer/output-schema.json",
+  "title": "WriterOutput",
+  "description": "Output schema for the Writer agent. Transforms Researcher data into engaging Dutch content with icons, intros, and editorial decisions.",
+  "version": "1.0.0",
+  "$ref": "#/definitions/WriterOutput",
+  "definitions": {
+    "WriterOutput": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "const": "1.0.0"
+        },
+        "generatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "id": {
+          "type": "string",
+          "description": "Neighborhood slug for URLs"
+        },
+        "city": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Compelling subtitle for the neighborhood (target: 80-120 chars)"
+        },
+        "dateAdded": {
+          "type": "string",
+          "description": "ISO date when page was created"
+        },
+        "inhabitants": {
+          "type": "number"
+        },
+        "labels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "description": "Label text, e.g., 'Historisch centrum'"
+              },
+              "icon": {
+                "type": "string",
+                "description": "FontAwesome icon class, e.g., 'fa-regular fa-monument'"
+              }
+            },
+            "required": [
+              "text",
+              "icon"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 2,
+          "maxItems": 5,
+          "description": "2-5 characteristic labels for the neighborhood"
+        },
+        "intro": {
+          "type": "string",
+          "description": "Main introduction text (target: 400-800 words). Should cover character, dog-friendliness, trade-offs."
+        },
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "number",
+              "description": "Latitude in WGS84"
+            },
+            "lon": {
+              "type": "number",
+              "description": "Longitude in WGS84"
+            },
+            "zoom": {
+              "type": "number",
+              "description": "Default map zoom level"
+            }
+          },
+          "required": [
+            "lat",
+            "lon",
+            "zoom"
+          ],
+          "additionalProperties": false
+        },
+        "valueCards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "type": "string",
+                "description": "FontAwesome icon class"
+              },
+              "title": {
+                "type": "string",
+                "description": "Card title, e.g., 'Hondenparken'"
+              },
+              "distance": {
+                "type": "string",
+                "description": "Formatted distance, e.g., '9 mins'"
+              },
+              "distanceIcon": {
+                "type": "string",
+                "description": "Icon for distance type, e.g., 'fa-regular fa-person-walking'"
+              },
+              "description": {
+                "type": "string",
+                "description": "Brief description of the amenity situation"
+              },
+              "detail": {
+                "type": "string",
+                "description": "Additional detail or context"
+              }
+            },
+            "required": [
+              "icon",
+              "title",
+              "distance",
+              "description",
+              "detail"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 4,
+          "maxItems": 8,
+          "description": "4-8 value proposition cards highlighting key amenities"
+        },
+        "facilities": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Overview of dog-relevant facilities"
+            }
+          },
+          "required": [
+            "intro"
+          ],
+          "additionalProperties": false
+        },
+        "dogParks": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to dog parks situation"
+            },
+            "parks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {
+                    "type": "string",
+                    "description": "FontAwesome icon class"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "distance": {
+                    "type": "string",
+                    "description": "Formatted distance, e.g., '5 mins'"
+                  },
+                  "distanceIcon": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "object",
+                    "properties": {
+                      "lat": {
+                        "type": "number",
+                        "description": "Latitude in WGS84"
+                      },
+                      "lon": {
+                        "type": "number",
+                        "description": "Longitude in WGS84"
+                      }
+                    },
+                    "required": [
+                      "lat",
+                      "lon"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "features": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string",
+                          "description": "Feature description"
+                        },
+                        "icon": {
+                          "type": "string",
+                          "description": "FontAwesome icon class"
+                        }
+                      },
+                      "required": [
+                        "text",
+                        "icon"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Notable features of this park"
+                  }
+                },
+                "required": [
+                  "icon",
+                  "name",
+                  "distance",
+                  "coordinates",
+                  "features"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "intro",
+            "parks"
+          ],
+          "additionalProperties": false
+        },
+        "vets": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to veterinary options"
+            },
+            "practices": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {
+                    "type": "string",
+                    "description": "FontAwesome icon class"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "street": {
+                    "type": "string"
+                  },
+                  "streetNumber": {
+                    "type": "string"
+                  },
+                  "bus": {
+                    "type": "string"
+                  },
+                  "municipality": {
+                    "type": "string"
+                  },
+                  "postalCode": {
+                    "type": "string"
+                  },
+                  "distance": {
+                    "type": "string",
+                    "description": "Formatted distance, e.g., '4 mins'"
+                  },
+                  "distanceIcon": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "object",
+                    "properties": {
+                      "lat": {
+                        "type": "number",
+                        "description": "Latitude in WGS84"
+                      },
+                      "lon": {
+                        "type": "number",
+                        "description": "Longitude in WGS84"
+                      }
+                    },
+                    "required": [
+                      "lat",
+                      "lon"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "icon",
+                  "name",
+                  "street",
+                  "streetNumber",
+                  "municipality",
+                  "postalCode",
+                  "distance",
+                  "coordinates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "intro",
+            "practices"
+          ],
+          "additionalProperties": false
+        },
+        "petStores": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to pet store options"
+            },
+            "stores": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {
+                    "type": "string",
+                    "description": "FontAwesome icon class"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "street": {
+                    "type": "string"
+                  },
+                  "streetNumber": {
+                    "type": "string"
+                  },
+                  "bus": {
+                    "type": "string"
+                  },
+                  "municipality": {
+                    "type": "string"
+                  },
+                  "postalCode": {
+                    "type": "string"
+                  },
+                  "distance": {
+                    "type": "string",
+                    "description": "Formatted distance, e.g., '14 mins'"
+                  },
+                  "distanceIcon": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "object",
+                    "properties": {
+                      "lat": {
+                        "type": "number",
+                        "description": "Latitude in WGS84"
+                      },
+                      "lon": {
+                        "type": "number",
+                        "description": "Longitude in WGS84"
+                      }
+                    },
+                    "required": [
+                      "lat",
+                      "lon"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "icon",
+                  "name",
+                  "street",
+                  "streetNumber",
+                  "municipality",
+                  "postalCode",
+                  "distance",
+                  "coordinates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "intro",
+            "stores"
+          ],
+          "additionalProperties": false
+        },
+        "dailyLife": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "Section title, typically about daily life with a dog"
+            },
+            "intro": {
+              "type": "string",
+              "description": "What daily life looks like for dog owners here"
+            },
+            "benefits": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 3,
+              "maxItems": 7,
+              "description": "3-7 key benefits/characteristics as bullet points"
+            }
+          },
+          "required": [
+            "title",
+            "intro",
+            "benefits"
+          ],
+          "additionalProperties": false
+        },
+        "contributionCTA": {
+          "type": "object",
+          "properties": {
+            "heading": {
+              "type": "string"
+            },
+            "intro": {
+              "type": "string"
+            },
+            "typeformId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "heading",
+            "intro",
+            "typeformId"
+          ],
+          "additionalProperties": false
+        },
+        "statistics": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to the statistics section"
+            },
+            "medianPrice": {
+              "type": "number"
+            },
+            "inhabitants": {
+              "type": "number"
+            },
+            "availableHomes": {
+              "type": "number"
+            },
+            "pricePerSqm": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "intro",
+            "medianPrice",
+            "inhabitants",
+            "availableHomes",
+            "pricePerSqm"
+          ],
+          "additionalProperties": false
+        },
+        "houses": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to the housing search section"
+            },
+            "hasOwnPostalCode": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "intro",
+            "hasOwnPostalCode"
+          ],
+          "additionalProperties": false
+        },
+        "neighboringNeighborhoods": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "IDs of neighboring neighborhoods for internal linking"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "generatedAt",
+        "id",
+        "city",
+        "name",
+        "postalCode",
+        "subtitle",
+        "dateAdded",
+        "inhabitants",
+        "labels",
+        "intro",
+        "coordinates",
+        "valueCards",
+        "facilities",
+        "dogParks",
+        "vets",
+        "petStores",
+        "dailyLife",
+        "contributionCTA",
+        "statistics",
+        "houses"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

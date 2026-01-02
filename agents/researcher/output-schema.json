@@ -1,0 +1,537 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://indebuurt.be/schemas/researcher/output-schema.json",
+  "title": "ResearcherOutput",
+  "description": "Output schema for the Researcher agent. Contains factual data from PostGIS queries: POIs, statistics, distances. No prose or presentation logic.",
+  "version": "1.0.0",
+  "$ref": "#/definitions/ResearcherOutput",
+  "definitions": {
+    "ResearcherOutput": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "const": "1.0.0",
+          "description": "Schema version for compatibility checking"
+        },
+        "generatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of generation"
+        },
+        "neighborhoodId": {
+          "type": "string",
+          "description": "Unique neighborhood identifier/slug"
+        },
+        "neighborhoodName": {
+          "type": "string",
+          "description": "Official neighborhood name"
+        },
+        "city": {
+          "type": "string",
+          "description": "City the neighborhood belongs to"
+        },
+        "postalCode": {
+          "type": "string",
+          "description": "Primary postal code"
+        },
+        "centerCoordinates": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "number",
+              "description": "Latitude in WGS84"
+            },
+            "lon": {
+              "type": "number",
+              "description": "Longitude in WGS84"
+            }
+          },
+          "required": [
+            "lat",
+            "lon"
+          ],
+          "additionalProperties": false,
+          "description": "Geographic center of the neighborhood"
+        },
+        "boundingBox": {
+          "type": "object",
+          "properties": {
+            "north": {
+              "type": "number"
+            },
+            "south": {
+              "type": "number"
+            },
+            "east": {
+              "type": "number"
+            },
+            "west": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "north",
+            "south",
+            "east",
+            "west"
+          ],
+          "additionalProperties": false,
+          "description": "Bounding box for map display"
+        },
+        "vets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Name of the POI from OSM"
+              },
+              "street": {
+                "type": "string",
+                "description": "Street name"
+              },
+              "streetNumber": {
+                "type": "string",
+                "description": "House number"
+              },
+              "bus": {
+                "type": "string",
+                "description": "Bus/unit number if applicable"
+              },
+              "municipality": {
+                "type": "string",
+                "description": "Municipality name"
+              },
+              "postalCode": {
+                "type": "string",
+                "description": "Belgian postal code"
+              },
+              "coordinates": {
+                "type": "object",
+                "properties": {
+                  "lat": {
+                    "type": "number",
+                    "description": "Latitude in WGS84"
+                  },
+                  "lon": {
+                    "type": "number",
+                    "description": "Longitude in WGS84"
+                  }
+                },
+                "required": [
+                  "lat",
+                  "lon"
+                ],
+                "additionalProperties": false
+              },
+              "distanceMeters": {
+                "type": "number",
+                "description": "Distance from neighborhood center in meters"
+              },
+              "walkingTimeMinutes": {
+                "type": "number",
+                "description": "Estimated walking time in minutes"
+              },
+              "source": {
+                "type": "string",
+                "description": "Data source reference, e.g., 'OSM 2024-12'"
+              }
+            },
+            "required": [
+              "name",
+              "street",
+              "streetNumber",
+              "municipality",
+              "postalCode",
+              "coordinates",
+              "distanceMeters",
+              "walkingTimeMinutes",
+              "source"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Veterinary practices within/near neighborhood"
+        },
+        "petStores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Name of the POI from OSM"
+              },
+              "street": {
+                "type": "string",
+                "description": "Street name"
+              },
+              "streetNumber": {
+                "type": "string",
+                "description": "House number"
+              },
+              "bus": {
+                "type": "string",
+                "description": "Bus/unit number if applicable"
+              },
+              "municipality": {
+                "type": "string",
+                "description": "Municipality name"
+              },
+              "postalCode": {
+                "type": "string",
+                "description": "Belgian postal code"
+              },
+              "coordinates": {
+                "type": "object",
+                "properties": {
+                  "lat": {
+                    "type": "number",
+                    "description": "Latitude in WGS84"
+                  },
+                  "lon": {
+                    "type": "number",
+                    "description": "Longitude in WGS84"
+                  }
+                },
+                "required": [
+                  "lat",
+                  "lon"
+                ],
+                "additionalProperties": false
+              },
+              "distanceMeters": {
+                "type": "number",
+                "description": "Distance from neighborhood center in meters"
+              },
+              "walkingTimeMinutes": {
+                "type": "number",
+                "description": "Estimated walking time in minutes"
+              },
+              "source": {
+                "type": "string",
+                "description": "Data source reference, e.g., 'OSM 2024-12'"
+              }
+            },
+            "required": [
+              "name",
+              "street",
+              "streetNumber",
+              "municipality",
+              "postalCode",
+              "coordinates",
+              "distanceMeters",
+              "walkingTimeMinutes",
+              "source"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Pet stores within/near neighborhood"
+        },
+        "dogParks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Name of the dog park or green space"
+              },
+              "coordinates": {
+                "type": "object",
+                "properties": {
+                  "lat": {
+                    "type": "number",
+                    "description": "Latitude in WGS84"
+                  },
+                  "lon": {
+                    "type": "number",
+                    "description": "Longitude in WGS84"
+                  }
+                },
+                "required": [
+                  "lat",
+                  "lon"
+                ],
+                "additionalProperties": false
+              },
+              "distanceMeters": {
+                "type": "number",
+                "description": "Distance from neighborhood center in meters"
+              },
+              "walkingTimeMinutes": {
+                "type": "number",
+                "description": "Estimated walking time in minutes"
+              },
+              "isFenced": {
+                "type": "boolean",
+                "description": "Whether the area is fenced/enclosed"
+              },
+              "hasWater": {
+                "type": "boolean",
+                "description": "Whether there's water access for dogs"
+              },
+              "surface": {
+                "type": "string",
+                "description": "Surface type: grass, gravel, mixed"
+              },
+              "source": {
+                "type": "string",
+                "description": "Data source reference"
+              }
+            },
+            "required": [
+              "name",
+              "coordinates",
+              "distanceMeters",
+              "walkingTimeMinutes",
+              "isFenced",
+              "hasWater",
+              "source"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Dog parks and suitable green spaces"
+        },
+        "parks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "coordinates": {
+                "type": "object",
+                "properties": {
+                  "lat": {
+                    "type": "number",
+                    "description": "Latitude in WGS84"
+                  },
+                  "lon": {
+                    "type": "number",
+                    "description": "Longitude in WGS84"
+                  }
+                },
+                "required": [
+                  "lat",
+                  "lon"
+                ],
+                "additionalProperties": false
+              },
+              "distanceMeters": {
+                "type": "number"
+              },
+              "areaHectares": {
+                "type": "number"
+              },
+              "source": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "coordinates",
+              "distanceMeters",
+              "source"
+            ],
+            "additionalProperties": false
+          },
+          "description": "General parks and green spaces"
+        },
+        "poiCounts": {
+          "type": "object",
+          "properties": {
+            "vets": {
+              "type": "number"
+            },
+            "petStores": {
+              "type": "number"
+            },
+            "dogParks": {
+              "type": "number"
+            },
+            "parks": {
+              "type": "number"
+            },
+            "supermarkets": {
+              "type": "number"
+            },
+            "restaurants": {
+              "type": "number"
+            },
+            "cafes": {
+              "type": "number"
+            },
+            "schools": {
+              "type": "number"
+            },
+            "publicTransportStops": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "vets",
+            "petStores",
+            "dogParks",
+            "parks",
+            "supermarkets",
+            "restaurants",
+            "cafes",
+            "schools",
+            "publicTransportStops"
+          ],
+          "additionalProperties": false,
+          "description": "Quick counts for each POI category"
+        },
+        "statistics": {
+          "type": "object",
+          "properties": {
+            "inhabitants": {
+              "type": "number",
+              "description": "Number of inhabitants"
+            },
+            "medianHousePrice": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Median house price in euros, null if unavailable"
+            },
+            "pricePerSqm": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Price per square meter in euros, null if unavailable"
+            },
+            "availableHomes": {
+              "type": "number",
+              "description": "Number of homes currently for sale"
+            },
+            "populationDensity": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Population per km2"
+            },
+            "source": {
+              "type": "string",
+              "description": "Data source reference, e.g., 'Statbel 2024-Q3'"
+            }
+          },
+          "required": [
+            "inhabitants",
+            "medianHousePrice",
+            "pricePerSqm",
+            "availableHomes",
+            "populationDensity",
+            "source"
+          ],
+          "additionalProperties": false
+        },
+        "context": {
+          "type": "object",
+          "properties": {
+            "neighboringNeighborhoods": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "Neighborhood slug/ID"
+                  },
+                  "name": {
+                    "type": "string",
+                    "description": "Display name"
+                  },
+                  "distanceMeters": {
+                    "type": "number",
+                    "description": "Distance to center"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "distanceMeters"
+                ],
+                "additionalProperties": false
+              },
+              "description": "Adjacent neighborhoods"
+            },
+            "cityContext": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "City name"
+                },
+                "totalNeighborhoods": {
+                  "type": "number",
+                  "description": "Total neighborhoods in this city"
+                }
+              },
+              "required": [
+                "name",
+                "totalNeighborhoods"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "neighboringNeighborhoods",
+            "cityContext"
+          ],
+          "additionalProperties": false
+        },
+        "dataSources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Source name, e.g., 'OpenStreetMap'"
+              },
+              "date": {
+                "type": "string",
+                "description": "Data extraction/update date"
+              },
+              "coverage": {
+                "type": "string",
+                "description": "Notes on coverage or limitations"
+              }
+            },
+            "required": [
+              "name",
+              "date"
+            ],
+            "additionalProperties": false
+          },
+          "description": "All data sources used"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "generatedAt",
+        "neighborhoodId",
+        "neighborhoodName",
+        "city",
+        "postalCode",
+        "centerCoordinates",
+        "vets",
+        "petStores",
+        "dogParks",
+        "parks",
+        "poiCounts",
+        "statistics",
+        "context",
+        "dataSources"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

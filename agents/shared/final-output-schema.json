@@ -1,0 +1,465 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://indebuurt.be/schemas/shared/final-output-schema.json",
+  "title": "NeighborhoodPage",
+  "description": "Final output schema matching Astro Content Collections. This is what gets saved to /web/src/content/neighborhoods/*.json",
+  "version": "1.0.0",
+  "$ref": "#/definitions/NeighborhoodPage",
+  "definitions": {
+    "NeighborhoodPage": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "dateAdded": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "inhabitants": {
+          "type": "number"
+        },
+        "labels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "icon": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "text",
+              "icon"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "intro": {
+          "type": "string"
+        },
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "number"
+            },
+            "lon": {
+              "type": "number"
+            },
+            "zoom": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "lat",
+            "lon",
+            "zoom"
+          ],
+          "additionalProperties": false
+        },
+        "valueCards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "distance": {
+                "type": "string"
+              },
+              "distanceIcon": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "detail": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "icon",
+              "title",
+              "distance",
+              "description",
+              "detail"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "facilities": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "intro"
+          ],
+          "additionalProperties": false
+        },
+        "dogParks": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string"
+            },
+            "parks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "distance": {
+                    "type": "string"
+                  },
+                  "distanceIcon": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "object",
+                    "properties": {
+                      "lat": {
+                        "type": "number"
+                      },
+                      "lon": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "lat",
+                      "lon"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "features": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        },
+                        "icon": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text",
+                        "icon"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "icon",
+                  "name",
+                  "distance",
+                  "coordinates",
+                  "features"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "intro",
+            "parks"
+          ],
+          "additionalProperties": false
+        },
+        "vets": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string"
+            },
+            "practices": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "street": {
+                    "type": "string"
+                  },
+                  "streetNumber": {
+                    "type": "string"
+                  },
+                  "bus": {
+                    "type": "string"
+                  },
+                  "municipality": {
+                    "type": "string"
+                  },
+                  "postalCode": {
+                    "type": "string"
+                  },
+                  "distance": {
+                    "type": "string"
+                  },
+                  "distanceIcon": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "object",
+                    "properties": {
+                      "lat": {
+                        "type": "number"
+                      },
+                      "lon": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "lat",
+                      "lon"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "icon",
+                  "name",
+                  "street",
+                  "streetNumber",
+                  "municipality",
+                  "postalCode",
+                  "distance",
+                  "coordinates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "intro",
+            "practices"
+          ],
+          "additionalProperties": false
+        },
+        "petStores": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string"
+            },
+            "stores": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "street": {
+                    "type": "string"
+                  },
+                  "streetNumber": {
+                    "type": "string"
+                  },
+                  "bus": {
+                    "type": "string"
+                  },
+                  "municipality": {
+                    "type": "string"
+                  },
+                  "postalCode": {
+                    "type": "string"
+                  },
+                  "distance": {
+                    "type": "string"
+                  },
+                  "distanceIcon": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "object",
+                    "properties": {
+                      "lat": {
+                        "type": "number"
+                      },
+                      "lon": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "lat",
+                      "lon"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "icon",
+                  "name",
+                  "street",
+                  "streetNumber",
+                  "municipality",
+                  "postalCode",
+                  "distance",
+                  "coordinates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "intro",
+            "stores"
+          ],
+          "additionalProperties": false
+        },
+        "dailyLife": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "intro": {
+              "type": "string"
+            },
+            "benefits": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "title",
+            "intro",
+            "benefits"
+          ],
+          "additionalProperties": false
+        },
+        "contributionCTA": {
+          "type": "object",
+          "properties": {
+            "heading": {
+              "type": "string"
+            },
+            "intro": {
+              "type": "string"
+            },
+            "typeformId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "heading",
+            "intro",
+            "typeformId"
+          ],
+          "additionalProperties": false
+        },
+        "statistics": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string"
+            },
+            "medianPrice": {
+              "type": "number"
+            },
+            "inhabitants": {
+              "type": "number"
+            },
+            "availableHomes": {
+              "type": "number"
+            },
+            "pricePerSqm": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "intro",
+            "medianPrice",
+            "inhabitants",
+            "availableHomes",
+            "pricePerSqm"
+          ],
+          "additionalProperties": false
+        },
+        "houses": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string"
+            },
+            "hasOwnPostalCode": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "intro",
+            "hasOwnPostalCode"
+          ],
+          "additionalProperties": false
+        },
+        "neighboringNeighborhoods": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "city",
+        "name",
+        "subtitle",
+        "dateAdded",
+        "postalCode",
+        "inhabitants",
+        "labels",
+        "intro",
+        "coordinates",
+        "valueCards",
+        "facilities",
+        "dogParks",
+        "vets",
+        "petStores",
+        "dailyLife",
+        "contributionCTA",
+        "statistics",
+        "houses"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

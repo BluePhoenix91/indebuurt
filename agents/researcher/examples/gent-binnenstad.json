@@ -1,0 +1,135 @@
+{
+  "$comment": "ANNOTATED EXAMPLE: Researcher output for Gent Binnenstad - Historic urban center with many parks but limited dog-specific facilities",
+
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2025-12-14T10:30:00Z",
+
+  "neighborhoodId": "gent-binnenstad",
+  "neighborhoodName": "Binnenstad",
+  "city": "Gent",
+  "postalCode": "9000",
+
+  "centerCoordinates": {
+    "lat": 51.0535,
+    "lon": 3.7282
+  },
+
+  "boundingBox": {
+    "north": 51.0620,
+    "south": 51.0450,
+    "east": 3.7400,
+    "west": 3.7150
+  },
+
+  "_annotation_vets": "Two vet practices found within reasonable distance. Note: no icons, no formatted distances - that's the Writer's job.",
+  "vets": [
+    {
+      "name": "J. Van den Daele",
+      "street": "Graaf van Vlaanderenplein",
+      "streetNumber": "30",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": {
+        "lat": 51.046863,
+        "lon": 3.732836
+      },
+      "distanceMeters": 315,
+      "walkingTimeMinutes": 4,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "De Viervoeter",
+      "street": "Frans",
+      "streetNumber": "27",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": {
+        "lat": 51.038882,
+        "lon": 3.73474
+      },
+      "distanceMeters": 1120,
+      "walkingTimeMinutes": 14,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "_annotation_petStores": "No pet stores in neighborhood - nearest is in adjacent Dampoort. Researcher reports this factually.",
+  "petStores": [],
+
+  "_annotation_dogParks": "No dedicated dog parks in Binnenstad. The Writer will need to explain this and suggest alternatives.",
+  "dogParks": [],
+
+  "_annotation_parks": "Many general parks - this is a key characteristic of Binnenstad. Researcher provides raw data.",
+  "parks": [
+    {
+      "name": "Koning Albertpark",
+      "coordinates": { "lat": 51.0536, "lon": 3.7280 },
+      "distanceMeters": 8,
+      "areaHectares": 1.2,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Muinkpark",
+      "coordinates": { "lat": 51.0528, "lon": 3.7295 },
+      "distanceMeters": 12,
+      "areaHectares": 0.8,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Baudelohof",
+      "coordinates": { "lat": 51.0550, "lon": 3.7260 },
+      "distanceMeters": 180,
+      "areaHectares": 0.5,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "_annotation_poiCounts": "Quick summary counts for Writer to reference in narrative. These come from PostGIS COUNT queries.",
+  "poiCounts": {
+    "vets": 2,
+    "petStores": 0,
+    "dogParks": 0,
+    "parks": 23,
+    "supermarkets": 8,
+    "restaurants": 156,
+    "cafes": 89,
+    "schools": 12,
+    "publicTransportStops": 15
+  },
+
+  "_annotation_statistics": "Statbel data. Note nullable fields for data that might not be available for all neighborhoods.",
+  "statistics": {
+    "inhabitants": 18500,
+    "medianHousePrice": 425000,
+    "pricePerSqm": 4250,
+    "availableHomes": 45,
+    "populationDensity": 12500,
+    "source": "Statbel 2024-Q3"
+  },
+
+  "context": {
+    "neighboringNeighborhoods": [
+      { "id": "gent-dampoort", "name": "Dampoort", "distanceMeters": 720 },
+      { "id": "gent-elisabethbegijnhof", "name": "Elisabethbegijnhof", "distanceMeters": 450 },
+      { "id": "gent-macharius-heirnis", "name": "Macharius-Heirnis", "distanceMeters": 680 }
+    ],
+    "cityContext": {
+      "name": "Gent",
+      "totalNeighborhoods": 25
+    }
+  },
+
+  "_annotation_dataSources": "Transparency: track all data sources used. Important for content accuracy claims.",
+  "dataSources": [
+    {
+      "name": "OpenStreetMap",
+      "date": "2024-12-01",
+      "coverage": "POIs, parks, addresses"
+    },
+    {
+      "name": "Statbel",
+      "date": "2024-Q3",
+      "coverage": "Population, house prices"
+    }
+  ]
+}

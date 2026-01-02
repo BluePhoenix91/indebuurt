@@ -1,0 +1,18 @@
+# Lefthook configuration
+# https://github.com/evilmartians/lefthook
+#
+# Install lefthook: npm install -g lefthook (or brew install lefthook)
+# Activate hooks: lefthook install
+
+pre-commit:
+  commands:
+    validate-agent-schemas:
+      glob: "agents/scripts/schemas.ts"
+      run: cd agents && npm run schemas:validate
+      fail_text: |
+        Agent schemas are out of sync!
+
+        Run this to fix:
+          cd agents && npm run schemas:generate
+
+        Then stage the updated JSON schemas and commit again.

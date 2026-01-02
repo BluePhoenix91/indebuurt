@@ -1,0 +1,16 @@
+{
+  "name": "indebuurt-agents",
+  "version": "1.0.0",
+  "description": "AI agent schemas and tooling for indebuurt.be content generation",
+  "type": "module",
+  "scripts": {
+    "schemas:generate": "tsx scripts/generate-schemas.ts",
+    "schemas:validate": "tsx scripts/validate-schemas.ts",
+    "validate:json": "tsx scripts/validate-json.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "zod": "^3.25.76",
+    "zod-to-json-schema": "^3.25.0"
+  }
+}
