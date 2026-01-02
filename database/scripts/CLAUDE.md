@@ -6,10 +6,12 @@ Scripts for loading and processing data into the Buurtkompas database.
 
 ```
 scripts/
-├── setup-all.sh          # Master script - runs all domain scripts in order
-└── {domain}/             # Domain-specific scripts (e.g., pois/, statistics/)
-    ├── fetch.sh          # Download data from external source
-    └── convert-*.sh      # Transform data for loading
+├── setup-all.sh          # Master script - runs POI loading pipeline
+├── pois/                 # POI data from OpenStreetMap
+│   ├── fetch.sh          # Download from Overpass API
+│   └── convert-to-geojson.sh  # Convert Overpass JSON to GeoJSON
+└── statbel/              # Statbel statistics (population, prices)
+    └── load-statistics.py     # Python ETL (pandas) for Excel/TXT processing
 ```
 
 ## Conventions
@@ -38,16 +40,18 @@ scripts/
 3. Update `setup-all.sh` to call the new scripts in order
 4. Update `database/README.md` folder structure section
 
-Example for future H6 (Statistics):
+Example - current structure:
 ```
 scripts/
-├── setup-all.sh
+├── setup-all.sh              # POI pipeline only
 ├── pois/
 │   ├── fetch.sh
 │   └── convert-to-geojson.sh
-└── statistics/           # New domain
-    └── fetch.sh
+└── statbel/                  # Uses Python instead of shell
+    └── load-statistics.py    # Requires: pip install pandas openpyxl
 ```
+
+Note: The `statbel/` folder uses Python (not shell) because Statbel provides Excel files that are easier to parse with pandas.
 
 ### Master Script Updates
 

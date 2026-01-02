@@ -60,6 +60,9 @@ nunit-*.xml
 database/data/*.geojson
 database/data/*.zip
 database/data/pois/*.json
+database/data/statbel/*.txt
+database/data/statbel/*.xlsx
+database/data/statbel/*.zip
 
 # Node.js / Astro
 node_modules/

@@ -128,19 +128,30 @@
 
 ---
 
-## Story H6: Load Statbel Statistics
+## Story H6: Load Statbel Statistics ✅
 > As a developer, I want socioeconomic statistics from Statbel loaded into PostGIS, so that agents can include real data about prices, income, and demographics.
 
 **Context:** Statbel publishes open data on house prices, income distribution, population by age, etc. at various geographic levels.
 
 **Acceptance Criteria:**
-- [ ] Relevant Statbel datasets identified and downloaded
-- [ ] Data loaded and linked to statistical sectors
-- [ ] Available metrics include: median house price, inhabitants, population density
-- [ ] Query works: "Get median house price for sector X"
-- [ ] Query works: "Get population for municipality Y"
-- [ ] Data vintage documented (which year's data)
-- [ ] Update process documented for when new Statbel data releases
+- [x] Relevant Statbel datasets identified and downloaded
+- [x] Data loaded and linked to statistical sectors
+- [x] Available metrics include: median house price, inhabitants, population density
+- [x] Query works: "Get median house price for sector X"
+- [x] Query works: "Get population for municipality Y"
+- [x] Data vintage documented (which year's data)
+- [x] Update process documented for when new Statbel data releases
+
+**Implementation Notes:**
+- Data sources:
+  - Population: Statbel OPENDATA_SECTOREN_2024.txt (sector-level, aggregated to neighborhoods)
+  - House prices: Statbel vastgoed_2010_9999.xlsx (municipality-level, inherited to neighborhoods)
+- Schema cleaned up: removed `price_per_sqm`, `available_homes`, `green_space_pct` columns not available from Statbel
+- Python ETL script: `database/scripts/statbel/load-statistics.py` (uses pandas)
+- Migrations: `20250102_004_cleanup-statistics-schema.sql`, `20250102_005_load-statbel-statistics.sql`
+- Data vintage: Population 2024, House prices 2024
+- Coverage: ~2,800 Flanders+Brussels neighborhoods with population and price data
+- Note: House prices are at municipality level (all neighborhoods in a city share same median price)
 
 ---
 

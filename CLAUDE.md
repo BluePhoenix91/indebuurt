@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **indebuurt.be** is a neighborhood discovery platform for Belgium/Flanders that combines objective data with personal insights to help people find where they belong. The platform turns neighborhood data into intuitive insights, helping future residents decide where to live.
 
-**Current Status:** Early planning/design phase. Repository contains analysis and POC documentation but no production code yet.
+**Current Status:** Infrastructure foundation complete. PostGIS database loaded with Flanders neighborhood boundaries, POI data (63k+ amenities), and Statbel statistics (population, house prices). Astro frontend with Content Collections for neighborhood pages.
 
 ## Core Concept
 
@@ -19,20 +19,27 @@ The platform provides a **SmartScore** system that quantifies neighborhood livea
 
 ### Data Foundation
 
-| Data Source | Purpose | Technical Integration |
-|-------------|---------|---------------------|
-| OpenStreetMap via Geofabrik | POI extraction (shops, amenities, green spaces) | Extract using `osmium-tool`, convert to GeoJSON/CSV with GDAL |
-| Statbel | Socioeconomic indicators | ETL pipeline for periodic ingestion |
-| BEST (Belgian address registry) | Official address geocoding | Reliable area mapping |
-| First-party surveys | Resident sentiment | Custom data collection and aggregation |
+| Data Source | Purpose | Status |
+|-------------|---------|--------|
+| OpenStreetMap via Overpass API | POI extraction (shops, schools, transport, parks) | ✅ 63k POIs loaded |
+| Statbel Statistical Sectors | Neighborhood boundaries (2,800 wijken) | ✅ Loaded with geometries |
+| Statbel Population | Inhabitants, population density | ✅ 2024 data loaded |
+| Statbel House Prices | Median prices by municipality | ✅ 2024 data loaded |
+| BEST (Belgian address registry) | Official address geocoding | Planned |
+| First-party surveys | Resident sentiment | Planned |
 
 ### Technical Stack
 
-**Backend (.NET based on .gitignore):**
-- API-first design (REST API for frontend and B2B integrations)
-- Geospatial database (likely PostGIS) for spatial aggregation
-- ETL pipeline for OSM and Statbel data processing
-- Support for multiple spatial resolutions (city, neighborhood, postal code, address level)
+**Database (PostGIS):**
+- PostgreSQL 14+ with PostGIS extension
+- MCP integration for Claude Code queries (read-only)
+- Tables: `neighborhoods`, `statistical_sectors`, `pois`, `neighborhood_statistics`
+- Helper functions: `find_nearest_pois()`, `get_pois_in_neighborhood()`
+
+**Frontend (Astro):**
+- Static site generation with Content Collections
+- Neighborhood pages with JSON data validated by Zod schemas
+- SEO-optimized with structured data
 
 **Geospatial Processing:**
 - `osmium-tool` for filtering OSM data by tags (e.g., `shop=supermarket`)

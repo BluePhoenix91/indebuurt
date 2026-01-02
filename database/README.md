@@ -256,9 +256,110 @@ SELECT * FROM get_pois_in_neighborhood('gent-rabot', 'vet');
 SELECT * FROM get_nearest_pois_to_neighborhood('gent-rabot', 'dog_park', 3);
 ```
 
-### Future Data Loading
+### Load Statbel Statistics (H6)
 
-- **H6: Statistics** - Statbel socioeconomic data (not yet implemented)
+Socioeconomic statistics from Statbel: population, population density, and median house prices.
+
+**Prerequisites:**
+- Python 3 with pandas and openpyxl: `pip install pandas openpyxl`
+- Migrations 001-004 already run
+
+#### Step 1: Run Schema Cleanup Migration
+
+```sql
+\i database/migrations/20250102_004_cleanup-statistics-schema.sql
+```
+
+This removes columns we can't populate from Statbel data.
+
+#### Step 2: Download Statbel Data
+
+The data files should already be in `database/data/statbel/`. If not, download:
+
+1. **Population:** https://statbel.fgov.be/sites/default/files/files/opendata/bevolking/sectoren/OPENDATA_SECTOREN_2024.zip
+   - Extract to `database/data/statbel/OPENDATA_SECTOREN_2024.txt`
+
+2. **House Prices:** https://statbel.fgov.be/sites/default/files/files/opendata/immo/vastgoed_2010_9999.xlsx
+   - Save as `database/data/statbel/vastgoed_2010_9999.xlsx`
+
+#### Step 3: Run Python ETL Script
+
+```bash
+python database/scripts/statbel/load-statistics.py
+```
+
+This produces `database/data/statbel/neighborhood_statistics_staging.csv`.
+
+#### Step 4: Load Staging Data into PostgreSQL
+
+In psql or TablePlus, first load the CSV into the staging table:
+
+```sql
+-- Create staging table
+DROP TABLE IF EXISTS staging_statistics;
+CREATE TABLE staging_statistics (
+    nis_code VARCHAR(10) NOT NULL,
+    year INTEGER NOT NULL,
+    population INTEGER,
+    population_density DECIMAL(12, 2),
+    median_house_price INTEGER
+);
+
+-- Load from CSV (adjust path as needed)
+\copy staging_statistics FROM 'database/data/statbel/neighborhood_statistics_staging.csv' WITH CSV HEADER;
+```
+
+#### Step 5: Run Data Loading Migration
+
+```sql
+\i database/migrations/20250102_005_load-statbel-statistics.sql
+```
+
+#### Step 6: Verify
+
+```sql
+-- Count loaded records
+SELECT COUNT(*) FROM neighborhood_statistics;
+
+-- Sample Gent data
+SELECT n.name, ns.population, ns.median_house_price
+FROM neighborhood_statistics ns
+JOIN neighborhoods n ON n.id = ns.wijk_id
+WHERE n.city = 'Gent'
+ORDER BY ns.population DESC
+LIMIT 5;
+
+-- Acceptance criteria queries
+-- Get median house price for sector
+SELECT ns.median_house_price
+FROM neighborhoods n
+JOIN neighborhood_statistics ns ON ns.wijk_id = n.id
+WHERE n.id = 'gent-rabot';
+
+-- Get population for municipality
+SELECT SUM(ns.population) as total_population
+FROM neighborhoods n
+JOIN neighborhood_statistics ns ON ns.wijk_id = n.id
+WHERE n.city = 'Gent';
+```
+
+#### Data Vintage
+
+| Metric | Year | Reference |
+|--------|------|-----------|
+| Population | 2024 | As of January 1, 2024 |
+| Population Density | 2024 | Calculated from population and area |
+| Median House Price | 2024 | Transactions during 2024 |
+
+**Note:** House prices are at municipality level. All neighborhoods in the same municipality share the same median price.
+
+#### Updating Data
+
+When new Statbel data is released (typically annually):
+
+1. Download new files to `database/data/statbel/`
+2. Update year constants in `load-statistics.py`
+3. Re-run the Python script and SQL migration
 
 ## Folder Structure
 
@@ -267,7 +368,9 @@ database/
 ├── migrations/           # Timestamped SQL migrations (run in order)
 │   ├── 20250101_001_initial-schema.sql
 │   ├── 20250101_002_load-statbel-sectors.sql
-│   └── 20250101_003_load-pois.sql
+│   ├── 20250101_003_load-pois.sql
+│   ├── 20250102_004_cleanup-statistics-schema.sql
+│   └── 20250102_005_load-statbel-statistics.sql
 ├── queries/              # Overpass API queries for POI extraction
 │   ├── pets.overpassql
 │   ├── shopping.overpassql
@@ -277,12 +380,17 @@ database/
 │   └── green.overpassql
 ├── scripts/              # Automation scripts
 │   ├── setup-all.sh      # Master script - runs all steps in order
-│   └── pois/             # POI-specific scripts
-│       ├── fetch.sh              # Download from Overpass API
-│       └── convert-to-geojson.sh # Convert Overpass JSON to GeoJSON
-├── data/                 # GeoJSON and other data files (gitignored)
+│   ├── pois/             # POI-specific scripts
+│   │   ├── fetch.sh              # Download from Overpass API
+│   │   └── convert-to-geojson.sh # Convert Overpass JSON to GeoJSON
+│   └── statbel/          # Statbel statistics loading
+│       └── load-statistics.py    # Python ETL for population/prices
+├── data/                 # Data files (gitignored)
 │   ├── .gitkeep
-│   └── pois/             # POI GeoJSON files from Overpass
+│   ├── pois/             # POI GeoJSON files from Overpass
+│   └── statbel/          # Statbel open data files
+│       ├── README.md     # Data sources documentation
+│       └── *.txt/*.xlsx  # Downloaded Statbel files
 └── README.md
 ```
 
