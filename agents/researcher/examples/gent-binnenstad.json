@@ -91,10 +91,10 @@
     "dogParks": 0,
     "parks": 23,
     "supermarkets": 8,
-    "restaurants": 156,
-    "cafes": 89,
+    "pharmacies": 12,
     "schools": 12,
-    "publicTransportStops": 15
+    "busStops": 14,
+    "trainStations": 1
   },
 
   "_annotation_statistics": "Statbel data. Note nullable fields for data that might not be available for all neighborhoods.",

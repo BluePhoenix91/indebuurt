@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2025-01-02T12:30:00Z",
+
+  "neighborhoodId": "gent-mendonk",
+  "neighborhoodName": "MENDONK",
+  "city": "Gent",
+  "postalCode": "9000",
+
+  "centerCoordinates": {
+    "lat": 51.150114543891,
+    "lon": 3.8128151293252053
+  },
+
+  "boundingBox": {
+    "north": 51.169871997089885,
+    "south": 51.135440527374165,
+    "east": 3.849341327201965,
+    "west": 3.776526575321439
+  },
+
+  "vets": [
+    {
+      "name": "De Zaffelbeek",
+      "street": "Unknown",
+      "streetNumber": "",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": {
+        "lat": 51.1324189,
+        "lon": 3.8623004
+      },
+      "distanceMeters": 3984,
+      "walkingTimeMinutes": 50,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Unnamed Vet",
+      "street": "Unknown",
+      "streetNumber": "",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": {
+        "lat": 51.1996448,
+        "lon": 3.8134354
+      },
+      "distanceMeters": 5510,
+      "walkingTimeMinutes": 69,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Frieda Erven",
+      "street": "Unknown",
+      "streetNumber": "",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": {
+        "lat": 51.2002729,
+        "lon": 3.8097402
+      },
+      "distanceMeters": 5584,
+      "walkingTimeMinutes": 70,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "petStores": [],
+
+  "dogParks": [
+    {
+      "name": "hondentoilet",
+      "coordinates": {
+        "lat": 51.1654214,
+        "lon": 3.8462281
+      },
+      "distanceMeters": 2892,
+      "walkingTimeMinutes": 36,
+      "isFenced": false,
+      "hasWater": false,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Kloosterbos",
+      "coordinates": {
+        "lat": 51.1778079,
+        "lon": 3.8391072
+      },
+      "distanceMeters": 3588,
+      "walkingTimeMinutes": 45,
+      "isFenced": false,
+      "hasWater": false,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "parks": [
+    {
+      "name": "Margaretapark",
+      "coordinates": {
+        "lat": 51.1481051,
+        "lon": 3.7751668
+      },
+      "distanceMeters": 2644,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Zuidledepark",
+      "coordinates": {
+        "lat": 51.1409725,
+        "lon": 3.7737483
+      },
+      "distanceMeters": 2917,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "poiCounts": {
+    "vets": 0,
+    "petStores": 0,
+    "dogParks": 0,
+    "parks": 0,
+    "supermarkets": 0,
+    "pharmacies": 0,
+    "schools": 1,
+    "busStops": 18,
+    "trainStations": 0
+  },
+
+  "statistics": {
+    "inhabitants": 1533,
+    "medianHousePrice": 353000,
+    "pricePerSqm": null,
+    "availableHomes": 0,
+    "populationDensity": 162,
+    "source": "Statbel 2024"
+  },
+
+  "context": {
+    "neighboringNeighborhoods": [
+      { "id": "gent-rostijne", "name": "ROSTIJNE", "distanceMeters": 2339 },
+      { "id": "gent-desteldonk-dorp", "name": "DESTELDONK-DORP", "distanceMeters": 2665 },
+      { "id": "gent-langerbrugge", "name": "LANGERBRUGGE", "distanceMeters": 2794 },
+      { "id": "gent-rieme", "name": "RIEME", "distanceMeters": 3505 },
+      { "id": "gent-jfkennedylaan", "name": "J.F.KENNEDYLAAN", "distanceMeters": 4825 }
+    ],
+    "cityContext": {
+      "name": "Gent",
+      "totalNeighborhoods": 54
+    }
+  },
+
+  "dataSources": [
+    {
+      "name": "OpenStreetMap",
+      "date": "2024-12",
+      "coverage": "POIs, parks. Note: Very rural area with minimal POIs inside boundary - nearest options listed."
+    },
+    {
+      "name": "Statbel",
+      "date": "2024",
+      "coverage": "Population, house prices"
+    }
+  ]
+}

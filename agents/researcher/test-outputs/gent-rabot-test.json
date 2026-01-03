@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2025-01-02T12:35:00Z",
+
+  "neighborhoodId": "gent-rabot",
+  "neighborhoodName": "RABOT",
+  "city": "Gent",
+  "postalCode": "9000",
+
+  "centerCoordinates": {
+    "lat": 51.06252502274124,
+    "lon": 3.71042910730397
+  },
+
+  "boundingBox": {
+    "north": 51.06679707464719,
+    "south": 51.056460545289674,
+    "east": 3.718734557295878,
+    "west": 3.7013353361386208
+  },
+
+  "vets": [],
+
+  "petStores": [],
+
+  "dogParks": [
+    {
+      "name": "Hondenweide Rabot",
+      "coordinates": {
+        "lat": 51.0637741,
+        "lon": 3.717675
+      },
+      "distanceMeters": 527,
+      "walkingTimeMinutes": 7,
+      "isFenced": true,
+      "hasWater": false,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "parks": [],
+
+  "poiCounts": {
+    "vets": 0,
+    "petStores": 0,
+    "dogParks": 1,
+    "parks": 8,
+    "supermarkets": 5,
+    "pharmacies": 3,
+    "schools": 5,
+    "busStops": 18,
+    "trainStations": 0
+  },
+
+  "statistics": {
+    "inhabitants": 6647,
+    "medianHousePrice": 353000,
+    "pricePerSqm": null,
+    "availableHomes": 0,
+    "populationDensity": 9230,
+    "source": "Statbel 2024"
+  },
+
+  "context": {
+    "neighboringNeighborhoods": [
+      { "id": "gent-begijnhofdries", "name": "BEGIJNHOFDRIES", "distanceMeters": 1027 },
+      { "id": "gent-brugse-poort", "name": "BRUGSE POORT", "distanceMeters": 1095 },
+      { "id": "gent-oude-lieve", "name": "OUDE LIEVE", "distanceMeters": 1127 },
+      { "id": "gent-maeswal", "name": "MAESWAL", "distanceMeters": 1140 },
+      { "id": "gent-wissenhagestraat", "name": "WISSENHAGESTRAAT", "distanceMeters": 1178 }
+    ],
+    "cityContext": {
+      "name": "Gent",
+      "totalNeighborhoods": 54
+    }
+  },
+
+  "dataSources": [
+    {
+      "name": "OpenStreetMap",
+      "date": "2024-12",
+      "coverage": "POIs, parks. Note: Dense urban area with no vets or pet stores inside boundary."
+    },
+    {
+      "name": "Statbel",
+      "date": "2024",
+      "coverage": "Population, house prices"
+    }
+  ]
+}

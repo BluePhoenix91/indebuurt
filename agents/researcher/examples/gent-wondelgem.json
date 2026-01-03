@@ -133,10 +133,10 @@
     "dogParks": 2,
     "parks": 23,
     "supermarkets": 4,
-    "restaurants": 18,
-    "cafes": 12,
+    "pharmacies": 3,
     "schools": 8,
-    "publicTransportStops": 8
+    "busStops": 7,
+    "trainStations": 1
   },
 
   "statistics": {

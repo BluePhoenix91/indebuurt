@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2025-01-02T12:00:00Z",
+
+  "neighborhoodId": "gent-dampoort",
+  "neighborhoodName": "DAMPOORT",
+  "city": "Gent",
+  "postalCode": "9000",
+
+  "centerCoordinates": {
+    "lat": 51.06431646909582,
+    "lon": 3.7469291442159034
+  },
+
+  "boundingBox": {
+    "north": 51.077512832696755,
+    "south": 51.04665569921847,
+    "east": 3.7561952654673227,
+    "west": 3.738679454840365
+  },
+
+  "vets": [
+    {
+      "name": "Tania Maenhout",
+      "street": "Hogeweg",
+      "streetNumber": "203",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": {
+        "lat": 51.0691142,
+        "lon": 3.7489475
+      },
+      "distanceMeters": 552,
+      "walkingTimeMinutes": 7,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "petStores": [
+    {
+      "name": "Tom & Co",
+      "street": "Dendermondsesteenweg",
+      "streetNumber": "134b",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": {
+        "lat": 51.0529158,
+        "lon": 3.7426457
+      },
+      "distanceMeters": 1303,
+      "walkingTimeMinutes": 16,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "dogParks": [
+    {
+      "name": "Hondenweide Dampoort",
+      "coordinates": {
+        "lat": 51.072154,
+        "lon": 3.7516795
+      },
+      "distanceMeters": 933,
+      "walkingTimeMinutes": 12,
+      "isFenced": true,
+      "hasWater": false,
+      "surface": "grass",
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "parks": [
+    {
+      "name": "La Sapinière",
+      "coordinates": {
+        "lat": 51.0720625,
+        "lon": 3.7505274
+      },
+      "distanceMeters": 898,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Speelterrein Wasstraat",
+      "coordinates": {
+        "lat": 51.0559672,
+        "lon": 3.7451218
+      },
+      "distanceMeters": 937,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Cirkelspark",
+      "coordinates": {
+        "lat": 51.0739481,
+        "lon": 3.7500873
+      },
+      "distanceMeters": 1094,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Bijgaardepark",
+      "coordinates": {
+        "lat": 51.0510896,
+        "lon": 3.7435637
+      },
+      "distanceMeters": 1490,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Wolterspark",
+      "coordinates": {
+        "lat": 51.0488519,
+        "lon": 3.745586
+      },
+      "distanceMeters": 1723,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "poiCounts": {
+    "vets": 1,
+    "petStores": 1,
+    "dogParks": 1,
+    "parks": 6,
+    "supermarkets": 5,
+    "pharmacies": 3,
+    "schools": 5,
+    "busStops": 37,
+    "trainStations": 1
+  },
+
+  "statistics": {
+    "inhabitants": 5572,
+    "medianHousePrice": 353000,
+    "pricePerSqm": null,
+    "availableHomes": 0,
+    "populationDensity": 5951,
+    "source": "Statbel 2024"
+  },
+
+  "context": {
+    "neighboringNeighborhoods": [
+      { "id": "gent-groot-begijnhof", "name": "GROOT BEGIJNHOF", "distanceMeters": 677 },
+      { "id": "gent-afrikalaan", "name": "AFRIKALAAN", "distanceMeters": 706 },
+      { "id": "gent-blaisantvest", "name": "BLAISANTVEST", "distanceMeters": 1187 },
+      { "id": "gent-heernis", "name": "HEERNIS", "distanceMeters": 1626 },
+      { "id": "gent-wissenhagestraat", "name": "WISSENHAGESTRAAT", "distanceMeters": 1836 }
+    ],
+    "cityContext": {
+      "name": "Gent",
+      "totalNeighborhoods": 54
+    }
+  },
+
+  "dataSources": [
+    {
+      "name": "OpenStreetMap",
+      "date": "2024-12",
+      "coverage": "POIs, parks, dog parks, addresses"
+    },
+    {
+      "name": "Statbel",
+      "date": "2024",
+      "coverage": "Population, house prices. Note: pricePerSqm and availableHomes not available."
+    }
+  ]
+}

@@ -118,10 +118,10 @@
     "dogParks": 2,
     "parks": 9,
     "supermarkets": 5,
-    "restaurants": 42,
-    "cafes": 28,
+    "pharmacies": 4,
     "schools": 6,
-    "publicTransportStops": 12
+    "busStops": 11,
+    "trainStations": 1
   },
 
   "_annotation_statistics": "Below-average house prices for Gent - affordable option",

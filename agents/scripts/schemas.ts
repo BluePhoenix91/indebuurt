@@ -109,10 +109,10 @@ export const researcherOutputSchema = z.object({
     dogParks: z.number(),
     parks: z.number(),
     supermarkets: z.number(),
-    restaurants: z.number(),
-    cafes: z.number(),
+    pharmacies: z.number(),
     schools: z.number(),
-    publicTransportStops: z.number(),
+    busStops: z.number(),
+    trainStations: z.number(),
   }).describe("Quick counts for each POI category"),
 
   // Statistics

@@ -358,16 +358,16 @@
             "supermarkets": {
               "type": "number"
             },
-            "restaurants": {
-              "type": "number"
-            },
-            "cafes": {
+            "pharmacies": {
               "type": "number"
             },
             "schools": {
               "type": "number"
             },
-            "publicTransportStops": {
+            "busStops": {
+              "type": "number"
+            },
+            "trainStations": {
               "type": "number"
             }
           },
@@ -377,10 +377,10 @@
             "dogParks",
             "parks",
             "supermarkets",
-            "restaurants",
-            "cafes",
+            "pharmacies",
             "schools",
-            "publicTransportStops"
+            "busStops",
+            "trainStations"
           ],
           "additionalProperties": false,
           "description": "Quick counts for each POI category"
