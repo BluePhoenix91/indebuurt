@@ -94,35 +94,116 @@ Known limitations:
 
 ---
 
-## Story I3: Writer Agent Prompt
+## Story I3: Writer Agent Prompt ✅
 > As a content team member, I want a Writer agent that transforms research data into engaging Dutch copy matching our brand voice, so that generated pages read naturally and include specific local details.
 
 **Context:** Writer receives Researcher output and generates the narrative content: intro, daily life, section intros, benefits list.
 
 **Acceptance Criteria:**
-- [ ] System prompt created with brand voice guidelines (friendly, informative, dog-owner focused)
-- [ ] Prompt includes tone examples from existing high-quality neighborhoods
-- [ ] Agent generates all narrative fields: intro, facilities.intro, dogParks.intro, dailyLife, etc.
-- [ ] Generated content includes specific data points ("4 dierenartsen binnen 1km")
-- [ ] Content balances positives with honest trade-offs
-- [ ] Agent tested on 3 neighborhoods with human-quality-comparable output
-- [ ] Prompt stored in `/agents/writer/prompt-v1.md`
+- [x] System prompt created with brand voice guidelines (friendly, informative, dog-owner focused)
+- [x] Prompt includes tone examples from existing high-quality neighborhoods
+- [x] Agent generates all narrative fields: intro, facilities.intro, dogParks.intro, dailyLife, etc.
+- [x] Generated content includes specific data points ("4 dierenartsen binnen 1km")
+- [x] Content balances positives with honest trade-offs
+- [~] Agent tested on 3 neighborhoods with human-quality-comparable output (2/3 done, pending Rabot)
+- [x] Prompt stored in `/agents/writer/prompt-v1.md`
+
+**Implementation Notes (2025-01-03):**
+
+Architecture decisions:
+- **File-based input** — Writer reads ResearcherOutput from file path, not inline JSON
+- **Read-only context access** — Can read reference files and query DB for verification only
+- **Modular prompt structure** — Main prompt + separate reference files (like Researcher)
+- **Dynamic examples** — Examples folder prepared but empty; will populate after first validated outputs
+- **Nullable statistics** — Schema updated to allow null for pricePerSqm, availableHomes, medianPrice
+
+Key files:
+- `/agents/writer/prompt-v1.md` — Main system prompt with 14-step workflow
+- `/agents/writer/references/icon-mappings.json` — FontAwesome 6 icon vocabulary
+- `/agents/writer/references/content-guidelines.md` — Tone, terminology, sparse-data handling
+- `/agents/writer/references/transformation-rules.md` — Distance formatting, zoom calculation
+- `/agents/writer/examples/README.md` — Placeholder for future examples
+- `/agents/writer/test-outputs/` — Validated test outputs
+
+Schema changes:
+- `writerOutputSchema.statistics.medianPrice` — now nullable
+- `writerOutputSchema.statistics.availableHomes` — now nullable
+- `writerOutputSchema.statistics.pricePerSqm` — now nullable
+- Same changes applied to `finalOutputSchema`
+
+Content approach:
+- Required elements checklist for intro (character, dog-friendliness, trade-offs)
+- Sparse data handling via "acknowledge → pivot → alternative" pattern
+- Fixed typeformId ("buurt-feedback") for all neighborhoods
+- Icon mappings by category (POIs, features, labels, value cards)
+- Section intros stay focused on their topic only (no cross-references)
+
+Test outputs (schema-validated):
+- `gent-dampoort-writer-test.json` — Urban (5951/km²), 1 dog park, 1 vet, 1 pet store nearby
+- `gent-mendonk-writer-test.json` — Rural (162/km²), sparse POIs, tests honest sparse-data handling
+
+Prompt refinements during testing:
+- Added explicit guidance that section intros must stay focused on their topic
+- dogParks.intro → only hondenspeelweiden, not general parks
+- petStores.intro → only pet stores, not supermarket alternatives
+- vets.intro → only veterinary practices
+
+Remaining:
+- Test on gent-rabot-test.json (dense urban, different profile)
+- Human quality review for final sign-off (Story I6)
 
 ---
 
-## Story I4: SEO Reviewer Agent Prompt
+## Story I4: SEO Reviewer Agent Prompt ✅
 > As a content team member, I want an SEO Reviewer agent that validates and improves content for search visibility, so that generated pages rank well without manual SEO optimization.
 
 **Context:** SEO agent reviews Writer output and suggests/makes improvements for search optimization.
 
 **Acceptance Criteria:**
-- [ ] System prompt defines SEO best practices for local/neighborhood content
-- [ ] Agent checks: title length, meta description, heading structure, keyword usage
-- [ ] Agent suggests internal linking opportunities to related neighborhoods/city pages
-- [ ] Agent flags issues: keyword stuffing, thin content, missing metadata
-- [ ] Agent outputs: revised content + list of changes made + pass/fail score
-- [ ] Prompt includes what NOT to change (factual data, statistics)
-- [ ] Prompt stored in `/agents/seo-reviewer/prompt-v1.md`
+- [x] System prompt defines SEO best practices for local/neighborhood content
+- [x] Agent checks: title length, meta description, heading structure, keyword usage
+- [x] Agent suggests internal linking opportunities to related neighborhoods/city pages
+- [x] Agent flags issues: keyword stuffing, thin content, missing metadata
+- [x] Agent outputs: revised content + list of changes made + pass/fail score
+- [x] Prompt includes what NOT to change (factual data, statistics)
+- [x] Prompt stored in `/agents/seo-reviewer/prompt-v1.md`
+
+**Implementation Notes (2025-01-04):**
+
+Architecture decisions:
+- **Direct Edit mode** — Agent modifies JSON directly, outputs revised content (not just suggestions)
+- **Extended Schema** — New `seoReviewerOutputSchema` extends WriterOutput with `seoReview` object
+- **Audit Trail** — Every change logged in `changesLog[]` with field, before, after, reason
+- **70 Pass Threshold** — `passedSEO = true` if `qualityScore >= 70`
+- **Non-blocking Pipeline** — Continues with warnings if score < 70
+- **Validate-only for Links** — Checks `neighboringNeighborhoods` exist in DB, logs warnings but doesn't remove
+- **Static Keyword Strategy** — Uses predefined keywords in reference file (updated periodically via separate research task)
+
+Key files:
+- `/agents/seo-reviewer/prompt-v1.md` — Main system prompt with 12-step workflow
+- `/agents/seo-reviewer/output-schema.json` — Generated from Zod
+- `/agents/seo-reviewer/references/seo-checklist.md` — Detailed SEO rules based on buurtkompas.be audit
+- `/agents/seo-reviewer/references/keyword-strategy.md` — Target keywords and density rules
+- `/agents/seo-reviewer/references/scoring-algorithm.md` — How 0-100 score calculated
+- `/agents/seo-reviewer/references/do-not-modify.md` — Protected fields list
+
+Schema additions to `/agents/scripts/schemas.ts`:
+- `seoChangeLogSchema` — Field, before, after, reason (enum of 10 reason types)
+- `seoValidationIssueSchema` — Field, issue, severity (error/warning/info)
+- `seoScoreBreakdownSchema` — 6 category scores (subtitle, intro, keywords, sections, local, links)
+- `seoReviewerOutputSchema` — Extends writerOutputSchema with `seoReview` object
+
+Scoring breakdown (100 points total):
+- Subtitle: 15 points (meta description quality)
+- Main Intro: 25 points (core SEO content)
+- Keywords: 20 points (usage and density)
+- Section Intros: 15 points (supporting content SEO)
+- Local Relevance: 15 points (local SEO signals)
+- Internal Links: 10 points (link validity)
+
+Remaining:
+- Test on `gent-dampoort-writer-test.json` (expected score: 75-85)
+- Test on `gent-mendonk-writer-test.json` (expected score: 65-75, may not pass)
 
 ---
 

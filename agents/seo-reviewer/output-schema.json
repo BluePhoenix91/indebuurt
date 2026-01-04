@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://indebuurt.be/schemas/writer/output-schema.json",
-  "title": "WriterOutput",
-  "description": "Output schema for the Writer agent. Transforms Researcher data into engaging Dutch content with icons, intros, and editorial decisions.",
+  "$id": "https://indebuurt.be/schemas/seo-reviewer/output-schema.json",
+  "title": "SEOReviewerOutput",
+  "description": "Output schema for the SEO Reviewer agent. Extends WriterOutput with changes log, quality score, and SEO validation metadata.",
   "version": "1.0.0",
-  "$ref": "#/definitions/WriterOutput",
+  "$ref": "#/definitions/SEOReviewerOutput",
   "definitions": {
-    "WriterOutput": {
+    "SEOReviewerOutput": {
       "type": "object",
       "properties": {
         "schemaVersion": {
@@ -505,6 +505,276 @@
             "type": "string"
           },
           "description": "IDs of neighboring neighborhoods for internal linking"
+        },
+        "seoReview": {
+          "type": "object",
+          "properties": {
+            "reviewedAt": {
+              "type": "string",
+              "format": "date-time",
+              "description": "ISO 8601 timestamp of review"
+            },
+            "qualityScore": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "SEO quality score 0-100"
+            },
+            "passedSEO": {
+              "type": "boolean",
+              "description": "True if qualityScore >= 70"
+            },
+            "changesLog": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "description": "JSON path to the modified field, e.g., 'subtitle' or 'dogParks.intro'"
+                  },
+                  "before": {
+                    "type": "string",
+                    "description": "Original text before modification"
+                  },
+                  "after": {
+                    "type": "string",
+                    "description": "Modified text after SEO optimization"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "enum": [
+                      "subtitle_length",
+                      "keyword_density",
+                      "intro_structure",
+                      "section_intro_thin",
+                      "local_keyword_missing",
+                      "readability",
+                      "value_card_clarity",
+                      "benefit_specificity",
+                      "cta_optimization",
+                      "label_clarity"
+                    ],
+                    "description": "Category of SEO improvement made"
+                  }
+                },
+                "required": [
+                  "field",
+                  "before",
+                  "after",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "description": "All modifications made by SEO reviewer"
+            },
+            "validationIssues": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "description": "Field with validation issue"
+                  },
+                  "issue": {
+                    "type": "string",
+                    "description": "Description of the issue"
+                  },
+                  "severity": {
+                    "type": "string",
+                    "enum": [
+                      "error",
+                      "warning",
+                      "info"
+                    ],
+                    "description": "Issue severity"
+                  }
+                },
+                "required": [
+                  "field",
+                  "issue",
+                  "severity"
+                ],
+                "additionalProperties": false
+              },
+              "description": "Issues found that couldn't be auto-fixed (e.g., invalid internal links)"
+            },
+            "scoreBreakdown": {
+              "type": "object",
+              "properties": {
+                "subtitleScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 15,
+                  "description": "Subtitle/meta description quality (0-15)"
+                },
+                "introScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 25,
+                  "description": "Main intro SEO quality (0-25)"
+                },
+                "topicCoverageScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 20,
+                  "description": "Topic bucket coverage (0-20)"
+                },
+                "sectionIntrosScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "description": "Section intros SEO value (0-10)"
+                },
+                "decisionUsefulnessScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 15,
+                  "description": "Trade-off, mitigation, and who-is-this-for signals (0-15)"
+                },
+                "localRelevanceScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "description": "Local SEO signals (0-10)"
+                },
+                "internalLinkingScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 5,
+                  "description": "Internal link validity (0-5)"
+                }
+              },
+              "required": [
+                "subtitleScore",
+                "introScore",
+                "topicCoverageScore",
+                "sectionIntrosScore",
+                "decisionUsefulnessScore",
+                "localRelevanceScore",
+                "internalLinkingScore"
+              ],
+              "additionalProperties": false,
+              "description": "Score breakdown by category"
+            },
+            "analysis": {
+              "type": "object",
+              "description": "Detailed analysis for feedback loop to Writer agent when SEO review fails",
+              "properties": {
+                "topicBuckets": {
+                  "type": "object",
+                  "description": "Topic bucket coverage analysis",
+                  "properties": {
+                    "wonenLeefkwaliteit": {
+                      "type": "object",
+                      "properties": {
+                        "passed": { "type": "boolean" },
+                        "termsFound": { "type": "array", "items": { "type": "string" } },
+                        "count": { "type": "number" },
+                        "required": { "type": "number" }
+                      },
+                      "required": ["passed", "termsFound", "count", "required"]
+                    },
+                    "groenBuiten": {
+                      "type": "object",
+                      "properties": {
+                        "passed": { "type": "boolean" },
+                        "termsFound": { "type": "array", "items": { "type": "string" } },
+                        "count": { "type": "number" },
+                        "required": { "type": "number" }
+                      },
+                      "required": ["passed", "termsFound", "count", "required"]
+                    },
+                    "rustVeiligheid": {
+                      "type": "object",
+                      "properties": {
+                        "passed": { "type": "boolean" },
+                        "termsFound": { "type": "array", "items": { "type": "string" } },
+                        "count": { "type": "number" },
+                        "required": { "type": "number" }
+                      },
+                      "required": ["passed", "termsFound", "count", "required"]
+                    },
+                    "dogLens": {
+                      "type": "object",
+                      "properties": {
+                        "passed": { "type": "boolean" },
+                        "passedVia": { "type": "string", "description": "Option A (explicit 1-3) or Option B (implicit 3+ with walking term)" },
+                        "explicitDogCount": { "type": "number" },
+                        "explicitTermsFound": { "type": "array", "items": { "type": "string" } },
+                        "implicitSignalCount": { "type": "number" },
+                        "implicitTermsFound": { "type": "array", "items": { "type": "string" } }
+                      },
+                      "required": ["passed", "explicitDogCount", "implicitSignalCount"]
+                    }
+                  },
+                  "required": ["wonenLeefkwaliteit", "groenBuiten", "rustVeiligheid", "dogLens"]
+                },
+                "decisionUsefulness": {
+                  "type": "object",
+                  "description": "Trade-off, mitigation, and who-is-this-for detection",
+                  "properties": {
+                    "tradeOffDetected": { "type": "boolean" },
+                    "tradeOffEvidence": { "type": "array", "items": { "type": "string" } },
+                    "mitigationDetected": { "type": "boolean" },
+                    "mitigationEvidence": { "type": "array", "items": { "type": "string" } },
+                    "whoIsThisForDetected": { "type": "boolean" },
+                    "whoIsThisForEvidence": { "type": "array", "items": { "type": "string" } },
+                    "whoIsThisForPlacement": { "type": "string", "description": "Where the who-is-this-for signal was found" }
+                  },
+                  "required": ["tradeOffDetected", "mitigationDetected", "whoIsThisForDetected"]
+                },
+                "keywordCaps": {
+                  "type": "object",
+                  "description": "Keyword cap analysis for narrative fields only",
+                  "properties": {
+                    "explicitDogTermsTotal": { "type": "number" },
+                    "maxAllowed": { "type": "number" },
+                    "withinCap": { "type": "boolean" },
+                    "baasjesCount": { "type": "number" },
+                    "baasjesMaxAllowed": { "type": "number" },
+                    "baasjesWithinCap": { "type": "boolean" }
+                  },
+                  "required": ["explicitDogTermsTotal", "withinCap"]
+                },
+                "firstParagraph": {
+                  "type": "object",
+                  "description": "First paragraph requirements check",
+                  "properties": {
+                    "neighborhoodInFirstSentence": { "type": "boolean" },
+                    "cityInFirst100Words": { "type": "boolean" },
+                    "livingContextBuckets": { "type": "array", "items": { "type": "string" } },
+                    "livingContextBucketCount": { "type": "number" },
+                    "required": { "type": "number" }
+                  },
+                  "required": ["neighborhoodInFirstSentence", "cityInFirst100Words", "livingContextBucketCount"]
+                },
+                "sectionIntros": {
+                  "type": "object",
+                  "description": "Section intro analysis",
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "wordCount": { "type": "number" },
+                      "passesWhatWhy": { "type": "boolean" },
+                      "practicalAlternativeAllowed": { "type": "boolean" }
+                    }
+                  }
+                }
+              },
+              "required": ["topicBuckets", "decisionUsefulness", "keywordCaps", "firstParagraph"]
+            }
+          },
+          "required": [
+            "reviewedAt",
+            "qualityScore",
+            "passedSEO",
+            "changesLog",
+            "scoreBreakdown",
+            "analysis"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [
@@ -528,7 +798,8 @@
         "dailyLife",
         "contributionCTA",
         "statistics",
-        "houses"
+        "houses",
+        "seoReview"
       ],
       "additionalProperties": false
     }

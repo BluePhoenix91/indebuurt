@@ -260,10 +260,10 @@ export const writerOutputSchema = z.object({
 
   statistics: z.object({
     intro: z.string().describe("Introduction to the statistics section"),
-    medianPrice: z.number(),
+    medianPrice: z.number().nullable().describe("Median house price, null if unavailable"),
     inhabitants: z.number(),
-    availableHomes: z.number(),
-    pricePerSqm: z.number(),
+    availableHomes: z.number().nullable().describe("Available homes for sale, null if unavailable"),
+    pricePerSqm: z.number().nullable().describe("Price per square meter, null if unavailable"),
   }),
 
   houses: z.object({
@@ -377,10 +377,10 @@ export const finalOutputSchema = z.object({
   }),
   statistics: z.object({
     intro: z.string(),
-    medianPrice: z.number(),
+    medianPrice: z.number().nullable(),
     inhabitants: z.number(),
-    availableHomes: z.number(),
-    pricePerSqm: z.number(),
+    availableHomes: z.number().nullable(),
+    pricePerSqm: z.number().nullable(),
   }),
   houses: z.object({
     intro: z.string(),
@@ -390,3 +390,59 @@ export const finalOutputSchema = z.object({
 });
 
 export type FinalOutput = z.infer<typeof finalOutputSchema>;
+
+// =============================================================================
+// SEO REVIEWER OUTPUT SCHEMA
+// =============================================================================
+// The SEO Reviewer receives WriterOutput and:
+// - Optimizes text fields for search visibility
+// - Validates internal links exist in database
+// - Logs all changes made with before/after
+// - Outputs a quality score and pass/fail status
+
+const seoChangeLogSchema = z.object({
+  field: z.string().describe("JSON path to the modified field, e.g., 'subtitle' or 'dogParks.intro'"),
+  before: z.string().describe("Original text before modification"),
+  after: z.string().describe("Modified text after SEO optimization"),
+  reason: z.enum([
+    "subtitle_length",        // Subtitle too short/long for meta description
+    "keyword_density",        // Primary keywords missing or insufficient
+    "intro_structure",        // Intro missing key SEO elements
+    "section_intro_thin",     // Section intro too short for SEO value
+    "local_keyword_missing",  // Missing city/neighborhood name where appropriate
+    "readability",            // Sentence structure too complex
+    "value_card_clarity",     // Value card description not clear
+    "benefit_specificity",    // Benefit too vague, not searchable
+    "cta_optimization",       // CTA text not compelling
+    "label_clarity",          // Label text not clear or searchable
+  ]).describe("Category of SEO improvement made"),
+});
+
+const seoValidationIssueSchema = z.object({
+  field: z.string().describe("Field with validation issue"),
+  issue: z.string().describe("Description of the issue"),
+  severity: z.enum(["error", "warning", "info"]).describe("Issue severity"),
+});
+
+const seoScoreBreakdownSchema = z.object({
+  subtitleScore: z.number().min(0).max(15).describe("Subtitle/meta description quality (0-15)"),
+  introScore: z.number().min(0).max(25).describe("Main intro SEO quality (0-25)"),
+  keywordScore: z.number().min(0).max(20).describe("Keyword usage and density (0-20)"),
+  sectionIntrosScore: z.number().min(0).max(15).describe("Section intros SEO value (0-15)"),
+  localRelevanceScore: z.number().min(0).max(15).describe("Local SEO signals (0-15)"),
+  internalLinkingScore: z.number().min(0).max(10).describe("Internal link validity (0-10)"),
+});
+
+export const seoReviewerOutputSchema = writerOutputSchema.extend({
+  seoReview: z.object({
+    reviewedAt: z.string().datetime().describe("ISO 8601 timestamp of review"),
+    qualityScore: z.number().min(0).max(100).describe("SEO quality score 0-100"),
+    passedSEO: z.boolean().describe("True if qualityScore >= 70"),
+    changesLog: z.array(seoChangeLogSchema).describe("All modifications made by SEO reviewer"),
+    validationIssues: z.array(seoValidationIssueSchema).optional()
+      .describe("Issues found that couldn't be auto-fixed (e.g., invalid internal links)"),
+    scoreBreakdown: seoScoreBreakdownSchema.describe("Score breakdown by category"),
+  }),
+});
+
+export type SEOReviewerOutput = z.infer<typeof seoReviewerOutputSchema>;

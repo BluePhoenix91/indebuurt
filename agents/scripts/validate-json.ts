@@ -24,6 +24,7 @@ import {
   researcherOutputSchema,
   writerOutputSchema,
   finalOutputSchema,
+  seoReviewerOutputSchema,
 } from "./schemas.js";
 import type { ZodSchema } from "zod";
 
@@ -36,6 +37,7 @@ const schemas: Record<string, ZodSchema> = {
   researcher: researcherOutputSchema,
   writer: writerOutputSchema,
   final: finalOutputSchema,
+  "seo-reviewer": seoReviewerOutputSchema,
 };
 
 function printUsage(): void {
@@ -43,9 +45,10 @@ function printUsage(): void {
 Usage: npm run validate:json -- <schema> <file>
 
 Schemas:
-  researcher  - Validate against ResearcherOutput schema
-  writer      - Validate against WriterOutput schema
-  final       - Validate against FinalOutput schema (Content Collections)
+  researcher    - Validate against ResearcherOutput schema
+  writer        - Validate against WriterOutput schema
+  seo-reviewer  - Validate against SEOReviewerOutput schema
+  final         - Validate against FinalOutput schema (Content Collections)
 
 Examples:
   npm run validate:json -- researcher researcher/examples/gent-binnenstad.json

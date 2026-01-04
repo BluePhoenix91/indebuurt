@@ -1,0 +1,65 @@
+{
+  "$comment": "FontAwesome 6 icon mappings for Writer agent. Use these exact classes for consistency.",
+  "version": "1.0.0",
+
+  "poiIcons": {
+    "vet": "fa-solid fa-stethoscope",
+    "petStore": "fa-solid fa-bone",
+    "dogPark": "fa-solid fa-dog",
+    "park": "fa-solid fa-tree"
+  },
+
+  "distanceIcons": {
+    "walking": "fa-solid fa-person-walking",
+    "driving": "fa-solid fa-car"
+  },
+
+  "featureIcons": {
+    "fenced": "fa-solid fa-fence",
+    "water": "fa-solid fa-droplet",
+    "grass": "fa-solid fa-seedling",
+    "gravel": "fa-solid fa-circle-dot",
+    "mixed": "fa-solid fa-layer-group",
+    "lighting": "fa-solid fa-lightbulb",
+    "bench": "fa-solid fa-couch",
+    "shade": "fa-solid fa-umbrella-beach"
+  },
+
+  "labelIcons": {
+    "historic": "fa-solid fa-landmark",
+    "urban": "fa-solid fa-city",
+    "suburban": "fa-solid fa-house",
+    "rural": "fa-solid fa-tractor",
+    "green": "fa-solid fa-leaf",
+    "family": "fa-solid fa-people-roof",
+    "quiet": "fa-solid fa-volume-off",
+    "lively": "fa-solid fa-champagne-glasses",
+    "waterside": "fa-solid fa-water",
+    "transport": "fa-solid fa-train",
+    "shopping": "fa-solid fa-bag-shopping",
+    "student": "fa-solid fa-graduation-cap",
+    "residential": "fa-solid fa-house-chimney",
+    "industrial": "fa-solid fa-industry",
+    "mixed-use": "fa-solid fa-building"
+  },
+
+  "valueCardIcons": {
+    "dogParks": "fa-solid fa-dog",
+    "vets": "fa-solid fa-stethoscope",
+    "petStores": "fa-solid fa-bone",
+    "parks": "fa-solid fa-tree",
+    "supermarkets": "fa-solid fa-cart-shopping",
+    "pharmacies": "fa-solid fa-prescription-bottle-medical",
+    "transport": "fa-solid fa-bus",
+    "trainStations": "fa-solid fa-train",
+    "schools": "fa-solid fa-school",
+    "greenSpace": "fa-solid fa-leaf"
+  },
+
+  "usageNotes": {
+    "distanceIcon": "Use 'walking' for distances under 2km, 'driving' for longer distances",
+    "poiIcons": "Apply these to each POI entry in the respective arrays",
+    "labelIcons": "Select 2-5 labels that best characterize the neighborhood",
+    "valueCardIcons": "Match the card category to the appropriate icon"
+  }
+}

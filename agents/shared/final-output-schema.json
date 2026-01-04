@@ -394,16 +394,25 @@
               "type": "string"
             },
             "medianPrice": {
-              "type": "number"
+              "type": [
+                "number",
+                "null"
+              ]
             },
             "inhabitants": {
               "type": "number"
             },
             "availableHomes": {
-              "type": "number"
+              "type": [
+                "number",
+                "null"
+              ]
             },
             "pricePerSqm": {
-              "type": "number"
+              "type": [
+                "number",
+                "null"
+              ]
             }
           },
           "required": [

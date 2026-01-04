@@ -18,6 +18,7 @@ import {
   researcherOutputSchema,
   writerOutputSchema,
   finalOutputSchema,
+  seoReviewerOutputSchema,
 } from "./schemas.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -54,6 +55,14 @@ const schemas: SchemaConfig[] = [
     title: "NeighborhoodPage",
     description:
       "Final output schema matching Astro Content Collections. This is what gets saved to /web/src/content/neighborhoods/*.json",
+    version: "1.0.0",
+  },
+  {
+    schema: seoReviewerOutputSchema,
+    outputPath: "seo-reviewer/output-schema.json",
+    title: "SEOReviewerOutput",
+    description:
+      "Output schema for the SEO Reviewer agent. Extends WriterOutput with changes log, quality score, and SEO validation metadata.",
     version: "1.0.0",
   },
 ];

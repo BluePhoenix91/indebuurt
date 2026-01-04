@@ -11,17 +11,20 @@ This folder contains AI agent schemas and tooling for generating neighborhood co
 ## Common Tasks
 
 ### Regenerate JSON schemas after Zod changes
+
 ```bash
 cd agents
 npm run schemas:generate
 ```
 
 ### Validate schemas match Zod (CI check)
+
 ```bash
 npm run schemas:validate
 ```
 
 ### Validate a JSON file against a schema
+
 ```bash
 npm run validate:json -- researcher path/to/file.json
 npm run validate:json -- writer path/to/file.json
@@ -30,11 +33,11 @@ npm run validate:json -- final path/to/file.json
 
 ## Schema Responsibilities
 
-| Schema | Contains | Does NOT contain |
-|--------|----------|------------------|
-| **ResearcherOutput** | Factual data: POIs, coordinates, distances (meters), statistics, data sources | Icons, formatted distances, prose, narrative |
-| **WriterOutput** | All narrative content, icons, formatted distances ("4 mins"), editorial decisions | — |
-| **FinalOutput** | Must match `web/src/content/config.ts` exactly | — |
+| Schema               | Contains                                                                          | Does NOT contain                             |
+| -------------------- | --------------------------------------------------------------------------------- | -------------------------------------------- |
+| **ResearcherOutput** | Factual data: POIs, coordinates, distances (meters), statistics, data sources     | Icons, formatted distances, prose, narrative |
+| **WriterOutput**     | All narrative content, icons, formatted distances ("4 mins"), editorial decisions | —                                            |
+| **FinalOutput**      | Must match `web/src/content/config.ts` exactly                                    | —                                            |
 
 ## File Locations
 
@@ -55,3 +58,4 @@ npm run validate:json -- final path/to/file.json
 ## Detailed Documentation
 
 See [README.md](./README.md) for full documentation including versioning policy and CI integration.
+See [SEO-STRATEGY.md](./SEO-STRATEGY.md) for full documentation on SEO strategy.
