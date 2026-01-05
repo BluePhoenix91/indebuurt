@@ -130,14 +130,18 @@ If the manual process proves too slow, the architecture supports migration to AP
 **Context:** The existing `indebuurt_gis` database is configured as read-only via MCP. The pipeline needs write access to track job status, but we don't want to grant write access to GIS data. Solution: create a separate `indebuurt_pipeline` database.
 
 **Acceptance Criteria:**
-- [ ] New PostgreSQL database `indebuurt_pipeline` created
-- [ ] Database user `pipeline_user` created with read-write access to `indebuurt_pipeline`
-- [ ] User has NO access to `indebuurt_gis` (separation enforced)
-- [ ] MCP server configuration added to `settings.local.json`:
-  - Existing `postgres` server remains read-only for GIS
-  - New `postgres-pipeline` server with read-write for pipeline database
-- [ ] Connection tested: can INSERT/UPDATE/DELETE in pipeline database
-- [ ] SQL setup script stored in `agents/scripts/db/create-pipeline-database.sql`
+- [x] New PostgreSQL database `buurtkompas_pipeline` created
+- [x] Database user `buurtkompas_pipeline` created with read-write access
+- [x] User has NO access to `buurtkompas` GIS database (separation enforced)
+- [x] MCP server configuration added to `.mcp.json`:
+  - `gis` server (read-only) for GIS data
+  - `pipeline` server (read-write) using `mcp-postgres-full-access` package
+- [x] Connection tested: can INSERT/UPDATE/DELETE in pipeline database
+- [x] SQL setup scripts stored in `agents/scripts/db/`:
+  - `01-create-pipeline-database.sql`
+  - `02-create-pipeline-user.sql`
+  - `03-grant-pipeline-permissions.sql`
+- [x] README with setup instructions at `agents/scripts/db/README.md`
 
 ---
 
