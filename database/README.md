@@ -416,3 +416,7 @@ Then re-run the migrations.
 | Database | buurtkompas |
 | Read-only user | buurtkompas_readonly |
 | Read-only password | readonly_local_dev |
+
+## Related: Pipeline Database
+
+For the content generation pipeline (Epic J), there is a separate `buurtkompas_pipeline` database with read-write access. See [agents/scripts/db/README.md](../agents/scripts/db/README.md) for setup instructions.

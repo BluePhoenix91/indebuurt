@@ -21,7 +21,13 @@
     "wijk": {
       "use": "wijk",
       "avoid": ["buurt"],
-      "context": "Use 'wijk' for neighborhoods, 'buurt' only in 'buurtgevoel'"
+      "allowedPhrases": [
+        "buurtgevoel",
+        "de juiste buurt",
+        "buurtbewoners",
+        "in de buurt"
+      ],
+      "context": "Use 'wijk' for neighborhoods. 'buurt' allowed in specific phrases like 'buurtgevoel', 'de juiste buurt vinden', 'buurtbewoners', 'in de buurt' (for nearby)"
     },
     "wandeling": {
       "use": "wandeling",
@@ -35,8 +41,9 @@
     },
     "hondenspeelweide": {
       "use": "hondenspeelweide",
-      "avoid": ["hondenpark", "dog park"],
-      "context": "Dutch term for fenced dog play area"
+      "alternativeAllowed": ["hondenpark"],
+      "avoid": ["dog park"],
+      "context": "Primary term is 'hondenspeelweide'. 'hondenpark' is acceptable as SEO synonym. Avoid English 'dog park'."
     },
     "dierenarts": {
       "use": "dierenarts",

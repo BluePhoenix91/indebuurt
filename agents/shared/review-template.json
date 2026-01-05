@@ -1,0 +1,40 @@
+{
+  "$comment": "Human Review Template - Copy this file to agents/reviews/{neighborhood-id}-review.json and fill in",
+  "schemaVersion": "1.0.0",
+  "reviewedAt": "",
+  "reviewer": "",
+  "neighborhoodId": "",
+  "pipelineRunDate": "",
+
+  "stageReviews": {
+    "researcher": {
+      "dataAccuracy": 0,
+      "dataCompleteness": 0,
+      "notes": ""
+    },
+    "writer": {
+      "readability": 0,
+      "engagement": 0,
+      "brandVoice": 0,
+      "notes": ""
+    },
+    "seoReviewer": {
+      "keywordNaturalness": 0,
+      "metaQuality": 0,
+      "notes": ""
+    },
+    "brandReviewer": {
+      "terminologyCorrect": 0,
+      "toneConsistent": 0,
+      "localAuthenticity": 0,
+      "notes": ""
+    }
+  },
+
+  "overallScore": 0,
+  "publishReady": false,
+
+  "issuesFound": [],
+
+  "generalNotes": ""
+}

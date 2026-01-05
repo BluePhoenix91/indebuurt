@@ -1,78 +1,61 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2025-01-02T12:30:00Z",
-
+  "generatedAt": "2026-01-05T12:00:00Z",
   "neighborhoodId": "gent-mendonk",
-  "neighborhoodName": "MENDONK",
+  "neighborhoodName": "Mendonk",
   "city": "Gent",
-  "postalCode": "9000",
-
+  "postalCode": "9042",
   "centerCoordinates": {
     "lat": 51.150114543891,
     "lon": 3.8128151293252053
   },
-
   "boundingBox": {
     "north": 51.169871997089885,
     "south": 51.135440527374165,
     "east": 3.849341327201965,
     "west": 3.776526575321439
   },
-
   "vets": [
     {
       "name": "De Zaffelbeek",
-      "street": "Unknown",
-      "streetNumber": "",
-      "municipality": "Gent",
-      "postalCode": "9000",
-      "coordinates": {
-        "lat": 51.1324189,
-        "lon": 3.8623004
-      },
+      "street": "Overdam",
+      "streetNumber": "44",
+      "municipality": "Wachtebeke",
+      "postalCode": "9185",
+      "coordinates": { "lat": 51.1324189, "lon": 3.8623004 },
       "distanceMeters": 3984,
       "walkingTimeMinutes": 50,
       "source": "OSM 2024-12"
-    },
+    }
+  ],
+  "petStores": [
     {
-      "name": "Unnamed Vet",
-      "street": "Unknown",
-      "streetNumber": "",
-      "municipality": "Gent",
-      "postalCode": "9000",
-      "coordinates": {
-        "lat": 51.1996448,
-        "lon": 3.8134354
-      },
-      "distanceMeters": 5510,
-      "walkingTimeMinutes": 69,
+      "name": "Vogelparadijs Wachtebeke",
+      "street": "Kalve",
+      "streetNumber": "12",
+      "municipality": "Wachtebeke",
+      "postalCode": "9185",
+      "coordinates": { "lat": 51.1766518, "lon": 3.8415737 },
+      "distanceMeters": 3573,
+      "walkingTimeMinutes": 45,
       "source": "OSM 2024-12"
     },
     {
-      "name": "Frieda Erven",
-      "street": "Unknown",
-      "streetNumber": "",
-      "municipality": "Gent",
-      "postalCode": "9000",
-      "coordinates": {
-        "lat": 51.2002729,
-        "lon": 3.8097402
-      },
-      "distanceMeters": 5584,
-      "walkingTimeMinutes": 70,
+      "name": "Maxi Zoo Lochristi",
+      "street": "Bosdreef",
+      "streetNumber": "1A",
+      "municipality": "Lochristi",
+      "postalCode": "9080",
+      "coordinates": { "lat": 51.0970977, "lon": 3.8385171 },
+      "distanceMeters": 6167,
+      "walkingTimeMinutes": 77,
       "source": "OSM 2024-12"
     }
   ],
-
-  "petStores": [],
-
   "dogParks": [
     {
-      "name": "hondentoilet",
-      "coordinates": {
-        "lat": 51.1654214,
-        "lon": 3.8462281
-      },
+      "name": "Hondentoilet Wachtebeke",
+      "coordinates": { "lat": 51.1654214, "lon": 3.8462281 },
       "distanceMeters": 2892,
       "walkingTimeMinutes": 36,
       "isFenced": false,
@@ -80,40 +63,35 @@
       "source": "OSM 2024-12"
     },
     {
-      "name": "Kloosterbos",
-      "coordinates": {
-        "lat": 51.1778079,
-        "lon": 3.8391072
-      },
-      "distanceMeters": 3588,
-      "walkingTimeMinutes": 45,
-      "isFenced": false,
-      "hasWater": false,
+      "name": "Hondenzwemzone Puyenbroeck",
+      "coordinates": { "lat": 51.1477649, "lon": 3.8891737 },
+      "distanceMeters": 5349,
+      "walkingTimeMinutes": 67,
+      "isFenced": true,
+      "hasWater": true,
       "source": "OSM 2024-12"
     }
   ],
-
   "parks": [
     {
       "name": "Margaretapark",
-      "coordinates": {
-        "lat": 51.1481051,
-        "lon": 3.7751668
-      },
+      "coordinates": { "lat": 51.1481051, "lon": 3.7751668 },
       "distanceMeters": 2644,
       "source": "OSM 2024-12"
     },
     {
       "name": "Zuidledepark",
-      "coordinates": {
-        "lat": 51.1409725,
-        "lon": 3.7737483
-      },
+      "coordinates": { "lat": 51.1409725, "lon": 3.7737483 },
       "distanceMeters": 2917,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Provinciaal Domein Puyenbroeck",
+      "coordinates": { "lat": 51.1487911, "lon": 3.888625 },
+      "distanceMeters": 5307,
       "source": "OSM 2024-12"
     }
   ],
-
   "poiCounts": {
     "vets": 0,
     "petStores": 0,
@@ -125,7 +103,6 @@
     "busStops": 18,
     "trainStations": 0
   },
-
   "statistics": {
     "inhabitants": 1533,
     "medianHousePrice": 353000,
@@ -134,31 +111,29 @@
     "populationDensity": 162,
     "source": "Statbel 2024"
   },
-
   "context": {
     "neighboringNeighborhoods": [
-      { "id": "gent-rostijne", "name": "ROSTIJNE", "distanceMeters": 2339 },
-      { "id": "gent-desteldonk-dorp", "name": "DESTELDONK-DORP", "distanceMeters": 2665 },
-      { "id": "gent-langerbrugge", "name": "LANGERBRUGGE", "distanceMeters": 2794 },
-      { "id": "gent-rieme", "name": "RIEME", "distanceMeters": 3505 },
-      { "id": "gent-jfkennedylaan", "name": "J.F.KENNEDYLAAN", "distanceMeters": 4825 }
+      { "id": "gent-rostijne", "name": "Rostijne", "distanceMeters": 2339 },
+      { "id": "gent-desteldonk-dorp", "name": "Desteldonk-Dorp", "distanceMeters": 2665 },
+      { "id": "gent-langerbrugge", "name": "Langerbrugge", "distanceMeters": 2794 },
+      { "id": "gent-rieme", "name": "Rieme", "distanceMeters": 3505 },
+      { "id": "gent-jfkennedylaan", "name": "J.F.Kennedylaan", "distanceMeters": 4825 }
     ],
     "cityContext": {
       "name": "Gent",
       "totalNeighborhoods": 54
     }
   },
-
   "dataSources": [
     {
       "name": "OpenStreetMap",
       "date": "2024-12",
-      "coverage": "POIs, parks. Note: Very rural area with minimal POIs inside boundary - nearest options listed."
+      "coverage": "POIs, parks, dog parks. Note: Very sparse rural area - most POIs outside neighborhood boundary."
     },
     {
       "name": "Statbel",
       "date": "2024",
-      "coverage": "Population, house prices"
+      "coverage": "Population, house prices, population density"
     }
   ]
 }

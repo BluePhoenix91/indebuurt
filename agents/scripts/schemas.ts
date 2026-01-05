@@ -446,3 +446,120 @@ export const seoReviewerOutputSchema = writerOutputSchema.extend({
 });
 
 export type SEOReviewerOutput = z.infer<typeof seoReviewerOutputSchema>;
+
+// =============================================================================
+// BRAND REVIEWER OUTPUT SCHEMA
+// =============================================================================
+// The Brand Reviewer receives SEOReviewerOutput and:
+// - Validates terminology compliance (baasjes, hondenspeelweide, etc.)
+// - Checks tone consistency (friendly, second-person, not corporate)
+// - Verifies local authenticity (specific names, insider details)
+// - Assesses narrative naturalness (flows like prose, not a fact dump)
+// - Evaluates sparse data handling (graceful acknowledgment pattern)
+// - Logs all changes and outputs a quality score
+
+const brandChangeLogSchema = z.object({
+  field: z.string().describe("JSON path to the modified field, e.g., 'intro' or 'petStores.intro'"),
+  before: z.string().describe("Original text before modification"),
+  after: z.string().describe("Modified text after brand review"),
+  reason: z.enum([
+    "terminology_violation",      // Used avoided term (eigenaars instead of baasjes)
+    "tone_formal",                // Too corporate or formal (u kunt, men dient)
+    "tone_promotional",           // Too salesy (ontdek de mogelijkheden)
+    "missing_local_detail",       // Generic, not specific to neighborhood
+    "narrative_list_like",        // Reads like a list, not prose
+    "sparse_data_unhandled",      // Gap not acknowledged gracefully
+    "perspective_inconsistent",   // Mixed je/u/wij forms
+    "english_term_used",          // English where Dutch preferred
+  ]).describe("Category of brand improvement made"),
+});
+
+const brandValidationIssueSchema = z.object({
+  field: z.string().describe("Field with validation issue"),
+  issue: z.string().describe("Description of the issue"),
+  severity: z.enum(["error", "warning", "info"]).describe("Issue severity"),
+});
+
+const brandScoreBreakdownSchema = z.object({
+  terminologyScore: z.number().min(0).max(30).describe("Terminology compliance (0-30)"),
+  toneVoiceScore: z.number().min(0).max(25).describe("Tone and voice consistency (0-25)"),
+  localAuthenticityScore: z.number().min(0).max(20).describe("Local authenticity markers (0-20)"),
+  narrativeNaturalnessScore: z.number().min(0).max(15).describe("Narrative naturalness (0-15)"),
+  sparseDataHandlingScore: z.number().min(0).max(10).describe("Sparse data handling quality (0-10)"),
+});
+
+const brandTerminologyAnalysisSchema = z.object({
+  avoidedTermsFound: z.array(z.object({
+    term: z.string().describe("The avoided term that was found"),
+    field: z.string().describe("JSON path where the term was found"),
+    preferred: z.string().describe("The preferred term to use instead"),
+  })).describe("List of terminology violations detected"),
+  preferredTermsPresent: z.array(z.string())
+    .describe("List of preferred terms correctly used in content"),
+  allowedExceptionsUsed: z.array(z.string())
+    .describe("List of allowed exception phrases used (e.g., 'buurtgevoel')"),
+});
+
+const brandToneAnalysisSchema = z.object({
+  perspectiveForm: z.enum(["je_jouw", "u", "wij", "mixed"])
+    .describe("Dominant perspective form used in content"),
+  formalPhrasesFound: z.array(z.string())
+    .describe("Formal/corporate phrases detected (e.g., 'u kunt', 'men dient')"),
+  promotionalPhrasesFound: z.array(z.string())
+    .describe("Promotional phrases detected (e.g., 'ontdek de mogelijkheden')"),
+  friendlyMarkersCount: z.number()
+    .describe("Count of friendly tone markers (je vindt, handig voor, etc.)"),
+});
+
+const brandLocalAuthenticityAnalysisSchema = z.object({
+  uniquePlaceNamesCount: z.number()
+    .describe("Count of unique POI/street names mentioned in narrative"),
+  localTipsFound: z.array(z.string())
+    .describe("Local tips detected (e.g., 'via de Coupure', 'richting de waterkant')"),
+  neighborhoodObservations: z.array(z.string())
+    .describe("Neighborhood-specific observations detected"),
+});
+
+const brandNarrativeNaturalnessAnalysisSchema = z.object({
+  sentenceStartVariety: z.number().min(0).max(1)
+    .describe("Score 0-1 indicating variety in sentence starters"),
+  averageSentenceLength: z.number()
+    .describe("Average sentence length in words"),
+  listLikePatternsFound: z.number()
+    .describe("Count of list-like patterns (e.g., 'Er zijn X. Er zijn Y.')"),
+});
+
+const brandSparseDataAnalysisSchema = z.object({
+  gapsDetected: z.array(z.string())
+    .describe("Data gaps detected (e.g., 'no pet store in neighborhood')"),
+  gapsHandledGracefully: z.number()
+    .describe("Count of gaps handled with acknowledgment + pivot + alternative"),
+  gapsHandledPoorly: z.number()
+    .describe("Count of gaps handled poorly (just 'helaas geen...')"),
+});
+
+const brandAnalysisSchema = z.object({
+  terminology: brandTerminologyAnalysisSchema,
+  tone: brandToneAnalysisSchema,
+  localAuthenticity: brandLocalAuthenticityAnalysisSchema,
+  narrativeNaturalness: brandNarrativeNaturalnessAnalysisSchema,
+  sparseDataHandling: brandSparseDataAnalysisSchema,
+});
+
+export const brandReviewerOutputSchema = seoReviewerOutputSchema.extend({
+  brandReview: z.object({
+    reviewedAt: z.string().datetime().describe("ISO 8601 timestamp of review"),
+    qualityScore: z.number().min(0).max(100).describe("Brand quality score 0-100"),
+    passedBrand: z.boolean().describe("True if qualityScore >= 70"),
+    changesLog: z.array(brandChangeLogSchema)
+      .describe("All modifications made by Brand reviewer"),
+    validationIssues: z.array(brandValidationIssueSchema).optional()
+      .describe("Issues found that require human review"),
+    scoreBreakdown: brandScoreBreakdownSchema
+      .describe("Score breakdown by category"),
+    analysis: brandAnalysisSchema
+      .describe("Detailed analysis for debugging and feedback"),
+  }),
+});
+
+export type BrandReviewerOutput = z.infer<typeof brandReviewerOutputSchema>;

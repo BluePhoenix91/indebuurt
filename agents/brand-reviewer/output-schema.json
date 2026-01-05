@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://indebuurt.be/schemas/seo-reviewer/output-schema.json",
-  "title": "SEOReviewerOutput",
-  "description": "Output schema for the SEO Reviewer agent. Extends WriterOutput with changes log, quality score, and SEO validation metadata.",
+  "$id": "https://indebuurt.be/schemas/brand-reviewer/output-schema.json",
+  "title": "BrandReviewerOutput",
+  "description": "Output schema for the Brand Reviewer agent. Extends SEOReviewerOutput with terminology compliance, tone analysis, and brand quality score.",
   "version": "1.0.0",
-  "$ref": "#/definitions/SEOReviewerOutput",
+  "$ref": "#/definitions/BrandReviewerOutput",
   "definitions": {
-    "SEOReviewerOutput": {
+    "BrandReviewerOutput": {
       "type": "object",
       "properties": {
         "schemaVersion": {
@@ -660,6 +660,339 @@
             "scoreBreakdown"
           ],
           "additionalProperties": false
+        },
+        "brandReview": {
+          "type": "object",
+          "properties": {
+            "reviewedAt": {
+              "type": "string",
+              "format": "date-time",
+              "description": "ISO 8601 timestamp of review"
+            },
+            "qualityScore": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Brand quality score 0-100"
+            },
+            "passedBrand": {
+              "type": "boolean",
+              "description": "True if qualityScore >= 70"
+            },
+            "changesLog": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "description": "JSON path to the modified field, e.g., 'intro' or 'petStores.intro'"
+                  },
+                  "before": {
+                    "type": "string",
+                    "description": "Original text before modification"
+                  },
+                  "after": {
+                    "type": "string",
+                    "description": "Modified text after brand review"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "enum": [
+                      "terminology_violation",
+                      "tone_formal",
+                      "tone_promotional",
+                      "missing_local_detail",
+                      "narrative_list_like",
+                      "sparse_data_unhandled",
+                      "perspective_inconsistent",
+                      "english_term_used"
+                    ],
+                    "description": "Category of brand improvement made"
+                  }
+                },
+                "required": [
+                  "field",
+                  "before",
+                  "after",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "description": "All modifications made by Brand reviewer"
+            },
+            "validationIssues": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "description": "Field with validation issue"
+                  },
+                  "issue": {
+                    "type": "string",
+                    "description": "Description of the issue"
+                  },
+                  "severity": {
+                    "type": "string",
+                    "enum": [
+                      "error",
+                      "warning",
+                      "info"
+                    ],
+                    "description": "Issue severity"
+                  }
+                },
+                "required": [
+                  "field",
+                  "issue",
+                  "severity"
+                ],
+                "additionalProperties": false
+              },
+              "description": "Issues found that require human review"
+            },
+            "scoreBreakdown": {
+              "type": "object",
+              "properties": {
+                "terminologyScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 30,
+                  "description": "Terminology compliance (0-30)"
+                },
+                "toneVoiceScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 25,
+                  "description": "Tone and voice consistency (0-25)"
+                },
+                "localAuthenticityScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 20,
+                  "description": "Local authenticity markers (0-20)"
+                },
+                "narrativeNaturalnessScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 15,
+                  "description": "Narrative naturalness (0-15)"
+                },
+                "sparseDataHandlingScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "description": "Sparse data handling quality (0-10)"
+                }
+              },
+              "required": [
+                "terminologyScore",
+                "toneVoiceScore",
+                "localAuthenticityScore",
+                "narrativeNaturalnessScore",
+                "sparseDataHandlingScore"
+              ],
+              "additionalProperties": false,
+              "description": "Score breakdown by category"
+            },
+            "analysis": {
+              "type": "object",
+              "properties": {
+                "terminology": {
+                  "type": "object",
+                  "properties": {
+                    "avoidedTermsFound": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "term": {
+                            "type": "string",
+                            "description": "The avoided term that was found"
+                          },
+                          "field": {
+                            "type": "string",
+                            "description": "JSON path where the term was found"
+                          },
+                          "preferred": {
+                            "type": "string",
+                            "description": "The preferred term to use instead"
+                          }
+                        },
+                        "required": [
+                          "term",
+                          "field",
+                          "preferred"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "description": "List of terminology violations detected"
+                    },
+                    "preferredTermsPresent": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "List of preferred terms correctly used in content"
+                    },
+                    "allowedExceptionsUsed": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "List of allowed exception phrases used (e.g., 'buurtgevoel')"
+                    }
+                  },
+                  "required": [
+                    "avoidedTermsFound",
+                    "preferredTermsPresent",
+                    "allowedExceptionsUsed"
+                  ],
+                  "additionalProperties": false
+                },
+                "tone": {
+                  "type": "object",
+                  "properties": {
+                    "perspectiveForm": {
+                      "type": "string",
+                      "enum": [
+                        "je_jouw",
+                        "u",
+                        "wij",
+                        "mixed"
+                      ],
+                      "description": "Dominant perspective form used in content"
+                    },
+                    "formalPhrasesFound": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Formal/corporate phrases detected (e.g., 'u kunt', 'men dient')"
+                    },
+                    "promotionalPhrasesFound": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Promotional phrases detected (e.g., 'ontdek de mogelijkheden')"
+                    },
+                    "friendlyMarkersCount": {
+                      "type": "number",
+                      "description": "Count of friendly tone markers (je vindt, handig voor, etc.)"
+                    }
+                  },
+                  "required": [
+                    "perspectiveForm",
+                    "formalPhrasesFound",
+                    "promotionalPhrasesFound",
+                    "friendlyMarkersCount"
+                  ],
+                  "additionalProperties": false
+                },
+                "localAuthenticity": {
+                  "type": "object",
+                  "properties": {
+                    "uniquePlaceNamesCount": {
+                      "type": "number",
+                      "description": "Count of unique POI/street names mentioned in narrative"
+                    },
+                    "localTipsFound": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Local tips detected (e.g., 'via de Coupure', 'richting de waterkant')"
+                    },
+                    "neighborhoodObservations": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Neighborhood-specific observations detected"
+                    }
+                  },
+                  "required": [
+                    "uniquePlaceNamesCount",
+                    "localTipsFound",
+                    "neighborhoodObservations"
+                  ],
+                  "additionalProperties": false
+                },
+                "narrativeNaturalness": {
+                  "type": "object",
+                  "properties": {
+                    "sentenceStartVariety": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1,
+                      "description": "Score 0-1 indicating variety in sentence starters"
+                    },
+                    "averageSentenceLength": {
+                      "type": "number",
+                      "description": "Average sentence length in words"
+                    },
+                    "listLikePatternsFound": {
+                      "type": "number",
+                      "description": "Count of list-like patterns (e.g., 'Er zijn X. Er zijn Y.')"
+                    }
+                  },
+                  "required": [
+                    "sentenceStartVariety",
+                    "averageSentenceLength",
+                    "listLikePatternsFound"
+                  ],
+                  "additionalProperties": false
+                },
+                "sparseDataHandling": {
+                  "type": "object",
+                  "properties": {
+                    "gapsDetected": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Data gaps detected (e.g., 'no pet store in neighborhood')"
+                    },
+                    "gapsHandledGracefully": {
+                      "type": "number",
+                      "description": "Count of gaps handled with acknowledgment + pivot + alternative"
+                    },
+                    "gapsHandledPoorly": {
+                      "type": "number",
+                      "description": "Count of gaps handled poorly (just 'helaas geen...')"
+                    }
+                  },
+                  "required": [
+                    "gapsDetected",
+                    "gapsHandledGracefully",
+                    "gapsHandledPoorly"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "terminology",
+                "tone",
+                "localAuthenticity",
+                "narrativeNaturalness",
+                "sparseDataHandling"
+              ],
+              "additionalProperties": false,
+              "description": "Detailed analysis for debugging and feedback"
+            }
+          },
+          "required": [
+            "reviewedAt",
+            "qualityScore",
+            "passedBrand",
+            "changesLog",
+            "scoreBreakdown",
+            "analysis"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [
@@ -684,7 +1017,8 @@
         "contributionCTA",
         "statistics",
         "houses",
-        "seoReview"
+        "seoReview",
+        "brandReview"
       ],
       "additionalProperties": false
     }

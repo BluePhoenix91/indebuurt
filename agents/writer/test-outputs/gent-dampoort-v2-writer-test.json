@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-05T12:00:00.000Z",
+  "id": "gent-dampoort",
+  "city": "Gent",
+  "name": "Dampoort",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Dampoort: compact, goed bereikbaar en groen op wandelafstand — met ruimte voor je hond in Gent",
+  "dateAdded": "2026-01-05",
+  "inhabitants": 5572,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    },
+    {
+      "text": "Parken in de buurt",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    }
+  ],
+  "intro": "Dampoort is een compacte, levendige wijk in het oosten van Gent waar je als baasje vlot je weg vindt. De wijk dankt zijn naam aan de historische stadspoort en combineert stedelijke drukte met verrassend veel groen. Met een bevolkingsdichtheid van bijna 6.000 inwoners per vierkante kilometer is dit duidelijk een stadswijk, maar dat weerhoudt baasjes er niet van om hier een fijne thuisbasis te vinden.\n\nVoor dagelijkse wandelingen heb je keuze uit zes parken in de directe omgeving. La Sapinière en het Cirkelspark liggen richting het noorden, terwijl je zuidwaarts het Bijgaardepark en Wolterspark vindt. Deze variatie maakt het makkelijk om je routes af te wisselen en je viervoeter telkens nieuwe geuren te laten ontdekken.\n\nDe Hondenweide Dampoort vormt het hart van de hondengemeenschap in deze wijk. Op 12 minuten wandelen vanaf het centrum bereik je deze omheinde speelweide met grasondergrond. Hier kan je hond los rennen en spelen met andere wijkbewoners. De omheining biedt gemoedsrust, al is er geen drinkwatervoorziening aanwezig — neem dus zelf een flesje mee op warme dagen.\n\nMedische zorg voor je viervoeter is goed geregeld. Dierenarts Tania Maenhout aan de Hogeweg 203 bereik je in slechts 7 minuten te voet. Dat is praktisch voor reguliere checkups en biedt geruststelling voor als je hond onverwacht zorg nodig heeft.\n\nEen eerlijk minpunt: de dichtstbijzijnde dierenwinkel ligt op 16 minuten wandelen. Tom & Co aan de Dendermondsesteenweg is de enige optie in de directe omgeving. Gelukkig compenseren de vijf supermarkten in de wijk dit deels — voor basisbenodigdheden hoef je niet ver. Voor specialistische hondenvoeding of speelgoed plan je best een gerichte trip, of bestel je online.\n\nDe bereikbaarheid van Dampoort is uitstekend. Met 37 bushaltes en een treinstation ben je snel in het centrum van Gent of verder. Dit maakt het ook makkelijk om met je hond uitstapjes te maken naar grotere parken of natuurgebieden buiten de stad. Station Gent-Dampoort ligt op loopafstand en biedt rechtstreekse verbindingen naar Brussel, Antwerpen en de kust.\n\nDe woningmarkt in Dampoort reflecteert de stadse ligging. Met een mediane woningprijs van 353.000 euro ligt de wijk in de middenmoot voor Gent. De 5.572 inwoners leven in een mix van rijwoningen, appartementen en enkele grotere herenhuizen. Voor wie een tuin zoekt, is het aanbod beperkt — de meeste woningen hebben hoogstens een stadstuintje of terras.\n\nDampoort past bij baasjes die het stadsleven omarmen maar niet willen inboeten op groen. Je vindt hier een goede balans tussen bereikbaarheid, voorzieningen en wandelmogelijkheden. De wijk vraagt wel enige flexibiliteit: voor uitgebreide hondenbenodigdheden moet je wat verder, en een grote eigen tuin is eerder uitzondering dan regel. Maar wie dat accepteert, vindt in Dampoort een aangename thuisbasis voor mens en hond.",
+  "coordinates": {
+    "lat": 51.06431646909582,
+    "lon": 3.7469291442159034,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "12 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Hondenweide Dampoort met omheining en grasveld",
+      "detail": "Ideaal voor sociale honden"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dierenarts Tania Maenhout aan de Hogeweg",
+      "detail": "Snel bereikbaar voor noodgevallen"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "16 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co aan de Dendermondsesteenweg",
+      "detail": "Ruim assortiment dierenbenodigdheden"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "11 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 parken binnen wandelafstand",
+      "detail": "Gevarieerde wandelroutes mogelijk"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 supermarkten in de wijk",
+      "detail": "Basisbenodigdheden altijd dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "37 bushaltes en 1 treinstation",
+      "detail": "Uitstekende verbindingen"
+    }
+  ],
+  "facilities": {
+    "intro": "Dampoort biedt een compacte maar complete set voorzieningen voor baasjes. De wijk heeft een omheinde hondenspeelweide, een dierenarts op korte loopafstand, en zes parken voor dagelijkse wandelingen. De dierenwinkel ligt wat verder, maar de goede bereikbaarheid en aanwezigheid van supermarkten compenseren dit deels."
+  },
+  "dogParks": {
+    "intro": "De Hondenweide Dampoort is de vaste ontmoetingsplek voor baasjes in deze wijk. De omheinde weide met grasondergrond biedt een veilige ruimte waar je hond vrij kan spelen. Let op: er is geen drinkwatervoorziening, dus neem zelf water mee.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide Dampoort",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.072154,
+          "lon": 3.7516795
+        },
+        "features": [
+          {
+            "text": "Omheind",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Met dierenarts Tania Maenhout op slechts 7 minuten wandelen heb je snelle toegang tot medische zorg voor je viervoeter. De praktijk aan de Hogeweg is goed bereikbaar vanuit heel Dampoort.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "De dichtstbijzijnde dierenwinkel is Tom & Co aan de Dendermondsesteenweg, op 16 minuten wandelen. Dat is wat verder dan ideaal, maar de winkel biedt een ruim assortiment voor al je hondenbenodigdheden. Voor basisvoeding kun je ook terecht bij de vijf supermarkten in de wijk.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met een hond in Dampoort",
+    "intro": "Een typische dag als baasje in Dampoort begint met een ochtendwandeling naar een van de zes parken in de omgeving. De variatie aan routes houdt het interessant voor zowel jou als je hond. In het weekend maak je de wandeling naar de Hondenweide Dampoort waar je viervoeter los kan rennen. De uitstekende bereikbaarheid via bus en trein maakt uitstapjes naar grotere natuurgebieden buiten Gent eenvoudig.",
+    "benefits": [
+      "Zes parken binnen wandelafstand voor gevarieerde routes",
+      "Omheinde hondenspeelweide op 12 minuten",
+      "Dierenarts bereikbaar in 7 minuten te voet",
+      "37 bushaltes en treinstation voor uitstapjes",
+      "Vijf supermarkten voor dagelijkse boodschappen",
+      "Compacte wijk waar alles op loopafstand ligt"
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Woon je in Dampoort of kom je hier regelmatig met je hond? Deel je ervaringen en help andere baasjes de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Dampoort is een compacte stadswijk met bijna 6.000 inwoners per vierkante kilometer. De woningprijzen liggen in de middenmoot voor Gent, wat de wijk toegankelijk maakt voor verschillende budgetten.",
+    "medianPrice": 353000,
+    "inhabitants": 5572,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Dampoort? De wijk valt onder postcode 9000, die je deelt met het centrum van Gent en omliggende wijken. Filter op deze postcode en verfijn je zoekopdracht op basis van jouw wensen.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-groot-begijnhof",
+    "gent-afrikalaan",
+    "gent-blaisantvest",
+    "gent-heernis",
+    "gent-wissenhagestraat"
+  ]
+}

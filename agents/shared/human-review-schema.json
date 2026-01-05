@@ -1,0 +1,234 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://indebuurt.be/schemas/shared/human-review-schema.json",
+  "title": "HumanReview",
+  "description": "Schema for human quality reviews of agent-generated content. Used during manual testing (Story I6) to rate accuracy, readability, and brand compliance.",
+  "version": "1.0.0",
+  "$ref": "#/definitions/HumanReview",
+  "definitions": {
+    "HumanReview": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "const": "1.0.0",
+          "description": "Schema version for compatibility"
+        },
+        "reviewedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of review"
+        },
+        "reviewer": {
+          "type": "string",
+          "description": "Name or identifier of the reviewer"
+        },
+        "neighborhoodId": {
+          "type": "string",
+          "description": "ID of the neighborhood being reviewed"
+        },
+        "pipelineRunDate": {
+          "type": "string",
+          "description": "Date when the pipeline was run (for traceability)"
+        },
+        "stageReviews": {
+          "type": "object",
+          "properties": {
+            "researcher": {
+              "type": "object",
+              "properties": {
+                "dataAccuracy": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=major errors, 5=fully accurate data"
+                },
+                "dataCompleteness": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=missing key data, 5=comprehensive coverage"
+                },
+                "notes": {
+                  "type": "string",
+                  "description": "Specific observations about data quality"
+                }
+              },
+              "required": [
+                "dataAccuracy",
+                "dataCompleteness"
+              ],
+              "additionalProperties": false
+            },
+            "writer": {
+              "type": "object",
+              "properties": {
+                "readability": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=hard to read, 5=flows naturally"
+                },
+                "engagement": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=boring/generic, 5=compelling and specific"
+                },
+                "brandVoice": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=off-brand, 5=perfectly matches brand voice"
+                },
+                "notes": {
+                  "type": "string",
+                  "description": "Specific observations about content quality"
+                }
+              },
+              "required": [
+                "readability",
+                "engagement",
+                "brandVoice"
+              ],
+              "additionalProperties": false
+            },
+            "seoReviewer": {
+              "type": "object",
+              "properties": {
+                "keywordNaturalness": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=feels stuffed, 5=keywords feel natural"
+                },
+                "metaQuality": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=poor subtitle/meta, 5=compelling and optimized"
+                },
+                "notes": {
+                  "type": "string",
+                  "description": "Specific observations about SEO quality"
+                }
+              },
+              "required": [
+                "keywordNaturalness",
+                "metaQuality"
+              ],
+              "additionalProperties": false
+            },
+            "brandReviewer": {
+              "type": "object",
+              "properties": {
+                "terminologyCorrect": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=wrong terms used, 5=perfect terminology"
+                },
+                "toneConsistent": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=inconsistent tone, 5=consistent friendly tone"
+                },
+                "localAuthenticity": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "1=generic content, 5=feels authentically local"
+                },
+                "notes": {
+                  "type": "string",
+                  "description": "Specific observations about brand compliance"
+                }
+              },
+              "required": [
+                "terminologyCorrect",
+                "toneConsistent",
+                "localAuthenticity"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false,
+          "description": "Per-stage quality ratings"
+        },
+        "overallScore": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "Overall quality: 1=poor, 3=acceptable, 5=excellent"
+        },
+        "publishReady": {
+          "type": "boolean",
+          "description": "True if content is ready to publish without changes"
+        },
+        "issuesFound": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "stage": {
+                "type": "string",
+                "enum": [
+                  "researcher",
+                  "writer",
+                  "seo-reviewer",
+                  "brand-reviewer"
+                ],
+                "description": "Which agent stage the issue was found in"
+              },
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "minor",
+                  "major",
+                  "blocker"
+                ],
+                "description": "minor=cosmetic, major=needs fix, blocker=can't publish"
+              },
+              "description": {
+                "type": "string",
+                "description": "Clear description of the issue"
+              },
+              "suggestedFix": {
+                "type": "string",
+                "description": "How to fix this issue"
+              },
+              "promptFixApplied": {
+                "type": "boolean",
+                "description": "True if a prompt change was made to address this"
+              }
+            },
+            "required": [
+              "stage",
+              "severity",
+              "description"
+            ],
+            "additionalProperties": false
+          },
+          "description": "List of issues discovered during review"
+        },
+        "generalNotes": {
+          "type": "string",
+          "description": "Any additional observations or recommendations"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "reviewedAt",
+        "reviewer",
+        "neighborhoodId",
+        "pipelineRunDate",
+        "stageReviews",
+        "overallScore",
+        "publishReady",
+        "issuesFound"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

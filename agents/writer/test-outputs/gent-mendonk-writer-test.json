@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-05T10:00:00Z",
+  "id": "gent-mendonk",
+  "city": "Gent",
+  "name": "Mendonk",
+  "postalCode": "9042",
+  "subtitle": "Landelijk wonen met uitgestrekte velden voor lange wandelingen en het unieke Puyenbroeck op rijafstand",
+  "dateAdded": "2026-01-05",
+  "inhabitants": 1533,
+  "labels": [
+    { "text": "Landelijk", "icon": "fa-solid fa-wheat-awn" },
+    { "text": "Ruime open ruimte", "icon": "fa-solid fa-expand" },
+    { "text": "Rustig", "icon": "fa-solid fa-volume-low" },
+    { "text": "Auto nodig", "icon": "fa-solid fa-car" }
+  ],
+  "intro": "Mendonk is een landelijk dorpje aan de noordrand van Gent, waar weidse akkers en polderlandschappen het straatbeeld domineren. Met ruim 9 vierkante kilometer oppervlakte en slechts 162 inwoners per vierkante kilometer biedt deze wijk een zeldzame combinatie van rust en ruimte binnen de Gentse gemeentegrenzen. Hier vind je geen drukte van de stad, maar wel kilometers aan veldwegen en groene paden die zich uitstrekken tot aan de horizon.\n\nVoor je dagelijkse routine betekent dit: lange wandelingen zonder verkeersdrukte, met je viervoeter vrij naast je over onverharde wegen. De akkers en weilanden rondom het dorp zijn ideaal voor wie houdt van uitgebreide tochten in alle rust. Het landelijke karakter zorgt ervoor dat je zelden andere wandelaars tegenkomt, wat voor sommige honden een groot voordeel is.\n\nDe keerzijde van dit landelijke paradijs is dat voorzieningen niet om de hoek liggen. In de wijk zelf vind je geen dierenarts, dierenwinkel of officieel hondenpark. Dat vraagt om wat meer planning. De dichtstbijzijnde dierenarts, De Zaffelbeek in Wachtebeke, ligt op 4 kilometer afstand. Voor dierenvoeding kun je terecht bij Vogelparadijs Wachtebeke op 3,6 kilometer of bij de grotere Maxi Zoo in Lochristi voor een uitgebreider assortiment.\n\nWat Mendonk echter uniek maakt voor baasjes is de nabijheid van Provinciaal Domein Puyenbroeck. Dit uitgestrekte recreatiedomein op 5 kilometer afstand biedt niet alleen kilometerslange wandelpaden, maar ook de Hondenzwemzone: een omheinde zone waar je hond veilig kan zwemmen en ravotten. Dit is een zeldzaamheid in de regio en compenseert ruimschoots het gebrek aan voorzieningen in de directe omgeving.\n\nQua mobiliteit ben je in Mendonk aangewezen op de auto voor de meeste boodschappen en voorzieningen. De wijk telt wel 18 bushaltes, maar de frequentie en verbindingen zijn typisch voor een landelijk gebied. Voor wie werkt in de Gentse haven of industriezone is de ligging gunstig, met snelle toegang via de N474.\n\nMet een mediaanprijs van 353.000 euro voor een woning koop je hier nog relatief betaalbaar vergeleken met centraal Gent. De 1.533 inwoners vormen een hechte dorpsgemeenschap waar buren elkaar nog kennen. Mendonk past bij baasjes die bewust kiezen voor rust boven bereikbaarheid, die lange wandelingen verkiezen boven korte blokjes, en die bereid zijn om voor specifieke voorzieningen de auto te nemen. Ben je iemand die dagelijks te voet boodschappen wil doen of die een dierenarts om de hoek verwacht, dan is deze wijk waarschijnlijk niet de juiste match.",
+  "coordinates": {
+    "lat": 51.150114543891,
+    "lon": 3.8128151293252053,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-water",
+      "title": "Hondenzwemzone",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-car",
+      "description": "Unieke zwemzone in Puyenbroeck",
+      "detail": "Omheind, veilig zwemwater"
+    },
+    {
+      "icon": "fa-solid fa-wheat-awn",
+      "title": "Open landschap",
+      "distance": "direct",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Kilometers veldwegen en paden",
+      "detail": "Ideaal voor lange wandelingen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-car",
+      "description": "De Zaffelbeek in Wachtebeke",
+      "detail": "4 km afstand"
+    },
+    {
+      "icon": "fa-solid fa-store",
+      "title": "Dierenwinkel",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-car",
+      "description": "Vogelparadijs Wachtebeke",
+      "detail": "3,6 km afstand"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Puyenbroeck",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-car",
+      "description": "Provinciaal recreatiedomein",
+      "detail": "Uitgestrekte wandelpaden"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "in de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "18 bushaltes",
+      "detail": "Landelijke frequentie"
+    }
+  ],
+  "facilities": {
+    "intro": "Mendonk is een uitgesproken landelijke wijk waar voorzieningen voor hond en baasje niet binnen de wijkgrenzen liggen. De kracht van deze omgeving zit in de uitgestrekte natuur en open ruimte die direct vanuit je voordeur toegankelijk is. Voor specifieke diensten zoals een dierenarts of dierenwinkel rijd je naar de omliggende kernen Wachtebeke of Lochristi, beide binnen 10 minuten met de auto."
+  },
+  "dogParks": {
+    "intro": "Binnen Mendonk zelf vind je geen officieel hondenpark. Maar eerlijk gezegd heb je die in dit landelijke gebied nauwelijks nodig: de uitgestrekte velden, polderwegen en groene paden bieden kilometers wandelruimte waar je je hond in alle rust kunt uitlaten. Voor wie toch een omheinde ruimte zoekt, ligt op 2,9 kilometer het Hondentoilet Wachtebeke. De echte troef in de regio is echter de Hondenzwemzone in Puyenbroeck: een omheinde zone met veilig zwemwater, perfect voor warme dagen.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondentoilet Wachtebeke",
+        "distance": "36 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.1654214, "lon": 3.8462281 },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-water",
+        "name": "Hondenzwemzone Puyenbroeck",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-car",
+        "coordinates": { "lat": 51.1477649, "lon": 3.8891737 },
+        "features": [
+          { "text": "Omheind terrein", "icon": "fa-solid fa-fence" },
+          { "text": "Zwemwater", "icon": "fa-solid fa-water" }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "De dichtstbijzijnde dierenarts ligt niet in Mendonk zelf, maar in het nabijgelegen Wachtebeke. Dierenkliniek De Zaffelbeek aan Overdam 44 is met 4 kilometer de meest nabije optie. Per auto ben je er binnen 10 minuten. Voor spoedgevallen is het verstandig om dit adres en telefoonnummer bij de hand te hebben.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Zaffelbeek",
+        "street": "Overdam",
+        "streetNumber": "44",
+        "municipality": "Wachtebeke",
+        "postalCode": "9185",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-car",
+        "coordinates": { "lat": 51.1324189, "lon": 3.8623004 }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor hondenvoeding en benodigdheden ben je aangewezen op winkels buiten de wijk. De dichtstbijzijnde optie is Vogelparadijs Wachtebeke op 3,6 kilometer, een gespecialiseerde dierenwinkel. Voor een groter assortiment en bekende merken biedt Maxi Zoo in Lochristi (6 km) meer keuze. Praktisch gezien combineer je dit met andere boodschappen in Lochristi of Wachtebeke.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-store",
+        "name": "Vogelparadijs Wachtebeke",
+        "street": "Kalve",
+        "streetNumber": "12",
+        "municipality": "Wachtebeke",
+        "postalCode": "9185",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-car",
+        "coordinates": { "lat": 51.1766518, "lon": 3.8415737 }
+      },
+      {
+        "icon": "fa-solid fa-store",
+        "name": "Maxi Zoo Lochristi",
+        "street": "Bosdreef",
+        "streetNumber": "1A",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-car",
+        "coordinates": { "lat": 51.0970977, "lon": 3.8385171 }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Mendonk",
+    "intro": "Een typische dag als baasje in Mendonk begint met rust. Je stapt je voordeur uit en binnen enkele minuten loop je op onverharde veldwegen tussen akkers en weilanden. Geen verkeer, geen drukte, alleen het geluid van de wind en af en toe een passerende tractor. Je ochtendwandeling kan hier een uur duren zonder dat je dezelfde route hoeft te lopen. De avondwandeling biedt wijdse vergezichten over het polderlandschap terwijl de zon ondergaat.",
+    "benefits": [
+      "De uitgestrekte velden en polderwegen rondom Mendonk bieden onbeperkte wandelmogelijkheden. Geen drukke straten of smalle voetpaden, maar kilometers aan groene ruimte waar je hond naar hartenlust kan snuffelen en rennen langs je zijde.",
+      "Met slechts 162 inwoners per vierkante kilometer is Mendonk ideaal voor honden die moeite hebben met drukte of veel prikkels. De kans dat je andere honden of wandelaars tegenkomt is klein, wat voor reactieve honden een groot voordeel is.",
+      "De Hondenzwemzone in Provinciaal Domein Puyenbroeck op 5 kilometer afstand is uniek in de regio. Een omheinde zone met veilig zwemwater waar je hond kan afkoelen en ravotten, perfect voor warme zomerdagen.",
+      "De rust en ruimte van Mendonk zorgen voor een stressvrije omgeving voor zowel hond als baasje. Geen geluidsoverlast van verkeer of buren, geen smalle appartementsgangen of liften met andere honden.",
+      "De relatief betaalbare woningprijzen (mediaan 353.000 euro) maken het mogelijk om hier een huis met tuin te kopen, in tegenstelling tot de kleinere stadsappartementen voor dezelfde prijs in centraal Gent."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Mendonk is een uitgestrekte landelijke wijk met 1.533 inwoners verspreid over bijna 10 vierkante kilometer.",
+    "medianPrice": 353000,
+    "inhabitants": 1533,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Mendonk? Filter op postcode 9042 om woningen in dit landelijke deel van Gent te vinden. Het aanbod bestaat voornamelijk uit vrijstaande huizen en hoeves met ruime tuinen.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-rostijne",
+    "gent-desteldonk-dorp",
+    "gent-langerbrugge",
+    "gent-rieme",
+    "gent-jfkennedylaan"
+  ]
+}

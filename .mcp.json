@@ -1,12 +1,21 @@
 {
   "mcpServers": {
-    "postgres": {
+    "gis": {
       "type": "stdio",
       "command": "npx",
       "args": [
         "-y",
         "@modelcontextprotocol/server-postgres",
         "postgresql://buurtkompas_readonly:readonly_local_dev@localhost:5432/buurtkompas"
+      ]
+    },
+    "pipeline": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-postgres-full-access",
+        "postgresql://buurtkompas_pipeline:pipeline_local_dev@localhost:5432/buurtkompas_pipeline"
       ]
     },
     "astro-docs": {

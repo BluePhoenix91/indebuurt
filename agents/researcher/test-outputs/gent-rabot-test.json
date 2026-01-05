@@ -1,45 +1,118 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2025-01-02T12:35:00Z",
-
+  "generatedAt": "2026-01-05T12:00:00Z",
   "neighborhoodId": "gent-rabot",
-  "neighborhoodName": "RABOT",
+  "neighborhoodName": "Rabot",
   "city": "Gent",
   "postalCode": "9000",
-
   "centerCoordinates": {
     "lat": 51.06252502274124,
     "lon": 3.71042910730397
   },
-
   "boundingBox": {
     "north": 51.06679707464719,
     "south": 51.056460545289674,
     "east": 3.718734557295878,
     "west": 3.7013353361386208
   },
-
-  "vets": [],
-
-  "petStores": [],
-
+  "vets": [
+    {
+      "name": "Dr. H.P. Grootveld",
+      "street": "Grensstraat",
+      "streetNumber": "193",
+      "municipality": "Gent",
+      "postalCode": "9032",
+      "coordinates": { "lat": 51.0761925, "lon": 3.7098784 },
+      "distanceMeters": 1521,
+      "walkingTimeMinutes": 19,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Dierenkliniek Gent Centrum",
+      "street": "Kortrijksepoortstraat",
+      "streetNumber": "100",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": { "lat": 51.05, "lon": 3.72 },
+      "distanceMeters": 1547,
+      "walkingTimeMinutes": 19,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Heughebaert Anne",
+      "street": "Recollettenlei",
+      "streetNumber": "18",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": { "lat": 51.0497844, "lon": 3.7195429 },
+      "distanceMeters": 1555,
+      "walkingTimeMinutes": 19,
+      "source": "OSM 2024-12"
+    }
+  ],
+  "petStores": [
+    {
+      "name": "Tom & Co",
+      "street": "Martelaarslaan",
+      "streetNumber": "307",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": { "lat": 51.047314, "lon": 3.7086601 },
+      "distanceMeters": 1697,
+      "walkingTimeMinutes": 21,
+      "source": "OSM 2024-12"
+    }
+  ],
   "dogParks": [
     {
-      "name": "Hondenweide Rabot",
-      "coordinates": {
-        "lat": 51.0637741,
-        "lon": 3.717675
-      },
+      "name": "Hondenloopzone Rabot",
+      "coordinates": { "lat": 51.0637741, "lon": 3.717675 },
       "distanceMeters": 527,
       "walkingTimeMinutes": 7,
+      "isFenced": true,
+      "hasWater": false,
+      "surface": null,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Hondenloopzone Begijnhofdries",
+      "coordinates": { "lat": 51.0692342, "lon": 3.7116159 },
+      "distanceMeters": 751,
+      "walkingTimeMinutes": 9,
+      "isFenced": false,
+      "hasWater": false,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Hondenloopzone Brugse Poort",
+      "coordinates": { "lat": 51.0549021, "lon": 3.7033851 },
+      "distanceMeters": 981,
+      "walkingTimeMinutes": 12,
       "isFenced": true,
       "hasWater": false,
       "source": "OSM 2024-12"
     }
   ],
-
-  "parks": [],
-
+  "parks": [
+    {
+      "name": "Rabotpark",
+      "coordinates": { "lat": 51.0640274, "lon": 3.715749 },
+      "distanceMeters": 409,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Daktuin Tribeca",
+      "coordinates": { "lat": 51.0663924, "lon": 3.7097483 },
+      "distanceMeters": 433,
+      "source": "OSM 2024-12"
+    },
+    {
+      "name": "Hof Ten Walle",
+      "coordinates": { "lat": 51.0592822, "lon": 3.7147147 },
+      "distanceMeters": 469,
+      "source": "OSM 2024-12"
+    }
+  ],
   "poiCounts": {
     "vets": 0,
     "petStores": 0,
@@ -51,7 +124,6 @@
     "busStops": 18,
     "trainStations": 0
   },
-
   "statistics": {
     "inhabitants": 6647,
     "medianHousePrice": 353000,
@@ -60,31 +132,29 @@
     "populationDensity": 9230,
     "source": "Statbel 2024"
   },
-
   "context": {
     "neighboringNeighborhoods": [
-      { "id": "gent-begijnhofdries", "name": "BEGIJNHOFDRIES", "distanceMeters": 1027 },
-      { "id": "gent-brugse-poort", "name": "BRUGSE POORT", "distanceMeters": 1095 },
-      { "id": "gent-oude-lieve", "name": "OUDE LIEVE", "distanceMeters": 1127 },
-      { "id": "gent-maeswal", "name": "MAESWAL", "distanceMeters": 1140 },
-      { "id": "gent-wissenhagestraat", "name": "WISSENHAGESTRAAT", "distanceMeters": 1178 }
+      { "id": "gent-begijnhofdries", "name": "Begijnhofdries", "distanceMeters": 1027 },
+      { "id": "gent-brugse-poort", "name": "Brugse Poort", "distanceMeters": 1095 },
+      { "id": "gent-oude-lieve", "name": "Oude Lieve", "distanceMeters": 1127 },
+      { "id": "gent-maeswal", "name": "Maeswal", "distanceMeters": 1140 },
+      { "id": "gent-wissenhagestraat", "name": "Wissenhagestraat", "distanceMeters": 1178 }
     ],
     "cityContext": {
       "name": "Gent",
       "totalNeighborhoods": 54
     }
   },
-
   "dataSources": [
     {
       "name": "OpenStreetMap",
       "date": "2024-12",
-      "coverage": "POIs, parks. Note: Dense urban area with no vets or pet stores inside boundary."
+      "coverage": "POIs, parks, dog parks, addresses"
     },
     {
       "name": "Statbel",
       "date": "2024",
-      "coverage": "Population, house prices"
+      "coverage": "Population, house prices, population density"
     }
   ]
 }

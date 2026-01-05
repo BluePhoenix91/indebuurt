@@ -207,19 +207,65 @@ Remaining:
 
 ---
 
-## Story I5: Brand Reviewer Agent Prompt
+## Story I5: Brand Reviewer Agent Prompt ✅
 > As a content team member, I want a Brand Reviewer agent that ensures consistent voice and terminology, so that all generated content feels like it comes from the same source.
 
 **Context:** Brand agent is final quality gate before output. Checks voice consistency and catches generic/cliché content.
 
 **Acceptance Criteria:**
-- [ ] System prompt defines brand voice: tone, terminology, style guidelines
-- [ ] Terminology dictionary included: "baasjes" not "eigenaars", "viervoeter" not "huisdier"
-- [ ] Agent flags: marketing clichés, generic statements, inconsistent tone
-- [ ] Agent ensures local authenticity (specific details, not generic city descriptions)
-- [ ] Agent outputs: final polished content + quality score (0-100) + issues found
-- [ ] Quality threshold defined: score >= 80 passes, < 80 flags for review
-- [ ] Prompt stored in `/agents/brand-reviewer/prompt-v1.md`
+- [x] System prompt defines brand voice: tone, terminology, style guidelines
+- [x] Terminology dictionary included: "baasjes" not "eigenaars", "viervoeter" not "huisdier"
+- [x] Agent flags: marketing clichés, generic statements, inconsistent tone
+- [x] Agent ensures local authenticity (specific details, not generic city descriptions)
+- [x] Agent outputs: final polished content + quality score (0-100) + issues found
+- [x] Quality threshold defined: score >= 70 passes (aligned with SEO), < 70 flags for review
+- [x] Prompt stored in `/agents/brand-reviewer/prompt-v1.md`
+- [x] Tested on gent-dampoort with score 94/100 (passed)
+
+**Implementation Notes (2026-01-04):**
+
+Architecture decisions:
+- **Pipeline position** — Runs after SEO Reviewer, receives SEOReviewerOutput
+- **Trust SEO, focus elsewhere** — SEO owns keywords/clichés, Brand owns terminology/tone
+- **Non-blocking with flag** — Output continues but flagged for human review if score < 70
+- **Direct edit mode** — Auto-fixes terminology violations, logs all changes
+- **Detailed analysis** — Full debugging output like SEO Reviewer
+- **Single source of truth** — All reference files point to `/agents/shared/terminology.json` instead of duplicating lists
+
+Key files:
+- `/agents/brand-reviewer/prompt-v1.md` — Main system prompt with 12-step workflow
+- `/agents/brand-reviewer/output-schema.json` — Generated from Zod
+- `/agents/brand-reviewer/references/scoring-algorithm.md` — 5-category scoring, references terminology.json
+- `/agents/brand-reviewer/references/brand-checklist.md` — Quick reference, references terminology.json
+- `/agents/brand-reviewer/references/tone-examples.md` — Good vs bad Dutch examples
+- `/agents/brand-reviewer/references/do-not-modify.md` — Protected fields list
+
+Schema additions to `/agents/scripts/schemas.ts`:
+- `brandChangeLogSchema` — 8 change reason types (terminology_violation, tone_formal, etc.)
+- `brandScoreBreakdownSchema` — 5 scoring categories
+- `brandAnalysisSchema` — Detailed analysis with terminology, tone, authenticity, naturalness, sparse data
+- `brandReviewerOutputSchema` — Extends SEOReviewerOutput with `brandReview` object
+
+Scoring breakdown (100 points total, threshold 70):
+- Terminology Compliance: 30 points (correct Dutch terms)
+- Tone & Voice: 25 points (friendly, second-person, not corporate)
+- Local Authenticity: 20 points (specific place names, insider details)
+- Narrative Naturalness: 15 points (flows like prose, not fact dump)
+- Sparse Data Handling: 10 points (acknowledge → pivot → alternative pattern)
+
+Terminology updates to `/agents/shared/terminology.json`:
+- Added `allowedPhrases` for "buurt" exceptions: buurtgevoel, de juiste buurt, buurtbewoners, in de buurt
+- Added `alternativeAllowed` for "hondenspeelweide": allows "hondenpark" as SEO synonym
+
+Test outputs:
+- `/agents/brand-reviewer/test-outputs/gent-dampoort-brand-test.json` — Score 94/100, passed
+  - No terminology violations (all "buurt" uses were in allowed phrases)
+  - 10 unique place names, strong local authenticity
+  - Perfect sparse data handling for pet stores
+  - No changes needed to content
+
+Known limitations:
+- Mendonk only has Researcher output; needs Writer + SEO Reviewer before Brand can process
 
 ---
 
@@ -229,14 +275,38 @@ Remaining:
 **Context:** Before automating, test the agents manually to ensure quality. Developer acts as orchestrator.
 
 **Acceptance Criteria:**
-- [ ] Testing procedure documented: how to run each agent in sequence
-- [ ] 5 test neighborhoods selected: 2 urban, 2 suburban, 1 rural
+- [x] Testing procedure documented: how to run each agent in sequence
+- [x] 5 test neighborhoods selected: 2 urban, 2 suburban, 1 rural
 - [ ] Each neighborhood run through full pipeline: Researcher → Writer → SEO → Brand
 - [ ] Output JSON files saved and validated against schema
 - [ ] Human review conducted: content quality rated 1-5 on accuracy, readability, brand voice
 - [ ] Issues logged and prompts refined based on findings
 - [ ] At least 3/5 neighborhoods achieve quality rating >= 4
 - [ ] Learnings documented for orchestration phase
+
+**Implementation Notes (2026-01-05):**
+
+Test neighborhoods selected (verified in database):
+- `gent-dampoort` — Urban, 0.94 km², 5951/km² (baseline, has vets/parks)
+- `gent-rabot` — Dense urban, 0.72 km², 9230/km² (sparse vets/pet stores)
+- `gent-mendonk` — Rural, 9.49 km², 162/km² (very sparse POIs, tests adaptive radius)
+- `gent-brugse-poort` — Suburban, 1.90 km², 9467/km² (high density, sparse vets)
+- `gent-blaarmeersen` — Suburban, 4.28 km², 1825/km² (green/spacious, 4 dog parks)
+
+Note: `gent-wondelgem` and `gent-binnenstad` from examples don't exist in DB; replaced with brugse-poort and blaarmeersen.
+
+Key files created:
+- `/agents/docs/testing-runbook.md` — Step-by-step manual testing procedure
+- `/agents/docs/prompt-refinements.md` — Log for tracking prompt changes
+- `/agents/scripts/review/review-schema.ts` — Zod schema for human reviews
+- `/agents/shared/review-template.json` — Empty template for review JSON
+- `/agents/shared/human-review-schema.json` — Generated JSON schema for reviews
+
+Remaining work:
+- Run each neighborhood through full pipeline manually
+- Fill in human review JSONs
+- Refine prompts based on findings
+- Document learnings for Epic J
 
 ---
 

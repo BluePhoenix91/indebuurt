@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-05T12:00:00.000Z",
+  "id": "gent-brugse-poort",
+  "city": "Gent",
+  "name": "Brugse Poort",
+  "postalCode": "9000",
+  "subtitle": "Levendige stadswijk met parken om de hoek en een hondenspeelweide op wandelafstand voor jou en je viervoeter",
+  "dateAdded": "2026-01-05",
+  "inhabitants": 17953,
+  "labels": [
+    {"text": "Stadswijk", "icon": "fa-solid fa-city"},
+    {"text": "Dichtbevolkt", "icon": "fa-solid fa-users"},
+    {"text": "Goede voorzieningen", "icon": "fa-solid fa-store"},
+    {"text": "Parken dichtbij", "icon": "fa-solid fa-tree"}
+  ],
+  "intro": "Brugse Poort is een van de dichtstbevolkte wijken van Gent, met bijna 18.000 inwoners op minder dan 2 vierkante kilometer. Voor baasjes die van stadsleven houden, biedt deze wijk een unieke mix van stedelijke drukte en verrassend veel groen.\n\nDe wijk ligt ten westen van het Gentse centrum en kenmerkt zich door smalle straten met karakteristieke rijwoningen, een mix van jonge gezinnen en studenten, en een multiculturele sfeer die je terugziet in de diverse winkels en eetgelegenheden. Als hondenbaasje merk je al snel dat je hier niet alleen bent: op de stoepen en in de parken kom je regelmatig andere viervoeters tegen.\n\nQua groen scoort Brugse Poort verrassend goed voor zo'n dichtbevolkte wijk. Het Boerderijpark en Acaciapark liggen op minder dan 300 meter van het wijkcentrum en bieden voldoende ruimte voor een snelle wandeling. Park De Meubelfabriek, een hergebruikte industriesite, voegt nog meer groene ruimte toe. In totaal telt de wijk 15 parken en groene zones, wat betekent dat je nooit ver hoeft te lopen voor een stukje natuur.\n\nVoor je hond is er binnen de wijk zelf een hondenspeelweide waar je viervoeter los kan rennen. Dat is een groot pluspunt in een stedelijke omgeving. Daarnaast liggen er nog vier andere hondenloopzones binnen 2 kilometer, dus variatie in je wandelingen is verzekerd.\n\nDe praktische voorzieningen zijn uitstekend. Met 5 supermarkten in de wijk (waaronder Bio-Planet, ALDI en Colruyt), 5 apotheken en 22 bushaltes heb je alles binnen handbereik. De dichtstbijzijnde bushalte (Gent Peerstraat) ligt op amper 170 meter. Station Gent-Sint-Pieters is met 3 kilometer iets verder, maar met de bus ben je er snel.\n\nEen eerlijk punt van aandacht: er zit geen dierenarts binnen de wijkgrenzen zelf. De dichtstbijzijnde praktijk (Jan-Pieter Vandenbussche) ligt op ongeveer 1 kilometer, wat neerkomt op 13 minuten wandelen. Dierenkliniek Gent Centrum aan de Kortrijksepoortstraat is een goede optie voor uitgebreidere zorg. Hetzelfde geldt voor dierenwinkels: Tom & Co ligt op bijna 2 kilometer, dus voor hondenvoer en benodigdheden moet je even de wijk uit.\n\nWat betreft huisvesting: met een mediane huizenprijs van 353.000 euro ligt Brugse Poort in de middenmoot voor Gent. De bevolkingsdichtheid van 9.467 inwoners per vierkante kilometer betekent dat je vooral rijwoningen en appartementen vindt, vaak met beperkte tuinruimte. Een hond met een enorme bewegingsbehoefte doet er goed aan om dagelijks de parken te bezoeken.\n\nDe wijk grenst aan Rabot, Maeswal, Blaarmeersen, Oude Lieve en Bijloke. Vooral Blaarmeersen is interessant voor langere wandelingen: dit recreatiedomein met zijn uitgestrekte grasvelden en waterpartijen ligt op loopafstand en is een favoriet onder Gentse hondenbaasjes.\n\nKortom: Brugse Poort is een wijk voor baasjes die het stadsleven omarmen maar niet zonder groen kunnen. De combinatie van buurtparken, een eigen hondenspeelweide en uitstekende dagelijkse voorzieningen maakt het een praktische thuisbasis. De afwezigheid van een dierenarts in de wijk zelf en de beperkte tuinen zijn afwegingen om rekening mee te houden.",
+  "coordinates": {"lat": 51.06043805687903, "lon": 3.695162588031648, "zoom": 15},
+  "valueCards": [
+    {"icon": "fa-solid fa-dog", "title": "Hondenspeelweide", "distance": "6 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Hondenloopzone op 463 meter", "detail": "1 hondenspeelweide in de wijk, 4 extra zones binnen 2 km"},
+    {"icon": "fa-solid fa-tree", "title": "Parken", "distance": "2 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Boerderijpark op 182 meter", "detail": "15 parken en groene zones in de wijk"},
+    {"icon": "fa-solid fa-stethoscope", "title": "Dierenarts", "distance": "13 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Jan-Pieter Vandenbussche op 1,0 km", "detail": "5 praktijken binnen 2,5 km bereik"},
+    {"icon": "fa-solid fa-cart-shopping", "title": "Supermarkt", "distance": "5 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Bio-Planet op 418 meter", "detail": "5 supermarkten in de wijk"},
+    {"icon": "fa-solid fa-bus", "title": "Openbaar vervoer", "distance": "2 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Bushalte Gent Peerstraat op 170 meter", "detail": "22 bushaltes in de wijk"},
+    {"icon": "fa-solid fa-paw", "title": "Dierenwinkel", "distance": "22 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Tom & Co op 1,7 km", "detail": "Diverse dierenwinkels in groter Gent"}
+  ],
+  "facilities": {"intro": "Brugse Poort combineert stedelijke dichtheid met verrassend goede voorzieningen voor hondenbaasjes. Met 15 parken, een eigen hondenspeelweide en 5 supermarkten hoef je voor de dagelijkse behoeften de wijk niet uit. Voor dierenartsen en dierenwinkels moet je wel even wandelen of fietsen, maar alles ligt binnen bereikbare afstand."},
+  "dogParks": {
+    "intro": "De wijk heeft een eigen hondenspeelweide waar je viervoeter vrij kan rondrennen. Daarnaast liggen er nog vier andere hondenloopzones binnen 2 kilometer, waardoor je genoeg variatie hebt in je wandelroutes. De combinatie van omheinde speelzones en de nabijheid van grotere parken maakt Brugse Poort aantrekkelijk voor actieve honden.",
+    "parks": [
+      {"icon": "fa-solid fa-dog", "name": "Hondenloopzone Brugse Poort", "distance": "6 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0612926, "lon": 3.6886939}, "features": [{"text": "Omheind terrein", "icon": "fa-solid fa-fence"}, {"text": "Binnen de wijk", "icon": "fa-solid fa-location-dot"}]},
+      {"icon": "fa-solid fa-dog", "name": "Hondenloopzone nabij centrum", "distance": "11 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0549021, "lon": 3.7033851}, "features": [{"text": "Omheind terrein", "icon": "fa-solid fa-fence"}, {"text": "Richting stadscentrum", "icon": "fa-solid fa-city"}]},
+      {"icon": "fa-solid fa-dog", "name": "Hondenloopzone Citadelpark", "distance": "19 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0464956, "lon": 3.7000542}, "features": [{"text": "Groot park", "icon": "fa-solid fa-tree"}, {"text": "Nabij Sint-Pieters", "icon": "fa-solid fa-train"}]}
+    ]
+  },
+  "vets": {
+    "intro": "Er is geen dierenarts gevestigd binnen de wijkgrenzen van Brugse Poort zelf, maar binnen een straal van 2,5 kilometer vind je 5 praktijken. De dichtstbijzijnde is op 13 minuten wandelen. Voor spoedgevallen is Dierenkliniek Gent Centrum een goede optie met ruimere faciliteiten.",
+    "practices": [
+      {"icon": "fa-solid fa-stethoscope", "name": "Jan-Pieter Vandenbussche", "street": "Onbekend", "streetNumber": "", "municipality": "Gent", "postalCode": "9000", "distance": "13 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.06805, "lon": 3.6863284}},
+      {"icon": "fa-solid fa-stethoscope", "name": "Dierenartsencentrum De Brug", "street": "Onbekend", "streetNumber": "", "municipality": "Gent", "postalCode": "9000", "distance": "23 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.074023, "lon": 3.6807839}},
+      {"icon": "fa-solid fa-stethoscope", "name": "Dierenkliniek Gent Centrum", "street": "Kortrijksepoortstraat", "streetNumber": "100", "municipality": "Gent", "postalCode": "9000", "distance": "26 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.05, "lon": 3.72}}
+    ]
+  },
+  "petStores": {
+    "intro": "Voor hondenvoer en benodigdheden moet je de wijk uit. Tom & Co is de dichtstbijzijnde dierenwinkel op bijna 2 kilometer. In het ruimere Gent zijn meerdere Tom & Co-vestigingen en andere speciaalzaken te vinden. Een tip: combineer je bezoek aan de dierenwinkel met een langere wandeling richting centrum.",
+    "stores": [
+      {"icon": "fa-solid fa-store", "name": "Tom & Co", "street": "Martelaarslaan", "streetNumber": "307", "municipality": "Gent", "postalCode": "9000", "distance": "22 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.047314, "lon": 3.7086601}}
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Brugse Poort",
+    "intro": "Een typische dag als hondenbaasje in Brugse Poort begint met een ochtendwandeling naar een van de buurtparken. Het Boerderijpark of Acaciapark liggen op amper 2 minuten lopen. Voor de langere middagwandeling trek je naar de hondenspeelweide of richting Blaarmeersen voor een uitgebreide ronde. De drukte van de stadswijk wordt gecompenseerd door de vele ontmoetingen met andere baasjes en viervoeters.",
+    "benefits": [
+      "Hondenspeelweide binnen de wijk op 6 minuten wandelen",
+      "15 parken en groene zones voor variatie in je dagelijkse wandelingen",
+      "5 supermarkten in de wijk voor snelle boodschappen",
+      "Uitstekende busverbindingen met 22 haltes in de wijk",
+      "Blaarmeersen recreatiedomein op loopafstand voor lange wandelingen"
+    ]
+  },
+  "contributionCTA": {"heading": "Ken je deze wijk?", "intro": "Woon je in Brugse Poort of ken je de wijk goed als hondenbaasje? Deel je ervaringen en tips met andere baasjes. Jouw lokale kennis helpt anderen de juiste plek te vinden voor hun viervoeter.", "typeformId": "buurt-feedback"},
+  "statistics": {"intro": "Brugse Poort is een van de dichtstbevolkte wijken van Gent met bijna 18.000 inwoners op minder dan 2 km². De vastgoedprijzen liggen in de middenmoot voor Gent, wat de wijk toegankelijk maakt voor diverse kopers.", "medianPrice": 353000, "inhabitants": 17953, "availableHomes": null, "pricePerSqm": null},
+  "houses": {"intro": "Het woningaanbod in Brugse Poort bestaat voornamelijk uit rijwoningen en appartementen, typisch voor een dichtbevolkte stadswijk. Tuinen zijn vaak beperkt, dus regelmatige wandelingen naar de buurtparken zijn essentieel voor je hond. De postcode 9000 wordt gedeeld met het grotere Gent-centrum.", "hasOwnPostalCode": false},
+  "neighboringNeighborhoods": ["gent-maeswal", "gent-blaarmeersen", "gent-rabot", "gent-oude-lieve", "gent-bijloke"]
+}

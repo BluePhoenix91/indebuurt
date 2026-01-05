@@ -19,7 +19,9 @@ import {
   writerOutputSchema,
   finalOutputSchema,
   seoReviewerOutputSchema,
+  brandReviewerOutputSchema,
 } from "./schemas.js";
+import { humanReviewSchema } from "./review/review-schema.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const agentsDir = join(__dirname, "..");
@@ -63,6 +65,22 @@ const schemas: SchemaConfig[] = [
     title: "SEOReviewerOutput",
     description:
       "Output schema for the SEO Reviewer agent. Extends WriterOutput with changes log, quality score, and SEO validation metadata.",
+    version: "1.0.0",
+  },
+  {
+    schema: brandReviewerOutputSchema,
+    outputPath: "brand-reviewer/output-schema.json",
+    title: "BrandReviewerOutput",
+    description:
+      "Output schema for the Brand Reviewer agent. Extends SEOReviewerOutput with terminology compliance, tone analysis, and brand quality score.",
+    version: "1.0.0",
+  },
+  {
+    schema: humanReviewSchema,
+    outputPath: "shared/human-review-schema.json",
+    title: "HumanReview",
+    description:
+      "Schema for human quality reviews of agent-generated content. Used during manual testing (Story I6) to rate accuracy, readability, and brand compliance.",
     version: "1.0.0",
   },
 ];

@@ -1,99 +1,314 @@
 # Epic J — Agent Pipeline
 
-**Goal:** Build the automated orchestration that runs agents in sequence, handles errors, and outputs validated content files without human intervention.
+**Goal:** Build interactive orchestration using Claude Code CLI that runs agents in sequence, tracks progress across sessions, and outputs validated content files.
 
 **Depends on:** Epic H (Infrastructure) and Epic I (Agent Development)
 
 ---
 
-## Story J1: Python Orchestrator Script
-> As a developer, I want a Python script that runs all agents in sequence for a given neighborhood, so that content generation is automated end-to-end.
+## Approach & Architecture Decision
 
-**Context:** Orchestrator manages the pipeline: Researcher → Writer → SEO → Brand → output JSON. Each agent's output feeds the next.
+### The Challenge
 
-**Acceptance Criteria:**
-- [ ] Python script accepts neighborhood ID as command-line argument
-- [ ] Script loads agent prompts from `/agents/prompts/`
-- [ ] Agents executed in correct sequence via Claude API
-- [ ] Each agent receives previous agent's output as context
-- [ ] Intermediate outputs saved to temp files for debugging
-- [ ] Final JSON written to `src/content/neighborhoods/{slug}.json`
-- [ ] Script returns exit code 0 on success, non-zero with error details on failure
-- [ ] Execution time logged for each agent stage
+We need to run a 4-agent content generation pipeline at scale (2800+ neighborhoods):
+
+```
+Researcher → Writer → SEO Reviewer → Brand Reviewer → Final JSON
+```
+
+### Options Evaluated
+
+| Approach | How it Works | Cost | Automation |
+|----------|--------------|------|------------|
+| **A. Anthropic API + Python** | Python script calls Claude API programmatically | ~$0.05-0.15 per neighborhood ($140-420 total) | Full automation, can run unattended |
+| **B. Claude Agent SDK** | SDK for building custom agents | Requires API keys (same cost as A) | Full automation |
+| **C. Claude Code CLI (chosen)** | Interactive sessions with subagents | $0 (uses Max subscription) | Manual, requires active sessions |
+
+### Why Claude Code CLI?
+
+**Key insight:** The Claude Agent SDK and Anthropic API require separate API keys and pay-per-token billing. They **cannot** use an existing Claude Max subscription. These are completely separate billing systems:
+
+| Feature | Claude Max Subscription | Anthropic API |
+|---------|------------------------|---------------|
+| Interactive use (claude.ai, Claude Code) | ✅ Included | ❌ Not available |
+| Programmatic SDK/API calls | ❌ Not available | ✅ Pay-per-token |
+| Automated batch processing | ❌ Not possible | ✅ With 50% batch discount |
+
+**Decision:** Use Claude Code CLI to leverage the existing Max subscription at $0 additional cost, accepting that this requires interactive sessions.
+
+### Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        Claude Code CLI                          │
+│  ┌──────────────────────────────────────────────────────────┐  │
+│  │                  /pipeline command                        │  │
+│  │  • status  • city <name>  • next <N>  • retry-failed     │  │
+│  └──────────────────────────────────────────────────────────┘  │
+│                              │                                  │
+│                    ┌─────────┴─────────┐                       │
+│                    │    Subagents      │                       │
+│                    │ (.claude/agents/) │                       │
+│                    │ 1. researcher     │                       │
+│                    │ 2. writer         │                       │
+│                    │ 3. seo-reviewer   │                       │
+│                    │ 4. brand-reviewer │                       │
+│                    └─────────┬─────────┘                       │
+└──────────────────────────────┼──────────────────────────────────┘
+                               │
+              ┌────────────────┴────────────────┐
+              │                                 │
+              ▼                                 ▼
+┌──────────────────────────┐    ┌──────────────────────────┐
+│   indebuurt_gis (existing)│    │  indebuurt_pipeline (new) │
+│   PostgreSQL + PostGIS    │    │  PostgreSQL               │
+│   ─────────────────────── │    │  ─────────────────────── │
+│   • neighborhoods         │    │  • pipeline_jobs          │
+│   • pois                  │    │    - status               │
+│   • statistical_sectors   │    │    - current_stage        │
+│   • neighborhood_stats    │    │    - quality scores       │
+│   ─────────────────────── │    │    - timestamps           │
+│   READ-ONLY access        │    │  READ-WRITE access        │
+└──────────────────────────┘    └──────────────────────────┘
+```
+
+### Database Separation
+
+The pipeline uses **two separate databases**:
+
+| Database | Purpose | Access |
+|----------|---------|--------|
+| `indebuurt_gis` | GIS data (neighborhoods, POIs, statistics) | **Read-only** — protects source data |
+| `indebuurt_pipeline` | Pipeline tracking (jobs, status, scores) | **Read-write** — allows progress updates |
+
+This separation ensures the GIS source data cannot be accidentally modified by the pipeline.
+
+### Claude Code Features Used
+
+| Feature | Location | Purpose |
+|---------|----------|---------|
+| **Subagents** | `.claude/agents/*.md` | Autonomous agents with specific expertise |
+| **Slash commands** | `.claude/commands/*.md` | User-invokable `/pipeline` command |
+| **MCP Servers** | `settings.local.json` | Two PostgreSQL connections (GIS read-only, Pipeline read-write) |
+
+### Trade-offs Accepted
+
+**Benefits:**
+- $0 API costs (uses existing Max subscription)
+- Can start immediately without API setup
+- Progress tracked in database, resumable across sessions
+- Subagent prompts reusable if migrating to API later
+
+**Limitations:**
+- Requires interactive Claude Code sessions (cannot run unattended)
+- Cannot schedule automatic runs (no cron/automation)
+- Processing time depends on user availability
+- Estimated 5-10 minutes per neighborhood
+
+### Time Investment Reality
+
+For 2800 neighborhoods at ~5-10 minutes each:
+- **Optimistic:** 230-460 hours of active sessions
+- **Realistic:** Process city-by-city over weeks/months
+- **Starting point:** Gent (12 neighborhoods) = 1-2 hours
+
+### Future Migration Path
+
+If the manual process proves too slow, the architecture supports migration to API automation:
+
+1. Subagent prompts transfer directly to API calls
+2. Database schema remains unchanged
+3. Slash command logic converts to Python orchestrator
+4. Estimated API cost: $140-420 for all 2800 neighborhoods (using Batch API 50% discount)
 
 ---
 
-## Story J2: Error Handling and Retry Logic
-> As a developer, I want the orchestrator to handle agent failures gracefully, so that transient errors don't require manual intervention.
+## Story J0: Pipeline Database and MCP Setup
 
-**Context:** API calls can fail, agents can produce invalid output. Need resilient handling.
+> As a developer, I want a separate pipeline database with read-write access, so that Claude Code can track progress without risking the GIS source data.
+
+**Context:** The existing `indebuurt_gis` database is configured as read-only via MCP. The pipeline needs write access to track job status, but we don't want to grant write access to GIS data. Solution: create a separate `indebuurt_pipeline` database.
 
 **Acceptance Criteria:**
-- [ ] API errors (rate limits, timeouts) trigger automatic retry with exponential backoff
-- [ ] Max 3 retries per agent before failing the neighborhood
-- [ ] Schema validation after each agent catches malformed output
-- [ ] Invalid output triggers agent re-run with error context
-- [ ] All errors logged with: timestamp, neighborhood, agent, error type, attempt number
-- [ ] Failed neighborhoods written to `failed_neighborhoods.log` for later retry
-- [ ] Script continues to next neighborhood on failure (doesn't halt batch)
+- [ ] New PostgreSQL database `indebuurt_pipeline` created
+- [ ] Database user `pipeline_user` created with read-write access to `indebuurt_pipeline`
+- [ ] User has NO access to `indebuurt_gis` (separation enforced)
+- [ ] MCP server configuration added to `settings.local.json`:
+  - Existing `postgres` server remains read-only for GIS
+  - New `postgres-pipeline` server with read-write for pipeline database
+- [ ] Connection tested: can INSERT/UPDATE/DELETE in pipeline database
+- [ ] SQL setup script stored in `agents/scripts/db/create-pipeline-database.sql`
 
 ---
 
-## Story J3: Quality Scoring System
-> As a content team member, I want automated quality scores for generated content, so that low-quality output is flagged before publishing.
+## Story J1: Pipeline Jobs Schema
 
-**Context:** Brand agent outputs a quality score. This story adds additional automated checks and aggregates into final score.
+> As a developer, I want a `pipeline_jobs` table to track progress, so that I can resume processing across Claude Code sessions.
+
+**Context:** Since Claude Code is interactive (not automated), we need persistent state to track which neighborhoods are pending, in-progress, completed, or failed.
 
 **Acceptance Criteria:**
-- [ ] Quality score (0-100) calculated combining: brand score, SEO score, completeness
-- [ ] Completeness check: all required fields present, minimum content lengths met
-- [ ] SEO check: title/description lengths, heading structure, keyword presence
-- [ ] Data accuracy check: POI counts match database query results
-- [ ] Score breakdown saved with output: `{ total: 85, brand: 90, seo: 80, completeness: 85 }`
-- [ ] Configurable threshold: content >= 80 auto-approved, < 80 flagged for review
-- [ ] Flagged content saved to separate `review_queue/` directory
+- [ ] `pipeline_jobs` table created in `indebuurt_pipeline` database with fields:
+  - `neighborhood_id` (unique), `city`, `province`
+  - `status` (pending, in_progress, completed, failed)
+  - `current_stage` (researcher, writer, seo_reviewer, brand_reviewer)
+  - Stage completion timestamps for each agent
+  - `seo_score`, `brand_score`, `final_score`
+  - `error_message`, `retry_count`
+- [ ] Indexes on `status` and `city` for efficient queries
+- [ ] SQL script stored in `agents/scripts/db/init-pipeline-schema.sql`
+- [ ] Seed script queries `indebuurt_gis.neighborhoods` and populates `pipeline_jobs`
 
 ---
 
-## Story J4: Review Queue Interface
-> As a content team member, I want a simple interface to review flagged content, so that I can approve, reject, or request regeneration without editing JSON manually.
+## Story J2: Claude Code Subagents
 
-**Context:** Human-outside-the-loop: not blocking pipeline, but can review/fix low-quality content.
+> As a developer, I want Claude Code subagent definitions for each pipeline stage, so that each agent can be invoked with consistent behavior.
+
+**Context:** Subagents in `.claude/agents/` provide specialized autonomous agents that Claude Code can spawn. Each wraps an existing agent prompt from `agents/`.
 
 **Acceptance Criteria:**
-- [ ] Simple web interface (can be basic HTML/Python Flask)
-- [ ] Lists all content in review queue with quality scores
-- [ ] Detail view shows: generated content, score breakdown, specific issues flagged
-- [ ] Actions available: Approve (moves to content/), Reject (archives), Regenerate (re-runs pipeline)
-- [ ] Regenerate accepts optional feedback to include in next run
-- [ ] Approved content automatically moved to `src/content/neighborhoods/`
-- [ ] Audit log tracks: who reviewed, what action, when
+- [ ] `neighborhood-researcher.md` subagent created
+  - Queries PostGIS database for neighborhood data
+  - Outputs ResearcherOutput JSON
+  - References `agents/researcher/prompt-v1.md` instructions
+- [ ] `neighborhood-writer.md` subagent created
+  - Transforms ResearcherOutput into Dutch prose
+  - Outputs WriterOutput JSON
+  - References `agents/writer/prompt-v1.md` instructions
+- [ ] `neighborhood-seo-reviewer.md` subagent created
+  - Optimizes content for search visibility
+  - Outputs SEOReviewerOutput JSON with quality score
+  - References `agents/seo-reviewer/prompt-v1.md` instructions
+- [ ] `neighborhood-brand-reviewer.md` subagent created
+  - Validates brand voice and terminology
+  - Outputs BrandReviewerOutput JSON with quality score
+  - References `agents/brand-reviewer/prompt-v1.md` instructions
+- [ ] All subagents follow format of existing `user-story-architect.md`
+- [ ] Each subagent specifies `model: sonnet` for cost efficiency
 
 ---
 
-## Story J5: Revision Loop Between Agents
-> As a developer, I want SEO and Brand agents to iterate on content when quality is low, so that more content passes automatically without human review.
+## Story J3: Pipeline Slash Command
 
-**Context:** If Brand agent scores content < 80, SEO and Brand can iterate (max 3 rounds) to improve before flagging.
+> As a developer, I want a `/pipeline` slash command that orchestrates the 4 agents, so that I can process neighborhoods with a single command.
+
+**Context:** Slash commands in `.claude/commands/` provide user-invokable commands. The `/pipeline` command coordinates subagents and database updates.
 
 **Acceptance Criteria:**
-- [ ] After Brand review, if score < threshold, content loops back to SEO agent
-- [ ] SEO agent receives: current content + Brand feedback + instruction to address issues
-- [ ] Brand agent re-reviews SEO's revisions
-- [ ] Maximum 3 revision rounds before flagging for human review
-- [ ] Each round's scores logged to track improvement
-- [ ] Final round's content used even if still below threshold (human will review)
-- [ ] Revision history saved for debugging: what changed each round
+- [ ] `/pipeline status` shows progress dashboard:
+  - Neighborhoods by status (pending/in_progress/completed/failed)
+  - Breakdown by city
+  - Recent activity
+- [ ] `/pipeline <neighborhood-id>` processes single neighborhood through all 4 agents
+- [ ] `/pipeline city <name>` processes all pending neighborhoods for a city
+- [ ] `/pipeline next <N>` processes next N pending neighborhoods
+- [ ] `/pipeline retry-failed` re-processes failed items (retry_count < 3)
+- [ ] Command updates `pipeline_jobs` table at each stage
+- [ ] Intermediate outputs saved to `agents/pipeline-outputs/{neighborhood_id}/`
+- [ ] Final JSON written to `src/content/neighborhoods/{slug}.json` when score >= 70
+
+---
+
+## Story J4: Intermediate Output Storage
+
+> As a developer, I want intermediate outputs saved at each pipeline stage, so that I can debug issues and resume from failures.
+
+**Context:** If a session ends mid-pipeline or an agent fails, we need the previous stage's output to resume without re-running everything.
+
+**Acceptance Criteria:**
+- [ ] Output directory structure: `agents/pipeline-outputs/{neighborhood_id}/`
+- [ ] Files saved after each stage:
+  - `1-researcher.json` — ResearcherOutput
+  - `2-writer.json` — WriterOutput
+  - `3-seo-reviewer.json` — SEOReviewerOutput
+  - `4-brand-reviewer.json` — BrandReviewerOutput
+- [ ] Pipeline checks for existing outputs before re-running agent
+- [ ] `current_stage` in database tracks where to resume
+- [ ] Timestamps in database track when each stage completed
+- [ ] Failed stages preserve partial output for debugging
+
+---
+
+## Story J5: Quality Gate and Auto-Publish
+
+> As a content team member, I want content auto-published when quality score >= 70, so that good content flows to the site without manual approval.
+
+**Context:** SEO and Brand reviewers output quality scores. Content meeting threshold goes directly to Content Collections.
+
+**Acceptance Criteria:**
+- [ ] Quality threshold configurable (default: 70)
+- [ ] Final score = average of SEO score and Brand score
+- [ ] Content with score >= 70:
+  - Copied to `src/content/neighborhoods/{slug}.json`
+  - Status updated to `completed`
+  - Completion timestamp recorded
+- [ ] Content with score < 70:
+  - Status updated to `failed`
+  - Error message includes score breakdown
+  - Remains in `pipeline-outputs/` for review
+- [ ] `/pipeline status` shows score distribution of completed content
+
+---
+
+## Story J6: Pipeline Documentation
+
+> As a developer, I want clear documentation for running the pipeline, so that the workflow is repeatable and understandable.
+
+**Context:** The interactive Claude Code approach has specific workflows that need documentation.
+
+**Acceptance Criteria:**
+- [ ] `agents/docs/pipeline-usage.md` created with:
+  - Prerequisites (database setup, Claude Code configuration)
+  - Command reference (`/pipeline status`, `/pipeline city`, etc.)
+  - Example workflow for processing a city
+  - Troubleshooting common issues
+  - Resuming after session interruption
+- [ ] Time estimates documented (5-10 min per neighborhood)
+- [ ] Best practices for batch processing sessions
 
 ---
 
 ## Dependencies
 
 ```
-J1 (Orchestrator)
-  ├── J2 (Error Handling)
-  ├── J3 (Quality Scoring) ── J4 (Review Interface)
-  └── J5 (Revision Loop)
+J0 (Pipeline Database Setup)
+  └── J1 (Pipeline Jobs Schema)
+        └── J3 (Slash Command)
+              ├── J4 (Intermediate Storage)
+              └── J5 (Quality Gate)
+
+J2 (Subagents) ─────┘
+
+J6 (Documentation) — parallel, no blockers
 ```
 
-J1 is foundation. J2, J3, J5 can be added incrementally. J4 depends on J3.
+J0 must be done first (database infrastructure). J1 and J2 can be done in parallel after J0. J3 depends on both J1 and J2. J4 and J5 extend J3.
+
+---
+
+## Technical Notes
+
+### Why Claude Code CLI Instead of API Automation?
+
+**Cost:** Claude Max subscription covers interactive use. API automation would cost ~$0.05-0.15 per neighborhood ($140-420 for 2800 neighborhoods).
+
+**Trade-off:** Requires interactive sessions (~5-10 min per neighborhood). For 2800 neighborhoods, this means processing city-by-city over weeks/months.
+
+**Future option:** Can migrate to API automation later if manual process proves too slow. The subagent prompts and database schema would transfer directly.
+
+### Session Workflow
+
+```
+1. Start Claude Code: `claude`
+2. Check progress: `/pipeline status`
+3. Process a city: `/pipeline city gent`
+4. Review any failures: `/pipeline retry-failed`
+5. Commit when ready: `git add . && git commit -m "Generated Gent neighborhoods"`
+```
+
+### Limitations
+
+- Cannot run unattended (requires active Claude Code session)
+- Cannot schedule automatic runs
+- Progress depends on user availability

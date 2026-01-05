@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-05T12:30:00Z",
+  "id": "gent-rabot",
+  "city": "Gent",
+  "name": "Rabot",
+  "postalCode": "9000",
+  "subtitle": "Rabot in Gent: compacte stadswijk met parken om de hoek en goede busverbindingen - praktisch voor wandelingen",
+  "dateAdded": "2026-01-05",
+  "inhabitants": 6647,
+  "labels": [
+    { "text": "Sterk stedelijk", "icon": "fa-solid fa-city" },
+    { "text": "Goed bereikbaar", "icon": "fa-solid fa-bus" },
+    { "text": "Groen op loopafstand", "icon": "fa-solid fa-leaf" },
+    { "text": "Volksbuurt", "icon": "fa-solid fa-people-roof" }
+  ],
+  "intro": "Rabot is een compacte, dichtbevolkte stadswijk aan de noordwestkant van het Gentse centrum. Met 9.230 inwoners per vierkante kilometer is dit een van de drukste wijken van Gent, maar dat betekent niet dat je hier geen ruimte vindt. Integendeel: met 8 parken en groenzones in en rond de wijk heb je altijd een rustige plek binnen handbereik voor de dagelijkse wandeling.\n\nDe wijk heeft een authentiek volksbuurtkarakter. Hier woon je tussen mensen van verschillende achtergronden, met een mix van oudere rijwoningen en nieuwere appartementsblokken. Het Rabotpark vormt het groene hart van de wijk en is op warme dagen een ontmoetingsplek voor jong en oud. De nabijgelegen Daktuin Tribeca biedt een verrassend rustige oase boven de stad.\n\nVoor baasjes is Rabot een praktische wijk. De Hondenloopzone Rabot ligt op slechts 7 minuten wandelen van het centrum van de wijk en is volledig omheind, wat ideaal is als je hond nog aan zijn terugkomoefeningen werkt. Wil je meer variatie? Dan bereik je de hondenloopzones in Begijnhofdries en Brugse Poort binnen 12 minuten.\n\nEerlijk is eerlijk: in de wijk zelf vind je geen dierenarts of gespecialiseerde dierenwinkel. Dat is een aandachtspunt als snelle toegang tot veterinaire zorg voor jou prioriteit heeft. De dichtstbijzijnde dierenarts, Dr. H.P. Grootveld, ligt op 19 minuten wandelen in Gent-Sint-Amandsberg. Voor hondenvoer en accessoires moet je naar Tom & Co aan de Martelaarslaan, zo'n 21 minuten lopen. Praktisch gezien kun je basisvoeding ook gewoon halen bij een van de 5 supermarkten in de wijk.\n\nWat betreft mobiliteit scoort Rabot goed. Met 18 bushaltes ben je snel verbonden met de rest van Gent. Een treinstation ontbreekt, maar halte Gent-Sint-Pieters is met de bus binnen 15 minuten te bereiken. De centrale ligging betekent ook dat je het historische centrum van Gent te voet kunt verkennen.\n\nRabot past bij baasjes die van stedelijke drukte houden en een betaalbare woonplek zoeken met groen om de hoek. De mediaanprijs van woningen ligt rond de 353.000 euro, wat voor Gent aan de toegankelijke kant is. Ben je op zoek naar absolute rust of heb je een reactieve hond die gebaat is bij lege straten? Dan is een stillere wijk misschien een betere match. Maar als je houdt van een levendige volksbuurt waar altijd iets te beleven valt, dan zit je hier goed.",
+  "coordinates": {"lat": 51.06252502274124, "lon": 3.71042910730397, "zoom": 15},
+  "valueCards": [
+    {"icon": "fa-solid fa-dog", "title": "Hondenspeelweides", "distance": "7 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "3 hondenloopzones in de buurt", "detail": "1 omheind, dichtstbij op 7 min"},
+    {"icon": "fa-solid fa-tree", "title": "Parken", "distance": "5 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "8 parken en groenzones", "detail": "Rabotpark op 5 min wandelen"},
+    {"icon": "fa-solid fa-stethoscope", "title": "Dierenartsen", "distance": "19 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "3 praktijken bereikbaar", "detail": "Geen in de wijk zelf"},
+    {"icon": "fa-solid fa-bone", "title": "Dierenwinkels", "distance": "21 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Tom & Co dichtst in de buurt", "detail": "Supermarkten als alternatief"},
+    {"icon": "fa-solid fa-bus", "title": "Openbaar vervoer", "distance": "2 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "18 bushaltes in de wijk", "detail": "Goede verbinding met centrum"},
+    {"icon": "fa-solid fa-cart-shopping", "title": "Supermarkten", "distance": "5 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "5 supermarkten in de wijk", "detail": "Dagelijkse boodschappen dichtbij"}
+  ],
+  "facilities": {"intro": "Rabot biedt een goede basis voor het dagelijks leven met je hond. De wijk heeft een sterke focus op groen en bereikbaarheid, al moet je voor gespecialiseerde dierenvoorzieningen zoals een dierenarts of dierenwinkel buiten de wijkgrenzen zoeken. Met 18 bushaltes, 5 supermarkten en 3 apotheken in de buurt heb je de praktische zaken goed geregeld."},
+  "dogParks": {
+    "intro": "In Rabot vind je de Hondenloopzone Rabot, een omheinde speelweide op 7 minuten wandelen van het wijkcentrum. Dit is een fijne plek om je hond los te laten rennen in een veilige omgeving. Zoek je variatie? Binnen 12 minuten bereik je nog twee andere hondenloopzones: in Begijnhofdries (niet omheind) en in Brugse Poort (wel omheind). Daarnaast heb je met 8 parken in de directe omgeving voldoende groene wandelroutes aan de leiband.",
+    "parks": [
+      {"icon": "fa-solid fa-dog", "name": "Hondenloopzone Rabot", "distance": "7 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0637741, "lon": 3.717675}, "features": [{"text": "Omheind terrein", "icon": "fa-solid fa-fence"}]},
+      {"icon": "fa-solid fa-dog", "name": "Hondenloopzone Begijnhofdries", "distance": "9 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0692342, "lon": 3.7116159}, "features": []},
+      {"icon": "fa-solid fa-dog", "name": "Hondenloopzone Brugse Poort", "distance": "12 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0549021, "lon": 3.7033851}, "features": [{"text": "Omheind terrein", "icon": "fa-solid fa-fence"}]}
+    ]
+  },
+  "vets": {
+    "intro": "In Rabot zelf is geen dierenartspraktijk gevestigd. De drie dichtstbijzijnde opties liggen allemaal op ongeveer 19 minuten wandelen, net buiten de wijkgrenzen. Dr. H.P. Grootveld aan de Grensstraat en Dierenkliniek Gent Centrum aan de Kortrijksepoortstraat zijn de meest nabije keuzes. Voor spoedsituaties is het goed om te weten dat de Faculteit Diergeneeskunde van de UGent een 24-uursdienst heeft.",
+    "practices": [
+      {"icon": "fa-solid fa-stethoscope", "name": "Dr. H.P. Grootveld", "street": "Grensstraat", "streetNumber": "193", "municipality": "Gent", "postalCode": "9032", "distance": "19 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0761925, "lon": 3.7098784}},
+      {"icon": "fa-solid fa-stethoscope", "name": "Dierenkliniek Gent Centrum", "street": "Kortrijksepoortstraat", "streetNumber": "100", "municipality": "Gent", "postalCode": "9000", "distance": "19 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.05, "lon": 3.72}},
+      {"icon": "fa-solid fa-stethoscope", "name": "Heughebaert Anne", "street": "Recollettenlei", "streetNumber": "18", "municipality": "Gent", "postalCode": "9000", "distance": "19 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0497844, "lon": 3.7195429}}
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Rabot zelf. Tom & Co aan de Martelaarslaan is de dichtstbijzijnde optie, op 21 minuten wandelen. Voor basisbenodigdheden zoals hondenvoer en snacks kun je ook terecht bij de supermarkten in de wijk, die doorgaans een beperkt assortiment huisdierproducten hebben.",
+    "stores": [{"icon": "fa-solid fa-bone", "name": "Tom & Co", "street": "Martelaarslaan", "streetNumber": "307", "municipality": "Gent", "postalCode": "9000", "distance": "21 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.047314, "lon": 3.7086601}}]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Rabot",
+    "intro": "Een typische dag als baasje in Rabot begint vaak met een ochtendwandeling naar het Rabotpark of langs de rustige straatjes richting Hof Ten Walle. De wijk is compact genoeg om in 15 minuten te doorkruisen, maar biedt voldoende variatie om je wandelroutes af te wisselen. Met de omheinde Hondenloopzone Rabot op 7 minuten heb je een vaste plek waar je viervoeter even los kan. De drukte van de stad is nooit ver weg, maar de groene hoekjes geven je toch dat gevoel van ontsnapping.",
+    "benefits": [
+      "De Hondenloopzone Rabot is volledig omheind en ligt op slechts 7 minuten wandelen. Ideaal voor een snelle ronde voor het werk of een langere speeluurtje in het weekend.",
+      "Met 8 parken in en rond de wijk heb je elke dag een andere wandelroute. Het Rabotpark is het groenste, terwijl Hof Ten Walle een wat rustigere sfeer biedt.",
+      "De 18 bushaltes maken het makkelijk om ook verder weg te wandelen en met het openbaar vervoer terug te keren. Handig voor langere uitstappen met je hond naar grotere parken in Gent.",
+      "De mix van oude rijwoningen en nieuwere appartementen zorgt voor brede stoepen en rustige binnenstraatjes. Prettig voor puppytraining of voor oudere honden die liever rustig aan doen.",
+      "Hoewel er geen dierenwinkel in de wijk is, hebben de 5 supermarkten basisvoeding in het assortiment. Voor gespecialiseerde producten plan je gewoon een wekelijkse trip naar Tom & Co."
+    ]
+  },
+  "contributionCTA": {"heading": "Ken je deze wijk?", "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.", "typeformId": "buurt-feedback"},
+  "statistics": {"intro": "Rabot is een van de dichtstbevolkte wijken van Gent, met 6.647 inwoners op een compact oppervlak. De woningprijzen liggen onder het Gentse gemiddelde, wat de wijk aantrekkelijk maakt voor starters.", "medianPrice": 353000, "inhabitants": 6647, "availableHomes": null, "pricePerSqm": null},
+  "houses": {"intro": "Op zoek naar een woning in Rabot? De wijk deelt postcode 9000 met het centrum van Gent. Bij het zoeken op huizensites kun je het beste filteren op de wijknaam of specifieke straten. De Rabotwijk grenst aan Begijnhofdries en Brugse Poort, die vergelijkbare woningprijzen en sfeer bieden.", "hasOwnPostalCode": false},
+  "neighboringNeighborhoods": ["gent-begijnhofdries", "gent-brugse-poort", "gent-oude-lieve", "gent-maeswal", "gent-wissenhagestraat"],
+  "seoReview": {
+    "reviewedAt": "2026-01-05T13:00:00Z",
+    "qualityScore": 89,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Compacte stadswijk in Gent met parken om de hoek en goede busverbindingen - praktisch voor je dagelijkse wandeling",
+        "after": "Rabot in Gent: compacte stadswijk met parken om de hoek en goede busverbindingen - praktisch voor wandelingen",
+        "reason": "local_keyword_missing"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 25,
+      "keywordScore": 15,
+      "sectionIntrosScore": 15,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 10
+    }
+  }
+}

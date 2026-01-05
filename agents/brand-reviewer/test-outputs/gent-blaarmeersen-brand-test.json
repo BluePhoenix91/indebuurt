@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-05T12:00:00Z",
+  "id": "gent-blaarmeersen",
+  "city": "Gent",
+  "name": "Blaarmeersen",
+  "postalCode": "9000",
+  "subtitle": "Blaarmeersen in Gent: waar jouw hond volop kan ravotten tussen groen en water",
+  "dateAdded": "2026-01-05",
+  "inhabitants": 7807,
+  "labels": [
+    {"text": "Recreatiedomein", "icon": "fa-solid fa-trees"},
+    {"text": "Hondenspeelweide", "icon": "fa-solid fa-dog"},
+    {"text": "Waterrijk", "icon": "fa-solid fa-water"},
+    {"text": "Groen karakter", "icon": "fa-solid fa-leaf"}
+  ],
+  "intro": "Blaarmeersen is een van de groenste wijken van Gent en ligt in het westen van de stad, vlakbij het gelijknamige recreatiedomein. Voor baasjes die met hun viervoeter graag de natuur opzoeken, biedt deze wijk een zeldzame combinatie van uitgestrekte groengebieden, waterkanten en ruimte om te wandelen.\n\nMet een oppervlakte van ruim 4,2 km² en zo'n 7.800 inwoners heeft Blaarmeersen een rustig, bijna dorps karakter binnen de Gentse stadsgrenzen. De bebouwingsdichtheid is laag vergeleken met het centrum, wat betekent dat je hond hier meer ruimte heeft om te snuffelen en te rennen.\n\nDe wijk telt maar liefst 4 hondenloopzones, waaronder de bekende Blaarmeersen Hondenloopzone die op slechts 860 meter van het wijkcentrum ligt. Daarnaast zijn er 17 parken en groenzones waar je dagelijks kunt wandelen. Het recreatiedomein Blaarmeersen zelf is een trekpleister voor baasjes uit heel Gent, met kilometers wandelpaden langs de vijvers en door de bossen.\n\nWat dierenartsen betreft, vind je de dichtstbijzijnde praktijk van Dr. Paul Panis op ongeveer 1,6 kilometer afstand. In de wijdere omgeving zijn er nog enkele opties zoals Dierenkliniek Gent Centrum op 2 kilometer. Voor je dagelijkse hondenvoer kun je terecht bij Tom & Co, dat op zo'n 1,2 kilometer ligt.\n\nDe wijk is goed bereikbaar met het openbaar vervoer. Er zijn 42 bushaltes in de wijk, waaronder haltes als Gent Vissersdijk en Gent P+R Watersportbaan op loopafstand. Station Gent-Sint-Pieters ligt op 1,8 kilometer, handig als je met je viervoeter een uitstap wilt maken.\n\nVoor dagelijkse boodschappen heb je keuze uit meerdere supermarkten in de buurt. Lidl ligt op 900 meter, Colruyt en Collect&Go op ongeveer 1 kilometer. Ook vind je 4 apotheken binnen bereik, met Annick Meulebroeck als dichtstbijzijnde op 770 meter.\n\nBlaarmeersen is een wijk voor baasjes die natuur en rust verkiezen boven stedelijke drukte. De afwezigheid van een dierenarts of dierenwinkel in de wijk zelf is het enige praktische nadeel, maar de nabijheid van het centrum van Gent compenseert dit ruimschoots. De combinatie van uitgebreide wandelmogelijkheden, meerdere hondenloopzones en een waterrijke omgeving maakt dit tot een van de meest hondvriendelijke wijken van Gent.\n\nGezinnen met kinderen en een hond vinden hier bovendien 8 scholen in de buurt, waaronder Het Eiland en Freinetschool Het Eiland op minder dan 800 meter. De Groenzone Tuinwijk Malem biedt extra speelruimte voor zowel kinderen als viervoeters.",
+  "coordinates": {"lat": 51.04650082511262, "lon": 3.691668765696672, "zoom": 14},
+  "valueCards": [
+    {"icon": "fa-solid fa-dog", "title": "Hondenloopzones", "distance": "7 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "4 hondenloopzones in de wijk", "detail": "Volop ruimte voor je viervoeter om los te rennen"},
+    {"icon": "fa-solid fa-tree", "title": "Parken & groen", "distance": "5 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "17 parken en groenzones", "detail": "Een van de groenste wijken van Gent"},
+    {"icon": "fa-solid fa-stethoscope", "title": "Dierenarts", "distance": "20 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Dr. Paul Panis op 1,6 km", "detail": "Meerdere praktijken binnen 2 km bereikbaar"},
+    {"icon": "fa-solid fa-store", "title": "Dierenwinkel", "distance": "15 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Tom & Co op 1,2 km afstand", "detail": "Voor voer, speelgoed en verzorging"},
+    {"icon": "fa-solid fa-bus", "title": "Openbaar vervoer", "distance": "4 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "42 bushaltes in de wijk", "detail": "Gent-Sint-Pieters station op 1,8 km"},
+    {"icon": "fa-solid fa-cart-shopping", "title": "Supermarkten", "distance": "11 mins", "distanceIcon": "fa-solid fa-person-walking", "description": "Lidl, Colruyt, Aldi binnen bereik", "detail": "Dagelijkse boodschappen dichtbij"}
+  ],
+  "facilities": {"intro": "Blaarmeersen biedt baasjes een unieke mix van natuur en voorzieningen. De wijk zelf is voornamelijk residentieel met veel groen, terwijl je voor specifieke hondenvoorzieningen zoals een dierenarts of dierenwinkel naar de aangrenzende wijken uitwijkt. Gelukkig liggen deze allemaal binnen een wandeling van 15 tot 20 minuten, en met 42 bushaltes in de wijk ben je ook snel op je bestemming met het openbaar vervoer."},
+  "dogParks": {
+    "intro": "Met 4 hondenloopzones is Blaarmeersen een paradijs voor baasjes die hun viervoeter graag vrij laten rondrennen. De bekendste is de Blaarmeersen Hondenloopzone aan het recreatiedomein, maar ook dichter bij huis zijn er zones waar je hond los kan.",
+    "parks": [
+      {"icon": "fa-solid fa-dog", "name": "Hondenloopzone Blaarmeersen (nabij centrum)", "distance": "7 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0464956, "lon": 3.7000542}, "features": [{"text": "Ruim omheind terrein", "icon": "fa-solid fa-fence"}, {"text": "Nabij wandelpaden", "icon": "fa-solid fa-route"}]},
+      {"icon": "fa-solid fa-dog", "name": "Blaarmeersen Hondenloopzone", "distance": "11 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.04, "lon": 3.685}, "features": [{"text": "Groot terrein aan recreatiedomein", "icon": "fa-solid fa-trees"}, {"text": "Nabij water", "icon": "fa-solid fa-water"}]},
+      {"icon": "fa-solid fa-dog", "name": "Hondenloopzone Zuid", "distance": "11 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0413171, "lon": 3.7006241}, "features": [{"text": "Rustige locatie", "icon": "fa-solid fa-volume-low"}]}
+    ]
+  },
+  "vets": {
+    "intro": "In Blaarmeersen zelf vind je geen dierenartspraktijk, maar in de wijdere omgeving van Gent zijn er meerdere opties op fiets- of wandelafstand. Dr. Paul Panis is de dichtstbijzijnde op 1,6 km, terwijl je voor gespecialiseerde zorg terecht kunt bij Dierenkliniek Gent Centrum.",
+    "practices": [
+      {"icon": "fa-solid fa-stethoscope", "name": "Dr. Paul Panis", "street": "Onbekend", "streetNumber": "", "municipality": "Gent", "postalCode": "9000", "distance": "20 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0378647, "lon": 3.7106911}},
+      {"icon": "fa-solid fa-stethoscope", "name": "Kat&Ko", "street": "Onbekend", "streetNumber": "", "municipality": "Gent", "postalCode": "9000", "distance": "24 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.0339439, "lon": 3.7101744}},
+      {"icon": "fa-solid fa-stethoscope", "name": "Dierenkliniek Gent Centrum", "street": "Kortrijksepoortstraat", "streetNumber": "100", "municipality": "Gent", "postalCode": "9000", "distance": "25 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.05, "lon": 3.72}}
+    ]
+  },
+  "petStores": {
+    "intro": "Voor hondenvoer, speelgoed en verzorgingsproducten rijd of wandel je naar een Tom & Co vestiging in de buurt. De dichtstbijzijnde ligt op zo'n 1,2 km van het wijkcentrum. Supermarkten zoals Colruyt en Lidl bieden ook een basispakket dierenvoeding aan.",
+    "stores": [
+      {"icon": "fa-solid fa-store", "name": "Tom & Co", "street": "Martelaarslaan", "streetNumber": "307", "municipality": "Gent", "postalCode": "9000", "distance": "15 mins", "distanceIcon": "fa-solid fa-person-walking", "coordinates": {"lat": 51.047314, "lon": 3.7086601}}
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met een hond in Blaarmeersen",
+    "intro": "Blaarmeersen is gebouwd voor baasjes die van wandelen houden. Je ochtendwandeling kan langs de vijvers van het recreatiedomein, door de Groenzone Tuinwijk Malem, of gewoon een rondje door de rustige woonstraten. Met 4 hondenloopzones hoef je nooit ver te zoeken naar een plek waar je viervoeter los kan.",
+    "benefits": [
+      "4 hondenloopzones binnen de wijk voor dagelijks ravotten",
+      "17 parken en groenzones voor gevarieerde wandelingen",
+      "Recreatiedomein Blaarmeersen met kilometers wandelpaden",
+      "Rustige woonwijk met lage bebouwingsdichtheid",
+      "42 bushaltes voor makkelijk vervoer met je hond"
+    ]
+  },
+  "contributionCTA": {"heading": "Ken je Blaarmeersen?", "intro": "Woon je in Blaarmeersen of wandel je hier regelmatig met je viervoeter? Deel je ervaringen en tips met andere baasjes. Jouw lokale kennis helpt andere hondenliefhebbers.", "typeformId": "buurt-feedback"},
+  "statistics": {"intro": "Blaarmeersen is een residentieel-groene wijk met een relatief lage bevolkingsdichtheid voor Gent. De huizenprijzen liggen op het niveau van de Gentse rand, wat de wijk aantrekkelijk maakt voor gezinnen die ruimte zoeken zonder de stad te verlaten.", "medianPrice": 353000, "inhabitants": 7807, "availableHomes": null, "pricePerSqm": null},
+  "houses": {"intro": "Op zoek naar een woning in Blaarmeersen? De wijk biedt voornamelijk eengezinswoningen en appartementen met vaak een tuin of terras. Door de nabijheid van het recreatiedomein en het groene karakter is dit een populaire keuze voor baasjes die ruimte willen voor hun viervoeter.", "hasOwnPostalCode": false},
+  "neighboringNeighborhoods": ["gent-over-de-meersstraat", "gent-brugse-poort", "gent-assels", "gent-bijloke"],
+  "seoReview": {
+    "reviewedAt": "2026-01-05T12:30:00Z",
+    "qualityScore": 85,
+    "passedSEO": true,
+    "changesLog": [],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 13,
+      "localRelevanceScore": 12,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-05T12:45:00Z",
+    "qualityScore": 82,
+    "passedBrand": true,
+    "changesLog": [],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 28,
+      "toneVoiceScore": 22,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 12,
+      "sparseDataHandlingScore": 4
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [],
+        "preferredTermsPresent": ["baasjes", "viervoeter", "wijk", "hondenloopzone", "dierenarts"],
+        "allowedExceptionsUsed": ["in de buurt"]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 12
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 18,
+        "localTipsFound": ["recreatiedomein Blaarmeersen", "Groenzone Tuinwijk Malem", "Gent-Sint-Pieters"],
+        "neighborhoodObservations": ["rustig dorps karakter", "lage bebouwingsdichtheid", "waterrijke omgeving"]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 18,
+        "listLikePatternsFound": 1
+      },
+      "sparseDataHandling": {
+        "gapsDetected": ["geen dierenarts in de wijk", "geen dierenwinkel in de wijk"],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}
