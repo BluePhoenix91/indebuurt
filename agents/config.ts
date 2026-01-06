@@ -12,7 +12,7 @@ export const PIPELINE_CONFIG = {
   outputBasePath: 'agents/pipeline-outputs',
 
   /** Path for final published Astro content */
-  contentOutputPath: 'src/content/neighborhoods',
+  contentOutputPath: 'web/src/content/neighborhoods',
 
   /** Minimum final_score (0-100) required for auto-publishing */
   qualityThreshold: 70,
@@ -50,10 +50,11 @@ export function getOutputPath(nisCode: string, stage: PipelineStage): string {
 
 /**
  * Get the final content output path for a neighborhood.
+ * Uses the slug (from brand-reviewer output `id` field) as the filename.
  *
  * @example
- * getContentPath('41002A0') // 'src/content/neighborhoods/41002A0.json'
+ * getContentPath('aalst-aalst-station') // 'web/src/content/neighborhoods/aalst-aalst-station.json'
  */
-export function getContentPath(nisCode: string): string {
-  return `${PIPELINE_CONFIG.contentOutputPath}/${nisCode}.json`;
+export function getContentPath(slug: string): string {
+  return `${PIPELINE_CONFIG.contentOutputPath}/${slug}.json`;
 }

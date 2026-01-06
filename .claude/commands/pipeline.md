@@ -17,6 +17,7 @@ Orchestrates the 4-stage neighborhood content pipeline:
 /pipeline municipality <nis5>  Process all pending in municipality (e.g., 44021)
 /pipeline next [N]             Process next N pending (default: 5, max: 50)
 /pipeline retry-failed         Re-process failed jobs (retry_count < 3)
+/pipeline publish <nis_code>   Manually publish completed neighborhood
 ```
 
 ---
@@ -30,8 +31,9 @@ Parse `$ARGUMENTS` to determine the subcommand:
 3. **"municipality" + 5-digit code** -> Process municipality batch
 4. **"next" + optional number** -> Process next N pending
 5. **"retry-failed"** -> Re-process failed jobs
-6. **7-character NIS code** (format: `DDDDDLD` where D=digit, L=letter) -> Single neighborhood
-7. **Otherwise** -> Show error with valid options
+6. **"publish" + 7-character NIS code** -> Manual publish subcommand
+7. **7-character NIS code** (format: `DDDDDLD` where D=digit, L=letter) -> Single neighborhood
+8. **Otherwise** -> Show error with valid options
 
 ---
 
@@ -39,7 +41,8 @@ Parse `$ARGUMENTS` to determine the subcommand:
 
 From `agents/config.ts`:
 - **Output path:** `agents/pipeline-outputs/{nis_code}/`
-- **Quality threshold:** 70 (for flagging, not blocking)
+- **Content path:** `web/src/content/neighborhoods/{slug}.json` (slug from brand-reviewer output `id` field)
+- **Quality threshold:** 70 (auto-publish if score >= 70)
 - **Max retries:** 3
 - **Stale timeout:** 30 minutes (jobs in_progress longer are treated as pending)
 
@@ -115,10 +118,10 @@ LIMIT 10;
 ```sql
 SELECT
   COUNT(*) as total_completed,
-  ROUND(AVG(seo_score), 1) as avg_seo,
-  ROUND(AVG(brand_score), 1) as avg_brand,
+  COUNT(*) FILTER (WHERE published = TRUE) as published,
+  COUNT(*) FILTER (WHERE published = FALSE) as unpublished,
   ROUND(AVG(final_score), 1) as avg_final,
-  COUNT(*) FILTER (WHERE final_score < 70) as needs_review
+  COUNT(*) FILTER (WHERE final_score < 70) as below_threshold
 FROM pipeline_jobs
 WHERE status = 'completed';
 ```
@@ -150,10 +153,9 @@ These jobs have been in_progress for >30 minutes and may need attention:
 
 ### Quality Summary
 - Completed: X neighborhoods
-- Avg SEO Score: X
-- Avg Brand Score: X
+- Published: X | Unpublished: X
 - Avg Final Score: X
-- Needs Review: X (score < 70)
+- Below threshold (<70): X
 ```
 
 ---
@@ -266,13 +268,54 @@ Then commit the transaction.
    ```
    Then commit.
 
-8. **Report completion:**
+8. **Quality gate and auto-publish:**
+
+   a. Check if `final_score >= 70` (quality threshold from config)
+
+   b. Extract the slug from the brand-reviewer output:
+      - Read `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json`
+      - Extract the `id` field value (e.g., `"aalst-aalst-station"`)
+      - This slug becomes the published filename
+
+   c. **Validate POI address fields** (prevents Astro schema errors):
+      - Check all items in `vets.practices[]` and `petStores.stores[]`
+      - Each must have non-null `municipality` and `postalCode`
+      - If any are null, block publishing and report:
+        ```
+        Cannot publish: POI address data incomplete
+        - {count} items have null municipality/postalCode
+        See bug: backlog/Bugs/2026-01-06-poi-address-fields-not-extracted.md
+        ```
+      - Set `published = FALSE` and continue (job is still completed)
+
+   d. **If final_score >= 70 AND address validation passes:**
+      - Create directory if needed: `mkdir -p web/src/content/neighborhoods/`
+      - Copy the brand-reviewer output to content directory using the slug as filename:
+        `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json` -> `web/src/content/neighborhoods/{slug}.json`
+      - Update database with publish status:
+        ```sql
+        UPDATE pipeline_jobs
+        SET published = TRUE, published_at = NOW()
+        WHERE nis_code = '{nis_code}';
+        ```
+        Then commit.
+
+   e. **If final_score < 70:**
+      - Do NOT publish (content stays in pipeline-outputs only)
+      - `published` remains FALSE in database
+
+9. **Report completion:**
    ```
    Completed {nis_code} ({name})
    - SEO Score: {seo_score}
    - Brand Score: {brand_score}
    - Final Score: {final_score}
-   - Status: {if final_score >= 70: "Ready" else: "Needs Review"}
+   - Published: {if published: "Yes -> web/src/content/neighborhoods/{slug}.json" else: "No (score below 70)"}
+   ```
+
+   If not published, add hint:
+   ```
+   Use `/pipeline publish {nis_code}` to manually publish after review.
    ```
 
 ---
@@ -431,18 +474,91 @@ This ensures a clean state and avoids debugging confusion from half-written file
 
 ---
 
-## Quality Gate
+## Quality Gate and Auto-Publish
 
 The quality threshold is **70** (from `agents/config.ts`).
 
-- Content with `final_score >= 70`: Marked as ready
-- Content with `final_score < 70`: Marked as "needs review" in the database
+- Content with `final_score >= 70`: **Auto-published** to `web/src/content/neighborhoods/{nis_code}.json`
+- Content with `final_score < 70`: **Not published** (stays in `pipeline-outputs/` for review)
 
-**Note:** This command does NOT copy files to `src/content/neighborhoods/`. That functionality is part of Story J5 (Quality Gate and Auto-Publish).
+Both are marked as `status = 'completed'`. The `published` column tracks whether content was published.
 
-To find content needing review:
+**Find unpublished content:**
+```sql
+SELECT nis_code, final_score, seo_score, brand_score
+FROM pipeline_jobs
+WHERE status = 'completed' AND published = FALSE;
+```
+
+**Find below-threshold content:**
 ```sql
 SELECT nis_code, final_score, seo_score, brand_score
 FROM pipeline_jobs
 WHERE status = 'completed' AND final_score < 70;
 ```
+
+---
+
+## /pipeline publish <nis_code>
+
+Manually publish a completed neighborhood regardless of score.
+Use after human review of below-threshold content.
+
+### Steps:
+
+1. **Validate NIS code format:**
+   - Must be 7 characters
+   - Pattern: 5 digits + 1 letter + 1 digit (e.g., `41002A0`)
+   - If invalid, report error and stop
+
+2. **Verify job exists and is completed:**
+```sql
+SELECT nis_code, status, final_score, published, published_at
+FROM pipeline_jobs
+WHERE nis_code = '{nis_code}';
+```
+   - If not found: Report "Job not found: {nis_code}" and stop
+   - If status != 'completed': Report "Cannot publish: job status is '{status}', must be 'completed'" and stop
+
+3. **Verify output file exists and extract slug:**
+   - Check: `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json`
+   - If missing: Report "Output file not found. Run `/pipeline {nis_code}` first." and stop
+   - Read the file and extract the `id` field value (this is the slug for the filename)
+
+4. **Validate POI address fields** (prevents Astro schema errors):
+   - Check all items in `vets.practices[]` and `petStores.stores[]`
+   - Each must have non-null `municipality` and `postalCode`
+   - If any are null, report error and stop:
+     ```
+     Cannot publish: POI address data incomplete
+     - {count} items have null municipality/postalCode
+     Fix the data source first. See: backlog/Bugs/2026-01-06-poi-address-fields-not-extracted.md
+     ```
+
+5. **Publish:**
+   - Create directory if needed: `mkdir -p web/src/content/neighborhoods/`
+   - Copy file using the slug as filename: `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json` -> `web/src/content/neighborhoods/{slug}.json`
+   - Update database:
+   ```sql
+   UPDATE pipeline_jobs
+   SET published = TRUE, published_at = NOW()
+   WHERE nis_code = '{nis_code}';
+   ```
+   Then commit.
+
+6. **Report:**
+   ```
+   Published {nis_code}
+   - Score: {final_score}
+   - File: web/src/content/neighborhoods/{slug}.json
+   ```
+
+   If `final_score < 70`:
+   ```
+   Note: Published with below-threshold score after manual review.
+   ```
+
+   If was already published (overwriting):
+   ```
+   Note: Overwrote previously published version.
+   ```

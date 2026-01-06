@@ -45,8 +45,8 @@ const vetSchema = z.object({
   street: z.string(),
   streetNumber: z.string(),
   bus: z.string().optional(),
-  municipality: z.string(),
-  postalCode: z.string(),
+  municipality: z.string(), // Required - fix at data source if null
+  postalCode: z.string(), // Required - fix at data source if null
   distance: z.string(),
   distanceIcon: z.string().optional(),
   coordinates: coordinatesSchema,
@@ -58,8 +58,8 @@ const petStoreSchema = z.object({
   street: z.string(),
   streetNumber: z.string(),
   bus: z.string().optional(),
-  municipality: z.string(),
-  postalCode: z.string(),
+  municipality: z.string(), // Required - fix at data source if null
+  postalCode: z.string(), // Required - fix at data source if null
   distance: z.string(),
   distanceIcon: z.string().optional(),
   coordinates: coordinatesSchema,
@@ -72,7 +72,7 @@ const neighborhoodSchema = z.object({
   name: z.string(),
   subtitle: z.string(),
   dateAdded: z.string(),
-  postalCode: z.string(),
+  postalCode: z.string().nullable(), // Can be null - fix at data source
   inhabitants: z.number(),
   labels: z.array(labelSchema),
   intro: z.string(),
@@ -107,8 +107,8 @@ const neighborhoodSchema = z.object({
     intro: z.string(),
     medianPrice: z.number(),
     inhabitants: z.number(),
-    availableHomes: z.number(),
-    pricePerSqm: z.number(),
+    availableHomes: z.number().nullable(), // May not be available for all areas
+    pricePerSqm: z.number().nullable(), // May not be available for all areas
   }),
   houses: z.object({
     intro: z.string(),

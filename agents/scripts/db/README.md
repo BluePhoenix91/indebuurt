@@ -33,9 +33,26 @@ psql -U postgres -d buurtkompas_pipeline -f agents/scripts/db/03-grant-pipeline-
 
 # Story J1: Schema
 psql -U postgres -d buurtkompas_pipeline -f agents/scripts/db/04-init-pipeline-schema.sql
+
+# Story J3: Add started_at for stale job detection
+psql -U postgres -d buurtkompas_pipeline -f agents/scripts/db/05-add-started-at.sql
+
+# Story J5: Add publish tracking columns
+psql -U postgres -d buurtkompas_pipeline -f agents/scripts/db/06-add-publish-tracking.sql
 ```
 
-**Important:** Scripts 03-04 require `-d buurtkompas_pipeline` to run in the correct database context.
+**Important:** Scripts 03+ require `-d buurtkompas_pipeline` to run in the correct database context.
+
+## Migration Principles
+
+> **Never modify existing migration scripts.** Always create new migration scripts for schema changes.
+
+This ensures:
+- Existing databases can upgrade incrementally
+- Migration history is preserved
+- Idempotent scripts (with `IF NOT EXISTS` checks) can be safely re-run
+
+All migrations use idempotent patterns (checking if columns/indexes exist before creating) so they can be run multiple times without error.
 
 ## Scripts
 
@@ -45,6 +62,8 @@ psql -U postgres -d buurtkompas_pipeline -f agents/scripts/db/04-init-pipeline-s
 | `02-create-pipeline-user.sql` | Creates the `buurtkompas_pipeline` user | postgres |
 | `03-grant-pipeline-permissions.sql` | Grants CRUD permissions | postgres (connected to pipeline DB) |
 | `04-init-pipeline-schema.sql` | Creates `pipeline_jobs` table | postgres (connected to pipeline DB) |
+| `05-add-started-at.sql` | Adds `started_at` column for stale detection | postgres (connected to pipeline DB) |
+| `06-add-publish-tracking.sql` | Adds `published`, `published_at` columns | postgres (connected to pipeline DB) |
 
 ## Verification
 
@@ -176,6 +195,8 @@ Tracks the progress of each neighborhood through the content generation pipeline
 | `seo_score` | DECIMAL(5,2) | SEO reviewer quality score (0-100) |
 | `brand_score` | DECIMAL(5,2) | Brand reviewer quality score (0-100) |
 | `final_score` | DECIMAL(5,2) | Average of SEO and brand scores |
+| `published` | BOOLEAN | Whether content was published to content dir |
+| `published_at` | TIMESTAMP | When content was published |
 | `retry_count` | INTEGER | Number of retry attempts |
 | Stage timestamps | TIMESTAMP | When each stage completed |
 

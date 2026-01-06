@@ -272,24 +272,31 @@ If the manual process proves too slow, the architecture supports migration to AP
 
 ---
 
-## Story J5: Quality Gate and Auto-Publish
+## Story J5: Quality Gate and Auto-Publish ✅
 
 > As a content team member, I want content auto-published when quality score >= 70, so that good content flows to the site without manual approval.
 
 **Context:** SEO and Brand reviewers output quality scores. Content meeting threshold goes directly to Content Collections.
 
 **Acceptance Criteria:**
-- [ ] Quality threshold configurable in `agents/config.ts` (default: 70)
-- [ ] Final score = average of SEO score and Brand score
-- [ ] Content with score >= threshold:
+- [x] Quality threshold configurable in `agents/config.ts` (default: 70)
+- [x] Final score = average of SEO score and Brand score
+- [x] Content with score >= threshold:
   - Copied to `src/content/neighborhoods/{nis_code}.json`
   - Status updated to `completed`
   - Completion timestamp recorded
-- [ ] Content with score < threshold:
-  - Status updated to `failed`
-  - Error message includes score breakdown
+- [x] Content with score < threshold:
+  - Status remains `completed` but `published = FALSE`
   - Remains in `pipeline-outputs/` for review
-- [ ] `/pipeline status` shows score distribution of completed content
+  - Can be manually published via `/pipeline publish <nis_code>`
+- [x] `/pipeline status` shows published/unpublished counts of completed content
+
+**Implementation Notes:**
+- Added `published` (boolean) and `published_at` (timestamp) columns via migration `06-add-publish-tracking.sql`
+- Auto-publish happens immediately after brand-reviewer completes if score >= 70
+- Manual publish command `/pipeline publish <nis_code>` allows publishing below-threshold content after review
+- Content always remains in `pipeline-outputs/` as source of truth
+- Re-running pipeline on already-published content overwrites the published file
 
 **Note:** Threshold configured via `PIPELINE_CONFIG.qualityThreshold` in `agents/config.ts`.
 

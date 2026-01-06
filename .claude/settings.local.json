@@ -42,7 +42,8 @@
       "mcp__pipeline__list_tables",
       "mcp__pipeline__describe_table",
       "Bash(dir:*)",
-      "Write(agents/pipeline-outputs/**)"
+      "Write(agents/pipeline-outputs/**)",
+      "Write(web/src/content/neighborhoods/**)"
     ],
     "deny": [],
     "ask": []
