@@ -41,7 +41,8 @@
       "mcp__pipeline__execute_rollback",
       "mcp__pipeline__list_tables",
       "mcp__pipeline__describe_table",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Write(agents/pipeline-outputs/**)"
     ],
     "deny": [],
     "ask": []

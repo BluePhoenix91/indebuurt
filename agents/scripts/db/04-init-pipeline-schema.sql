@@ -59,6 +59,7 @@ CREATE TABLE IF NOT EXISTS pipeline_jobs (
     -- Audit timestamps
     created_at TIMESTAMP NOT NULL DEFAULT NOW(),
     updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    started_at TIMESTAMP,                          -- When processing began (for stale job detection)
     completed_at TIMESTAMP,
 
     -- Constraint: municipality_nis must match first 5 chars of nis_code
@@ -110,6 +111,10 @@ CREATE INDEX IF NOT EXISTS idx_pipeline_jobs_municipality_status ON pipeline_job
 CREATE INDEX IF NOT EXISTS idx_pipeline_jobs_failed_retry ON pipeline_jobs(status, retry_count)
     WHERE status = 'failed';
 
+-- For stale job detection (jobs in_progress for too long)
+CREATE INDEX IF NOT EXISTS idx_pipeline_jobs_stale ON pipeline_jobs(status, started_at)
+    WHERE status = 'in_progress';
+
 -- ============================================================================
 -- Verification
 -- ============================================================================
@@ -119,8 +124,8 @@ BEGIN
     RAISE NOTICE '============================================';
     RAISE NOTICE 'Pipeline schema created successfully!';
     RAISE NOTICE '============================================';
-    RAISE NOTICE 'Table: pipeline_jobs (18 columns)';
+    RAISE NOTICE 'Table: pipeline_jobs (19 columns)';
     RAISE NOTICE 'Trigger: update_pipeline_jobs_updated_at';
-    RAISE NOTICE 'Indexes: 5 indexes for query optimization';
+    RAISE NOTICE 'Indexes: 6 indexes for query optimization';
     RAISE NOTICE '============================================';
 END $$;

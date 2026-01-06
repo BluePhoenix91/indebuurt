@@ -212,46 +212,61 @@ If the manual process proves too slow, the architecture supports migration to AP
 
 ---
 
-## Story J3: Pipeline Slash Command
+## Story J3: Pipeline Slash Command ✅
 
 > As a developer, I want a `/pipeline` slash command that orchestrates the 4 agents, so that I can process neighborhoods with a single command.
 
 **Context:** Slash commands in `.claude/commands/` provide user-invokable commands. The `/pipeline` command coordinates subagents and database updates.
 
 **Acceptance Criteria:**
-- [ ] `/pipeline status` shows progress dashboard:
+- [x] `/pipeline status` shows progress dashboard:
   - Neighborhoods by status (pending/in_progress/completed/failed)
   - Breakdown by municipality
   - Recent activity
-- [ ] `/pipeline <nis_code>` processes single neighborhood through all 4 agents
-- [ ] `/pipeline municipality <nis5>` processes all pending neighborhoods for a municipality (e.g., `44021` for Gent)
-- [ ] `/pipeline next <N>` processes next N pending neighborhoods
-- [ ] `/pipeline retry-failed` re-processes failed items (retry_count < max_retries)
-- [ ] Command updates `pipeline_jobs` table at each stage
-- [ ] Intermediate outputs saved to `agents/pipeline-outputs/{nis_code}/`
-- [ ] Final JSON written to `src/content/neighborhoods/{nis_code}.json` when score >= threshold
+- [x] `/pipeline <nis_code>` processes single neighborhood through all 4 agents
+- [x] `/pipeline municipality <nis5>` processes all pending neighborhoods for a municipality (e.g., `44021` for Gent)
+- [x] `/pipeline next <N>` processes next N pending neighborhoods
+- [x] `/pipeline retry-failed` re-processes failed items (retry_count < max_retries)
+- [x] Command updates `pipeline_jobs` table at each stage
+- [x] Intermediate outputs saved to `agents/pipeline-outputs/{nis_code}/`
+- [x] Resume logic: checks for existing valid outputs and skips completed stages
+- [x] Stale job detection: jobs in_progress > 30 minutes treated as pending
+- [x] Write permission added for `agents/pipeline-outputs/**`
 
 **Note:** Uses `nis_code` (7-char, e.g., `44021A1`) as identifier. Municipality filtering uses 5-char prefix (e.g., `44021` = Gent). Configuration from `agents/config.ts`.
 
+**Implementation Notes:**
+- Slash command: `.claude/commands/pipeline.md`
+- Added `started_at` column to `pipeline_jobs` for stale detection
+- Migration script: `agents/scripts/db/05-add-started-at.sql`
+- Publishing to `src/content/neighborhoods/` deferred to J5 (Quality Gate)
+
 ---
 
-## Story J4: Intermediate Output Storage
+## Story J4: Intermediate Output Storage ✅
 
 > As a developer, I want intermediate outputs saved at each pipeline stage, so that I can debug issues and resume from failures.
 
 **Context:** If a session ends mid-pipeline or an agent fails, we need the previous stage's output to resume without re-running everything.
 
 **Acceptance Criteria:**
-- [ ] Output directory structure: `agents/pipeline-outputs/{nis_code}/`
-- [ ] Files saved after each stage:
+- [x] Output directory structure: `agents/pipeline-outputs/{nis_code}/`
+- [x] Files saved after each stage:
   - `1-researcher.json` — ResearcherOutput
   - `2-writer.json` — WriterOutput
   - `3-seo-reviewer.json` — SEOReviewerOutput
   - `4-brand-reviewer.json` — BrandReviewerOutput
-- [ ] Pipeline checks for existing outputs before re-running agent
-- [ ] `current_stage` in database tracks where to resume
-- [ ] Timestamps in database track when each stage completed
-- [ ] Failed stages preserve partial output for debugging
+- [x] Pipeline checks for existing outputs before re-running agent
+- [x] `current_stage` in database tracks where to resume
+- [x] Timestamps in database track when each stage completed
+- [x] Invalid outputs deleted before retry (changed from "preserve for debugging")
+
+**Implementation Notes:**
+- Most functionality implemented as part of J2/J3
+- Resume logic is instruction-based (`pipeline.md` prompts Claude to check files) not programmatic code
+- Outputs gitignored via `.gitignore:79-80`
+- Invalid/corrupted output files are deleted before retry, not preserved
+- Lightweight validation (field existence checks) used for resume decisions
 
 **Note:** Path derivation handled by `getOutputPath()` in `agents/config.ts`.
 
