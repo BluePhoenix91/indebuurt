@@ -1,47 +1,16 @@
--- Load POI Data from Overpass API
--- Prerequisites: Run fetch-pois.sh, then load GeoJSON with ogr2ogr into staging_poi
+-- POI Schema and Helper Functions
+--
+-- This migration sets up the POI schema extensions and helper functions.
+-- The actual POI data import is handled by: database/scripts/pois/transform-staging-to-pois.sql
+--
+-- Run order:
+-- 1. Run this migration (schema + functions)
+-- 2. Run setup-all.sh to fetch and load POI data into staging_poi
+-- 3. Run transform-staging-to-pois.sql to populate the pois table
 
 -- Add domain column to pois
 ALTER TABLE pois ADD COLUMN IF NOT EXISTS domain VARCHAR(50);
 CREATE INDEX IF NOT EXISTS idx_pois_domain ON pois (domain);
-
--- Transform staging_poi to pois
-INSERT INTO pois (osm_id, name, category, domain, location, osm_tags)
-SELECT
-    CAST(id AS BIGINT) as osm_id,
-    CASE WHEN tags IS NOT NULL AND tags::jsonb ? 'name' THEN tags::jsonb->>'name' ELSE NULL END as name,
-    CASE
-        WHEN tags::jsonb->>'amenity' = 'veterinary' THEN 'vet'
-        WHEN tags::jsonb->>'shop' = 'pet' THEN 'pet_store'
-        WHEN tags::jsonb->>'leisure' = 'dog_park' THEN 'dog_park'
-        WHEN tags::jsonb->>'shop' = 'supermarket' THEN 'supermarket'
-        WHEN tags::jsonb->>'amenity' = 'pharmacy' THEN 'pharmacy'
-        WHEN tags::jsonb->>'amenity' = 'school' THEN 'school'
-        WHEN tags::jsonb->>'highway' = 'bus_stop' THEN 'bus_stop'
-        WHEN tags::jsonb->>'public_transport' = 'platform' THEN 'bus_stop'
-        WHEN tags::jsonb->>'railway' = 'station' THEN 'train_station'
-        WHEN tags::jsonb->>'railway' = 'halt' THEN 'train_station'
-        WHEN tags::jsonb->>'leisure' = 'park' THEN 'park'
-        ELSE 'other'
-    END as category,
-    CASE
-        WHEN tags::jsonb->>'amenity' = 'veterinary' THEN 'pets'
-        WHEN tags::jsonb->>'shop' = 'pet' THEN 'pets'
-        WHEN tags::jsonb->>'leisure' = 'dog_park' THEN 'pets'
-        WHEN tags::jsonb->>'shop' = 'supermarket' THEN 'shopping'
-        WHEN tags::jsonb->>'amenity' = 'pharmacy' THEN 'healthcare'
-        WHEN tags::jsonb->>'amenity' = 'school' THEN 'education'
-        WHEN tags::jsonb->>'highway' = 'bus_stop' THEN 'transport'
-        WHEN tags::jsonb->>'public_transport' = 'platform' THEN 'transport'
-        WHEN tags::jsonb->>'railway' IN ('station', 'halt') THEN 'transport'
-        WHEN tags::jsonb->>'leisure' = 'park' THEN 'green'
-        ELSE 'other'
-    END as domain,
-    wkb_geometry as location,
-    tags::jsonb as osm_tags
-FROM staging_poi
-WHERE wkb_geometry IS NOT NULL
-ON CONFLICT DO NOTHING;
 
 -- Helper functions
 
@@ -132,7 +101,3 @@ GRANT EXECUTE ON FUNCTION get_nearest_pois_to_neighborhood TO buurtkompas_readon
 GRANT EXECUTE ON FUNCTION count_pois_in_radius TO buurtkompas_readonly;
 GRANT EXECUTE ON FUNCTION get_neighborhood_poi_summary TO buurtkompas_readonly;
 GRANT EXECUTE ON FUNCTION get_pois_near_neighborhood TO buurtkompas_readonly;
-
--- Verify
-SELECT category, domain, COUNT(*) as count FROM pois GROUP BY category, domain ORDER BY domain, count DESC;
-SELECT COUNT(*) as total_pois FROM pois;

@@ -187,3 +187,70 @@ This is categorized as an enhancement rather than a bug because:
 3. No functionality is broken, just suboptimal
 
 However, fixing this would improve data quality across the platform.
+
+---
+
+## Implementation Notes (2026-01-06)
+
+**Status: RESOLVED**
+
+### What Was Implemented
+
+We implemented a hybrid approach combining Options A, B, and a new spatial enrichment strategy:
+
+1. **Fixed the import pipeline** (`transform-staging-to-pois.sql`)
+   - Now extracts `addr:postcode` and `addr:city` from OSM tags during import
+   - Coverage from OSM tags alone: ~8% (most POIs don't have address tags)
+
+2. **Created spatial enrichment pipeline** (`enrich-pois-with-address.sql`)
+   - Loads NIS9 → PostCode mapping from Belgium Geographic Data dictionary
+   - Updates `statistical_sectors.postal_code` via NIS code join
+   - Fills gaps in sectors using spatial neighbor lookup
+   - Enriches POIs with `city` and `postal_code` via spatial join to sectors
+
+3. **Updated helper functions** (migration `20260106_006`)
+   - All POI helper functions now return address columns
+
+### Final Coverage
+
+| Table | Field | Coverage |
+|-------|-------|----------|
+| statistical_sectors | postal_code | 100% |
+| pois | city | 80.8% |
+| pois | postal_code | 80.8% |
+
+### Why Not 100%?
+
+~19% of POIs fall outside our sector boundaries:
+- **11,677** in Wallonia (we only loaded Flanders/Brussels sectors)
+- **290** in Netherlands (cross-border POIs)
+- **106** edge cases at Flanders border
+
+These POIs are outside our target market (Flanders) so this is acceptable.
+
+### Pipeline Order
+
+```
+1. setup-all.sh          → Fetch POIs from Overpass → staging_poi
+2. transform-staging-to-pois.sql → Extract OSM addr:* tags → pois
+3. enrich-pois-with-address.sql  → Spatial join to sectors → city/postal_code
+```
+
+### Files Created/Modified
+
+- `database/scripts/pois/transform-staging-to-pois.sql` - Added addr:postcode, addr:city extraction
+- `database/scripts/geo/enrich-pois-with-address.sql` - NEW: Spatial enrichment script
+- `database/scripts/geo/generate-postal-inserts.py` - NEW: CSV to SQL converter
+- `database/data/postal-inserts.sql` - NEW: 20,318 NIS9→PostCode mappings
+- `database/migrations/20260106_006_fix-poi-address-extraction.sql` - Schema + function updates
+- `database/scripts/setup-all.sh` - Updated with new pipeline steps
+
+### Technical Details
+
+**NIS9 Version Mismatch:**
+The Belgium Geographic Data dictionary uses older NIS9 codes (e.g., `11002A00-`) while Statbel uses newer codes (e.g., `11002K1WN`). We handle this by:
+1. First matching on exact NIS9 code
+2. Then filling gaps via spatial neighbor lookup (`ST_DWithin`)
+
+**Preserving OSM Data:**
+The enrichment uses `COALESCE(NULLIF(p.city, ''), s.city)` to preserve any address data that came from OSM tags, only filling in from sectors when the POI has no OSM address.
