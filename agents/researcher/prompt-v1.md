@@ -72,10 +72,50 @@ SELECT * FROM get_pois_in_neighborhood('{neighborhood_id}', 'pet_store');
 ```sql
 SELECT * FROM get_pois_in_neighborhood('{neighborhood_id}', 'dog_park');
 ```
-For dog parks, also check osm_tags for:
-- `fenced` or `fence` → isFenced: true/false
-- `water` → hasWater: true/false
-- `surface` → surface value
+
+For dog parks, extract features using this multi-layered inference logic (OSM data is sparse, so we combine tags and name patterns):
+
+**isFenced** (boolean):
+1. **Tag-based** (highest confidence):
+   - TRUE if: `barrier` IN ('fence', 'hedge') OR `fenced` = 'yes' OR `fence` = 'yes' OR `fence_type` exists
+2. **Name-based** (if no tag):
+   - TRUE if name contains: 'losloop', 'hondenweide', 'hondenspeelweide', 'hondenspeelzone', 'hondenpark', 'hondenzone', 'vrijheidszone'
+3. FALSE otherwise
+
+**surface** (string, optional):
+1. **Tag-based** (highest confidence):
+   - Use `surface` tag directly if present
+   - Else `landuse`: 'grass'→'grass', 'meadow'→'grass', 'forest'→'mixed'
+   - Else `landcover`: 'grass'→'grass'
+   - Else `natural`: 'sand'→'sand'
+2. **Name-based** (if no tag):
+   - If name contains 'weide' → 'grass'
+   - If name contains 'bos' → 'mixed'
+3. Omit if no information available
+
+**hasWater** (boolean):
+1. **Tag-based**: TRUE if `swimming:dog` = 'yes'
+2. **Name/description-based**: TRUE if name or `description` tag contains 'water' or 'zwem'
+3. FALSE otherwise
+
+**Additional optional features** (extract when available, omit if not tagged):
+
+**isAccessible** (enum: "yes" | "no" | "limited", optional):
+- Extract from `wheelchair` tag directly if present (19% coverage)
+
+**isLit** (boolean, optional):
+- TRUE if `lit` = 'yes'
+- FALSE if `lit` = 'no'
+- Omit if not tagged (2% coverage)
+
+**openingHours** (string, optional):
+- Extract from `opening_hours` tag directly if present, e.g., "24/7", "08:00-21:00" (3% coverage)
+
+**hasSmallDogArea** (boolean, optional):
+- TRUE if `small_dog` tag exists (typically "shared" meaning shared area)
+- Omit if not tagged (2% coverage)
+
+See `references/query-examples.md` for the full SQL query with inference logic.
 
 #### Parks
 ```sql
