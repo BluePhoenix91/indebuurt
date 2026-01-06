@@ -145,51 +145,70 @@ If the manual process proves too slow, the architecture supports migration to AP
 
 ---
 
-## Story J1: Pipeline Jobs Schema
+## Story J1: Pipeline Jobs Schema ✅
 
 > As a developer, I want a `pipeline_jobs` table to track progress, so that I can resume processing across Claude Code sessions.
 
 **Context:** Since Claude Code is interactive (not automated), we need persistent state to track which neighborhoods are pending, in-progress, completed, or failed.
 
 **Acceptance Criteria:**
-- [ ] `pipeline_jobs` table created in `indebuurt_pipeline` database with fields:
-  - `neighborhood_id` (unique), `city`, `province`
+- [x] `pipeline_jobs` table created in `buurtkompas_pipeline` database with fields:
+  - `nis_code` (unique, 7-char) — *Changed from `neighborhood_id` slug to official NIS code*
+  - `municipality_nis` (5-char) — *Changed from `city` to NIS prefix for indexed filtering*
   - `status` (pending, in_progress, completed, failed)
   - `current_stage` (researcher, writer, seo_reviewer, brand_reviewer)
   - Stage completion timestamps for each agent
   - `seo_score`, `brand_score`, `final_score`
-  - `error_message`, `retry_count`
-- [ ] Indexes on `status` and `city` for efficient queries
-- [ ] SQL script stored in `agents/scripts/db/init-pipeline-schema.sql`
-- [ ] Seed script queries `indebuurt_gis.neighborhoods` and populates `pipeline_jobs`
+  - `error_message`, `retry_count`, `last_error_at`
+- [x] Indexes on `status` and `municipality_nis` for efficient queries
+- [x] SQL script stored in `agents/scripts/db/04-init-pipeline-schema.sql`
+- [x] Configuration moved to code (`agents/config.ts`) instead of database table
+- [x] Jobs created on-demand by `/pipeline` command — *Changed from bulk seed to on-demand*
+
+**Implementation Notes:**
+- **Primary identifier:** Uses `nis_code` (e.g., `44021A1`) instead of slugs (e.g., `gent-binnenstad`) for stability
+- **City filtering:** Uses `municipality_nis` (first 5 chars of NIS) with CHECK constraint enforcing derivation
+- **No config table:** Configuration (paths, thresholds) lives in `agents/config.ts` since we're always in Claude Code
+- **No bulk seeding:** Jobs created when `/pipeline` targets a neighborhood (validated against GIS first)
+- **Auto-updated timestamps:** Database trigger updates `updated_at` on every row change
 
 ---
 
-## Story J2: Claude Code Subagents
+## Story J2: Claude Code Subagents ✅
 
 > As a developer, I want Claude Code subagent definitions for each pipeline stage, so that each agent can be invoked with consistent behavior.
 
 **Context:** Subagents in `.claude/agents/` provide specialized autonomous agents that Claude Code can spawn. Each wraps an existing agent prompt from `agents/`.
 
 **Acceptance Criteria:**
-- [ ] `neighborhood-researcher.md` subagent created
+- [x] `neighborhood-researcher.md` subagent created
   - Queries PostGIS database for neighborhood data
   - Outputs ResearcherOutput JSON
   - References `agents/researcher/prompt-v1.md` instructions
-- [ ] `neighborhood-writer.md` subagent created
+- [x] `neighborhood-writer.md` subagent created
   - Transforms ResearcherOutput into Dutch prose
   - Outputs WriterOutput JSON
   - References `agents/writer/prompt-v1.md` instructions
-- [ ] `neighborhood-seo-reviewer.md` subagent created
+- [x] `neighborhood-seo-reviewer.md` subagent created
   - Optimizes content for search visibility
   - Outputs SEOReviewerOutput JSON with quality score
   - References `agents/seo-reviewer/prompt-v1.md` instructions
-- [ ] `neighborhood-brand-reviewer.md` subagent created
+- [x] `neighborhood-brand-reviewer.md` subagent created
   - Validates brand voice and terminology
   - Outputs BrandReviewerOutput JSON with quality score
   - References `agents/brand-reviewer/prompt-v1.md` instructions
-- [ ] All subagents follow format of existing `user-story-architect.md`
-- [ ] Each subagent specifies `model: sonnet` for cost efficiency
+- [x] All subagents follow format of existing `user-story-architect.md`
+- [x] Each subagent specifies `model: sonnet` for cost efficiency
+
+**Implementation Notes:**
+- **Referencing approach:** "Reference + Read" pattern — subagents are lean (~50 lines) and instruct the agent to read the full prompt file first
+- **ID format:** Subagents receive `nis_code` (e.g., `41002A0`) and look up slug ID for helper functions
+- **MCP guidance:** Role-based (e.g., "read-only access to GIS data") rather than explicit server names
+- **Descriptions:** Minimal (no examples) since `/pipeline` command handles orchestration
+- **Color:** All use `green` for visual grouping as "content pipeline"
+- **Config update:** `agents/config.ts` updated to use hyphens in `PIPELINE_STAGES` (`seo-reviewer` not `seo_reviewer`)
+- **Test output:** Full pipeline tested with `41002A0` (Aalst - Station), sample outputs in `agents/pipeline-outputs/41002A0/`
+- **Known issue:** GIS helper functions use slug IDs, so researcher must first look up slug from nis_code
 
 ---
 
@@ -202,15 +221,17 @@ If the manual process proves too slow, the architecture supports migration to AP
 **Acceptance Criteria:**
 - [ ] `/pipeline status` shows progress dashboard:
   - Neighborhoods by status (pending/in_progress/completed/failed)
-  - Breakdown by city
+  - Breakdown by municipality
   - Recent activity
-- [ ] `/pipeline <neighborhood-id>` processes single neighborhood through all 4 agents
-- [ ] `/pipeline city <name>` processes all pending neighborhoods for a city
+- [ ] `/pipeline <nis_code>` processes single neighborhood through all 4 agents
+- [ ] `/pipeline municipality <nis5>` processes all pending neighborhoods for a municipality (e.g., `44021` for Gent)
 - [ ] `/pipeline next <N>` processes next N pending neighborhoods
-- [ ] `/pipeline retry-failed` re-processes failed items (retry_count < 3)
+- [ ] `/pipeline retry-failed` re-processes failed items (retry_count < max_retries)
 - [ ] Command updates `pipeline_jobs` table at each stage
-- [ ] Intermediate outputs saved to `agents/pipeline-outputs/{neighborhood_id}/`
-- [ ] Final JSON written to `src/content/neighborhoods/{slug}.json` when score >= 70
+- [ ] Intermediate outputs saved to `agents/pipeline-outputs/{nis_code}/`
+- [ ] Final JSON written to `src/content/neighborhoods/{nis_code}.json` when score >= threshold
+
+**Note:** Uses `nis_code` (7-char, e.g., `44021A1`) as identifier. Municipality filtering uses 5-char prefix (e.g., `44021` = Gent). Configuration from `agents/config.ts`.
 
 ---
 
@@ -221,7 +242,7 @@ If the manual process proves too slow, the architecture supports migration to AP
 **Context:** If a session ends mid-pipeline or an agent fails, we need the previous stage's output to resume without re-running everything.
 
 **Acceptance Criteria:**
-- [ ] Output directory structure: `agents/pipeline-outputs/{neighborhood_id}/`
+- [ ] Output directory structure: `agents/pipeline-outputs/{nis_code}/`
 - [ ] Files saved after each stage:
   - `1-researcher.json` — ResearcherOutput
   - `2-writer.json` — WriterOutput
@@ -232,6 +253,8 @@ If the manual process proves too slow, the architecture supports migration to AP
 - [ ] Timestamps in database track when each stage completed
 - [ ] Failed stages preserve partial output for debugging
 
+**Note:** Path derivation handled by `getOutputPath()` in `agents/config.ts`.
+
 ---
 
 ## Story J5: Quality Gate and Auto-Publish
@@ -241,17 +264,19 @@ If the manual process proves too slow, the architecture supports migration to AP
 **Context:** SEO and Brand reviewers output quality scores. Content meeting threshold goes directly to Content Collections.
 
 **Acceptance Criteria:**
-- [ ] Quality threshold configurable (default: 70)
+- [ ] Quality threshold configurable in `agents/config.ts` (default: 70)
 - [ ] Final score = average of SEO score and Brand score
-- [ ] Content with score >= 70:
-  - Copied to `src/content/neighborhoods/{slug}.json`
+- [ ] Content with score >= threshold:
+  - Copied to `src/content/neighborhoods/{nis_code}.json`
   - Status updated to `completed`
   - Completion timestamp recorded
-- [ ] Content with score < 70:
+- [ ] Content with score < threshold:
   - Status updated to `failed`
   - Error message includes score breakdown
   - Remains in `pipeline-outputs/` for review
 - [ ] `/pipeline status` shows score distribution of completed content
+
+**Note:** Threshold configured via `PIPELINE_CONFIG.qualityThreshold` in `agents/config.ts`.
 
 ---
 
@@ -306,10 +331,13 @@ J0 must be done first (database infrastructure). J1 and J2 can be done in parall
 ```
 1. Start Claude Code: `claude`
 2. Check progress: `/pipeline status`
-3. Process a city: `/pipeline city gent`
-4. Review any failures: `/pipeline retry-failed`
-5. Commit when ready: `git add . && git commit -m "Generated Gent neighborhoods"`
+3. Process a municipality: `/pipeline municipality 44021`  (44021 = Gent)
+4. Process single neighborhood: `/pipeline 44021A1`
+5. Review any failures: `/pipeline retry-failed`
+6. Commit when ready: `git add . && git commit -m "Generated Gent neighborhoods"`
 ```
+
+**NIS Code Reference:** Municipality NIS codes can be looked up via GIS database. Example: Gent = `44021`, Antwerpen = `11002`, Aalst = `41002`.
 
 ### Limitations
 
