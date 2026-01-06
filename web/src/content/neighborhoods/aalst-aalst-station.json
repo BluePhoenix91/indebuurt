@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-06T13:00:00Z",
+  "id": "aalst-aalst-station",
+  "city": "Aalst",
+  "name": "AALST - STATION",
+  "postalCode": "9300",
+  "subtitle": "Wonen rond het station van Aalst met je hond: groen op loopafstand, mobiliteit en hondenlosloopzones binnen 4 minuten",
+  "dateAdded": "2026-01-06",
+  "inhabitants": 3885,
+  "labels": [
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    },
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Compact wonen",
+      "icon": "fa-solid fa-building"
+    }
+  ],
+  "intro": "De wijk rond het station van Aalst is compact en functioneel. Met het treinstation als centrale spil woon je hier in het hart van de mobiliteit: pendelen naar Brussel of Gent is evident, en lokaal verplaatsen gaat te voet of met de bus. De wijk zelf is bescheiden qua voorzieningen, maar dat is het verhaal van veel stationswijken — je woont er voor de bereikbaarheid, niet voor het buurtkruidentuintje. Voor wie dagelijks wandelt betekent dit: je wandelingen maak je in de parken net buiten de wijk, en voor de dierenarts of hondenvoeding fiets je een kwartier. Niet ideaal als je alles binnen handbereik wilt, maar voor wie mobiliteit waardeert en de stad snel wil verlaten, werkt dit prima.\n\nMet 4 parken binnen 15 minuten wandelen en een hondenspeelweide op amper 4 minuten heb je genoeg ruimte voor je viervoeter. Het Osbroek met stedelijke sportterreinen ligt om de hoek, het Stadspark op 5 minuten, en voor variatie trek je naar de Graanmarkt. De dichtstbijzijnde hondenspeelweide — een onbenoemd losloopterrein — ligt op een steenworp van de wijk. Officieel omheind is het niet, maar voor een snelle ochtendwandeling doet het z'n werk. Honden die goed socialiseren vinden er ruimte, al is het terrein eerder functioneel dan fraai.\n\nVoor medische zorg moet je de wijk uit. De dichtstbijzijnde dierenarts, praktijk De Mey, ligt op 13 minuten wandelen in de Sint-Jobstraat. Dat is niet om de hoek, maar met de fiets ben je er snel. Voor spoedgevallen is dit een aandachtspunt: wie onmiddellijke hulp nodig heeft, plant beter vooraf een route of heeft een auto paraat. Gelukkig zijn er in totaal 5 praktijken binnen redelijke afstand, dus qua keuze zit je goed.\n\nHondenvoeding en speelgoed haal je bij Tom & Co op de Geraardsbergsestraat, op 9 minuten te voet. Dat is de enige gespecialiseerde dierenwinkel in de buurt die echt dichtbij is — de rest ligt verder weg in andere wijken of gemeenten. De lokale supermarkten hebben wel een basisassortiment, dus voor dagelijkse benodigdheden red je je makkelijk.\n\nMet een bevolkingsdichtheid van 2647 inwoners per km² is het hier stedelijk maar niet overweldigend druk. Je woont compact, maar niet gepropt. De wijk trekt vooral mensen die dagelijks pendelen of snel de stad in en uit willen — denk aan jonge professionals, studenten, of wie flexibiliteit in verplaatsingen zoekt. Voor gezinnen met kinderen én honden die meer ruimte en groen willen, zijn de rustiger wijken rond Aalst aangenamer. Maar wil je mobiliteit, een betaalbare woning (mediaan €265.000) en toch groen binnen handbereik? Dan is de stationswijk een solide keuze.\n\nHet grootste voordeel hier is de ligging: alles in Aalst is snel bereikbaar, en met 13 bushaltes en het treinstation stap je zo de regio in. Dat maakt het leven praktisch, ook voor wie regelmatig naar de dierenarts moet of hondentraining elders volgt. De keerzijde is dat je voor bijna alles de wijk moet verlaten — geen dierenarts op de hoek, geen park in de straat, geen dierenwinkel naast de bakker. Dat vraagt een actieve levenstijl: je plant je wandelingen, je fietst naar de winkel, je maakt van elke uitstap een klein avontuur. Voor wie dat past, is dit een fijne plek. Voor wie liever alles binnen armlengte heeft, wordt het snel onhandig.",
+  "coordinates": {
+    "lat": 50.93164957109816,
+    "lon": 4.042585141863453,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 hondenlosloopzones in de buurt",
+      "detail": "Dichtstbijzijnde op 4 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "13 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 praktijken binnen bereik",
+      "detail": "Praktijk De Mey op 13 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co en 4 andere winkels",
+      "detail": "Tom & Co op 9 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 groene plekken nabij",
+      "detail": "Osbroek en Stadspark dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-train",
+      "title": "Openbaar vervoer",
+      "distance": "0 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Station en 13 bushaltes",
+      "detail": "Perfect voor pendelen"
+    }
+  ],
+  "facilities": {
+    "intro": "De stationswijk van Aalst is functioneel ingericht: voorzieningen liggen niet in de wijk zelf, maar wel binnen 10-15 minuten wandelen of fietsen. Voor wie dagelijks wandelt betekent dit dat je voor hondenparken, dierenartsen en dierenwinkels even de benen moet strekken — geen probleem als je toch graag onderweg bent, maar wel een aandachtspunt als je alles op loopafstand verwacht."
+  },
+  "dogParks": {
+    "intro": "Met 5 hondenlosloopzones binnen redelijke afstand heb je genoeg keuze voor variatie in je wandelingen. De dichtstbijzijnde ligt op amper 4 minuten, ideaal voor een snelle ochtenduitlaat. Geen van de zones is officieel omheind volgens de data, dus houd rekening met honden die graag hun eigen weg gaan. De Hondenlosloopzone Bergemeesterstraat op 11 minuten is een bekende plek onder lokale baasjes.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark nabij wijk",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.933966,
+          "lon": 4.0400605
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark west",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9350663,
+          "lon": 4.0328311
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenlosloopzone Bergemeesterstraat",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.937049,
+          "lon": 4.0518202
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark noord",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9455286,
+          "lon": 4.0428116
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de stationswijk zelf vind je geen dierenartspraktijk, maar binnen een kwartier wandelen of 5 minuten fietsen heb je meerdere opties. Praktijk De Mey op de Sint-Jobstraat is met 13 minuten wandelen het dichtst bij. Voor spoedgevallen is dit een aandachtspunt — plan vooraf een route of zorg dat je mobiliteit hebt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Mey",
+        "street": "Sint Jobstraat",
+        "streetNumber": "260",
+        "municipality": "Aalst",
+        "postalCode": "9300",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9313446,
+          "lon": 4.027274
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Iris Van de Sijpe",
+        "street": "Kwalestraat",
+        "streetNumber": "77",
+        "municipality": "Nieuwerkerken",
+        "postalCode": "9320",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9280383,
+          "lon": 4.0147656
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartspraktijk Sonck Wout",
+        "street": "Anderenbroek",
+        "streetNumber": "48",
+        "municipality": "Haaltert",
+        "postalCode": "9450",
+        "distance": "55 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.8938475,
+          "lon": 4.0240887
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Radius",
+        "street": "Neerhoflaan",
+        "streetNumber": "20",
+        "municipality": "Aalst",
+        "postalCode": "9308",
+        "distance": "76 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9861161,
+          "lon": 4.0521733
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor hondenvoeding en speelgoed is Tom & Co op de Geraardsbergsestraat je dichtste optie: 9 minuten wandelen. Dat is de enige gespecialiseerde winkel die echt praktisch dichtbij ligt. De supermarkten in de wijk hebben een basisassortiment, handig voor snelle aankopen tussen de wandelingen door.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Geraardsbergsestraat",
+        "streetNumber": "260A",
+        "municipality": "Aalst",
+        "postalCode": "9300",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9266741,
+          "lon": 4.0359197
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "UniKOi",
+        "street": "Welleweg",
+        "streetNumber": "66",
+        "municipality": "Aalst",
+        "postalCode": "9320",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9139518,
+          "lon": 4.0527052
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Graankorrel",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Denderleeuw",
+        "postalCode": "9473",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9059069,
+          "lon": 4.0545119
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Gentse steenweg",
+        "streetNumber": "327",
+        "municipality": "Aalst",
+        "postalCode": "9300",
+        "distance": "40 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9419909,
+          "lon": 4.00041
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond rond het station van Aalst",
+    "intro": "Een typische dag rond het station van Aalst begint met een wandeling naar het dichtstbijzijnde hondenpark op 4 minuten, of een rustige ronde door het Osbroek. Je woont compact en stedelijk, dus elke wandeling betekent even de wijk uit. Dat maakt het leven actief: je fietst naar Tom & Co voor hondenvoeding, je plant een bezoek aan de dierenarts met je agenda, en je weekend draait om langere uitstappen naar de Graanmarkt of het Stadspark. Niet alles ligt om de hoek, maar dat maakt het ook makkelijk om de stad te verlaten — pendelen of dagjes weg zitten in je DNA als je hier woont.",
+    "benefits": [
+      "Met 5 hondenlosloopzones binnen 20 minuten heb je genoeg variatie voor je dagelijkse wandelingen. De dichtstbijzijnde ligt op 4 minuten, ideaal voor snelle ochtenduitlaatjes, en de Hondenlosloopzone Bergemeesterstraat op 11 minuten is een bekende ontmoetingsplek.",
+      "Het treinstation en 13 bushaltes maken je extreem mobiel. Pendelen naar Brussel of Gent is praktisch, en voor hondentraining of dierenartbezoeken buiten Aalst stap je zo in de trein. Die mobiliteit compenseert veel van wat de wijk zelf niet biedt.",
+      "Met 4 parken op wandelafstand — Osbroek, Stadspark, Graanmarkt — heb je genoeg groene ruimte voor afwisseling. Het Stadspark op 5 minuten is schaduwrijk en geschikt voor warme zomerdagen, het Osbroek biedt sportterreinen en open velden.",
+      "De mediaan huisprijs van €265.000 maakt deze wijk toegankelijker dan veel andere stadswijken. Voor wie betaalbaar stedelijk wonen zoekt met goede mobiliteit, is dit een interessante optie — zeker als je toch dagelijks de wijk uittrekt voor werk of ontspanning.",
+      "Praktijk De Mey op 13 minuten wandelen is goed bereikbaar, en met 5 praktijken in totaal binnen redelijke afstand heb je keuze genoeg. Voor routinecontroles of vaccinaties is dit prima; voor spoedgevallen vraagt het wat voorbereiding.",
+      "Tom & Co op 9 minuten wandelen dekt je basisbehoeften aan hondenvoeding en speelgoed. Het is niet om de hoek, maar met de fiets ben je er in een mum van tijd, en de supermarkten in de wijk hebben noodvoorraden voor tussendoor."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "De stationswijk van Aalst telt 3885 inwoners met een bevolkingsdichtheid van 2647 per km² — stedelijk maar niet overweldigend druk. De mediaan huisprijs ligt op €265.000.",
+    "medianPrice": 265000,
+    "inhabitants": 3885,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning rond het station van Aalst? Filter op postcode 9300 om aanbod in deze wijk te vinden. De compacte ligging en goede bereikbaarheid maken dit een populaire plek voor wie mobiliteit zoekt.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "aalst-ajuinkouter",
+    "aalst-erembodegem-centrum",
+    "aalst-duivekeet",
+    "aalst-beekveld",
+    "aalst-bergekouter"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-06T12:35:00Z",
+    "qualityScore": 79,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen aan het station van Aalst: mobiel en compact met groen en hondenparken op loopafstand",
+        "after": "Wonen rond het station van Aalst met je hond: groen op loopafstand, mobiliteit en hondenlosloopzones binnen 4 minuten",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes betekent dit: je dagelijkse wandelingen maak je in de parken net buiten de wijk, en voor de dierenarts of hondenvoeding fiets je een kwartier.",
+        "after": "Voor wie dagelijks wandelt betekent dit: je wandelingen maak je in de parken net buiten de wijk, en voor de dierenarts of hondenvoeding fiets je een kwartier.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "De stationswijk van Aalst is functioneel ingericht: voorzieningen liggen niet in de wijk zelf, maar wel binnen 10-15 minuten wandelen of fietsen. Voor baasjes betekent dit dat je voor hondenparken, dierenartsen en dierenwinkels even de benen moet strekken — geen probleem als je toch graag wandelt, maar wel een aandachtspunt als je alles op loopafstand verwacht.",
+        "after": "De stationswijk van Aalst is functioneel ingericht: voorzieningen liggen niet in de wijk zelf, maar wel binnen 10-15 minuten wandelen of fietsen. Voor wie dagelijks wandelt betekent dit dat je voor hondenparken, dierenartsen en dierenwinkels even de benen moet strekken — geen probleem als je toch graag onderweg bent, maar wel een aandachtspunt als je alles op loopafstand verwacht.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Met 5 hondenlosloopzones binnen redelijke afstand heb je genoeg keuze voor variatie in je wandelingen. De dichtstbijzijnde ligt op amper 4 minuten, ideaal voor een snelle ochtenduitlaat. Geen van de zones is officieel omheind volgens de data, dus houd rekening met honden die graag hun eigen weg gaan. De Hondenlosloopzone Bergemeesterstraat op 11 minuten is een bekende plek onder lokale baasjes.",
+        "after": "Met 5 hondenlosloopzones binnen redelijke afstand heb je genoeg keuze voor variatie in je wandelingen. De dichtstbijzijnde ligt op amper 4 minuten, ideaal voor een snelle ochtenduitlaat. Geen van de zones is officieel omheind volgens de data, dus houd rekening met honden die graag hun eigen weg gaan. De Hondenlosloopzone Bergemeesterstraat op 11 minuten is een bekende plek onder lokale baasjes.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in de stationswijk begint met een snelle wandeling naar het dichtstbijzijnde hondenpark op 4 minuten, of een rustige ronde door het Osbroek.",
+        "after": "Een typische dag rond het station van Aalst begint met een wandeling naar het dichtstbijzijnde hondenpark op 4 minuten, of een rustige ronde door het Osbroek.",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 5 hondenlosloopzones binnen 20 minuten heb je genoeg variatie voor je dagelijkse wandelingen. De dichtstbijzijnde ligt op 4 minuten, ideaal voor snelle ochtenduitlaatjes, en de Hondenlosloopzone Bergemeesterstraat op 11 minuten is een bekende ontmoetingsplek voor lokale baasjes.",
+        "after": "Met 5 hondenlosloopzones binnen 20 minuten heb je genoeg variatie voor je dagelijkse wandelingen. De dichtstbijzijnde ligt op 4 minuten, ideaal voor snelle ochtenduitlaatjes, en de Hondenlosloopzone Bergemeesterstraat op 11 minuten is een bekende ontmoetingsplek.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "neighboringNeighborhoods",
+        "issue": "Database table 'neighborhoods' does not exist - cannot validate internal links",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "topicCoverageScore": 17,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 7,
+      "internalLinkingScore": 0
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-06T13:00:00Z",
+    "qualityScore": 91,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 19,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasje",
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "buurt (in allowed phrases: 'in de buurt', 'buurtgevoel', 'buurtbewoners')"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 42
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "Sint-Jobstraat",
+          "Geraardsbergsestraat",
+          "richting de waterkant",
+          "via het Osbroek",
+          "naar de Graanmarkt"
+        ],
+        "neighborhoodObservations": [
+          "treinstation als centrale spil",
+          "compacte ligging en goede bereikbaarheid",
+          "functioneel ingericht",
+          "stedelijk maar niet overweldigend druk"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.89,
+        "averageSentenceLength": 16.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no veterinary practice in neighborhood",
+          "limited pet stores nearby"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

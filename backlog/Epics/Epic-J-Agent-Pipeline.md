@@ -123,7 +123,7 @@ If the manual process proves too slow, the architecture supports migration to AP
 
 ---
 
-## Story J0: Pipeline Database and MCP Setup
+## Story J0: Pipeline Database and MCP Setup ✅
 
 > As a developer, I want a separate pipeline database with read-write access, so that Claude Code can track progress without risking the GIS source data.
 
@@ -142,6 +142,12 @@ If the manual process proves too slow, the architecture supports migration to AP
   - `02-create-pipeline-user.sql`
   - `03-grant-pipeline-permissions.sql`
 - [x] README with setup instructions at `agents/scripts/db/README.md`
+
+**Implementation Notes:**
+- **MCP package:** Uses `mcp-postgres-full-access` (not the standard read-only `@modelcontextprotocol/server-postgres`)
+- **Transaction support:** Pipeline MCP provides `execute_dml_ddl_dcl_tcl`, `execute_commit`, `execute_rollback` for transactional writes
+- **Connection strings:** Stored in `.mcp.json` with local dev credentials
+- **Isolation verified:** `buurtkompas_pipeline` user cannot connect to `buurtkompas` database
 
 ---
 
@@ -236,10 +242,23 @@ If the manual process proves too slow, the architecture supports migration to AP
 **Note:** Uses `nis_code` (7-char, e.g., `44021A1`) as identifier. Municipality filtering uses 5-char prefix (e.g., `44021` = Gent). Configuration from `agents/config.ts`.
 
 **Implementation Notes:**
-- Slash command: `.claude/commands/pipeline.md`
-- Added `started_at` column to `pipeline_jobs` for stale detection
-- Migration script: `agents/scripts/db/05-add-started-at.sql`
-- Publishing to `src/content/neighborhoods/` deferred to J5 (Quality Gate)
+- **Slash command:** `.claude/commands/pipeline.md` (~520 lines of orchestration instructions)
+- **Stale detection:** Added `started_at` column via `05-add-started-at.sql`; jobs in_progress > 30 min treated as pending
+- **Database stage names:** Use underscores (`seo_reviewer`) due to CHECK constraint, while config uses hyphens (`seo-reviewer`)
+- **Job creation:** On-demand — validates NIS code exists in GIS database before creating job record
+- **Resume behavior:** Checks for existing output files and skips completed stages
+- **Error handling:** Failed stages set `status = 'failed'` with `error_message`; `retry_count` tracks attempts
+
+**Commands implemented:**
+| Command | Description |
+|---------|-------------|
+| `/pipeline` | Show help/usage |
+| `/pipeline status` | Dashboard with counts, municipality breakdown, recent activity, quality summary |
+| `/pipeline <nis_code>` | Process single neighborhood through all 4 agents |
+| `/pipeline municipality <nis5>` | Process all pending in municipality |
+| `/pipeline next [N]` | Process next N pending (default 5, max 50) |
+| `/pipeline retry-failed` | Re-process failed jobs with retry_count < 3 |
+| `/pipeline publish <nis_code>` | Manually publish completed content (added in J5) |
 
 ---
 
@@ -267,8 +286,12 @@ If the manual process proves too slow, the architecture supports migration to AP
 - Outputs gitignored via `.gitignore:79-80`
 - Invalid/corrupted output files are deleted before retry, not preserved
 - Lightweight validation (field existence checks) used for resume decisions
+- Path derivation handled by `getOutputPath()` in `agents/config.ts`
 
-**Note:** Path derivation handled by `getOutputPath()` in `agents/config.ts`.
+**First successful run:** `41002A0` (Aalst - Station)
+- Outputs in `agents/pipeline-outputs/41002A0/`
+- Published to `web/src/content/neighborhoods/aalst-aalst-station.json`
+- SEO score: 79, Brand score: 91, Final: 85
 
 ---
 
@@ -282,23 +305,34 @@ If the manual process proves too slow, the architecture supports migration to AP
 - [x] Quality threshold configurable in `agents/config.ts` (default: 70)
 - [x] Final score = average of SEO score and Brand score
 - [x] Content with score >= threshold:
-  - Copied to `src/content/neighborhoods/{nis_code}.json`
+  - Copied to `web/src/content/neighborhoods/{slug}.json` (slug from brand-reviewer `id` field)
   - Status updated to `completed`
-  - Completion timestamp recorded
+  - `published = TRUE` and `published_at` timestamp recorded
 - [x] Content with score < threshold:
   - Status remains `completed` but `published = FALSE`
   - Remains in `pipeline-outputs/` for review
   - Can be manually published via `/pipeline publish <nis_code>`
 - [x] `/pipeline status` shows published/unpublished counts of completed content
+- [x] POI address validation blocks publishing if vets/petStores have null municipality/postalCode
+- [x] Write permission added for `web/src/content/neighborhoods/**`
 
 **Implementation Notes:**
-- Added `published` (boolean) and `published_at` (timestamp) columns via migration `06-add-publish-tracking.sql`
-- Auto-publish happens immediately after brand-reviewer completes if score >= 70
-- Manual publish command `/pipeline publish <nis_code>` allows publishing below-threshold content after review
-- Content always remains in `pipeline-outputs/` as source of truth
-- Re-running pipeline on already-published content overwrites the published file
+- **Database migration:** `06-add-publish-tracking.sql` adds `published` (boolean) and `published_at` (timestamp) columns
+- **Slug-based filenames:** Published files use slug from brand-reviewer `id` field (e.g., `aalst-aalst-station.json`), not NIS code
+- **Config helper:** `getContentPath(slug)` in `agents/config.ts` generates publish path
+- **Auto-publish flow:** Happens immediately after brand-reviewer completes if score >= 70 AND POI validation passes
+- **POI validation:** Blocks publishing if any vet or pet store has null `municipality` or `postalCode` (prevents Astro schema errors)
+- **Manual publish:** `/pipeline publish <nis_code>` allows publishing below-threshold content after human review
+- **Idempotent:** Re-running pipeline on already-published content overwrites the published file
+- **Source preservation:** Content always remains in `pipeline-outputs/` as source of truth
+- **Astro schema:** Made `postalCode` (neighborhood), `statistics.availableHomes`, `statistics.pricePerSqm` nullable; kept POI address fields required
 
-**Note:** Threshold configured via `PIPELINE_CONFIG.qualityThreshold` in `agents/config.ts`.
+**Related files:**
+- `.claude/commands/pipeline.md` — publish logic in steps 8a-8e and `/pipeline publish` section
+- `agents/config.ts` — `getContentPath()`, `PIPELINE_CONFIG.qualityThreshold`
+- `agents/scripts/db/06-add-publish-tracking.sql` — database migration
+- `web/src/content/config.ts` — Astro schema with nullable fields
+- `.claude/settings.local.json` — write permission for content directory
 
 ---
 
