@@ -38,58 +38,13 @@ Researcher → Writer → SEO Reviewer → Brand Reviewer → Final JSON
 
 ### Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        Claude Code CLI                          │
-│  ┌──────────────────────────────────────────────────────────┐  │
-│  │                  /pipeline command                        │  │
-│  │  • status  • city <name>  • next <N>  • retry-failed     │  │
-│  └──────────────────────────────────────────────────────────┘  │
-│                              │                                  │
-│                    ┌─────────┴─────────┐                       │
-│                    │    Subagents      │                       │
-│                    │ (.claude/agents/) │                       │
-│                    │ 1. researcher     │                       │
-│                    │ 2. writer         │                       │
-│                    │ 3. seo-reviewer   │                       │
-│                    │ 4. brand-reviewer │                       │
-│                    └─────────┬─────────┘                       │
-└──────────────────────────────┼──────────────────────────────────┘
-                               │
-              ┌────────────────┴────────────────┐
-              │                                 │
-              ▼                                 ▼
-┌──────────────────────────┐    ┌──────────────────────────┐
-│   indebuurt_gis (existing)│    │  indebuurt_pipeline (new) │
-│   PostgreSQL + PostGIS    │    │  PostgreSQL               │
-│   ─────────────────────── │    │  ─────────────────────── │
-│   • neighborhoods         │    │  • pipeline_jobs          │
-│   • pois                  │    │    - status               │
-│   • statistical_sectors   │    │    - current_stage        │
-│   • neighborhood_stats    │    │    - quality scores       │
-│   ─────────────────────── │    │    - timestamps           │
-│   READ-ONLY access        │    │  READ-WRITE access        │
-└──────────────────────────┘    └──────────────────────────┘
-```
-
-### Database Separation
-
-The pipeline uses **two separate databases**:
-
-| Database | Purpose | Access |
-|----------|---------|--------|
-| `indebuurt_gis` | GIS data (neighborhoods, POIs, statistics) | **Read-only** — protects source data |
-| `indebuurt_pipeline` | Pipeline tracking (jobs, status, scores) | **Read-write** — allows progress updates |
-
-This separation ensures the GIS source data cannot be accidentally modified by the pipeline.
-
-### Claude Code Features Used
-
-| Feature | Location | Purpose |
-|---------|----------|---------|
-| **Subagents** | `.claude/agents/*.md` | Autonomous agents with specific expertise |
-| **Slash commands** | `.claude/commands/*.md` | User-invokable `/pipeline` command |
-| **MCP Servers** | `settings.local.json` | Two PostgreSQL connections (GIS read-only, Pipeline read-write) |
+See [agents/docs/pipeline-architecture.md](../../agents/docs/pipeline-architecture.md) for technical details including:
+- System architecture diagram
+- Two-database separation (GIS read-only, Pipeline read-write)
+- 4-agent workflow and stage outputs
+- Quality gate and auto-publish logic
+- Resume behavior
+- Configuration reference
 
 ### Trade-offs Accepted
 
@@ -336,21 +291,25 @@ If the manual process proves too slow, the architecture supports migration to AP
 
 ---
 
-## Story J6: Pipeline Documentation
+## Story J6: Pipeline Documentation ✅
 
 > As a developer, I want clear documentation for running the pipeline, so that the workflow is repeatable and understandable.
 
 **Context:** The interactive Claude Code approach has specific workflows that need documentation.
 
 **Acceptance Criteria:**
-- [ ] `agents/docs/pipeline-usage.md` created with:
-  - Prerequisites (database setup, Claude Code configuration)
-  - Command reference (`/pipeline status`, `/pipeline city`, etc.)
-  - Example workflow for processing a city
-  - Troubleshooting common issues
-  - Resuming after session interruption
-- [ ] Time estimates documented (5-10 min per neighborhood)
-- [ ] Best practices for batch processing sessions
+- [x] `agents/docs/pipeline-quickstart.md` — Get started in 5 minutes
+- [x] `agents/docs/pipeline-commands.md` — Complete command reference
+- [x] `agents/docs/pipeline-troubleshooting.md` — Common issues and solutions
+- [x] `agents/docs/pipeline-architecture.md` — Technical reference (single source of truth)
+- [x] Epic-J updated to reference architecture doc (removes duplication)
+
+**Implementation Notes:**
+- Split into 4 focused files instead of single large file
+- Architecture doc extracted from Epic to avoid duplication
+- Quickstart enables onboarding in <5 minutes
+- Troubleshooting covers POI address validation issues, stale jobs, resume behavior
+- Time estimates omitted per project convention (no timelines in planning)
 
 ---
 
@@ -374,26 +333,21 @@ J0 must be done first (database infrastructure). J1 and J2 can be done in parall
 
 ## Technical Notes
 
+### Documentation
+
+For detailed usage instructions, see:
+- [Pipeline Quickstart](../../agents/docs/pipeline-quickstart.md) — Get started in 5 minutes
+- [Pipeline Commands](../../agents/docs/pipeline-commands.md) — Complete command reference
+- [Pipeline Troubleshooting](../../agents/docs/pipeline-troubleshooting.md) — When things go wrong
+- [Pipeline Architecture](../../agents/docs/pipeline-architecture.md) — Technical reference
+
 ### Why Claude Code CLI Instead of API Automation?
 
 **Cost:** Claude Max subscription covers interactive use. API automation would cost ~$0.05-0.15 per neighborhood ($140-420 for 2800 neighborhoods).
 
-**Trade-off:** Requires interactive sessions (~5-10 min per neighborhood). For 2800 neighborhoods, this means processing city-by-city over weeks/months.
+**Trade-off:** Requires interactive sessions. For 2800 neighborhoods, this means processing city-by-city over weeks/months.
 
 **Future option:** Can migrate to API automation later if manual process proves too slow. The subagent prompts and database schema would transfer directly.
-
-### Session Workflow
-
-```
-1. Start Claude Code: `claude`
-2. Check progress: `/pipeline status`
-3. Process a municipality: `/pipeline municipality 44021`  (44021 = Gent)
-4. Process single neighborhood: `/pipeline 44021A1`
-5. Review any failures: `/pipeline retry-failed`
-6. Commit when ready: `git add . && git commit -m "Generated Gent neighborhoods"`
-```
-
-**NIS Code Reference:** Municipality NIS codes can be looked up via GIS database. Example: Gent = `44021`, Antwerpen = `11002`, Aalst = `41002`.
 
 ### Limitations
 
