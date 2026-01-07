@@ -1,0 +1,486 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-07T14:45:00Z",
+  "id": "edegem-boerenleger",
+  "city": "Edegem",
+  "name": "BOERENLEGER",
+  "postalCode": "2610",
+  "subtitle": "Wonen in Boerenleger, Edegem: rustig met parken op wandelafstand en een hondenspeelweide op 5 minuten",
+  "dateAdded": "2026-01-07",
+  "inhabitants": 11389,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Groene omgeving",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    }
+  ],
+  "intro": "Boerenleger is een rustige woonwijk in het hart van Edegem, waar residentiële rust samenkomt met stedelijk gemak. Met 11.389 inwoners verspreid over een groene omgeving, vind je hier de ruimte voor je dagelijkse wandeling zonder de drukte van het stadscentrum. De wijk heeft een duidelijk suburbaan karakter met vooral woningen, parkjes op wandelafstand en voldoende voorzieningen binnen bereik.\n\nVoor baasjes biedt Boerenleger een fijne balans: binnen 5 minuten wandelen bereik je al een hondenspeelweide, en met 7 parken in de nabije omgeving heb je altijd alternatieven voor je ochtend- of avondwandeling. Park Centrum ligt op slechts 300 meter afstand, ideaal voor een snelle ronde met je viervoeter. Het grotere 't Meihof ligt iets verder maar biedt meer ruimte om los te lopen. De dichtstbijzijnde officiële hondenweide is weliswaar niet omheind, maar op 17 minuten wandelen vind je een omheinde speelweide met grasondergrond waar je hond veilig kan ravotten met soortgenoten.\n\nOp het vlak van gezondheidszorg voor je viervoeter zit je hier goed. Dierenarts Van Deun Stefan ligt op 7 minuten wandelen in de Boniverlei, praktisch voor controlebezoekjes of wanneer je hond plots ziek wordt. Voor je basisbenodigdheden moet je echter wel iets verder: de dichtstbijzijnde gespecialiseerde dierenwinkel Tom & Co ligt in het aangrenzende Kontich, op 23 minuten te voet. Gelukkig hebben de 2 supermarkten in de wijk vaak een basisassortiment voor je hond, wat het dagdagelijkse gemakkelijker maakt.\n\nQua bereikbaarheid scoort Boerenleger goed met 34 bushaltes verspreid over de wijk. Een treinstation is er niet in de directe omgeving, maar voor wie met de auto rijdt is de aansluiting op de ring nabij. De combinatie van groene rust en goede verbindingen maakt deze wijk vooral geschikt voor wie van een rustige leefomgeving houdt zonder volledig geïsoleerd te zijn van stedelijke voorzieningen.\n\nWat opvalt aan Boerenleger is de relatief lage woningdichtheid vergeleken met echte stadswijken: met 2.730 inwoners per km² ervaar je hier meer ruimte en minder drukte tijdens je wandelingen. De mediaanprijs van €430.000 voor een woning ligt hoger dan het Vlaamse gemiddelde, maar daarvoor krijg je wel een groene, kindvriendelijke omgeving met 9 scholen in de wijk. Voor gezinnen met kinderen én honden is dit een logische keuze.\n\nToch heeft deze rust ook een keerzijde: het nachtleven en de culturele dynamiek van een echte stad ontbreken hier. Je vindt weinig cafés of restaurants direct in de wijk, en voor een uitgebreid aanbod aan gespecialiseerde dierenwinkels moet je uitwijken naar Antwerpen of Kontich. Wie houdt van een levendige stedelijke sfeer zal Boerenleger misschien te ingetogen vinden. Voor wie juist op zoek is naar rust, ruimte en groene wandelingen na een dag werken, is deze wijk echter een prima optie.\n\nSamenvattend: Boerenleger is een groene, rustige woonwijk die uitstekend geschikt is voor wie waarde hecht aan parken binnen handbereik, bereikbare gezondheidszorg voor hun viervoeter, en een residentiële sfeer zonder de hectiek van de grote stad. Het is geen wijk voor wie alles direct voor de deur wil hebben, maar wel voor wie bewust kiest voor meer ruimte en groen rondom huis.",
+  "coordinates": {
+    "lat": 51.15566665384682,
+    "lon": 4.445851233306712,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Eerste losloopterrein op 5 min",
+      "detail": "Omheinde weide op 17 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 praktijk in de wijk",
+      "detail": "Van Deun Stefan op Boniverlei"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "23 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Gespecialiseerde winkels in Kontich",
+      "detail": "Tom & Co op 23 min wandelen"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "7 parken binnen wandelafstand",
+      "detail": "Park Centrum op 300 meter"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "—",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "34 bushaltes verspreid",
+      "detail": "Goed bereikbaar met de bus"
+    },
+    {
+      "icon": "fa-solid fa-school",
+      "title": "Scholen",
+      "distance": "—",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "9 scholen in de wijk",
+      "detail": "Kindvriendelijke omgeving"
+    }
+  ],
+  "facilities": {
+    "intro": "Boerenleger beschikt over de basisfaciliteiten die je als baasje nodig hebt, met een dierenartspraktijk op wandelafstand en voldoende parken voor je dagelijkse ronde. Voor gespecialiseerde dierenwinkels moet je iets verder uitwijken naar het aangrenzende Kontich, waar Tom & Co binnen 25 minuten te voet bereikbaar is. De aanwezigheid van 34 bushaltes maakt dat je gemakkelijk naar andere delen van de regio kunt reizen met je viervoeter."
+  },
+  "dogParks": {
+    "intro": "In Boerenleger vind je op 5 minuten wandelen al een eerste losloopterrein, hoewel dit nog niet omheind is. Voor een officiële, omheinde hondenspeelweide met grasondergrond hoef je niet ver te gaan: op 17 minuten te voet ligt een volwaardige weide waar je hond veilig kan spelen met andere honden. Daarnaast zijn er in de omgeving meerdere hondenparken beschikbaar, waaronder Hondenweide Frijthout 1 op 26 minuten en het Hondenweide park Hove op 31 minuten. Voor dagelijkse wandelingen heb je met 7 parken in de nabije omgeving meer dan genoeg groene alternatieven.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Losloopterrein (niet omheind)",
+        "distance": "5 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1568619,
+          "lon": 4.4512177
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde hondenspeelweide",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.164983,
+          "lon": 4.4338692
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde weide",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1522583,
+          "lon": 4.4225606
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide Frijthout 1",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1584746,
+          "lon": 4.4757184
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide Frijthout 2",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1623052,
+          "lon": 4.47853
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg ben je in Boerenleger goed bediend met dierenarts Van Deun Stefan op 7 minuten wandelen in de Boniverlei. Dat is praktisch voor reguliere controles of wanneer je viervoeter plots ziek wordt. Binnen een straal van 30 minuten te voet vind je nog enkele andere praktijken, zoals L Feyen op 21 minuten en Karibu op 28 minuten, wat voldoende keuzemogelijkheden biedt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van Deun Stefan",
+        "street": "Boniverlei",
+        "streetNumber": "70",
+        "municipality": "Edegem",
+        "postalCode": "2650",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1533427,
+          "lon": 4.4532053
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "L Feyen",
+        "street": "Ten Bogaerdeplein",
+        "streetNumber": "5",
+        "municipality": "Edegem",
+        "postalCode": "2650",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1632823,
+          "lon": 4.4245756
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Karibu",
+        "street": "Frans van Dunlaan",
+        "streetNumber": "81",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1731595,
+          "lon": 4.4306608
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsen Verhoeven en van Gompel",
+        "street": "Ooststatiestraat",
+        "streetNumber": "159",
+        "municipality": "Kontich",
+        "postalCode": "2550",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1347882,
+          "lon": 4.4549868
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet direct in Boerenleger zelf. De dichtstbijzijnde optie is Tom & Co in Kontich, op 23 minuten wandelen. Voor je dagelijkse boodschappen en basishondenvoeding kun je terecht bij de 2 supermarkten in de wijk, die vaak een praktisch assortiment hebben voor je viervoeter. Wie een breder aanbod zoekt, kan ook Petpret in Antwerpen bereiken op 34 minuten te voet.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Kontich",
+        "postalCode": "2550",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1402893,
+          "lon": 4.4568481
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Petpret",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1763914,
+          "lon": 4.4243879
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Boerenleger",
+    "intro": "Een typische dag in Boerenleger start met een ochtendwandeling naar Park Centrum, op nog geen 5 minuten van je voordeur. De groene omgeving en rustige straten zorgen ervoor dat je hond comfortabel kan snuffelen zonder de drukte van verkeer of massa's voetgangers. Na je werkdag kun je kiezen tussen de verschillende parken in de omgeving, of je wandelt naar de hondenspeelweide als je viervoeter behoefte heeft aan sociaal contact met andere honden. De combinatie van nabijheid en variatie maakt het dagelijks uitlaten hier een prettige routine.",
+    "benefits": [
+      "Dankzij de 7 parken binnen wandelafstand heb je altijd een groene bestemming voor de ochtend- of avondwandeling. Park Centrum ligt op 300 meter en is perfect voor een snelle ronde, terwijl 't Meihof op 520 meter meer ruimte biedt voor je viervoeter om lekker los te lopen.",
+      "De dichtstbijzijnde hondenspeelweide ligt op 5 minuten wandelen, ideaal voor sociale contacten met andere baasjes en hun honden. Voor een officiële, omheinde weide hoef je slechts 17 minuten te lopen, waardoor je zelfs met een opgewonden viervoeter veilig kunt spelen.",
+      "Met 34 bushaltes verspreid over de wijk kun je gemakkelijk naar andere delen van de regio reizen, bijvoorbeeld voor een bezoek aan een gespecialiseerde dierenwinkel of een dierenarts buiten de wijk. De goede bereikbaarheid maakt dat je niet afhankelijk bent van de auto.",
+      "De rustige, residentiële sfeer zorgt voor stressvrije wandelingen zonder drukte of veel verkeerslawaai. Met 2.730 inwoners per km² ervaar je hier meer ruimte dan in een echte stadswijk, wat je hond merkt tijdens het uitlaten.",
+      "Dierenarts Van Deun Stefan ligt op 7 minuten wandelen, wat betekent dat je bij medische urgentie of routinecontroles snel ter plaatse kunt zijn zonder lang te hoeven plannen of reizen.",
+      "De aanwezigheid van 9 scholen en een familievriendelijke omgeving betekent dat je niet alleen baasjes tegenkomt, maar ook kinderen die vaak geïnteresseerd zijn in je viervoeter. Dat draagt bij aan een sociaal buurtgevoel."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Boerenleger is een middelgrote wijk met 11.389 inwoners en een mediaanprijs van €430.000 voor een woning, wat hoger ligt dan het Vlaamse gemiddelde. De populatiedichtheid van 2.730 inwoners per km² zorgt voor een rustige, suburbane sfeer.",
+    "medianPrice": 430000,
+    "inhabitants": 11389,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Boerenleger? Deze wijk heeft postcode 2610, wat het filteren op vastgoedplatforms gemakkelijk maakt. Let op dat deze postcode ook door andere wijken in Edegem wordt gebruikt, dus controleer altijd de exacte wijknaam bij je zoekopdracht.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "edegem-rozenhof",
+    "edegem-aan-de-hoeve"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-07T15:30:00Z",
+    "qualityScore": 88,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig wonen in Edegem met parken op wandelafstand en een hondenspeelweide op 5 minuten",
+        "after": "Wonen in Boerenleger, Edegem: rustig met parken op wandelafstand en een hondenspeelweide op 5 minuten",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt Boerenleger een fijne balans:",
+        "after": "Voor hondenbezitters biedt Boerenleger een fijne balans:",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes die juist op zoek zijn naar rust, ruimte en groene wandelingen na een dag werken, is deze wijk echter een prima optie.",
+        "after": "Voor wie juist op zoek is naar rust, ruimte en groene wandelingen na een dag werken, is deze wijk echter een prima optie.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Samenvattend: Boerenleger is een groene, rustige woonwijk die uitstekend geschikt is voor baasjes die waarde hechten aan",
+        "after": "Samenvattend: Boerenleger is een groene, rustige woonwijk die uitstekend geschikt is voor wie waarde hecht aan",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Boerenleger beschikt over de basisfaciliteiten die je als baasje nodig hebt,",
+        "after": "Boerenleger beschikt over de basisfaciliteiten die je als hondenbezitter nodig hebt,",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "waar je hond veilig kan spelen met andere baasjes.",
+        "after": "waar je hond veilig kan spelen met andere honden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De dichtstbijzijnde hondenspeelweide ligt op 5 minuten wandelen, ideaal voor sociale contacten met andere baasjes en hun honden.",
+        "after": "De dichtstbijzijnde hondenspeelweide ligt op 5 minuten wandelen, ideaal voor sociale contacten met andere hondenbezitters en hun honden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 13,
+      "introScore": 21,
+      "keywordScore": 15,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-07T16:15:00Z",
+    "qualityScore": 82,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Voor hondenbezitters biedt Boerenleger een fijne balans:",
+        "after": "Voor baasjes biedt Boerenleger een fijne balans:",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Boerenleger beschikt over de basisfaciliteiten die je als hondenbezitter nodig hebt,",
+        "after": "Boerenleger beschikt over de basisfaciliteiten die je als baasje nodig hebt,",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De dichtstbijzijnde hondenspeelweide ligt op 5 minuten wandelen, ideaal voor sociale contacten met andere hondenbezitters en hun honden.",
+        "after": "De dichtstbijzijnde hondenspeelweide ligt op 5 minuten wandelen, ideaal voor sociale contacten met andere baasjes en hun honden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[2].description",
+        "before": "Gespecialiseerde winkels in Kontich",
+        "after": "Gespecialiseerde winkels in Kontich",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[5]",
+        "before": "De aanwezigheid van 9 scholen en een familievriendelijke omgeving betekent dat je niet alleen baasjes tegenkomt, maar ook kinderen die vaak geïnteresseerd zijn in je viervoeter. Dat draagt bij aan een sociaal buurtgevoel.",
+        "after": "De aanwezigheid van 9 scholen en een familievriendelijke omgeving betekent dat je niet alleen baasjes tegenkomt, maar ook kinderen die vaak geïnteresseerd zijn in je viervoeter. Dat draagt bij aan een sociaal buurtgevoel.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 4
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "hondenbezitters",
+            "field": "intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "facilities.intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "dailyLife.benefits[1]",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "buurtgevoel"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 47
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 8,
+        "localTipsFound": [
+          "Park Centrum ligt op slechts 300 meter afstand",
+          "Het grotere 't Meihof ligt iets verder",
+          "Dierenarts Van Deun Stefan ligt op 7 minuten wandelen in de Boniverlei",
+          "Tom & Co ligt in het aangrenzende Kontich"
+        ],
+        "neighborhoodObservations": [
+          "rustige woonwijk in het hart van Edegem",
+          "residentiële rust samenkomt met stedelijk gemak",
+          "groene omgeving en rustige straten",
+          "relatief lage woningdichtheid vergeleken met echte stadswijken"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 19.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no specialized pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 1,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

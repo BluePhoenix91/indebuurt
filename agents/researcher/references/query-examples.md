@@ -196,6 +196,97 @@ WHERE id = 'gent-binnenstad';
 
 ---
 
+## Dog Park Feature Inference
+
+Dog parks in OSM have sparse tagging (~27% have fence info, ~11% have surface info).
+Use this query to extract features with tag-based AND name-based inference:
+
+```sql
+-- Extract dog park features with tag + name inference
+SELECT
+  p.osm_id,
+  COALESCE(p.name, 'Unnamed') as name,
+  ST_Y(p.location) AS lat,
+  ST_X(p.location) AS lon,
+  ROUND(ST_Distance(p.location::geography, n.centroid::geography)) AS distance_meters,
+
+  -- Fenced: tags first, then name inference
+  CASE
+    WHEN p.osm_tags->>'barrier' IN ('fence', 'hedge') THEN true
+    WHEN p.osm_tags->>'fenced' = 'yes' THEN true
+    WHEN p.osm_tags->>'fence' = 'yes' THEN true
+    WHEN p.osm_tags->>'fence_type' IS NOT NULL THEN true
+    WHEN LOWER(p.name) LIKE '%losloop%' THEN true
+    WHEN LOWER(p.name) LIKE '%hondenweide%' THEN true
+    WHEN LOWER(p.name) LIKE '%hondenspeelweide%' THEN true
+    WHEN LOWER(p.name) LIKE '%hondenspeelzone%' THEN true
+    WHEN LOWER(p.name) LIKE '%hondenpark%' THEN true
+    WHEN LOWER(p.name) LIKE '%hondenzone%' THEN true
+    WHEN LOWER(p.name) LIKE '%vrijheidszone%' THEN true
+    ELSE false
+  END AS is_fenced,
+
+  -- Surface: tags first, then name inference
+  COALESCE(
+    p.osm_tags->>'surface',
+    CASE p.osm_tags->>'landuse'
+      WHEN 'grass' THEN 'grass'
+      WHEN 'meadow' THEN 'grass'
+      WHEN 'forest' THEN 'mixed'
+    END,
+    CASE p.osm_tags->>'landcover' WHEN 'grass' THEN 'grass' END,
+    CASE p.osm_tags->>'natural' WHEN 'sand' THEN 'sand' END,
+    CASE
+      WHEN LOWER(p.name) LIKE '%weide%' THEN 'grass'
+      WHEN LOWER(p.name) LIKE '%bos%' THEN 'mixed'
+    END
+  ) AS surface,
+
+  -- Water: tags first, then name/description
+  CASE
+    WHEN p.osm_tags->>'swimming:dog' = 'yes' THEN true
+    WHEN LOWER(COALESCE(p.name, '')) LIKE '%water%' THEN true
+    WHEN LOWER(COALESCE(p.name, '')) LIKE '%zwem%' THEN true
+    WHEN LOWER(COALESCE(p.osm_tags->>'description', '')) LIKE '%water%' THEN true
+    WHEN LOWER(COALESCE(p.osm_tags->>'description', '')) LIKE '%zwem%' THEN true
+    ELSE false
+  END AS has_water,
+
+  -- Additional optional features (sparse coverage, include when available)
+  p.osm_tags->>'wheelchair' AS is_accessible,  -- 19% coverage: 'yes', 'no', 'limited'
+  CASE p.osm_tags->>'lit'
+    WHEN 'yes' THEN true
+    WHEN 'no' THEN false
+  END AS is_lit,  -- 2% coverage
+  p.osm_tags->>'opening_hours' AS opening_hours,  -- 3% coverage
+  CASE WHEN p.osm_tags->>'small_dog' IS NOT NULL THEN true END AS has_small_dog_area  -- 2% coverage
+
+FROM pois p
+CROSS JOIN (SELECT centroid FROM neighborhoods WHERE id = '{neighborhood_id}') n
+WHERE p.category = 'dog_park'
+AND ST_DWithin(p.location::geography, n.centroid::geography, 3000)
+ORDER BY distance_meters
+LIMIT 10;
+```
+
+### Name Pattern Inference Rules
+
+Belgian dog park names follow predictable patterns:
+
+| Name Pattern | Implies | Example |
+|--------------|---------|---------|
+| `*losloop*` | Fenced (official off-leash zone) | Hondenlosloopzone |
+| `*hondenweide*` | Fenced, grass surface | Hondenweide Muizen |
+| `*hondenspeelweide*` | Fenced, grass surface | Hondenspeelweide |
+| `*hondenpark*` | Fenced | Hondenpark |
+| `*hondenzone*` | Fenced | Hondenzone |
+| `*vrijheidszone*` | Fenced | Zone de liberté |
+| `*weide*` | Grass surface | Any *weide |
+| `*bos*` | Mixed/forest surface | Hondenlosloopbos |
+| `*water*`, `*zwem*` | Has water | Hondenzwemzone |
+
+---
+
 ## Walking Time Estimation
 
 Convert distance to walking time using:

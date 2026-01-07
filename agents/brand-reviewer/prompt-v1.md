@@ -38,7 +38,9 @@ Example: `/agents/seo-reviewer/test-outputs/gent-dampoort-seo-test.json`
 ## Tools Available
 
 1. **File reading** — Read the input SEOReviewerOutput and reference files
-2. **PostgreSQL MCP** — Read-only access (for context if needed, not required)
+2. **`mcp__gis__query`** — Read-only access (for context if needed, not required)
+
+**Do NOT use `mcp__pipeline__*` tools.** Those are for a different database and will fail.
 
 ---
 

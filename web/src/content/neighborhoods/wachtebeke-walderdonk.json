@@ -1,0 +1,416 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-07T12:30:15Z",
+  "id": "wachtebeke-walderdonk",
+  "city": "Wachtebeke",
+  "name": "WALDERDONK",
+  "postalCode": "9185",
+  "subtitle": "Wonen in Walderdonk: landelijk en groen met wandelroutes — voorzieningen verder weg in Wachtebeke",
+  "dateAdded": "2026-01-07",
+  "inhabitants": 6825,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig wonen",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "Walderdonk is een uitgestrekte landelijke wijk in Wachtebeke, met een karakter dat heel anders aanvoelt dan stedelijke of compacte buurten. Met 6.825 inwoners verspreid over een groot gebied (279 inwoners per km²) woon je hier met meer ruimte, meer stilte en een directe verbinding met de natuur. De wijk bestaat uit verspreide bebouwing tussen groene velden en bosgebieden — geschikt voor wie houdt van rust en ruimte voor lange wandelingen.\n\nDe keerzijde van al die ruimte is dat voorzieningen verder weg liggen. Er is geen dierenarts in de wijk zelf: de dichtstbijzijnde praktijk ligt op bijna een uur wandelen in Zelzate. Voor medische zorg moet je dus kunnen autorijden of bereid zijn om een flink stuk te wandelen. Ook gespecialiseerde dierenwinkels zijn schaars, met slechts één optie (Vogelparadijs Wachtebeke) op 24 minuten wandelen.\n\nMaar wie houdt van rust en groene uitlooproutes komt hier wel aan zijn trekken. De wijk heeft 6 parken en groene zones, waarvan enkele letterlijk om de hoek liggen — de dichtstbijzijnde op amper 2 minuten wandelen. Voor afwisseling in de wandelroutine vind je op 27 minuten wandelen het Kloosterbos met gemengde ondergrond, en op 45 minuten de Hondenzwemzone Puyenbroeck waar je hond kan zwemmen — een unieke optie voor warme zomerdagen.\n\nWalderdonk is duidelijk geen wijk voor wie alles om de hoek wil hebben. Geen supermarkten op loopafstand, geen dierenarts in de buurt, en met 54 bushaltes maar geen treinstation ben je voor veel verplaatsingen afhankelijk van de auto. Wie dat niet erg vindt en vooral houdt van rust, groene ruimte en lange wandelingen zonder drukte, vindt hier juist wat veel stedelijke wijken niet meer bieden: ademruimte.\n\nDe wijk is typisch voor plattelandsgemeenten in Oost-Vlaanderen: verspreide bebouwing, agrarisch karakter, en voorzieningen geconcentreerd in het dorpscentrum buiten de wijk. Je woont hier voor de rust en de ruimte, niet voor de nabijheid van winkels of cafés. Dat betekent ook dat je minder spontane ontmoetingen met andere baasjes hebt — tenzij je bewust naar populaire wandelplekken trekt zoals het Kloosterbos of de hondenzone in Puyenbroeck.\n\nVoor oudere honden of honden met beperkte mobiliteit kan de afstand tot de dierenarts een aandachtspunt zijn. Bij spoedgevallen ben je afhankelijk van vervoer en moet je rekening houden met een rit van minstens 10-15 minuten. Voor jonge, gezonde honden die vooral veel bewegingsruimte nodig hebben, is dat minder een probleem.\n\nPraktisch voor wie houdt van stilte, grote luchten en wandelingen waar je nauwelijks andere mensen tegenkomt. Minder geschikt als je binnen 5 minuten bij de supermarkt of dierenarts wilt zijn — kijk dan naar meer stedelijke wijken in nabijgelegen Zelzate of Lochristi.",
+  "coordinates": {
+    "lat": 51.17764102907832,
+    "lon": 3.8694251312317536,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken en groen",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 parken in de wijk",
+      "detail": "Dichtstbijzijnde op 179 meter"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenvoorzieningen",
+      "distance": "26 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 hondenplekken",
+      "detail": "Hondentoilet en zwemzone"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "58 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde in Zelzate",
+      "detail": "Auto nodig voor medische zorg"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "24 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 dierenwinkel in de buurt",
+      "detail": "Vogelparadijs Wachtebeke"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Variabel",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "54 bushaltes",
+      "detail": "Geen treinstation"
+    }
+  ],
+  "facilities": {
+    "intro": "Walderdonk is een landelijke wijk waar voorzieningen verspreid liggen en vaak alleen bereikbaar zijn met de auto of na een flinke wandeling. Met 6 parken binnen wandelafstand en uitgestrekte groene zones is er volop ruimte voor dagelijkse wandelingen, maar medische zorg en winkels vragen meer planning. De focus ligt hier op rust en groene ruimte, niet op nabijheid van diensten."
+  },
+  "dogParks": {
+    "intro": "Een officiële omheinde hondenspeelweide vind je niet in Walderdonk zelf. Wel zijn er enkele specifieke hondenvoorzieningen op redelijke afstand: een hondentoilet op 26 minuten wandelen en het Kloosterbos met gemengde ondergrond op 27 minuten. Voor wie echt iets bijzonders zoekt: de Hondenzwemzone Puyenbroeck ligt op 45 minuten wandelen — een fijne optie voor waterliefhebbers in de zomer. De uitgestrekte groene zones in de wijk zelf bieden wel volop ruimte voor vrije wandelingen.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "hondentoilet",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1654214,
+          "lon": 3.8462281
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Kloosterbos",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1778079,
+          "lon": 3.8391072
+        },
+        "features": [
+          {
+            "text": "Gemengde ondergrond",
+            "icon": "fa-solid fa-layer-group"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenzwemzone Puyenbroeck",
+        "distance": "45 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1477649,
+          "lon": 3.8891737
+        },
+        "features": [
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Walderdonk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde opties liggen in Zelzate (58 minuten wandelen) en Lochristi (63 minuten). Voor reguliere controles en spoedgevallen is een auto praktisch noodzakelijk. Plan je afspraken vooruit en zorg dat je vervoer geregeld hebt — dit is een belangrijk aandachtspunt bij het wonen in deze landelijke omgeving.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Zelzate",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Zelzate",
+        "postalCode": "9060",
+        "distance": "58 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1996448,
+          "lon": 3.8134354
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Frieda Erven",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Zelzate",
+        "postalCode": "9060",
+        "distance": "61 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2002729,
+          "lon": 3.8097402
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Zaffelbeek",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "63 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1324189,
+          "lon": 3.8623004
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bosdreef",
+        "street": "Spelonckvaart",
+        "streetNumber": "46B",
+        "municipality": "Moerbeke",
+        "postalCode": "9180",
+        "distance": "78 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1823346,
+          "lon": 3.9580023
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Gespecialiseerde dierenwinkels zijn schaars in deze landelijke omgeving. Vogelparadijs Wachtebeke ligt op 24 minuten wandelen en biedt een basisassortiment. Voor uitgebreider aanbod is een rit naar Zelzate of Gent noodzakelijk. De beperkte keuze is typisch voor plattelandsgemeenten — voor basisbenodigdheden bieden lokale winkels soms een alternatief.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Vogelparadijs Wachtebeke",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Wachtebeke",
+        "postalCode": "9185",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1766518,
+          "lon": 3.8415737
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Walderdonk",
+    "intro": "Een typische dag in Walderdonk draait om rust, ruimte en lange wandelingen. Je bent hier niet omringd door drukte of constante stimuli — in plaats daarvan heb je veel groene ruimte, rustige landweggetjes en de kans om hele wandelingen te maken zonder andere mensen tegen te komen. De dagelijkse routine is eenvoudig en voorspelbaar, met volop keuze uit verschillende routes door velden en bossen. Wel moet je je voorzieningen plannen: een spontaan bezoekje aan de dierenarts of dierenwinkel zit er niet in.",
+    "benefits": [
+      "Met 6 parken verspreid over de wijk en uitgestrekte groene zones heb je eindeloos veel variatie voor dagelijkse wandelingen. De dichtstbijzijnde groene plek ligt op amper 179 meter, dus zelfs een snelle ochtendrondje is makkelijk te organiseren zonder de auto te pakken.",
+      "De lage bevolkingsdichtheid (279 inwoners per km²) betekent dat je niet hoeft te delen met massa's andere honden of mensen. Geschikt voor honden die rustig aan moeten doen of moeite hebben met drukke omgevingen — hier heb je de ruimte voor jezelf.",
+      "De Hondenzwemzone Puyenbroeck op 45 minuten wandelen is een unieke troef voor warme dagen. Niet veel wijken hebben toegang tot een echte zwemplek voor honden, en voor energieke waterliefhebbers is dit goud waard.",
+      "Met 54 bushaltes in de wijk heb je theoretisch opties voor openbaar vervoer, al blijft de auto in de praktijk handiger voor grotere boodschappen of dierenartsenbezoek. De busverbindingen bieden wel een alternatief voor wie geen auto heeft.",
+      "De rust en stilte zijn onbetaalbaar als je een oudere hond hebt die gestimuleerd raakt van drukte, of als je zelf houdt van de eenvoud van het plattelandsleven. Geen verkeersdrukte, geen constante geluidsoverlast — gewoon stilte en ruimte."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Walderdonk is een uitgestrekte landelijke wijk met 6.825 inwoners verspreid over een groot gebied, resulterend in een lage bevolkingsdichtheid van 279 inwoners per km². Deze cijfers weerspiegelen het landelijke karakter: ruimte en rust, maar met beperkte lokale voorzieningen.",
+    "medianPrice": 0,
+    "inhabitants": 6825,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Walderdonk? De wijk heeft postcode 9185, wat je kan gebruiken om specifiek te zoeken op Immoweb, Zimmo of andere vastgoedplatformen. Verwacht vooral verspreide bebouwing met grotere percelen — typisch voor het landelijke karakter van deze omgeving in Wachtebeke.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "wachtebeke-provinciaal-domein-oostdonk",
+    "wachtebeke-oudeburgse-sluis"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-07T11:45:32Z",
+    "qualityScore": 78,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige landelijke wijk met groene ruimte en verspreide voorzieningen — voor wie graag even verder rijdt",
+        "after": "Wonen in Walderdonk: landelijk en groen met wandelroutes — voorzieningen verder weg in Wachtebeke",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "De wijk bestaat uit verspreide bebouwing tussen groene velden en bosgebieden — ideaal voor wie houdt van rust en ruimte voor lange wandelingen met je viervoeter.",
+        "after": "De wijk bestaat uit verspreide bebouwing tussen groene velden en bosgebieden — geschikt voor wie houdt van rust en ruimte voor lange wandelingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Walderdonk is duidelijk geen wijk voor baasjes die alles om de hoek willen hebben.",
+        "after": "Walderdonk is duidelijk geen wijk voor wie alles om de hoek wil hebben.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Dat betekent ook dat je minder spontane ontmoetingen met andere baasjes hebt — tenzij je bewust naar populaire wandelplekken trekt zoals het Kloosterbos of de hondenzone in Puyenbroeck.",
+        "after": "Dat betekent ook dat je minder spontane ontmoetingen met andere hondenbezitters hebt — tenzij je bewust naar populaire wandelplekken trekt zoals het Kloosterbos of de hondenzone in Puyenbroeck.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Als je houdt van stilte, grote luchten en wandelingen waar je nauwelijks andere mensen tegenkomt, is Walderdonk een match. Als je liever binnen 5 minuten bij de supermarkt of dierenarts bent, kijk dan naar meer stedelijke wijken in nabijgelegen Zelzate of Lochristi.",
+        "after": "Praktisch voor wie houdt van stilte, grote luchten en wandelingen waar je nauwelijks andere mensen tegenkomt. Minder geschikt als je binnen 5 minuten bij de supermarkt of dierenarts wilt zijn — kijk dan naar meer stedelijke wijken in nabijgelegen Zelzate of Lochristi.",
+        "reason": "intro_structure"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Walderdonk is een landelijke wijk waar voorzieningen verspreid liggen en vaak alleen bereikbaar zijn met de auto of na een flinke wandeling. De focus ligt hier op rust en groene ruimte, niet op nabijheid van winkels of diensten.",
+        "after": "Walderdonk is een landelijke wijk waar voorzieningen verspreid liggen en vaak alleen bereikbaar zijn met de auto of na een flinke wandeling. Met 6 parken binnen wandelafstand en uitgestrekte groene zones is er volop ruimte voor dagelijkse wandelingen, maar medische zorg en winkels vragen meer planning. De focus ligt hier op rust en groene ruimte, niet op nabijheid van diensten.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Een officiële omheinde hondenspeelweide vind je niet in Walderdonk zelf. Wel zijn er enkele specifieke hondenvoorzieningen op redelijke afstand: een hondentoilet op 26 minuten wandelen en het Kloosterbos met gemengde ondergrond op 27 minuten. Voor wie echt iets bijzonders zoekt: de Hondenzwemzone Puyenbroeck ligt op 45 minuten wandelen — een fijne optie voor waterliefhebbers in de zomer.",
+        "after": "Een officiële omheinde hondenspeelweide vind je niet in Walderdonk zelf. Wel zijn er enkele specifieke hondenvoorzieningen op redelijke afstand: een hondentoilet op 26 minuten wandelen en het Kloosterbos met gemengde ondergrond op 27 minuten. Voor wie echt iets bijzonders zoekt: de Hondenzwemzone Puyenbroeck ligt op 45 minuten wandelen — een fijne optie voor waterliefhebbers in de zomer. De uitgestrekte groene zones in de wijk zelf bieden wel volop ruimte voor vrije wandelingen.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "vets.intro",
+        "before": "In Walderdonk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde opties liggen in Zelzate (58 minuten wandelen) en Lochristi (63 minuten). Voor reguliere controles en spoedgevallen is een auto praktisch noodzakelijk. Plan je afspraken vooruit en zorg dat je vervoer geregeld hebt.",
+        "after": "In Walderdonk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde opties liggen in Zelzate (58 minuten wandelen) en Lochristi (63 minuten). Voor reguliere controles en spoedgevallen is een auto praktisch noodzakelijk. Plan je afspraken vooruit en zorg dat je vervoer geregeld hebt — dit is een belangrijk aandachtspunt bij het wonen in deze landelijke omgeving.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Gespecialiseerde dierenwinkels zijn schaars in deze landelijke omgeving. Vogelparadijs Wachtebeke ligt op 24 minuten wandelen en biedt een basisassortiment. Voor uitgebreider aanbod is een rit naar Zelzate of Gent noodzakelijk.",
+        "after": "Gespecialiseerde dierenwinkels zijn schaars in deze landelijke omgeving. Vogelparadijs Wachtebeke ligt op 24 minuten wandelen en biedt een basisassortiment. Voor uitgebreider aanbod is een rit naar Zelzate of Gent noodzakelijk. De beperkte keuze is typisch voor plattelandsgemeenten — voor basisbenodigdheden bieden lokale winkels soms een alternatief.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "statistics.intro",
+        "before": "Walderdonk is een uitgestrekte landelijke wijk met 6.825 inwoners verspreid over een groot gebied, resulterend in een lage bevolkingsdichtheid van 279 inwoners per km².",
+        "after": "Walderdonk is een uitgestrekte landelijke wijk met 6.825 inwoners verspreid over een groot gebied, resulterend in een lage bevolkingsdichtheid van 279 inwoners per km². Deze cijfers weerspiegelen het landelijke karakter: ruimte en rust, maar met beperkte lokale voorzieningen.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "houses.intro",
+        "before": "Op zoek naar een woning in Walderdonk? De wijk heeft postcode 9185, wat je kan gebruiken om specifiek te zoeken op Immoweb, Zimmo of andere vastgoedplatformen. Verwacht vooral verspreide bebouwing met grotere percelen.",
+        "after": "Op zoek naar een woning in Walderdonk? De wijk heeft postcode 9185, wat je kan gebruiken om specifiek te zoeken op Immoweb, Zimmo of andere vastgoedplatformen. Verwacht vooral verspreide bebouwing met grotere percelen — typisch voor het landelijke karakter van deze omgeving in Wachtebeke.",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Walderdonk draait om rust, ruimte en lange wandelingen. Je bent hier niet omringd door drukte of constante stimuli — in plaats daarvan heb je veel groene ruimte, rustige landweggetjes en de kans om hele wandelingen te maken zonder andere mensen tegen te komen. Wel moet je je voorzieningen plannen: een spontaan bezoekje aan de dierenarts of dierenwinkel zit er niet in.",
+        "after": "Een typische dag in Walderdonk draait om rust, ruimte en lange wandelingen. Je bent hier niet omringd door drukte of constante stimuli — in plaats daarvan heb je veel groene ruimte, rustige landweggetjes en de kans om hele wandelingen te maken zonder andere mensen tegen te komen. De dagelijkse routine is eenvoudig en voorspelbaar, met volop keuze uit verschillende routes door velden en bossen. Wel moet je je voorzieningen plannen: een spontaan bezoekje aan de dierenarts of dierenwinkel zit er niet in.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De lage bevolkingsdichtheid (279 inwoners per km²) betekent dat je niet hoeft te delen met massa's andere honden of baasjes. Ideaal voor honden die rustig aan moeten doen of moeite hebben met drukke omgevingen — hier heb je de ruimte voor jezelf.",
+        "after": "De lage bevolkingsdichtheid (279 inwoners per km²) betekent dat je niet hoeft te delen met massa's andere honden of mensen. Geschikt voor honden die rustig aan moeten doen of moeite hebben met drukke omgevingen — hier heb je de ruimte voor jezelf.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 13,
+      "introScore": 22,
+      "keywordScore": 17,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 18,
+      "decisionUsefulnessScore": 13
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-07T12:30:15Z",
+    "qualityScore": 82,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Dat betekent ook dat je minder spontane ontmoetingen met andere hondenbezitters hebt — tenzij je bewust naar populaire wandelplekken trekt zoals het Kloosterbos of de hondenzone in Puyenbroeck.",
+        "after": "Dat betekent ook dat je minder spontane ontmoetingen met andere baasjes hebt — tenzij je bewust naar populaire wandelplekken trekt zoals het Kloosterbos of de hondenzone in Puyenbroeck.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "hondenbezitters",
+            "field": "intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (valueCards[3].description - allowed phrase for nearby)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 6,
+        "localTipsFound": [
+          "richting het Kloosterbos",
+          "naar populaire wandelplekken zoals het Kloosterbos",
+          "de hondenzone in Puyenbroeck"
+        ],
+        "neighborhoodObservations": [
+          "verspreide bebouwing tussen groene velden en bosgebieden",
+          "rustige landweggetjes",
+          "typisch voor plattelandsgemeenten in Oost-Vlaanderen",
+          "agrarisch karakter"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": ["no vet in neighborhood", "limited pet stores"],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

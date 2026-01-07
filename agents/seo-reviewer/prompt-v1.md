@@ -27,7 +27,9 @@ Example: `/agents/writer/test-outputs/gent-dampoort-writer-test.json`
 ## Tools Available
 
 1. **File reading** — Read the input WriterOutput and reference files
-2. **PostgreSQL MCP** — Read-only access to verify `neighboringNeighborhoods` exist
+2. **`mcp__gis__query`** — Read-only access to verify `neighboringNeighborhoods` exist
+
+**Do NOT use `mcp__pipeline__*` tools.** Those are for a different database and will fail.
 
 ---
 

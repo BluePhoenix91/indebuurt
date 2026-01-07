@@ -1,0 +1,352 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-07T14:45:00Z",
+  "id": "melle-gontrode-kern",
+  "city": "Melle",
+  "name": "Gontrode Kern",
+  "postalCode": "9090",
+  "subtitle": "Wonen in Gontrode Kern, Melle: rustig dorpscentrum met groene omgeving en wandelmogelijkheden",
+  "dateAdded": "2026-01-07",
+  "inhabitants": 1000,
+  "labels": [
+    { "text": "Rustig dorpskern", "icon": "fa-solid fa-house" },
+    { "text": "Groen", "icon": "fa-solid fa-leaf" },
+    { "text": "Laagbebouwd", "icon": "fa-solid fa-house-chimney" }
+  ],
+  "intro": "Gontrode Kern is een kleine, rustige wijk in Melle met amper 1000 inwoners. Het is een typisch dorpscentrum waar je de drukte van de stad ver achter je laat. Met een bevolkingsdichtheid van slechts 351 inwoners per vierkante kilometer heb je hier ruimte om te ademen — en om alle bewegingsruimte te hebben die nodig is voor een ontspannen dagelijkse routine.\n\nWat Gontrode Kern kenmerkt, is de combinatie van dorpse rust en toegang tot groene ruimte. Je vindt hier 5 parks binnen 20 minuten wandelen, waaronder het Franz Van De Veldetuin en het Elsdriespark. Voor wie specifiek op zoek is naar speelruimte, liggen er 5 hondenspeelweiden op zo'n 20 minuten lopen. Dat is niet om de hoek, maar voor een dagelijkse wandeling door het groen is het een prima afstand.\n\nDe wijk zelf is beperkt in voorzieningen. Je vindt hier geen supermarkt, geen dierenwinkel en nauwelijks horeca. Wat je wel hebt, is één dierenartspraktijk — De Rhode Gond — op 8 minuten wandelen. Voor noodgevallen is dat een geruststellende nabijheid. Voor dagelijkse boodschappen of gespecialiseerd voer moet je naar de aangrenzende wijken of richting het centrum van Melle. De dichtstbijzijnde dierenwinkel, Maxi Zoo, ligt op ruim een uur lopen aan de Brusselsesteenweg — praktisch gezien rijd je daar met de auto naartoe.\n\nGontrode Kern is een plek voor wie rust zoekt, van groen houdt, en bereid is om voor voorzieningen wat verder te rijden of te fietsen. De wijk heeft 11 bushaltes en een treinstation, dus openbaar vervoer is beschikbaar als je richting Gent of andere steden wilt. Maar verwacht hier geen bruisende winkelstraat of hip terrasje om de hoek. Dit is een wijk waar je écht op het platteland woont, met alle voor- en nadelen van dien.\n\nVoor wie van lange wandelingen door groene omgevingen houdt en niet afhankelijk is van een speelweide binnen 5 minuten, is Gontrode Kern geschikt. De afwezigheid van lokale dierenwinkels betekent dat je goed moet plannen en op voorraad moet werken. Wie een auto heeft en zijn boodschappen bewust plant, zal hier weinig problemen mee hebben. Wie afhankelijk is van loopafstand en spontane uitstapjes, zal Gontrode Kern beperkend vinden.\n\nEen eerlijke inschatting: dit is een fijne plek voor wie actief is, van rust houdt, en vooral wandelingen door de natuur waardeert. Niet voor wie verwacht dat alles binnen handbereik ligt.",
+  "coordinates": {
+    "lat": 50.98244724683411,
+    "lon": 3.7954619171298836,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "22 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 speelweiden binnen bereik",
+      "detail": "Dichtstbijzijnde op 22 minuten"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 praktijk in de wijk",
+      "detail": "De Rhode Gond"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "14 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 parken in de omgeving",
+      "detail": "Groen op wandelafstand"
+    },
+    {
+      "icon": "fa-solid fa-train",
+      "title": "Treinstation",
+      "distance": "nabij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 station in de wijk",
+      "detail": "Verbinding met Gent"
+    }
+  ],
+  "facilities": {
+    "intro": "Gontrode Kern is een kleine wijk met beperkte lokale voorzieningen. Je vindt hier één dierenarts op loopafstand — De Rhode Gond op 8 minuten wandelen — wat voor medische zorg een geruststellende nabijheid biedt. Voor dierenwinkels of andere gespecialiseerde diensten moet je naar aangrenzende wijken. De focus ligt hier op rust en groen, niet op commerciële voorzieningen."
+  },
+  "dogParks": {
+    "intro": "In Gontrode Kern zelf zijn geen hondenspeelweiden, maar in de nabije omgeving vind je er 5 op ongeveer 20 minuten wandelen — waaronder Bosweide, Dirty Dogz en Vijverweide. Dat maakt een uitstapje naar een speelweide eerder een bewuste activiteit dan een spontaan tussendoortje. Voor de dagelijkse wandeling kun je prima terecht in de 5 parken die verspreid liggen rondom de wijk, zoals het Franz Van De Veldetuin en het Elsdriespark.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Bosweide",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9838204,
+          "lon": 3.8211395
+        },
+        "features": [
+          { "text": "Grasondergrond", "icon": "fa-solid fa-seedling" }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dirty Dogz",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9837535,
+          "lon": 3.8212664
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Vijverweide",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9833274,
+          "lon": 3.8220301
+        },
+        "features": [
+          { "text": "Grasondergrond", "icon": "fa-solid fa-seedling" }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg zit je in Gontrode Kern goed met De Rhode Gond op slechts 8 minuten wandelen. Dat is een geruststellende nabijheid — je bent snel ter plaatse als er iets aan de hand is.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Rhode Gond",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9878355,
+          "lon": 3.796353
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een dierenwinkel vind je niet in Gontrode Kern zelf. De dichtstbijzijnde optie is Maxi Zoo aan de Brusselsesteenweg in Melle, op ruim een uur lopen — in de praktijk neem je daar de auto voor. Plan je aankopen dus vooruit en werk met voldoende voorraad. Voor basis benodigdheden kun je ook terecht bij supermarkten in de regio.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Gontrode Kern",
+    "intro": "Een typische dag in Gontrode Kern draait om rust, ruimte en wandelingen door de natuur. Je hebt hier geen hondenspeelweide om de hoek, maar wel toegang tot parken en open groen binnen handbereik. Het is een leven waarin je bewust plant — boodschappen, voer, uitstapjes — maar waar je alle ruimte krijgt om te bewegen zonder drukte. Fijn voor wie van een rustige routine houdt en bereid is wat verder te rijden voor voorzieningen.",
+    "benefits": [
+      "Met slechts 351 inwoners per vierkante kilometer heb je hier alle ruimte die je nodig hebt. Wandelen door de wijk voelt open en ontspannen, zonder voetpaden vol mensen of voortdurend verkeer.",
+      "De 5 parken in de omgeving — waaronder het Franz Van De Veldetuin en het Elsdriespark — bieden voldoende afwisseling voor dagelijkse wandelingen. Ze liggen allemaal binnen 20 minuten lopen, waardoor je elke dag een andere route kunt kiezen.",
+      "Hoewel de hondenspeelweiden zoals Bosweide, Dirty Dogz en Vijverweide niet om de hoek liggen, zijn ze met 20 minuten wandelen goed te doen als je een langere uitstap plant.",
+      "De nabijheid van dierenarts De Rhode Gond op 8 minuten wandelen geeft rust. Als er onverwacht iets aan de hand is of een controle nodig is, ben je snel ter plaatse.",
+      "Gontrode Kern heeft een treinstation en 11 bushaltes, wat handig is als je zonder auto naar Gent of andere steden wilt. Voor dagelijkse boodschappen of dierenwinkels zul je echter meestal de auto nemen — de wijk zelf heeft weinig commerciële voorzieningen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in Gontrode Kern en help andere baasjes de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Gontrode Kern is een kleine wijk met ongeveer 1000 inwoners en een lage bevolkingsdichtheid van 351 inwoners per vierkante kilometer. Prijsgegevens zijn niet beschikbaar, maar de wijk heeft een landelijk karakter met laagbebouwing.",
+    "medianPrice": 0,
+    "inhabitants": 1000,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Gontrode Kern? De wijk heeft postcode 9090 (gedeeld met andere delen van Melle). Filter je zoekopdracht op deze postcode om woningen in de omgeving te vinden. Door het rustige karakter en de groene ligging is deze wijk populair bij wie landelijk wil wonen met bereikbaarheid van steden.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "melle-dries",
+    "melle-kloosterwijk",
+    "melle-rijkstuinbouwschool"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-07T15:00:00Z",
+    "qualityScore": 81,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig dorpscentrum met ruime groene omgeving — praktisch voor wie de drukte wil ontlopen",
+        "after": "Wonen in Gontrode Kern, Melle: rustig dorpscentrum met groene omgeving en wandelmogelijkheden",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Met een bevolkingsdichtheid van slechts 351 inwoners per vierkante kilometer heb je hier ruimte om te ademen — en om je hond alle bewegingsruimte te geven die hij nodig heeft.",
+        "after": "Met een bevolkingsdichtheid van slechts 351 inwoners per vierkante kilometer heb je hier ruimte om te ademen — en om alle bewegingsruimte te hebben die nodig is voor een ontspannen dagelijkse routine.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor dagelijkse boodschappen of gespecialiseerd hondenvoer moet je naar de aangrenzende wijken of richting het centrum van Melle.",
+        "after": "Voor dagelijkse boodschappen of gespecialiseerd voer moet je naar de aangrenzende wijken of richting het centrum van Melle.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes met een hond is Gontrode Kern geschikt als je houdt van lange wandelingen door groene omgevingen en niet afhankelijk bent van een hondenspeelweide binnen 5 minuten.",
+        "after": "Voor wie van lange wandelingen door groene omgevingen houdt en niet afhankelijk is van een speelweide binnen 5 minuten, is Gontrode Kern geschikt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Een eerlijke inschatting: dit is een fijne plek voor wie actief is, van rust houdt, en zijn hond vooral meeneemt op wandelingen door de natuur.",
+        "after": "Een eerlijke inschatting: dit is een fijne plek voor wie actief is, van rust houdt, en vooral wandelingen door de natuur waardeert.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Gontrode Kern is een kleine wijk met beperkte lokale voorzieningen. Je vindt hier één dierenarts op loopafstand, maar voor dierenwinkels of andere hondengerelateerde diensten moet je naar aangrenzende wijken. De focus ligt hier op rust en groen, niet op commerciële voorzieningen.",
+        "after": "Gontrode Kern is een kleine wijk met beperkte lokale voorzieningen. Je vindt hier één dierenarts op loopafstand — De Rhode Gond op 8 minuten wandelen — wat voor medische zorg een geruststellende nabijheid biedt. Voor dierenwinkels of andere gespecialiseerde diensten moet je naar aangrenzende wijken. De focus ligt hier op rust en groen, niet op commerciële voorzieningen.",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "In Gontrode Kern zelf zijn geen hondenspeelweiden, maar in de nabije omgeving vind je er 5 op ongeveer 20 minuten wandelen. Dat maakt een uitstapje naar een speelweide eerder een bewuste activiteit dan een spontaan tussendoortje. Voor de dagelijkse wandeling kun je prima terecht in de 5 parken die verspreid liggen rondom de wijk.",
+        "after": "In Gontrode Kern zelf zijn geen hondenspeelweiden, maar in de nabije omgeving vind je er 5 op ongeveer 20 minuten wandelen — waaronder Bosweide, Dirty Dogz en Vijverweide. Dat maakt een uitstapje naar een speelweide eerder een bewuste activiteit dan een spontaan tussendoortje. Voor de dagelijkse wandeling kun je prima terecht in de 5 parken die verspreid liggen rondom de wijk, zoals het Franz Van De Veldetuin en het Elsdriespark.",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "vets.intro",
+        "before": "Voor medische zorg zit je in Gontrode Kern goed met De Rhode Gond op slechts 8 minuten wandelen. Dat is een geruststellende nabijheid voor wie met een hond woont — je bent snel ter plaatse als er iets aan de hand is.",
+        "after": "Voor medische zorg zit je in Gontrode Kern goed met De Rhode Gond op slechts 8 minuten wandelen. Dat is een geruststellende nabijheid — je bent snel ter plaatse als er iets aan de hand is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Gontrode Kern",
+        "after": "Dagelijks leven in Gontrode Kern",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Gontrode Kern draait om rust, ruimte en lange wandelingen door de natuur. Je hebt hier geen hondenspeelweide om de hoek, maar wel toegang tot parken en open groen binnen handbereik. Het is een leven waarin je bewust plant — boodschappen, hondenvoer, uitstapjes — maar waar je hond alle ruimte krijgt om te bewegen zonder drukte.",
+        "after": "Een typische dag in Gontrode Kern draait om rust, ruimte en wandelingen door de natuur. Je hebt hier geen hondenspeelweide om de hoek, maar wel toegang tot parken en open groen binnen handbereik. Het is een leven waarin je bewust plant — boodschappen, voer, uitstapjes — maar waar je alle ruimte krijgt om te bewegen zonder drukte. Fijn voor wie van een rustige routine houdt en bereid is wat verder te rijden voor voorzieningen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met slechts 351 inwoners per vierkante kilometer heb je hier alle ruimte die je nodig hebt. Wandelen door de wijk voelt open en ontspannen, zonder voetpaden vol mensen of voortdurend verkeer. Je hond kan zich hier vrij bewegen zonder stress.",
+        "after": "Met slechts 351 inwoners per vierkante kilometer heb je hier alle ruimte die je nodig hebt. Wandelen door de wijk voelt open en ontspannen, zonder voetpaden vol mensen of voortdurend verkeer.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Hoewel de hondenspeelweiden zoals Bosweide, Dirty Dogz en Vijverweide niet om de hoek liggen, zijn ze met 20 minuten wandelen goed te doen als je een langere uitstap plant. Voor honden die graag met soortgenoten spelen, is dat een fijne optie.",
+        "after": "Hoewel de hondenspeelweiden zoals Bosweide, Dirty Dogz en Vijverweide niet om de hoek liggen, zijn ze met 20 minuten wandelen goed te doen als je een langere uitstap plant.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De nabijheid van dierenarts De Rhode Gond op 8 minuten wandelen geeft rust. Als je hond onverwacht ziek wordt of een controle nodig heeft, ben je snel ter plaatse.",
+        "after": "De nabijheid van dierenarts De Rhode Gond op 8 minuten wandelen geeft rust. Als er onverwacht iets aan de hand is of een controle nodig is, ben je snel ter plaatse.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in Gontrode Kern en help andere mensen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "statistics.intro",
+        "before": "Gontrode Kern is een kleine wijk met ongeveer 1000 inwoners en een lage bevolkingsdichtheid. Prijsgegevens zijn niet beschikbaar, maar de wijk heeft een landelijk karakter.",
+        "after": "Gontrode Kern is een kleine wijk met ongeveer 1000 inwoners en een lage bevolkingsdichtheid van 351 inwoners per vierkante kilometer. Prijsgegevens zijn niet beschikbaar, maar de wijk heeft een landelijk karakter met laagbebouwing.",
+        "reason": "intro_structure"
+      },
+      {
+        "field": "houses.intro",
+        "before": "Op zoek naar een woning in Gontrode Kern? De wijk heeft postcode 9090 (gedeeld met andere delen van Melle). Filter je zoekopdracht op deze postcode om woningen in de omgeving te vinden.",
+        "after": "Op zoek naar een woning in Gontrode Kern? De wijk heeft postcode 9090 (gedeeld met andere delen van Melle). Filter je zoekopdracht op deze postcode om woningen in de omgeving te vinden. Door het rustige karakter en de groene ligging is deze wijk populair bij wie landelijk wil wonen met bereikbaarheid van steden.",
+        "reason": "section_intro_thin"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 13,
+      "introScore": 22,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 0,
+      "decisionUsefulnessScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-07T15:30:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "valueCards[1].description",
+        "before": "1 praktijk in de buurt",
+        "after": "1 praktijk in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen in Gontrode Kern en help andere mensen de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in Gontrode Kern en help andere baasjes de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "valueCards[1].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": []
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 7,
+        "localTipsFound": [
+          "richting het centrum van Melle",
+          "aan de Brusselsesteenweg",
+          "richting Gent"
+        ],
+        "neighborhoodObservations": [
+          "typisch dorpscentrum waar je de drukte van de stad ver achter je laat",
+          "Dit is een wijk waar je écht op het platteland woont",
+          "landelijk karakter met laagbebouwing"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": ["no pet store in neighborhood"],
+        "gapsHandledGracefully": 1,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

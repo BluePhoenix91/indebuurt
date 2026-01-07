@@ -1,0 +1,403 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-07T14:00:00Z",
+  "id": "wachtebeke-provinciaal-domein-oostdonk",
+  "city": "Wachtebeke",
+  "name": "Provinciaal Domein - Oostdonk",
+  "postalCode": "9185",
+  "subtitle": "Provinciaal Domein Oostdonk in Wachtebeke: natuurgebied met hondenzwemzone en speelweide op wandelafstand",
+  "dateAdded": "2026-01-07",
+  "inhabitants": 0,
+  "labels": [
+    {
+      "text": "Natuurgebied",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Recreatief domein",
+      "icon": "fa-solid fa-tree"
+    },
+    {
+      "text": "Hondvriendelijk",
+      "icon": "fa-solid fa-dog"
+    }
+  ],
+  "intro": "Provinciaal Domein - Oostdonk is geen traditionele woonwijk, maar een uitgestrekt natuurgebied rond het recreatiedomein Puyenbroeck in Wachtebeke. Dit groene long aan de rand van Oost-Vlaanderen biedt vooral uitloopruimte en recreatiemogelijkheden, zonder noemenswaardige residentiële bebouwing. Voor wie woont in de omliggende wijken als Walderdonk of de kern van Wachtebeke is dit echter een waardevol gebied voor uitgebreide wandelingen met je viervoeter.\n\nWat het domein bijzonder maakt is de aanwezigheid van twee hondenfaciliteiten op wandelafstand: een omheinde hondenspeelweide op 12 minuten wandelen en de unieke Hondenzwemzone Puyenbroeck op 13 minuten, waar honden kunnen afkoelen in het water. Met 4 parken en groene zones binnen het domein heb je hier meer dan voldoende ruimte voor lange wandelingen in de natuur.\n\nDe keerzijde van deze groene rust is duidelijk: hier woon je niet in traditionele zin. Er zijn geen voorzieningen ter plekke — geen supermarkten, geen dierenartsen, geen scholen. De dichtstbijzijnde dierenarts, De Zaffelbeek in Lochristi, ligt op 28 minuten wandelen. Voor dagelijkse boodschappen of medische zorg ben je aangewezen op de omliggende dorpskernen. Voor wie hier graag komt uitlopen, is de Hondenzwemzone een praktisch alternatief voor warme dagen wanneer verkoeling nodig is. Dit gebied is dus vooral relevant als uitloopgebied, niet als woonlocatie.\n\nHet domein spreekt vooral aan wie groene ruimte en rust zoekt voor wandelingen, zonder de drukte van een stadswijk. Voor wie daadwerkelijk in de regio woont en op zoek is naar een fijne plek om uit te lopen, biedt dit gebied wel wat de naam belooft: uitgestrekte natuur en specifieke hondenfaciliteiten. Maar verwacht hier geen buurtgevoel of wooncomfort — dit is puur recreatief gebied.\n\nMet slechts 2 bushaltes en geen treinstation is de bereikbaarheid met openbaar vervoer beperkt. De meeste bezoekers komen hier met de auto of fietsen vanuit nabijgelegen wijken. Voor wie op zoek is naar een dagelijkse uitlaatroutine met groen, voorzieningen én gemeenschapsleven, zijn de aangrenzende woonwijken zoals Walderdonk of het centrum van Wachtebeke relevantere opties.",
+  "coordinates": {
+    "lat": 51.15122289592913,
+    "lon": 3.8749620763974844,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "12 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheinde speelweide",
+      "detail": "Plus zwemzone op 13 min"
+    },
+    {
+      "icon": "fa-solid fa-water",
+      "title": "Hondenzwemzone",
+      "distance": "13 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Unieke zwemplek voor honden",
+      "detail": "Omheind met watertoegag"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken en natuur",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 groene zones",
+      "detail": "Provinciaal Domein Puyenbroeck"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "28 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde in Lochristi",
+      "detail": "De Zaffelbeek"
+    }
+  ],
+  "facilities": {
+    "intro": "Als recreatiegebied biedt Provinciaal Domein - Oostdonk geen eigen voorzieningen voor dagelijks leven. Wel vind je hier twee specifieke hondenfaciliteiten binnen het domein: een klassieke omheinde speelweide en een bijzondere zwemzone waar honden veilig kunnen zwemmen. Deze combinatie maakt het domein tot een populaire bestemming voor wie vanuit de omliggende wijken een uitstapje wil maken. Voor dagelijkse boodschappen of medische zorg ben je aangewezen op de omliggende gemeenten zoals Wachtebeke centrum of Lochristi."
+  },
+  "dogParks": {
+    "intro": "Het domein herbergt twee hondenfaciliteiten: een klassieke omheinde hondenspeelweide op 12 minuten wandelen en de bijzondere Hondenzwemzone Puyenbroeck op 13 minuten. De zwemzone is een unieke voorziening waar honden veilig kunnen afkoelen in een omheind watergedeelte, ideaal voor warme zomerdagen. Beide liggen vlakbij elkaar binnen het recreatiedomein Puyenbroeck.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Puyenbroeck",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1487911,
+          "lon": 3.888625
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenzwemzone Puyenbroeck",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1477649,
+          "lon": 3.8891737
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In het domein zelf is geen dierenartspraktijk aanwezig. De dichtstbijzijnde optie is Dierenarts De Zaffelbeek in Lochristi, op 28 minuten wandelen — een realistische afstand met de auto vanuit het domein. Voor spoedgevallen of reguliere controles ben je dus aangewezen op praktijken in de omliggende gemeenten. Dit is een belangrijke overweging als je vaak naar het domein komt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Zaffelbeek",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1324189,
+          "lon": 3.8623004
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "WelloPet",
+        "street": "Bosdreef",
+        "streetNumber": "1D",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "81 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.097247,
+          "lon": 3.8390069
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bosdreef",
+        "street": "Spelonckvaart",
+        "streetNumber": "46B",
+        "municipality": "Moerbeke",
+        "postalCode": "9180",
+        "distance": "85 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1823346,
+          "lon": 3.9580023
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een dierenwinkel vind je niet in het domein zelf. De dichtstbijzijnde, Vogelparadijs Wachtebeke, ligt op 46 minuten wandelen in het centrum van Wachtebeke. Praktischer is het om voor je bezoek aan het domein benodigdheden mee te brengen, zoals zakjes en water. Als alternatief vind je op 82 minuten Maxi Zoo in Lochristi, waar je terecht kan voor een volledig assortiment aan hondenbenodigdheden.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Vogelparadijs Wachtebeke",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Wachtebeke",
+        "postalCode": "9185",
+        "distance": "46 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1766518,
+          "lon": 3.8415737
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo Lochristi",
+        "street": "Bosdreef",
+        "streetNumber": "1A",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "82 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0970977,
+          "lon": 3.8385171
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Antwerpse Steenweg",
+        "streetNumber": "100",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "106 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0885319,
+          "lon": 3.806785
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Uitlaten in Provinciaal Domein - Oostdonk",
+    "intro": "Dit gebied is geen woonwijk maar een uitloopbestemming. Een typisch bezoek betekent hier naartoe reizen vanuit een nabijgelegen woonwijk, je viervoeter loslaten in de hondenspeelweide of zwemzone, en daarna een lange natuurwandeling maken door het domein. Het is een weekendbestemming of uitstapje, geen dagelijkse routine.",
+    "benefits": [
+      "De Hondenzwemzone Puyenbroeck is een unieke faciliteit waar viervoeters veilig kunnen zwemmen in een omheind watergedeelte — praktisch op warme zomerdagen of voor honden die van water houden.",
+      "Met 4 parken en natuurgebieden binnen het domein, waaronder het uitgestrekte Provinciaal Domein Puyenbroeck zelf, heb je hier eindeloos veel ruimte voor lange wandelingen zonder de drukte van stedelijke parken.",
+      "De combinatie van een omheinde hondenspeelweide en een zwemzone op respectievelijk 12 en 13 minuten wandelen van het centrale punt maakt dit domein tot een volwaardige hondenbestemming voor een halve dag recreatie.",
+      "Voor wie rust en natuur zoekt zonder mensenmassa's is dit domein een ideale ontsnapping — verwacht hier geen drukke hondontmoetingen maar wel ruimte en stilte."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Provinciaal Domein - Oostdonk is geen residentiële wijk maar een recreatiegebied, wat de afwezigheid van bevolkingsgegevens en vastgoedprijzen verklaart. Dit gebied heeft een andere functie dan traditionele wijken — het biedt recreatie en natuur in plaats van woonruimte.",
+    "medianPrice": 0,
+    "inhabitants": 0,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Dit gebied is niet bedoeld voor residentieel wonen. Voor wie op zoek is naar een woning in Wachtebeke met toegang tot dit prachtige domein, bekijk de aangrenzende wijken zoals Walderdonk of het centrum van Wachtebeke. Zoek op postcode 9185 om beschikbare woningen in de omgeving te vinden die dit natuurgebied binnen bereik hebben.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "wachtebeke-walderdonk",
+    "wachtebeke-oudeburgse-sluis"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-07T13:30:00Z",
+    "qualityScore": 74,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Natuurgebied met twee hondenvoorzieningen in wandelafstand — groen uitloopgebied voor baasjes uit de regio",
+        "after": "Provinciaal Domein Oostdonk in Wachtebeke: natuurgebied met hondenzwemzone en speelweide op wandelafstand",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes uit de omliggende wijken als Walderdonk of de kern van Wachtebeke is dit echter een waardevol gebied voor uitgebreide wandelingen met je viervoeter.",
+        "after": "Voor wie woont in de omliggende wijken als Walderdonk of de kern van Wachtebeke is dit echter een waardevol gebied voor uitgebreide wandelingen met je viervoeter.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "waar je hond kan afkoelen in het water",
+        "after": "waar honden kunnen afkoelen in het water",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor dagelijkse boodschappen of medische zorg ben je aangewezen op de omliggende dorpskernen. Dit gebied is dus vooral relevant als uitloopgebied, niet als woonlocatie.",
+        "after": "Voor dagelijkse boodschappen of medische zorg ben je aangewezen op de omliggende dorpskernen. Voor wie hier graag komt uitlopen, is de Hondenzwemzone een praktisch alternatief voor warme dagen wanneer verkoeling nodig is. Dit gebied is dus vooral relevant als uitloopgebied, niet als woonlocatie.",
+        "reason": "intro_structure"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes die op zoek zijn naar een dagelijkse uitlaatroutine met groen, voorzieningen én gemeenschapsleven",
+        "after": "Voor wie op zoek is naar een dagelijkse uitlaatroutine met groen, voorzieningen én gemeenschapsleven",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Als recreatiegebied biedt Provinciaal Domein - Oostdonk geen eigen voorzieningen voor baasjes. Wel vind je hier twee specifieke hondenfaciliteiten binnen het domein. Voor dagelijkse boodschappen of medische zorg ben je aangewezen op de omliggende gemeenten.",
+        "after": "Als recreatiegebied biedt Provinciaal Domein - Oostdonk geen eigen voorzieningen voor dagelijks leven. Wel vind je hier twee specifieke hondenfaciliteiten binnen het domein: een klassieke omheinde speelweide en een bijzondere zwemzone waar honden veilig kunnen zwemmen. Deze combinatie maakt het domein tot een populaire bestemming voor wie vanuit de omliggende wijken een uitstapje wil maken. Voor dagelijkse boodschappen of medische zorg ben je aangewezen op de omliggende gemeenten zoals Wachtebeke centrum of Lochristi.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Het domein herbergt twee hondenfaciliteiten: een klassieke omheinde hondenspeelweide op 12 minuten wandelen en de bijzondere Hondenzwemzone Puyenbroeck op 13 minuten, waar je viervoeter kan zwemmen. Beide liggen vlakbij elkaar binnen het recreatiedomein.",
+        "after": "Het domein herbergt twee hondenfaciliteiten: een klassieke omheinde hondenspeelweide op 12 minuten wandelen en de bijzondere Hondenzwemzone Puyenbroeck op 13 minuten. De zwemzone is een unieke voorziening waar honden veilig kunnen afkoelen in een omheind watergedeelte, ideaal voor warme zomerdagen. Beide liggen vlakbij elkaar binnen het recreatiedomein Puyenbroeck.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "vets.intro",
+        "before": "In het domein zelf is geen dierenartspraktijk aanwezig. De dichtstbijzijnde optie is Dierenarts De Zaffelbeek in Lochristi, op 28 minuten wandelen. Voor baasjes uit de regio is dit een realistische afstand met de auto.",
+        "after": "In het domein zelf is geen dierenartspraktijk aanwezig. De dichtstbijzijnde optie is Dierenarts De Zaffelbeek in Lochristi, op 28 minuten wandelen — een realistische afstand met de auto vanuit het domein. Voor spoedgevallen of reguliere controles ben je dus aangewezen op praktijken in de omliggende gemeenten. Dit is een belangrijke overweging als je vaak naar het domein komt.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Een dierenwinkel vind je niet in het domein zelf. De dichtstbijzijnde, Vogelparadijs Wachtebeke, ligt op 46 minuten wandelen in het centrum van Wachtebeke. Praktischer is het om voor je bezoek aan het domein benodigdheden mee te brengen, of te shoppen in Lochristi waar Maxi Zoo en Tom & Co gevestigd zijn.",
+        "after": "Een dierenwinkel vind je niet in het domein zelf. De dichtstbijzijnde, Vogelparadijs Wachtebeke, ligt op 46 minuten wandelen in het centrum van Wachtebeke. Praktischer is het om voor je bezoek aan het domein benodigdheden mee te brengen, zoals zakjes en water. Als alternatief vind je op 82 minuten Maxi Zoo in Lochristi, waar je terecht kan voor een volledig assortiment aan hondenbenodigdheden.",
+        "reason": "readability"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typisch bezoek als baasje betekent hier naartoe reizen",
+        "after": "Een typisch bezoek betekent hier naartoe reizen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "De Hondenzwemzone Puyenbroeck is een unieke faciliteit waar je viervoeter veilig kan zwemmen in een omheind watergedeelte — ideaal op warme zomerdagen of voor honden die van water houden.",
+        "after": "De Hondenzwemzone Puyenbroeck is een unieke faciliteit waar viervoeters veilig kunnen zwemmen in een omheind watergedeelte — praktisch op warme zomerdagen of voor honden die van water houden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "statistics.intro",
+        "before": "Provinciaal Domein - Oostdonk is geen residentiële wijk maar een recreatiegebied, wat de afwezigheid van bevolkingsgegevens en vastgoedprijzen verklaart. Dit gebied heeft een andere functie dan traditionele wijken.",
+        "after": "Provinciaal Domein - Oostdonk is geen residentiële wijk maar een recreatiegebied, wat de afwezigheid van bevolkingsgegevens en vastgoedprijzen verklaart. Dit gebied heeft een andere functie dan traditionele wijken — het biedt recreatie en natuur in plaats van woonruimte.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "houses.intro",
+        "before": "Dit gebied is niet bedoeld voor residentieel wonen. Voor wie op zoek is naar een woning in Wachtebeke met toegang tot dit prachtige domein, bekijk de aangrenzende wijken zoals Walderdonk of het centrum van Wachtebeke (postcode 9185).",
+        "after": "Dit gebied is niet bedoeld voor residentieel wonen. Voor wie op zoek is naar een woning in Wachtebeke met toegang tot dit prachtige domein, bekijk de aangrenzende wijken zoals Walderdonk of het centrum van Wachtebeke. Zoek op postcode 9185 om beschikbare woningen in de omgeving te vinden die dit natuurgebied binnen bereik hebben.",
+        "reason": "local_keyword_missing"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 12,
+      "introScore": 21,
+      "keywordScore": 16,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 8,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-07T14:00:00Z",
+    "qualityScore": 89,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": ["buurtgevoel"]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 8,
+        "localTipsFound": [
+          "Provinciaal Domein Puyenbroeck",
+          "Hondenzwemzone Puyenbroeck",
+          "De Zaffelbeek in Lochristi",
+          "Vogelparadijs Wachtebeke"
+        ],
+        "neighborhoodObservations": [
+          "uitgestrekt natuurgebied rond het recreatiedomein Puyenbroeck",
+          "groene long aan de rand van Oost-Vlaanderen",
+          "unieke Hondenzwemzone waar honden kunnen afkoelen",
+          "puur recreatief gebied zonder wooncomfort"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no veterinary practice in domain",
+          "no pet store in domain",
+          "no residential area"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 1
+      }
+    }
+  }
+}

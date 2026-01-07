@@ -1,0 +1,529 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-07T15:45:00Z",
+  "id": "melle-dries",
+  "city": "Melle",
+  "name": "DRIES",
+  "postalCode": "9090",
+  "subtitle": "Wonen in de Dries, Melle: rustige residentiële wijk met groen op wandelafstand — fijn voor wie rust zoekt met z'n hond",
+  "dateAdded": "2026-01-07",
+  "inhabitants": 5661,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    }
+  ],
+  "intro": "De Dries is een residentiële wijk in Melle, vlak bij Gent. Met 5661 inwoners verspreid over een relatief groot gebied (715 inwoners per km²) woon je hier in een rustige, groene omgeving zonder de drukte van het stadscentrum. De wijk combineert het beste van twee werelden: de rust van voorstedelijk wonen met snelle toegang tot stedelijke voorzieningen via de nabijgelegen stationsomgeving.\n\nVoor wie een hond heeft, biedt de Dries een fijne balans tussen groen en praktische voorzieningen. Met 6 parken binnen handbereik en 5 hondenspeelweiden op 20-21 minuten wandelen in het nabijgelegen natuurgebied, heb je meer dan genoeg ruimte voor dagelijkse wandelingen. De dichtstbijzijnde parken liggen op amper 5 minuten wandelen, fijn voor een snelle ochtendwandeling voordat je naar je werk vertrekt.\n\nDe wijk zelf is eerder gericht op rust en wonen dan op commerciële voorzieningen. Je vindt hier slechts 2 supermarkten en 3 apotheken in de directe omgeving. Voor gespecialiseerde zaken zoals een dierenarts of dierenwinkel moet je uitwijken naar buurgemeenten. De dichtstbijzijnde dierenarts, De Rhode Gond, ligt op 8 minuten wandelen - nog net aanvaardbaar voor routinebezoeken, maar voor spoedgevallen moet je rekening houden met deze afstand. Voor een gespecialiseerde dierenwinkel zoals Maxi Zoo rijd je best, want op 53 minuten wandelen is het geen optie om te voet te gaan.\n\nDat gezegd hebbende, de bereikbaarheid van de wijk compenseert veel. Met 38 bushaltes verspreid over het gebied en een treinstation in de wijk ben je snel in Gent voor wat je lokaal mist. De lage bevolkingsdichtheid betekent ook rustigere straten en meer ruimte - fijn als je viervoeter niet houdt van drukke, lawaaierige omgevingen.\n\nDe Dries is geschikt voor wie de voorkeur geeft aan een rustige woonomgeving en bereid is om voor bepaalde voorzieningen een klein stukje te rijden of naar buurgemeenten te gaan. Als je op zoek bent naar een wijk waar je viervoeter veel ruimte heeft, waar je niet constant in de file staat, en waar je toch snel in de stad bent als dat nodig is, dan vind je hier een fijne thuisbasis. Voor wie juist alles binnen wandelafstand wil - de dierenarts, de dierenwinkel, het terrasje - is dit waarschijnlijk niet de beste match.\n\nWat statistieken betreft: concrete prijsinformatie voor woningen in de Dries is niet beschikbaar op wijkniveau, maar Melle is over het algemeen een betaalbare gemeente vergeleken met Gent-centrum. De wijk heeft momenteel geen woningen te koop volgens de meest recente data, wat typisch is voor rustige residentiële wijken met weinig verloop.",
+  "coordinates": {
+    "lat": 50.99230457236521,
+    "lon": 3.8021891541402653,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 parken in de wijk",
+      "detail": "Dichtstbijzijnde op 5 min"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "20 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 hondenspeelweiden nabij",
+      "detail": "In natuurgebied, 20 min wandelen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde praktijk",
+      "detail": "De Rhode Gond, 8 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "53 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Maxi Zoo",
+      "detail": "Beter met de auto"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Nabij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "38 bushaltes + treinstation",
+      "detail": "Goede verbinding naar Gent"
+    }
+  ],
+  "facilities": {
+    "intro": "De Dries is een rustige woonwijk waar je voor de dagelijkse boodschappen terechtkan bij 2 lokale supermarkten. Voor gespecialiseerde zaken voor je viervoeter - zoals de dierenarts of dierenwinkel - moet je wel rekening houden met wat grotere afstanden. De focus van de wijk ligt meer op rust en groen dan op commerciële drukte, wat voor sommigen juist een pluspunt is."
+  },
+  "dogParks": {
+    "intro": "De Dries heeft geen officiële hondenspeelweide binnen de wijkgrenzen zelf, maar het nabijgelegen natuurgebied beschikt over 5 hondenspeelweiden op ongeveer 20 minuten wandelen. Deze parken liggen gegroepeerd in een groen gebied: Bosweide, Vijverweide, en een paar kleinere speelweiden. Let wel: geen van deze parken heeft officiële omheining of voorzieningen zoals drinkwater - het zijn eerder natuurlijke speelruimtes. Voor dagelijkse uitlaatrondes heb je gelukkig de 6 reguliere parken veel dichterbij, waarvan de eerste op amper 5 minuten ligt.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Bosweide",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9838204,
+          "lon": 3.8211395
+        },
+        "features": [
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dirty Dogz",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9837535,
+          "lon": 3.8212664
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Vijverweide",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9833274,
+          "lon": 3.8220301
+        },
+        "features": [
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg voor je viervoeter vind je De Rhode Gond op 8 minuten wandelen - nog net binnen aanvaardbare loopafstand voor routinecontroles of vaccinaties. Voor spoedgevallen is dit wel iets om rekening mee te houden. Alternatieve praktijken zoals Wellopet in Merelbeke liggen verder weg (40 minuten wandelen), dus met de auto is vaak praktischer voor niet-acute zorg.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Rhode Gond",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9878355,
+          "lon": 3.796353
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Wellopet",
+        "street": "Fraterstraat",
+        "streetNumber": "111",
+        "municipality": "Merelbeke",
+        "postalCode": "9820",
+        "distance": "40 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.00313,
+          "lon": 3.7596242
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Clos Fleuri",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Merelbeke",
+        "postalCode": "9820",
+        "distance": "50 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0053406,
+          "lon": 3.7491428
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Malpertuus",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "55 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0309594,
+          "lon": 3.812795
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. Maxi Zoo op de Brusselsesteenweg in Melle ligt op 53 minuten wandelen - reken er dus op om met de auto te gaan voor hondenvoer en speelgoed. De meeste lokale supermarkten hebben wel een basisassortiment, handig voor noodgevallen. Voor een grotere keuze aan producten zijn er verder nog opties zoals Topdog in Wetteren (69 minuten) of Aleashop in Destelbergen (91 minuten), maar ook die zijn praktischer bereikbaar met de wagen.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "2",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "53 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.025379,
+          "lon": 3.7710589
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Topdog",
+        "street": "Zuidlaan",
+        "streetNumber": "128B",
+        "municipality": "Wetteren",
+        "postalCode": "9230",
+        "distance": "69 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9992129,
+          "lon": 3.8802044
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Groovy Dogs",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Laarne",
+        "postalCode": "9270",
+        "distance": "84 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.048506,
+          "lon": 3.8374464
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "91 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in de Dries",
+    "intro": "Een typische dag in de Dries draait om rust, ruimte, en je eigen tempo. Je ochtendwandeling start vaak in een van de nabijgelegen parkjes - op 5 minuten loop je naar groen waar je viervoeter los kan rennen zonder dat je constant op andere honden moet letten. De wijk voelt ruim en overzichtelijk, met weinig verkeersdrukte. Voor de wekelijkse boodschappen heb je de keuze uit 2 lokale supermarkten, en als je naar Gent moet voor werk of ontspanning, stap je zo op de bus.",
+    "benefits": [
+      "Met 6 parken binnen 15 minuten wandelen heb je altijd een groene plek voor de ochtendwandeling. Het dichtstbijzijnde park ligt op amper 5 minuten, fijn voor een snelle ronde voordat je naar je werk vertrekt. Elsdriespark en Geerbos zijn favorieten onder lokale hondenliefhebbers voor langere uitstapjes.",
+      "Dankzij de lage bevolkingsdichtheid van 715 inwoners per km² ervaar je hier minder drukte op straat dan in stedelijke wijken. Dat betekent rustigere wandelingen, minder honden die je onderweg tegenkomt, en meer ruimte voor je viervoeter om te ontspannen tijdens het uitlaten.",
+      "De 38 bushaltes en het treinstation in de wijk maken de wijk goed bereikbaar, ook als je geen auto hebt. Naar Gent-centrum ben je in een mum van tijd, handig als je daar werkt of graag winkelt. Voor de dierenarts of dierenwinkel is een auto wel praktischer.",
+      "De wijk heeft een rustig, residentieel karakter zonder veel commerciële drukte. Dat trekt mensen aan die rust zoeken voor zichzelf én hun hond. Je vindt hier geen drukke cafés of uitgaansstraten, wat fijn is als je viervoeter gevoelig is voor herrie.",
+      "Met 5 hondenspeelweiden op 20 minuten wandelen in het nabijgelegen natuurgebied heb je in het weekend ruimte genoeg voor langere uitstappen. Bosweide en Vijverweide bieden grasondergrond en liggen in een groen, rustig gebied waar je ook andere hondenliefhebbers tegenkomt."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "De Dries telt 5661 inwoners met een bevolkingsdichtheid van 715 inwoners per km², wat de wijk een rustig, residentieel karakter geeft. Concrete prijsinformatie voor woningen is niet beschikbaar op wijkniveau.",
+    "medianPrice": 0,
+    "inhabitants": 5661,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in de Dries? Filter je zoekopdracht op postcode 9090 om specifiek in deze wijk te zoeken. Let op: de postcode dekt meerdere wijken in Melle, dus check de exacte locatie van elk aanbod om zeker te zijn dat het in de Dries ligt.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "melle-kloosterwijk",
+    "melle-gontrode-kern",
+    "melle-rijkstuinbouwschool"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-07T15:45:00Z",
+    "qualityScore": 77,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in de Dries: rustige residentiële wijk met groen op wandelafstand en goede verbindingen naar Gent",
+        "after": "Wonen in de Dries, Melle: rustige residentiële wijk met groen op wandelafstand — fijn voor wie rust zoekt met z'n hond",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt de Dries een fijne balans tussen groen en praktische voorzieningen.",
+        "after": "Voor wie een hond heeft, biedt de Dries een fijne balans tussen groen en praktische voorzieningen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De Dries is geschikt voor baasjes die de voorkeur geven aan een rustige woonomgeving",
+        "after": "De Dries is geschikt voor wie de voorkeur geeft aan een rustige woonomgeving",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "wat voor sommige baasjes juist een pluspunt is.",
+        "after": "wat voor sommigen juist een pluspunt is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in de Dries draait om rust, ruimte, en je eigen tempo.",
+        "after": "Een typische dag in de Dries draait om rust, ruimte, en je eigen tempo.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Elsdriespark en Geerbos zijn favorieten onder lokale baasjes voor langere uitstapjes.",
+        "after": "Elsdriespark en Geerbos zijn favorieten onder lokale hondenliefhebbers voor langere uitstapjes.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Dat trekt baasjes aan die rust zoeken voor zichzelf én hun hond.",
+        "after": "Dat trekt mensen aan die rust zoeken voor zichzelf én hun hond.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "waar je ook andere baasjes tegenkomt.",
+        "after": "waar je ook andere hondenliefhebbers tegenkomt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-07T16:00:00Z",
+    "qualityScore": 83,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "De Dries is een residentiële wijk in Melle, op een steenworp van Gent.",
+        "after": "De Dries is een residentiële wijk in Melle, vlak bij Gent.",
+        "reason": "tone_promotional"
+      },
+      {
+        "field": "intro",
+        "before": "De dichtstbijzijnde parken liggen op amper 5 minuten wandelen, ideaal voor een snelle ochtendwandeling",
+        "after": "De dichtstbijzijnde parken liggen op amper 5 minuten wandelen, fijn voor een snelle ochtendwandeling",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "5 hondenparken op 20-21 minuten wandelen",
+        "after": "5 hondenspeelweiden op 20-21 minuten wandelen",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "Met 38 bushaltes verspreid over het gebied en een treinstation in de buurt ben je snel",
+        "after": "Met 38 bushaltes verspreid over het gebied en een treinstation in de wijk ben je snel",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "ideaal als je viervoeter niet houdt van drukke",
+        "after": "fijn als je viervoeter niet houdt van drukke",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "is dit waarschijnlijk niet de ideale match.",
+        "after": "is dit waarschijnlijk niet de beste match.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[0].description",
+        "before": "6 parken in de buurt",
+        "after": "6 parken in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[1].title",
+        "before": "Hondenparken",
+        "after": "Hondenspeelweiden",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[1].description",
+        "before": "5 hondenparken nabij",
+        "after": "5 hondenspeelweiden nabij",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "beschikt over 5 hondenparken op ongeveer 20 minuten wandelen",
+        "after": "beschikt over 5 hondenspeelweiden op ongeveer 20 minuten wandelen",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Het dichtstbijzijnde park ligt op amper 5 minuten, ideaal voor een snelle ronde",
+        "after": "Het dichtstbijzijnde park ligt op amper 5 minuten, fijn voor een snelle ronde",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "De 38 bushaltes en het treinstation in de buurt maken de wijk goed bereikbaar",
+        "after": "De 38 bushaltes en het treinstation in de wijk maken de wijk goed bereikbaar",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "wat ideaal is als je viervoeter gevoelig is voor herrie.",
+        "after": "wat fijn is als je viervoeter gevoelig is voor herrie.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Met 5 hondenparken op 20 minuten wandelen",
+        "after": "Met 5 hondenspeelweiden op 20 minuten wandelen",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 21,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 17,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 8
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "ideaal",
+            "field": "intro",
+            "preferred": "fijn/praktisch"
+          },
+          {
+            "term": "hondenpark",
+            "field": "intro, valueCards, dogParks.intro, dailyLife.benefits",
+            "preferred": "hondenspeelweide"
+          },
+          {
+            "term": "buurt",
+            "field": "intro, valueCards, dailyLife.benefits, contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "op een steenworp",
+            "field": "intro",
+            "preferred": "vlak bij"
+          }
+        ],
+        "preferredTermsPresent": [
+          "viervoeter",
+          "hond",
+          "wandeling",
+          "uitlaten",
+          "dierenarts",
+          "wijk",
+          "hondenspeelweide"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste wijk te vinden (was: buurt, corrected to wijk)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": ["op een steenworp van"],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 7,
+        "localTipsFound": [
+          "Brusselsesteenweg",
+          "Elsdriespark",
+          "Geerbos",
+          "Bosweide",
+          "Vijverweide"
+        ],
+        "neighborhoodObservations": [
+          "rustige, groene omgeving zonder de drukte van het stadscentrum",
+          "De wijk voelt ruim en overzichtelijk, met weinig verkeersdrukte",
+          "rustige residentiële wijken met weinig verloop"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no pet store in neighborhood",
+          "no dog park in neighborhood itself"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

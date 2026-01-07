@@ -24,7 +24,9 @@ Example: `/agents/researcher/test-outputs/gent-dampoort-test.json`
 ## Tools Available
 
 1. **File reading** — Read the input ResearcherOutput and reference files
-2. **PostgreSQL MCP** — Read-only access for verification only (not for primary data)
+2. **`mcp__gis__query`** — Read-only access for verification only (not for primary data)
+
+**Do NOT use `mcp__pipeline__*` tools.** Those are for a different database and will fail.
 
 ---
 

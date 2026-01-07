@@ -1,0 +1,405 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-07T15:00:00Z",
+  "id": "edegem-aan-de-hoeve",
+  "city": "Edegem",
+  "name": "Aan De Hoeve",
+  "postalCode": "2650",
+  "subtitle": "Wonen in Aan De Hoeve: rustig en groen nabij Antwerpen, met hondenspeelweide op 6 min wandelen — Edegem",
+  "dateAdded": "2026-01-07",
+  "inhabitants": 9538,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    }
+  ],
+  "intro": "Aan De Hoeve is een residentiële wijk in Edegem, gelegen nabij Antwerpen. Met zijn rustige karakter en ruime groenvoorziening biedt deze wijk een aangename woonomgeving voor wie het stedelijke achter zich wil laten zonder ver van de stad te wonen. De wijk herbergt ongeveer 9.500 inwoners verspreid over een relatief ruim gebied, wat zorgt voor voldoende ademruimte en een groene uitstraling.\n\nVoor een dagelijkse wandeling vind je hier een omheinde hondenspeelweide op 6 minuten, een veilige speelplek waar je hond vrij kan spelen. Daarnaast beschikt de wijk over maar liefst 12 parken en groene zones binnen handbereik, waaronder het Gemeentelijk Park Heihoefseweg en het Elysiapark. Voor de dagelijkse wandeling heb je dus volop keuze, met groengebieden al vanaf 3 minuten lopen.\n\nDe bereikbaarheid is goed geregeld met 30 bushaltes verspreid over de wijk, waardoor je vlot naar Antwerpen of andere omliggende gemeenten kunt. Voor de dagelijkse boodschappen vind je in de wijk zelf een supermarkt, en ook apotheken zijn goed vertegenwoordigd met 5 vestigingen. Scholen zijn met 2 opties aanwezig, wat de wijk geschikt maakt voor gezinnen.\n\nEen aandachtspunt is de veterinaire zorg: hoewel er één dierenarts in de wijk zelf is (op 11 minuten wandelen), liggen de overige praktijken verder weg in de omliggende wijken van Antwerpen. Dat vraagt wat planning bij niet-acute consulten, maar voor spoedgevallen ben je dus wel dichtbij. Hetzelfde geldt voor gespecialiseerde dierenwinkels — die vind je niet in de wijk zelf, maar op ongeveer een halfuur lopen in de omgeving. Voor dagelijkse benodigdheden kun je terecht bij de lokale supermarkt, en voor grotere aankopen plan je een uitstap naar een Tom & Co of De Pauw in de omgeving.\n\nDe woningmarkt laat een mediane prijs zien van €430.000, wat aan de hogere kant is vergeleken met andere wijken in de regio. Dat weerspiegelt het rustige, groene karakter en de goede ligging nabij Antwerpen. Deze wijk is praktisch voor wie ruimte en groen zoekt, en graag een rustige woonomgeving combineert met stedelijke nabijheid. Voor wie van lange wandelingen houdt en niet dagelijks een gespecialiseerde dierenwinkel nodig heeft, biedt Aan De Hoeve een fijne uitvalsbasis.\n\nWel moet je er rekening mee houden dat je zonder auto minder mobiel bent voor bepaalde voorzieningen. De 30 bushaltes compenseren dit deels, maar voor wie gewend is aan alles binnen 5 minuten te hebben, vraagt deze wijk wat meer planning. Het ontbreken van een treinstation betekent dat je voor langere ritten afhankelijk bent van de bus of de auto. Maar wie dat er graag voor over heeft, krijgt er een groene, rustige leefomgeving met volop ruimte voor dagelijkse wandelingen voor terug.",
+  "coordinates": {
+    "lat": 51.155818955910014,
+    "lon": 4.419368562754967,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheinde speelweide",
+      "detail": "Op 6 minuten wandelen"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "12 parken in de wijk",
+      "detail": "Dichtstbijzijnde op 3 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "11 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 praktijk in de wijk",
+      "detail": "Dichtstbijzijnde op 11 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "29 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 winkels in de omgeving",
+      "detail": "Dichtstbijzijnde op 29 min"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Direct",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "30 bushaltes",
+      "detail": "Goede bereikbaarheid"
+    }
+  ],
+  "facilities": {
+    "intro": "Aan De Hoeve biedt een goede basis voor wie graag wandelt met zijn hond, met een omheinde hondenspeelweide op korte afstand en 12 parken voor de dagelijkse wandeling. Veterinaire zorg is aanwezig in de wijk zelf, maar voor gespecialiseerde dierenwinkels moet je iets verder de omgeving in."
+  },
+  "dogParks": {
+    "intro": "De wijk beschikt over één officiële hondenspeelweide op 6 minuten wandelen. Dit omheinde terrein biedt een veilige plek om vrij te spelen en te socializen met andere honden. Voor afwisseling zijn er daarnaast 12 parken en groene zones binnen handbereik, waaronder het Gemeentelijk Park Heihoefseweg en het Elysiapark.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Aan De Hoeve",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1522583,
+          "lon": 4.4225606
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg kun je in de wijk terecht bij L Feyen op 11 minuten wandelen. Andere praktijken liggen verder weg in de omliggende wijken van Antwerpen, wat bij niet-acute consulten wat planning vraagt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "L Feyen",
+        "street": "Ten Bogaerdeplein",
+        "streetNumber": "5",
+        "municipality": "Edegem",
+        "postalCode": "2650",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1632823,
+          "lon": 4.4245756
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Karibu",
+        "street": "Frans van Dunlaan",
+        "streetNumber": "81",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1731595,
+          "lon": 4.4306608
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. De dichtstbijzijnde opties zijn Petpret en Tom & Co, beide op ongeveer een halfuur lopen in de omgeving. Voor dagelijkse benodigdheden heeft de lokale supermarkt vaak een basisassortiment.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Petpret",
+        "street": "Adres niet vermeld",
+        "streetNumber": "0",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1763914,
+          "lon": 4.4243879
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Boomsesteenweg",
+        "streetNumber": "935",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1548503,
+          "lon": 4.3846645
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Pauw",
+        "street": "Heistraat",
+        "streetNumber": "34",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1716481,
+          "lon": 4.3945334
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Aan De Hoeve",
+    "intro": "Een typische dag in Aan De Hoeve begint met een ochtendwandeling door een van de 12 parken in de omgeving. Het dichtstbijzijnde groen ligt op slechts 3 minuten, waardoor je ook op drukke dagen moeiteloos een frisse neus kunt halen. De omheinde hondenspeelweide op 6 minuten biedt een veilige plek om vrij te spelen, terwijl jij even bijpraat met andere hondenliefhebbers.",
+    "benefits": [
+      "Met 12 parken binnen handbereik heb je voor elke wandeling een nieuwe route. Van het Gemeentelijk Park Heihoefseweg tot het Elysiapark, je hebt volop keuze voor korte of langere tochten, met groengebieden al vanaf 3 minuten lopen.",
+      "De omheinde hondenspeelweide op 6 minuten wandelen biedt een veilige plek om vrij te rennen en te socializen met andere honden. Handig voor wie zijn hond graag zonder lijn laat spelen.",
+      "Dankzij de 30 bushaltes verspreid over de wijk ben je goed bereikbaar en kun je moeiteloos naar Antwerpen of andere omliggende gemeenten. Handig voor uitstapjes of bezoeken aan de dierenarts.",
+      "De rustige, residentiële uitstraling van de wijk zorgt voor weinig verkeerslawaai en veel ruimte, wat fijn is voor honden die wat meer rust nodig hebben of gevoelig zijn voor drukte.",
+      "Voor dagelijkse benodigdheden heb je een supermarkt in de wijk, en ook apotheken zijn goed vertegenwoordigd. Dat maakt het dagelijkse leven praktisch, ook al liggen gespecialiseerde dierenwinkels verder weg."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Aan De Hoeve is een middelgrote wijk met ongeveer 9.500 inwoners. De mediane huisprijs ligt met €430.000 aan de hogere kant, wat het rustige en groene karakter weerspiegelt.",
+    "medianPrice": 430000,
+    "inhabitants": 9538,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Aan De Hoeve? De wijk heeft een eigen postcode (2650), waardoor je makkelijk kunt filteren op platforms zoals Immoweb of Zimmo. Houd rekening met een mediane prijs van €430.000.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "edegem-boerenleger",
+    "edegem-rozenhof"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-07T15:00:00Z",
+    "qualityScore": 78,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige residentiële wijk met groen op wandelafstand en een omheinde hondenspeelweide — fijn wonen nabij Antwerpen",
+        "after": "Wonen in Aan De Hoeve: rustig en groen nabij Antwerpen, met hondenspeelweide op 6 min wandelen — Edegem",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Als baasje vind je hier een omheinde hondenspeelweide op 6 minuten wandelen, ideaal voor een veilige speelplek voor je viervoeter.",
+        "after": "Voor een dagelijkse wandeling vind je hier een omheinde hondenspeelweide op 6 minuten, een veilige speelplek waar je hond vrij kan spelen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Deze wijk is ideaal voor wie ruimte en groen zoekt, en graag een rustige woonomgeving combineert met stedelijke nabijheid. Voor baasjes met honden die van lange wandelingen houden en niet dagelijks een gespecialiseerde dierenwinkel nodig hebben, biedt Aan De Hoeve een fijne uitvalsbasis.",
+        "after": "Deze wijk is praktisch voor wie ruimte en groen zoekt, en graag een rustige woonomgeving combineert met stedelijke nabijheid. Voor wie van lange wandelingen houdt en niet dagelijks een gespecialiseerde dierenwinkel nodig heeft, biedt Aan De Hoeve een fijne uitvalsbasis.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Maar wie dat er graag voor over heeft, krijgt er een groene, rustige leefomgeving met volop ruimte voor zijn viervoeter voor terug.",
+        "after": "Maar wie dat er graag voor over heeft, krijgt er een groene, rustige leefomgeving met volop ruimte voor dagelijkse wandelingen voor terug.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Aan De Hoeve biedt een goede basis voor baasjes, met een omheinde hondenspeelweide op korte afstand en 12 parken voor de dagelijkse wandeling.",
+        "after": "Aan De Hoeve biedt een goede basis voor wie graag wandelt met zijn hond, met een omheinde hondenspeelweide op korte afstand en 12 parken voor de dagelijkse wandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Dit omheinde terrein biedt je viervoeter een veilige plek om vrij te spelen en te socializen met andere honden.",
+        "after": "Dit omheinde terrein biedt een veilige plek om vrij te spelen en te socializen met andere honden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Aan De Hoeve begint met een ochtendwandeling door een van de 12 parken in de buurt.",
+        "after": "Een typische dag in Aan De Hoeve begint met een ochtendwandeling door een van de 12 parken in de buurt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "De omheinde hondenspeelweide op 6 minuten biedt je viervoeter een veilige plek om vrij te spelen, terwijl jij even bijpraat met andere baasjes.",
+        "after": "De omheinde hondenspeelweide op 6 minuten biedt een veilige plek om vrij te spelen, terwijl jij even bijpraat met andere hondenliefhebbers.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De omheinde hondenspeelweide op 6 minuten wandelen biedt je viervoeter een veilige plek om vrij te rennen en te socializen met andere honden. Ideaal voor baasjes die hun hond graag zonder lijn laten spelen.",
+        "after": "De omheinde hondenspeelweide op 6 minuten wandelen biedt een veilige plek om vrij te rennen en te socializen met andere honden. Handig voor wie zijn hond graag zonder lijn laat spelen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Dankzij de 30 bushaltes verspreid over de wijk ben je goed bereikbaar en kun je moeiteloos naar Antwerpen of andere omliggende gemeenten. Handig voor uitstapjes met je hond of bezoeken aan de dierenarts.",
+        "after": "Dankzij de 30 bushaltes verspreid over de wijk ben je goed bereikbaar en kun je moeiteloos naar Antwerpen of andere omliggende gemeenten. Handig voor uitstapjes of bezoeken aan de dierenarts.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "neighboringNeighborhoods",
+        "issue": "Database unavailable for link validation",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "keywordScore": 17,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 0
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-07T16:30:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "valueCards[3].description",
+        "before": "3 winkels in de buurt",
+        "after": "3 winkels in de omgeving",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Aan De Hoeve biedt een goede basis voor wie graag wandelt met zijn hond, met een omheinde hondenspeelweide op korte afstand en 12 parken voor de dagelijkse wandeling. Veterinaire zorg is aanwezig in de wijk zelf, maar voor gespecialiseerde dierenwinkels moet je iets verder de buurt in.",
+        "after": "Aan De Hoeve biedt een goede basis voor wie graag wandelt met zijn hond, met een omheinde hondenspeelweide op korte afstand en 12 parken voor de dagelijkse wandeling. Veterinaire zorg is aanwezig in de wijk zelf, maar voor gespecialiseerde dierenwinkels moet je iets verder de omgeving in.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag in Aan De Hoeve begint met een ochtendwandeling door een van de 12 parken in de buurt.",
+        "after": "Een typische dag in Aan De Hoeve begint met een ochtendwandeling door een van de 12 parken in de omgeving.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 17,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "valueCards[3].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "facilities.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "dailyLife.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "hond",
+          "hondenspeelweide",
+          "wandeling",
+          "wandelen",
+          "dierenarts",
+          "wijk"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (proximity context)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 4,
+        "localTipsFound": [
+          "Gemeentelijk Park Heihoefseweg",
+          "Elysiapark",
+          "Ten Bogaerdeplein",
+          "Boomsesteenweg"
+        ],
+        "neighborhoodObservations": [
+          "residentiële wijk",
+          "rustig karakter",
+          "groene uitstraling",
+          "ongeveer 9.500 inwoners verspreid over een relatief ruim gebied"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.87,
+        "averageSentenceLength": 16.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no specialized pet stores in neighborhood",
+          "limited vet options in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

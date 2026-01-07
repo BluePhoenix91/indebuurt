@@ -1,0 +1,388 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-07T16:45:00Z",
+  "id": "wachtebeke-oudeburgse-sluis",
+  "city": "Wachtebeke",
+  "name": "Oudeburgse Sluis",
+  "postalCode": "9185",
+  "subtitle": "Wonen in Oudeburgse Sluis (Wachtebeke): rustig landelijk met veel ruimte en groene wandelroutes — voorzieningen vergen verplaatsing",
+  "dateAdded": "2026-01-07",
+  "inhabitants": 1071,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Veel ruimte",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Oudeburgse Sluis is een kleine landelijke wijk in Wachtebeke, gelegen tussen open velden en groene polders. Met slechts 1071 inwoners en een bevolkingsdichtheid van 159 per vierkante kilometer woon je hier in één van de rustigste uithoeken van Oost-Vlaanderen. De wijk kenmerkt zich door vrijstaande woningen met ruime percelen, veel open landschap en stilte die je in stedelijke omgevingen nooit vindt. Voor wie op zoek is naar landelijk wonen betekent dit vooral ruimte en rust, maar ook dat je bereid moet zijn om voor voorzieningen verder te rijden.\n\nDe wijk heeft geen eigen voorzieningen zoals supermarkten, dierenartsen of gespecialiseerde dierenwinkels. De dichtstbijzijnde dierenarts ligt in Zelzate, op meer dan een uur wandelen (5 kilometer). Voor dagelijkse boodschappen, diergerelateerde aankopen of medische zorg ben je afhankelijk van de auto of fiets. Dit is het typische beeld van landelijk België: veel ruimte om te ademen, maar weinig commerciële infrastructuur binnen handbereik.\n\nWat Oudeburgse Sluis wél biedt, is onbeperkte ruimte voor lange wandelingen. De omgeving bestaat voornamelijk uit polders, akkers en landbouwgrond met rustige landweggetjes waar je nauwelijks verkeer tegenkomt. Voor wie graag rent en snuffelt is dit ideaal terrein. Er zijn enkele kleinere parken en groenzones binnen wandelafstand, waaronder één op 575 meter van het centrum van de wijk. Voor een officiële hondenspeelweide moet je wel verder: Kloosterbos ligt op 56 minuten wandelen (4,5 kilometer) richting het centrum van Wachtebeke, en de Hondenzwemzone Puyenbroeck — een unieke plek om te zwemmen — ligt op 80 minuten (ruim 6 kilometer).\n\nDe uitdaging van het wonen in Oudeburgse Sluis zit hem vooral in de mobiliteit. Zonder auto ben je beperkt: er zijn slechts 3 bushaltes in de wijk en geen treinstation. Voor spoedgevallen, bijvoorbeeld een plotse ziekte of verwonding, moet je rekening houden met een rit van minimaal 10-15 minuten naar de dichtstbijzijnde dierenarts. Dat betekent dat je proactief moet zijn: een goede eerste-hulp-kit voor je viervoeter thuis hebben en weten waar de dichtstbijzijnde spoedkliniek is.\n\nOudeburgse Sluis is geschikt voor wie bewust kiest voor landelijk wonen, een auto heeft en vooral geniet van rust, ruimte en natuurlijke omgevingen. Als je dagelijks een korte wandeling wilt maken zonder in de auto te stappen voor voorzieningen, of als je graag binnen enkele minuten bij een dierenarts bent, dan is een centralere wijk een betere keuze. Maar voor wie het platteland omarmt en geniet van eindeloze velden en stilte, biedt deze wijk een zeldzame combinatie van ruimte en privacy.",
+  "coordinates": {
+    "lat": 51.20504824484742,
+    "lon": 3.8864146890521694,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "56 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde in Kloosterbos",
+      "detail": "Ook zwemzone op 80 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "64 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtste praktijk in Zelzate",
+      "detail": "Auto noodzakelijk"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "56 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Vogelparadijs Wachtebeke",
+      "detail": "Beperkt aanbod lokaal"
+    },
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Groene ruimte",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Ruime polders en velden",
+      "detail": "Eindeloze wandelroutes"
+    }
+  ],
+  "facilities": {
+    "intro": "Oudeburgse Sluis is een zeer landelijke wijk zonder eigen voorzieningen zoals supermarkten, dierenartsen of scholen binnen de wijk zelf. Voor alle dagelijkse behoeften — van boodschappen tot veterinaire zorg — ben je aangewezen op de auto of fiets naar naburige kernen zoals Wachtebeke-centrum, Zelzate of zelfs over de grens naar Nederland."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in Oudeburgse Sluis zelf. De dichtstbijzijnde omheinde zone ligt in Kloosterbos op 56 minuten wandelen richting Wachtebeke-centrum. Dat gezegd hebbende: de ruime polders en open velden rondom de wijk bieden eindeloze mogelijkheden voor lange, rustige wandelingen waar je zelden andere mensen tegenkomt — ideaal voor wie graag vrij rondsnuffelt.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Kloosterbos",
+        "distance": "56 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1778079,
+          "lon": 3.8391072
+        },
+        "features": [
+          {
+            "text": "Gemengde ondergrond",
+            "icon": "fa-solid fa-layer-group"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenzwemzone Puyenbroeck",
+        "distance": "80 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1477649,
+          "lon": 3.8891737
+        },
+        "features": [
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie ligt in Zelzate, op meer dan een uur wandelen (ruim 5 kilometer). Voor spoedgevallen is een auto dus noodzakelijk. Houd rekening met een rijtijd van 10-15 minuten naar de dichtstbijzijnde praktijk.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Frieda Erven",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Zelzate",
+        "postalCode": "9060",
+        "distance": "67 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2002729,
+          "lon": 3.8097402
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bosdreef",
+        "street": "Spelonckvaart",
+        "streetNumber": "46B",
+        "municipality": "Moerbeke",
+        "postalCode": "9180",
+        "distance": "70 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1823346,
+          "lon": 3.9580023
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenkliniek Sas van Gent",
+        "street": "Zusterstraat",
+        "streetNumber": "3",
+        "municipality": "Sas van Gent",
+        "postalCode": "4551 ER",
+        "distance": "82 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2274887,
+          "lon": 3.7991515
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk. De dichtstbijzijnde optie is Vogelparadijs Wachtebeke, op 56 minuten wandelen (ruim 4 kilometer). Voor een groter aanbod rij je naar DierenEnZo in het Nederlandse Axel of Maxi Zoo in Lochristi, beide op respectievelijk 86 en 156 minuten wandelen — met de auto een stuk haalbaar.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Vogelparadijs Wachtebeke",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Wachtebeke",
+        "postalCode": "9185",
+        "distance": "56 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1766518,
+          "lon": 3.8415737
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "DierenEnZo",
+        "street": "Oosterstraat",
+        "streetNumber": "42",
+        "municipality": "Axel",
+        "postalCode": "4571GP",
+        "distance": "86 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2658728,
+          "lon": 3.9045423
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Oudeburgse Sluis",
+    "intro": "Een typische dag in Oudeburgse Sluis draait om rust, ruimte en een goede dosis zelfvoorziening. Je ochtendwandeling begint vaak letterlijk vanuit je tuin: de wijk grenst direct aan open polders en landbouwgrond. Auto of fiets zijn onmisbaar voor boodschappen of veterinaire zorg, maar de afwezigheid van drukte en de eindeloze wandelroutes compenseren dat ruimschoots als je van natuurlijk wonen houdt.",
+    "benefits": [
+      "Onbeperkte wandelruimte door de polders en landbouwgrond rondom de wijk. Je kunt urenlang lopen zonder dezelfde route twee keer te nemen, en je hebt alle ruimte om te rennen en te snuffelen zonder drukte van anderen.",
+      "Met slechts 1071 inwoners en 159 per vierkante kilometer is Oudeburgse Sluis één van de rustigste plekken in Oost-Vlaanderen. Verkeerslawaai, verkeersdrukte en buren op elkaars lip zijn hier non-existent — ideaal voor wie gevoelig is voor prikkels.",
+      "De Hondenzwemzone Puyenbroeck ligt op 80 minuten wandelen (met de auto 10-15 minuten), een unieke plek om vrij te zwemmen en af te koelen in de zomer. Perfect voor waterliefhebbers.",
+      "Ruime percelen en vrijstaande woningen betekenen een flinke tuin om in rond te lopen. Geen kleine stadstuintjes of appartementen zonder buitenruimte — hier is er écht ruimte."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Oudeburgse Sluis is een zeer kleine, dunbevolkte wijk met 1071 inwoners. De lage bevolkingsdichtheid van 159 per vierkante kilometer weerspiegelt het landelijke karakter. Gegevens over huizenprijzen zijn niet beschikbaar voor deze specifieke wijk.",
+    "medianPrice": 0,
+    "inhabitants": 1071,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Oudeburgse Sluis? De wijk deelt postcode 9185 met andere delen van Wachtebeke, dus filter bij je woningzoektocht op de wijknaam zelf. Het aanbod is beperkt door de kleine omvang van de wijk.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "wachtebeke-walderdonk",
+    "wachtebeke-provinciaal-domein-oostdonk"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-07T16:30:00Z",
+    "qualityScore": 89,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig landelijk wonen met veel ruimte en groene wandelroutes — voorzieningen vergen wat verplaatsing",
+        "after": "Wonen in Oudeburgse Sluis (Wachtebeke): rustig landelijk met veel ruimte en groene wandelroutes — voorzieningen vergen verplaatsing",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes die op zoek zijn naar landelijk wonen met hun viervoeter betekent dit vooral ruimte en rust, maar ook dat je bereid moet zijn om voor voorzieningen verder te rijden.",
+        "after": "Voor wie op zoek is naar landelijk wonen betekent dit vooral ruimte en rust, maar ook dat je bereid moet zijn om voor voorzieningen verder te rijden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor honden die graag rennen en snuffelen is dit ideaal terrein.",
+        "after": "Voor wie graag rent en snuffelt is dit ideaal terrein.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor spoedgevallen met je hond, bijvoorbeeld een plotse ziekte of verwonding, moet je rekening houden met een rit van minimaal 10-15 minuten naar de dichtstbijzijnde dierenarts. Dat betekent dat je als baasje proactief moet zijn: een goede eerste-hulp-kit voor huisdieren thuis hebben en weten waar de dichtstbijzijnde spoedkliniek is.",
+        "after": "Voor spoedgevallen, bijvoorbeeld een plotse ziekte of verwonding, moet je rekening houden met een rit van minimaal 10-15 minuten naar de dichtstbijzijnde dierenarts. Dat betekent dat je proactief moet zijn: een goede eerste-hulp-kit voor huisdieren thuis hebben en weten waar de dichtstbijzijnde spoedkliniek is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Oudeburgse Sluis is geschikt voor baasjes die bewust kiezen voor landelijk wonen, die een auto hebben en die vooral genieten van rust, ruimte en natuurlijke omgevingen.",
+        "after": "Oudeburgse Sluis is geschikt voor wie bewust kiest voor landelijk wonen, een auto heeft en vooral geniet van rust, ruimte en natuurlijke omgevingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "ideaal voor honden die graag vrij rondsnuffelen.",
+        "after": "ideaal voor wie graag vrij rondsnuffelt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Oudeburgse Sluis draait om rust, ruimte en een goede dosis zelfvoorziening.",
+        "after": "Een typische dag in Oudeburgse Sluis draait om rust, ruimte en een goede dosis zelfvoorziening.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Onbeperkte wandelruimte door de polders en landbouwgrond rondom de wijk. Je kunt urenlang lopen zonder dezelfde route twee keer te nemen, en je hond heeft alle ruimte om te rennen en te snuffelen zonder drukte van andere honden of mensen.",
+        "after": "Onbeperkte wandelruimte door de polders en landbouwgrond rondom de wijk. Je kunt urenlang lopen zonder dezelfde route twee keer te nemen, en je hebt alle ruimte om te rennen en te snuffelen zonder drukte van anderen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Met slechts 1071 inwoners en 159 per vierkante kilometer is Oudeburgse Sluis één van de rustigste plekken in Oost-Vlaanderen. Verkeerslawaai, verkeersdrukte en buren op elkaars lip zijn hier non-existent — ideaal voor honden die gevoelig zijn voor prikkels.",
+        "after": "Met slechts 1071 inwoners en 159 per vierkante kilometer is Oudeburgse Sluis één van de rustigste plekken in Oost-Vlaanderen. Verkeerslawaai, verkeersdrukte en buren op elkaars lip zijn hier non-existent — ideaal voor wie gevoelig is voor prikkels.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "De Hondenzwemzone Puyenbroeck ligt op 80 minuten wandelen (met de auto 10-15 minuten), een unieke plek waar je hond vrij kan zwemmen en afkoelen in de zomer. Perfect voor honden die van water houden.",
+        "after": "De Hondenzwemzone Puyenbroeck ligt op 80 minuten wandelen (met de auto 10-15 minuten), een unieke plek om vrij te zwemmen en af te koelen in de zomer. Perfect voor waterliefhebbers.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Ruime percelen en vrijstaande woningen betekenen dat je hond thuis een flinke tuin heeft om in rond te lopen. Geen kleine stadstuintjes of appartementen zonder buitenruimte — hier heeft je viervoeter écht ruimte.",
+        "after": "Ruime percelen en vrijstaande woningen betekenen een flinke tuin om in rond te lopen. Geen kleine stadstuintjes of appartementen zonder buitenruimte — hier is er écht ruimte.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 22,
+      "keywordScore": 20,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 20,
+      "decisionUsefulnessScore": 15
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-07T16:45:00Z",
+    "qualityScore": 93,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Dat betekent dat je proactief moet zijn: een goede eerste-hulp-kit voor huisdieren thuis hebben en weten waar de dichtstbijzijnde spoedkliniek is.",
+        "after": "Dat betekent dat je proactief moet zijn: een goede eerste-hulp-kit voor je viervoeter thuis hebben en weten waar de dichtstbijzijnde spoedkliniek is.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 9
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "huisdieren",
+            "field": "intro",
+            "preferred": "viervoeter"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": []
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 7,
+        "localTipsFound": [
+          "richting het centrum van Wachtebeke",
+          "naar naburige kernen zoals Wachtebeke-centrum, Zelzate of zelfs over de grens naar Nederland",
+          "Zelzate, op meer dan een uur wandelen (5 kilometer)",
+          "Kloosterbos op 56 minuten wandelen richting Wachtebeke-centrum"
+        ],
+        "neighborhoodObservations": [
+          "gelegen tussen open velden en groene polders",
+          "één van de rustigste uithoeken van Oost-Vlaanderen",
+          "vrijstaande woningen met ruime percelen",
+          "rustige landweggetjes waar je nauwelijks verkeer tegenkomt",
+          "typische beeld van landelijk België"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no vet in neighborhood",
+          "no pet store in neighborhood",
+          "no facilities in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 1
+      }
+    }
+  }
+}

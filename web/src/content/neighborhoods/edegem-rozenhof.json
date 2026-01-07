@@ -1,0 +1,482 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-07T11:45:00Z",
+  "id": "edegem-rozenhof",
+  "city": "Edegem",
+  "name": "ROZENHOF",
+  "postalCode": "2650",
+  "subtitle": "Wonen in Rozenhof, Edegem: rustige wijk met groen op wandelafstand en Fort 5 om de hoek — fijn voor je hond",
+  "dateAdded": "2026-01-07",
+  "inhabitants": 2071,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "Rozenhof is een compacte, groene wijk in Edegem waar rust en bereikbaarheid samenkomen. Met zo'n 2.000 inwoners op een relatief kleine oppervlakte heb je hier een echte wijkgemeenschap, zonder dat het druk aanvoelt. De wijk ligt op steenworp afstand van het historische Fort 5 en heeft uitstekende verbindingen naar Antwerpen en de rest van de regio.\n\nVoor je dagelijkse wandelingen zit je hier goed. Fort 5 ligt op 5 minuten wandelen en biedt een natuurlijke groene long waar je viervoeter vrij kan lopen. Daarnaast heb je binnen 10 minuten toegang tot parken als Park Oude God en Merelhof — samen goed voor meer dan 10 groene plekken in de directe omgeving. Met 2 hondenspeelweiden binnen 11 minuten wandelen heb je voldoende ruimte voor sociale momenten met andere baasjes.\n\nDe wijk heeft een uitgesproken residentieel karakter. Het is rustig, groen en goed onderhouden, met voornamelijk eengezinswoningen en wat laagbouw. Voor voorzieningen ben je op de meeste plekken afhankelijk van de aangrenzende wijken of het centrum van Edegem. Er is bijvoorbeeld geen supermarkt in de wijk zelf, maar binnen 15 minuten wandelen bereik je verschillende opties. Ook de dichtstbijzijnde dierenarts ligt net buiten de wijk, in het aangrenzende Wilrijk, op 10 minuten wandelen.\n\nMet een mediane huisprijs van €430.000 ligt Rozenhof boven het Vlaamse gemiddelde. Dat past bij het karakter: een rustige, goed onderhouden wijk met veel groen en een gezinsvriendelijke sfeer. Voor jonge gezinnen met een viervoeter die op zoek zijn naar rust en natuur zonder te ver van de stad te zijn, is dit een interessante optie. Wel moet je rekening houden met de beperktere lokale voorzieningen — je zult vaker naar buiten de wijk moeten voor boodschappen of diensten.\n\nDe wijk is goed bereikbaar via de Drie Eikenstraat en de verbindingsweg naar de A12. Voor wie graag fietst, zijn Antwerpen-Centrum en Wilrijk goed bereikbaar. Openbaar vervoer is beperkt aanwezig in de wijk zelf, maar op loopafstand heb je toegang tot buslijnen die je naar het centrum van Edegem en verder brengen.\n\nRozenhof is praktisch voor wie rust en groen zoekt, en die bereid is om voor dagelijkse voorzieningen een klein stukje te wandelen of fietsen. Het is minder geschikt voor wie alles binnen 5 minuten wil hebben. Maar als je een ochtendwandeling door het Fort of een avondronde langs de groene bermen waardeert, dan zit je hier goed.",
+  "coordinates": {
+    "lat": 51.167895920192684,
+    "lon": 4.438886231668159,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 omheinde speelweiden",
+      "detail": "Dichtstbijzijnde op 6 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken binnen bereik",
+      "detail": "Karibu op 10 min wandelen"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Petpret op 17 minuten",
+      "detail": "Tom & Co op 41-43 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken en groen",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "10+ parken in de buurt",
+      "detail": "Fort 5 op 5 min"
+    }
+  ],
+  "facilities": {
+    "intro": "Rozenhof heeft zelf beperkte voorzieningen binnen de wijkgrenzen, maar de omgeving compenseert ruim. Met Fort 5 op wandelafstand, 2 hondenspeelweiden binnen 11 minuten, en 4 dierenartspraktijken in de nabije wijken heb je alle essentiële voorzieningen voor je viervoeter goed geregeld."
+  },
+  "dogParks": {
+    "intro": "Met 2 omheinde hondenspeelweiden binnen 11 minuten wandelen zit je in Rozenhof goed voor sociale momenten met je hond. De dichtstbijzijnde ligt op 6 minuten en heeft een grasondergrond. Voor wie meer variatie wil: het nabijgelegen Fort 5 en Park Oude God bieden ruime wandelpaden waar je ook andere baasjes tegenkomt.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Rozenhof",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.164983,
+          "lon": 4.4338692
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Wilrijk",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1734042,
+          "lon": 4.4292498
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Rozenhof zelf is geen dierenartspraktijk gevestigd, maar binnen 10 minuten wandelen bereik je Karibu in Wilrijk. Daarnaast zijn er 3 andere praktijken op korte afstand, waaronder L Feyen in Edegem op 14 minuten. Voor spoedgevallen heb je dus voldoende keuze.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Karibu",
+        "street": "Frans van Dunlaan",
+        "streetNumber": "81",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1731595,
+          "lon": 4.4306608
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "L Feyen",
+        "street": "Ten Bogaerdeplein",
+        "streetNumber": "5",
+        "municipality": "Edegem",
+        "postalCode": "2650",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1632823,
+          "lon": 4.4245756
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr A.m. Laevers",
+        "street": "Deurnestraat",
+        "streetNumber": "211",
+        "municipality": "Mortsel",
+        "postalCode": "2640",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1828857,
+          "lon": 4.4479438
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van Deun Stefan",
+        "street": "Boniverlei",
+        "streetNumber": "70",
+        "municipality": "Edegem",
+        "postalCode": "2650",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1533427,
+          "lon": 4.4532053
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet direct in de wijk, maar Petpret ligt op 17 minuten wandelen in Wilrijk. Voor een breder assortiment zijn er verschillende Tom & Co vestigingen op 40 minuten, of je rijdt naar een van de grotere winkels in de regio. De meeste supermarkten in Edegem hebben een basisassortiment voor je viervoeter.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Petpret",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1763914,
+          "lon": 4.4243879
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Kontich",
+        "postalCode": "2550",
+        "distance": "41 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1402893,
+          "lon": 4.4568481
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Pauw",
+        "street": "Heistraat",
+        "streetNumber": "34",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "39 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1716481,
+          "lon": 4.3945334
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "43 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1985998,
+          "lon": 4.4397835
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Rozenhof",
+    "intro": "Een typische dag met je hond in Rozenhof draait om rust, groen en korte wandelingen. Je start de ochtend vaak met een ronde door Fort 5, waar je andere baasjes uit de wijk tegenkomt. De avondwandeling gaat naar de hondenspeelweide of een van de vele parken in de omgeving. Door de compacte omvang van de wijk ken je snel de vaste gezichten.",
+    "benefits": [
+      "Dankzij de 10+ parken binnen 15 minuten wandelen heb je altijd een groene plek voor de ochtendwandeling. Fort 5 is een lokale favoriet met ruime paden en voldoende ruimte om je hond los te laten lopen.",
+      "Met 2 omheinde hondenspeelweiden binnen 11 minuten ben je verzekerd van sociale momenten met andere baasjes. De dichtstbijzijnde ligt op slechts 6 minuten en heeft een grasondergrond, ideaal voor spelende honden.",
+      "De nabijheid van 4 dierenartspraktijken binnen 24 minuten wandelen geeft je gemoedsrust. Karibu in Wilrijk ligt op 10 minuten en is goed bereikbaar voor reguliere controles en spoedgevallen.",
+      "Rozenhof is compact en overzichtelijk. Je kent snel de wijkbewoners en andere baasjes, wat zorgt voor een hechte gemeenschap. Dat maakt het ook veiliger om 's avonds te wandelen.",
+      "De wijk is rustig en autoluw, wat fijn is voor honden die schrikken van druk verkeer. De brede groene bermen en rustige straten maken het aangenaam om je dagelijkse rondes te lopen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Rozenhof is een kleine wijk met 2.071 inwoners en een bevolkingsdichtheid van 5.790 inwoners per km². De mediane huisprijs ligt met €430.000 boven het Vlaamse gemiddelde.",
+    "medianPrice": 430000,
+    "inhabitants": 2071,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Rozenhof? Je kunt filteren op postcode 2650 (Edegem) om woningen in deze wijk te vinden. Let op: deze postcode wordt gedeeld met andere wijken in Edegem.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "edegem-boerenleger",
+    "edegem-aan-de-hoeve"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-07T11:45:00Z",
+    "qualityScore": 82,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige residentiële wijk met groen binnen handbereik en uitstekende voorzieningen op wandelafstand",
+        "after": "Wonen in Rozenhof, Edegem: rustige wijk met groen op wandelafstand en Fort 5 om de hoek — fijn voor je hond",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Met 2 hondenspeelweiden binnen 11 minuten wandelen heb je voldoende ruimte voor sociale momenten met andere baasjes.",
+        "after": "Met 2 hondenspeelweiden binnen 11 minuten wandelen heb je voldoende ruimte voor sociale momenten met andere hondenbezitters.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor jonge gezinnen met een hond die op zoek zijn naar rust en natuur zonder te ver van de stad te zijn, is dit een interessante optie.",
+        "after": "Voor jonge gezinnen met een viervoeter die op zoek zijn naar rust en natuur zonder te ver van de stad te zijn, is dit een interessante optie.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Rozenhof is ideaal voor baasjes die rust en groen zoeken, en die bereid zijn om voor dagelijkse voorzieningen een klein stukje te wandelen of fietsen.",
+        "after": "Rozenhof is praktisch voor wie rust en groen zoekt, en die bereid is om voor dagelijkse voorzieningen een klein stukje te wandelen of fietsen.",
+        "reason": "readability"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Voor wie meer variatie wil: het nabijgelegen Fort 5 en Park Oude God bieden ruime wandelpaden waar je ook andere baasjes tegenkomt.",
+        "after": "Voor wie meer variatie wil: het nabijgelegen Fort 5 en Park Oude God bieden ruime wandelpaden waar je ook andere hondenbezitters tegenkomt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Rozenhof draait om rust, groen en korte wandelingen. Je start de ochtend vaak met een ronde door Fort 5, waar je andere baasjes uit de buurt tegenkomt.",
+        "after": "Een typische dag met je hond in Rozenhof draait om rust, groen en korte wandelingen. Je start de ochtend vaak met een ronde door Fort 5, waar je andere hondenbezitters uit de buurt tegenkomt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Met 2 omheinde hondenspeelweiden binnen 11 minuten ben je verzekerd van sociale momenten met andere baasjes. De dichtstbijzijnde ligt op slechts 6 minuten en heeft een grasondergrond, ideaal voor spelende honden.",
+        "after": "Met 2 omheinde hondenspeelweiden binnen 11 minuten ben je verzekerd van sociale momenten met andere hondenbezitters. De dichtstbijzijnde ligt op slechts 6 minuten en heeft een grasondergrond, ideaal voor spelende honden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Rozenhof is compact en overzichtelijk. Je kent snel de buurtbewoners en andere baasjes, wat zorgt voor een hechte gemeenschap. Dat maakt het ook veiliger om 's avonds te wandelen.",
+        "after": "Rozenhof is compact en overzichtelijk. Je kent snel de buurtbewoners en andere hondenbezitters, wat zorgt voor een hechte gemeenschap. Dat maakt het ook veiliger om 's avonds te wandelen.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "neighboringNeighborhoods",
+        "issue": "Database unavailable for link validation - cannot verify if 'edegem-boerenleger' and 'edegem-aan-de-hoeve' exist",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 0
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-07T12:00:00Z",
+    "qualityScore": 85,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Met zo'n 2.000 inwoners op een relatief kleine oppervlakte heb je hier een echte buurtgemeenschap, zonder dat het druk aanvoelt.",
+        "after": "Met zo'n 2.000 inwoners op een relatief kleine oppervlakte heb je hier een echte wijkgemeenschap, zonder dat het druk aanvoelt.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "Met 2 hondenspeelweiden binnen 11 minuten wandelen heb je voldoende ruimte voor sociale momenten met andere hondenbezitters.",
+        "after": "Met 2 hondenspeelweiden binnen 11 minuten wandelen heb je voldoende ruimte voor sociale momenten met andere baasjes.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Voor wie meer variatie wil: het nabijgelegen Fort 5 en Park Oude God bieden ruime wandelpaden waar je ook andere hondenbezitters tegenkomt.",
+        "after": "Voor wie meer variatie wil: het nabijgelegen Fort 5 en Park Oude God bieden ruime wandelpaden waar je ook andere baasjes tegenkomt.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag met je hond in Rozenhof draait om rust, groen en korte wandelingen. Je start de ochtend vaak met een ronde door Fort 5, waar je andere hondenbezitters uit de buurt tegenkomt.",
+        "after": "Een typische dag met je hond in Rozenhof draait om rust, groen en korte wandelingen. Je start de ochtend vaak met een ronde door Fort 5, waar je andere baasjes uit de wijk tegenkomt.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Met 2 omheinde hondenspeelweiden binnen 11 minuten ben je verzekerd van sociale momenten met andere hondenbezitters. De dichtstbijzijnde ligt op slechts 6 minuten en heeft een grasondergrond, ideaal voor spelende honden.",
+        "after": "Met 2 omheinde hondenspeelweiden binnen 11 minuten ben je verzekerd van sociale momenten met andere baasjes. De dichtstbijzijnde ligt op slechts 6 minuten en heeft een grasondergrond, ideaal voor spelende honden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Rozenhof is compact en overzichtelijk. Je kent snel de buurtbewoners en andere hondenbezitters, wat zorgt voor een hechte gemeenschap. Dat maakt het ook veiliger om 's avonds te wandelen.",
+        "after": "Rozenhof is compact en overzichtelijk. Je kent snel de wijkbewoners en andere baasjes, wat zorgt voor een hechte gemeenschap. Dat maakt het ook veiliger om 's avonds te wandelen.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 17,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 8
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurtgemeenschap",
+            "field": "intro",
+            "preferred": "wijkgemeenschap"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "dogParks.intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "dailyLife.intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "dailyLife.benefits[1]",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurtbewoners",
+            "field": "dailyLife.benefits[3]",
+            "preferred": "wijkbewoners"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "dailyLife.benefits[3]",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "hondenspeelweiden",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (valueCards.detail)",
+          "uit de buurt (dailyLife.intro - changed to 'uit de wijk')"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 38
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "via de Drie Eikenstraat",
+          "richting de waterkant",
+          "naar het centrum van Edegem"
+        ],
+        "neighborhoodObservations": [
+          "levendige sfeer rond de Dendermondsesteenweg (not present - generic)",
+          "rustige straten richting [area]",
+          "compacte omvang van de wijk"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.74,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no supermarket in neighborhood itself",
+          "no vet practice in neighborhood itself",
+          "no specialized pet store directly in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

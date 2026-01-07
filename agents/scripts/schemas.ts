@@ -46,7 +46,12 @@ const researcherDogParkSchema = z.object({
   walkingTimeMinutes: z.number().describe("Estimated walking time in minutes"),
   isFenced: z.boolean().describe("Whether the area is fenced/enclosed"),
   hasWater: z.boolean().describe("Whether there's water access for dogs"),
-  surface: z.string().optional().describe("Surface type: grass, gravel, mixed"),
+  surface: z.string().optional().describe("Surface type: grass, gravel, mixed, sand"),
+  // Additional optional features (sparse OSM coverage)
+  isAccessible: z.enum(["yes", "no", "limited"]).optional().describe("Wheelchair accessibility (19% coverage)"),
+  isLit: z.boolean().optional().describe("Whether the area has lighting for evening use (2% coverage)"),
+  openingHours: z.string().optional().describe("Opening hours if restricted, e.g., '24/7' or '08:00-21:00' (3% coverage)"),
+  hasSmallDogArea: z.boolean().optional().describe("Whether there's a separate area for small dogs (2% coverage)"),
   source: z.string().describe("Data source reference"),
 });
 

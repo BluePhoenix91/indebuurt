@@ -22,7 +22,7 @@ Use these exact category names in your queries.
 ### Dog-specific categories (primary focus)
 - `vet` - Critical for dog owners, query with adaptive radius
 - `pet_store` - Daily needs, query within reasonable walking distance
-- `dog_park` - Off-leash areas, very important for quality of life
+- `dog_park` - Off-leash areas, very important for quality of life (see Feature Inference below)
 
 ### General livability categories
 - `park` - Green spaces (not specifically for dogs)
@@ -33,6 +33,31 @@ Use these exact category names in your queries.
 ### Transport categories
 - `bus_stop` - Public transport accessibility
 - `train_station` - Regional connectivity
+
+## Dog Park Feature Inference
+
+Dog parks have sparse OSM tagging. Use this multi-layered inference approach to extract features:
+
+| Feature | OSM Tags to Check | Name Patterns | Coverage |
+|---------|-------------------|---------------|----------|
+| `isFenced` | `barrier=fence/hedge`, `fenced=yes`, `fence=yes`, `fence_type` | losloop*, hondenweide, hondenspeelweide, hondenpark, hondenzone, vrijheidszone | ~38% |
+| `surface` | `surface`, `landuse`, `landcover`, `natural` | *weide*→grass, *bos*→mixed | ~23% |
+| `hasWater` | `swimming:dog=yes` | *water*, *zwem* in name/description | <1% |
+
+### Additional Optional Features
+
+These features have lower coverage but provide valuable context when available:
+
+| Feature | OSM Tag | Values | Coverage |
+|---------|---------|--------|----------|
+| `isAccessible` | `wheelchair` | "yes", "no", "limited" | ~19% |
+| `isLit` | `lit` | true/false | ~2% |
+| `openingHours` | `opening_hours` | e.g., "24/7", "08:00-21:00" | ~3% |
+| `hasSmallDogArea` | `small_dog` | true if tag exists | ~2% |
+
+**Inference priority:** Always prefer explicit OSM tags over name-based inference.
+
+See `query-examples.md` for the full SQL query with inference logic.
 
 ## Query Patterns
 

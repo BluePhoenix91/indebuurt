@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-06T12:00:00Z",
+  "id": "drogenbos-doelen-frankveld",
+  "city": "Drogenbos",
+  "name": "DOELEN - FRANKVELD",
+  "postalCode": "1620",
+  "subtitle": "Wonen in Doelen - Frankveld (Drogenbos): rustig, groen en 12 parken op wandelafstand — praktisch dagelijks leven",
+  "dateAdded": "2026-01-06",
+  "inhabitants": 5943,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Groene omgeving",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "Doelen - Frankveld is een rustige woonwijk in Drogenbos, gelegen aan de rand van de Brusselse grootstedelijke zone. Met zijn groene karakter en residentiële uitstraling biedt deze wijk een betrekkelijk kalme leefomgeving, waar je als inwoner profiteert van zowel ruimte als nabijheid tot stedelijke voorzieningen.\n\nDe wijk kenmerkt zich door een mix van ruimere woningen en tuinen, typisch voor deze meer suburbane zone. Met 12 parken in de nabije omgeving, verspreid binnen wandelafstand, heb je voldoende groen voor dagelijkse wandelingen. De dichtstbijzijnde groene zones liggen op amper 5 minuten te voet, wat het uitlaten praktisch maakt zonder dat je ver hoeft te rijden.\n\nVoor wie een hond heeft, is het belangrijk om te weten dat er geen officiële hondenspeelweide in de wijk zelf is. De dichtstbijzijnde losse-leinopdracht vind je op 14 minuten wandelen, in een aangrenzende wijk. Dat betekent dat je voor dagelijkse wandelingen afhankelijk bent van de reguliere parken, waar aangelijnd moet blijven. Voor wie een actieve, grote hond heeft die regelmatig vrij moet kunnen rennen, vraagt dit wat extra planning.\n\nOok veterinaire zorg vraagt enige reistijd. De dichtstbijzijnde dierenarts, Vet & Go Uccle, ligt in het nabijgelegen Ukkel op 20 minuten te voet. Voor spoedgevallen of reguliere afspraken is een auto of openbaar vervoer aangeraden. Gelukkig ligt de Tom & Co-dierenwinkel wél vlakbij — op slechts 4 minuten wandelen — wat het halen van voeding en benodigdheden heel praktisch maakt.\n\nMet 30 bushaltes binnen bereik is de wijk goed aangesloten op het openbaar vervoer, waardoor je flexibel bent in je verplaatsingen naar aangrenzende gemeenten en Brussel. Voor dagelijkse boodschappen heb je 3 supermarkten en 2 apotheken in de wijk, wat de praktische kant van het wonen hier vergemakkelijkt.\n\nQua woningmarkt ligt de mediane prijs rond de €360.500, wat voor de regio betaalbaar is vergeleken met centraler gelegen wijken in de Brusselse rand. Met 2381 inwoners per vierkante kilometer is de bevolkingsdichtheid relatief laag, wat bijdraagt aan het rustige karakter van de wijk.\n\nDeze wijk is vooral geschikt voor wie van rust en groen houdt, maar bereid is om wat verder te reizen voor gespecialiseerde voorzieningen zoals de dierenarts of een omheinde speelweide. Voor wie een flexibele auto of goed bereikbaar openbaar vervoer heeft, en waarde hecht aan een rustige leefomgeving met voldoende wandelruimte, biedt Doelen - Frankveld een fijne balans.",
+  "coordinates": {
+    "lat": 50.79349525534822,
+    "lon": 4.309029407830801,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co vlakbij",
+      "detail": "Op 4 minuten wandelen"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenpark",
+      "distance": "14 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde speelweide",
+      "detail": "Buiten de wijk, 14 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "12 groenzones in de buurt",
+      "detail": "Eerste park op 5 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "20 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Vet & Go Uccle",
+      "detail": "In Ukkel, 20 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Nearby",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "30 bushaltes",
+      "detail": "Goed aangesloten op OV"
+    }
+  ],
+  "facilities": {
+    "intro": "Doelen - Frankveld heeft een basisaanbod aan voorzieningen, waarbij groen en boodschappen goed vertegenwoordigd zijn. Voor gespecialiseerde zorg zoals dierenartsen of omheinde hondenspeelweiden kijk je net buiten de wijk, in aangrenzende gemeenten. De nabijgelegen Tom & Co-winkel maakt het praktisch om snel aan voer en benodigdheden te komen voor je dagelijkse routine."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in de wijk zelf. De dichtstbijzijnde losse-leinopdracht ligt op 14 minuten wandelen, buiten de wijk. Voor wie regelmatig vrij wil laten rennen, betekent dit dat je iets verder moet lopen. De 12 parken in de nabijheid bieden wel voldoende afwisseling voor aangelijnd wandelen, met groene zones al vanaf 5 minuten te voet.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark op 14 min",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.8037203,
+          "lon": 4.3116984
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheind terrein op 21 min",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.792523,
+          "lon": 4.2854871
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Vet & Go Uccle in het nabijgelegen Ukkel, op 20 minuten te voet. Voor reguliere afspraken of spoedzorg is een auto of openbaar vervoer aangeraden. De volgende dichtstbijzijnde praktijk, Ilse Wauters in Sint-Pieters-Leeuw, ligt op 35 minuten wandelen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Vet & Go Uccle",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Ukkel",
+        "postalCode": "1180",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.7875223,
+          "lon": 4.3298297
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ilse Wauters",
+        "street": "Petrus Basteleusstraat",
+        "streetNumber": "132",
+        "municipality": "Sint-Pieters-Leeuw",
+        "postalCode": "1600",
+        "distance": "35 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.7868068,
+          "lon": 4.270771
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AltiVet",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Vorst",
+        "postalCode": "1190",
+        "distance": "40 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.8160874,
+          "lon": 4.3367851
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Séverine Deschamp",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Anderlecht",
+        "postalCode": "1070",
+        "distance": "62 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.8371774,
+          "lon": 4.2970142
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor benodigdheden ben je goed voorzien met de Tom & Co-dierenwinkel op slechts 4 minuten wandelen. Hier vind je alles van voeding tot speelgoed en verzorgingsproducten. Ook de supermarkten in de wijk hebben vaak een basisassortiment, wat kleine aankopen nog praktischer maakt.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Drogenbos",
+        "postalCode": "1620",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.7952757,
+          "lon": 4.3062037
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Doelen - Frankveld",
+    "intro": "Een typische dag in Doelen - Frankveld draait om rust, groen en korte afstanden voor de basis. De ochtendwandeling start in een van de nabijgelegen parken, op 5 minuten lopen. Voor de avondwandeling heb je keuze uit verschillende groenzones, zodat je route kan variëren. Wil je vrij laten lopen, dan vraagt dat wat extra planning — de dichtstbijzijnde omheinde speelweide ligt op 14 minuten. Voor boodschappen en benodigdheden ben je snel klaar dankzij de Tom & Co om de hoek en de lokale supermarkten.",
+    "benefits": [
+      "Met 12 parken binnen wandelafstand heb je altijd een groene plek voor de dagelijkse wandeling. De eerste groenzones liggen op slechts 5 minuten te voet, wat het uitlaten praktisch maakt zonder dat je ver hoeft te rijden.",
+      "De Tom & Co-dierenwinkel ligt op 4 minuten wandelen, wat betekent dat je snel aan voer en benodigdheden komt zonder auto nodig te hebben. Ook de lokale supermarkten hebben vaak een basisassortiment.",
+      "Dankzij 30 bushaltes in de wijk ben je flexibel in je verplaatsingen naar aangrenzende wijken en Brussel, wat handig is als je naar de dierenarts moet of naar een verder gelegen hondenpark wilt gaan.",
+      "De rustige, residentiële sfeer zorgt voor weinig verkeersdrukte, wat fijn is bij wandelingen door de wijk. De bevolkingsdichtheid van 2381 inwoners per vierkante kilometer ligt lager dan in stedelijke wijken.",
+      "Voor wie graag afwisseling in wandelroutes heeft, bieden de 12 parken voldoende variatie. Elk park heeft zijn eigen karakter, van kleinere groenzones tot grotere wandelgebieden zoals de Kruidentuin."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Doelen - Frankveld telt 5943 inwoners, met een bevolkingsdichtheid van 2381 per vierkante kilometer. De mediane huisprijs ligt rond €360.500, wat voor de Brusselse rand betaalbaar is.",
+    "medianPrice": 360500,
+    "inhabitants": 5943,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Doelen - Frankveld? Filter op postcode 1620 om het aanbod in deze wijk te bekijken. Let op dat deze postcode door meerdere delen van Drogenbos gedeeld wordt.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [],
+  "seoReview": {
+    "reviewedAt": "2026-01-06T12:00:00Z",
+    "qualityScore": 78,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige woonwijk met 12 parken op wandelafstand en directe toegang tot voorzieningen — praktisch voor het dagelijks leven",
+        "after": "Wonen in Doelen - Frankveld (Drogenbos): rustig, groen en 12 parken op wandelafstand — praktisch dagelijks leven",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Met 12 parken in de nabije omgeving, verspreid binnen wandelafstand, heb je voldoende groen voor dagelijkse wandelingen met je viervoeter.",
+        "after": "Met 12 parken in de nabije omgeving, verspreid binnen wandelafstand, heb je voldoende groen voor dagelijkse wandelingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes is het belangrijk om te weten dat er geen officiële hondenspeelweide in de wijk zelf is.",
+        "after": "Voor wie een hond heeft, is het belangrijk om te weten dat er geen officiële hondenspeelweide in de wijk zelf is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Dat betekent dat je voor dagelijkse wandelingen afhankelijk bent van de reguliere parken, waar je hond aangelijnd moet blijven.",
+        "after": "Dat betekent dat je voor dagelijkse wandelingen afhankelijk bent van de reguliere parken, waar aangelijnd moet blijven.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Deze wijk is vooral geschikt voor baasjes die van rust en groen houden",
+        "after": "Deze wijk is vooral geschikt voor wie van rust en groen houdt",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "De Tom & Co-winkel maakt het wel heel praktisch om snel aan voer en benodigdheden te komen.",
+        "after": "De nabijgelegen Tom & Co-winkel maakt het praktisch om snel aan voer en benodigdheden te komen voor je dagelijkse routine.",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Voor wie een hond heeft die regelmatig vrij moet kunnen rennen",
+        "after": "Voor wie regelmatig vrij wil laten rennen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Ook de supermarkten in de wijk hebben vaak een basisassortiment voor je viervoeter",
+        "after": "Ook de supermarkten in de wijk hebben vaak een basisassortiment",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Doelen - Frankveld",
+        "after": "Dagelijks leven in Doelen - Frankveld",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Doelen - Frankveld draait om rust, groen en korte afstanden voor de basis.",
+        "after": "Een typische dag in Doelen - Frankveld draait om rust, groen en korte afstanden voor de basis.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Wil je jouw hond vrij laten lopen",
+        "after": "Wil je vrij laten lopen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De rustige, residentiële sfeer zorgt voor weinig verkeersdrukte, wat fijn is als je met je hond door de wijk wandelt.",
+        "after": "De rustige, residentiële sfeer zorgt voor weinig verkeersdrukte, wat fijn is bij wandelingen door de wijk.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "neighboringNeighborhoods",
+        "issue": "No neighboring neighborhoods populated - internal linking opportunity missed",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 3
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-06T14:30:00Z",
+    "qualityScore": 82,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "valueCards[2].description",
+        "before": "12 groenzones in de buurt",
+        "after": "12 groenzones in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "statistics.intro",
+        "before": "De mediane huisprijs ligt rond €360.500, wat voor de Brusselse rand betaalbaar is.",
+        "after": "De mediane huisprijs ligt rond €360.500, wat voor de Brusselse rand betaalbaar is.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "intro",
+        "issue": "Limited local authenticity - only 5 specific place names mentioned (Ukkel, Tom & Co, Vet & Go Uccle, Sint-Pieters-Leeuw, Kruidentuin). Consider adding more street names or landmarks if available.",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 12,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "valueCards[2].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "hondenspeelweide",
+          "dierenarts",
+          "wandeling",
+          "uitlaten",
+          "hond",
+          "wijk"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt te vinden (allowed phrase)",
+          "in de buurt (meaning nearby)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 5,
+        "localTipsFound": [
+          "via aangrenzende wijk",
+          "in het nabijgelegen Ukkel",
+          "naar aangrenzende gemeenten en Brussel"
+        ],
+        "neighborhoodObservations": [
+          "rustige woonwijk in Drogenbos",
+          "gelegen aan de rand van de Brusselse grootstedelijke zone",
+          "residentiële uitstraling",
+          "groene karakter",
+          "rustige, residentiële sfeer"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.71,
+        "averageSentenceLength": 16.8,
+        "listLikePatternsFound": 1
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no vet in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

@@ -12,7 +12,15 @@ You receive a neighborhood ID (e.g., `gent-binnenstad`) and must produce a compl
 
 ## Tools Available
 
-You have access to the PostgreSQL MCP tool for querying the database. Use it to execute SQL queries.
+**CRITICAL: Use the correct database tool!**
+
+| Tool | Use For |
+|------|---------|
+| `mcp__gis__query` | **ALL your queries** - neighborhoods, pois, neighborhood_statistics, statistical_sectors |
+
+**Do NOT use `mcp__pipeline__*` tools.** Those are for a different database (pipeline job tracking) and will fail with "relation does not exist" errors.
+
+All tables you need (`neighborhoods`, `pois`, `neighborhood_statistics`, `statistical_sectors`) are in the GIS database accessed via `mcp__gis__query`.
 
 ## Task Workflow
 

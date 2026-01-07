@@ -1,117 +1,162 @@
 # Epic K — Scale & Operations
 
-**Goal:** Scale content generation to hundreds of neighborhoods with batch processing, monitoring, and operational tooling.
+**Goal:** Scale content generation to all 2,800 Flanders neighborhoods through parallel processing and support content refresh when data improves.
 
-**Depends on:** Epic J (Agent Pipeline) — need working pipeline before scaling.
+**Depends on:** Epic J (Agent Pipeline) — requires working `/pipeline` commands.
+
+**Architecture Note:** The pipeline runs via Claude Code CLI sessions, not traditional batch scripts. This means scheduled automation is not possible, but parallel human-operated terminals can scale throughput significantly.
 
 ---
 
-## Story K1: Batch Processing Script
-> As a site owner, I want to process multiple neighborhoods in a single batch run, so that I can generate content at scale without triggering each neighborhood manually.
+## Story K1: Parallel Multi-Terminal Processing ✅
 
-**Context:** Process a list of neighborhoods, track progress, handle failures gracefully.
+> As a site owner, I want to run multiple Claude Code sessions in parallel to process neighborhoods faster, so that I can generate content for all of Flanders in weeks instead of months.
+
+**Context:** Sequential processing of 2,800 neighborhoods would take ~60 days. With 3-4 parallel terminals, this drops to ~15-20 days.
+
+**Implementation:** Municipality-level claiming with heartbeat tracking prevents conflicts between sessions.
 
 **Acceptance Criteria:**
-- [ ] Batch script accepts: CSV file with neighborhood IDs, or database query
-- [ ] Configurable concurrency: process N neighborhoods in parallel (default: 3)
-- [ ] Progress displayed in real-time: "Processing 15/120... gent-dampoort"
-- [ ] Summary report on completion: successful, failed, flagged for review, total time
-- [ ] Failed neighborhoods logged with errors for investigation
-- [ ] Resume capability: can restart batch from where it left off after interruption
-- [ ] Dry-run mode: validate inputs without actually generating content
+- [x] `pipeline_claims` table tracks which session claimed which municipality
+- [x] `claimed_by` and `heartbeat_at` columns added to `pipeline_jobs`
+- [x] `/pipeline claim [auto|<nis5>] [session-name]` claims a municipality
+- [x] `/pipeline sessions` shows all active sessions with progress
+- [x] `/pipeline release [<nis5>|all]` releases claims manually
+- [x] `/pipeline municipality` checks for existing claims before processing
+- [x] `/pipeline status` shows active sessions summary
+- [x] Stale claims (>30 min no heartbeat) auto-released
+- [x] Session names auto-generated or user-provided
+- [x] Heartbeat updated during stage transitions
+- [x] After completing municipality, auto-claims next available
 
----
-
-## Story K2: Scheduled Daily Processing
-> As a site owner, I want content generation to run automatically on a schedule, so that new neighborhoods are processed daily without manual triggering.
-
-**Context:** Set up automated job that processes queued neighborhoods each night.
-
-**Acceptance Criteria:**
-- [ ] Scheduler configured (cron, Task Scheduler, or similar)
-- [ ] Daily run at configurable time (default: 2am local)
-- [ ] Batch pulls "pending" neighborhoods from queue (database or file)
-- [ ] Rate limiting prevents API quota exhaustion
-- [ ] Notification sent on completion: success count, failure count, review queue size
-- [ ] Notification channels: email and/or Slack webhook
-- [ ] Schedule easily pausable for maintenance
-
----
-
-## Story K3: Processing Metrics and Logging
-> As a site owner, I want detailed metrics logged for each generation run, so that I can identify bottlenecks and track quality trends over time.
-
-**Context:** Operational visibility into pipeline performance.
-
-**Acceptance Criteria:**
-- [ ] Each run logs: timestamp, neighborhood, duration per agent, total duration, quality score, success/failure
-- [ ] Logs stored in structured format (JSON lines or database)
-- [ ] Retention policy: keep detailed logs 30 days, aggregates indefinitely
-- [ ] Log viewer: can filter by date, neighborhood, quality score, status
-- [ ] Export capability: download logs as CSV for analysis
-- [ ] Error logs include full context for debugging failed runs
-
----
-
-## Story K4: Operations Dashboard
-> As a site owner, I want a dashboard showing pipeline health and content coverage, so that I can monitor progress toward full Flanders coverage.
-
-**Context:** At-a-glance view of how content generation is progressing.
-
-**Acceptance Criteria:**
-- [ ] Dashboard shows: total neighborhoods in Flanders, content generated, content pending
-- [ ] Progress visualization: map or chart showing coverage by region/province
-- [ ] Recent activity: last 10 runs with status and quality scores
-- [ ] Alerts displayed: failures, review queue backlog, quality score trends
-- [ ] Key metrics: average quality score (7-day), success rate, avg generation time
-- [ ] Dashboard updates automatically (polling or real-time)
-- [ ] Accessible at `/admin/dashboard` with basic authentication
-
----
-
-## Story K5: Content Regeneration Workflow
-> As a content team member, I want to regenerate content for existing neighborhoods when data or prompts improve, so that all pages stay current as our system evolves.
-
-**Context:** As Statbel releases new data or prompts improve, existing content should be refreshable.
-
-**Acceptance Criteria:**
-- [ ] Regeneration mode: `--mode=regenerate` flag in orchestrator
-- [ ] Detects existing content and creates new version, doesn't overwrite immediately
-- [ ] Diff view shows: what changed between current and new version
-- [ ] Manual edit detection: warns if content was modified since last generation
-- [ ] Review interface shows side-by-side comparison
-- [ ] Approve action replaces old content (preserving git history)
-- [ ] Bulk regeneration: regenerate all content for a city or province
-- [ ] Regeneration reason logged for audit trail
-
----
-
-## Story K6: Prompt Version Management
-> As a developer, I want to test new prompt versions against a baseline, so that I can safely improve prompts without breaking content quality.
-
-**Context:** Prompt engineering is iterative. Need A/B testing capability.
-
-**Acceptance Criteria:**
-- [ ] Prompts stored with semantic versions: `writer-v1.0.md`, `writer-v1.1.md`
-- [ ] Orchestrator accepts version parameters: `--writer-version=1.1`
-- [ ] Test mode: generate same neighborhood with different prompt versions
-- [ ] Comparison output: side-by-side content + quality scores for each version
-- [ ] A/B test results logged: version, neighborhood, scores, human preference (if rated)
-- [ ] Promotion workflow: mark new version as default when proven better
-- [ ] Rollback: easily revert to previous prompt version if quality drops
-
----
-
-## Dependencies
-
+**Commands:**
 ```
-K1 (Batch Processing)
-  ├── K2 (Scheduled Runs)
-  └── K3 (Metrics) ── K4 (Dashboard)
-
-K5 (Regeneration) - independent, can be added anytime after J1
-
-K6 (Prompt Versions) - independent, can be added anytime after I2-I5
+/pipeline claim auto                  # Claim next available municipality
+/pipeline claim 44021 my-laptop       # Claim specific municipality with custom session name
+/pipeline sessions                    # View all active sessions
+/pipeline release 44021               # Release specific claim
+/pipeline release all                 # Release all claims
 ```
 
-K1 is foundation for scale. K2-K4 add operational maturity. K5-K6 support iteration and maintenance.
+**Parallel Workflow:**
+```
+# Terminal 1:
+/pipeline claim auto
+→ Claimed Gent (44021) - processing 28 neighborhoods...
+
+# Terminal 2:
+/pipeline claim auto
+→ Claimed Antwerpen (11002) - processing 45 neighborhoods...
+
+# Terminal 3:
+/pipeline claim auto
+→ Claimed Brugge (31005) - processing 22 neighborhoods...
+```
+
+---
+
+## Story K2: Content Regeneration ✅
+
+> As a site owner, I want to regenerate content for existing neighborhoods when Statbel releases new data or prompts improve, so that all pages stay current.
+
+**Context:** Annual Statbel updates, prompt improvements, and bug fixes require re-running the pipeline on existing content.
+
+**Implementation:** Backup existing content, reset job, re-run pipeline, compare results.
+
+**Acceptance Criteria:**
+- [x] `/pipeline regenerate <nis_code>` regenerates single neighborhood
+- [x] `/pipeline regenerate municipality <nis5>` regenerates all completed in municipality
+- [x] Old content backed up before regeneration
+- [x] Comparison shows score changes (previous vs new)
+- [x] Auto-publish if new score meets threshold
+- [x] Backup preserved for rollback if needed
+
+**Commands:**
+```
+/pipeline regenerate 44021A01                    # Regenerate single neighborhood
+/pipeline regenerate municipality 44021          # Regenerate all in Gent
+```
+
+**Output:**
+```
+## Regeneration Complete: 44021A01
+
+| Metric | Previous | New | Change |
+|--------|----------|-----|--------|
+| SEO Score | 72 | 78 | +6 |
+| Brand Score | 68 | 75 | +7 |
+| Final Score | 70 | 76.5 | +6.5 |
+
+Backup saved to: agents/pipeline-outputs/44021A01/backup-2026-01-06T14:30:00/
+```
+
+---
+
+## Removed Stories
+
+The following stories from the original Epic K have been removed as they are either impossible with the Claude Code architecture or already covered by existing functionality:
+
+### ~~K2: Scheduled Daily Processing~~ — REMOVED
+
+**Reason:** Claude Code CLI requires human interaction. Automated scheduling is not possible without a headless orchestration layer, which would be significant additional infrastructure. The parallel claiming approach achieves similar throughput goals.
+
+### ~~K3: Processing Metrics and Logging~~ — REMOVED
+
+**Reason:** The `pipeline_jobs` table already tracks:
+- Timestamps (started_at, completed_at, stage completion times)
+- Scores (seo_score, brand_score, final_score)
+- Status (pending, in_progress, completed, failed)
+- Errors (error_message, retry_count)
+
+The `/pipeline status` command provides sufficient operational visibility.
+
+### ~~K4: Operations Dashboard~~ — REMOVED
+
+**Reason:** `/pipeline status` and `/pipeline sessions` provide the necessary visibility. A web dashboard would add infrastructure complexity without proportional value at current scale.
+
+### ~~K6: Prompt Version Management~~ — REMOVED (deferred)
+
+**Reason:** The current workflow (edit prompt → test on single neighborhood → commit if good) is sufficient. Formal A/B testing infrastructure would be over-engineering at this stage. Can be revisited after initial content generation is complete.
+
+---
+
+## Database Schema
+
+### Table: pipeline_claims
+```sql
+CREATE TABLE pipeline_claims (
+    municipality_nis VARCHAR(5) PRIMARY KEY,
+    claimed_by VARCHAR(50) NOT NULL,
+    claimed_at TIMESTAMP DEFAULT NOW(),
+    heartbeat_at TIMESTAMP DEFAULT NOW(),
+    neighborhoods_total INTEGER NOT NULL,
+    neighborhoods_completed INTEGER DEFAULT 0
+);
+```
+
+### Added to pipeline_jobs
+```sql
+ALTER TABLE pipeline_jobs ADD COLUMN claimed_by VARCHAR(50);
+ALTER TABLE pipeline_jobs ADD COLUMN heartbeat_at TIMESTAMP;
+```
+
+---
+
+## Migration
+
+Run: `agents/scripts/db/07-add-claiming-mechanism.sql`
+
+---
+
+## Summary
+
+| Original Story | New Status |
+|----------------|------------|
+| K1: Batch Processing | → **K1: Parallel Multi-Terminal** (implemented differently) |
+| K2: Scheduled Daily | REMOVED (not possible with Claude Code) |
+| K3: Metrics & Logging | REMOVED (covered by existing DB) |
+| K4: Dashboard | REMOVED (covered by /pipeline status) |
+| K5: Regeneration | → **K2: Content Regeneration** (implemented) |
+| K6: Prompt Versions | REMOVED (deferred) |
+
+Epic K is now complete with 2 stories focused on practical scaling and maintenance.

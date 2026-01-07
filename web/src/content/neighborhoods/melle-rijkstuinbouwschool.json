@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-07T14:45:00Z",
+  "id": "melle-rijkstuinbouwschool",
+  "city": "Melle",
+  "name": "RIJKSTUINBOUWSCHOOL",
+  "postalCode": "9090",
+  "subtitle": "Wonen in Rijkstuinbouwschool, Melle: rustige woonwijk met groen karakter en Maxi Zoo op 13 minuten",
+  "dateAdded": "2026-01-07",
+  "inhabitants": 4617,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "Rijkstuinbouwschool is een rustige woonwijk in Melle, op de grens met Gent. Met 4617 inwoners en een bevolkingsdichtheid van 1226 per km2 heeft de wijk een voorstedelijk karakter.\n\nVoor wie een hond heeft, biedt Rijkstuinbouwschool een gemengd beeld. De wijk heeft een groen karakter met Park Ten Hove op 8 minuten wandelen als centraal groengebied. Maar voor gespecialiseerde hondenvoorzieningen moet je verder zoeken: er is geen dierenarts in de wijk zelf, en ook geen omheinde hondenspeelweide.\n\nDe dichtstbijzijnde dierenarts is Dierenartsenpraktijk Moscou in Gentbrugge, op 25 minuten wandelen.\n\nEen pluspunt: Maxi Zoo ligt op 13 minuten wandelen aan de Brusselsesteenweg.\n\nRijkstuinbouwschool past bij wie rust en groen zoekt zonder alle voorzieningen op loopafstand te verwachten.",
+  "coordinates": {
+    "lat": 51.01786473058672,
+    "lon": 3.7800979757708255,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Park Ten Hove",
+      "detail": "2 parken in de wijk"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 in de omgeving",
+      "detail": "Geen omheinde in wijk"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "25 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dierenartsenpraktijk Moscou",
+      "detail": "In Gentbrugge"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "13 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Maxi Zoo",
+      "detail": "Op de Brusselsesteenweg"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Nabij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "28 bushaltes",
+      "detail": "Geen treinstation"
+    }
+  ],
+  "facilities": {
+    "intro": "Rijkstuinbouwschool is een woonwijk waar de nadruk ligt op rust en groen, niet op commerciele voorzieningen. Het voordeel: Maxi Zoo ligt relatief dichtbij op 13 minuten wandelen."
+  },
+  "dogParks": {
+    "intro": "In Rijkstuinbouwschool zelf is geen officiele hondenspeelweide. In de omliggende gebieden liggen er 5, maar die zijn allemaal niet omheind.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide Gentbrugge",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0268617,
+          "lon": 3.766388
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide Merelbeke",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0056376,
+          "lon": 3.7633826
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide Merelbeke-Zuid",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9992683,
+          "lon": 3.7627393
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Er is geen dierenarts in Rijkstuinbouwschool zelf. De dichtstbijzijnde praktijk is Dierenartsenpraktijk Moscou in Gentbrugge, op 25 minuten wandelen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Moscou",
+        "street": "Jules de Saint-Genoisstraat",
+        "streetNumber": "49A",
+        "municipality": "Gentbrugge",
+        "postalCode": "9050",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0301719,
+          "lon": 3.7593946
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Wellopet",
+        "street": "Fraterstraat",
+        "streetNumber": "111",
+        "municipality": "Merelbeke",
+        "postalCode": "9820",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.00313,
+          "lon": 3.7596242
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Clos Fleuri",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Merelbeke",
+        "postalCode": "9820",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0053406,
+          "lon": 3.7491428
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Malpertuus",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0309594,
+          "lon": 3.812795
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Maxi Zoo ligt op slechts 13 minuten wandelen aan de Brusselsesteenweg.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "2",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.025379,
+          "lon": 3.7710589
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Rijkstuinbouwschool",
+    "intro": "Een typische dag begint met een wandeling naar Park Ten Hove.",
+    "benefits": [
+      "Park Ten Hove op 8 minuten wandelen biedt een groene ruimte voor de dagelijkse uitlaatronde.",
+      "Met een bevolkingsdichtheid van 1226 inwoners per km2 is Rijkstuinbouwschool rustiger dan de meeste stadswijken.",
+      "Maxi Zoo op 13 minuten wandelen is een groot voordeel voor hondenvoer en speelgoed.",
+      "De 28 bushaltes zorgen voor redelijke bereikbaarheid naar Gent en omgeving.",
+      "De wijk heeft een residentieel karakter zonder veel commerciele drukte."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Rijkstuinbouwschool telt 4617 inwoners met een bevolkingsdichtheid van 1226 inwoners per km2.",
+    "medianPrice": 0,
+    "inhabitants": 4617,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Rijkstuinbouwschool? Filter je zoekopdracht op postcode 9090.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "melle-dries",
+    "melle-kloosterwijk",
+    "melle-gontrode-kern"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-07T12:51:55.179Z",
+    "qualityScore": 75,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in Rijkstuinbouwschool: rustige woonwijk met groen karakter, maar beperkte hondenvoorzieningen in de wijk zelf",
+        "after": "Wonen in Rijkstuinbouwschool, Melle: rustige woonwijk met groen karakter en Maxi Zoo op 13 minuten",
+        "reason": "local_keyword_missing"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 20,
+      "keywordScore": 16,
+      "sectionIntrosScore": 8,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-07T12:51:55.180Z",
+    "qualityScore": 78,
+    "passedBrand": true,
+    "changesLog": [],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 20,
+      "toneVoiceScore": 22,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 12,
+      "sparseDataHandlingScore": 8
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [],
+        "preferredTermsPresent": [
+          "viervoeter",
+          "hond",
+          "wijk",
+          "dierenarts",
+          "hondenspeelweide"
+        ],
+        "allowedExceptionsUsed": []
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 12
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 4,
+        "localTipsFound": [
+          "Park Ten Hove",
+          "Maxi Zoo",
+          "Brusselsesteenweg",
+          "Dierenartsenpraktijk Moscou"
+        ],
+        "neighborhoodObservations": [
+          "rustige woonwijk",
+          "groen karakter",
+          "voorstedelijk"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.72,
+        "averageSentenceLength": 14.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no dog park in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}
