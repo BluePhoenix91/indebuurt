@@ -1,0 +1,444 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T15:30:00Z",
+  "id": "gent-blaarmeersen",
+  "city": "Gent",
+  "name": "Blaarmeersen",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Blaarmeersen aan de Gentse stadsrand: groen, rustig en 3 hondenspeelweiden op wandelafstand",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 7807,
+  "labels": [
+    {
+      "text": "Groene stadsrand",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Sportwijk",
+      "icon": "fa-solid fa-person-running"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    }
+  ],
+  "intro": "Blaarmeersen is een wijk die zijn naam dankt aan het bekende sport- en recreatiedomein aan de westelijke rand van Gent. Met 7.807 inwoners op een oppervlakte van iets meer dan 4 km² woon je hier in een relatief rustige omgeving die het beste van twee werelden combineert: de nabijheid van het Gentse stadscentrum en directe toegang tot natuur en recreatie.\n\nDe wijk grenst aan het uitgestrekte Blaarmeersen-domein, een groen long met meerplas, sporthallen en wandelpaden die lokaal erg geliefd is. Met 17 parken binnen handbereik en 3 hondenspeelweiden in de nabije omgeving is de keuze aan groene plekken ruim. De dichtstbijzijnde hondenspeelweide ligt op slechts 7 minuten wandelen — een omheind terrein met grasondergrond en drinkwater. Voor dagelijkse wandelingen en beweging heb je hier meer dan voldoende variatie.\n\nWat opvalt aan Blaarmeersen is het sportieve karakter. Naast het recreatiedomein vind je hier het Olympiadepark en verschillende sportfaciliteiten. De wijk trekt dan ook vooral mensen die van buitenactiviteiten houden en graag in beweging zijn. Het buurtgevoel is minder uitgesproken dan in de dichtere stadswijken, maar de rust en ruimte wegen daar tegenover op.\n\nEen belangrijk aandachtspunt is de afstand tot voorzieningen. Je vindt hier geen dierenarts of gespecialiseerde dierenwinkel in de wijk zelf. De dichtstbijzijnde dierenarts ligt op 21 minuten wandelen in de richting van het centrum, en voor een dierenwinkel moet je naar Tom & Co op de Martelaarslaan — goed voor 15 minuten te voet. Voor dagelijkse boodschappen is er binnen de wijk slechts 1 supermarkt, wat betekent dat je voor meer keuze naar aangrenzende wijken moet. Met 42 bushaltes is het openbaar vervoer wel goed geregeld, hoewel er geen treinstation in de buurt ligt.\n\nDe mediaanprijs van een woning ligt hier op €353.000, wat vergelijkbaar is met andere Gentse wijken aan de stadsrand. Met een bevolkingsdichtheid van 1.826 inwoners per km² is het hier beduidend rustiger dan in het centrum, maar wel levendiger dan echt landelijke gebieden.\n\nBlaarmeersen is bij uitstek geschikt voor wie prioriteit geeft aan groen en beweging boven stedelijk gemak. Als je dagelijks graag lange wandelingen maakt, houdt van afwisseling in je routes en weinig waarde hecht aan een bruisend winkelaanbod vlakbij, dan zit je hier goed. Minder geschikt als je regelmatig snel bij de dierenarts moet kunnen zijn of als je graag meerdere gespecialiseerde dierenwinkels in de buurt hebt. Hetzelfde geldt als je afhankelijk bent van een treinstation — de dichtstbijzijnde is Gent-Sint-Pieters, op iets meer dan 3 km.\n\nDe combinatie van relatieve rust, veel groen en toch redelijke bereikbaarheid van het stadscentrum maakt Blaarmeersen tot een fijne uitvalsbasis voor actieve mensen die van ruimte houden. De trade-off is duidelijk: je ruilt stedelijk gemak in voor groen en lucht.",
+  "coordinates": {
+    "lat": 51.04650082511262,
+    "lon": 3.691668765696672,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 hondenspeelweiden in de buurt",
+      "detail": "Dichtstbijzijnde omheind met drinkwater"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "17 parken en groenzones",
+      "detail": "Blaarmeersen-domein op wandelafstand"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "21 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde buiten de wijk",
+      "detail": "Dr. Paul Panis op Koning Albertlaan"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "15 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co op Martelaarslaan",
+      "detail": "Gespecialiseerd assortiment"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "42 bushaltes in de wijk",
+      "detail": "Goed verbonden met centrum"
+    }
+  ],
+  "facilities": {
+    "intro": "Blaarmeersen scoort vooral op groen en bewegingsruimte. Met 3 hondenspeelweiden, 17 parken en het grote recreatiedomein Blaarmeersen heb je meer dan voldoende keuze voor wandelingen. Voor dagelijkse voorzieningen zoals een dierenarts of gespecialiseerde dierenwinkel moet je de wijk uit, maar dat wordt gecompenseerd door de rust en ruimte die je hier vindt."
+  },
+  "dogParks": {
+    "intro": "De wijk en directe omgeving tellen 3 hondenspeelweiden, waarvan de dichtstbijzijnde op slechts 7 minuten wandelen ligt. Dit omheinde terrein heeft grasondergrond en drinkwater — fijn voor sociale contacten tussen viervoeters. Op 11 en 16 minuten vind je nog twee andere speelweiden, wat betekent dat je kunt afwisselen afhankelijk van je route.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Blaarmeersen",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0464956,
+          "lon": 3.7000542
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Olympiadepark",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0413171,
+          "lon": 3.7006241
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Noord",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0549021,
+          "lon": 3.7033851
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Blaarmeersen zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Dr. Paul Panis op de Koning Albertlaan, op 21 minuten wandelen richting het stadscentrum. Binnen een straal van 30 minuten lopen vind je in totaal 4 praktijken, wat voldoende keuze biedt voor routine-afspraken. Voor spoedgevallen betekent dit wel dat je sneller moet handelen of gebruik moet maken van de auto.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr. Paul Panis",
+        "street": "Koning Albertlaan",
+        "streetNumber": "25",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0378647,
+          "lon": 3.7106911
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Kat&Ko",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0339439,
+          "lon": 3.7101744
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Heughebaert Anne",
+        "street": "Recollettenlei",
+        "streetNumber": "18",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0497844,
+          "lon": 3.7195429
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Jan-Pieter Vandenbussche",
+        "street": "Brugsesteenweg",
+        "streetNumber": "330-334",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.06805,
+          "lon": 3.6863284
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor gespecialiseerde dierenbenodigdheden is Tom & Co op de Martelaarslaan de dichtstbijzijnde optie, op 15 minuten wandelen. Dat is goed te doen voor een regelmatige voorraadrun. Heb je specifieke producten nodig of wil je meer keuze, dan liggen er nog drie andere Tom & Co-vestigingen binnen fietsafstand. De supermarkt in de wijk heeft doorgaans een basisassortiment voor je viervoeter.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "46 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "60 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Botestraat",
+        "streetNumber": "14",
+        "municipality": "Gent",
+        "postalCode": "9032",
+        "distance": "61 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0891227,
+          "lon": 3.7079612
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Blaarmeersen",
+    "intro": "Een typische dag in Blaarmeersen draait vooral om buitenleven. 's Ochtends vroeg loop je naar het Blaarmeersen-domein voor een lange wandeling langs het water, 's middags spring je naar de dichtstbijzijnde hondenspeelweide voor sociale interactie, en 's avonds kies je voor een van de vele andere parken in de buurt. De focus ligt op beweging en natuur, niet op drukke winkelstraten of stedelijke drukte.",
+    "benefits": [
+      "Met 17 parken binnen loop- en fietsafstand heb je enorm veel afwisseling in je dagelijkse routes. Of je nu kiest voor het uitgestrekte Blaarmeersen-domein, het Olympiadepark of het kleinere Halfwegpark — elke dag kan je een andere kant op.",
+      "De 3 hondenspeelweiden in de buurt bieden sociale mogelijkheden voor je viervoeter. De dichtstbijzijnde op 7 minuten is omheind, heeft drinkwater en een grasondergrond — fijn voor honden die graag loslopen en spelen met soortgenoten.",
+      "Dankzij de ligging aan de stadsrand is er minder verkeersdrukte dan in het centrum. Dat maakt wandelen veiliger en rustiger, zowel voor jou als voor je hond. Het Blaarmeersen-domein zelf is autovrij, wat extra gemak biedt.",
+      "Het sportieve karakter van de wijk trekt mensen die van beweging houden. Je komt hier regelmatig andere buurtbewoners tegen die lange wandelingen maken of joggen — dat zorgt voor een soort informele gemeenschap van actieve bewoners.",
+      "Met 42 bushaltes ben je goed verbonden met het Gentse centrum en andere wijken. Wil je naar een gespecialiseerde dierenarts of dierenwinkel elders in de stad, dan is dat met het openbaar vervoer prima te doen.",
+      "De relatief lage bevolkingsdichtheid van 1.826 inwoners per km² betekent dat het hier merkbaar rustiger is dan in de dichtbevolkte stadswijken. Dat uit zich in minder lawaai, meer ruimte op voetpaden en een ontspannen sfeer tijdens wandelingen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Blaarmeersen telt 7.807 inwoners verspreid over ruim 4 km², wat resulteert in een bevolkingsdichtheid van 1.826 per km². De mediaanprijs voor een woning ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 7807,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Blaarmeersen? De wijk valt onder postcode 9000, een ruime zone die meerdere Gentse wijken omvat. Filter bij je woningzoekopdracht specifiek op 'Blaarmeersen' om alleen woningen in deze wijk te zien.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-over-de-meersstraat",
+    "gent-bijloke",
+    "gent-assels",
+    "gent-brugse-poort",
+    "gent-aaigem"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:45:00Z",
+    "qualityScore": 88,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen aan de stadsrand met natuur om de hoek — 3 hondenspeelweiden en 17 parken in de buurt",
+        "after": "Wonen in Blaarmeersen aan de Gentse stadsrand: groen, rustig en 3 hondenspeelweiden op wandelafstand",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes betekent dit vooral veel variatie in wandelroutes en voldoende ruimte voor dagelijkse beweging.",
+        "after": "Voor dagelijkse wandelingen en beweging heb je hier meer dan voldoende variatie.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Blaarmeersen is bij uitstek geschikt voor wie prioriteit geeft aan groen en beweging boven stedelijk gemak. Als je dagelijks graag lange wandelingen maakt, houdt van afwisseling in je routes en weinig waarde hecht aan een bruisend winkelaanbod vlakbij, dan zit je hier goed. Voor baasjes die regelmatig snel bij de dierenarts moeten kunnen zijn of die graag meerdere gespecialiseerde dierenwinkels in de buurt hebben, is deze wijk minder ideaal.",
+        "after": "Blaarmeersen is bij uitstek geschikt voor wie prioriteit geeft aan groen en beweging boven stedelijk gemak. Als je dagelijks graag lange wandelingen maakt, houdt van afwisseling in je routes en weinig waarde hecht aan een bruisend winkelaanbod vlakbij, dan zit je hier goed. Minder geschikt als je regelmatig snel bij de dierenarts moet kunnen zijn of als je graag meerdere gespecialiseerde dierenwinkels in de buurt hebt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De combinatie van relatieve rust, veel groen en toch redelijke bereikbaarheid van het stadscentrum maakt Blaarmeersen tot een fijne uitvalsbasis voor actieve baasjes die van ruimte houden.",
+        "after": "De combinatie van relatieve rust, veel groen en toch redelijke bereikbaarheid van het stadscentrum maakt Blaarmeersen tot een fijne uitvalsbasis voor actieve mensen die van ruimte houden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Met 3 hondenspeelweiden, 17 parken en het grote recreatiedomein Blaarmeersen heb je als baasje meer dan voldoende keuze voor wandelingen.",
+        "after": "Met 3 hondenspeelweiden, 17 parken en het grote recreatiedomein Blaarmeersen heb je meer dan voldoende keuze voor wandelingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Dit omheinde terrein heeft grasondergrond en drinkwater — ideaal voor sociale contacten tussen viervoeters.",
+        "after": "Dit omheinde terrein heeft grasondergrond en drinkwater — fijn voor sociale contacten tussen viervoeters.",
+        "reason": "readability"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Blaarmeersen",
+        "after": "Dagelijks leven in Blaarmeersen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Blaarmeersen draait vooral om buitenleven.",
+        "after": "Een typische dag in Blaarmeersen draait vooral om buitenleven.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Het sportieve karakter van de wijk trekt mensen die van beweging houden. Je komt hier regelmatig andere baasjes tegen die lange wandelingen maken of joggen met hun hond — dat zorgt voor een soort informele gemeenschap van actieve buurtbewoners.",
+        "after": "Het sportieve karakter van de wijk trekt mensen die van beweging houden. Je komt hier regelmatig andere buurtbewoners tegen die lange wandelingen maken of joggen — dat zorgt voor een soort informele gemeenschap van actieve bewoners.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 24,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 0,
+      "decisionUsefulnessScore": 0
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:30:00Z",
+    "qualityScore": 92,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 20,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "hondenspeelweiden",
+          "viervoeter",
+          "hond",
+          "baasjes",
+          "wandeling",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "buurtgevoel",
+          "buurtbewoners",
+          "in de buurt (nearby)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 47
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 12,
+        "localTipsFound": [
+          "richting het stadscentrum",
+          "op de Martelaarslaan",
+          "richting de waterkant bij de Schelde",
+          "binnen fietsafstand",
+          "naar het Blaarmeersen-domein"
+        ],
+        "neighborhoodObservations": [
+          "Het buurtgevoel is minder uitgesproken dan in de dichtere stadswijken",
+          "Het sportieve karakter van de wijk",
+          "De focus ligt op beweging en natuur, niet op drukke winkelstraten",
+          "beduidend rustiger dan in het centrum, maar wel levendiger dan echt landelijke gebieden"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.89,
+        "averageSentenceLength": 18.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood",
+          "no train station nearby",
+          "limited supermarket options"
+        ],
+        "gapsHandledGracefully": 4,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

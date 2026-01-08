@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T10:30:00Z",
+  "id": "antwerpen-berchembos",
+  "city": "Antwerpen",
+  "name": "Berchembos",
+  "postalCode": "2600",
+  "subtitle": "Wonen in Berchembos: groene stadswijk met 8 parken binnen handbereik en voorzieningen op loopafstand — Antwerpen",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 10786,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Dichtbevolkt",
+      "icon": "fa-solid fa-people-roof"
+    }
+  ],
+  "intro": "Berchembos is een compacte stadswijk in het oosten van Antwerpen, met een mix van woonstraten en lokale voorzieningen. Met 10.786 inwoners op een beperkte oppervlakte (9.552 inwoners per km²) leef je hier dicht op elkaar, maar de aanwezigheid van 8 parken binnen wandelafstand zorgt voor voldoende groene ademruimte. De wijk heeft een praktische ligging: dierenarts, supermarkt en dierenwinkel liggen allemaal binnen 5 minuten wandelen.\n\nVoor wie houdt van stedelijke dynamiek en toegankelijk groen biedt Berchembos een goede balans. Het dichtstbijzijnde park, Hof van Nauwelaerts, ligt op slechts 3 minuten lopen en is ideaal voor de korte ochtendwandeling. Voor een langere uitstap vind je binnen 10 minuten een omheinde hondenspeelweide waar je hond veilig kan loslopen en socialiseren. De aanwezigheid van meerdere kleinere groene plekken in de buurt geeft je keuze in routes, handig als je dagelijks meerdere wandelingen plant.\n\nDe wijk heeft een duidelijk stedelijk karakter. De hoge bevolkingsdichtheid betekent drukke straten, beperkte parkeermogelijkheden en weinig ruimte voor privacy. Voor wie zoekt naar een rustige, ruim opgezette buurt met veel open ruimte is Berchembos misschien minder geschikt. Maar als je juist houdt van stedelijk gemak — alles op korte afstand, geen auto nodig voor dagelijkse boodschappen, een levendige buurtdynamiek — dan is dit een wijk die goed werkt. De 15 bushaltes zorgen voor uitstekende verbindingen met de rest van Antwerpen, al is er geen treinstation in de directe omgeving.\n\nDe woningmarkt in Berchembos weerspiegelt de Antwerpse realiteit. Met een medianprijs van €353.000 liggen de huizenprijzen op stedelijk niveau, vergelijkbaar met andere Antwerpse wijken in het middensegment. Je deelt de postcode 2600 met meerdere buurten, wat betekent dat je bij het zoeken naar een woning goed moet filteren op straatnaam of wijk. De compacte opzet van de wijk betekent ook dat woningen doorgaans kleiner zijn, met beperkte buitenruimte — iets om rekening mee te houden als je graag een tuin hebt voor je huisdier.\n\nWat Berchembos vooral onderscheidt is de combinatie van bereikbaarheid en groen. Je hebt de voordelen van stedelijk wonen — korte afstanden, goede voorzieningen, veel busverbindingen — zonder volledig opgesloten te zitten in beton. De 8 parken bieden voldoende variatie voor dagelijkse wandelingen, en het feit dat de dichtstbijzijnde dierenarts op 4 minuten ligt en de dierenwinkel Tom & Co op 5 minuten, maakt het praktisch voor wie een huisdier heeft. Voor spoedsituaties hoef je niet ver te zoeken.\n\nDe wijk is geschikt voor wie stedelijke drukte niet schuwt en die de voorkeur geeft aan korte afstanden boven ruimte en rust. Als je elke dag met de auto moet pendelen, kan parkeren hier lastig zijn. En als je ruime losloopgebieden nodig hebt, zul je regelmatig naar de hondenspeelweide buiten de wijk moeten. Maar voor wie gewend is aan stadsleven en waarde hecht aan praktische dagelijkse routines — boodschappen, uitlaten, dierenarts — biedt Berchembos een solide basis. De nabijheid van voorzieningen compenseert de beperkte woonruimte, en het groene karakter zorgt ervoor dat je dagelijkse wandelingen niet alleen over beton gaan.",
+  "coordinates": {
+    "lat": 51.19545237821566,
+    "lon": 4.443154666515923,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheinde speelweide",
+      "detail": "Omheind terrein"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 praktijk in de wijk",
+      "detail": "Eddy Janssens"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co dichtbij",
+      "detail": "Alle benodigdheden"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "8 groene plekken",
+      "detail": "Hof van Nauwelaerts dichtsbij"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Dichtbij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "15 bushaltes",
+      "detail": "Goede verbindingen"
+    }
+  ],
+  "facilities": {
+    "intro": "Berchembos beschikt over een praktisch aanbod aan voorzieningen. Met een dierenarts op 4 minuten wandelen, een dierenwinkel op 5 minuten en een hondenspeelweide binnen 10 minuten lopen heb je de belangrijkste faciliteiten binnen bereik. De 8 parken in de omgeving zorgen voor voldoende variatie in dagelijkse wandelroutes, en de 15 bushaltes maken het makkelijk om verder te reizen zonder auto."
+  },
+  "dogParks": {
+    "intro": "Berchembos heeft één hondenspeelweide binnen wandelafstand, op ongeveer 10 minuten lopen. Het terrein is omheind, wat betekent dat je hond veilig kan loslopen en socialiseren. Het is niet direct naast de deur, maar voor wie dagelijks tijd inplant voor een langere wandeling is het goed te doen. Voor de korte ochtend- of avondwandeling zijn de 8 reguliere parken in de buurt een makkelijker alternatief.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Berchem",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1882027,
+          "lon": 4.4429007
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg zit je goed in Berchembos. Dierenarts Eddy Janssens ligt op slechts 4 minuten wandelen van het centrum van de wijk. Dat betekent dat je bij kleinere kwaaltjes of routinecontroles snel ter plaatse bent. Ook voor spoedgevallen is de korte afstand geruststellend.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Eddy Janssens",
+        "street": "Unknown",
+        "streetNumber": "291",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1930795,
+          "lon": 4.4461398
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor hondenvoeding, speelgoed en andere benodigdheden kun je terecht bij Tom & Co, op 5 minuten wandelen. Dat is ideaal als je snel iets nodig hebt of regelmatig verse voeding wilt halen. Voor wie de voorkeur geeft aan online bestellen is de korte afstand handig voor het ophalen van pakketten of last-minute aankopen.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "5 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1985998,
+          "lon": 4.4397835
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Berchembos",
+    "intro": "Een typische dag in Berchembos draait om korte afstanden en veel keuze in wandelroutes. Je begint de ochtend met een snelle ronde door een van de 8 parken in de buurt — Hof van Nauwelaerts ligt op 3 minuten, ideaal voor een korte uitlaatmoment voor het ontbijt. Boodschappen doe je lopend bij de supermarkt, en als je hondenvoer nodig hebt, loop je in 5 minuten naar Tom & Co. De compacte opzet van de wijk betekent dat je zelden ver hoeft voor dagelijkse behoeften.",
+    "benefits": [
+      "Met 8 parken binnen 10 minuten wandelen heb je elke dag een andere route voor je ochtend- of avondwandeling. Dat voorkomt verveling en zorgt voor voldoende variatie in geuren en prikkels. Hof van Nauwelaerts en Het Prieel zijn de grootste, met schaduwrijke paden en ruimte om even te verpozen op een bankje.",
+      "De dierenarts ligt op 4 minuten wandelen, wat betekent dat je bij plotse zorgen snel ter plaatse kunt zijn zonder stress. Ook voor routinecontroles of vaccinaties is de korte afstand handig — je hoeft geen halve ochtend vrij te nemen. De nabijheid geeft een gevoel van zekerheid, vooral voor wie een ouder huisdier heeft of een ras met gezondheidskwetsbaarheden.",
+      "De hondenspeelweide op 10 minuten lopen is omheind, wat essentieel is als je hond graag los rent maar nog niet perfect luistert bij het terugkomen. Je kunt er ontspannen zitten terwijl energie wordt kwijtgeraakt en andere honden worden ontmoet. Sommigen plannen een vaste dag in de week om hier langere tijd door te brengen, zodat sociale contacten worden onderhouden.",
+      "De 15 bushaltes verspreid over de wijk maken het makkelijk om naar andere delen van Antwerpen te reizen, bijvoorbeeld naar grotere natuurgebieden buiten de stad. Zolang je huisdier gewend is aan openbaar vervoer, biedt dit extra flexibiliteit zonder dat je een auto nodig hebt. Op warme dagen kun je zo makkelijk uitwijken naar een bos of een plek met water.",
+      "De compacte opzet van Berchembos betekent ook dat je andere mensen met huisdieren regelmatig tegenkomt tijdens wandelingen. Dat zorgt voor een informeel netwerk waar je tips kunt uitwisselen over dierenartsen, hondenopvang of leuke wandelroutes. Voor wie nieuw is in de wijk kan dit helpen om snel gewend te raken."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Berchembos is een dichtbevolkte stadswijk met 10.786 inwoners, wat neerkomt op 9.552 inwoners per vierkante kilometer. De mediane woningprijs ligt op €353.000, vergelijkbaar met andere Antwerpse wijken.",
+    "medianPrice": 353000,
+    "inhabitants": 10786,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Berchembos? Houd er rekening mee dat je de postcode 2600 deelt met meerdere wijken in Antwerpen. Filter daarom altijd op wijk of straatnaam om alleen woningen in Berchembos te zien. De woningen zijn doorgaans compacter dan in ruimere wijken, met beperkte buitenruimte.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-cruyslei",
+    "antwerpen-oostkwartier",
+    "antwerpen-hofveld",
+    "antwerpen-de-schom",
+    "antwerpen-boelaerpark-noord"
+  ]
+}

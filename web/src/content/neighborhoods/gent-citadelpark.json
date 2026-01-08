@@ -1,0 +1,375 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:45:00Z",
+  "id": "gent-citadelpark",
+  "city": "Gent",
+  "name": "Citadelpark",
+  "postalCode": "9000",
+  "subtitle": "Wonen naast het groenste park van Gent — stedelijk comfort met cultuur en natuur op loopafstand voor dagelijkse wandelingen",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 12726,
+  "labels": [
+    {
+      "text": "Cultuurwijk",
+      "icon": "fa-solid fa-landmark"
+    },
+    {
+      "text": "Veel groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    }
+  ],
+  "intro": "Citadelpark is een compacte stadswijk in het zuidwesten van Gent, gelegen rond het gelijknamige stadspark dat met zijn 15 hectare het grootste en bekendste groen van de stad is. Met het Museum voor Schone Kunsten en het S.M.A.K. als buren woon je hier tussen cultuur en natuur, op loopafstand van het historische centrum.\n\nDe wijk heeft een bijzondere samenstelling: je vindt er veel woningen rond het park, maar ook enkele lanen met statige herenhuizen en appartementsgebouwen uit verschillende periodes. Met 12.726 inwoners op een relatief klein oppervlak (6.222 inwoners per km²) is het hier behoorlijk stedelijk. Dat merk je vooral in de drukkere lanen zoals de Kortrijksesteenweg, maar zodra je het park inloopt, valt de rust merkbaar in.\n\nVoor wie met een hond woont, biedt Citadelpark een interessante mix. Het grote park zelf is een uitkomst voor de dagelijkse wandeling: 15 parken en groenzones liggen binnen handbereik, waarvan het Citadelpark en Robert Hoozeepark letterlijk voor de deur. Je stapt vanuit je voordeur binnen enkele minuten het groen in. Dat is een groot voordeel in een dichtbevolkte wijk als deze, waar openbare ruimte schaars is. De parken zijn populair bij lokale bewoners voor de ochtend- en avondwandeling, en je ziet vaak groepjes viervoeters samen spelen.\n\nMaar de wijk heeft ook duidelijke beperkingen. Er is geen gespecialiseerde dierenwinkel in de buurt: de dichtstbijzijnde Tom & Co ligt op 16 minuten wandelen aan de Martelaarslaan, net buiten de wijk. Voor dagelijkse benodigdheden kun je terecht bij de 9 supermarkten in de omgeving, die vaak een basisassortiment hebben, maar voor gespecialiseerd voer of speelgoed moet je verder reizen. Ook het veterinaire aanbod is beperkt: er is één dierenarts in de wijk, Dr. Paul Panis aan de Koning Albertlaan, op 10 minuten wandelen. Voor spoedgevallen of gespecialiseerde zorg moet je uitwijken naar praktijken buiten de wijk.\n\nEen andere beperking is het ontbreken van een volwaardige hondenspeelweide. Er is wel één officieel hondenpark op 8 minuten wandelen, maar dat terrein is niet omheind en heeft geen voorzieningen zoals drinkwater. Voor een omheinde speelweide moet je naar een andere wijk uitwijken. Dat gezegd hebbende: met 15 parken op wandelafstand vind je altijd wel een plek voor vrije beweging, zolang je rekening houdt met andere parkgebruikers.\n\nCitadelpark is geschikt voor wie stedelijk comfort zoekt met veel groen binnen handbereik. Je woont hier centraal, met uitstekende bereikbaarheid (75 bushaltes en 1 treinstation), maar je ruilt praktische voorzieningen zoals dierenwinkels en hondenspeelweiden in voor rust en natuur. Als je het niet erg vindt om af en toe iets verder te fietsen voor gespecialiseerde zaken, en als je dagelijkse routine vooral draait om parkwandelingen in plaats van hondenweides, dan vind je hier een fijne plek. Wie juist een actieve hondengemeenschap zoekt met omheinde speelterreinen en dierenwinkels op elke hoek, kijkt beter naar een andere wijk.",
+  "coordinates": {
+    "lat": 51.039198910408345,
+    "lon": 3.722107303986264,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Groen",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "15 parken waaronder Citadelpark",
+      "detail": "Grootste stadspark van Gent"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenpark",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 hondenpark in de buurt",
+      "detail": "Niet omheind"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 dierenarts in de wijk",
+      "detail": "Dr. Paul Panis"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "16 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co net buiten de wijk",
+      "detail": "Martelaarslaan"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "9 supermarkten in de buurt",
+      "detail": "Basisvoorraad voor je hond"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "75 bushaltes + 1 treinstation",
+      "detail": "Uitstekend bereikbaar"
+    }
+  ],
+  "facilities": {
+    "intro": "Citadelpark biedt een sterke basis voor het dagelijks leven, vooral dankzij de 15 parken in de buurt. Voor gespecialiseerde voorzieningen zoals dierenwinkels en hondenspeelweiden moet je buiten de wijk kijken, maar de bereikbaarheid is uitstekend met 75 bushaltes en 1 treinstation die je snel naar andere delen van Gent brengen."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je op 8 minuten wandelen, maar dit terrein is niet omheind en heeft geen voorzieningen zoals drinkwater of een losloopgebied met hekwerk. Voor wie een volwaardige hondenweide zoekt, is dit een beperking. De 15 parken in de wijk, waaronder het uitgestrekte Citadelpark, bieden wel volop ruimte voor wandelingen en sociale ontmoetingen. Veel lokale bewoners gebruiken het Citadelpark als uitlaatgebied, waar vrije beweging mogelijk is (op de aangelijnde zones na). Voor een omheinde hondenweide moet je uitwijken naar andere wijken in Gent.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (onbenoemd)",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.033781,
+          "lon": 3.7181814
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg is er één dierenarts in de wijk: Dr. Paul Panis aan de Koning Albertlaan, op 10 minuten wandelen. Voor spoedgevallen of gespecialiseerde behandelingen moet je uitwijken naar praktijken in andere delen van Gent, zoals de universitaire dierenkliniek of grotere praktijken met meer specialisaties.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr. Paul Panis",
+        "street": "Koning Albertlaan",
+        "streetNumber": "25",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0378647,
+          "lon": 3.7106911
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. De dichtstbijzijnde Tom & Co ligt aan de Martelaarslaan, op 16 minuten wandelen. Voor snelle aankopen zoals basisvoer of snacks kun je terecht bij de 9 supermarkten in de buurt, die vaak een beperkt assortiment hebben. Voor gespecialiseerd voer, speelgoed of verzorgingsproducten is een uitstap naar Tom & Co of andere dierenwinkels in Gent nodig.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "2",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "47 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.025379,
+          "lon": 3.7710589
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Citadelpark",
+    "intro": "Een typische dag in Citadelpark draait vooral om het park. Je stapt 's ochtends de deur uit, loopt binnen twee minuten het Citadelpark in, en begint je wandeling tussen het groen. Je komt andere bewoners tegen, en na een half uur ben je weer thuis. Het park biedt verschillende routes: van korte rondjes voor haastige ochtenden tot lange wandelingen langs de vijver en door de bossen. De bereikbaarheid is uitstekend, maar voor gespecialiseerde voorzieningen moet je verder zoeken.",
+    "benefits": [
+      "Met het Citadelpark letterlijk voor de deur heb je altijd een groene plek voor de ochtendwandeling. De 15 parken in de buurt bieden afwisseling: van het monumentale Citadelpark met vijver en musea tot het kleinere Robert Hoozeepark met schaduwrijke paden. Populaire routes onder lokale bewoners zijn de lus rond de vijver en het pad langs het S.M.A.K., waar je vaak sociale ontmoetingen ziet.",
+      "De bereikbaarheid is een groot pluspunt. Met 75 bushaltes en 1 treinstation binnen handbereik kun je snel naar andere delen van Gent reizen, bijvoorbeeld voor een bezoek aan de dierenarts in een andere wijk of een uitstap naar een grotere dierenwinkel. De centrale ligging maakt dat je snel overal bent, zonder afhankelijk te zijn van de auto.",
+      "Hoewel er geen omheinde hondenspeelweide is, vormt het Citadelpark een sociale ontmoetingsplek. Je ziet vaak dezelfde gezichten tijdens de ochtend- en avondwandelingen, wat een gevoel van gemeenschap creëert. Voor wie sociaal contact zoekt, is dit een voordeel. Let wel op de regels: in sommige zones is aanlijnplicht van kracht.",
+      "De 9 supermarkten in de buurt zijn handig voor snelle aankopen van basisproducten zoals voer of snacks. De meeste supermarkten hebben een beperkt assortiment, maar voor de dagelijkse routine is dit voldoende. Voor gespecialiseerd voer of speelgoed moet je naar Tom & Co op 16 minuten wandelen, of verder.",
+      "De wijk is compact, waardoor je veel voorzieningen zoals scholen, apotheken en winkels op loopafstand hebt. Dit maakt het dagelijks leven praktisch, vooral als je korte uitstapjes maakt. De stedelijke sfeer betekent wel dat je rekening moet houden met drukte, vooral in de hoofdstraten.",
+      "Met één dierenarts in de wijk (Dr. Paul Panis op 10 minuten wandelen) heb je een vaste aanspreekpunt voor routinecontroles en vaccinaties. Voor spoedgevallen of gespecialiseerde zorg moet je uitwijken naar andere praktijken in Gent, wat met de goede bereikbaarheid geen groot probleem hoeft te zijn."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als bewoner in deze wijk en help andere mensen de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Citadelpark is een middelgrote wijk met 12.726 inwoners en een relatief hoge bevolkingsdichtheid van 6.222 inwoners per km². De mediane huizenprijs ligt op €353.000 (gemeente Gent, 2024).",
+    "medianPrice": 353000,
+    "inhabitants": 12726,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Citadelpark? De wijk deelt postcode 9000 met andere delen van Gent, dus filter bij je woningzoekopdracht op de wijknaam of specifieke straten rond het Citadelpark om alleen woningen in dit gebied te zien.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-brusselse-poort",
+    "gent-aaigem",
+    "gent-bijloke",
+    "gent-belle-vue",
+    "gent-heernis"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:45:00Z",
+    "qualityScore": 94,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen naast het groenste park van Gent — stedelijk comfort met cultuur en natuur op loopafstand",
+        "after": "Wonen naast het groenste park van Gent — stedelijk comfort met cultuur en natuur op loopafstand voor dagelijkse wandelingen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt Citadelpark een interessante mix. Het grote park zelf is een uitkomst voor de dagelijkse wandeling: 15 parken en groenzones liggen binnen handbereik, waarvan het Citadelpark en Robert Hoozeepark letterlijk voor de deur. Je stapt vanuit je voordeur binnen enkele minuten het groen in. Dat is een groot voordeel in een dichtbevolkte wijk als deze, waar openbare ruimte schaars is. De parken zijn populair bij lokale baasjes voor de ochtend- en avondwandeling, en je ziet vaak groepjes viervoeters samen spelen.",
+        "after": "Voor wie met een hond woont, biedt Citadelpark een interessante mix. Het grote park zelf is een uitkomst voor de dagelijkse wandeling: 15 parken en groenzones liggen binnen handbereik, waarvan het Citadelpark en Robert Hoozeepark letterlijk voor de deur. Je stapt vanuit je voordeur binnen enkele minuten het groen in. Dat is een groot voordeel in een dichtbevolkte wijk als deze, waar openbare ruimte schaars is. De parken zijn populair bij lokale bewoners voor de ochtend- en avondwandeling, en je ziet vaak groepjes viervoeters samen spelen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Citadelpark is geschikt voor baasjes die stedelijk comfort zoek zijn met veel groen binnen handbereik.",
+        "after": "Citadelpark is geschikt voor wie stedelijk comfort zoekt met veel groen binnen handbereik.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Citadelpark biedt een sterke basis voor het dagelijks leven met je hond, vooral dankzij de 15 parken in de buurt. Voor gespecialiseerde voorzieningen zoals dierenwinkels en hondenspeelweiden moet je buiten de wijk kijken, maar de bereikbaarheid is uitstekend met 75 bushaltes en 1 treinstation.",
+        "after": "Citadelpark biedt een sterke basis voor het dagelijks leven, vooral dankzij de 15 parken in de buurt. Voor gespecialiseerde voorzieningen zoals dierenwinkels en hondenspeelweiden moet je buiten de wijk kijken, maar de bereikbaarheid is uitstekend met 75 bushaltes en 1 treinstation die je snel naar andere delen van Gent brengen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Een officiële hondenspeelweide vind je op 8 minuten wandelen, maar dit terrein is niet omheind en heeft geen voorzieningen zoals drinkwater of een losloopgebied met hekwerk. Voor baasjes die een volwaardige hondenweide zoeken, is dit een beperking. De 15 parken in de wijk, waaronder het uitgestrekte Citadelpark, bieden wel volop ruimte voor wandelingen en sociale ontmoetingen met andere honden. Veel lokale baasjes gebruiken het Citadelpark als uitlaatgebied, waar je hond vrij kan bewegen (op de aangelijnde zones na). Voor een omheinde hondenweide moet je uitwijken naar andere wijken in Gent.",
+        "after": "Een officiële hondenspeelweide vind je op 8 minuten wandelen, maar dit terrein is niet omheind en heeft geen voorzieningen zoals drinkwater of een losloopgebied met hekwerk. Voor wie een volwaardige hondenweide zoekt, is dit een beperking. De 15 parken in de wijk, waaronder het uitgestrekte Citadelpark, bieden wel volop ruimte voor wandelingen en sociale ontmoetingen. Veel lokale bewoners gebruiken het Citadelpark als uitlaatgebied, waar vrije beweging mogelijk is (op de aangelijnde zones na). Voor een omheinde hondenweide moet je uitwijken naar andere wijken in Gent.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Citadelpark",
+        "after": "Dagelijks leven in Citadelpark",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Citadelpark draait vooral om het park. Je stapt 's ochtends de deur uit, loopt binnen twee minuten het Citadelpark in, en begint je wandeling tussen het groen. Je komt andere baasjes tegen, je hond speelt met bekende viervoeters, en na een half uur ben je weer thuis. Het park biedt verschillende routes: van korte rondjes voor haastige ochtenden tot lange wandelingen langs de vijver en door de bossen. De bereikbaarheid is uitstekend, maar voor gespecialiseerde voorzieningen moet je verder zoeken.",
+        "after": "Een typische dag in Citadelpark draait vooral om het park. Je stapt 's ochtends de deur uit, loopt binnen twee minuten het Citadelpark in, en begint je wandeling tussen het groen. Je komt andere bewoners tegen, en na een half uur ben je weer thuis. Het park biedt verschillende routes: van korte rondjes voor haastige ochtenden tot lange wandelingen langs de vijver en door de bossen. De bereikbaarheid is uitstekend, maar voor gespecialiseerde voorzieningen moet je verder zoeken.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met het Citadelpark letterlijk voor de deur heb je altijd een groene plek voor de ochtendwandeling. De 15 parken in de buurt bieden afwisseling: van het monumentale Citadelpark met vijver en musea tot het kleinere Robert Hoozeepark met schaduwrijke paden. Populaire routes onder lokale baasjes zijn de lus rond de vijver en het pad langs het S.M.A.K., waar je vaak groepjes honden samen ziet spelen.",
+        "after": "Met het Citadelpark letterlijk voor de deur heb je altijd een groene plek voor de ochtendwandeling. De 15 parken in de buurt bieden afwisseling: van het monumentale Citadelpark met vijver en musea tot het kleinere Robert Hoozeepark met schaduwrijke paden. Populaire routes onder lokale bewoners zijn de lus rond de vijver en het pad langs het S.M.A.K., waar je vaak sociale ontmoetingen ziet.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Hoewel er geen omheinde hondenspeelweide is, vormt het Citadelpark een sociale ontmoetingsplek voor baasjes. Je ziet vaak dezelfde gezichten tijdens de ochtend- en avondwandelingen, wat een gevoel van gemeenschap creëert. Voor baasjes die sociaal contact zoeken, is dit een voordeel. Let wel op de regels: in sommige zones is aanlijnplicht van kracht.",
+        "after": "Hoewel er geen omheinde hondenspeelweide is, vormt het Citadelpark een sociale ontmoetingsplek. Je ziet vaak dezelfde gezichten tijdens de ochtend- en avondwandelingen, wat een gevoel van gemeenschap creëert. Voor wie sociaal contact zoekt, is dit een voordeel. Let wel op de regels: in sommige zones is aanlijnplicht van kracht.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De 9 supermarkten in de buurt zijn handig voor snelle aankopen van basisproducten zoals hondenvoer of snacks. De meeste supermarkten hebben een beperkt assortiment, maar voor de dagelijkse routine is dit voldoende. Voor gespecialiseerd voer of speelgoed moet je naar Tom & Co op 16 minuten wandelen, of verder.",
+        "after": "De 9 supermarkten in de buurt zijn handig voor snelle aankopen van basisproducten zoals voer of snacks. De meeste supermarkten hebben een beperkt assortiment, maar voor de dagelijkse routine is dit voldoende. Voor gespecialiseerd voer of speelgoed moet je naar Tom & Co op 16 minuten wandelen, of verder.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De wijk is compact, waardoor je veel voorzieningen zoals scholen, apotheken en winkels op loopafstand hebt. Dit maakt het dagelijks leven praktisch, vooral als je je hond meeneemt op korte uitstapjes. De stedelijke sfeer betekent wel dat je rekening moet houden met drukte, vooral in de hoofdstraten.",
+        "after": "De wijk is compact, waardoor je veel voorzieningen zoals scholen, apotheken en winkels op loopafstand hebt. Dit maakt het dagelijks leven praktisch, vooral als je korte uitstapjes maakt. De stedelijke sfeer betekent wel dat je rekening moet houden met drukte, vooral in de hoofdstraten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als bewoner in deze wijk en help andere mensen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 25,
+      "keywordScore": 20,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:30:00Z",
+    "qualityScore": 100,
+    "passedBrand": true,
+    "changesLog": [],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 30,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 20,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [],
+        "preferredTermsPresent": [
+          "wijk",
+          "viervoeter",
+          "hond",
+          "wandeling",
+          "hondenspeelweide",
+          "hondenpark",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (nearby context)",
+          "de juiste buurt te vinden (allowed phrase)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 47
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "zodra je het park inloopt",
+          "richting de waterkant bij de Schelde",
+          "de lus rond de vijver",
+          "het pad langs het S.M.A.K.",
+          "via de Dendermondsesteenweg"
+        ],
+        "neighborhoodObservations": [
+          "de drukte betekent ook meer verkeer",
+          "de levendige sfeer rond de Dendermondsesteenweg",
+          "binnen enkele minuten het groen in",
+          "de rustige paden"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.8,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no specialized pet store in neighborhood",
+          "no enclosed dog park",
+          "limited veterinary options (only 1 practice)"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

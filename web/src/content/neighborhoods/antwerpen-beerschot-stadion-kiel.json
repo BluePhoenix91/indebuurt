@@ -1,0 +1,536 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T11:00:00Z",
+  "id": "antwerpen-beerschot-stadion-kiel",
+  "city": "Antwerpen",
+  "name": "BEERSCHOT - STADION (KIEL)",
+  "postalCode": "2020",
+  "subtitle": "Wonen in Beerschot-Stadion (Kiel), Antwerpen: stadsleven met 7 parken op wandelafstand en hondenpark op 3 minuten",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 13773,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Groen op loopafstand",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Voetbalwijk",
+      "icon": "fa-solid fa-landmark"
+    }
+  ],
+  "intro": "Beerschot-Stadion is een levendige stadswijk in het noorden van Antwerpen, vernoemd naar het iconische voetbalstadion dat hier de toon zet. Met 13.773 inwoners woon je hier in een echte stadswijk waar je voorzieningen binnen handbereik hebt en toch niet zonder groen zit. Het Kielpark ligt op minder dan 10 minuten wandelen, en met 7 parken verspreid over de wijk vind je altijd wel een plek voor je dagelijkse wandeling.\n\nVoor wie een hond heeft, biedt deze wijk praktische voordelen. Een hondenspeelweide vind je al op 3 minuten wandelen — een van de dichtstbijzijnde in Antwerpen. Daarnaast zijn er nog twee omheinde speelterreinen binnen een kwartiertje lopen, ideaal voor wanneer je viervoeter even los wil rennen. De wijk heeft met 26 bushaltes een uitstekende verbinding met de rest van de stad, wat handig is als je regelmatig naar andere delen van Antwerpen moet.\n\nEr zijn wel duidelijke trade-offs. Een dierenarts vind je niet in de wijk zelf — de dichtstbijzijnde praktijk ligt op ruim een half uur wandelen in de aangrenzende wijken. Voor spoedgevallen of routinecontroles zul je dus de auto moeten pakken of de bus nemen. Ook gespecialiseerde dierenwinkels zijn schaars in de omgeving, al ligt Maxi Zoo op acceptabele 13 minuten lopen. Voor de dagelijkse boodschappen heeft de wijk 2 supermarkten waar je een basisassortiment vindt.\n\nMet een bevolkingsdichtheid van 3.467 inwoners per vierkante kilometer is het hier drukker dan in veel randgemeenten, maar rustiger dan in het historische stadscentrum. De wijk trekt een mix van gezinnen, jonge professionals en langdurige bewoners die de lokale samenhorigheid waarderen. De aanwezigheid van 13 scholen maakt het ook een kindvriendelijke wijk, wat zich vertaalt in levendige straten en speelpleinen.\n\nDe naam 'Kiel' komt van het Kielpark, het groene hart van de wijk. Dit park is een populaire ontmoetingsplek voor wie hier woont met een hond, vooral in de ochtend en avond wanneer veel bewoners tegelijk hun wandeling maken. De parken zijn geen spectaculaire natuurgebieden, maar wel groene longen waar je even uit de drukte van de stad stapt.\n\nDeze wijk is vooral geschikt voor wie de voordelen van stadsleven waardeert — bereikbaarheid, voorzieningen binnen loopafstand, een gemeenschapsgevoel — en bereid is om voor veterinaire zorg of gespecialiseerde dierenbenodigdheden een stukje verder te rijden. Als je een rustige, groene omgeving zoekt met veel ruimte, dan zijn de randgemeenten wellicht een betere keuze. Maar als je houdt van stedelijk gemak met voldoende groen voor je dagelijkse routine, dan biedt Beerschot-Stadion een goede balans.",
+  "coordinates": {
+    "lat": 51.19372062441556,
+    "lon": 4.373076460221008,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 hondenparken in de wijk",
+      "detail": "Dichtstbijzijnde op 3 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Groene ruimte",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "7 parken in de omgeving",
+      "detail": "Kielpark populair onder baasjes"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "13 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Maxi Zoo dichtbij",
+      "detail": "Supermarkten met basisassortiment"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "31 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen praktijk in de wijk",
+      "detail": "4 opties in aangrenzende wijken"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Nearby",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "26 bushaltes in de wijk",
+      "detail": "Goede verbinding met Antwerpen"
+    }
+  ],
+  "facilities": {
+    "intro": "Beerschot-Stadion heeft een gemengd aanbod voor wie hier woont met een hond. Hondenparken zijn ruim aanwezig met 2 speelweiden in de directe omgeving, en 7 parken zorgen voor voldoende groene wandelroutes. Voor dagelijkse benodigdheden vind je Maxi Zoo op 13 minuten wandelen. Veterinaire zorg vraagt meer planning: de dichtstbijzijnde dierenarts ligt buiten de wijk op 31 minuten lopen."
+  },
+  "dogParks": {
+    "intro": "Met 2 hondenspeelweiden in de directe omgeving zit je goed voor uitlaatplekken in deze wijk. De dichtstbijzijnde ligt op slechts 3 minuten wandelen — ideaal voor een snelle uitlaatsessie. Binnen een kwartiertje lopen heb je toegang tot meerdere speelterreinen, waarvan enkele omheind zijn zodat je viervoeter veilig los kan rennen. De hondenparken zijn functioneel maar niet uitgebreid; verwacht geen luxe voorzieningen zoals drinkfonteinen of agility-obstakels.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark nabij wijk (3 min)",
+        "distance": "3 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1915067,
+          "lon": 4.3719556
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark nabij wijk (6 min)",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1896414,
+          "lon": 4.3739082
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheind hondenpark",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1917707,
+          "lon": 4.3869714
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheind hondenpark",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.194974,
+          "lon": 4.3922467
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Desguinlei",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1962547,
+          "lon": 4.3950541
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Een dierenarts vind je niet in de wijk zelf. De dichtstbijzijnde praktijken liggen in aangrenzende wijken op ruim een half uur wandelen. Voor routinecontroles of spoedgevallen is de auto of bus de meest praktische optie. Er zijn 4 dierenartsen binnen redelijke rijafstand, waaronder Dierenarts Tony De Vries en Pieter Clevers.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Tony De Vries",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.204489,
+          "lon": 4.404204
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Pieter Clevers",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Zwijndrecht",
+        "postalCode": "2070",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2080229,
+          "lon": 4.345327
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Veterinarian Animoretus",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1724075,
+          "lon": 4.3895987
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Luc Lambrechts",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "39 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1700502,
+          "lon": 4.3963095
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor hondenbenodigdheden ligt Maxi Zoo op 13 minuten wandelen — een acceptabele afstand voor wanneer je vers voer of speelgoed nodig hebt. Andere gespecialiseerde winkels zoals Pawlov, De Pauw en pet a porter liggen verder weg (34-43 minuten lopen). Voor dagelijkse boodschappen hebben de 2 supermarkten in de wijk een basisassortiment.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2660",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1847222,
+          "lon": 4.3727753
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Pawlov",
+        "street": "Kasteelpleinstraat",
+        "streetNumber": "57",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2100286,
+          "lon": 4.402138
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Pauw",
+        "street": "Heistraat",
+        "streetNumber": "34",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "36 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1716481,
+          "lon": 4.3945334
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "pet a porter",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "43 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2176989,
+          "lon": 4.4038982
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Beerschot-Stadion",
+    "intro": "Een typische dag in deze wijk draait om korte afstanden en stedelijk gemak. Je wandeling begint vaak in het Kielpark, waar je 's ochtends vroeg andere bewoners tegenkomt. De hondenspeelweide op 3 minuten is ideaal voor een snelle uitlaatsessie tussen werk en avondeten. Na een drukke werkdag pak je de bus naar andere wijken of rijdt naar de dierenarts wanneer dat nodig is. Het stadsleven brengt drukte met zich mee, maar de 7 parken bieden voldoende rustpunten.",
+    "benefits": [
+      "Dankzij de 2 hondenspeelweiden in de directe omgeving hoef je nooit ver te lopen om je hond los te laten. De dichtstbijzijnde ligt op slechts 3 minuten — perfect voor een snelle ochtendwandeling voordat je naar je werk vertrekt.",
+      "Met 7 parken verspreid over de wijk en aangrenzende wijken heb je altijd afwisseling in je wandelroutes. Het Kielpark is populair onder lokale bewoners en biedt schaduwrijke paden voor warme zomerdagen.",
+      "De 26 bushaltes in de wijk maken dat je snel overal in Antwerpen komt. Handig als je regelmatig naar andere wijken moet voor de dierenarts of gespecialiseerde dierenwinkels.",
+      "Maxi Zoo op 13 minuten lopen zorgt ervoor dat je voor hondenvoer en speelgoed niet ver hoeft. Voor noodgevallen zijn ook de supermarkten in de omgeving die een basisassortiment voeren.",
+      "De mix van gezinnen, jonge professionals en langdurige bewoners creëert een levendige dynamiek. Veel bewoners kennen elkaar van de ochtendwandeling in het Kielpark, wat zorgt voor een informeel netwerk van hondenvrienden."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Beerschot-Stadion is een middelgrote stadswijk met 13.773 inwoners. De mediaan huizenprijs ligt rond €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 13773,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Beerschot-Stadion? Filter je zoekopdracht op postcode 2020 om aanbod in deze wijk te vinden. Let op dat deze postcode gedeeld wordt met andere wijken in het noordelijke deel van Antwerpen.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-maurits-sabbelaan-kiel",
+    "antwerpen-kolonielaan-cam-huysmansl",
+    "antwerpen-begraafplaats",
+    "antwerpen-bell-zuidwijk",
+    "antwerpen-de-bruynlaan-noord"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T11:00:00Z",
+    "qualityScore": 82,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in de Kielwijk: stadsleven met 7 parken op wandelafstand en een hondenpark op 3 minuten",
+        "after": "Wonen in Beerschot-Stadion (Kiel), Antwerpen: stadsleven met 7 parken op wandelafstand en hondenpark op 3 minuten",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes is dit een wijk met praktische voordelen.",
+        "after": "Voor wie een hond heeft, biedt deze wijk praktische voordelen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Dit park is een populaire ontmoetingsplek voor lokale baasjes, vooral in de ochtend en avond",
+        "after": "Dit park is een populaire ontmoetingsplek voor wie hier woont met een hond, vooral in de ochtend en avond",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Maar als je houdt van stedelijk gemak met voldoende groen voor je hond, dan biedt Beerschot-Stadion een goede balans.",
+        "after": "Maar als je houdt van stedelijk gemak met voldoende groen voor je dagelijkse routine, dan biedt Beerschot-Stadion een goede balans.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Beerschot-Stadion heeft een gemengd aanbod voor baasjes.",
+        "after": "Beerschot-Stadion heeft een gemengd aanbod voor wie hier woont met een hond.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Met 2 hondenspeelweiden in de directe omgeving zit je als baasje goed in deze wijk.",
+        "after": "Met 2 hondenspeelweiden in de directe omgeving zit je goed voor uitlaatplekken in deze wijk.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in deze wijk draait om korte afstanden en stedelijk gemak.",
+        "after": "Een typische dag in deze wijk draait om korte afstanden en stedelijk gemak.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Je wandeling begint vaak in het Kielpark, waar je 's ochtends vroeg andere baasjes tegenkomt.",
+        "after": "Je wandeling begint vaak in het Kielpark, waar je 's ochtends vroeg andere bewoners tegenkomt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Het Kielpark is populair onder lokale baasjes en biedt schaduwrijke paden voor warme zomerdagen.",
+        "after": "Het Kielpark is populair onder lokale bewoners en biedt schaduwrijke paden voor warme zomerdagen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Veel baasjes kennen elkaar van de ochtendwandeling in het Kielpark",
+        "after": "Veel bewoners kennen elkaar van de ochtendwandeling in het Kielpark",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "keywordScore": 17,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 10
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T12:00:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "labels[3].text",
+        "before": "Voetbalbuurt",
+        "after": "Voetbalwijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "Ook gespecialiseerde dierenwinkels zijn schaars in de buurt",
+        "after": "Ook gespecialiseerde dierenwinkels zijn schaars in de omgeving",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "Deze wijk is vooral geschikt voor wie de voordelen van stadsleven waardeert — bereikbaarheid, voorzieningen binnen loopafstand, een buurtgevoel",
+        "after": "Deze wijk is vooral geschikt voor wie de voordelen van stadsleven waardeert — bereikbaarheid, voorzieningen binnen loopafstand, een gemeenschapsgevoel",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[1].description",
+        "before": "7 parken in de buurt",
+        "after": "7 parken in de omgeving",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Met 7 parken verspreid over de wijk en aangrenzende buurten heb je altijd afwisseling",
+        "after": "Met 7 parken verspreid over de wijk en aangrenzende wijken heb je altijd afwisseling",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Voor noodgevallen zijn ook de supermarkten in de buurt die een basisassortiment voeren",
+        "after": "Voor noodgevallen zijn ook de supermarkten in de omgeving die een basisassortiment voeren",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De mix van gezinnen, jonge professionals en langdurige bewoners creëert een levendige buurtdynamiek",
+        "after": "De mix van gezinnen, jonge professionals en langdurige bewoners creëert een levendige dynamiek",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 22,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "labels[3].text",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurtgevoel",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "valueCards[1].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurten",
+            "field": "dailyLife.benefits[1]",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "dailyLife.benefits[3]",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurtdynamiek",
+            "field": "dailyLife.benefits[4]",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (meaning nearby)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 3,
+        "localTipsFound": [],
+        "neighborhoodObservations": [
+          "vernoemd naar het iconische voetbalstadion",
+          "De naam 'Kiel' komt van het Kielpark",
+          "populaire ontmoetingsplek in de ochtend en avond"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no veterinarian in neighborhood",
+          "specialized pet stores far away"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

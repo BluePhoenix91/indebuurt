@@ -43,6 +43,7 @@
       "mcp__pipeline__describe_table",
       "Bash(dir:*)",
       "Write(agents/pipeline-outputs/**)",
+      "Write(agents/**)",
       "Write(**/agents/pipeline-outputs/**)",
       "Write(web/src/content/neighborhoods/**)",
       "Write(**/web/src/content/neighborhoods/**)",
@@ -52,9 +53,5 @@
     "ask": []
   },
   "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": [
-    "gis",
-    "pipeline",
-    "astro-docs"
-  ]
+  "enabledMcpjsonServers": ["gis", "pipeline", "astro-docs"]
 }

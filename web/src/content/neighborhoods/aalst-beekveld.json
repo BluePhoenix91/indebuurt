@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-06T15:30:00Z",
+  "id": "aalst-beekveld",
+  "city": "Aalst",
+  "name": "Beekveld",
+  "postalCode": "9300",
+  "subtitle": "Wonen in Beekveld, Aalst: rustige woonwijk met groene pleinen op loopafstand — betaalbaar en praktisch voor je dagelijkse routine",
+  "dateAdded": "2026-01-06",
+  "inhabitants": 2943,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Betaalbaar",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "Beekveld is een rustige woonwijk aan de rand van Aalst, waar je rust vindt zonder ver van de stad te zijn. Met bijna 3.000 inwoners en een lage bebouwingsdichtheid woon je hier tussen gezinnen en langdurige bewoners die de wijk goed kennen. De sfeer is residentieel en kalm — je vindt hier geen drukke winkelstraten of uitgaansleven, maar wel groene pleinen op wandelafstand en voldoende ruimte voor je dagelijkse routine met je hond.\n\nWat voorzieningen betreft moet je in Beekveld realistisch zijn. Een officiële hondenspeelweide met omheining vind je niet in de wijk, al zijn er wel twee speelweiden in de nabije omgeving waar honden los mogen lopen — beide zonder omheining en op ongeveer 12 tot 16 minuten wandelen. Voor de gewone ochtendwandeling heb je drie parken binnen bereik, waarvan het dichtstbijzijnde op slechts 4 minuten ligt. Dierenarts De Mey zit op 8 minuten wandelen in de Sint Jobstraat, wat praktisch is voor controles en noodgevallen. Voor hondenvoeding en benodigdheden moet je iets verder: Tom & Co op de Geraardsbergsestraat ligt op 18 minuten te voet, Maxi Zoo aan de Gentse steenweg op 20 minuten.\n\nDe beperkte voorzieningen binnen de wijk zelf zijn de keerzijde van het rustige karakter. Als je een hond hebt die veel sociale interactie met andere honden nodig heeft, of als je graag binnen 5 minuten bij een omheinde speelplek wilt zijn, dan is Beekveld misschien niet de beste keuze. Voor wie eerder zoekt naar een rustige uitvalsbasis met groene wandelroutes en betaalbare woningen — de mediane prijs ligt op €265.000 — past deze wijk wel goed. De combinatie van rust, ruimte en betaalbaarheid trekt vooral gezinnen en mensen die hun dagelijkse routine graag voorspelbaar en overzichtelijk houden.\n\nWat Beekveld ook interessant maakt, is de nabijheid van andere wijken met meer voorzieningen. Het centrum van Aalst ligt op korte rijafstand, en buurtwijk Maal — op minder dan 10 minuten wandelen — biedt aanvullende winkels en horecagelegenheden. Je woont hier dus rustig, maar niet geïsoleerd. Voor de dagelijkse wandeling met je hond betekent dat: groene routes in de wijk zelf, voorzieningen op korte afstand, en de stad binnen handbereik wanneer je die nodig hebt. Praktisch voor wie rust en betaalbaarheid zoekt zonder volledig buiten de stad te willen wonen.",
+  "coordinates": {
+    "lat": 50.933685107132725,
+    "lon": 4.0188560783636085,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 parken voor wandelingen",
+      "detail": "Dichtstbijzijnde op 4 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 praktijk in de wijk",
+      "detail": "Dierenarts De Mey"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "12 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 speelweiden nabij",
+      "detail": "Niet omheind"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "18 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co en Maxi Zoo",
+      "detail": "Beide buiten de wijk"
+    }
+  ],
+  "facilities": {
+    "intro": "Beekveld biedt een beperkt maar functioneel aanbod aan voorzieningen voor wie met een hond woont. De basis is aanwezig: een dierenarts op 8 minuten, groene pleinen voor wandelingen, en dierenwinkels op iets grotere afstand. Voor een rustige woonwijk met lage bebouwingsdichtheid is dat een realistische opzet — je vindt hier geen overvloed aan voorzieningen, maar wel wat je nodig hebt voor je dagelijkse routine."
+  },
+  "dogParks": {
+    "intro": "Een omheinde hondenspeelweide vind je niet in Beekveld zelf. Er zijn wel twee speelweiden waar honden los mogen lopen in de nabije omgeving, beide op 12 tot 16 minuten wandelen. Ze zijn niet omheind, wat betekent dat je hond goed moet luisteren voor je hem of haar vrijlaat. Voor de dagelijkse wandeling zijn de drie parken in de wijk een praktisch alternatief — het dichtstbijzijnde ligt op slechts 4 minuten, goed voor een snelle ochtend- of avondwandeling.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (onbekend)",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9350663,
+          "lon": 4.0328311
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (onbekend)",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9447523,
+          "lon": 4.0210659
+        },
+        "features": [
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg vind je dierenarts De Mey op 8 minuten wandelen in de Sint Jobstraat. Met slechts één praktijk in de directe omgeving is het handig om een vaste relatie op te bouwen en het telefoonnummer bij de hand te hebben. Voor spoedgevallen buiten openingstijden moet je uitwijken naar een dierenartsenpraktijk in Aalst centrum of omgeving.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Mey",
+        "street": "Sint Jobstraat",
+        "streetNumber": "260",
+        "municipality": "Aalst",
+        "postalCode": "9300",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9313446,
+          "lon": 4.027274
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een dierenwinkel in de wijk zelf is er niet. Tom & Co op de Geraardsbergsestraat ligt op 18 minuten te voet, Maxi Zoo aan de Gentse steenweg op 20 minuten. Voor wie met de auto rijdt is dat natuurlijk snel gepiept, maar te voet vraagt het wat planning. De supermarkt in de wijk heeft vaak een basisassortiment hondenvoer en snacks voor de dagelijkse nood.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Geraardsbergsestraat",
+        "streetNumber": "260A",
+        "municipality": "Aalst",
+        "postalCode": "9300",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9266741,
+          "lon": 4.0359197
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Gentse steenweg",
+        "streetNumber": "327",
+        "municipality": "Aalst",
+        "postalCode": "9300",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9419909,
+          "lon": 4.00041
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Beekveld",
+    "intro": "Een typische dag in Beekveld draait om rust en routine. Je wandelt 's ochtends naar het dichtstbijzijnde park op 4 minuten, je hond snuffelt tussen de struiken, je groet andere bewoners die je na een tijdje herkent. Na het werk een langere ronde door de wijk, eventueel richting een van de speelweiden als je zin hebt in een uitgebreidere tocht. Het is een voorspelbare, rustige levensstijl zonder grote verrassingen — en dat is precies wat veel bewoners hier zoeken.",
+    "benefits": [
+      "Met drie parken binnen 15 minuten wandelen heb je altijd een groene plek voor de dagelijkse wandeling, ook als het weer tegenzit of je weinig tijd hebt.",
+      "De rustige straten en lage bebouwingsdichtheid maken dat je hond niet constant prikkels krijgt van voorbijgangers, auto's of andere honden — fijn voor gevoelige of oudere honden.",
+      "Dierenarts De Mey ligt op 8 minuten wandelen, praktisch genoeg voor reguliere controles en vaccinaties zonder dat je de auto moet nemen.",
+      "De twee hondenspeelweiden op 12 en 16 minuten zijn niet omheind, maar bieden wel ruimte voor honden die goed luisteren en graag los lopen.",
+      "Met een mediane huizenprijs van €265.000 is Beekveld betaalbaarder dan veel andere wijken in de regio — wat betekent dat je meer ruimte en een tuin kunt betalen voor je budget."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Beekveld is een kleine woonwijk met bijna 3.000 inwoners en een relatief lage bebouwingsdichtheid. De mediane huizenprijs ligt op €265.000, wat de wijk toegankelijker maakt voor kopers die rust en ruimte zoeken.",
+    "medianPrice": 265000,
+    "inhabitants": 2943,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Beekveld? De postcode 9300 dekt meerdere wijken in Aalst, dus filter bij je zoektocht op de wijknaam of kijk op de kaart welke straten tot Beekveld behoren.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "aalst-maal",
+    "aalst-ajuinkouter",
+    "aalst-duivekeet",
+    "aalst-onegem",
+    "aalst-aalst-station"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-06T14:55:00Z",
+    "qualityScore": 85,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige woonwijk met groene pleinen op loopafstand — betaalbaar en praktisch voor je dagelijkse routine",
+        "after": "Wonen in Beekveld, Aalst: rustige woonwijk met groene pleinen op loopafstand — betaalbaar en praktisch voor je dagelijkse routine",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Je woont hier dus rustig, maar niet geïsoleerd. Als baasje betekent dat: groene wandelingen in de wijk zelf, voorzieningen op korte afstand, en de stad binnen handbereik wanneer je die nodig hebt.",
+        "after": "Je woont hier dus rustig, maar niet geïsoleerd. Voor de dagelijkse wandeling met je hond betekent dat: groene routes in de wijk zelf, voorzieningen op korte afstand, en de stad binnen handbereik wanneer je die nodig hebt. Praktisch voor wie rust en betaalbaarheid zoekt zonder volledig buiten de stad te willen wonen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Beekveld biedt een beperkt maar functioneel aanbod aan voorzieningen voor baasjes.",
+        "after": "Beekveld biedt een beperkt maar functioneel aanbod aan voorzieningen voor wie met een hond woont.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Beekveld draait om rust en routine.",
+        "after": "Een typische dag in Beekveld draait om rust en routine.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "neighboringNeighborhoods",
+        "issue": "Database unavailable for link validation - could not verify neighborhood IDs",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 24,
+      "topicCoverageScore": 18,
+      "sectionIntrosScore": 10,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 0
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-06T15:30:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 24,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "buurtwijk Maal (intro paragraph 4)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 8,
+        "localTipsFound": [
+          "richting een van de speelweiden",
+          "buurtwijk Maal — op minder dan 10 minuten wandelen"
+        ],
+        "neighborhoodObservations": [
+          "residentieel en kalm",
+          "geen drukke winkelstraten of uitgaansleven",
+          "lage bebouwingsdichtheid",
+          "voorspelbare, rustige levensstijl zonder grote verrassingen"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.84,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no enclosed dog park in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

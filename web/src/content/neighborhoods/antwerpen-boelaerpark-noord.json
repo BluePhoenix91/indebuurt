@@ -1,0 +1,527 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T12:30:00Z",
+  "id": "antwerpen-boelaerpark-noord",
+  "city": "Antwerpen",
+  "name": "BOELAERPARK-NOORD",
+  "postalCode": "2140",
+  "subtitle": "Wonen in Boelaerpark-Noord: compacte stadswijk met groen op wandelafstand en 5 hondenparken binnen bereik — Antwerpen",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 8947,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Woonwijk",
+      "icon": "fa-solid fa-house-chimney"
+    }
+  ],
+  "intro": "Boelaerpark-Noord is een compacte, dichtbevolkte woonwijk in het noordoosten van Antwerpen. Met bijna 9.000 inwoners op een klein oppervlak leef je hier in een typisch stedelijke omgeving waar de wijkbewoners dicht op elkaar wonen. De wijk grenst aan Borgerhout en Deurne, en je vindt hier vooral residentiële straten met rijtjeswoningen en laagbouw. Wat meteen opvalt is het groene karakter: ondanks de stedelijke dichtheid beschikt de wijk over meerdere parken, waaronder het naamgevende Te Boelaarpark en het Krugerpark, die zorgen voor ademruimte tussen de bebouwing.\n\nVoor wie met een hond woont biedt Boelaerpark-Noord een verrassend goede uitgangspositie. De wijk telt maar liefst 5 hondenparken binnen wandelafstand, waarvan 2 omheind zijn. De dichtstbijzijnde ligt op slechts 7 minuten lopen, wat betekent dat je voor de ochtendwandeling niet ver hoeft te gaan. Daarnaast zijn er 8 parken verspreid over en rondom de wijk, waaronder kleinere groene plekken en grotere parken met schaduwrijke paden. Met 20 bushaltes in de wijk ben je goed aangesloten op het openbaar vervoer, al is er geen treinstation in de directe omgeving — je moet naar Berchem of het centrum voor een treinverbinding.\n\nEen eerlijk verhaal: de wijk is niet overvloedig voorzien van hondenspecifieke voorzieningen binnen de wijkgrenzen zelf. Er is geen dierenarts gevestigd in Boelaerpark-Noord, en ook dierenwinkels moet je even verderop zoeken. De dichtstbijzijnde dierenartspraktijk (AniCura aan de Borsbeeksebrug) ligt op 19 minuten wandelen, en Tom & Co op de Diksmuidelaan is op 17 minuten te voet te bereiken. Voor dagelijkse boodschappen is dat geen groot probleem — de meeste supermarkten hebben basisbenodigdheden — maar voor specifieke dieetwensen of medische zorg moet je rekening houden met iets langere afstanden. Gelukkig zijn er meerdere dierenartsen binnen redelijk bereik, dus voor spoedgevallen ben je niet ver van hulp.\n\nDe wijk is vooral geschikt voor wie van een groene, rustige woonwijk houdt maar de stedelijke voorzieningen en bereikbaarheid niet wil missen. Het dichte karakter zorgt voor een wijkgevoel waarbij je snel lokale bewoners leert kennen in de parken. De hondenparken worden actief gebruikt, en je ziet veel wandelaars in de groene zones. Anderzijds is de wijk minder geschikt als je op zoek bent naar ruime, uitgestrekte wandelgebieden of als je een grote hond hebt die veel ruimte nodig heeft — daarvoor moet je echt de wijk uit richting grotere groene longen zoals het Rivierenhof of Park Spoor Oost.\n\nMet een mediaan huisprijs van €353.000 ligt Boelaerpark-Noord in lijn met het Antwerpse gemiddelde. Je krijgt hier een betaalbare stadswijk met groen karakter en goede hondenvoorzieningen op wandelafstand, zonder de premium prijzen van het stadscentrum of de Zuid. De hoge dichtheid betekent wel dat je compact woont — verwacht hier geen grote tuinen of ruime opritten. Maar voor wie genoegen neemt met een praktische woonplek met voldoende mogelijkheden voor wandelingen en een levendige wijk, biedt Boelaerpark-Noord een fijne balans tussen stedelijk leven en groene rustpunten.",
+  "coordinates": {
+    "lat": 51.20825316525089,
+    "lon": 4.451240677230706,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 hondenparken in de wijk",
+      "detail": "Dichtstbijzijnde op 7 min, 2 omheind"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "19 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 dierenartsen binnen bereik",
+      "detail": "AniCura op 19 min wandelen"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co op 17 minuten",
+      "detail": "4 dierenwinkels in de omgeving"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "8 parken in de wijk",
+      "detail": "Te Boelaarpark en Krugerpark"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Direct",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "20 bushaltes in de wijk",
+      "detail": "Goed aangesloten op stad"
+    }
+  ],
+  "facilities": {
+    "intro": "Boelaerpark-Noord biedt een degelijke basis voor wie met een hond woont, met meerdere hondenparken op wandelafstand en voldoende groen voor dagelijkse wandelingen. De wijk zelf heeft geen dierenarts of gespecialiseerde dierenwinkel, maar de dichtstbijzijnde opties liggen in de aangrenzende wijken op 17 tot 19 minuten lopen. Voor spoedgevallen zijn er meerdere praktijken binnen redelijk bereik, wat belangrijk is voor dagelijks gemak."
+  },
+  "dogParks": {
+    "intro": "Met 5 hondenparken binnen loopafstand heeft Boelaerpark-Noord een prima aanbod voor dagelijkse wandelingen. De dichtstbijzijnde ligt op slechts 7 minuten wandelen, en 2 van de 5 parken zijn omheind — ideaal als je je hond veilig los wil laten lopen. De parken zijn compacter dan de grote speelweiden in andere stadsdelen, maar bieden voldoende ruimte voor een sociale ontmoeting met lokale bewoners.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Boelaerpark-Noord",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2057609,
+          "lon": 4.4443902
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark nabij Cruyslei",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2089408,
+          "lon": 4.4384917
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark noord",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2150439,
+          "lon": 4.444237
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Krugerpark",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.216655,
+          "lon": 4.4404228
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark zuid",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2011308,
+          "lon": 4.4382762
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd, maar binnen een straal van 20 tot 30 minuten wandelen zijn er meerdere opties. De dichtstbijzijnde is AniCura aan de Borsbeeksebrug op 19 minuten lopen. Voor spoedgevallen zijn er in totaal 4 praktijken binnen bereik, verspreid over de aangrenzende wijken, wat betekent dat je nooit ver van medische hulp bent.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AniCura",
+        "street": "Borsbeeksebrug",
+        "streetNumber": "34",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1999622,
+          "lon": 4.4337817
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Valérie Monster",
+        "street": "Eduard van Steenbergenlaan",
+        "streetNumber": "16",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1957937,
+          "lon": 4.461436
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Eddy Janssens",
+        "street": "Generaal Eisenhowerlei",
+        "streetNumber": "291",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1930795,
+          "lon": 4.4461398
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Algemene Dierenkliniek Randstad",
+        "street": "Frans Beirenslaan",
+        "streetNumber": "155",
+        "municipality": "Borsbeek",
+        "postalCode": "2150",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1977726,
+          "lon": 4.4811983
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf, maar Tom & Co op de Diksmuidelaan is op 17 minuten te voet. Daarnaast liggen er nog 3 andere dierenwinkels binnen bereik, waaronder Maxi Zoo en De Pauw. Voor dagelijkse boodschappen hebben de meeste supermarkten in de wijk ook een basisassortiment, wat handig is voor snelle aankopen.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Diksmuidelaan",
+        "streetNumber": "79-83",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1985998,
+          "lon": 4.4397835
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Ter Heydelaan",
+        "streetNumber": "235",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2283151,
+          "lon": 4.4684619
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Pauw",
+        "street": "Oudevaartplaats",
+        "streetNumber": "55",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.213601,
+          "lon": 4.4094113
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Boelaerpark-Noord",
+    "intro": "Een typische dag in Boelaerpark-Noord begint met een korte wandeling naar een van de nabijgelegen hondenparken of groene plekken. Dankzij de compacte structuur van de wijk ben je nooit ver van groen, en de parken worden goed gebruikt door lokale bewoners. Het stedelijke karakter betekent wel dat je op drukke momenten rekening moet houden met verkeer en voetgangers, maar de wijk zelf is vrij rustig en overwegend residentieel.",
+    "benefits": [
+      "Dankzij de 5 hondenparken binnen 15 minuten wandelen heb je voldoende keuze voor afwisseling. Het dichtstbijzijnde park ligt op 7 minuten, wat ideaal is voor een snelle ochtendwandeling voordat je naar je werk gaat. Twee van de vijf zijn omheind, wat handig is als je een jonge of speelse hond hebt die graag los loopt.",
+      "Met 8 parken verspreid over de wijk heb je altijd een groene plek binnen handbereik. Het Te Boelaarpark en Krugerpark bieden schaduwrijke paden en zijn populair onder lokale bewoners, waardoor je snel in contact komt met andere baasjes in de wijk.",
+      "De 20 bushaltes in de wijk zorgen voor goede bereikbaarheid, wat handig is als je naar de dierenarts moet of een uitstapje wil maken naar grotere groene gebieden buiten de wijk. Voor wie regelmatig naar het centrum moet, is de verbinding met Antwerpen Centraal en Berchem probleemloos.",
+      "De compacte structuur betekent dat je voor dagelijkse boodschappen niet ver hoeft te lopen. Een supermarkt met basisbenodigdheden ligt om de hoek, en voor gespecialiseerde producten is Tom & Co op 17 minuten wandelen goed te doen.",
+      "Het dichte karakter van de wijk zorgt voor een hechte wijkgemeenschap waarin je snel bekenden tegenkomt. In de hondenparken en groene zones zie je regelmatig dezelfde gezichten, wat zorgt voor een sociaal netwerk van lokale bewoners die elkaar tips en advies geven."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Boelaerpark-Noord is met bijna 9.000 inwoners een dichtbevolkte wijk die zich kenmerkt door compact stedelijk wonen. De hoge dichtheid van 10.005 inwoners per km² geeft de wijk een levendig karakter, maar betekent ook dat je dicht op je buren woont. Dit heeft zowel voordelen (hechte buurtgemeenschap) als nadelen (beperkte privacyruimte).",
+    "medianPrice": 353000,
+    "inhabitants": 8947,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Boelaerpark-Noord? De wijk heeft postcode 2140. Let bij je zoektocht op de bereikbaarheid van groen en hondenparken als je met een hond woont — de meeste woningen liggen binnen 10 minuten wandelen van een park.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-t-mestputteke",
+    "antwerpen-cruyslei",
+    "antwerpen-deurne-huiskens",
+    "antwerpen-borgerhout-gemeentehuis",
+    "antwerpen-oostkwartier"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T12:00:00Z",
+    "qualityScore": 82,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Compacte stadswijk met groen op wandelafstand en 5 hondenparken binnen bereik — fijn voor baasjes in Antwerpen",
+        "after": "Wonen in Boelaerpark-Noord: compacte stadswijk met groen op wandelafstand en 5 hondenparken binnen bereik — Antwerpen",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt Boelaerpark-Noord een verrassend goede uitgangspositie. De wijk telt maar liefst 5 hondenparken binnen wandelafstand, waarvan 2 omheind zijn. De dichtstbijzijnde ligt op slechts 7 minuten lopen, wat betekent dat je voor de ochtendwandeling niet ver hoeft te gaan. Daarnaast zijn er 8 parken verspreid over en rondom de wijk, waaronder kleinere groene plekken en grotere parken met schaduwrijke paden. Met 20 bushaltes in de wijk ben je goed aangesloten op het openbaar vervoer, al is er geen treinstation in de directe omgeving — je moet naar Berchem of het centrum voor een treinverbinding.\n\nEen eerlijk verhaal: de wijk is niet overvloedig voorzien van hondenspecifieke voorzieningen binnen de wijkgrenzen zelf. Er is geen dierenarts gevestigd in Boelaerpark-Noord, en ook dierenwinkels moet je even verderop zoeken. De dichtstbijzijnde dierenartspraktijk (AniCura aan de Borsbeeksebrug) ligt op 19 minuten wandelen, en Tom & Co op de Diksmuidelaan is op 17 minuten te voet te bereiken. Voor dagelijkse boodschappen voor je hond is dat geen groot probleem — de meeste supermarkten hebben basisbenodigdheden voor je viervoeter — maar voor specifieke dieetwensen of medische zorg moet je rekening houden met iets langere afstanden. Gelukkig zijn er meerdere dierenartsen binnen redelijk bereik, dus voor spoedgevallen ben je niet ver van hulp.\n\nDe wijk is vooral geschikt voor baasjes die van een groene, rustige woonbuurt houden maar de stedelijke voorzieningen en bereikbaarheid niet willen missen. Het dichte karakter zorgt voor een buurtgevoel waarbij je snel lokale baasjes leert kennen in de parken. De hondenparken worden actief gebruikt, en je ziet veel wandelaars met honden in de groene zones. Anderzijds is de wijk minder geschikt als je op zoek bent naar ruime, uitgestrekte wandelgebieden of als je een grote hond hebt die veel ruimte nodig heeft — daarvoor moet je echt de wijk uit richting grotere groene longen zoals het Rivierenhof of Park Spoor Oost.\n\nMet een mediaan huisprijs van €353.000 ligt Boelaerpark-Noord in lijn met het Antwerpse gemiddelde. Je krijgt hier een betaalbare stadswijk met groen karakter en goede hondenvoorzieningen op wandelafstand, zonder de premium prijzen van het stadscentrum of de Zuid. De hoge dichtheid betekent wel dat je compact woont — verwacht hier geen grote tuinen of ruime opritten. Maar voor wie genoegen neemt met een praktische woonplek met voldoende mogelijkheden voor je hond en een levendige buurt, biedt Boelaerpark-Noord een fijne balans tussen stedelijk leven en groene rustpunten.",
+        "after": "Voor wie met een hond woont biedt Boelaerpark-Noord een verrassend goede uitgangspositie. De wijk telt maar liefst 5 hondenparken binnen wandelafstand, waarvan 2 omheind zijn. De dichtstbijzijnde ligt op slechts 7 minuten lopen, wat betekent dat je voor de ochtendwandeling niet ver hoeft te gaan. Daarnaast zijn er 8 parken verspreid over en rondom de wijk, waaronder kleinere groene plekken en grotere parken met schaduwrijke paden. Met 20 bushaltes in de wijk ben je goed aangesloten op het openbaar vervoer, al is er geen treinstation in de directe omgeving — je moet naar Berchem of het centrum voor een treinverbinding.\n\nEen eerlijk verhaal: de wijk is niet overvloedig voorzien van hondenspecifieke voorzieningen binnen de wijkgrenzen zelf. Er is geen dierenarts gevestigd in Boelaerpark-Noord, en ook dierenwinkels moet je even verderop zoeken. De dichtstbijzijnde dierenartspraktijk (AniCura aan de Borsbeeksebrug) ligt op 19 minuten wandelen, en Tom & Co op de Diksmuidelaan is op 17 minuten te voet te bereiken. Voor dagelijkse boodschappen is dat geen groot probleem — de meeste supermarkten hebben basisbenodigdheden — maar voor specifieke dieetwensen of medische zorg moet je rekening houden met iets langere afstanden. Gelukkig zijn er meerdere dierenartsen binnen redelijk bereik, dus voor spoedgevallen ben je niet ver van hulp.\n\nDe wijk is vooral geschikt voor wie van een groene, rustige woonbuurt houdt maar de stedelijke voorzieningen en bereikbaarheid niet wil missen. Het dichte karakter zorgt voor een buurtgevoel waarbij je snel lokale bewoners leert kennen in de parken. De hondenparken worden actief gebruikt, en je ziet veel wandelaars in de groene zones. Anderzijds is de wijk minder geschikt als je op zoek bent naar ruime, uitgestrekte wandelgebieden of als je een grote hond hebt die veel ruimte nodig heeft — daarvoor moet je echt de wijk uit richting grotere groene longen zoals het Rivierenhof of Park Spoor Oost.\n\nMet een mediaan huisprijs van €353.000 ligt Boelaerpark-Noord in lijn met het Antwerpse gemiddelde. Je krijgt hier een betaalbare stadswijk met groen karakter en goede hondenvoorzieningen op wandelafstand, zonder de premium prijzen van het stadscentrum of de Zuid. De hoge dichtheid betekent wel dat je compact woont — verwacht hier geen grote tuinen of ruime opritten. Maar voor wie genoegen neemt met een praktische woonplek met voldoende mogelijkheden voor wandelingen en een levendige buurt, biedt Boelaerpark-Noord een fijne balans tussen stedelijk leven en groene rustpunten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Boelaerpark-Noord biedt een degelijke basis voor baasjes, met meerdere hondenparken op wandelafstand en voldoende groen voor dagelijkse wandelingen. De wijk zelf heeft geen dierenarts of gespecialiseerde dierenwinkel, maar de dichtstbijzijnde opties liggen in de aangrenzende wijken op 17 tot 19 minuten lopen. Voor spoedgevallen zijn er meerdere praktijken binnen redelijk bereik.",
+        "after": "Boelaerpark-Noord biedt een degelijke basis voor wie met een hond woont, met meerdere hondenparken op wandelafstand en voldoende groen voor dagelijkse wandelingen. De wijk zelf heeft geen dierenarts of gespecialiseerde dierenwinkel, maar de dichtstbijzijnde opties liggen in de aangrenzende wijken op 17 tot 19 minuten lopen. Voor spoedgevallen zijn er meerdere praktijken binnen redelijk bereik, wat belangrijk is voor dagelijks gemak.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Met 5 hondenparken binnen loopafstand heeft Boelaerpark-Noord een prima aanbod voor je viervoeter. De dichtstbijzijnde ligt op slechts 7 minuten wandelen, en 2 van de 5 parken zijn omheind — ideaal als je je hond veilig los wil laten lopen. De parken zijn compacter dan de grote speelweiden in andere stadsdelen, maar bieden voldoende ruimte voor een sociale ontmoeting met lokale baasjes.",
+        "after": "Met 5 hondenparken binnen loopafstand heeft Boelaerpark-Noord een prima aanbod voor dagelijkse wandelingen. De dichtstbijzijnde ligt op slechts 7 minuten wandelen, en 2 van de 5 parken zijn omheind — ideaal als je je hond veilig los wil laten lopen. De parken zijn compacter dan de grote speelweiden in andere stadsdelen, maar bieden voldoende ruimte voor een sociale ontmoeting met lokale bewoners.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "vets.intro",
+        "before": "In de wijk zelf is geen dierenartspraktijk gevestigd, maar binnen een straal van 20 tot 30 minuten wandelen zijn er meerdere opties. De dichtstbijzijnde is AniCura aan de Borsbeeksebrug op 19 minuten lopen. Voor spoedgevallen zijn er in totaal 4 praktijken binnen bereik, verspreid over de aangrenzende wijken.",
+        "after": "In de wijk zelf is geen dierenartspraktijk gevestigd, maar binnen een straal van 20 tot 30 minuten wandelen zijn er meerdere opties. De dichtstbijzijnde is AniCura aan de Borsbeeksebrug op 19 minuten lopen. Voor spoedgevallen zijn er in totaal 4 praktijken binnen bereik, verspreid over de aangrenzende wijken, wat betekent dat je nooit ver van medische hulp bent.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf, maar Tom & Co op de Diksmuidelaan is op 17 minuten te voet. Daarnaast liggen er nog 3 andere dierenwinkels binnen bereik, waaronder Maxi Zoo en De Pauw. Voor dagelijkse boodschappen hebben de meeste supermarkten in de wijk ook een basisassortiment voor je viervoeter.",
+        "after": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf, maar Tom & Co op de Diksmuidelaan is op 17 minuten te voet. Daarnaast liggen er nog 3 andere dierenwinkels binnen bereik, waaronder Maxi Zoo en De Pauw. Voor dagelijkse boodschappen hebben de meeste supermarkten in de wijk ook een basisassortiment, wat handig is voor snelle aankopen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Boelaerpark-Noord begint met een korte wandeling naar een van de nabijgelegen hondenparken of groene plekken. Dankzij de compacte structuur van de wijk ben je nooit ver van groen, en de parken worden goed gebruikt door lokale baasjes. Het stedelijke karakter betekent wel dat je op drukke momenten rekening moet houden met verkeer en voetgangers, maar de wijk zelf is vrij rustig en overwegend residentieel.",
+        "after": "Een typische dag in Boelaerpark-Noord begint met een korte wandeling naar een van de nabijgelegen hondenparken of groene plekken. Dankzij de compacte structuur van de wijk ben je nooit ver van groen, en de parken worden goed gebruikt door lokale bewoners. Het stedelijke karakter betekent wel dat je op drukke momenten rekening moet houden met verkeer en voetgangers, maar de wijk zelf is vrij rustig en overwegend residentieel.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Met 8 parken verspreid over de wijk heb je altijd een groene plek binnen handbereik. Het Te Boelaarpark en Krugerpark bieden schaduwrijke paden en zijn populair onder lokale baasjes, waardoor je snel in contact komt met andere hondeneigenaars in de buurt.",
+        "after": "Met 8 parken verspreid over de wijk heb je altijd een groene plek binnen handbereik. Het Te Boelaarpark en Krugerpark bieden schaduwrijke paden en zijn populair onder lokale bewoners, waardoor je snel in contact komt met andere hondeneigenaars in de buurt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "De 20 bushaltes in de wijk zorgen voor goede bereikbaarheid, wat handig is als je met je hond naar de dierenarts moet of een uitstapje wil maken naar grotere groene gebieden buiten de wijk. Voor wie regelmatig naar het centrum moet, is de verbinding met Antwerpen Centraal en Berchem probleemloos.",
+        "after": "De 20 bushaltes in de wijk zorgen voor goede bereikbaarheid, wat handig is als je naar de dierenarts moet of een uitstapje wil maken naar grotere groene gebieden buiten de wijk. Voor wie regelmatig naar het centrum moet, is de verbinding met Antwerpen Centraal en Berchem probleemloos.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Het dichte karakter van de wijk zorgt voor een hechte buurt waarin je snel bekenden tegenkomt. In de hondenparken en groene zones zie je regelmatig dezelfde gezichten, wat zorgt voor een sociaal netwerk van lokale baasjes die elkaar tips en advies geven.",
+        "after": "Het dichte karakter van de wijk zorgt voor een hechte buurt waarin je snel bekenden tegenkomt. In de hondenparken en groene zones zie je regelmatig dezelfde gezichten, wat zorgt voor een sociaal netwerk van lokale bewoners die elkaar tips en advies geven.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "statistics.intro",
+        "before": "Boelaerpark-Noord is met bijna 9.000 inwoners een dichtbevolkte wijk die zich kenmerkt door compact stedelijk wonen. De hoge dichtheid van 10.005 inwoners per km² geeft de wijk een levendig karakter, maar betekent ook dat je dicht op je buren woont.",
+        "after": "Boelaerpark-Noord is met bijna 9.000 inwoners een dichtbevolkte wijk die zich kenmerkt door compact stedelijk wonen. De hoge dichtheid van 10.005 inwoners per km² geeft de wijk een levendig karakter, maar betekent ook dat je dicht op je buren woont. Dit heeft zowel voordelen (hechte buurtgemeenschap) als nadelen (beperkte privacyruimte).",
+        "reason": "readability"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 22,
+      "topicCoverageScore": 17,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 13,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T12:30:00Z",
+    "qualityScore": 89,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Met bijna 9.000 inwoners op een klein oppervlak leef je hier in een typisch stedelijke omgeving waar de buurtbewoners dicht op elkaar wonen.",
+        "after": "Met bijna 9.000 inwoners op een klein oppervlak leef je hier in een typisch stedelijke omgeving waar de wijkbewoners dicht op elkaar wonen.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "Het dichte karakter zorgt voor een buurtgevoel waarbij je snel lokale bewoners leert kennen in de parken.",
+        "after": "Het dichte karakter zorgt voor een wijkgevoel waarbij je snel lokale bewoners leert kennen in de parken.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "Maar voor wie genoegen neemt met een praktische woonplek met voldoende mogelijkheden voor wandelingen en een levendige buurt, biedt Boelaerpark-Noord een fijne balans tussen stedelijk leven en groene rustpunten.",
+        "after": "Maar voor wie genoegen neemt met een praktische woonplek met voldoende mogelijkheden voor wandelingen en een levendige wijk, biedt Boelaerpark-Noord een fijne balans tussen stedelijk leven en groene rustpunten.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[0].description",
+        "before": "5 hondenparken in de buurt",
+        "after": "5 hondenparken in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "waardoor je snel in contact komt met andere hondeneigenaars in de buurt.",
+        "after": "waardoor je snel in contact komt met andere baasjes in de wijk.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Het dichte karakter van de wijk zorgt voor een hechte buurt waarin je snel bekenden tegenkomt.",
+        "after": "Het dichte karakter van de wijk zorgt voor een hechte wijkgemeenschap waarin je snel bekenden tegenkomt.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 24,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 9
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "valueCards[0].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "hondeneigenaars",
+            "field": "dailyLife.benefits[1]",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurt",
+            "field": "dailyLife.benefits[1]",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "dailyLife.benefits[4]",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenparken",
+          "dierenarts",
+          "baasjes"
+        ],
+        "allowedExceptionsUsed": []
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 37
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 11,
+        "localTipsFound": [
+          "richting grotere groene longen zoals het Rivierenhof of Park Spoor Oost",
+          "naar Berchem of het centrum voor een treinverbinding",
+          "AniCura aan de Borsbeeksebrug",
+          "Tom & Co op de Diksmuidelaan"
+        ],
+        "neighborhoodObservations": [
+          "grenst aan Borgerhout en Deurne",
+          "residentiële straten met rijtjeswoningen en laagbouw",
+          "naamgevende Te Boelaarpark en het Krugerpark",
+          "dichtbevolkte wijk met 10.005 inwoners per km²"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.79,
+        "averageSentenceLength": 18.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

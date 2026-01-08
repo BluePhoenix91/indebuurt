@@ -1,0 +1,477 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T18:30:00Z",
+  "id": "antwerpen-t-eilandje",
+  "city": "Antwerpen",
+  "name": "'t Eilandje",
+  "postalCode": "2000",
+  "subtitle": "Wonen in 't Eilandje aan de Antwerpse kades: moderne stadswijk met waterfront en groene parken op wandelafstand",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 12909,
+  "labels": [
+    {
+      "text": "Waterfront",
+      "icon": "fa-solid fa-water"
+    },
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    },
+    {
+      "text": "Museumbuurt",
+      "icon": "fa-solid fa-landmark"
+    }
+  ],
+  "intro": "'t Eilandje is een moderne stadswijk aan de Antwerpse haven, waar historische pakhuizen en nieuwe architectuur elkaar ontmoeten langs het water. Je woont hier in een compacte wijk met uitstekende verbindingen naar het stadscentrum en de bredere regio — met 48 bushaltes en 2 treinstations binnen handbereik is mobiliteit geen probleem. De kademuren en waterfront geven de wijk een uniek karakter, terwijl de 5 parken in de buurt voldoende groene uitlaatmogelijkheden bieden voor je dagelijkse routine.\n\nMet 12.909 inwoners verdeeld over een relatief klein gebied merk je dat het hier drukker is dan in wijken verder van het centrum. De stedelijke dichtheid heeft voordelen — alles ligt dichtbij — maar betekent ook dat rustige groene plekken waardevol zijn. Voor wie van een stevige wandeling houdt, bieden de kaaien en het Droogdokkenpark langere routes met volop ruimte. Het dichtstbijzijnde park ligt op slechts 9 minuten wandelen, ideaal voor een snelle ochtendwandeling.\n\nWat medische zorg betreft is de situatie minder gunstig: de dichtstbijzijnde dierenarts (Dierenarts DAS) ligt op 18 minuten lopen in het aangrenzende stadscentrum. Dat betekent dat je voor routinecontroles of spoedgevallen verder moet reizen dan in wijken met een praktijk om de hoek. Voor wie met een auto reist is dit minder een probleem, maar als je te voet bent is het goed om dit te weten. Gelukkig zijn er meerdere praktijken binnen bereik zodra je de wijkgrenzen overschrijdt.\n\nDe speelplekken in de omgeving zijn helaas niet omheind — de 3 losloopplekken die dichtbij liggen zijn openbare groenvlakken zonder hekwerk. De dichtstbijzijnde hondenspeelweide zonder omheining ligt op 14 minuten wandelen. Dat betekent dat je viervoeter hier wel los kan lopen, maar je moet extra alert blijven, zeker in een stedelijke omgeving met verkeer. Voor wie graag volledig veilig en vrij wil laten ravotten is dit een afweging waard.\n\nOok voor dierbenodigdheden moet je een stukje verder: de dichtstbijzijnde dierenwinkel (Antwerps Cichliden Center) ligt op 27 minuten wandelen. Voor wie met de fiets of auto komt is dit geen drama, maar voor dagelijkse inkopen is het handig om te weten dat de meeste supermarkten in de wijk — en daar zijn er 3 — ook een basisassortiment hondenvoer en accessoires hebben.\n\nToch heeft 't Eilandje een hoop te bieden voor wie het stadsleven omarmen. De ligging aan het water en de nabijheid van het stadscentrum maken het een levendige, goed aangesloten wijk waar je binnen een kwartier lopen in het bruisende Antwerpen staat. De combinatie van cultuur (met het MAS en andere musea letterlijk om de hoek), groene wandelroutes langs de kaaien, en uitstekend openbaar vervoer maakt deze wijk perfect voor wie stedelijk gemak belangrijker vindt dan landelijke rust. Als je houdt van een stedelijke levensstijl, wandelingen met uitzicht over het water, en geen moeite hebt om in een compacte omgeving te wonen, dan kan 't Eilandje een fijne thuisbasis zijn.",
+  "coordinates": {
+    "lat": 51.24154971603803,
+    "lon": 4.416471719955165,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 parken in de omgeving",
+      "detail": "Dichtstbijzijnde op 9 mins lopen"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "14 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 losloopplekken in de omgeving",
+      "detail": "Niet omheind, let op verkeer"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "18 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 dierenarts binnen 20 min",
+      "detail": "Dierenarts DAS in centrum"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "27 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dierenwinkel op 27 mins",
+      "detail": "Supermarkten hebben basis"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "zeer goed",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "48 bushaltes + 2 stations",
+      "detail": "Uitstekend verbonden"
+    }
+  ],
+  "facilities": {
+    "intro": "'t Eilandje biedt een stedelijke infrastructuur met voldoende voorzieningen voor je dagelijkse routine. Parken en wandelroutes zijn dichtbij, maar voor gespecialiseerde hondenzorg zoals de dierenarts of een dierenwinkel moet je iets verder de stad in. De wijk compenseert met uitstekende bereikbaarheid en een waterkant die zich perfect leent voor lange wandelingen."
+  },
+  "dogParks": {
+    "intro": "Een officieel omheinde hondenspeelweide vind je niet in 't Eilandje zelf. De 3 losloopplekken in de omgeving zijn openbare groenvlakken zonder hekwerk, wat betekent dat je extra alert moet zijn, vooral met het stedelijke verkeer nabij. De dichtstbijzijnde hondenspeelweide ligt op 14 minuten wandelen. Voor wie graag langs de kaaien wandelt bieden de waterfronts wel ruime, open ruimtes waar loslopen onder toezicht mogelijk is.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (onbekende naam)",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2365687,
+          "lon": 4.4028002
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (onbekende naam)",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.230723,
+          "lon": 4.4182077
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (onbekende naam)",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2397135,
+          "lon": 4.4344298
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In 't Eilandje zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Dierenarts DAS aan de Nassaustraat, op 18 minuten wandelen in het stadscentrum. Voor spoedgevallen of routinecontroles moet je de wijk uit, wat handig is als je een auto of fiets hebt. Binnen een straal van 20-35 minuten lopen zijn er meerdere praktijken beschikbaar.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts DAS",
+        "street": "Nassaustraat",
+        "streetNumber": "18A",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.230521,
+          "lon": 4.4050374
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts praktijk",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2262093,
+          "lon": 4.4174961
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Sinjan",
+        "street": "Ringlaan",
+        "streetNumber": "180",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2543585,
+          "lon": 4.4495427
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet direct in de wijk — de dichtstbijzijnde optie is Antwerps Cichliden Center op 27 minuten wandelen. Voor wie met de fiets of auto komt is dit geen groot bezwaar. Praktischer is het om voor dagelijkse benodigdheden gebruik te maken van de supermarkten in de wijk, waarvan de meeste ook hondenvoer en basisaccessoires voeren.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Antwerps Cichliden Center",
+        "street": "Annuntiatenstraat",
+        "streetNumber": "16",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.24693,
+          "lon": 4.4463608
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "KATshop",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2221272,
+          "lon": 4.4022574
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "pet à porter",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "35 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2176989,
+          "lon": 4.4038982
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in 't Eilandje",
+    "intro": "Een typische dag in 't Eilandje begint vaak met een wandeling langs de kaaien, waar je waterzijde en stadsleven combineert. Dankzij de compacte opzet van de wijk en de goede verbindingen ben je snel overal — of je nu even naar het park wilt of verder de stad in trekt. Het stedelijke karakter vraagt wel wat aanpassing: je deelt de openbare ruimte met veel andere bewoners en bezoekers, en voorzieningen liggen niet direct om de hoek.",
+    "benefits": [
+      "Met 5 parken binnen 15-25 minuten wandelen heb je voldoende groene plekken voor afwisseling. Het Droogdokkenpark op 15 minuten biedt ruimere wandelpaden en is populair onder lokale baasjes voor een langere ochtendwandeling.",
+      "De waterkant en kaaien lenen zich perfect voor langere wandelingen. De openheid en het uitzicht maken een rondje langs het water tot een fijne dagelijkse routine, ook al zijn er geen specifieke faciliteiten.",
+      "Dankzij 48 bushaltes en 2 treinstations ben je uitstekend verbonden met de rest van Antwerpen. Handig voor uitstapjes naar grotere losloopgebieden elders in de stad of voor een bezoek aan de dierenarts met de bus.",
+      "De stedelijke ligging betekent dat supermarkten, apotheken en andere voorzieningen dichtbij zijn. Voor basale benodigdheden hoef je niet ver, ook al ontbreekt een gespecialiseerde dierenwinkel in de directe omgeving.",
+      "De mix van cultuur (musea, evenementen) en waterfront maakt de wijk levendig en afwisselend. Voor wie graag stedelijk woont en graag naar terrasjes en publieke plekken gaat biedt 't Eilandje een bruisende omgeving."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere baasjes de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "'t Eilandje is met 12.909 inwoners een compacte, dichtbevolkte wijk (3.960 inwoners per km²). De medianprijs van een woning ligt rond €353.000, wat vergelijkbaar is met andere centrale wijken in Antwerpen.",
+    "medianPrice": 353000,
+    "inhabitants": 12909,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in 't Eilandje? De wijk deelt postcode 2000 met andere centrale Antwerpse wijken, dus let bij het zoeken op de specifieke wijk-aanduiding 't Eilandje om zeker te zijn dat je in deze waterfront-wijk terechtkomt.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-oude-haven",
+    "antwerpen-dam-lobroekdok-schijnpoort",
+    "antwerpen-duivelshoek",
+    "antwerpen-st-amandus-noordwijk",
+    "antwerpen-sportpaleis"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T18:30:00Z",
+    "qualityScore": 78,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen aan de Antwerpse kades: moderne stadswijk met waterfront, museumbuurt en groene parken op wandelafstand",
+        "after": "Wonen in 't Eilandje aan de Antwerpse kades: moderne stadswijk met waterfront en groene parken op wandelafstand",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes die van een stevige wandeling houden, bieden de kaaien en het Droogdokkenpark langere routes met volop ruimte.",
+        "after": "Voor wie van een stevige wandeling houdt, bieden de kaaien en het Droogdokkenpark langere routes met volop ruimte.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes met een auto is dit minder een probleem, maar als je te voet bent is het goed om dit te weten.",
+        "after": "Voor wie met een auto reist is dit minder een probleem, maar als je te voet bent is het goed om dit te weten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Dat betekent dat je hond hier wel los kan lopen, maar je moet extra alert blijven, zeker in een stedelijke omgeving met verkeer. Voor baasjes die hun hond graag veilig en volledig vrij laten ravotten is dit een afweging waard.",
+        "after": "Dat betekent dat je viervoeter hier wel los kan lopen, maar je moet extra alert blijven, zeker in een stedelijke omgeving met verkeer. Voor wie graag volledig veilig en vrij wil laten ravotten is dit een afweging waard.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Toch heeft 't Eilandje een hoop te bieden voor baasjes die het stadsleven omarmen.",
+        "after": "Toch heeft 't Eilandje een hoop te bieden voor wie het stadsleven omarmen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Als je houdt van een stedelijke levensstijl, wandelingen met uitzicht over het water, en geen moeite hebt om je hond in een compacte omgeving uit te laten, dan kan 't Eilandje een fijne thuisbasis zijn.",
+        "after": "Als je houdt van een stedelijke levensstijl, wandelingen met uitzicht over het water, en geen moeite hebt om in een compacte omgeving te wonen, dan kan 't Eilandje een fijne thuisbasis zijn.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Voor baasjes die graag met hun hond langs de kaaien wandelen bieden de waterfronts wel ruime, open ruimtes waar je hond onder toezicht kan loslopen.",
+        "after": "Voor wie graag langs de kaaien wandelt bieden de waterfronts wel ruime, open ruimtes waar loslopen onder toezicht mogelijk is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in 't Eilandje begint vaak met een wandeling langs de kaaien, waar je waterzijde en stadsleven combineert. Dankzij de compacte opzet van de wijk en de goede verbindingen ben je snel overal — of je nu even naar het park wilt of verder de stad in trekt. Het stedelijke karakter vraagt wel wat aanpassing: je deelt de openbare ruimte met veel andere bewoners en bezoekers, en voorzieningen voor honden liggen niet direct om de hoek.",
+        "after": "Een typische dag in 't Eilandje begint vaak met een wandeling langs de kaaien, waar je waterzijde en stadsleven combineert. Dankzij de compacte opzet van de wijk en de goede verbindingen ben je snel overal — of je nu even naar het park wilt of verder de stad in trekt. Het stedelijke karakter vraagt wel wat aanpassing: je deelt de openbare ruimte met veel andere bewoners en bezoekers, en voorzieningen liggen niet direct om de hoek.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 5 parken binnen 15-25 minuten wandelen heb je voldoende groene plekken voor afwisseling. Het Droogdokkenpark op 15 minuten biedt ruimere wandelpaden en is populair onder lokale baasjes voor een langere ochtendwandeling.",
+        "after": "Met 5 parken binnen 15-25 minuten wandelen heb je voldoende groene plekken voor afwisseling. Het Droogdokkenpark op 15 minuten biedt ruimere wandelpaden en is populair onder lokale hondenliefhebbers voor een langere ochtendwandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De waterkant en kaaien lenen zich perfect voor langere wandelingen met je viervoeter. De openheid en het uitzicht maken een rondje langs het water tot een fijne dagelijkse routine, ook al zijn er geen specifieke hondenfaciliteiten.",
+        "after": "De waterkant en kaaien lenen zich perfect voor langere wandelingen. De openheid en het uitzicht maken een rondje langs het water tot een fijne dagelijkse routine, ook al zijn er geen specifieke faciliteiten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De stedelijke ligging betekent dat supermarkten, apotheken en andere voorzieningen dichtbij zijn. Voor basale hondenbenodigdheden hoef je niet ver, ook al ontbreekt een gespecialiseerde dierenwinkel in de directe omgeving.",
+        "after": "De stedelijke ligging betekent dat supermarkten, apotheken en andere voorzieningen dichtbij zijn. Voor basale benodigdheden hoef je niet ver, ook al ontbreekt een gespecialiseerde dierenwinkel in de directe omgeving.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De mix van cultuur (musea, evenementen) en waterfront maakt de wijk levendig en afwisselend. Voor baasjes die graag stedelijk wonen en hun hond mee willen nemen naar terrasjes en publieke plekken biedt 't Eilandje een bruisende omgeving.",
+        "after": "De mix van cultuur (musea, evenementen) en waterfront maakt de wijk levendig en afwisselend. Voor wie graag stedelijk woont en graag naar terrasjes en publieke plekken gaat biedt 't Eilandje een bruisende omgeving.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De hondenparken in de omgeving zijn helaas niet omheind — de 3 speelplekken die dichtbij liggen zijn openbare groenvlakken zonder hekwerk.",
+        "after": "De speelplekken in de omgeving zijn helaas niet omheind — de 3 losloopplekken die dichtbij liggen zijn openbare groenvlakken zonder hekwerk.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "keywordScore": 16,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 18,
+      "decisionUsefulnessScore": 15
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T19:15:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "valueCards[1].title",
+        "before": "Hondenparken",
+        "after": "Hondenspeelweiden",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[1].description",
+        "before": "3 losloopplekken in de buurt",
+        "after": "3 losloopplekken in de omgeving",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "De 3 losloopplekken in de buurt zijn openbare groenvlakken zonder hekwerk",
+        "after": "De 3 losloopplekken in de omgeving zijn openbare groenvlakken zonder hekwerk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Het Droogdokkenpark op 15 minuten biedt ruimere wandelpaden en is populair onder lokale hondenliefhebbers voor een langere ochtendwandeling.",
+        "after": "Het Droogdokkenpark op 15 minuten biedt ruimere wandelpaden en is populair onder lokale baasjes voor een langere ochtendwandeling.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere baasjes de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "houses.intro",
+        "before": "Op zoek naar een woning in 't Eilandje? De wijk deelt postcode 2000 met andere centrale Antwerpse wijken, dus let bij het zoeken op de specifieke buurtaanduiding 't Eilandje om zeker te zijn dat je in deze waterfront-wijk terechtkomt.",
+        "after": "Op zoek naar een woning in 't Eilandje? De wijk deelt postcode 2000 met andere centrale Antwerpse wijken, dus let bij het zoeken op de specifieke wijk-aanduiding 't Eilandje om zeker te zijn dat je in deze waterfront-wijk terechtkomt.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 24,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 6
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "hondenparken",
+            "field": "valueCards[1].title",
+            "preferred": "hondenspeelweiden"
+          },
+          {
+            "term": "buurt",
+            "field": "valueCards[1].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "dogParks.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "hondenliefhebbers",
+            "field": "dailyLife.benefits[0]",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "hondenliefhebbers",
+            "field": "contributionCTA.intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurtaanduiding",
+            "field": "houses.intro",
+            "preferred": "wijk-aanduiding"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "wijk",
+          "hond",
+          "viervoeter",
+          "dierenarts",
+          "hondenspeelweide",
+          "wandeling"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (intro, multiple occurrences - allowed as 'nearby' meaning)",
+          "de juiste wijk (contributionCTA - updated from 'buurt')"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 11,
+        "localTipsFound": [
+          "routes richting de waterkant bij de Schelde",
+          "langs de kaaien",
+          "via de Nassaustraat",
+          "aan de Annuntiatenstraat"
+        ],
+        "neighborhoodObservations": [
+          "historische pakhuizen en nieuwe architectuur elkaar ontmoeten langs het water",
+          "kademuren en waterfront geven de wijk een uniek karakter",
+          "met het MAS en andere musea letterlijk om de hoek",
+          "levendige, goed aangesloten wijk"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 18.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood",
+          "no fenced dog parks"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

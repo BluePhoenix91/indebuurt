@@ -1,0 +1,334 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:45:00Z",
+  "id": "antwerpen-t-fort",
+  "city": "Antwerpen",
+  "name": "'T FORT",
+  "postalCode": "2170",
+  "subtitle": "Wonen in 't Fort, Antwerpen: rustige, kleinschalige wijk met parken op wandelafstand — voorzieningen in nabije buurten",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 260,
+  "labels": [
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Kleinschalig",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "'t Fort is een van de kleinste wijken van Antwerpen met slechts 260 inwoners, gelegen in het noordelijke deel van de stad. Met een bevolkingsdichtheid van 221 inwoners per vierkante kilometer woon je hier in een zeer rustige, residentiële omgeving waar je nauwelijks stedelijke drukte ervaart. De wijk heeft een kleinschalig karakter zonder eigen winkelstraten of horecagelegenheden, wat rust biedt maar ook betekent dat je voor dagelijkse boodschappen en voorzieningen naar de aangrenzende wijken moet.\n\nVoor hondenliefhebbers is het belangrijk om te weten dat 't Fort geen eigen voorzieningen heeft binnen de wijkgrenzen. De dichtstbijzijnde dierenarts, Dierenartsenpraktijk Sinjan op de Ringlaan, ligt op 13 minuten wandelen. Voor je dagelijkse hondenvoer moet je naar Tom & Co op de Bredabaan in Schoten, een wandeling van 9 minuten. Ook hondenspeelweiden bevinden zich net buiten de wijk, met de dichtstbijzijnde opties op 17 minuten lopen. Dit maakt 't Fort geen praktische keuze voor wie veel belang hecht aan voorzieningen vlakbij, maar wel een optie voor wie rust zoekt en geen probleem heeft met korte verplaatsingen naar omliggende buurten.\n\nDe wijk biedt wel toegang tot verschillende groene plekken in de omgeving. Met 10 parken binnen redelijke afstand, waaronder Kwadeveldenplein op ruim 1 kilometer en Hof ter Heide op ongeveer 1,3 kilometer, heb je voldoende mogelijkheden voor uitgebreide wandelingen. De parken in de aangrenzende wijken zoals Roosendaelpark en Runcvoortpark bieden schaduwrijke routes en ruimte voor je dagelijkse uitlaatrondes. Voor wie gewend is aan lange wandelingen kan dit zelfs een voordeel zijn: je bent snel in het groen zonder de drukte van grotere stadswijken.\n\nOpenbaar vervoer is beperkt aanwezig met 7 bushaltes in de buurt, maar geen treinstation. Dit betekent dat je voor veel verplaatsingen afhankelijk bent van de fiets of auto. De ligging aan de noordrand van Antwerpen biedt wel makkelijke toegang tot de ring, wat praktisch is voor ritten naar grotere dierenziekenhuizen of uitstapjes naar grotere hondenparken buiten de stad.\n\n't Fort is bij uitstek geschikt voor mensen die bewust kiezen voor een rustige, kleinschalige woonomgeving en geen moeite hebben met het lopen van 10-15 minuten voor voorzieningen. Je krijgt hier de rust van een dorpsachtige setting binnen de stadsgrenzen van Antwerpen, maar moet bereid zijn om verder te reizen voor specialistische diensten. Voor jonge honden die veel prikkels nodig hebben of voor mensen met mobiliteitsbeperkingen is deze wijk waarschijnlijk te afgelegen. Voor wie juist op zoek is naar stilte en privacy, met de mogelijkheid om relatief snel in het groen te zijn, kan 't Fort echter een verborgen pareltje zijn.",
+  "coordinates": {
+    "lat": 51.26279655804568,
+    "lon": 4.45635778618846,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 hondenloopzones op loopafstand",
+      "detail": "Dichtstbijzijnde op 17 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "13 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Praktijk in aangrenzende wijk",
+      "detail": "Dierenartsenpraktijk Sinjan"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 winkels binnen 25 min lopen",
+      "detail": "Tom & Co op 9 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "14 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "10 parken in de omgeving",
+      "detail": "Hof ter Heide dichtsbij"
+    }
+  ],
+  "facilities": {
+    "intro": "'t Fort heeft geen eigen voorzieningen binnen de wijkgrenzen, maar ligt wel op loopafstand van verschillende praktische opties in aangrenzende wijken. Voor de dagelijkse wandeling en basisbehoeften moet je rekening houden met 10-15 minuten lopen naar de dichtstbijzijnde faciliteiten."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet direct in 't Fort zelf. De dichtstbijzijnde hondenloopzones liggen op 17 minuten wandelen in aangrenzende wijken. Hoewel deze afstand niet ideaal is voor een snelle losloopsessie, zijn de nabijgelegen parken zoals Hof ter Heide en Kwadeveldenplein wel geschikte alternatieven voor je dagelijkse wandelrondes.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenloopzone Laarsebaan",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2605229,
+          "lon": 4.4370271
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenloopzone (naamloos)",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2515529,
+          "lon": 4.4639315
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg moet je de wijk uit. De dichtstbijzijnde dierenarts is Dierenartsenpraktijk Sinjan op de Ringlaan in Merksem, op 13 minuten wandelen. Voor spoedgevallen is het goed om te weten dat je ongeveer 15-20 minuten met de auto nodig hebt naar grotere klinieken in het centrum van Antwerpen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Sinjan",
+        "street": "Ringlaan",
+        "streetNumber": "180",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2543585,
+          "lon": 4.4495427
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in 't Fort zelf, maar Tom & Co op de Bredabaan in Schoten ligt op slechts 9 minuten wandelen. Ook Maxi Zoo is binnen 12 minuten te voet bereikbaar. Voor dagelijkse benodigdheden kun je hier terecht, al zul je voor een uitgebreide keuze waarschijnlijk toch de auto pakken naar grotere winkels.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Bredabaan",
+        "streetNumber": "1301",
+        "municipality": "Schoten",
+        "postalCode": "2900",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2674586,
+          "lon": 4.4636543
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2552932,
+          "lon": 4.4622253
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Antwerps Cichliden Center",
+        "street": "Annuntiatenstraat",
+        "streetNumber": "16",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.24693,
+          "lon": 4.4463608
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in 't Fort",
+    "intro": "Een typische dag in 't Fort met je hond draait vooral om rust en ruimte. Je woont in een kleine, overzichtelijke wijk waar je weinig andere wandelaars tegenkomt. Voor de dagelijkse wandeling loop je al snel richting een van de nabijgelegen parken, zoals Kwadeveldenplein of Hof ter Heide. De afstand betekent dat elke uitlaatbeurt meteen een flinke wandeling wordt, wat ideaal is voor actieve honden maar minder praktisch bij slecht weer of voor snelle sanitaire stops.",
+    "benefits": [
+      "Met 10 parken binnen een straal van 2 kilometer heb je voldoende variatie voor je wandelrondes. Hof ter Heide en Roosendaelpark bieden schaduwrijke paden en zijn populair voor langere uitstapjes.",
+      "De zeer lage bevolkingsdichtheid van 221 inwoners per vierkante kilometer zorgt voor uitzonderlijke rust. Je loopt hier niet snel tegen drukke straten of overvolle trottoirs aan, wat prettig is voor angstige honden of oudere viervoeters die moeite hebben met veel prikkels.",
+      "Hoewel voorzieningen niet direct voor de deur liggen, zijn alle basisbenodigdheden binnen 15 minuten wandelen bereikbaar. Tom & Co voor hondenvoer op 9 minuten en de dierenarts op 13 minuten is voor de meeste hondenliefhebbers acceptabel.",
+      "De ligging aan de noordrand van Antwerpen betekent dat je met de auto snel op de ring zit. Voor uitstapjes naar grotere natuurgebieden of hondenstranden aan de kust ben je hierdoor flexibel.",
+      "Het kleinschalige karakter van de wijk zorgt voor een hechte gemeenschap. Met slechts 260 inwoners ken je na verloop van tijd de meeste buurtbewoners, wat prettig kan zijn voor het delen van tips over goede wandelroutes of oppasafspraken."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "'t Fort is een van de kleinste wijken van Antwerpen met slechts 260 inwoners, wat resulteert in een uitzonderlijk lage bevolkingsdichtheid. De mediane woningprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 260,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in 't Fort? Door de kleine omvang van de wijk komt er relatief weinig aanbod op de markt. Je kunt filteren op postcode 2170, hoewel deze postcode gedeeld wordt met omliggende wijken. Het is aan te raden om regelmatig alerts in te stellen bij makelaarssites om geen kansen te missen.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-kroonwijk",
+    "antwerpen-ek-laar",
+    "antwerpen-kruisbaanvelden",
+    "antwerpen-duivelshoek",
+    "antwerpen-de-geesten"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T15:30:00Z",
+    "qualityScore": 87,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig wonen in een kleine wijk zonder drukte — voorzieningen liggen op wandelafstand in omliggende buurten",
+        "after": "Wonen in 't Fort, Antwerpen: rustige, kleinschalige wijk met parken op wandelafstand — voorzieningen in nabije buurten",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes is het belangrijk om te weten dat 't Fort geen eigen voorzieningen heeft binnen de wijkgrenzen.",
+        "after": "Voor hondenliefhebbers is het belangrijk om te weten dat 't Fort geen eigen voorzieningen heeft binnen de wijkgrenzen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Dit maakt 't Fort geen praktische keuze voor baasjes die veel belang hechten aan voorzieningen vlakbij, maar wel een optie voor wie rust zoekt en geen probleem heeft met korte verplaatsingen naar omliggende buurten.",
+        "after": "Dit maakt 't Fort geen praktische keuze voor wie veel belang hecht aan voorzieningen vlakbij, maar wel een optie voor wie rust zoekt en geen probleem heeft met korte verplaatsingen naar omliggende buurten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor jonge honden die veel prikkels nodig hebben of voor baasjes met mobiliteitsbeperkingen is deze wijk waarschijnlijk te afgelegen.",
+        "after": "Voor jonge honden die veel prikkels nodig hebben of voor mensen met mobiliteitsbeperkingen is deze wijk waarschijnlijk te afgelegen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in 't Fort draait vooral om rust en ruimte.",
+        "after": "Een typische dag in 't Fort met je hond draait vooral om rust en ruimte.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 10 parken binnen een straal van 2 kilometer heb je voldoende variatie voor je wandelrondes. Hof ter Heide en Roosendaelpark bieden schaduwrijke paden en zijn populair onder lokale baasjes voor langere uitstapjes.",
+        "after": "Met 10 parken binnen een straal van 2 kilometer heb je voldoende variatie voor je wandelrondes. Hof ter Heide en Roosendaelpark bieden schaduwrijke paden en zijn populair voor langere uitstapjes.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Hoewel voorzieningen niet direct voor de deur liggen, zijn alle basisbenodigdheden binnen 15 minuten wandelen bereikbaar. Tom & Co voor hondenvoer op 9 minuten en de dierenarts op 13 minuten is voor de meeste baasjes acceptabel.",
+        "after": "Hoewel voorzieningen niet direct voor de deur liggen, zijn alle basisbenodigdheden binnen 15 minuten wandelen bereikbaar. Tom & Co voor hondenvoer op 9 minuten en de dierenarts op 13 minuten is voor de meeste hondenliefhebbers acceptabel.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "keywordScore": 20,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T16:00:00Z",
+    "qualityScore": 80,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 14,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "hond",
+          "viervoeter",
+          "hondenspeelweiden",
+          "hondenloopzones",
+          "dierenarts",
+          "wijk"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (proximity usage)",
+          "aangrenzende buurten (neighboring areas)",
+          "omliggende buurten (surrounding areas)",
+          "buurtbewoners (neighborhood residents)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 6,
+        "localTipsFound": [
+          "richting een van de nabijgelegen parken",
+          "de parken in de aangrenzende wijken",
+          "de ligging aan de noordrand van Antwerpen"
+        ],
+        "neighborhoodObservations": [
+          "kleinschalig karakter zonder eigen winkelstraten",
+          "zeer rustige, residentiële omgeving",
+          "de rust van een dorpsachtige setting binnen de stadsgrenzen",
+          "kleine, overzichtelijke wijk"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 18.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no vet in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

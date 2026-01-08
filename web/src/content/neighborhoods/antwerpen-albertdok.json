@@ -1,0 +1,408 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T15:30:00Z",
+  "id": "antwerpen-albertdok",
+  "city": "Antwerpen",
+  "name": "Albertdok",
+  "postalCode": "2030",
+  "subtitle": "Wonen in Albertdok: rustig havengebied met veel ruimte en open terrein — voorzieningen op afstand, Antwerpen",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 125,
+  "labels": [
+    {
+      "text": "Havengebied",
+      "icon": "fa-solid fa-industry"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Uitgestrekt",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "Albertdok is een uitgestrekt havengebied in het noordwesten van Antwerpen, met een sterk industrieel karakter en veel open ruimte. Met slechts 125 inwoners is dit een van de dunstbevolkte wijken in de stad — gemiddeld slechts 3 inwoners per vierkante kilometer. Hier vind je rust en ruimte in plaats van winkels en cafés op elke hoek. Het gebied kenmerkt zich door lage verkeersdrukte en uitgestrekte open terreinen, ideaal voor wandelingen zonder massa's mensen.\n\nVoor wie met een hond woont betekent dit: veel open ruimte, weinig verkeersdrukte, maar ook een beperkt aanbod aan voorzieningen in de directe omgeving. De dichtstbijzijnde hondenspeelweide ligt op 24 minuten wandelen, dierenartsen zijn minimaal 57 minuten te voet (wat in de praktijk betekent: je hebt een auto nodig), en ook dierenwinkels bevinden zich op ruime afstand. De positieve kant? Je hebt hier ademruimte en leefruimte die je in dichter bebouwde wijken niet vindt. Voor honden die van lange wandelingen houden, kan dit een fijne uitvalsbasis zijn.\n\nDe wijk heeft binnen haar grenzen 1 supermarkt en 1 school, maar verder weinig commerciële voorzieningen. Wat je wél vindt, zijn rustige wegen en open terrein — ideaal voor uitgebreide wandelingen zonder veel andere mensen. De populatiedichtheid van 3 inwoners per km² is extreem laag vergeleken met andere Antwerpse wijken, wat betekent dat je hier vooral bedrijventerreinen en haven-infrastructuur aantreft.\n\nHet belangrijkste om te weten: Albertdok is géén wijk voor wie gemak en nabijheid van voorzieningen belangrijk vindt. De dichtstbijzijnde dierenarts ligt in Stabroek (Animal Care Center, 57 minuten wandelen), en ook voor boodschappen, diervoeding of dagelijkse benodigdheden moet je de wijk uit. Als je geen auto hebt, wordt dit gebied al snel onpraktisch. De 63 bushaltes in de wijk bieden wel degelijk openbaar vervoer, maar de aard van het gebied maakt dat je voor echte woongemak toch beter uitkijkt naar aangrenzende wijken.\n\nPraktisch voor wie de hectiek van de stad wil ontvluchten, ruimte zoekt, en bereid is om voor voorzieningen verder te reizen. Als je een auto hebt en houdt van rust, kan Albertdok een interessante optie zijn. Minder geschikt als loopafstand tot dierenartsen, parken en dierenwinkels belangrijk is — dan zijn omliggende woonwijken zoals EK-Donkse Beek of De Geesten waarschijnlijk praktischer.\n\nLaten we eerlijk zijn: dit is niet de wijk waar je even naar de dierenwinkel wandelt of waar je elke ochtend andere mensen met honden tegenkomt in het lokale park. Maar als je op zoek bent naar een rustpunt in de stad, met voldoende ruimte voor jou en je viervoeter, en je hebt mobiliteit via een auto, dan biedt Albertdok een unieke leefomgeving die je elders in Antwerpen niet snel vindt.",
+  "coordinates": {
+    "lat": 51.27295883041291,
+    "lon": 4.364154524749886,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "24 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 hondenspeelweiden buiten de wijk",
+      "detail": "Dichtstbijzijnde op 24 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "57 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dierenartsen op ruime afstand",
+      "detail": "Animal Care Center (Stabroek)"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "78 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen dierenwinkels in de wijk",
+      "detail": "Tom & Co (Stabroek)"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Beschikbaar",
+      "distanceIcon": "fa-solid fa-bus",
+      "description": "63 bushaltes in de wijk",
+      "detail": "Goed bereikbaar per bus"
+    }
+  ],
+  "facilities": {
+    "intro": "Albertdok heeft een zeer beperkt aanbod aan voorzieningen binnen de wijkgrenzen. De wijk kenmerkt zich door haven- en bedrijvigheid met slechts enkele basisvoorzieningen zoals 1 supermarkt en 63 bushaltes. Voor hondenspecifieke faciliteiten moet je de wijk verlaten. Wat het gebied wél biedt is veel open ruimte voor dagelijkse wandelingen, zonder drukte of veel voetgangers."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in Albertdok zelf. De dichtstbijzijnde opties liggen in omliggende wijken. Hondenpark Bospolder, op 39 minuten wandelen, is een omheind terrein met gemengde ondergrond. Dichterbij ligt Kringgroep 01 Duitse Herder Club op 24 minuten, hoewel dit geen omheinde speelweide is. Voor dagelijkse wandelingen heb je binnen de wijk voldoende ruimte en open terrein, maar voor socialisatie met andere honden moet je iets verder reizen.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Kringgroep 01 Duitse Herder Club",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2811992,
+          "lon": 4.3879839
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Bospolder",
+        "distance": "39 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2829432,
+          "lon": 4.4055043
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Gemengde ondergrond",
+            "icon": "fa-solid fa-layer-group"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (grasondergrond)",
+        "distance": "38 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2712226,
+          "lon": 4.4079873
+        },
+        "features": [
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Albertdok zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Animal Care Center in Stabroek, op 57 minuten wandelen — in de praktijk betekent dit dat je een auto of alternatief vervoer nodig hebt. Ook Dierenarts DAS in Antwerpen-centrum en Dierenartsenpraktijk D. Buschman in Kapellen liggen op respectievelijk 69 en 72 minuten wandelen. Voor spoedgevallen is mobiliteit essentieel.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Animal Care Center",
+        "street": "Antwerpse Steenweg",
+        "streetNumber": "152",
+        "municipality": "Stabroek",
+        "postalCode": "2940",
+        "distance": "57 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.3023812,
+          "lon": 4.4101635
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts DAS",
+        "street": "Nassaustraat",
+        "streetNumber": "18A",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "69 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.230521,
+          "lon": 4.4050374
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk D. Buschman",
+        "street": "Parijseweg",
+        "streetNumber": "26",
+        "municipality": "Kapellen",
+        "postalCode": "2950",
+        "distance": "72 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.3183681,
+          "lon": 4.4042426
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Sinjan",
+        "street": "Ringlaan",
+        "streetNumber": "180",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "79 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2543585,
+          "lon": 4.4495427
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Albertdok. De dichtstbijzijnde optie is KATshop in Antwerpen-centrum (78 minuten wandelen) of Tom & Co in Stabroek (80 minuten). Voor basisbenodigdheden heeft de wijk 1 supermarkt waar je mogelijk een klein assortiment vindt, maar voor specifieke diervoeding of accessoires moet je de wijk uit. Online bestellen of incidenteel naar een gespecialiseerde winkel rijden zijn hier de meest praktische opties.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "KATshop",
+        "street": "Adres niet beschikbaar",
+        "streetNumber": "",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "78 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2221272,
+          "lon": 4.4022574
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Laageind",
+        "streetNumber": "3 A",
+        "municipality": "Stabroek",
+        "postalCode": "2940",
+        "distance": "80 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.3304126,
+          "lon": 4.362186
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Antwerps Cichliden Center",
+        "street": "Annuntiatenstraat",
+        "streetNumber": "16",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "80 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.24693,
+          "lon": 4.4463608
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "pet à porter",
+        "street": "Adres niet beschikbaar",
+        "streetNumber": "",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "84 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2176989,
+          "lon": 4.4038982
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Albertdok",
+    "intro": "Een typische dag in Albertdok draait om rust, ruimte en zelfvoorzienendheid. Je bent niet afhankelijk van drukke hondenparken of een overvloed aan voorzieningen op loopafstand — je creëert je eigen routine in een uitgestrekte omgeving met weinig stedelijke drukte. Dit vereist wel planning en vaak een auto voor dierenartsenbezoek of boodschappen.",
+    "benefits": [
+      "Met slechts 125 inwoners en een populatiedichtheid van 3 per km² heb je hier ademruimte en rust die je in dichterbevolkte wijken niet vindt. Voor honden die gevoelig zijn voor drukte of prikkels is dit een uitkomst.",
+      "De 63 bushaltes in de wijk zorgen voor goede openbaar vervoer-connecties, wat handig is als je geen auto hebt maar wel regelmatig naar omliggende wijken moet voor voorzieningen.",
+      "Het ontbreken van drukke winkelstraten en grote aantallen voetgangers betekent dat je wandelingen rustig en veilig zijn, met weinig afleidingen voor je hond.",
+      "Als je houdt van lange wandelingen zonder een vast parcours, biedt het uitgestrekte karakter van de wijk veel vrijheid en variatie zonder constant tegen andere mensen of honden aan te lopen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Albertdok is een zeer dunbevolkt havengebied met industrieel karakter. Met 125 inwoners en een populatiedichtheid van 3 per km² is dit geen traditionele woonwijk.",
+    "medianPrice": 353000,
+    "inhabitants": 125,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Albertdok? Deze wijk valt onder postcode 2030. Let op: dit is een havengebied met beperkt woningaanbod en weinig voorzieningen in de directe omgeving.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-ek-donkse-beek",
+    "antwerpen-de-geesten",
+    "antwerpen-de-hoekx",
+    "antwerpen-vloeiende",
+    "antwerpen-t-eilandje"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T15:00:00Z",
+    "qualityScore": 78,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig havengebied met industrieel karakter — meeste voorzieningen liggen buiten de wijk",
+        "after": "Wonen in Albertdok: rustig havengebied met veel ruimte en open terrein — voorzieningen op afstand, Antwerpen",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Albertdok is een uitgestrekt havengebied in het noordwesten van Antwerpen, met een sterk industrieel karakter. Met slechts 125 inwoners is dit een van de dunstbevolkte wijken in de stad — gemiddeld slechts 3 inwoners per vierkante kilometer. Dit is geen klassieke woonwijk met winkels en cafés op elke hoek, maar juist een gebied waar rust en ruimte centraal staan.\n\nVoor baasjes betekent dit: veel open ruimte, weinig verkeersdrukte, maar ook een beperkt aanbod aan voorzieningen in de directe omgeving.",
+        "after": "Albertdok is een uitgestrekt havengebied in het noordwesten van Antwerpen, met een sterk industrieel karakter en veel open ruimte. Met slechts 125 inwoners is dit een van de dunstbevolkte wijken in de stad — gemiddeld slechts 3 inwoners per vierkante kilometer. Hier vind je rust en ruimte in plaats van winkels en cafés op elke hoek. Het gebied kenmerkt zich door lage verkeersdrukte en uitgestrekte open terreinen, ideaal voor wandelingen zonder massa's mensen.\n\nVoor wie met een hond woont betekent dit: veel open ruimte, weinig verkeersdrukte, maar ook een beperkt aanbod aan voorzieningen in de directe omgeving.",
+        "reason": "intro_structure"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes betekent dit: veel open ruimte, weinig verkeersdrukte, maar ook een beperkt aanbod aan voorzieningen in de directe omgeving. De dichtstbijzijnde hondenspeelweide ligt op 24 minuten wandelen, dierenartsen zijn minimaal 57 minuten te voet (wat in de praktijk betekent: je hebt een auto nodig), en ook dierenwinkels bevinden zich op ruime afstand. De positieve kant? Je hebt hier ademruimte en leefruimte die je in dichter bebouwde wijken niet vindt. Voor honden die van lange wandelingen houden en baasjes die van stilte houden, kan dit een fijne uitvalsbasis zijn.",
+        "after": "Voor wie met een hond woont betekent dit: veel open ruimte, weinig verkeersdrukte, maar ook een beperkt aanbod aan voorzieningen in de directe omgeving. De dichtstbijzijnde hondenspeelweide ligt op 24 minuten wandelen, dierenartsen zijn minimaal 57 minuten te voet (wat in de praktijk betekent: je hebt een auto nodig), en ook dierenwinkels bevinden zich op ruime afstand. De positieve kant? Je hebt hier ademruimte en leefruimte die je in dichter bebouwde wijken niet vindt. Voor honden die van lange wandelingen houden, kan dit een fijne uitvalsbasis zijn.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Wie zou zich hier thuis voelen? Mensen die de hectiek van de stad willen ontvluchten, die ruimte zoeken, en die bereid zijn om voor voorzieningen verder te reizen. Als je een auto hebt en houdt van rust, kan Albertdok een interessante optie zijn. Voor wie loopafstand tot dierenartsen, parken en dierenwinkels belangrijk vindt, zijn omliggende woonwijken zoals EK-Donkse Beek of De Geesten waarschijnlijk geschikter.",
+        "after": "Praktisch voor wie de hectiek van de stad wil ontvluchten, ruimte zoekt, en bereid is om voor voorzieningen verder te reizen. Als je een auto hebt en houdt van rust, kan Albertdok een interessante optie zijn. Minder geschikt als loopafstand tot dierenartsen, parken en dierenwinkels belangrijk is — dan zijn omliggende woonwijken zoals EK-Donkse Beek of De Geesten waarschijnlijk praktischer.",
+        "reason": "intro_structure"
+      },
+      {
+        "field": "intro",
+        "before": "Laten we eerlijk zijn: dit is niet de wijk waar je even naar de dierenwinkel wandelt of waar je elke ochtend andere baasjes tegenkomt in het lokale park. Maar als je op zoek bent naar een rustpunt in de stad, met voldoende ruimte voor jou en je hond, en je hebt mobiliteit via een auto, dan biedt Albertdok een unieke leefomgeving die je elders in Antwerpen niet snel vindt.",
+        "after": "Laten we eerlijk zijn: dit is niet de wijk waar je even naar de dierenwinkel wandelt of waar je elke ochtend andere mensen met honden tegenkomt in het lokale park. Maar als je op zoek bent naar een rustpunt in de stad, met voldoende ruimte voor jou en je viervoeter, en je hebt mobiliteit via een auto, dan biedt Albertdok een unieke leefomgeving die je elders in Antwerpen niet snel vindt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Albertdok heeft een zeer beperkt aanbod aan voorzieningen binnen de wijkgrenzen. De wijk kenmerkt zich door haven- en bedrijvigheid met slechts enkele basisvoorzieningen zoals 1 supermarkt en 63 bushaltes. Voor hondenspecifieke faciliteiten moet je de wijk verlaten.",
+        "after": "Albertdok heeft een zeer beperkt aanbod aan voorzieningen binnen de wijkgrenzen. De wijk kenmerkt zich door haven- en bedrijvigheid met slechts enkele basisvoorzieningen zoals 1 supermarkt en 63 bushaltes. Voor hondenspecifieke faciliteiten moet je de wijk verlaten. Wat het gebied wél biedt is veel open ruimte voor dagelijkse wandelingen, zonder drukte of veel voetgangers.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Albertdok draait om rust, ruimte en zelfvoorzienendheid.",
+        "after": "Een typische dag in Albertdok draait om rust, ruimte en zelfvoorzienendheid.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 13,
+      "introScore": 21,
+      "keywordScore": 17,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 4
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:30:00Z",
+    "qualityScore": 94,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 30,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 14,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "hond",
+          "honden",
+          "viervoeter",
+          "wijk",
+          "hondenspeelweide",
+          "dierenarts",
+          "dierenartsen",
+          "wandeling",
+          "wandelen"
+        ],
+        "allowedExceptionsUsed": []
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 5,
+        "localTipsFound": [],
+        "neighborhoodObservations": [
+          "uitgestrekt havengebied met industrieel karakter",
+          "slechts 125 inwoners",
+          "populatiedichtheid van 3 per km²",
+          "bedrijventerreinen en haven-infrastructuur"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no vet in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

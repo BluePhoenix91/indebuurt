@@ -1,0 +1,445 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T15:00:00Z",
+  "id": "antwerpen-antwerpen-kern-oude-stad-spaanse-wallen-",
+  "city": "Antwerpen",
+  "name": "Oude Stad (Spaanse Wallen)",
+  "postalCode": "2000",
+  "subtitle": "Wonen in de Oude Stad van Antwerpen: alles op wandelafstand, compact en levendig — groen en ruimte voor je dagelijkse routine",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 9206,
+  "labels": [
+    { "text": "Historisch centrum", "icon": "fa-solid fa-landmark" },
+    { "text": "Stedelijk", "icon": "fa-solid fa-city" },
+    { "text": "Goed bereikbaar", "icon": "fa-solid fa-train" },
+    { "text": "Levendig", "icon": "fa-solid fa-champagne-glasses" }
+  ],
+  "intro": "Oude Stad (Spaanse Wallen) ligt in het levendige hart van Antwerpen, omringd door historische gevels, smalle straatjes en het iconische stadhuis op de Grote Markt. Hier woon je midden in de stad waar alles gebeurt: winkels, cafés en cultuur liggen allemaal binnen een paar minuten lopen. Met 9.206 inwoners op een compacte oppervlakte voel je de stedelijke energie op elke hoek, maar tegelijkertijd biedt de wijk ook verrassend groene uitwijkmogelijkheden op wandelafstand voor je dagelijkse routine.\n\nDe dichtstbijzijnde hondenparken liggen op 10 en 12 minuten wandelen — Frans Halsplein Dog Park en Hondenloopzone Zuidpark — en bieden ruimte om je viervoeter los te laten rennen. Voor de dagelijkse wandeling is er Lode Sebregts Parkje op 7 minuten, een kleinere groene oase tussen de historische straten. Met in totaal 5 hondenparken binnen redelijke afstand heb je voldoende keuze om je wandelroutine af te wisselen. De wijk heeft 2 gespecialiseerde dierenwinkels (KATshop en pet à porter) direct in de wijk op slechts 4 minuten lopen, wat dagelijkse boodschappen praktisch maakt.\n\nEen belangrijke afweging: er is geen dierenarts gevestigd in de wijk zelf. De dichtstbijzijnde praktijk, Dierenarts DAS, ligt op 16 minuten wandelen in de aangrenzende wijk. Voor acute situaties betekent dit dat je een taxi of auto nodig hebt, of bereid moet zijn om snel te voet te gaan. Voor routinecontroles en vaccinaties is de afstand goed te doen, maar wie prioriteit geeft aan een dierenarts om de hoek moet dit vooraf overwegen.\n\nMet 8 supermarkten, 23 bushaltes en het centraal station binnen handbereik is dit een uiterst praktische wijk voor wie het stedelijk leven omarmt. De bereikbaarheid is uitstekend: je bent binnen enkele minuten bij het openbaar vervoer voor uitstapjes naar de Scheldekaaien of het Rivierenhof. De stedelijke dichtheid (9.255 inwoners per km²) betekent wel dat je in een levendige, drukke omgeving woont waar rust en stilte schaars zijn. Wie graag een rustige straat met weinig verkeer zoekt, zal hier niet op zijn plek zijn. Maar voor wie geniet van het stedelijk leven, met alles binnen handbereik en voldoende hondenparken in de omgeving, biedt de Oude Stad een unieke mix van historisch karakter en hedendaags gemak.\n\nDeze wijk is geschikt voor stadsmensen die compactheid en centraliteit waarderen. Je woont midden in de actie, hebt snelle toegang tot winkels en voorzieningen, en kunt toch binnen 10 minuten naar een hondenpark wandelen. Tegelijk moet je accepteren dat medische zorg voor je hond niet om de hoek zit en dat je leeft in een drukke, dichtbevolkte omgeving. Voor wie beide aspecten kan combineren, is de Oude Stad een bijzonder plekje om te wonen in Antwerpen.",
+  "coordinates": {
+    "lat": 51.2195614660485,
+    "lon": 4.4005988003485745,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 hondenparken binnen bereik",
+      "detail": "Dichtstbijzijnde op 10 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 gespecialiseerde winkels",
+      "detail": "KATshop en pet à porter"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "16 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde in aangrenzende wijk",
+      "detail": "Geen praktijk in de wijk zelf"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "8 supermarkten in de wijk",
+      "detail": "Boodschappen altijd dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "1 min",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "23 bushaltes + centraal station",
+      "detail": "Uitstekende bereikbaarheid"
+    }
+  ],
+  "facilities": {
+    "intro": "De Oude Stad biedt een goede basis voor dagelijks leven met je hond: 2 dierenwinkels direct in de wijk en 5 hondenparken binnen 10 tot 28 minuten wandelen. Voor medische zorg moet je de wijk uit, met de dichtstbijzijnde dierenarts op 16 minuten. De stedelijke infrastructuur (supermarkten, openbaar vervoer) is uitstekend, wat het praktisch maakt om hier te wonen."
+  },
+  "dogParks": {
+    "intro": "Met 5 hondenparken binnen redelijke afstand heb je voldoende keuze om je wandelroutine af te wisselen. De dichtstbijzijnde opties zijn Frans Halsplein Dog Park (10 minuten) en Hondenloopzone Zuidpark (12 minuten). Let op: geen van deze parken is omheind, dus een goede roepnaam is essentieel. Voor een omheinde speelweide kun je terecht bij Dog Park Zuid op 28 minuten wandelen.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Frans Halsplein Dog Park",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.2209407, "lon": 4.4119228 },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenloopzone Zuidpark",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.21199, "lon": 4.3929137 },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dog Park Noord",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.230723, "lon": 4.4182077 },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dog Park Luchtbal",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.2365687, "lon": 4.4028002 },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dog Park Zuid",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.2009318, "lon": 4.412667 },
+        "features": [
+          { "text": "Omheind terrein", "icon": "fa-solid fa-fence" }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Er is geen dierenartspraktijk gevestigd in de Oude Stad zelf. De dichtstbijzijnde opties liggen in de aangrenzende wijken: Dierenarts DAS op 16 minuten wandelen en een praktijk in de noordelijke wijk op 17 minuten. Voor routinecontroles is dit goed te doen, maar bij acute situaties moet je rekening houden met de afstand.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts DAS",
+        "street": "Nassaustraat",
+        "streetNumber": "18A",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.230521, "lon": 4.4050374 }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts praktijk",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.2262093, "lon": 4.4174961 }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Tony De Vries",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.204489, "lon": 4.404204 }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsencentrum De Merode",
+        "street": "Grotesteenweg",
+        "streetNumber": "78",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.1975816, "lon": 4.4171474 }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor benodigdheden zit je hier uitstekend: 2 gespecialiseerde dierenwinkels liggen direct in de wijk op slechts 4 minuten lopen. KATshop en pet à porter bieden een goed assortiment, en de 8 supermarkten in de wijk hebben vaak een basisassortiment.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "KATshop",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.2221272, "lon": 4.4022574 }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "pet à porter",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.2176989, "lon": 4.4038982 }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in de Oude Stad",
+    "intro": "Een typische dag in de Oude Stad draait om korte afstanden en stedelijk gemak. Je ochtendwandeling voert je door historische straatjes naar een van de nabijgelegen parken, terwijl je voor boodschappen of een bezoek aan de dierenwinkel amper uit je straat hoeft. De wijk ademt geschiedenis en levendigheid, wat betekent dat je altijd wat te beleven hebt, maar ook dat je leert om te gaan met drukte en stedelijke hectiek.",
+    "benefits": [
+      "Dankzij 2 gespecialiseerde dierenwinkels op 4 minuten lopen heb je altijd snel toegang tot hondenvoer, speelgoed en verzorgingsproducten. Vergeten een nieuw speeltje te kopen? Geen probleem, je bent binnen enkele minuten terug met wat je nodig hebt.",
+      "Met 5 hondenparken tussen 10 en 28 minuten wandelen kun je je wandelroutine goed afwisselen. Frans Halsplein Dog Park en Hondenloopzone Zuidpark zijn populaire keuzes en bieden voldoende ruimte om je hond te laten rennen.",
+      "De bereikbaarheid is uitstekend: met 23 bushaltes en het centraal station binnen handbereik kun je gemakkelijk uitstapjes maken naar grotere groene gebieden zoals het Rivierenhof of de Scheldekaaien voor een langere wandeling.",
+      "De compacte opzet betekent dat alles dichtbij is. Supermarkten (8 stuks), apotheken (9) en winkels liggen allemaal op wandelafstand, wat het dagelijks leven praktisch maakt zonder auto.",
+      "Het historische karakter van de wijk zorgt voor een unieke sfeer: smalle straatjes, oude gevels en karakteristieke pleinen maken elke wandeling interessant. Je viervoeter zal waarschijnlijk genieten van de verschillende geuren en drukte die je hier tegenkomt.",
+      "Een aandachtspunt is wel de afwezigheid van een dierenarts in de wijk zelf. De dichtstbijzijnde praktijk ligt op 16 minuten wandelen, wat betekent dat je voor spoedgevallen een plan moet hebben (taxi, auto of bereid zijn snel te voet te gaan)."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere baasjes de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "De Oude Stad is een compacte, dichtbevolkte wijk met 9.206 inwoners en een mediane huizenprijs van €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 9206,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in de Oude Stad? De wijk heeft postcode 2000, wat ook andere delen van Antwerpen omvat. Filter op wijknaam om specifiek in deze wijk te zoeken.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-st-andries-spaanse-wallen",
+    "antwerpen-hessenhuis-spaanse-wallen",
+    "antwerpen-jezuitencollegestationswijk-",
+    "antwerpen-gerechtshof-zuidwijk",
+    "antwerpen-atheneum-stationswijk"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:35:00Z",
+    "qualityScore": 86,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in het historisch hart van Antwerpen: alles op wandelafstand, compact en levendig — praktisch voor je dagelijkse routine",
+        "after": "Wonen in de Oude Stad van Antwerpen: alles op wandelafstand, compact en levendig — groen en ruimte voor je dagelijkse routine",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "De wijk heeft 2 gespecialiseerde dierenwinkels (KATshop en pet à porter) direct in de buurt op slechts 4 minuten lopen, wat dagelijkse boodschappen voor je hond bijzonder gemakkelijk maakt.",
+        "after": "De wijk heeft 2 gespecialiseerde dierenwinkels (KATshop en pet à porter) direct in de buurt op slechts 4 minuten lopen, wat dagelijkse boodschappen praktisch maakt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Maar voor baasjes die genieten van het stedelijk leven, met alles binnen handbereik en voldoende hondenparken in de omgeving, biedt de Oude Stad een unieke mix van historisch karakter en hedendaags gemak.",
+        "after": "Maar voor wie geniet van het stedelijk leven, met alles binnen handbereik en voldoende hondenparken in de omgeving, biedt de Oude Stad een unieke mix van historisch karakter en hedendaags gemak.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor wie beide aspecten kan combineren, is de Oude Stad een bijzonder plekje om met je viervoeter te wonen in Antwerpen.",
+        "after": "Voor wie beide aspecten kan combineren, is de Oude Stad een bijzonder plekje om te wonen in Antwerpen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "De Oude Stad biedt een goede basis voor baasjes: 2 dierenwinkels direct in de buurt en 5 hondenparken binnen 10 tot 28 minuten wandelen. Voor medische zorg moet je de wijk uit, met de dichtstbijzijnde dierenarts op 16 minuten. De stedelijke infrastructuur (supermarkten, openbaar vervoer) is uitstekend, wat het dagelijks leven met je hond praktisch maakt.",
+        "after": "De Oude Stad biedt een goede basis voor dagelijks leven met je hond: 2 dierenwinkels direct in de buurt en 5 hondenparken binnen 10 tot 28 minuten wandelen. Voor medische zorg moet je de wijk uit, met de dichtstbijzijnde dierenarts op 16 minuten. De stedelijke infrastructuur (supermarkten, openbaar vervoer) is uitstekend, wat het praktisch maakt om hier te wonen.",
+        "reason": "readability"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor benodigdheden zit je hier uitstekend: 2 gespecialiseerde dierenwinkels liggen direct in de buurt op slechts 4 minuten lopen. KATshop en pet à porter bieden een goed assortiment, en de 8 supermarkten in de wijk hebben vaak een basisassortiment voor je viervoeter.",
+        "after": "Voor benodigdheden zit je hier uitstekend: 2 gespecialiseerde dierenwinkels liggen direct in de buurt op slechts 4 minuten lopen. KATshop en pet à porter bieden een goed assortiment, en de 8 supermarkten in de wijk hebben vaak een basisassortiment.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Oude Stad",
+        "after": "Dagelijks leven in de Oude Stad",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in de Oude Stad draait om korte afstanden en stedelijk gemak. Je ochtendwandeling voert je door historische straatjes naar een van de nabijgelegen parken, terwijl je voor boodschappen of een bezoek aan de dierenwinkel amper uit je straat hoeft. De wijk ademt geschiedenis en levendigheid, wat betekent dat je altijd wat te beleven hebt, maar ook dat je leert om te gaan met drukte en stedelijke hectiek.",
+        "after": "Een typische dag in de Oude Stad draait om korte afstanden en stedelijk gemak. Je ochtendwandeling voert je door historische straatjes naar een van de nabijgelegen parken, terwijl je voor boodschappen of een bezoek aan de dierenwinkel amper uit je straat hoeft. De wijk ademt geschiedenis en levendigheid, wat betekent dat je altijd wat te beleven hebt, maar ook dat je leert om te gaan met drukte en stedelijke hectiek.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Met 5 hondenparken tussen 10 en 28 minuten wandelen kun je je wandelroutine goed afwisselen. Frans Halsplein Dog Park en Hondenloopzone Zuidpark zijn populaire keuzes voor lokale baasjes en bieden voldoende ruimte om je hond te laten rennen.",
+        "after": "Met 5 hondenparken tussen 10 en 28 minuten wandelen kun je je wandelroutine goed afwisselen. Frans Halsplein Dog Park en Hondenloopzone Zuidpark zijn populaire keuzes en bieden voldoende ruimte om je hond te laten rennen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "De bereikbaarheid is uitstekend: met 23 bushaltes en het centraal station binnen handbereik kun je gemakkelijk uitstapjes maken naar grotere groene gebieden zoals het Rivierenhof of de Scheldekaaien voor een langere wandeling met je viervoeter.",
+        "after": "De bereikbaarheid is uitstekend: met 23 bushaltes en het centraal station binnen handbereik kun je gemakkelijk uitstapjes maken naar grotere groene gebieden zoals het Rivierenhof of de Scheldekaaien voor een langere wandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Het historische karakter van de wijk zorgt voor een unieke sfeer: smalle straatjes, oude gevels en karakteristieke pleinen maken elke wandeling interessant. Je hond zal waarschijnlijk genieten van de verschillende geuren en drukte die je hier tegenkomt.",
+        "after": "Het historische karakter van de wijk zorgt voor een unieke sfeer: smalle straatjes, oude gevels en karakteristieke pleinen maken elke wandeling interessant. Je viervoeter zal waarschijnlijk genieten van de verschillende geuren en drukte die je hier tegenkomt.",
+        "reason": "readability"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 18,
+      "decisionUsefulnessScore": 14
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:00:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Oude Stad (Spaanse Wallen) ligt in het bruisende hart van Antwerpen",
+        "after": "Oude Stad (Spaanse Wallen) ligt in het levendige hart van Antwerpen",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "De wijk heeft 2 gespecialiseerde dierenwinkels (KATshop en pet à porter) direct in de buurt op slechts 4 minuten lopen",
+        "after": "De wijk heeft 2 gespecialiseerde dierenwinkels (KATshop en pet à porter) direct in de wijk op slechts 4 minuten lopen",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "De dichtstbijzijnde praktijk, Dierenarts DAS, ligt op 16 minuten wandelen in de aangrenzende buurt.",
+        "after": "De dichtstbijzijnde praktijk, Dierenarts DAS, ligt op 16 minuten wandelen in de aangrenzende wijk.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "De Oude Stad biedt een goede basis voor dagelijks leven met je hond: 2 dierenwinkels direct in de buurt",
+        "after": "De Oude Stad biedt een goede basis voor dagelijks leven met je hond: 2 dierenwinkels direct in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor benodigdheden zit je hier uitstekend: 2 gespecialiseerde dierenwinkels liggen direct in de buurt op slechts 4 minuten lopen.",
+        "after": "Voor benodigdheden zit je hier uitstekend: 2 gespecialiseerde dierenwinkels liggen direct in de wijk op slechts 4 minuten lopen.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "vets.intro",
+        "before": "De dichtstbijzijnde opties liggen in de aangrenzende wijken: Dierenarts DAS op 16 minuten wandelen en een praktijk in de noordelijke buurt op 17 minuten.",
+        "after": "De dichtstbijzijnde opties liggen in de aangrenzende wijken: Dierenarts DAS op 16 minuten wandelen en een praktijk in de noordelijke wijk op 17 minuten.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere baasjes de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 19,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 7
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "bruisende",
+            "field": "intro",
+            "preferred": "levendige"
+          },
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "facilities.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "petStores.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "vets.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "hondenliefhebbers",
+            "field": "contributionCTA.intro",
+            "preferred": "baasjes"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt vinden (allowed phrase)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "richting de Scheldekaaien",
+          "bij het centraal station",
+          "naar het Rivierenhof"
+        ],
+        "neighborhoodObservations": [
+          "levendige sfeer op de Grote Markt",
+          "historische straatjes met oude gevels",
+          "stedelijke dichtheid betekent drukke omgeving"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.79,
+        "averageSentenceLength": 18.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood"
+        ],
+        "gapsHandledGracefully": 1,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

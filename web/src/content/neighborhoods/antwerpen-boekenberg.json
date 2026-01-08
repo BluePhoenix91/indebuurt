@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T12:00:00Z",
+  "id": "antwerpen-boekenberg",
+  "city": "Antwerpen",
+  "name": "Boekenberg",
+  "postalCode": "2100",
+  "subtitle": "Wonen in Boekenberg, Antwerpen: groen met 7 parken op wandelafstand — Boekenbergpark op 4 min voor je dagelijkse wandeling",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 13759,
+  "labels": [
+    {
+      "text": "Groene wijk",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    }
+  ],
+  "intro": "Boekenberg is een groene, residentiële wijk in het noordoosten van Antwerpen, waar het gelijknamige Boekenbergpark de toon zet. Met 13.759 inwoners en een bevolkingsdichtheid van 4.164 per km² woon je hier stedelijk zonder het drukkere stadscentrum. De 7 parken binnen handbereik maken deze wijk bijzonder interessant als je houdt van groene ruimte en regelmatig buiten wilt zijn met je viervoeter.\n\nHet Boekenbergpark ligt op amper 4 minuten wandelen van het centrum van de wijk en biedt uitgestrekte grasvelden, waterpartijen en lange wandelpaden. Dit park is het groene hart van de wijk en een vaste ontmoetingsplek voor lokale hondenliefhebbers. Daarnaast vind je nog 6 andere groengebieden verspreid over de wijk, waaronder kleinere speelpleinen en groenzones. Voor wie dagelijks wil uitlaten zonder ver te hoeven, is dit een grote troef.\n\nOp het vlak van gespecialiseerde hondenvoorzieningen is het aanbod beperkter. Er is één hondenspeelweide op 3 minuten wandelen, maar deze is niet omheind en heeft geen voorzieningen zoals drinkwater. Voor wie je hond graag los laat lopen in een veilige, afgesloten ruimte, is dit een beperking. De praktische oplossing: je leert de rustigere hoeken van het Boekenbergpark kennen waar je met wat oplettendheid je hond toch vrijheid kunt geven, en voor echte speeltijd rijd je naar beter uitgeruste hondenweiden in naburige wijken.\n\nVoor medische zorg zit je goed: dierenarts Valérie Monster ligt op 4 minuten wandelen aan de Eduard van Steenbergenlaan. Dat is bijzonder praktisch voor routinecontroles, vaccinaties of als er plots iets aan de hand is. Voor dierenartikelenwinkels daarentegen is het aanbod minder toegankelijk. De dichtstbijzijnde is Tom & Co op 23 minuten wandelen (of een korte rit naar de Diksmuidelaan). Voor wie vaak dierenartikelen nodig heeft, is online bestellen een praktisch alternatief. De meeste supermarkten in de wijk hebben wel een basisassortiment.\n\nMet 28 bushaltes in de wijk is het openbaar vervoer goed georganiseerd, al is er geen treinstation in de directe omgeving. Voor wie met de auto rijdt, is de ligging praktisch: je zit snel op de Ring en bereikt zowel het centrum van Antwerpen als de groenere wijken in Deurne en Borsbeek zonder veel moeite.\n\nBoekenberg is een wijk voor wie rust en groen waardeert boven stedelijke drukte en complete hondenvoorzieningen. Je vindt hier geen bruisende hondenscene met wekelijkse meetups in omheinde speelweiden, maar wel een rustige, groene omgeving waar je dagelijks kunt wandelen zonder steeds dezelfde route te moeten lopen. Perfect voor wie een hond heeft die goed luistert en niet per se een afgesloten speelterrein nodig heeft, maar minder geschikt als je een jonge, energieke hond hebt die regelmatig volledig vrij moet kunnen rennen.",
+  "coordinates": {
+    "lat": 51.19659229373524,
+    "lon": 4.4663862420295395,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Parken",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "7 parken waaronder Boekenbergpark",
+      "detail": "Boekenbergpark op 4 min"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 hondenspeelweide dichtbij",
+      "detail": "Niet omheind, geen voorzieningen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 dierenarts in de wijk",
+      "detail": "Valérie Monster, zeer dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "23 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co dichtstbijzijnd",
+      "detail": "Verder weg, online bestellen aangeraden"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Nabij",
+      "distanceIcon": "fa-solid fa-bus",
+      "description": "28 bushaltes in de wijk",
+      "detail": "Goed bereikbaar met de bus"
+    }
+  ],
+  "facilities": {
+    "intro": "Boekenberg scoort uitstekend op groene ruimte met het Boekenbergpark en 6 andere groengebieden, en biedt toegang tot een dierenarts op 4 minuten wandelen. Voor gespecialiseerde dierenwinkels moet je verder reizen of online bestellen."
+  },
+  "dogParks": {
+    "intro": "Er is één hondenspeelweide op 3 minuten wandelen, maar deze is niet omheind en heeft geen extra voorzieningen zoals drinkwater. Voor wie een veilige, afgesloten ruimte zoekt, is dit een beperking. Het Boekenbergpark en de andere groengebieden bieden wel voldoende ruimte voor wie met een goed luisterende hond wandelt.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (naamloos)",
+        "distance": "3 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1971049,
+          "lon": 4.4695814
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg kun je terecht bij dierenarts Valérie Monster op de Eduard van Steenbergenlaan, op slechts 4 minuten wandelen. Dit is bijzonder praktisch voor routinebezoeken en spoedgevallen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Valérie Monster",
+        "street": "Eduard van Steenbergenlaan",
+        "streetNumber": "16",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1957937,
+          "lon": 4.461436
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Gespecialiseerde dierenwinkels zijn niet direct in de wijk. Tom & Co op de Diksmuidelaan ligt op 23 minuten wandelen. Voor wie vaak dierenartikelen nodig heeft, is online bestellen een praktisch alternatief. De meeste supermarkten hebben wel een basisassortiment.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Diksmuidelaan",
+        "streetNumber": "79-83",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1985998,
+          "lon": 4.4397835
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Ter Heydelaan",
+        "streetNumber": "235",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "44 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2283151,
+          "lon": 4.4684619
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Petpret",
+        "street": "Prins Boudewijnlaan",
+        "streetNumber": "120",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "46 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1763914,
+          "lon": 4.4243879
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Boekenberg",
+    "intro": "Een typische dag in Boekenberg draait om de groene ruimte. 's Ochtends loop je naar het Boekenbergpark voor de eerste ronde, 's middags misschien een kortere wandeling in een van de andere groengebieden, en 's avonds weer een rustig rondje door de wijk. De hoeveelheid groen zorgt ervoor dat je dagelijkse routine afwisselend blijft zonder ver te hoeven.",
+    "benefits": [
+      "Met het Boekenbergpark op 4 minuten en in totaal 7 parken binnen de wijk heb je altijd een groene plek binnen handbereik. Het park biedt lange wandelpaden en open grasvelden, ideaal voor een uitgebreide ochtendwandeling of een rustige avondronde.",
+      "De aanwezigheid van een dierenarts op 4 minuten wandelen geeft een veilig gevoel. Voor routinecontroles, vaccinaties of onverwachte gezondheidsproblemen hoef je niet ver te zoeken.",
+      "Met 28 bushaltes in de wijk is openbaar vervoer goed geregeld. Handig als je zonder auto naar andere wijken of het stadscentrum wilt met je hond.",
+      "De wijk heeft een rustig, residentieel karakter met een bevolkingsdichtheid die ruimte laat voor privacy en groene zones. Perfect voor wie niet van drukte houdt.",
+      "Ondanks het groene karakter blijf je goed verbonden met Antwerpen. Via de buslijnen bereik je het centrum en andere wijken zonder moeite, en met de auto zit je snel op de Ring."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Boekenberg telt 13.759 inwoners met een dichtheid van 4.164 per km². De mediane huisprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 13759,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Boekenberg? Filter op postcode 2100 bij je huizenzoekopdracht. De wijk valt onder deze postcode samen met andere buurten in Deurne.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-cruyslei",
+    "antwerpen-t-mestputteke",
+    "antwerpen-berchembos",
+    "antwerpen-boelaerpark-noord",
+    "antwerpen-oostkwartier"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T12:15:00Z",
+    "qualityScore": 88,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Groen wonen in Antwerpen met het Boekenbergpark op 4 minuten — ruim 7 parken binnen handbereik voor je dagelijkse wandeling",
+        "after": "Wonen in Boekenberg, Antwerpen: groen met 7 parken op wandelafstand — Boekenbergpark op 4 min voor je dagelijkse wandeling",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Dit park is het groene hart van de wijk en een vaste ontmoetingsplek voor lokale baasjes. Daarnaast vind je nog 6 andere groengebieden verspreid over de wijk, waaronder kleinere speelpleinen en groenzones. Voor hondenliefhebbers die dagelijks willen uitlaten zonder ver te hoeven, is dit een grote troef.",
+        "after": "Dit park is het groene hart van de wijk en een vaste ontmoetingsplek voor lokale hondenliefhebbers. Daarnaast vind je nog 6 andere groengebieden verspreid over de wijk, waaronder kleinere speelpleinen en groenzones. Voor wie dagelijks wil uitlaten zonder ver te hoeven, is dit een grote troef.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes die hun hond graag los laten lopen in een veilige, afgesloten ruimte, is dit een beperking.",
+        "after": "Voor wie je hond graag los laat lopen in een veilige, afgesloten ruimte, is dit een beperking.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De dichtstbijzijnde is Tom & Co op 23 minuten wandelen (of een korte rit naar de Diksmuidelaan). Voor baasjes zonder auto betekent dit dat je online bestelt of af en toe een uitstap plant naar een dierenwinkel. De meeste supermarkten in de buurt hebben wel een basisassortiment voor je hond.",
+        "after": "De dichtstbijzijnde is Tom & Co op 23 minuten wandelen (of een korte rit naar de Diksmuidelaan). Voor wie vaak dierenartikelen nodig heeft, is online bestellen een praktisch alternatief. De meeste supermarkten in de buurt hebben wel een basisassortiment.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Perfect voor baasjes met een hond die goed luistert en niet per se een afgesloten speelterrein nodig heeft, maar minder geschikt als je een jonge, energieke hond hebt die regelmatig volledig vrij moet kunnen rennen.",
+        "after": "Perfect voor wie een hond heeft die goed luistert en niet per se een afgesloten speelterrein nodig heeft, maar minder geschikt als je een jonge, energieke hond hebt die regelmatig volledig vrij moet kunnen rennen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Voor baasjes die een veilige, afgesloten ruimte zoeken, is dit een beperking.",
+        "after": "Voor wie een veilige, afgesloten ruimte zoekt, is dit een beperking.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor wie vaak dierenartikelen nodig heeft, is online bestellen een praktisch alternatief. De meeste supermarkten hebben wel een basisassortiment voor je viervoeter.",
+        "after": "Voor wie vaak dierenartikelen nodig heeft, is online bestellen een praktisch alternatief. De meeste supermarkten hebben wel een basisassortiment.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Boekenberg draait om de groene ruimte.",
+        "after": "Een typische dag in Boekenberg draait om de groene ruimte.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 24,
+      "topicCoverageScore": 18,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T12:30:00Z",
+    "qualityScore": 92,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "petStores.intro",
+        "before": "Gespecialiseerde dierenwinkels zijn niet direct in de buurt.",
+        "after": "Gespecialiseerde dierenwinkels zijn niet direct in de wijk.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "De meeste supermarkten in de buurt hebben wel een basisassortiment.",
+        "after": "De meeste supermarkten in de wijk hebben wel een basisassortiment.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "houses.intro",
+        "before": "Op zoek naar een woning in Boekenberg? Filter op postcode 2100 bij je huizenzoekopdracht. De wijk valt onder deze postcode samen met andere buurten in Deurne.",
+        "after": "Op zoek naar een woning in Boekenberg? Filter op postcode 2100 bij je huizenzoekopdracht. De wijk valt onder deze postcode samen met andere wijken in Deurne.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 8
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "petStores.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurten",
+            "field": "houses.intro",
+            "preferred": "wijken"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasje",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "uitlaten",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt te vinden"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 28
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 7,
+        "localTipsFound": [
+          "Boekenbergpark",
+          "Eduard van Steenbergenlaan",
+          "Diksmuidelaan",
+          "de Ring",
+          "Deurne",
+          "Borsbeek"
+        ],
+        "neighborhoodObservations": [
+          "groene hart van de wijk",
+          "vaste ontmoetingsplek voor lokale hondenliefhebbers",
+          "rustige, groene omgeving",
+          "rustig, residentieel karakter"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.83,
+        "averageSentenceLength": 18.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no pet store directly in neighborhood",
+          "dog park not fenced",
+          "no train station"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

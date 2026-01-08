@@ -1,0 +1,337 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T12:30:00Z",
+  "id": "gent-heernis",
+  "city": "Gent",
+  "name": "HEERNIS",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Heernis (Gent): rustige stadswijk met 7 parken binnen wandelafstand — fijn voor dagelijkse wandelingen",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 5930,
+  "labels": [
+    { "text": "Stedelijk", "icon": "fa-solid fa-city" },
+    { "text": "Groen", "icon": "fa-solid fa-leaf" },
+    { "text": "Rustig wonen", "icon": "fa-solid fa-volume-off" },
+    { "text": "Goed bereikbaar", "icon": "fa-solid fa-bus" }
+  ],
+  "intro": "Heernis is een rustige stadswijk in Gent waar groen en stedelijke voorzieningen elkaar ontmoeten. Met het Koningin Astridpark en het Rommelwaterpark letterlijk voor de deur, en nog vijf andere parken binnen vijf minuten wandelen, heb je hier altijd wel een groen plekje voor je dagelijkse wandeling. De wijk ligt vlak tegen het centrum aan zonder de drukte ervan, wat het een fijne tussenvorm maakt voor wie stedelijk gemak zoekt met voldoende ademruimte.\n\nMet 5930 inwoners op minder dan een vierkante kilometer is het hier wel compact wonen — de bevolkingsdichtheid ligt rond de 9700 inwoners per km². Dat merk je vooral op piekuren, wanneer het Koningin Astridpark druk bezocht is door buurtbewoners. Maar dat geeft de wijk ook direct een levendig buurtgevoel: je loopt regelmatig dezelfde mensen tegen het lijf, wat sociale contacten makkelijk maakt.\n\nVoor wie een hond heeft, biedt Heernis een goede basis. Er is geen officiële hondenspeelweide binnen de wijkgrenzen, maar de dichtstbijzijnde omheinde losloopzone ligt op 8 minuten wandelen in de aangrenzende wijk Sint-Amandsberg. De vele stadparken zoals Bijgaardepark, Coyendanspark en Wolterspark zijn wel perfect voor de ochtend- en avondwandeling, al moet je je viervoeter aan de lijn houden. Wat opvalt is de goede spreiding: vanuit vrijwel elk punt in de wijk bereik je binnen twee minuten een groen plein of park.\n\nOp het gebied van voorzieningen moet je af en toe de wijk uit. In Heernis zelf vind je geen dierenarts, maar daar staat tegenover dat je binnen tien minuten wandelen keuze hebt uit vier praktijken in de aangrenzende wijken. De dichtstbijzijnde is Dierenartsenpraktijk Dr. Sofie Breugelmans in Sint-Amandsberg, op 7 minuten te voet. Voor hondenvoer en benodigdheden ligt Tom & Co op slechts 4 minuten, wat Heernis praktisch maakt voor de dagelijkse boodschappen.\n\nOpenbaarvervoer is uitstekend geregeld met 23 bushaltes verspreid over de wijk. Hierdoor ben je snel in het Gentse centrum of richting andere wijken. Een treinstation is er niet in de buurt, maar Gent-Dampoort bereik je binnen tien minuten fietsen. De ligging tussen Brusselse Poort en Dampoort maakt dat je flexibel bent in alle richtingen.\n\nHeernis is vooral geschikt voor wie van groen houdt maar niet in een buitenwijk wil wonen. De wijk trekt jonge gezinnen en starters die centrale ligging waarderen zonder de hoogste huurprijzen van het stadscentrum. Met een mediane huizenprijs van €353.000 zit je in het middensegment voor Gent — niet goedkoop, maar ook niet uitsluitend topmarkt. Voor wie een hond heeft die goed functioneert in stedelijke omgevingen en niet per se een eigen tuin nodig heeft, is dit een fijne plek.\n\nDe grootste trade-off is dat je voor specialistische voorzieningen zoals een dierenartspraktijk of een omheinde hondenspeelweide net iets verder moet lopen. Maar dankzij de compacte opbouw van Gent is 'verder' hier relatief: alles blijft binnen een kwartier te voet. Als je op zoek bent naar meer ruimte of een wijk met directe toegang tot uitgestrekte natuurgebieden, dan is Heernis misschien net te compact. Maar voor wie stedelijke levendigheid wil combineren met groene wandelmogelijkheden, zit je hier goed.",
+  "coordinates": {
+    "lat": 51.050398654336966,
+    "lon": 3.7398673468995796,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde omheind terrein",
+      "detail": "Net buiten de wijk in Sint-Amandsberg"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "1 min",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "7 parken binnen de wijk",
+      "detail": "Koningin Astridpark en Rommelwaterpark"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken in de buurt",
+      "detail": "Dr. Sofie Breugelmans (Sint-Amandsberg)"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co op de Dendermondsesteenweg",
+      "detail": "Plus Aleashop in Destelbergen"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "23 bushaltes in de wijk",
+      "detail": "Snelle verbinding met centrum"
+    }
+  ],
+  "facilities": {
+    "intro": "Heernis heeft een goede basis met alle dagelijkse voorzieningen binnen handbereik. De wijk ligt strategisch tussen meerdere buurten, waardoor je snel bij dierenartsen, dierenwinkels en hondenvoorzieningen bent. Het enige wat ontbreekt is een hondenspeelweide binnen de wijkgrenzen zelf, maar de vele stadsparken bieden ruim voldoende wandelruimte."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet binnen de grenzen van Heernis. De dichtstbijzijnde omheinde losloopzone ligt op 8 minuten wandelen in Sint-Amandsberg. Dit is een omheind terrein waar je viervoeter vrij kan rondlopen. Verder richting Dampoort liggen nog enkele andere zones, maar die zijn tussen de 17 en 19 minuten lopen. Voor dagelijkse wandelingen aan de lijn zijn de 7 parken in de wijk zelf meer dan voldoende.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Sint-Amandsberg",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0544861,
+          "lon": 3.7463636
+        },
+        "features": [
+          { "text": "Omheind terrein", "icon": "fa-solid fa-fence" }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Heernis zelf is geen dierenarts gevestigd, maar de aangrenzende wijken bieden ruim voldoende keuze. Binnen 10 minuten wandelen heb je toegang tot vier praktijken, waarvan de dichtstbijzijnde op 7 minuten ligt. Voor spoedgevallen en reguliere controles zit je dus dichtbij genoeg.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Dr. Sofie Breugelmans",
+        "street": "Adolf Baeyensstraat",
+        "streetNumber": "147",
+        "municipality": "Sint-Amandsberg",
+        "postalCode": "9040",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0519339,
+          "lon": 3.7479351
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "J. Van den Daele",
+        "street": "Graaf van Vlaanderenplein",
+        "streetNumber": "30",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0468627,
+          "lon": 3.7328363
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Herbots",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "35",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0410057,
+          "lon": 3.7425297
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Viervoeter",
+        "street": "Frans Spaestraat",
+        "streetNumber": "27",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0388816,
+          "lon": 3.73474
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor hondenvoer en benodigdheden zit je goed in Heernis. Tom & Co ligt op amper 4 minuten wandelen aan de Dendermondsesteenweg, wat ideaal is voor een snelle boodschap. Voor meer specialistisch spul is er ook Aleashop in Destelbergen, op 17 minuten te voet. De lokale supermarkt heeft daarnaast ook een basisassortiment voor je viervoeter.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Heernis",
+    "intro": "Een typische dag als baasje in Heernis begint met een korte wandeling naar een van de parken binnen twee minuten loopafstand. Het Koningin Astridpark en Rommelwaterpark zijn favoriet voor de ochtendroutine: rustig, goed onderhouden en meestal niet te druk vroeg in de ochtend. Overdag zijn de bussen frequent genoeg om snel naar het centrum of andere wijken te gaan, en voor de avondwandeling heb je keuze uit verschillende routes via Bijgaardepark, Coyendanspark of Wolterspark. Elk park heeft zijn eigen sfeer en vaste bezoekers, wat sociale contacten met andere baasjes vergemakkelijkt.",
+    "benefits": [
+      "Met 7 parken binnen de wijk en nog eens drie binnen 10 minuten wandelen, heb je altijd wel een groen plekje voor een snelle uitlaatbeurt of langere wandeling. Het Koningin Astridpark en Rommelwaterpark liggen letterlijk om de hoek vanaf de meeste straten.",
+      "Dankzij 23 bushaltes verspreid over de compacte wijk bereik je vrijwel elk punt binnen twee minuten. Handig als je met je hond naar een dierenarts of dierenwinkel in een andere wijk moet, of als het regent en je niet te voet wil.",
+      "Tom & Co op 4 minuten wandelen maakt dat je nooit zonder hondenvoer zit. Voor noodgevallen of grotere aankopen is Aleashop iets verder, maar ook goed bereikbaar. De meeste dagelijkse boodschappen kan je gewoon combineren met de hondenuitlaatbeurt.",
+      "De wijk heeft een fijn buurtgevoel door de compacte opbouw. Je ziet regelmatig dezelfde mensen en baasjes terug, wat zorgt voor herkenning en spontane praatjes tijdens wandelingen. Vooral in de populaire parken ontstaan sneller contacten.",
+      "Hoewel er geen hondenspeelweide binnen de wijkgrenzen ligt, is de dichtstbijzijnde omheinde losloopzone op 8 minuten goed te doen. Een korte wandeling ernaartoe combineert de uitlaatbeurt met sociale tijd voor je viervoeter.",
+      "De ligging tussen het centrum en rustiger buitenwijken geeft flexibiliteit: binnen 15 minuten fietsen zit je in het historische centrum, maar je kan ook richting groenere zones zoals de parken rond Dampoort of de Blaarmeersen. Ideaal voor afwisseling in wandelroutes."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Heernis is een compacte stadswijk met ruim 5900 inwoners. De mediane huizenprijs ligt rond €353.000, vergelijkbaar met andere centraal gelegen wijken in Gent.",
+    "medianPrice": 353000,
+    "inhabitants": 5930,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Heernis? De wijk heeft postcode 9000, wat betekent dat je bij het zoeken ook resultaten uit andere centrale Gentse wijken ziet. Filter daarom bij woningportals op de specifieke straatnamen of vraag je makelaar expliciet naar deze buurt.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-brusselse-poort",
+    "gent-begijnhofdries",
+    "gent-dampoort",
+    "gent-blaisantvest",
+    "gent-belle-vue"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T12:30:00Z",
+    "qualityScore": 92,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige stadswijk met 7 parken binnen wandelafstand en goede bereikbaarheid — fijn voor dagelijkse routines",
+        "after": "Wonen in Heernis (Gent): rustige stadswijk met 7 parken binnen wandelafstand — fijn voor dagelijkse wandelingen",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Dat geeft de wijk ook direct een levendig buurtgevoel: je loopt regelmatig dezelfde baasjes tegen het lijf, wat sociale verbinding makkelijk maakt.",
+        "after": "Dat geeft de wijk ook direct een levendig buurtgevoel: je loopt regelmatig dezelfde mensen tegen het lijf, wat sociale contacten makkelijk maakt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes met een hond die goed functioneert in stedelijke omgevingen en niet per se een eigen tuin nodig heeft, is dit een fijne plek.",
+        "after": "Voor wie een hond heeft die goed functioneert in stedelijke omgevingen en niet per se een eigen tuin nodig heeft, is dit een fijne plek.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Heernis heeft een goede basis voor baasjes, met alle dagelijkse voorzieningen binnen handbereik.",
+        "after": "Heernis heeft een goede basis met alle dagelijkse voorzieningen binnen handbereik.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 25,
+      "keywordScore": 20,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 18,
+      "decisionUsefulnessScore": 15
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T14:15:00Z",
+    "qualityScore": 94,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 20,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 8
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "buurtgevoel",
+          "in de buurt",
+          "buurtbewoners",
+          "buurten"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 47
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 14,
+        "localTipsFound": [
+          "richting de waterkant bij de Schelde",
+          "via Bijgaardepark, Coyendanspark of Wolterspark",
+          "richting groenere zones zoals de parken rond Dampoort of de Blaarmeersen"
+        ],
+        "neighborhoodObservations": [
+          "levendig buurtgevoel: je loopt regelmatig dezelfde mensen tegen het lijf",
+          "De wijk ligt vlak tegen het centrum aan zonder de drukte ervan",
+          "De ligging tussen Brusselse Poort en Dampoort maakt dat je flexibel bent",
+          "rustig, goed onderhouden en meestal niet te druk vroeg in de ochtend"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 18.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park within neighborhood boundaries",
+          "no veterinarian in the neighborhood itself"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

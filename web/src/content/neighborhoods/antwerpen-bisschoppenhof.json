@@ -1,0 +1,435 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T15:15:00Z",
+  "id": "antwerpen-bisschoppenhof",
+  "city": "Antwerpen",
+  "name": "Bisschoppenhof",
+  "postalCode": "2100",
+  "subtitle": "Wonen in Bisschoppenhof, Antwerpen: rustige woonwijk met park om de hoek en goede bereikbaarheid",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 24336,
+  "labels": [
+    { "text": "Stedelijk", "icon": "fa-solid fa-city" },
+    { "text": "Groen", "icon": "fa-solid fa-leaf" },
+    { "text": "Goed bereikbaar", "icon": "fa-solid fa-bus" },
+    { "text": "Woonwijk", "icon": "fa-solid fa-house-chimney" }
+  ],
+  "intro": "Bisschoppenhof is een groene woonwijk in het noorden van Antwerpen, waar stedelijke voorzieningen en natuur dicht bij elkaar liggen. Met park Bisschoppenhof letterlijk om de hoek en 7 groene plekken binnen wandelafstand, heb je hier voldoende buitenruimte voor je dagelijkse wandeling. De wijk combineert een rustig woonkarakter met praktische bereikbaarheid — 32 bushaltes zorgen voor snelle verbindingen met het centrum en andere wijken.\n\nDe voorzieningen in Bisschoppenhof zijn degelijk geregeld. Binnen 8 minuten wandelen vind je Maxi Zoo voor alle benodigdheden, en voor dagelijkse boodschappen staan 4 supermarkten verspreid over de wijk. Met 24.336 inwoners is het hier levendig zonder te druk aan te voelen — de bevolkingsdichtheid ligt op 7.695 inwoners per km², vergelijkbaar met andere Antwerpse woonwijken.\n\nDe wijk telt 4 hondenparken, waarvan de dichtstbijzijnde op 7 minuten wandelen ligt. Geen van deze terreinen is omheind, wat betekent dat je hier vooral terecht kunt voor informele ontmoetingen. Voor een veilig afgesloten speelterrein moet je iets verder zoeken. De aanwezigheid van meerdere groene zones compenseert dit deels — park Bisschoppenhof is een populaire plek voor de ochtendwandeling en ligt op amper 110 meter afstand.\n\nEen aandachtspunt is de veterinaire zorg. De dichtstbijzijnde dierenartsen liggen buiten de wijk: Dierenartsenpraktijk Sinjan bereik je in ongeveer 32 minuten te voet, wat voor spoedgevallen te ver is. Voor medische noodsituaties is het dus verstandig om een auto te hebben of een dierenarts iets verder weg op voorhand te contacteren voor bereikbaarheid.\n\nBisschoppenhof is vooral geschikt voor wie waarde hecht aan groen en rust, zonder in te leveren op stadse bereikbaarheid. Als je een jong, energiek hondje hebt dat veel socialisatie nodig heeft, mis je hier wel omheinde speelweiden en een directe veterinaire voorziening in de wijk. Voor wie een wat oudere, rustige hond heeft en vooral op zoek is naar fijne wandelroutes met voldoende groen, zit je hier goed. Het woonkarakter is prettig voor wie 's avonds rust zoekt na een dag in de stad.\n\nDe combinatie van 7 parken, goede openbaar vervoer (32 bushaltes), en nabijheid van winkels maakt Bisschoppenhof een praktische keuze voor het dagelijks leven. De mediane huizenprijs ligt op €353.000, wat deze wijk toegankelijker maakt dan veel centrumwijken in Antwerpen. Voor wie bereid is iets verder te rijden voor de dierenarts, en meer op zoek is naar wandelgroen dan naar speelweiden, biedt Bisschoppenhof een prettige balans.",
+  "coordinates": {
+    "lat": 51.23226964863695,
+    "lon": 4.461434667888828,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 hondenparken in de omgeving",
+      "detail": "Dichtstbijzijnde op 7 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Maxi Zoo op loopafstand",
+      "detail": "Volledig assortiment"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "32 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde praktijk",
+      "detail": "Buiten de wijk"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Groen",
+      "distance": "1 min",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "7 parken in de wijk",
+      "detail": "Park Bisschoppenhof om de hoek"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "Nabij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 supermarkten",
+      "detail": "Praktisch voor dagelijkse boodschappen"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Nabij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "32 bushaltes",
+      "detail": "Goede verbindingen"
+    }
+  ],
+  "facilities": {
+    "intro": "Bisschoppenhof biedt een goede basis voor wie met een hond woont. De wijk heeft een dierenwinkel op loopafstand, meerdere hondenparken voor sociale contacten, en ruim voldoende groen voor dagelijkse wandelingen. De veterinaire zorg ligt wel buiten de wijk zelf, wat vooruitplannen vraagt."
+  },
+  "dogParks": {
+    "intro": "In de omgeving van Bisschoppenhof vind je 4 hondenparken, allemaal binnen een kwartiertje wandelen. De dichtstbijzijnde ligt op 7 minuten en is geschikt voor informele ontmoetingen. Alle parken zijn niet omheind, wat betekent dat je vooral terecht kunt voor sociale wandelingen en niet voor volledig loslopend spel. Voor een veilig omheinde speelweide moet je iets verder zoeken, bijvoorbeeld in andere wijken van Antwerpen.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (naamloos)",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2302153,
+          "lon": 4.4686779
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (naamloos)",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2243798,
+          "lon": 4.4516153
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (naamloos)",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2250074,
+          "lon": 4.4502342
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (naamloos)",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2338673,
+          "lon": 4.4809083
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg moet je vanuit Bisschoppenhof de wijk uit. De dichtstbijzijnde dierenartspraktijken liggen op ongeveer een half uur wandelen, wat voor spoedgevallen niet ideaal is. Het is verstandig om een praktijk in Merksem of Deurne te kiezen en voor noodgevallen het nummer bij de hand te hebben. Voor routinecontroles en afspraken is dit goed te plannen, maar reken voor urgente situaties op een auto of taxi.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Sinjan",
+        "street": "Ringlaan",
+        "streetNumber": "180",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2543585,
+          "lon": 4.4495427
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Valérie Monster",
+        "street": "Eduard van Steenbergenlaan",
+        "streetNumber": "16",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "51 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1957937,
+          "lon": 4.461436
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Algemene Dierenkliniek Randstad",
+        "street": "Frans Beirenslaan",
+        "streetNumber": "155",
+        "municipality": "Borsbeek",
+        "postalCode": "2150",
+        "distance": "51 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1977726,
+          "lon": 4.4811983
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Eddy Janssens",
+        "street": "Generaal Eisenhowerlei",
+        "streetNumber": "291",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "56 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1930795,
+          "lon": 4.4461398
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor alles wat je nodig hebt, loop je 8 minuten naar Maxi Zoo op de Ter Heydelaan. Deze winkel heeft een breed assortiment aan voeding, speelgoed en verzorgingsproducten. Voor snelle aankopen of noodvoorraden hebben de meeste supermarkten in de wijk ook een basisassortiment hondenvoeding en snacks.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Ter Heydelaan",
+        "streetNumber": "235",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2283151,
+          "lon": 4.4684619
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Bisschoppenhof",
+    "intro": "Een typische dag in Bisschoppenhof begint met een ochtendwandeling in park Bisschoppenhof, net om de hoek. Met 7 groene zones in de directe omgeving heb je genoeg afwisseling om je wandelroutine interessant te houden. Na de ochtendwandeling is het een kort stukje naar de supermarkt of de dierenwinkel. De wijk is rustig maar niet afgelegen — het openbaar vervoer brengt je snel naar andere delen van Antwerpen als je een uitje wilt plannen.",
+    "benefits": [
+      "Met park Bisschoppenhof op amper 110 meter afstand heb je altijd een groene plek binnen handbereik. Ideaal voor een snelle ochtendwandeling of een korte avonduitlaat als het weer tegenzit. De wijk telt in totaal 7 parken, dus je hebt genoeg afwisseling om verschillende routes te verkennen.",
+      "Dankzij 32 bushaltes verspreid over de wijk is openbaar vervoer goed geregeld. Handig als je met je hond naar een dierenarts buiten de wijk moet, of als je een uitstap naar andere groene plekken in Antwerpen wilt maken zonder de auto te nemen.",
+      "De 4 hondenparken in de omgeving bieden ruimte voor sociale contacten. Ook al zijn ze niet omheind, voor een informele wandeling en kennismaking met lokale baasjes zijn ze geschikt. De dichtstbijzijnde ligt op slechts 7 minuten lopen.",
+      "Maxi Zoo op 8 minuten wandelen betekent dat je alle benodigdheden makkelijk te voet kunt halen. Van speciaal voer tot speelgoed en verzorgingsproducten, je hoeft de wijk niet uit voor een volledig assortiment.",
+      "De rustige woonsfeer van Bisschoppenhof maakt het fijn om na een dag in de stad thuis te komen. Met de bevolkingsdichtheid van 7.695 inwoners per km² voel je de stedelijke energie zonder dat het te hectisch wordt. Voor een wat rustiger temperament is dit een prettige omgeving."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Bisschoppenhof is een middelgrote woonwijk met 24.336 inwoners en een bevolkingsdichtheid van 7.695 per km². De mediane woningprijs ligt op €353.000, wat deze wijk toegankelijker maakt dan veel centrumwijken.",
+    "medianPrice": 353000,
+    "inhabitants": 24336,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Bisschoppenhof? De wijk valt onder postcode 2100, wat betekent dat je op Immoweb en andere platformen kunt filteren op deze postcode. Let op dat 2100 meerdere wijken omvat, dus check de exacte locatie altijd op de kaart.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-deurne-het-dorp",
+    "antwerpen-sportpaleis",
+    "antwerpen-deurne-huiskens",
+    "antwerpen-duivelshoek",
+    "antwerpen-ertbrugge"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T15:00:00Z",
+    "qualityScore": 84,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in Bisschoppenhof: groene rustwijk met park om de hoek en goede toegang tot voorzieningen",
+        "after": "Wonen in Bisschoppenhof, Antwerpen: rustige woonwijk met park om de hoek en goede bereikbaarheid",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Met park Bisschoppenhof letterlijk om de hoek en 7 groene plekken binnen wandelafstand, heb je hier voldoende buitenruimte voor je dagelijkse routine.",
+        "after": "Met park Bisschoppenhof letterlijk om de hoek en 7 groene plekken binnen wandelafstand, heb je hier voldoende buitenruimte voor je dagelijkse wandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Binnen 8 minuten wandelen vind je Maxi Zoo voor alle benodigdheden van je viervoeter, en voor dagelijkse boodschappen staan 4 supermarkten verspreid over de wijk.",
+        "after": "Binnen 8 minuten wandelen vind je Maxi Zoo voor alle benodigdheden, en voor dagelijkse boodschappen staan 4 supermarkten verspreid over de wijk.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt de wijk 4 hondenparken, waarvan de dichtstbijzijnde op 7 minuten wandelen ligt.",
+        "after": "De wijk telt 4 hondenparken, waarvan de dichtstbijzijnde op 7 minuten wandelen ligt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Geen van deze terreinen is omheind, wat betekent dat je hier vooral terecht kunt voor informele ontmoetingen met andere baasjes.",
+        "after": "Geen van deze terreinen is omheind, wat betekent dat je hier vooral terecht kunt voor informele ontmoetingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Bisschoppenhof is vooral geschikt voor baasjes die waarde hechten aan groen en rust, zonder in te leveren op stadse bereikbaarheid.",
+        "after": "Bisschoppenhof is vooral geschikt voor wie waarde hecht aan groen en rust, zonder in te leveren op stadse bereikbaarheid.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor wie een wat oudere, rustige viervoeter heeft en vooral op zoek is naar fijne wandelroutes met voldoende groen, zit je hier goed.",
+        "after": "Voor wie een wat oudere, rustige hond heeft en vooral op zoek is naar fijne wandelroutes met voldoende groen, zit je hier goed.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes die bereid zijn iets verder te rijden voor de dierenarts, en meer op zoek zijn naar wandelgroen dan naar speelweiden, biedt Bisschoppenhof een prettige balans.",
+        "after": "Voor wie bereid is iets verder te rijden voor de dierenarts, en meer op zoek is naar wandelgroen dan naar speelweiden, biedt Bisschoppenhof een prettige balans.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Bisschoppenhof biedt een goede basis voor baasjes.",
+        "after": "Bisschoppenhof biedt een goede basis voor wie met een hond woont.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "De dichtstbijzijnde ligt op 7 minuten en is geschikt voor informele ontmoetingen met andere baasjes.",
+        "after": "De dichtstbijzijnde ligt op 7 minuten en is geschikt voor informele ontmoetingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor alles wat je viervoeter nodig heeft, loop je 8 minuten naar Maxi Zoo op de Ter Heydelaan.",
+        "after": "Voor alles wat je nodig hebt, loop je 8 minuten naar Maxi Zoo op de Ter Heydelaan.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Bisschoppenhof begint met een ochtendwandeling in park Bisschoppenhof, net om de hoek.",
+        "after": "Een typische dag in Bisschoppenhof begint met een ochtendwandeling in park Bisschoppenhof, net om de hoek.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "De 4 hondenparken in de omgeving bieden ruimte voor sociale contacten met andere baasjes.",
+        "after": "De 4 hondenparken in de omgeving bieden ruimte voor sociale contacten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Maxi Zoo op 8 minuten wandelen betekent dat je alle benodigdheden voor je viervoeter makkelijk te voet kunt halen.",
+        "after": "Maxi Zoo op 8 minuten wandelen betekent dat je alle benodigdheden makkelijk te voet kunt halen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Voor baasjes met een wat rustiger hondje is dit een prettige omgeving.",
+        "after": "Voor een wat rustiger temperament is dit een prettige omgeving.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 24,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:15:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "De 4 hondenparken in de omgeving bieden ruimte voor sociale contacten. Ook al zijn ze niet omheind, voor een informele wandeling en kennismaking met lokale hondeneigenaars zijn ze perfect geschikt. De dichtstbijzijnde ligt op slechts 7 minuten lopen.",
+        "after": "De 4 hondenparken in de omgeving bieden ruimte voor sociale contacten. Ook al zijn ze niet omheind, voor een informele wandeling en kennismaking met lokale baasjes zijn ze geschikt. De dichtstbijzijnde ligt op slechts 7 minuten lopen.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 24,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 8
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "hondeneigenaars",
+            "field": "dailyLife.benefits[2]",
+            "preferred": "baasjes"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenparken",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt (before fix)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [
+          "perfect geschikt"
+        ],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 6,
+        "localTipsFound": [
+          "park Bisschoppenhof letterlijk om de hoek",
+          "Maxi Zoo op de Ter Heydelaan",
+          "Dierenartsenpraktijk Sinjan",
+          "praktijk in Merksem of Deurne"
+        ],
+        "neighborhoodObservations": [
+          "groene woonwijk in het noorden van Antwerpen",
+          "rustig woonkarakter",
+          "vergelijkbaar met andere Antwerpse woonwijken",
+          "park Bisschoppenhof is een populaire plek voor de ochtendwandeling"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 15.8,
+        "listLikePatternsFound": 1
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no fenced dog parks in neighborhood",
+          "veterinary care outside neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

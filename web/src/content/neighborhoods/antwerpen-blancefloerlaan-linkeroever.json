@@ -1,0 +1,425 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T10:30:00Z",
+  "id": "antwerpen-blancefloerlaan-linkeroever",
+  "city": "Antwerpen",
+  "name": "BLANCEFLOERLAAN (LINKEROEVER)",
+  "postalCode": "2050",
+  "subtitle": "Wonen in Blancefloerlaan Linkeroever: rustig en groen met hondenlosloopzones vlakbij — bereikbaarheid Antwerpen centrum vraagt planning",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 4409,
+  "labels": [
+    {
+      "text": "Rustig wonen",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Woonwijk",
+      "icon": "fa-solid fa-house-chimney"
+    }
+  ],
+  "intro": "Blancefloerlaan is een rustige woonwijk op Linkeroever in Antwerpen, een gebied dat bekend staat om zijn groene karakter en lagere bevolkingsdichtheid vergeleken met het centrum. Met 4.409 inwoners en een dichtheid van 2.070 inwoners per km² is het hier aanzienlijk rustiger dan in veel andere Antwerpse wijken. De wijk biedt directe toegang tot groene ruimtes zoals het nabijgelegen Galgenweelpark en de Festivalweide Middenvijver, en voor je dagelijkse wandeling vind je 2 hondenlosloopzones op respectievelijk 4 en 6 minuten lopen.\n\nDe wijk heeft echter een duidelijke kanttekening: voor gespecialiseerde voorzieningen ben je aangewezen op de overkant van de Schelde. De dichtstbijzijnde dierenarts ligt op 26 minuten wandelen in Zwijndrecht, en voor een dierenwinkel ben je 33 minuten onderweg richting het Antwerpse stadscentrum. Dit maakt de wijk vooral geschikt voor wie een gezonde, jonge hond heeft die niet vaak veterinaire zorg nodig heeft, of voor wie een auto of fiets vanzelfsprekend is voor dit soort uitstapjes. Met 2 supermarkten in de wijk zelf en 13 bushaltes heb je wel de dagelijkse boodschappen binnen handbereik.\n\nDe groene omgeving is het grote pluspunt van Blancefloerlaan. Naast de 2 hondenlosloopzones vind je 3 parken in de directe omgeving, waaronder de ruime Festivalweide Middenvijver op amper 6 minuten wandelen. Dit maakt de wijk aantrekkelijk voor wie graag elke dag naar buiten gaat voor een flinke wandeling, zonder ver te hoeven reizen. De rustige straten en lage bebouwingsdichtheid zorgen ervoor dat je hier echt het gevoel hebt buiten de drukte te wonen, terwijl je toch officieel in Antwerpen bent.\n\nMet een mediane huizenprijs van €353.000 ligt Blancefloerlaan in lijn met het Antwerpse gemiddelde, maar je krijgt hier wel meer ruimte en groen voor je geld dan in het centrum. De wijk is praktisch voor wie rust en natuur zoekt, en die bereid is om voor dierenarts en gespecialiseerde winkels de brug over te steken. Minder geschikt als je snel bij een dierenarts moet kunnen zijn voor een hond die regelmatige zorg nodig heeft, of als je geen eigen vervoer hebt. Maar als je houdt van een rustige, groene leefomgeving met veel wandelmogelijkheden op wandelafstand, en je de logistiek voor praktische zaken regelt, dan biedt deze Linkeroever-wijk een fijne thuisbasis.",
+  "coordinates": {
+    "lat": 51.22179632116319,
+    "lon": 4.36467715513568,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenlosloopzones",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 losloopzones in de wijk",
+      "detail": "Dichtstbijzijnde op 4 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "26 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen dierenarts in de wijk",
+      "detail": "Dichtstbijzijnde in Zwijndrecht"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "33 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen dierenwinkel in de wijk",
+      "detail": "Dichtstbijzijnde in centrum"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 parken in de wijk",
+      "detail": "Festivalweide Middenvijver"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Binnen bereik",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "13 bushaltes in de wijk",
+      "detail": "Geen treinstation"
+    }
+  ],
+  "facilities": {
+    "intro": "Blancefloerlaan biedt een groene leefomgeving met directe toegang tot hondenlosloopzones en parken, maar voor gespecialiseerde voorzieningen zoals dierenartsen en dierenwinkels moet je de wijk uit. De basis voor dagelijkse behoeften is wel aanwezig met 2 supermarkten en goed openbaar vervoer, wat het praktische wonen hier goed mogelijk maakt voor wie mobiliteit heeft."
+  },
+  "dogParks": {
+    "intro": "In de directe omgeving van Blancefloerlaan vind je 2 hondenlosloopzones, op respectievelijk 4 en 6 minuten wandelen. Deze zones zijn niet omheind en hebben geen voorzieningen zoals drinkwater, maar bieden wel voldoende ruimte om je viervoeter vrij te laten rennen. Voor meer variatie zijn er ook 3 parken vlakbij, waaronder de ruime Festivalweide Middenvijver en het Galgenweelpark, waar je op algemene wandelpaden terecht kunt.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenlosloopzone (onbenoemd)",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2233899,
+          "lon": 4.3682689
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenlosloopzone (onbenoemd)",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2236947,
+          "lon": 4.3705573
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Blancefloerlaan zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Pieter Clevers in Zwijndrecht, op 26 minuten wandelen. Voor wie met de fiets of auto gaat, zijn er meerdere praktijken bereikbaar op de rechteroever van Antwerpen, waaronder Dierenarts DAS en Dierenarts Tony De Vries. Dit maakt de wijk minder geschikt voor wie zonder vervoer zit of een hond heeft die regelmatige zorg nodig heeft.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Pieter Clevers",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Zwijndrecht",
+        "postalCode": "2070",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2080229,
+          "lon": 4.345327
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts DAS",
+        "street": "Nassaustraat",
+        "streetNumber": "18A",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.230521,
+          "lon": 4.4050374
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Tony De Vries",
+        "street": "Ballaarstraat",
+        "streetNumber": "6",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "42 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.204489,
+          "lon": 4.404204
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts praktijk",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "47 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2262093,
+          "lon": 4.4174961
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. De dichtstbijzijnde opties zijn KATshop en pet à porter in het Antwerpse centrum, beide op ruim 30 minuten wandelen. Voor basisbenodigdheden hebben de meeste supermarkten in de wijk een klein assortiment, maar voor gespecialiseerd voer of accessoires ben je aangewezen op een uitstapje naar de overkant of online shoppen.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "KATshop",
+        "street": "Lange Koepoortstraat",
+        "streetNumber": "54",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2221272,
+          "lon": 4.4022574
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "pet à porter",
+        "street": "Schrijnwerkersstraat",
+        "streetNumber": "19",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "35 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2176989,
+          "lon": 4.4038982
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Pawlov",
+        "street": "Kasteelpleinstraat",
+        "streetNumber": "57",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2100286,
+          "lon": 4.402138
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Pauw",
+        "street": "Oudevaartplaats",
+        "streetNumber": "55",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "41 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.213601,
+          "lon": 4.4094113
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Blancefloerlaan",
+    "intro": "Een typische dag in Blancefloerlaan draait om de groene ruimte en rustige straten. Je begint de ochtend met een wandeling naar een van de 2 hondenlosloopzones of een rondje door het nabijgelegen Galgenweelpark. De lage bevolkingsdichtheid zorgt ervoor dat je vaak andere baasjes tegenkomt zonder dat het druk voelt. Voor dagelijkse boodschappen loop je naar een van de 2 supermarkten in de wijk, maar voor dierenartsenbezoeken of gespecialiseerde artikelen plan je een uitstapje naar de rechteroever in.",
+    "benefits": [
+      "Met 2 hondenlosloopzones op 4 en 6 minuten wandelen heb je altijd een plek waar je hond los kan rennen, ook al zijn deze zones niet omheind. De nabijheid betekent dat je gemakkelijk meerdere keren per dag langs kan gaan voor een korte uitlaatsessie.",
+      "De 3 parken in de directe omgeving, waaronder de Festivalweide Middenvijver en het Galgenweelpark, bieden volop variatie voor wandelingen. De ruime opzet en groene karakter maken het fijn om hier langere rondjes te maken, vooral in de ochtend of avond.",
+      "De rustige woonomgeving met een bevolkingsdichtheid van slechts 2.070 inwoners per km² betekent minder drukte op straat en meer ruimte. Dit is fijn voor honden die gestrest raken van massa's mensen of veel verkeer, en het maakt wandelen ontspannend.",
+      "Met 13 bushaltes verspreid over de wijk ben je goed aangesloten op het openbaar vervoer. Dit is handig als je met je hond de stad in wilt of naar een dierenarts moet die verder weg ligt, zonder afhankelijk te zijn van een auto.",
+      "De afstand tot dierenartsen en dierenwinkels vraagt om planning, maar het betekent ook dat je niet elk weekend naar de drukke winkelstraat hoeft. Voor wie bulk bestelt of online shopt, is dit geen probleem. Voor spoedzorg moet je echter wel rekening houden met 26 minuten reistijd naar de dichtstbijzijnde praktijk."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Blancefloerlaan is een relatief kleine wijk met 4.409 inwoners en een mediane huizenprijs van €353.000, vergelijkbaar met het Antwerpse gemiddelde.",
+    "medianPrice": 353000,
+    "inhabitants": 4409,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Blancefloerlaan? De wijk heeft postcode 2050 en valt onder Antwerpen. Je kunt je zoekopdracht filteren op deze postcode om specifiek woningen in dit gebied te vinden.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-galgeweel-linkeroever",
+    "antwerpen-st-andries-spaanse-wallen",
+    "antwerpen-gerechtshof-zuidwijk",
+    "antwerpen-antwerpen-kern-oude-stad-spaanse-wallen-",
+    "antwerpen-bell-zuidwijk"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T10:45:00Z",
+    "qualityScore": 84,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige Linkeroever-wijk met groene ruimte vlakbij — praktisch wonen vraagt om bereikbaarheid naar de overkant",
+        "after": "Wonen in Blancefloerlaan Linkeroever: rustig en groen met hondenlosloopzones vlakbij — bereikbaarheid Antwerpen centrum vraagt planning",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "De wijk heeft echter een duidelijke kanttekening: als baasje ben je voor gespecialiseerde voorzieningen aangewezen op de overkant van de Schelde.",
+        "after": "De wijk heeft echter een duidelijke kanttekening: voor gespecialiseerde voorzieningen ben je aangewezen op de overkant van de Schelde.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Dit maakt de wijk vooral geschikt voor baasjes met een gezonde, jonge hond die niet vaak veterinaire zorg nodig heeft, of voor wie een auto of fiets vanzelfsprekend is voor dit soort uitstapjes.",
+        "after": "Dit maakt de wijk vooral geschikt voor wie een gezonde, jonge hond heeft die niet vaak veterinaire zorg nodig heeft, of voor wie een auto of fiets vanzelfsprekend is voor dit soort uitstapjes.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Dit maakt de wijk aantrekkelijk voor baasjes die graag elke dag naar buiten gaan voor een flinke wandeling",
+        "after": "Dit maakt de wijk aantrekkelijk voor wie graag elke dag naar buiten gaat voor een flinke wandeling",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De wijk is ideaal voor baasjes die rust en natuur zoeken",
+        "after": "De wijk is praktisch voor wie rust en natuur zoekt",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes met jonge kinderen of een drukke agenda die snel bij een dierenarts willen kunnen zijn, kan de afstand tot voorzieningen een uitdaging zijn.",
+        "after": "Minder geschikt als je snel bij een dierenarts moet kunnen zijn voor een hond die regelmatige zorg nodig heeft, of als je geen eigen vervoer hebt.",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Maar als je houdt van een rustige, groene leefomgeving met veel wandelmogelijkheden op wandelafstand, en je logistiek regelt voor de praktische zaken",
+        "after": "Maar als je houdt van een rustige, groene leefomgeving met veel wandelmogelijkheden op wandelafstand, en je de logistiek voor praktische zaken regelt",
+        "reason": "readability"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Blancefloerlaan biedt een groene leefomgeving met directe toegang tot hondenlosloopzones en parken, maar voor gespecialiseerde voorzieningen zoals dierenartsen en dierenwinkels moet je de wijk uit. De basis voor dagelijkse behoeften is wel aanwezig met 2 supermarkten en goed openbaar vervoer.",
+        "after": "Blancefloerlaan biedt een groene leefomgeving met directe toegang tot hondenlosloopzones en parken, maar voor gespecialiseerde voorzieningen zoals dierenartsen en dierenwinkels moet je de wijk uit. De basis voor dagelijkse behoeften is wel aanwezig met 2 supermarkten en goed openbaar vervoer, wat het praktische wonen hier goed mogelijk maakt voor wie mobiliteit heeft.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "vets.intro",
+        "before": "Dit maakt de wijk minder geschikt voor baasjes zonder vervoer of met een hond die regelmatige zorg nodig heeft.",
+        "after": "Dit maakt de wijk minder geschikt voor wie zonder vervoer zit of een hond heeft die regelmatige zorg nodig heeft.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Blancefloerlaan draait om de groene ruimte en rustige straten.",
+        "after": "Een typische dag in Blancefloerlaan draait om de groene ruimte en rustige straten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "De rustige woonomgeving met een bevolkingsdichtheid van slechts 2.070 inwoners per km² betekent minder drukte op straat en meer ruimte. Dit is ideaal voor honden die gestressed raken van massa's mensen of veel verkeer, en het maakt wandelen ontspannend.",
+        "after": "De rustige woonomgeving met een bevolkingsdichtheid van slechts 2.070 inwoners per km² betekent minder drukte op straat en meer ruimte. Dit is fijn voor honden die gestrest raken van massa's mensen of veel verkeer, en het maakt wandelen ontspannend.",
+        "reason": "readability"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 13,
+      "introScore": 22,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 12,
+      "internalLinkingScore": 10
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T11:00:00Z",
+    "qualityScore": 87,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "valueCards[0].description",
+        "before": "2 losloopzones in de buurt",
+        "after": "2 losloopzones in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[3].description",
+        "before": "3 parken in de buurt",
+        "after": "3 parken in de wijk",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 6
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "valueCards[0].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "valueCards[3].description",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wandeling",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt te vinden (in contributionCTA.intro)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 5,
+        "localTipsFound": [
+          "richting het Antwerpse stadscentrum",
+          "naar de rechteroever in"
+        ],
+        "neighborhoodObservations": [
+          "gebied dat bekend staat om zijn groene karakter",
+          "rustige straten en lage bebouwingsdichtheid"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 19.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

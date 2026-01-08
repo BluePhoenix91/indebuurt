@@ -1,0 +1,439 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:45:00Z",
+  "id": "antwerpen-borgerhout-gemeentehuis",
+  "city": "Antwerpen",
+  "name": "BORGERHOUT - GEMEENTEHUIS",
+  "postalCode": "2140",
+  "subtitle": "Borgerhout-Gemeentehuis: compact stedelijk wonen met Krugerpark en hondenparken op wandelafstand in Antwerpen",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 20969,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Dichtbevolkt",
+      "icon": "fa-solid fa-people-roof"
+    },
+    {
+      "text": "Groene plekken",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Borgerhout - Gemeentehuis is een dichtbevolkte stadswijk in het hart van Antwerpen, met bijna 21.000 inwoners op een compacte oppervlakte. Met 19.453 inwoners per vierkante kilometer is dit één van de meer levendige wijken van de stad, waar stedelijk gemak en lokale voorzieningen bij elkaar komen. De wijk ligt op wandelafstand van groen zoals het Krugerpark, en het openbaar vervoer brengt je snel naar andere stadsdelen. De smalle straten en kleine pleinen ademen een authentiek stadskarakter, met een mix van winkels en woningen die typisch Antwerps is.\n\nVoor wie hier met een hond woont, biedt de wijk een verrassend goede toegang tot groene ruimte. Het Krugerpark ligt op nauwelijks 6 minuten wandelen en is een populaire plek voor de dagelijkse wandeling met je viervoeter. Daarnaast zijn er meerdere hondenparken binnen handbereik: de dichtstbijzijnde hondenspeelweide ligt op 6 minuten, en binnen een straal van 10 minuten vind je er nog drie extra. Voor een wijk met deze bevolkingsdichtheid is dat een luxe die je niet overal tegenkomt.\n\nDe keerzijde van deze stedelijke compactheid is dat bepaalde voorzieningen net buiten de wijk zelf liggen. De dichtstbijzijnde dierenarts, AniCura, vind je op 19 minuten wandelen in de richting van Berchem. Voor gespecialiseerde dierenwinkels moet je ook even verder: Tom & Co ligt op 21 minuten in de nabijgelegen wijk. De meeste supermarkten in Borgerhout hebben wel een basisassortiment voor je viervoeter, wat het dagelijkse gemak verhoogt.\n\nDe wijk trekt vooral mensen aan die stedelijk gemak waarderen zonder de rust en groen volledig op te geven. Met 13 scholen, 7 apotheken en 4 supermarkten binnen de wijkgrenzen heb je alles wat je dagelijks nodig hebt binnen handbereik. Het openbaar vervoer is goed geregeld met 14 bushaltes verspreid over de wijk, wat je snel naar het Antwerpse centrum of andere stadsdelen brengt.\n\nDe huizenmarkt in de grotere regio Antwerpen laat een medianprijs zien van ongeveer 353.000 euro, wat vergelijkbaar is met andere wijken in de stad. De wijk heeft zijn eigen postcode (2140), wat het zoeken naar een woning iets makkelijker maakt. De meeste woningen zijn rijtjeshuizen of appartementen, passend bij het stedelijke karakter.\n\nWie hier zou thuishoren? Wie van de stadse drukte houdt, maar ook waarde hecht aan toegankelijk groen voor de dagelijkse wandeling. Je moet wel bereid zijn om voor gespecialiseerde voorzieningen zoals een dierenarts even buiten de wijk te kijken. Voor jonge honden of puppies die regelmatig naar de dierenarts moeten, kan die extra afstand een overweging zijn. Maar met de juiste planning en een auto of fiets in de buurt is het goed te doen.\n\nBorgerhout - Gemeentehuis is geen wijk voor wie rust en ruimte zoekt. Hier woon je compact, levendig en midden in de stedelijke dynamiek. Maar voor wie dat omarmt en van korte afstanden houdt, biedt de wijk een fijne balans tussen stadsleven en groene ademruimte voor je dagelijkse routine met je hond.",
+  "coordinates": {
+    "lat": 51.213708093373,
+    "lon": 4.435364673958559,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Meerdere hondenparken binnen 10 minuten",
+      "detail": "Dichtstbijzijnde op 6 min wandelen"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Krugerpark",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Groene plek voor dagelijkse wandeling",
+      "detail": "Populair bij lokale baasjes"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "19 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde buiten de wijk",
+      "detail": "AniCura op 19 min wandelen"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "21 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co in nabijgelegen wijk",
+      "detail": "Supermarkten hebben basisassortiment"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "In de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 supermarkten in de wijk",
+      "detail": "Met basisassortiment voor honden"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "In de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "14 bushaltes in de wijk",
+      "detail": "Goede verbinding met centrum"
+    }
+  ],
+  "facilities": {
+    "intro": "Borgerhout - Gemeentehuis biedt een goede basis voor het dagelijkse leven met je viervoeter. De wijk heeft meerdere hondenparken binnen loopafstand en voldoende groen voor variatie in je wandelroutes. Veterinaire zorg en gespecialiseerde dierenwinkels liggen net buiten de wijkgrenzen, maar zijn goed bereikbaar te voet of met het openbaar vervoer."
+  },
+  "dogParks": {
+    "intro": "De wijk scoort goed op het gebied van hondenparken. Met meerdere speelweiden binnen 10 minuten wandelen heb je verschillende opties voor sociale contacten en beweging. De dichtstbijzijnde hondenspeelweide ligt op slechts 6 minuten, ideaal voor een snelle uitlaatsessie. Eén van de nabijgelegen parken heeft omheining, wat fijn is voor baasjes met jonge of speelse honden.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Borgerhout Noord",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.216655,
+          "lon": 4.4404228
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Borgerhout Zuid",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2089408,
+          "lon": 4.4384917
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Borgerhout Oost",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2150439,
+          "lon": 4.444237
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Deurne",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2057609,
+          "lon": 4.4443902
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is AniCura in Berchem, op 19 minuten wandelen. Voor spoedgevallen is het handig om de auto of fiets te gebruiken. Binnen een straal van 30 minuten zijn er vijf praktijken beschikbaar, wat voldoende keuze biedt voor reguliere controles en behandelingen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AniCura",
+        "street": "Borsbeeksebrug",
+        "streetNumber": "34",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1999622,
+          "lon": 4.4337817
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts praktijk",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2262093,
+          "lon": 4.4174961
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsencentrum De Merode",
+        "street": "Grotesteenweg",
+        "streetNumber": "78",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1975816,
+          "lon": 4.4171474
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Eddy Janssens",
+        "street": "Generaal Eisenhowerlei",
+        "streetNumber": "291",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1930795,
+          "lon": 4.4461398
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. Tom & Co op de Diksmuidelaan is de dichtstbijzijnde optie, op 21 minuten wandelen. Voor wie regelmatig producten nodig heeft, is het handig om een voorraad aan te leggen of online te bestellen. De meeste supermarkten in Borgerhout hebben een basisassortiment voor je viervoeter, wat het dagelijkse gemak verhoogt.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Diksmuidelaan",
+        "streetNumber": "79-83",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1985998,
+          "lon": 4.4397835
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Pauw",
+        "street": "Oudevaartplaats",
+        "streetNumber": "55",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.213601,
+          "lon": 4.4094113
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "pet à porter",
+        "street": "Schrijnwerkersstraat",
+        "streetNumber": "19",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2176989,
+          "lon": 4.4038982
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Pawlov",
+        "street": "Kasteelpleinstraat",
+        "streetNumber": "57",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2100286,
+          "lon": 4.402138
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Borgerhout - Gemeentehuis",
+    "intro": "Een typische dag met je hond in Borgerhout - Gemeentehuis draait om korte afstanden en stedelijk gemak. Je loopt met je hond naar het Krugerpark voor de ochtendwandeling, haalt snel boodschappen bij een van de vier supermarkten, en gebruikt de bus om naar andere stadsdelen te gaan. De wijk biedt voldoende groen voor variatie, terwijl je tegelijk profiteert van alle voorzieningen die een stadswijk te bieden heeft.",
+    "benefits": [
+      "Dankzij het Krugerpark op 6 minuten wandelen heb je een vaste plek voor de dagelijkse routine. Het park is compact maar groen genoeg voor een fijne wandeling, en je ontmoet er regelmatig andere baasjes uit de wijk.",
+      "Met meerdere hondenparken binnen 10 minuten wandelen kun je variëren in je uitlaatroutes. De hondenspeelweide op 7 minuten heeft omheining, ideaal voor sociale interactie en veilig spelen zonder riem.",
+      "De 4 supermarkten in de wijk hebben een basisassortiment voor je viervoeter, wat handig is voor noodgevallen of als je geen tijd hebt om naar een gespecialiseerde winkel te gaan. Voor grotere aankopen plan je een bezoek aan Tom & Co in een nabijgelegen wijk.",
+      "Het openbaar vervoer is uitstekend geregeld met 14 bushaltes in de wijk. Dat maakt het makkelijk om met je hond naar andere parken in Antwerpen te gaan of een uitstapje naar het centrum te maken.",
+      "De hoge bevolkingsdichtheid betekent ook dat er altijd iets te doen is. Je hond raakt gewend aan stedelijke drukte, andere mensen en verkeer, wat handig is als je regelmatig de stad in trekt.",
+      "Voor wie een balans zoekt tussen stedelijk wonen en toegang tot groen, biedt de wijk een praktische oplossing. Je woont compact, maar hebt voldoende ademruimte binnen handbereik voor je dagelijkse wandelingen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Borgerhout - Gemeentehuis is met 20.969 inwoners een van de dichter bevolkte wijken in Antwerpen. De bevolkingsdichtheid van 19.453 inwoners per vierkante kilometer geeft een goed beeld van het stedelijke karakter.",
+    "medianPrice": 353000,
+    "inhabitants": 20969,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Borgerhout - Gemeentehuis? De wijk heeft postcode 2140, wat het filteren op woningplatforms eenvoudiger maakt. De meeste woningen zijn rijtjeshuizen of appartementen, passend bij het compacte karakter van de wijk.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-de-peperbus",
+    "antwerpen-deurne-huiskens",
+    "antwerpen-atheneum-stationswijk",
+    "antwerpen-dambruggestraat-nstationsw",
+    "antwerpen-oostkwartier"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:45:00Z",
+    "qualityScore": 90,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Dichtbevolkte stadswijk met hondenparken op wandelafstand en Krugerpark om de hoek — compact wonen in Antwerpen",
+        "after": "Borgerhout-Gemeentehuis: compact stedelijk wonen met Krugerpark en hondenparken op wandelafstand in Antwerpen",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Borgerhout - Gemeentehuis is een dichtbevolkte stadswijk in het hart van Antwerpen, met bijna 21.000 inwoners op een compacte oppervlakte. Met 19.453 inwoners per vierkante kilometer is dit één van de meer levendige buurten van de stad, waar stedelijk gemak en lokale voorzieningen bij elkaar komen. De wijk ademt een authentiek stadskarakter, met smalle straten, kleine pleinen en een mix van winkels en woningen die typisch Antwerps is.",
+        "after": "Borgerhout - Gemeentehuis is een dichtbevolkte stadswijk in het hart van Antwerpen, met bijna 21.000 inwoners op een compacte oppervlakte. Met 19.453 inwoners per vierkante kilometer is dit één van de meer levendige wijken van de stad, waar stedelijk gemak en lokale voorzieningen bij elkaar komen. De wijk ligt op wandelafstand van groen zoals het Krugerpark, en het openbaar vervoer brengt je snel naar andere stadsdelen. De smalle straten en kleine pleinen ademen een authentiek stadskarakter, met een mix van winkels en woningen die typisch Antwerps is.",
+        "reason": "intro_structure"
+      },
+      {
+        "field": "intro",
+        "before": "Voor wie hier met een hond woont, biedt de wijk een verrassend goede toegang tot groene ruimte. Het Krugerpark ligt op nauwelijks 6 minuten wandelen en is een populaire plek onder lokale baasjes voor de dagelijkse wandeling.",
+        "after": "Voor wie hier met een hond woont, biedt de wijk een verrassend goede toegang tot groene ruimte. Het Krugerpark ligt op nauwelijks 6 minuten wandelen en is een populaire plek voor de dagelijkse wandeling met je viervoeter.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Wie hier zou thuishoren? Baasjes die van de stadse drukte houden, maar ook waarde hechten aan toegankelijk groen voor hun viervoeter.",
+        "after": "Wie hier zou thuishoren? Wie van de stadse drukte houdt, maar ook waarde hecht aan toegankelijk groen voor de dagelijkse wandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Borgerhout - Gemeentehuis draait om korte afstanden en stedelijk gemak.",
+        "after": "Een typische dag met je hond in Borgerhout - Gemeentehuis draait om korte afstanden en stedelijk gemak.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:00:00Z",
+    "qualityScore": 85,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Met 19.453 inwoners per vierkante kilometer is dit één van de meer levendige buurten van de stad",
+        "after": "Met 19.453 inwoners per vierkante kilometer is dit één van de meer levendige wijken van de stad",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[4].detail",
+        "before": "Met basisassortiment voor huisdieren",
+        "after": "Met basisassortiment voor honden",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 17,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurten",
+            "field": "intro",
+            "preferred": "wijken"
+          },
+          {
+            "term": "huisdieren",
+            "field": "valueCards[4].detail",
+            "preferred": "honden"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (proximity context)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 6,
+        "localTipsFound": [
+          "in de richting van Berchem",
+          "richting de waterkant",
+          "naar het Antwerpse centrum"
+        ],
+        "neighborhoodObservations": [
+          "De smalle straten en kleine pleinen ademen een authentiek stadskarakter",
+          "Het Krugerpark ligt op nauwelijks 6 minuten wandelen",
+          "De levendige wijken van de stad"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

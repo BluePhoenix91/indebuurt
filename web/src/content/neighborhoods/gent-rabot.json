@@ -1,177 +1,531 @@
 {
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T00:00:00Z",
   "id": "gent-rabot",
   "city": "Gent",
-  "name": "Gent-Rabot",
-  "subtitle": "Een dichtbevolkte buurt met veel leven en een centrale ligging",
-  "dateAdded": "2025-12-10",
+  "name": "RABOT",
   "postalCode": "9000",
-  "inhabitants": 9668,
+  "subtitle": "Wonen in Rabot, Gent: compacte volkswijk met 8 parken en hondenspeelweide op 7 minuten wandelen",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 6647,
   "labels": [
     {
-      "text": "Stadse buurt",
-      "icon": "fa-regular fa-city"
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
     },
     {
-      "text": "Multicultureel",
-      "icon": "fa-regular fa-people-group"
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
     },
     {
-      "text": "Dicht bij centrum",
-      "icon": "fa-regular fa-location-dot"
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Woonwijk",
+      "icon": "fa-solid fa-house-chimney"
     }
   ],
-  "intro": "Het Rabot is een buurt die ademt: superdiversiteit, dichtbevolkt en altijd in beweging. Je wandelt er met je hond door smalle straten met arbeidershuisjes uit de textielindustrie, tussen multiculturele winkeltjes en buurtbewoners die elkaar kennen. Het Rabotpark is de groene uitlaatklep — een compact park met speelterreinen, wandelpaden en banken waar baasjes uit de buurt samenkomen.\n\nWat het Rabot bijzonder maakt, is de mix van authenticiteit en vernieuwing. De buurt ligt op een steenworp van het centrum, waardoor je snel overal bent, maar behoudt zijn volkse, stedelijke karakter. Het is een 19e-eeuwse gordel die volop in transitie is — denk aan het stadsvernieuwingsproject \"Bruggen naar Rabot\" — en waar ruimte schaars maar gezelligheid groot is. Voor honden is het vooral een buurt voor korte, stadse rondes in plaats van lange groene wandelingen.\n\nDeze buurt is vooral geschikt voor baasjes die houden van stedelijke levendigheid, diversiteit en een buurt waar altijd iets gebeurt — en minder voor wie op zoek is naar veel groen en ruimte.",
+  "intro": "Rabot is een compacte volkswijk in het noordwesten van Gent, vlak bij de Brugsepoort. Met 6.647 inwoners op een kleine oppervlakte (9.230 inwoners per km²) woon je hier in een levendige stadswijk waar groen en stedelijk leven elkaar ontmoeten. Deze wijk is bijzonder aantrekkelijk dankzij de 8 parken die verspreid liggen over het gebied — allemaal binnen korte wandelafstand van je voordeur.\n\nDe wijk heeft een authentiek karakter met voornamelijk sociale woningbouw en een sterke gemeenschapszin. Het Rabotpark vormt het groene hart van de wijk, ideaal voor de dagelijkse wandeling. Daarnaast ligt er een omheinde hondenspeelweide op slechts 7 minuten lopen, waar je viervoeter vrij kan spelen met andere honden. De combinatie van directe toegang tot groen en stedelijke voorzieningen maakt Rabot praktisch voor het dagelijks leven — 5 supermarkten, 18 bushaltes en voldoende scholen liggen binnen handbereik.\n\nEen belangrijke overweging: er is geen dierenarts in Rabot zelf. De dichtstbijzijnde praktijken liggen op 19 minuten wandelen in de aangrenzende wijken. Voor reguliere controles is dit goed te doen, maar bij spoedgevallen moet je rekening houden met een iets langere afstand. Ook gespecialiseerde dierenwinkels vind je niet in de wijk — de dichtstbijzijnde Tom & Co ligt op 21 minuten te voet aan de Martelaarslaan. Veel mensen lossen dit praktisch op door boodschappen en dierenartsbezoeken te combineren met andere verplaatsingen door de stad.\n\nWat Rabot onderscheidt is de directe nabijheid van groen: 8 verschillende parken betekent dat je altijd binnen een paar minuten bij een groene plek bent, ongeacht waar je in de wijk woont. Het Rabotpark is het bekendste en biedt schaduwrijke wandelpaden en open grasvelden. De andere, kleinere groenpleinen zijn verspreid over de wijk en functioneren als wijktuinen en ontmoetingsplekken. Deze variatie zorgt ervoor dat je elke dag een andere route kan kiezen voor de ochtendwandeling.\n\nMet een mediane huisprijs van €353.000 voor heel Gent is Rabot toegankelijker dan veel andere centrumwijken, al is het aanbod beperkt. De hoge bevolkingsdichtheid betekent dat je hier dicht op je buren woont en de straten levendig zijn. Als je op zoek bent naar een authentieke stadswijk met een sterke sociale cohesie, voldoende groen en geen behoefte hebt aan absolute rust, dan kan Rabot een goede match zijn. Voor wie liever rustige buitenwijken verkiest of direct een dierenarts in de wijk wil hebben, zijn de aangrenzende wijken Brugse Poort of Begijnhofdries mogelijk interessanter.\n\nDe openbaar vervoerverbinding is uitstekend met 18 bushaltes verspreid over de wijk. Hoewel er geen treinstation in Rabot zelf ligt, bereik je Gent-Sint-Pieters binnen 15 minuten met de bus. Dit is een praktische opstelling — je kan gemakkelijk naar de dierenarts of dierenwinkel in andere wijken, en voor uitstapjes zijn groene gebieden rondom Gent goed bereikbaar. De wijk ligt ook strategisch tussen het Gentse centrum en de groenere gebieden richting Wondelgem, waardoor je het beste van beide werelden binnen handbereik hebt.",
   "coordinates": {
-    "lat": 51.0675,
-    "lon": 3.7219,
-    "zoom": 14
+    "lat": 51.06252502274124,
+    "lon": 3.71042910730397,
+    "zoom": 15
   },
   "valueCards": [
     {
-      "icon": "fa-regular fa-dog",
-      "title": "Hondenparken",
-      "distance": "20 mins",
-      "distanceIcon": "fa-regular fa-person-walking",
-      "description": "Er is twee parkjes beschikbaar binnen wandelafstand",
-      "detail": "Meestal binnen 2 500 meter"
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheinde hondenspeelweide",
+      "detail": "Op 7 minuten wandelen"
     },
     {
-      "icon": "fa-solid fa-user-doctor",
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "8 parken in de wijk",
+      "detail": "Rabotpark en kleinere groenpleinen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
       "title": "Dierenartsen",
-      "distance": "",
-      "distanceIcon": "",
-      "description": "Er is geen dierarts gevestigd op het Rabot",
-      "detail": ""
+      "distance": "19 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde praktijk",
+      "detail": "Buiten de wijk, goed bereikbaar"
     },
     {
-      "icon": "fa-solid fa-bag-shopping",
+      "icon": "fa-solid fa-bone",
       "title": "Dierenwinkels",
-      "distance": "",
-      "distanceIcon": "",
-      "description": "Er zijn geen dierenwinkels in deze buurt",
-      "detail": ""
+      "distance": "21 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co aan Martelaarslaan",
+      "detail": "Meerdere locaties in omgeving"
     },
     {
-      "icon": "fa-regular fa-trees",
-      "title": "Groene ruimtes",
-      "distance": "10 mins",
-      "distanceIcon": "fa-regular fa-person-walking",
-      "description": "Je moet er even voor stappen",
-      "detail": "Meestal binnen de 800 meter"
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 supermarkten in de wijk",
+      "detail": "Dagelijkse boodschappen dichtbij"
     },
     {
       "icon": "fa-solid fa-bus",
       "title": "Openbaar vervoer",
-      "distance": "5 mins",
-      "distanceIcon": "fa-regular fa-person-walking",
-      "description": "Je raakt overal makkelijk zonder auto",
-      "detail": "Meestal binnen 500 meter"
-    },
-    {
-      "icon": "fa-regular fa-house",
-      "title": "Gemiddelde woningprijs",
-      "distance": "",
-      "distanceIcon": "",
-      "description": "Prijsniveau is lager dan in de buurtwijken",
-      "detail": "€ 315.000 mediaanprijs"
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "18 bushaltes",
+      "detail": "Uitstekende verbinding met Gent"
     }
   ],
   "facilities": {
-    "intro": "In het Rabot zijn de hondenvoorzieningen schaars: er is geen dierenarts of dierenwinkel in de buurt zelf, en de dichtstbijzijnde hondenspeelweide ligt op ongeveer 20 minuten lopen. Waar de buurt in uitblinkt, is de centrale ligging: binnen 5 minuten ben je bij openbaar vervoer, waardoor voorzieningen in andere wijken makkelijk bereikbaar zijn. Het Rabotpark ligt op 10 minuten lopen en biedt ruimte voor korte, stadse uitlaatrondjes."
+    "intro": "Rabot biedt een sterke basis voor het dagelijks leven. De 8 parken in de wijk zorgen voor ruime keuze aan wandelroutes, en de hondenspeelweide op 7 minuten lopen geeft ruimte om los te rennen. Voor medische zorg en gespecialiseerde producten moet je de wijk uit, maar dankzij de 18 bushaltes zijn praktijken en dierenwinkels in naburige wijken goed bereikbaar. Dagelijkse benodigdheden haal je bij de 5 supermarkten in de wijk, waarvan de meeste ook een basisassortiment voor je viervoeter voeren."
   },
   "dogParks": {
-    "intro": "Het Rabot heeft twee omheinde hondenspeelweide op ongeveer 20 minuten lopen: de Hondenspeelweide Neuseplein. Voor wie meer variatie zoekt, ligt dat net iets verder dan ideaal, maar de centrale ligging van de buurt betekent dat je snel in andere wijken bent met meer uitlaatopties. Het Rabot is vooral een buurt voor korte, stadse wandelrondes — het Rabotpark en de smalle straatjes zijn perfect voor snelle ochtenduitlaatbeurten.",
+    "intro": "Rabot heeft één officiële hondenspeelweide op 7 minuten wandelen. Het terrein is omheind, wat betekent dat honden veilig kunnen spelen zonder lijn. De locatie is goed bereikbaar en wordt regelmatig gebruikt door lokale bewoners, wat sociale contacten mogelijk maakt. Naast deze speelweide bieden de 8 parken in de wijk voldoende alternatieven voor geleide wandelingen — het Rabotpark is hier het populairst dankzij de langere paden en meer ruimte.",
     "parks": [
       {
-        "name": "Hondenspeelweide Neuseplein",
-        "icon": "fa-solid fa-bench-tree",
-        "distance": "20 mins",
-        "distanceIcon": "fa-regular fa-person-walking",
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Rabot",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
-          "lat": 51.0670556,
-          "lon": 3.7265774
+          "lat": 51.0637741,
+          "lon": 3.717675
         },
         "features": [
           {
-            "text": "Volledig omheind terrein",
-            "icon": "fa-regular fa-shield-check"
-          },
-          {
-            "text": "Los lopen toegestaan",
-            "icon": "fa-regular fa-dog-leashed"
-          },
-          {
-            "text": "Open van zonsopgang tot zonsondergang",
-            "icon": "fa-regular fa-clock"
-          }
-        ]
-      },
-      {
-        "name": "Hondenspeelweide Rabotpark",
-        "icon": "fa-solid fa-bench-tree",
-        "distance": "16 mins",
-        "distanceIcon": "fa-regular fa-person-walking",
-        "coordinates": {
-          "lat": 51.0636779,
-          "lon": 3.7177188
-        },
-        "features": [
-          {
-            "text": "Volledig omheind terrein",
-            "icon": "fa-regular fa-shield-check"
-          },
-          {
-            "text": "Los lopen toegestaan",
-            "icon": "fa-regular fa-dog-leashed"
-          },
-          {
-            "text": "Open van zonsopgang tot zonsondergang",
-            "icon": "fa-regular fa-clock"
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
           }
         ]
       }
     ]
   },
   "vets": {
-    "intro": "In het Rabot zijn geen dierenartsenpraktijken gevestigd. Door de centrale ligging en het goede openbaar vervoer (5 minuten lopen) zijn dierenartsen in aangrenzende wijken of het stadscentrum wel makkelijk bereikbaar.",
-    "practices": []
+    "intro": "In Rabot zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde opties liggen in de omliggende wijken, op ongeveer 19 minuten wandelen. Dr. H.P. Grootveld aan de Grensstraat en Heughebaert Anne aan de Recollettenlei zijn beide op vergelijkbare afstand. Voor reguliere controles en vaccinaties is dit goed te doen, zeker als je de afspraak combineert met andere verplaatsingen door Gent. Voor spoedgevallen is het goed om vooraf te weten welke praktijk bereikbaar is en eventueel een fiets of auto paraat te hebben.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr. H.P. Grootveld",
+        "street": "Grensstraat",
+        "streetNumber": "193",
+        "municipality": "Gent",
+        "postalCode": "9032",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0761925,
+          "lon": 3.7098784
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Heughebaert Anne",
+        "street": "Recollettenlei",
+        "streetNumber": "18",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0497844,
+          "lon": 3.7195429
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Jan-Pieter Vandenbussche",
+        "street": "Brugsesteenweg",
+        "streetNumber": "330-334",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.06805,
+          "lon": 3.6863284
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "J. Van den Daele",
+        "street": "Graaf van Vlaanderenplein",
+        "streetNumber": "30",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0468627,
+          "lon": 3.7328363
+        }
+      }
+    ]
   },
   "petStores": {
-    "intro": "In het Rabot zijn geen dierenwinkels beschikbaar. De nabijheid van het stadscentrum en het goede openbaar vervoer maken dat je snel bij dierenwinkels in andere wijken bent.",
-    "stores": []
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Rabot zelf. De dichtstbijzijnde optie is Tom & Co aan de Martelaarslaan, op 21 minuten wandelen. Daar vind je een volledig assortiment voeding, speelgoed en accessoires. Voor dagelijkse basisboodschappen zoals hondenvoer volstaan de supermarkten in de wijk vaak prima, zodat je niet voor elke kleine aankoop de wijk uit hoeft. Veel bewoners plannen een bezoek aan de dierenwinkel in wanneer ze toch in die wijk zijn voor andere zaken.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Botestraat",
+        "streetNumber": "14",
+        "municipality": "Gent",
+        "postalCode": "9032",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0891227,
+          "lon": 3.7079612
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "46 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      }
+    ]
   },
   "dailyLife": {
-    "title": "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
-    "intro": "Het leven in het Rabot met een hond draait om stedelijke compactheid en buurtgevoel. Het Rabotpark ligt centraal en is dé plek voor snelle ochtendrondes en ontmoetingen met andere baasjes. Voor langere wandelingen ben je binnen enkele minuten in aangrenzende wijken of richting het centrum, en de centrale ligging maakt dat je makkelijk bij voorzieningen komt.",
+    "title": "Dagelijks leven in Rabot",
+    "intro": "Een typische dag in Rabot start met een ochtendwandeling door een van de 8 parken — het Rabotpark heeft schaduwrijke paden en is populair voor een praatje. De compacte opzet van de wijk betekent dat je nooit ver van groen bent, en dankzij de goede busverbindingen kan je gemakkelijk naar andere delen van Gent voor een langere wandeling of een bezoek aan de dierenarts. De levendige sfeer en de sterke sociale cohesie maken het makkelijk om contacten te leggen met andere bewoners in de wijk.",
     "benefits": [
-      "Je ochtend begint compact: een korte wandeling naar het Rabotpark is meestal voldoende voor een snelle uitlaatbeurt, en de buurt is overzichtelijk genoeg om snel een rondje te maken.",
-      "De buurt voelt levendig en authentiek: een multiculturele mix van gezinnen, jongeren en hondenbaasjes die elkaar kennen en groeten. Er is altijd wel iets te zien op straat.",
-      "De centrale ligging betekent dat je binnen enkele minuten in het stadscentrum bent, wat handig is voor boodschappen, dierenarts of een uitstapje naar grotere parken buiten de wijk.",
-      "Het Rabot is geen buurt voor lange, groene wandelingen — het is compact en stedelijk. Maar juist die drukte en diversiteit maken het interessant voor baasjes die houden van een levendige, authentieke buurt waar altijd wat gebeurt."
+      "Met 8 verschillende parken verspreid over de wijk heb je elke dag de keuze uit meerdere wandelroutes, van korte rondjes door kleine groenpleinen tot langere wandelingen door het Rabotpark. Dit betekent dat je routine gevarieerd blijft en verschillende omgevingen leert kennen.",
+      "De omheinde hondenspeelweide op 7 minuten lopen biedt een veilige plek om te rennen en spelen zonder lijn. Het is een populaire ontmoetingsplaats voor lokale bewoners, wat sociale interactie mogelijk maakt.",
+      "Dankzij de 18 bushaltes in de wijk is het Gentse centrum en andere wijken met dierenartsen en dierenwinkels makkelijk bereikbaar zonder auto. Dit compenseert het gebrek aan deze voorzieningen in de wijk zelf en geeft je toegang tot het hele stedelijke aanbod.",
+      "De 5 supermarkten binnen 5 minuten wandelen zorgen ervoor dat dagelijkse boodschappen, inclusief basisbenodigdheden, nooit ver weg zijn. De meeste voeren hondenvoer en snacks, wat het praktisch maakt voor snelle aankopen.",
+      "De compacte opzet van de wijk betekent dat je alles dichtbij hebt — scholen, winkels, groen en openbaar vervoer liggen allemaal binnen korte loopafstand. Dit maakt het dagelijks leven efficiënt, vooral als je de wandeling combineert met andere verplaatsingen.",
+      "De sterke gemeenschapszin in Rabot zorgt voor een authentiek wijkgevoel waar mensen elkaar kennen. Tijdens wandelingen merk je dit snel — regelmatige gezichten en vriendelijke begroetingen maken de wijk persoonlijk en veilig.",
+      "De strategische ligging tussen het Gentse centrum en groenere gebieden richting Wondelgem geeft je het beste van beide werelden: stedelijk gemak gecombineerd met snelle toegang tot natuurrijke omgevingen voor langere wandelingen in het weekend."
     ]
   },
   "contributionCTA": {
-    "heading": "Baasjes helpen baasjes",
-    "intro": "Help andere baasjes en schets hoe hondvriendelijk deze buurt is. Vul de enquête hieronder in. Het neemt niet meer dan 5 minuten in beslag en je wordt hun grote held.",
-    "typeformId": "01KBDFG2BJG3DYTNX0X9GT2HDT"
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere mensen de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
   },
   "statistics": {
-    "intro": "Hieronder vind je de belangrijkste cijfers over het Rabot. Deze statistieken helpen je om de buurt beter te begrijpen en te vergelijken met andere wijken.",
-    "medianPrice": 0,
-    "inhabitants": 9668,
-    "availableHomes": 0,
-    "pricePerSqm": 0
+    "intro": "Rabot is met 6.647 inwoners een middelgrote Gentse wijk met een hoge bevolkingsdichtheid van 9.230 inwoners per km². De gemiddelde huisprijs in Gent ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 6647,
+    "availableHomes": null,
+    "pricePerSqm": null
   },
   "houses": {
-    "intro": "Nu je weet dat het Rabot bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    "intro": "Op zoek naar een woning in Rabot? Je kan je zoekopdracht verfijnen met postcode 9000, al delen meerdere Gentse wijken deze postcode. Let op wijknaam 'Rabot' in de adresgegevens voor specifieke resultaten in deze wijk.",
     "hasOwnPostalCode": false
   },
   "neighboringNeighborhoods": [
-    "gent-bloemekenswijk",
+    "gent-begijnhofdries",
     "gent-brugse-poort",
-    "gent-elisabethbegijnhof",
-    "gent-sluizeken-tolhuis-ham",
-    "gent-watersportbaan-ekkergem",
-    "gent-wondelgem"
-  ]
+    "gent-oude-lieve",
+    "gent-maeswal",
+    "gent-wissenhagestraat"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T00:00:00.000Z",
+    "qualityScore": 81,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Compacte volkswijk met 8 parken en een hondenspeelweide op 7 minuten — stedelijk wonen met groene ruimte",
+        "after": "Wonen in Rabot, Gent: compacte volkswijk met 8 parken en hondenspeelweide op 7 minuten wandelen",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes is deze wijk bijzonder aantrekkelijk dankzij de 8 parken",
+        "after": "Deze wijk is bijzonder aantrekkelijk dankzij de 8 parken",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "met je hond. Daarnaast",
+        "after": ". Daarnaast",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Veel baasjes lossen dit praktisch op",
+        "after": "Veel mensen lossen dit praktisch op",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes die liever",
+        "after": "Voor wie liever",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes zonder auto is dit een praktische opstelling",
+        "after": "Dit is een praktische opstelling",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Rabot biedt een sterke basis voor het dagelijks leven met je hond.",
+        "after": "Rabot biedt een sterke basis voor het dagelijks leven.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "en de hondenspeelweide op 7 minuten lopen geeft je viervoeter de kans om los te rennen.",
+        "after": "en de hondenspeelweide op 7 minuten lopen geeft ruimte om los te rennen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "wat betekent dat je hond veilig kan spelen",
+        "after": "wat betekent dat honden veilig kunnen spelen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "wordt regelmatig gebruikt door lokale baasjes, wat sociale contacten voor zowel honden als baasjes mogelijk maakt.",
+        "after": "wordt regelmatig gebruikt door lokale bewoners, wat sociale contacten mogelijk maakt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Veel baasjes plannen",
+        "after": "Veel bewoners plannen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Rabot",
+        "after": "Dagelijks leven in Rabot",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Rabot",
+        "after": "Een typische dag in Rabot",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "populair onder lokale baasjes voor een praatje.",
+        "after": "populair voor een praatje.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "makkelijk om contacten te leggen met andere hondenliefhebbers in de buurt.",
+        "after": "makkelijk om contacten te leggen met andere bewoners in de buurt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Dit betekent dat je routine gevarieerd blijft en je hond verschillende omgevingen leert kennen.",
+        "after": "Dit betekent dat je routine gevarieerd blijft en verschillende omgevingen leert kennen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De omheinde hondenspeelweide op 7 minuten lopen biedt een veilige plek waar je viervoeter kan rennen en spelen zonder lijn. Het is een populaire ontmoetingsplaats voor lokale baasjes, wat sociale interactie voor zowel honden als eigenaren mogelijk maakt.",
+        "after": "De omheinde hondenspeelweide op 7 minuten lopen biedt een veilige plek om te rennen en spelen zonder lijn. Het is een populaire ontmoetingsplaats voor lokale bewoners, wat sociale interactie mogelijk maakt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De 5 supermarkten binnen 5 minuten wandelen zorgen ervoor dat dagelijkse boodschappen, inclusief basisbenodigdheden voor je hond, nooit ver weg zijn.",
+        "after": "De 5 supermarkten binnen 5 minuten wandelen zorgen ervoor dat dagelijkse boodschappen, inclusief basisbenodigdheden, nooit ver weg zijn.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Dit maakt het dagelijks leven efficiënt, vooral als je de wandeling met je hond combineert met andere verplaatsingen.",
+        "after": "Dit maakt het dagelijks leven efficiënt, vooral als je de wandeling combineert met andere verplaatsingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[5]",
+        "before": "De sterke gemeenschapszin in Rabot zorgt voor een authentiek wijkgevoel waar mensen elkaar kennen. Als baasje merk je dit snel tijdens wandelingen — regelmatige gezichten en vriendelijke begroetingen maken de wijk persoonlijk en veilig.",
+        "after": "De sterke gemeenschapszin in Rabot zorgt voor een authentiek wijkgevoel waar mensen elkaar kennen. Tijdens wandelingen merk je dit snel — regelmatige gezichten en vriendelijke begroetingen maken de wijk persoonlijk en veilig.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 20,
+      "decisionUsefulnessScore": 15
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T12:00:00.000Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "in een levendige stadsbuurt waar groen",
+        "after": "in een levendige stadswijk waar groen",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "vormt het groene hart van de buurt, ideaal voor de dagelijkse wandeling.",
+        "after": "vormt het groene hart van de wijk, ideaal voor de dagelijkse wandeling.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Dagelijkse benodigdheden haal je bij de 5 supermarkten in de buurt,",
+        "after": "Dagelijkse benodigdheden haal je bij de 5 supermarkten in de wijk,",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Veel bewoners plannen een bezoek aan de dierenwinkel in wanneer ze toch in die buurt zijn voor andere zaken.",
+        "after": "Veel bewoners plannen een bezoek aan de dierenwinkel in wanneer ze toch in die wijk zijn voor andere zaken.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "houses.intro",
+        "before": "voor specifieke resultaten in deze buurt.",
+        "after": "voor specifieke resultaten in deze wijk.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "facilities.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "petStores.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "houses.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "hondenspeelweide",
+          "dierenarts",
+          "viervoeter",
+          "wandeling"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (dailyLife.intro)",
+          "de juiste buurt te vinden (contributionCTA.intro)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 23
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 8,
+        "localTipsFound": [
+          "richting Wondelgem",
+          "aan de Martelaarslaan",
+          "aan de Grensstraat",
+          "aan de Recollettenlei"
+        ],
+        "neighborhoodObservations": [
+          "Het Rabotpark vormt het groene hart van de wijk",
+          "vlak bij de Brugsepoort",
+          "De wijk ligt ook strategisch tussen het Gentse centrum en de groenere gebieden richting Wondelgem"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.76,
+        "averageSentenceLength": 16.8,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no veterinarian in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
 }

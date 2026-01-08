@@ -1,0 +1,457 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T12:00:00Z",
+  "id": "gent-begijnhofdries",
+  "city": "Gent",
+  "name": "BEGIJNHOFDRIES",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Begijnhofdries, Gent: 20 parken op wandelafstand en uitstekende bereikbaarheid — fijn voor je dagelijkse routine",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 11785,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Veel groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Woonwijk",
+      "icon": "fa-solid fa-house-chimney"
+    }
+  ],
+  "intro": "Begijnhofdries is een groene stadswijk in het noordwesten van Gent waar stedelijk comfort en ruime buitenruimte elkaar ontmoeten. Met een opvallende concentratie van 20 parken binnen handbereik combineer je hier de voorzieningen van een stad met de dagelijkse rust die je nodig hebt voor wandelingen en buitenmomenten. De wijk telt bijna 12.000 inwoners en heeft een levendig maar tegelijk aangenaam karakter — geschikt voor wie bereikbaarheid en groen wil verenigen.\n\nWat Begijnhofdries aantrekkelijk maakt, is de mix van kleinschalige parken en groene pleinen die je overal tegenkomt. Het Appelbrugparkje ligt op nog geen 200 meter, het Willem De Beer park op een kleine 5 minuten wandelen, en het Begijnhofdriespark is eveneens op loopafstand. Voor de ochtendwandeling hoef je nooit ver te zoeken — je hebt altijd wel een groene plek binnen bereik. De dichtstbijzijnde hondenspeelweide ligt op 10 minuten wandelen, wat voor een stedelijke wijk uitstekend is. In totaal zijn er 5 omheinde speelweiden in de omgeving, zodat je hond ook zonder lijn kan ravotten.\n\nOp het vlak van bereikbaarheid scoort de wijk hoog. Met 41 bushaltes binnen de wijk en aangrenzende straten ben je snel waar je moet zijn. Naar het Gentse centrum is het een korte rit, en ook richting de E40 ben je vlot onderweg. Een treinstation ontbreekt wel in de directe omgeving — dat is het enige minpunt voor wie dagelijks met de trein pendelt. Voor de meeste bewoners weegt dit echter niet op tegen het gemak van de busverbindingen en de nabijheid van alle andere voorzieningen.\n\nWat voorzieningen betreft, vind je in Begijnhofdries zelf geen dierenarts of dierenwinkel, maar dat is geen probleem. De dichtstbijzijnde dierenartspraktijk (Heughebaert Anne) ligt op 11 minuten lopen in aangrenzend gebied, en je hebt keuze uit 5 praktijken binnen een straal van 30 minuten. Voor dierenvoeding kun je terecht bij Tom & Co op de Martelaarslaan (18 minuten) of op de Dendermondsesteenweg (19 minuten). De meeste supermarkten in de wijk hebben trouwens ook een basisassortiment voor huisdieren, dus voor je dagelijkse benodigdheden hoef je niet ver.\n\nVoor dagelijkse boodschappen is de wijk goed uitgerust. Met 11 supermarkten, 13 apotheken en 13 scholen is dit een volwaardige woonwijk waar gezinnen en alleenstaanden zich thuis voelen. De combinatie van groene ruimte, goede bereikbaarheid en stedelijke voorzieningen maakt Begijnhofdries geschikt voor wie de drukte van het centrum wil vermijden zonder inlevering op comfort. De populatiedichtheid is met 7.291 inwoners per km² wel hoger dan in buitenwijken, dus je moet kunnen leven met wat meer bedrijvigheid en minder privacy.\n\nBegijnhofdries past bij wie groene ruimte waardeert maar ook stedelijk gemak wil. Als je op zoek bent naar een rustig dorp met eindeloze wandelroutes, is dit niet de juiste plek. Maar als je elke dag wilt kunnen kiezen uit verschillende parken, snel bij de dierenarts wilt zijn, en waardeert dat je zonder auto alles kunt bereiken, dan is Begijnhofdries zeker de moeite waard. De mediane huisprijs ligt op €353.000, wat voor Gent in lijn is met andere stadsdelige wijken met vergelijkbaar aanbod.",
+  "coordinates": {
+    "lat": 51.05716337895128,
+    "lon": 3.7223456121736964,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 hondenspeelweiden binnen bereik",
+      "detail": "Dichtstbijzijnde omheind op 10 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "20 parken in de buurt",
+      "detail": "Appelbrugparkje op 2 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "11 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 praktijken binnen 30 min",
+      "detail": "Heughebaert Anne op 11 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "18 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co op korte afstand",
+      "detail": "2 vestigingen binnen 20 min"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "11 supermarkten in de wijk",
+      "detail": "Dagelijkse boodschappen dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "41 bushaltes in de wijk",
+      "detail": "Uitstekende busverbindingen"
+    }
+  ],
+  "facilities": {
+    "intro": "Begijnhofdries biedt een goede basis voor het dagelijks leven met een hond. De wijk zelf heeft geen dierenarts of dierenwinkel, maar alles ligt binnen handbereik in de aangrenzende wijken. Met 20 parken, 5 hondenspeelweiden en uitstekende busverbindingen is de dagelijkse routine goed georganiseerd."
+  },
+  "dogParks": {
+    "intro": "Met 5 omheinde hondenspeelweiden binnen een straal van 25 minuten wandelen zit je hier goed. De dichtstbijzijnde ligt op slechts 10 minuten en is omheind, zodat je viervoeter veilig kan spelen. Voor wie liever in een gewoon park wandelt: met 20 groene plekken binnen handbereik heb je elke dag een andere route.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (nabij Vogelenzangpark)",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0637741,
+          "lon": 3.717675
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (nabij Tolhuispark)",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0669876,
+          "lon": 3.7266103
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (westelijke wijk)",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0549021,
+          "lon": 3.7033851
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (noordelijk)",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0692342,
+          "lon": 3.7116159
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (noordoost)",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0734578,
+          "lon": 3.7315395
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf vind je geen dierenarts, maar de dichtstbijzijnde praktijk ligt op slechts 11 minuten wandelen. Je hebt keuze uit 5 praktijken binnen een straal van 30 minuten, zodat je voor routinecontroles en spoedgevallen goed terecht kunt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Heughebaert Anne",
+        "street": "Recollettenlei",
+        "streetNumber": "18",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0497844,
+          "lon": 3.7195429
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "J. Van den Daele",
+        "street": "Graaf van Vlaanderenplein",
+        "streetNumber": "30",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0468627,
+          "lon": 3.7328363
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Viervoeter",
+        "street": "Frans Spaestraat",
+        "streetNumber": "27",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0388816,
+          "lon": 3.73474
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr. Paul Panis",
+        "street": "Koning Albertlaan",
+        "streetNumber": "25",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0378647,
+          "lon": 3.7106911
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf, maar Tom & Co heeft twee vestigingen op respectievelijk 18 en 19 minuten lopen. Voor je dagelijkse benodigdheden hebben de meeste supermarkten in de wijk ook een basisassortiment.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "43 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0757366,
+          "lon": 3.7613707
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Begijnhofdries",
+    "intro": "Een typische dag in Begijnhofdries begint met een korte wandeling naar een van de vele nabije parken. Het Appelbrugparkje ligt om de hoek, en als je wat verder wilt lopen, bereik je het Vogelenzangpark of Willem De Beer park binnen 10 minuten. Voor de middagwandeling kun je naar de hondenspeelweide waar je viervoeter zonder lijn kan spelen. De wijk is compact genoeg om alles te voet te doen, maar heeft wel de drukte en levendigheid van een stedelijke omgeving.",
+    "benefits": [
+      "Met 20 parken binnen handbereik heb je elke dag een andere wandelroute. Het Appelbrugparkje is perfect voor een snelle ochtendwandeling, terwijl het Begijnhofdriespark en Tolhuispark meer ruimte bieden voor een langere uitstap. De meeste parken zijn kleinschalig en groen, wat zorgt voor rust midden in de stad.",
+      "De 5 omheinde hondenspeelweiden in de omgeving geven je voldoende keuze voor sociale momenten. De dichtstbijzijnde ligt op 10 minuten wandelen, en met een spreiding over verschillende richtingen kun je ook tijdens drukke momenten uitwijken naar een rustiger alternatief.",
+      "Dankzij de 41 bushaltes kun je gemakkelijk naar het centrum of andere delen van Gent zonder auto. Dit is handig voor een bezoek aan de dierenarts of een grotere dierenwinkel buiten de wijk. Het ontbreken van een treinstation kan een beperking zijn voor pendelaars, maar voor het dagelijks leven merk je daar weinig van.",
+      "Met 11 supermarkten in de wijk hoef je nooit ver voor dagelijkse boodschappen. De meeste hebben een basisassortiment voor huisdieren, dus voor droogvoer, blikjes en snacks ben je snel geholpen. Voor speciaalbrokken en speelgoed ga je naar Tom & Co, maar dat ligt op een acceptabele loopafstand.",
+      "De populatiedichtheid van ruim 7.000 inwoners per km² betekent wel dat je gewend moet zijn aan drukte. De parken kunnen tijdens mooie dagen druk zijn, en op de trottoirs kom je regelmatig andere honden tegen. Voor sociale honden is dit fijn; voor schuwere viervoeters vraagt dit wat meer aandacht."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Begijnhofdries is een middelgrote wijk met bijna 12.000 inwoners en een stedelijk karakter.",
+    "medianPrice": 353000,
+    "inhabitants": 11785,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Begijnhofdries? Je kunt zoeken op postcode 9000, maar let op: deze postcode geldt voor meerdere wijken in Gent. Filter daarom ook op wijk- of straatnaam voor nauwkeurige resultaten.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-blaisantvest",
+    "gent-rabot",
+    "gent-bijloke",
+    "gent-wissenhagestraat",
+    "gent-heernis"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T00:00:00Z",
+    "qualityScore": 86,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Groene stadswijk met 20 parken op wandelafstand en uitstekende bereikbaarheid — fijn voor je dagelijkse routine",
+        "after": "Wonen in Begijnhofdries, Gent: 20 parken op wandelafstand en uitstekende bereikbaarheid — fijn voor je dagelijkse routine",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Begijnhofdries is een groene stadswijk in het noordwesten van Gent waar stedelijk comfort en ruime buitenruimte elkaar ontmoeten. Met een opvallende concentratie van 20 parken binnen handbereik combineer je hier de voorzieningen van een stad met de dagelijkse rust die je viervoeter nodig heeft. De wijk telt bijna 12.000 inwoners en heeft een levendig maar tegelijk aangenaam karakter — ideaal voor wie bereikbaarheid en groen wil verenigen.\n\nWat Begijnhofdries aantrekkelijk maakt, is de mix van kleinschalige parken en groene pleinen die je overal tegenkomt. Het Appelbrugparkje ligt op nog geen 200 meter, het Willem De Beer park op een kleine 5 minuten wandelen, en het Begijnhofdriespark is eveneens op loopafstand. Voor baasjes betekent dit dat je voor de ochtendwandeling nooit ver hoeft te zoeken — je hebt altijd wel een groene plek binnen bereik. De dichtstbijzijnde hondenspeelweide ligt op 10 minuten wandelen, wat voor een stedelijke wijk uitstekend is. In totaal zijn er 5 omheinde speelweiden in de omgeving, zodat je viervoeter ook zonder lijn kan ravotten.\n\nOp het vlak van bereikbaarheid scoort de wijk hoog. Met 41 bushaltes binnen de wijk en aangrenzende straten ben je snel waar je moet zijn. Naar het Gentse centrum is het een korte rit, en ook richting de E40 ben je vlot onderweg. Een treinstation ontbreekt wel in de directe omgeving — dat is het enige minpunt voor wie dagelijks met de trein pendelt. Voor de meeste bewoners weegt dit echter niet op tegen het gemak van de busverbindingen en de nabijheid van alle andere voorzieningen.\n\nWat voorzieningen betreft, vind je in Begijnhofdries zelf geen dierenarts of dierenwinkel, maar dat is geen probleem. De dichtstbijzijnde dierenartspraktijk (Heughebaert Anne) ligt op 11 minuten lopen in aangrenzend gebied, en je hebt keuze uit 5 praktijken binnen een straal van 30 minuten. Voor dierenvoeding kun je terecht bij Tom & Co op de Martelaarslaan (18 minuten) of op de Dendermondsesteenweg (19 minuten). De meeste supermarkten in de wijk hebben trouwens ook een basisassortiment voor huisdieren, dus voor je dagelijkse benodigdheden hoef je niet ver.\n\nVoor dagelijkse boodschappen is de wijk goed uitgerust. Met 11 supermarkten, 13 apotheken en 13 scholen is dit een volwaardige woonwijk waar gezinnen en alleenstaanden zich thuis voelen. De combinatie van groene ruimte, goede bereikbaarheid en stedelijke voorzieningen maakt Begijnhofdries geschikt voor wie de drukte van het centrum wil vermijden zonder inlevering op comfort. De populatiedichtheid is met 7.291 inwoners per km² wel hoger dan in buitenwijken, dus je moet kunnen leven met wat meer bedrijvigheid en minder privacy.\n\nBegijnhofdries past bij baasjes die groene ruimte waarderen maar ook stedelijk gemak willen. Als je op zoek bent naar een rustig dorp met eindeloze wandelroutes, is dit niet de juiste plek. Maar als je elke dag wilt kunnen kiezen uit verschillende parken, snel bij de dierenarts wilt zijn, en waardeert dat je zonder auto alles kunt bereiken, dan is Begijnhofdries zeker de moeite waard. De mediane huisprijs ligt op €353.000, wat voor Gent in lijn is met andere stadsdelige wijken met vergelijkbaar aanbod.",
+        "after": "Begijnhofdries is een groene stadswijk in het noordwesten van Gent waar stedelijk comfort en ruime buitenruimte elkaar ontmoeten. Met een opvallende concentratie van 20 parken binnen handbereik combineer je hier de voorzieningen van een stad met de dagelijkse rust die je nodig hebt voor wandelingen en buitenmomenten. De wijk telt bijna 12.000 inwoners en heeft een levendig maar tegelijk aangenaam karakter — geschikt voor wie bereikbaarheid en groen wil verenigen.\n\nWat Begijnhofdries aantrekkelijk maakt, is de mix van kleinschalige parken en groene pleinen die je overal tegenkomt. Het Appelbrugparkje ligt op nog geen 200 meter, het Willem De Beer park op een kleine 5 minuten wandelen, en het Begijnhofdriespark is eveneens op loopafstand. Voor de ochtendwandeling hoef je nooit ver te zoeken — je hebt altijd wel een groene plek binnen bereik. De dichtstbijzijnde hondenspeelweide ligt op 10 minuten wandelen, wat voor een stedelijke wijk uitstekend is. In totaal zijn er 5 omheinde speelweiden in de omgeving, zodat je hond ook zonder lijn kan ravotten.\n\nOp het vlak van bereikbaarheid scoort de wijk hoog. Met 41 bushaltes binnen de wijk en aangrenzende straten ben je snel waar je moet zijn. Naar het Gentse centrum is het een korte rit, en ook richting de E40 ben je vlot onderweg. Een treinstation ontbreekt wel in de directe omgeving — dat is het enige minpunt voor wie dagelijks met de trein pendelt. Voor de meeste bewoners weegt dit echter niet op tegen het gemak van de busverbindingen en de nabijheid van alle andere voorzieningen.\n\nWat voorzieningen betreft, vind je in Begijnhofdries zelf geen dierenarts of dierenwinkel, maar dat is geen probleem. De dichtstbijzijnde dierenartspraktijk (Heughebaert Anne) ligt op 11 minuten lopen in aangrenzend gebied, en je hebt keuze uit 5 praktijken binnen een straal van 30 minuten. Voor dierenvoeding kun je terecht bij Tom & Co op de Martelaarslaan (18 minuten) of op de Dendermondsesteenweg (19 minuten). De meeste supermarkten in de wijk hebben trouwens ook een basisassortiment voor huisdieren, dus voor je dagelijkse benodigdheden hoef je niet ver.\n\nVoor dagelijkse boodschappen is de wijk goed uitgerust. Met 11 supermarkten, 13 apotheken en 13 scholen is dit een volwaardige woonwijk waar gezinnen en alleenstaanden zich thuis voelen. De combinatie van groene ruimte, goede bereikbaarheid en stedelijke voorzieningen maakt Begijnhofdries geschikt voor wie de drukte van het centrum wil vermijden zonder inlevering op comfort. De populatiedichtheid is met 7.291 inwoners per km² wel hoger dan in buitenwijken, dus je moet kunnen leven met wat meer bedrijvigheid en minder privacy.\n\nBegijnhofdries past bij wie groene ruimte waardeert maar ook stedelijk gemak wil. Als je op zoek bent naar een rustig dorp met eindeloze wandelroutes, is dit niet de juiste plek. Maar als je elke dag wilt kunnen kiezen uit verschillende parken, snel bij de dierenarts wilt zijn, en waardeert dat je zonder auto alles kunt bereiken, dan is Begijnhofdries zeker de moeite waard. De mediane huisprijs ligt op €353.000, wat voor Gent in lijn is met andere stadsdelige wijken met vergelijkbaar aanbod.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Begijnhofdries biedt een goede basis voor baasjes. De wijk zelf heeft geen dierenarts of dierenwinkel, maar alles ligt binnen handbereik in de aangrenzende wijken. Met 20 parken, 5 hondenspeelweiden en uitstekende busverbindingen is de dagelijkse routine goed georganiseerd.",
+        "after": "Begijnhofdries biedt een goede basis voor het dagelijks leven met een hond. De wijk zelf heeft geen dierenarts of dierenwinkel, maar alles ligt binnen handbereik in de aangrenzende wijken. Met 20 parken, 5 hondenspeelweiden en uitstekende busverbindingen is de dagelijkse routine goed georganiseerd.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Begijnhofdries begint met een korte wandeling naar een van de vele nabije parken. Het Appelbrugparkje ligt om de hoek, en als je wat verder wilt lopen, bereik je het Vogelenzangpark of Willem De Beer park binnen 10 minuten. Voor de middagwandeling kun je naar de hondenspeelweide waar je viervoeter zonder lijn kan spelen. De wijk is compact genoeg om alles te voet te doen, maar heeft wel de drukte en levendigheid van een stedelijke omgeving.",
+        "after": "Een typische dag in Begijnhofdries begint met een korte wandeling naar een van de vele nabije parken. Het Appelbrugparkje ligt om de hoek, en als je wat verder wilt lopen, bereik je het Vogelenzangpark of Willem De Beer park binnen 10 minuten. Voor de middagwandeling kun je naar de hondenspeelweide waar je viervoeter zonder lijn kan spelen. De wijk is compact genoeg om alles te voet te doen, maar heeft wel de drukte en levendigheid van een stedelijke omgeving.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De 5 omheinde hondenspeelweiden in de omgeving geven je voldoende keuze voor sociale momenten met andere baasjes. De dichtstbijzijnde ligt op 10 minuten wandelen, en met een spreiding over verschillende richtingen kun je ook tijdens drukke momenten uitwijken naar een rustiger alternatief.",
+        "after": "De 5 omheinde hondenspeelweiden in de omgeving geven je voldoende keuze voor sociale momenten. De dichtstbijzijnde ligt op 10 minuten wandelen, en met een spreiding over verschillende richtingen kun je ook tijdens drukke momenten uitwijken naar een rustiger alternatief.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De populatiedichtheid van ruim 7.000 inwoners per km² betekent wel dat je viervoeter gewend moet zijn aan drukte. De parken kunnen tijdens mooie dagen druk zijn, en op de trottoirs kom je regelmatig andere honden tegen. Voor sociale honden is dit ideaal; voor schuwere viervoeters vraagt dit wat meer aandacht.",
+        "after": "De populatiedichtheid van ruim 7.000 inwoners per km² betekent wel dat je gewend moet zijn aan drukte. De parken kunnen tijdens mooie dagen druk zijn, en op de trottoirs kom je regelmatig andere honden tegen. Voor sociale honden is dit fijn; voor schuwere viervoeters vraagt dit wat meer aandacht.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T12:00:00Z",
+    "qualityScore": 92,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "20 parken in de buurt (line 49, valueCards - 'in de buurt' allowed as 'nearby')"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 28
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "richting de E40",
+          "Tom & Co op de Martelaarslaan",
+          "Tom & Co op de Dendermondsesteenweg",
+          "richting de waterkant bij de Schelde"
+        ],
+        "neighborhoodObservations": [
+          "mix van kleinschalige parken en groene pleinen",
+          "compact genoeg om alles te voet te doen",
+          "drukte en levendigheid van een stedelijke omgeving"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

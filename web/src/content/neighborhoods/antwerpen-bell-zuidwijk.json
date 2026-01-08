@@ -1,0 +1,448 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T13:35:00Z",
+  "id": "antwerpen-bell-zuidwijk",
+  "city": "Antwerpen",
+  "name": "BELL (ZUIDWIJK)",
+  "postalCode": "2000",
+  "subtitle": "Wonen in Bell (Zuidwijk), Antwerpen: stedelijk met 6 parken op wandelafstand en uitstekend bereikbaar",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 15806,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Levendig",
+      "icon": "fa-solid fa-champagne-glasses"
+    }
+  ],
+  "intro": "Bell (Zuidwijk) is een stedelijke wijk in het zuiden van Antwerpen waar stedelijk gemak en groene ruimte samenkomen. Met het stadscentrum binnen handbereik en een uitgebreid aanbod aan parken combineer je hier alle voordelen van stadsleven met voldoende buitenruimte voor je dagelijkse wandeling. De wijk telt ruim 15.800 inwoners en heeft een compact karakter met korte afstanden naar voorzieningen.\n\nVoor wie hier woont, zijn er 6 parken verspreid over en rondom de wijk. Het dichtstbijzijnde park ligt op slechts 5 minuten wandelen, wat de dagelijkse ochtend- en avondwandelingen praktisch maakt. Voor echte uitlaatbeurten zijn er 2 hondenparken binnen 11 minuten te voet, waaronder het omheinde Hondenpark Desguinlei. Deze mix van gewone parken en specifieke hondenfaciliteiten geeft je flexibiliteit in je routine.\n\nDe bereikbaarheid is een sterk punt: met 33 bushaltes en 1 treinstation in de wijk ben je snel overal. Voor boodschappen heb je de keuze uit 5 supermarkten, en ook de dichtstbijzijnde dierenwinkel Pawlov bereik je te voet in 14 minuten. Voor medische zorg ligt Dierenarts Tony De Vries op 12 minuten wandelen, al is het aantal dierenartsen binnen korte afstand beperkt – iets om rekening mee te houden als je graag meerdere opties dichtbij hebt.\n\nWat Bell vooral typeert is de stedelijke dichtheid: met 8.068 inwoners per vierkante kilometer woon je hier tussen de bedrijvigheid. Dat betekent leven in een levendige omgeving met veel beweging op straat, maar ook met de bijbehorende geluidsoverlast en drukte. Voor wie juist op zoek is naar de energie van het stadsleven is dit een pluspunt. Wie rustige, brede wandelpaden of open velden prefereert, zal merken dat het hier compacter en drukker is.\n\nDe huizenprijzen liggen met een mediaan van €353.000 rond het gemiddelde voor Antwerpen. De wijk deelt de postcode 2000 met meerdere wijken, wat woningzoekportals minder specifiek maakt bij je zoekopdracht. Bell ligt strategisch tussen andere zuidelijke wijken als Gerechtshof en Albertpark, wat je ook extra opties geeft als je de omgeving verkent.\n\nAls stedelijk wonende die waarde hecht aan bereikbaarheid, een ruim aanbod aan parken en voorzieningen binnen loopafstand, is Bell een praktische keuze. Het is geen rustige groene wijk, maar een levendige stadswijk waar je alles dichtbij hebt. Praktisch voor wie Antwerpen graag op wandelafstand wil ervaren, minder geschikt voor wie vooral rust en ruimte zoekt.",
+  "coordinates": {
+    "lat": 51.20335357578994,
+    "lon": 4.3908786764010905,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 hondenparken binnen 11 minuten",
+      "detail": "Waaronder omheind park Desguinlei"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "12 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 dierenartsen in de wijk",
+      "detail": "Dichtstbijzijnde op 12 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "14 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 dierenwinkels beschikbaar",
+      "detail": "Pawlov op 14 min, meerdere opties"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 parken binnen handbereik",
+      "detail": "Konijnenwei op 5 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "Binnen de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 supermarkten in de wijk",
+      "detail": "Dagelijkse boodschappen dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Binnen de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "33 bushaltes + 1 station",
+      "detail": "Uitstekend bereikbaar"
+    }
+  ],
+  "facilities": {
+    "intro": "Bell biedt een goede basis voor wie een hond heeft, met hondenparken, dierenartsen en dierenwinkels allemaal binnen wandelafstand. De wijk heeft een stedelijk karakter met alle voorzieningen compact bij elkaar, wat betekent dat je de meeste dingen te voet kunt regelen. Het aantal dierenartsen binnen 15 minuten is met 1 praktijk wel beperkt, maar er zijn meerdere opties in de omliggende wijken."
+  },
+  "dogParks": {
+    "intro": "Voor wie hier woont zijn er 2 hondenparken binnen korte afstand. Het dichtstbijzijnde ligt op 10 minuten wandelen, en Hondenpark Desguinlei – met een volledige omheining – is slechts een minuut verder. Beide parken liggen buiten de wijk zelf maar zijn goed te bereiken. Daarnaast heb je 6 gewone parken in de wijk, waarvan de dichtstbijzijnde binnen 5 minuten loopt. Voor variatie in je wandelingen heb je dus meer dan genoeg opties.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Desguinlei",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1962547,
+          "lon": 4.3950541
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (nabij Park aan de Stroom)",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2060348,
+          "lon": 4.3801663
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg zijn er 2 dierenartsen bereikbaar vanuit Bell. De dichtstbijzijnde is Dierenarts Tony De Vries op 12 minuten wandelen. Met slechts 1 praktijk binnen 15 minuten is het aanbod wel beperkt voor wie graag meerdere opties nabij wil hebben. Voor spoedgevallen of een second opinion moet je iets verder reizen naar andere wijken of de ringzone.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Tony De Vries",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.204489,
+          "lon": 4.404204
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsencentrum De Merode",
+        "street": "Grotesteenweg",
+        "streetNumber": "78",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1975816,
+          "lon": 4.4171474
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor hondenvoer en speelgoed zijn er 5 dierenwinkels in de wijk van Bell. De dichtstbijzijnde is Pawlov op de Kasteelpleinstraat, op 14 minuten wandelen. Verdere opties zoals De Pauw en pet à porter liggen op 22-23 minuten. Voor snelle aankopen hebben de meeste supermarkten in de wijk ook een basisassortiment, wat praktisch is voor de dagelijkse behoeften.",
+    "stores": [
+    {
+      "icon": "fa-solid fa-bone",
+      "name": "Pawlov",
+      "street": "Kasteelpleinstraat",
+      "streetNumber": "57",
+      "municipality": "Antwerpen",
+      "postalCode": "2000",
+      "distance": "14 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "coordinates": {
+        "lat": 51.2100286,
+        "lon": 4.402138
+      }
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "name": "De Pauw",
+      "street": "Oudevaartplaats",
+      "streetNumber": "55",
+      "municipality": "Antwerpen",
+      "postalCode": "2000",
+      "distance": "22 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "coordinates": {
+        "lat": 51.213601,
+        "lon": 4.4094113
+      }
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "name": "pet à porter",
+      "street": "Unnamed",
+      "streetNumber": "0",
+      "municipality": "Antwerpen",
+      "postalCode": "2000",
+      "distance": "23 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "coordinates": {
+        "lat": 51.2176989,
+        "lon": 4.4038982
+      }
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "name": "KATshop",
+      "street": "Unnamed",
+      "streetNumber": "0",
+      "municipality": "Antwerpen",
+      "postalCode": "2000",
+      "distance": "28 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "coordinates": {
+        "lat": 51.2221272,
+        "lon": 4.4022574
+      }
+    }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Bell (Zuidwijk)",
+    "intro": "Een typische dag in Bell draait om korte afstanden en stedelijke energie. De ochtendwandeling start vaak in een van de nabije parken zoals Konijnenwei of Arthurpark, beiden binnen 10 minuten lopen. Na het uitlaten regel je boodschappen in een van de 5 supermarkten in de wijk, waarna je zonder auto thuis bent. De stedelijke dichtheid betekent wel dat je paden deelt met veel andere voetgangers en verkeer – het is hier geen rustige groene oase.",
+    "benefits": [
+      "Met 6 parken binnen 15 minuten wandelen heb je elke dag keuze uit verschillende routes. Het Konijnenwei ligt op 5 minuten en biedt een snelle groene pauze, terwijl het Arthurpark en Zuidervelodroom wat meer ruimte geven voor langere wandelingen. De variatie helpt om je routine interessant te houden.",
+      "De 2 hondenparken op 10-11 minuten afstand, waaronder het omheinde Hondenpark Desguinlei, maken het mogelijk om je viervoeter vrij te laten rennen en met andere honden te laten spelen. De omheining bij Desguinlei geeft extra veiligheid voor honden die graag loslopen.",
+      "Met 33 bushaltes en 1 treinstation in de wijk is mobiliteit geen probleem. Als je met je hond naar de dierenarts of een verder gelegen park wilt, zijn er voldoende opties. Ook voor uitstapjes naar andere delen van Antwerpen zit je goed.",
+      "De stedelijke setting betekent dat je alle voorzieningen dichtbij hebt: supermarkten, winkels, horeca. Voor wie graag terrasjes doet of een koffie pakt tijdens de wandeling biedt de omgeving veel keuze. De levendigheid van de wijk maakt het tot een sociale omgeving.",
+      "De Konijnenwei en andere kleine parken zijn populair onder lokale baasjes, wat kansen biedt om anderen met honden te ontmoeten. Het compacte karakter van de wijk zorgt ervoor dat je snel bekende gezichten tegenkomt tijdens je dagelijkse ronde.",
+      "Voor spoedaankopen zoals hondenvoer zijn de supermarkten met basisassortiment een uitkomst. Je hoeft niet altijd naar de dierenwinkel voor kleine dingen, wat tijd scheelt in je dagelijkse routine. Voor speciaalzaken ligt Pawlov op 14 minuten."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Bell (Zuidwijk) is met ruim 15.800 inwoners een middelgrote Antwerpse wijk. De bevolkingsdichtheid van 8.068 inwoners per vierkante kilometer maakt het een dichte stedelijke omgeving. De mediaan huizenprijs ligt rond €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 15806,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Bell (Zuidwijk)? De wijk valt onder postcode 2000, die gedeeld wordt met meerdere wijken in Antwerpen. Filter bij je zoekopdracht op wijknaam of gebruik de kadastrale naam 'Bell' om specifiek in dit gebied te zoeken.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-gerechtshof-zuidwijk",
+    "antwerpen-albertpark-oostwijk",
+    "antwerpen-st-andries-spaanse-wallen",
+    "antwerpen-kolonielaan-cam-huysmansl",
+    "antwerpen-beerschot-stadion-kiel"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T13:35:00Z",
+    "qualityScore": 82,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Stedelijk wonen in het zuiden van Antwerpen met 6 parken binnen handbereik en uitstekende bereikbaarheid",
+        "after": "Wonen in Bell (Zuidwijk), Antwerpen: stedelijk met 6 parken op wandelafstand en uitstekend bereikbaar",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Als baasje in Bell vind je 6 parken verspreid over en rondom de wijk.",
+        "after": "Voor wie hier woont, zijn er 6 parken verspreid over en rondom de wijk.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes die juist op zoek zijn naar de energie van het stadsleven is dit een pluspunt.",
+        "after": "Voor wie juist op zoek is naar de energie van het stadsleven is dit een pluspunt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Als stedelijke baasje die waarde hecht aan bereikbaarheid, een ruim aanbod aan parken en voorzieningen binnen loopafstand, is Bell een praktische keuze. Het is geen rustige groene wijk, maar een levendige stadswijk waar je alles dichtbij hebt. Perfect voor wie Antwerpen graag op wandelafstand wil ervaren, minder geschikt voor wie vooral rust en ruimte zoekt voor zijn viervoeter.",
+        "after": "Als stedelijk wonende die waarde hecht aan bereikbaarheid, een ruim aanbod aan parken en voorzieningen binnen loopafstand, is Bell een praktische keuze. Het is geen rustige groene wijk, maar een levendige stadswijk waar je alles dichtbij hebt. Praktisch voor wie Antwerpen graag op wandelafstand wil ervaren, minder geschikt voor wie vooral rust en ruimte zoekt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Bell biedt een goede basis voor baasjes, met hondenparken, dierenartsen en dierenwinkels allemaal binnen wandelafstand.",
+        "after": "Bell biedt een goede basis voor wie een hond heeft, met hondenparken, dierenartsen en dierenwinkels allemaal binnen wandelafstand.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Voor baasjes in Bell zijn er 2 hondenparken binnen korte afstand.",
+        "after": "Voor wie hier woont zijn er 2 hondenparken binnen korte afstand.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Bell (Zuidwijk)",
+        "after": "Dagelijks leven in Bell (Zuidwijk)",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Bell draait om korte afstanden en stedelijke energie.",
+        "after": "Een typische dag in Bell draait om korte afstanden en stedelijke energie.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De Konijnenwei en andere kleine parken zijn populair onder lokale baasjes, wat kansen biedt om anderen met honden te ontmoeten.",
+        "after": "De Konijnenwei en andere kleine parken zijn populair onder lokale hondenbezitters, wat kansen biedt om anderen met honden te ontmoeten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De stedelijke setting betekent dat je alle voorzieningen dichtbij hebt: supermarkten, winkels, horeca. Voor baasjes die graag terrasjes doen of een koffie pakken tijdens de wandeling biedt de omgeving veel keuze.",
+        "after": "De stedelijke setting betekent dat je alle voorzieningen dichtbij hebt: supermarkten, winkels, horeca. Voor wie graag terrasjes doet of een koffie pakt tijdens de wandeling biedt de omgeving veel keuze.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "topicCoverageScore": 18,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T14:15:00Z",
+    "qualityScore": 83,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Bell ligt strategisch tussen andere zuidelijke wijken als Gerechtshof en Albertpark, wat je ook extra opties geeft als je de buurt verkent.",
+        "after": "Bell ligt strategisch tussen andere zuidelijke wijken als Gerechtshof en Albertpark, wat je ook extra opties geeft als je de omgeving verkent.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor hondenvoer en speelgoed zijn er 5 dierenwinkels in de buurt van Bell.",
+        "after": "Voor hondenvoer en speelgoed zijn er 5 dierenwinkels in de wijk van Bell.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[1].description",
+        "before": "2 dierenartsen in de buurt",
+        "after": "2 dierenartsen in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De Konijnenwei en andere kleine parken zijn populair onder lokale hondenbezitters, wat kansen biedt om anderen met honden te ontmoeten.",
+        "after": "De Konijnenwei en andere kleine parken zijn populair onder lokale baasjes, wat kansen biedt om anderen met honden te ontmoeten.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 24,
+      "localAuthenticityScore": 17,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "petStores.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "valueCards[1].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "dailyLife.benefits[4]",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "uitlaten",
+          "hondenspeelweide",
+          "hondenpark",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": []
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 47
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 11,
+        "localTipsFound": [
+          "Konijnenwei op 5 minuten",
+          "Arthurpark binnen 10 minuten",
+          "Hondenpark Desguinlei",
+          "Pawlov op de Kasteelpleinstraat",
+          "Dierenarts Tony De Vries",
+          "tussen Gerechtshof en Albertpark"
+        ],
+        "neighborhoodObservations": [
+          "stedelijke dichtheid met 8.068 inwoners per vierkante kilometer",
+          "compacte wijk met korte afstanden",
+          "levendige omgeving met veel beweging op straat"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.79,
+        "averageSentenceLength": 17.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "limited veterinary options within 15 minutes"
+        ],
+        "gapsHandledGracefully": 1,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

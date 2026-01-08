@@ -1,0 +1,511 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:00:00Z",
+  "id": "antwerpen-cruyslei",
+  "city": "Antwerpen",
+  "name": "CRUYSLEI",
+  "postalCode": "2140",
+  "subtitle": "Wonen in Cruyslei, Antwerpen: compact met goed openbaar vervoer — parken en voorzieningen op 10 min wandelen",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 6970,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Compact",
+      "icon": "fa-solid fa-building"
+    }
+  ],
+  "intro": "Cruyslei is een compacte stadswijk in Antwerpen-Berchem, vlak bij de Singel en de Ring. Met 6970 inwoners op een beperkt oppervlak is dit een druk bewoonde wijk met voornamelijk appartementen en rijtjeshuizen. De ligging is praktisch: 11 bushaltes zorgen voor goede openbare vervoersverbindingen naar het centrum en de stadsrand, en voorzieningen liggen op loopafstand in de omliggende wijken.\n\nDe wijk heeft weinig eigen voorzieningen — geen supermarkten in overvloed, geen dierenarts of dierenwinkel in de wijk zelf. Dat maakt het leven hier meer afhankelijk van de omliggende wijken. Voor je dagelijkse wandeling vind je één park in de wijk, maar de groene ruimte is beperkt. De dichtstbijzijnde hondenspeelweide ligt op 10 minuten wandelen, net buiten de wijk. Dat betekent dat je voor het uitlaten regelmatig de wijk uit moet.\n\nWat Cruyslei wél biedt, is betaalbaarheid ten opzichte van andere stadswwijken in Antwerpen. Met een mediane huisprijs van €353.000 is het toegankelijker dan het centrum, al is de bebouwing dicht op elkaar. De wijk heeft geen historisch karakter of bijzondere architectuur — het is een functionele woonwijk zonder veel franje.\n\nVoor wie een viervoeter heeft betekent dit dat je moet kiezen: compacte stedelijke woonruimte met goede mobiliteit, maar beperkte groene uitlooproutes in de wijk zelf. Als je dagelijks wilt wandelen in een park of hondenspeelweide, moet je bereid zijn om 10 tot 15 minuten te lopen. De dichtstbijzijnde dierenarts ligt in aangrenzende wijken, op 9 minuten te voet. Voor spoedeisende zorg of een regelmatige controle is dat goed te doen, maar het is niet om de hoek.\n\nDe combinatie van hoge bevolkingsdichtheid en weinig groen maakt Cruyslei minder geschikt voor grote honden die veel bewegingsruimte nodig hebben. Voor kleinere honden of wie gewend is om de wijk te verkennen voor wandelingen, kan het functioneren. Je moet de wijk zien als een praktische uitvalsbasis in de stad, niet als een groene wijk. De omliggende wijken zoals Berchembos en Boekenberg bieden wat Cruyslei zelf niet heeft: meer parken, hondenspeelweiden en voorzieningen.",
+  "coordinates": {
+    "lat": 51.199245470714665,
+    "lon": 4.449924275172408,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 hondenspeelweiden in de omgeving",
+      "detail": "Dichtstbijzijnde op 10 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 dierenartsen bereikbaar",
+      "detail": "Eddy Janssens op 9 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co in de wijkomgeving",
+      "detail": "Op 9 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Direct",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "11 bushaltes in de wijk",
+      "detail": "Goed bereikbaar"
+    }
+  ],
+  "facilities": {
+    "intro": "Cruyslei heeft weinig voorzieningen in de wijk zelf — geen dierenarts, geen gespecialiseerde dierenwinkel, en maar één park. Voor de meeste voorzieningen ben je afhankelijk van de omliggende wijken. De dichtstbijzijnde dierenarts en dierenwinkel liggen op 9 minuten wandelen, net buiten de wijk. Voor hondenparken wandel je 10 tot 15 minuten richting Berchem of Boekenberg."
+  },
+  "dogParks": {
+    "intro": "In Cruyslei zelf vind je geen officiële hondenspeelweide. De dichtstbijzijnde ligt op 10 minuten wandelen, net over de wijkgrens. Er zijn 5 hondenparken in de bredere omgeving, waarvan enkele omheind. Met maar één park in de wijk is de groene ruimte beperkt voor de dagelijkse wandeling. Je bent vaak aangewezen op de omliggende wijken zoals Berchembos of Boekenberg voor uitgebreidere uitlooproutes.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide bij de Singel",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2057609,
+          "lon": 4.4443902
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde hondenweide Berchem",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2011308,
+          "lon": 4.4382762
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Borsbeek",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1941136,
+          "lon": 4.4335803
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde weide Mortsel",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1882027,
+          "lon": 4.4429007
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Eddy Janssens aan de Generaal Eisenhowerlei, op 9 minuten wandelen. Valérie Monster en AniCura liggen op respectievelijk 11 en 14 minuten. Voor spoedeisende zorg of controles ben je dus afhankelijk van de omliggende wijken, maar de afstanden zijn goed te doen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Eddy Janssens",
+        "street": "Generaal Eisenhowerlei",
+        "streetNumber": "291",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1930795,
+          "lon": 4.4461398
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Valérie Monster",
+        "street": "Eduard van Steenbergenlaan",
+        "streetNumber": "16",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1957937,
+          "lon": 4.461436
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AniCura",
+        "street": "Borsbeeksebrug",
+        "streetNumber": "34",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1999622,
+          "lon": 4.4337817
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr A.m. Laevers",
+        "street": "Deurnestraat",
+        "streetNumber": "211",
+        "municipality": "Mortsel",
+        "postalCode": "2640",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1828857,
+          "lon": 4.4479438
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk, maar Tom & Co aan de Diksmuidelaan is op 9 minuten te voet. Voor een basisassortiment zijn er supermarkten in de wijkomgeving, hoewel het aanbod beperkt is vergeleken met grotere winkels. Voor uitgebreid dierenvoer of speciaal speelgoed moet je naar Tom & Co of verder richting andere wijken.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Diksmuidelaan",
+        "streetNumber": "79-83",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1985998,
+          "lon": 4.4397835
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Petpret",
+        "street": "Prins Boudewijnlaan",
+        "streetNumber": "120",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "39 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1763914,
+          "lon": 4.4243879
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Pauw",
+        "street": "Oudevaartplaats",
+        "streetNumber": "55",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "41 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.213601,
+          "lon": 4.4094113
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Ter Heydelaan",
+        "streetNumber": "235",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "44 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2283151,
+          "lon": 4.4684619
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Cruyslei",
+    "intro": "Een typische dag in Cruyslei draait om korte wandelingen in de wijk en regelmatige uitstapjes naar de omliggende wijken. Met één park in de wijk zelf en beperkte groene ruimte ben je voor variatie afhankelijk van Berchembos of Boekenberg. De hoge bebouwingsdichtheid betekent dat je vaak langs straten en pleintjes wandelt, minder door uitgestrekte parken.",
+    "benefits": [
+      "Met 11 bushaltes in de wijk ben je goed bereikbaar, wat handig is voor uitstapjes naar de dierenarts of verder weg gelegen parken. De verbindingen richting centrum en Ring zijn frequent.",
+      "De dichtstbijzijnde hondenspeelweide ligt op 10 minuten wandelen, net buiten de wijk. Daar kun je je viervoeter los laten rennen en andere baasjes ontmoeten. Voor een omheinde weide wandel je 11 minuten.",
+      "Tom & Co op 9 minuten afstand biedt een ruim assortiment aan dierenvoer en speelgoed. Voor noodgevallen ligt de dichtstbijzijnde dierenarts op dezelfde afstand, wat gemakkelijk te voet te doen is.",
+      "De compacte inrichting van de wijk betekent dat je binnen 10 minuten de meeste plekken kunt bereiken. Voor wie een drukke agenda heeft is dat praktisch, al is de trade-off dat je minder ruimte hebt voor lange wandelingen in de wijk zelf.",
+      "De omliggende wijken zoals Berchembos en Boekenberg liggen dichtbij en bieden meer parken en groene routes. Voor een uitgebreidere wandeling ben je snel in een meer groene omgeving."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere baasjes de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Cruyslei is een dichtbevolkte stadswijk met 6970 inwoners op een compact oppervlak. De mediane huisprijs van €353.000 maakt het toegankelijker dan het centrum, maar de ruimte is beperkt.",
+    "medianPrice": 353000,
+    "inhabitants": 6970,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Cruyslei? De wijk heeft postcode 2140, wat het filteren van zoekopdrachten vergemakkelijkt. Let wel op: het aanbod bestaat voornamelijk uit appartementen en rijtjeshuizen, met weinig groene buitenruimte.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-berchembos",
+    "antwerpen-boelaerpark-noord",
+    "antwerpen-boekenberg",
+    "antwerpen-oostkwartier",
+    "antwerpen-t-mestputteke"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T13:00:00Z",
+    "qualityScore": 78,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Compacte stadswijk met goed openbaar vervoer — voorzieningen voor je hond op korte loopafstand",
+        "after": "Wonen in Cruyslei, Antwerpen: compact met goed openbaar vervoer — parken en voorzieningen op 10 min wandelen",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Cruyslei is een compacte stadswijk in Antwerpen-Berchem, vlak bij de Singel en de Ring. Met 6970 inwoners op een beperkt oppervlak is dit een druk bewoonde wijk met voornamelijk appartementen en rijtjeshuizen. De ligging is praktisch: 11 bushaltes zorgen voor goede openbare vervoersverbindingen, en je bent snel in het centrum of richting de rand van de stad.\n\nDe wijk heeft weinig eigen voorzieningen — geen supermarkten in overvloed, geen dierenarts of dierenwinkel in de wijk zelf. Dat maakt het leven hier meer afhankelijk van de omliggende buurten. Voor je dagelijkse wandeling met je viervoeter vind je één park in de wijk, maar de groene ruimte is beperkt. De dichtstbijzijnde hondenspeelweide ligt op 10 minuten wandelen, net buiten de wijk. Dat betekent dat je voor het uitlaten van je hond regelmatig de wijk uit moet.\n\nWat Cruyslei wél biedt, is betaalbaarheid ten opzichte van andere stadsbuurten in Antwerpen. Met een mediane huisprijs van €353.000 is het toegankelijker dan het centrum, al is de bebouwing dicht op elkaar. De wijk heeft geen historisch karakter of bijzondere architectuur — het is een functionele woonbuurt zonder veel franje.\n\nVoor baasjes betekent dit dat je moet kiezen: compacte stedelijke woonruimte met goede mobiliteit, maar beperkte groene uitlooproutes en voorzieningen. Als je je hond dagelijks uit wilt laten in een park of hondenspeelweide, moet je bereid zijn om 10 tot 15 minuten te wandelen. De dichtstbijzijnde dierenarts ligt in aangrenzende wijken, op 9 minuten lopen. Voor spoedeisende zorg of een regelmatige controle is dat goed te doen, maar het is niet om de hoek.\n\nDe combinatie van hoge bevolkingsdichtheid en weinig groen maakt Cruyslei minder geschikt voor grote honden die veel bewegingsruimte nodig hebben. Voor kleinere honden of baasjes die gewend zijn om de wijk te verkennen voor hun wandelingen, kan het functioneren. Je moet de wijk zien als een praktische uitvalsbasis in de stad, niet als een groene of hondenspecifieke buurt. De omliggende wijken zoals Berchembos en Boekenberg bieden wat Cruyslei zelf niet heeft: meer parken, hondenspeelweiden en voorzieningen.",
+        "after": "Cruyslei is een compacte stadswijk in Antwerpen-Berchem, vlak bij de Singel en de Ring. Met 6970 inwoners op een beperkt oppervlak is dit een druk bewoonde wijk met voornamelijk appartementen en rijtjeshuizen. De ligging is praktisch: 11 bushaltes zorgen voor goede openbare vervoersverbindingen naar het centrum en de stadsrand, en voorzieningen liggen op loopafstand in de omliggende buurten.\n\nDe wijk heeft weinig eigen voorzieningen — geen supermarkten in overvloed, geen dierenarts of dierenwinkel in de wijk zelf. Dat maakt het leven hier meer afhankelijk van de omliggende buurten. Voor je dagelijkse wandeling vind je één park in de wijk, maar de groene ruimte is beperkt. De dichtstbijzijnde hondenspeelweide ligt op 10 minuten wandelen, net buiten de wijk. Dat betekent dat je voor het uitlaten regelmatig de wijk uit moet.\n\nWat Cruyslei wél biedt, is betaalbaarheid ten opzichte van andere stadsbuurten in Antwerpen. Met een mediane huisprijs van €353.000 is het toegankelijker dan het centrum, al is de bebouwing dicht op elkaar. De wijk heeft geen historisch karakter of bijzondere architectuur — het is een functionele woonbuurt zonder veel franje.\n\nVoor wie een viervoeter heeft betekent dit dat je moet kiezen: compacte stedelijke woonruimte met goede mobiliteit, maar beperkte groene uitlooproutes in de wijk zelf. Als je dagelijks wilt wandelen in een park of hondenspeelweide, moet je bereid zijn om 10 tot 15 minuten te lopen. De dichtstbijzijnde dierenarts ligt in aangrenzende wijken, op 9 minuten te voet. Voor spoedeisende zorg of een regelmatige controle is dat goed te doen, maar het is niet om de hoek.\n\nDe combinatie van hoge bevolkingsdichtheid en weinig groen maakt Cruyslei minder geschikt voor grote honden die veel bewegingsruimte nodig hebben. Voor kleinere honden of wie gewend is om de wijk te verkennen voor wandelingen, kan het functioneren. Je moet de wijk zien als een praktische uitvalsbasis in de stad, niet als een groene buurt. De omliggende wijken zoals Berchembos en Boekenberg bieden wat Cruyslei zelf niet heeft: meer parken, hondenspeelweiden en voorzieningen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De ligging is praktisch: 11 bushaltes zorgen voor goede openbare vervoersverbindingen, en je bent snel in het centrum of richting de rand van de stad.",
+        "after": "De ligging is praktisch: 11 bushaltes zorgen voor goede openbare vervoersverbindingen naar het centrum en de stadsrand, en voorzieningen liggen op loopafstand in de omliggende buurten.",
+        "reason": "intro_structure"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Cruyslei heeft weinig voorzieningen in de wijk zelf. Geen dierenarts, geen gespecialiseerde dierenwinkel, en maar één park. Voor de meeste voorzieningen voor je hond ben je afhankelijk van de omliggende buurten. De dichtstbijzijnde dierenarts en dierenwinkel liggen op 9 minuten wandelen, net buiten de wijk. Voor hondenparken moet je 10 tot 15 minuten lopen.",
+        "after": "Cruyslei heeft weinig voorzieningen in de wijk zelf — geen dierenarts, geen gespecialiseerde dierenwinkel, en maar één park. Voor de meeste voorzieningen ben je afhankelijk van de omliggende buurten. De dichtstbijzijnde dierenarts en dierenwinkel liggen op 9 minuten wandelen, net buiten de wijk. Voor hondenparken wandel je 10 tot 15 minuten richting Berchem of Boekenberg.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Cruyslei",
+        "after": "Dagelijks leven in Cruyslei",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Cruyslei draait om korte wandelingen in de wijk en regelmatige uitstapjes naar de omliggende buurten. Met één park in de wijk zelf en beperkte groene ruimte ben je voor variatie afhankelijk van Berchembos of Boekenberg. De hoge bebouwingsdichtheid betekent dat je vaak langs straten en pleintjes wandelt, minder door uitgestrekte parken.",
+        "after": "Een typische dag in Cruyslei draait om korte wandelingen in de wijk en regelmatige uitstapjes naar de omliggende buurten. Met één park in de wijk zelf en beperkte groene ruimte ben je voor variatie afhankelijk van Berchembos of Boekenberg. De hoge bebouwingsdichtheid betekent dat je vaak langs straten en pleintjes wandelt, minder door uitgestrekte parken.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 11 bushaltes in de wijk ben je goed bereikbaar, wat handig is als je met je hond naar de dierenarts of verder weg gelegen parken wilt. De verbindingen richting centrum en Ring zijn frequent.",
+        "after": "Met 11 bushaltes in de wijk ben je goed bereikbaar, wat handig is voor uitstapjes naar de dierenarts of verder weg gelegen parken. De verbindingen richting centrum en Ring zijn frequent.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De dichtstbijzijnde hondenspeelweide ligt op 10 minuten wandelen, net buiten de wijk. Daar kun je je hond los laten rennen en andere baasjes ontmoeten. Voor een omheinde weide wandel je 11 minuten.",
+        "after": "De dichtstbijzijnde hondenspeelweide ligt op 10 minuten wandelen, net buiten de wijk. Daar kun je je viervoeter los laten rennen en andere mensen ontmoeten. Voor een omheinde weide wandel je 11 minuten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De compacte inrichting van de wijk betekent dat je binnen 10 minuten de meeste plekken kunt bereiken. Voor baasjes met een drukke agenda is dat praktisch, al is de trade-off dat je minder ruimte hebt voor lange wandelingen in de wijk zelf.",
+        "after": "De compacte inrichting van de wijk betekent dat je binnen 10 minuten de meeste plekken kunt bereiken. Voor wie een drukke agenda heeft is dat praktisch, al is de trade-off dat je minder ruimte hebt voor lange wandelingen in de wijk zelf.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "topicCoverageScore": 15,
+      "sectionIntrosScore": 8,
+      "decisionUsefulnessScore": 14,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T14:00:00Z",
+    "qualityScore": 84,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Dat maakt het leven hier meer afhankelijk van de omliggende buurten.",
+        "after": "Dat maakt het leven hier meer afhankelijk van de omliggende wijken.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "andere stadsbuurten",
+        "after": "andere stadswijken",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "functionele woonbuurt",
+        "after": "functionele woonwijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "vets.intro",
+        "before": "afhankelijk van de omliggende buurten",
+        "after": "afhankelijk van de omliggende wijken",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "supermarkten in de buurt",
+        "after": "supermarkten in de wijkomgeving",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[2].description",
+        "before": "Tom & Co in de buurt",
+        "after": "Tom & Co in de wijkomgeving",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "andere baasjes ontmoeten",
+        "after": "andere baasjes ontmoeten",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "help andere mensen de juiste buurt te vinden",
+        "after": "help andere baasjes de juiste wijk te vinden",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 6
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "vets.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "petStores.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "valueCards[2].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+          ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "uitlaten",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt te vinden (contributionCTA)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 8,
+        "localTipsFound": [
+          "richting Berchem of Boekenberg",
+          "vlak bij de Singel en de Ring",
+          "aan de Generaal Eisenhowerlei",
+          "aan de Diksmuidelaan"
+        ],
+        "neighborhoodObservations": [
+          "De wijk heeft geen historisch karakter of bijzondere architectuur",
+          "De hoge bebouwingsdichtheid betekent dat je vaak langs straten en pleintjes wandelt",
+          "De omliggende wijken zoals Berchembos en Boekenberg bieden wat Cruyslei zelf niet heeft"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.71,
+        "averageSentenceLength": 15.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "geen dierenarts in de wijk",
+          "geen dierenwinkel in de wijk",
+          "geen hondenspeelweide in de wijk"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T00:00:00Z",
+  "id": "antwerpen-berendrecht-kern-berendrecht-4-district",
+  "city": "Antwerpen",
+  "name": "BERENDRECHT - KERN (BERENDRECHT - 4 DISTRICT)",
+  "postalCode": "2040",
+  "subtitle": "Berendrecht: dorps karakter aan de rand van Antwerpen met groen op wandelafstand — ruimte voor je routine",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 6192,
+  "labels": [
+    {
+      "text": "Dorps karakter",
+      "icon": "fa-solid fa-house"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "Berendrecht - Kern is een kleine woonkern aan de noordrand van Antwerpen. Met 6.192 inwoners en een bevolkingsdichtheid van slechts 604 inwoners per km² woon je hier tussen dorps karakter en stedelijke nabijheid. De wijk combineert rust met voldoende groen voor je dagelijkse wandeling.\n\nBerendrecht biedt een goede basis voor het dagelijks leven. Er zijn 3 hondenparken op wandelafstand, waarvan de dichtstbijzijnde op 9 minuten loopt. Het Kruisdijkpark en Hagelberg liggen vlakbij en bieden ruimte voor uitgebreide wandelingen. De dierenarts vind je direct in de wijk: Dierenarts Van Tilborg ligt op slechts 6 minuten. Voor speciale voorzieningen zoals een dierenwinkel moet je iets verder — Tom & Co in Stabroek is de dichtstbijzijnde optie, maar wel op 45 minuten wandelen.\n\nDe wijk heeft een rustgevend, bijna landelijk karakter. Met 23 bushaltes is het openbaar vervoer redelijk ontwikkeld, maar een auto is hier praktisch voor boodschappen en langere afstanden. De mediane huizenprijs ligt rond €353.000 — vergelijkbaar met het Antwerpse gemiddelde maar met meer ruimte en rust.\n\nBerendrecht is geschikt voor wie zoekt naar een rustige, groene omgeving met volop ruimte, zonder al te veel stedelijke drukte. De wijk biedt een dorpsgevoel met parkeergemak en ademruimte. Het nadeel is de beperkte winkelaanbod: voor dagelijkse boodschappen is er 1 supermarkt, voor meer variatie rijd je naar naburige kernen. Ook wie elke week naar een gespecialiseerde dierenwinkel gaat, zal hier wat meer moeten plannen.\n\nDe 3 hondenparken zijn een mooie troef, al zijn ze niet omheind — wat betekent dat ze vooral geschikt zijn als je hond goed luistert. Voor wie een combinatie zoekt van rust, natuur en voldoende wandelruimte, is Berendrecht een interessante optie. Wie de drukte van de stad waardeert of afhankelijk is van veel voorzieningen op loopafstand, zal de afstand naar grotere centra soms voelen.",
+  "coordinates": {
+    "lat": 51.345000918357066,
+    "lon": 4.31672124441362,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 hondenparken in de wijk",
+      "detail": "Dichtstbijzijnde op 9 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 dierenartsen dichtbij",
+      "detail": "Dierenarts Van Tilborg op 6 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 parken voor wandelingen",
+      "detail": "Kruisdijkpark en Hagelberg"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "45 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co in Stabroek",
+      "detail": "Voor speciale benodigdheden"
+    }
+  ],
+  "facilities": {
+    "intro": "Berendrecht biedt een solide basis voor het dagelijks leven met je hond. Met 3 hondenparken op korte afstand en parken voor uitgebreide wandelingen heb je volop ruimte. Medische zorg is dichtbij met een dierenarts op 6 minuten, maar voor gespecialiseerde dierenwinkels rijd je naar naburige kernen."
+  },
+  "dogParks": {
+    "intro": "De wijk telt 3 hondenparken binnen 12 minuten wandelen. Hoewel geen van deze plekken omheind is, bieden ze wel ruimte voor socialiserend spel. Het dichtstbijzijnde hondenpark ligt op 9 minuten van het centrum en is een populaire plek onder lokale baasjes.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Kruisdijkpark-gebied",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.3428752,
+          "lon": 4.3262083
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Hagelberg-gebied",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.3450715,
+          "lon": 4.3275244
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark noordelijk",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.3464094,
+          "lon": 4.3304116
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg zit je hier goed. Dierenarts Van Tilborg in de Schouwvegerstraat is op slechts 6 minuten wandelen. Daarnaast is Dierenarts Xantha Dillen op 16 minuten een tweede optie, handig bij urgentie of een tweede mening.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Van Tilborg",
+        "street": "Schouwvegerstraat",
+        "streetNumber": "23",
+        "municipality": "Antwerpen",
+        "postalCode": "2040",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.3407513,
+          "lon": 4.3196066
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Xantha Dillen",
+        "street": "Steenovenstraat",
+        "streetNumber": "35",
+        "municipality": "Antwerpen",
+        "postalCode": "2040",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.3530302,
+          "lon": 4.3297479
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet direct in de wijk. Tom & Co in Stabroek ligt op 45 minuten wandelen — praktischer met de auto. Voor basisbenodigdheden heeft de lokale supermarkt vaak een klein assortiment, maar voor gespecialiseerd voer of speelgoed plan je een ritje in.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Berendrecht - Kern",
+    "intro": "Een typische dag in Berendrecht begint met rust. De ochtendwandeling doe je door groene straten met weinig verkeer, richting een van de 3 hondenparken of het Kruisdijkpark. De wijk is overzichtelijk, je ontmoet regelmatig dezelfde mensen. Voor medische zorg hoef je niet ver — de dierenarts is binnen 6 minuten bereikbaar.",
+    "benefits": [
+      "Met 3 hondenparken binnen 12 minuten wandelen en parken zoals Kruisdijkpark en Hagelberg heb je voldoende ruimte voor afwisselende wandelroutes. De wijk is groen en overzichtelijk, ideaal voor dagelijkse routines.",
+      "De lage bevolkingsdichtheid van 604 inwoners per km² betekent rustiger wandelen met minder drukte op straat en in de parken. Meer vrijheid en ruimte dan in drukke stadsdelen.",
+      "Dierenarts Van Tilborg ligt op slechts 6 minuten wandelen — handig voor reguliere controles of als je viervoeter plots ziek wordt. Je bent snel ter plaatse zonder auto nodig te hebben.",
+      "Het dorpse karakter zorgt voor een hechte gemeenschap. Je leert andere mensen snel kennen en er ontstaat een vertrouwd gevoel in de wijk, fijn voor sociale uitwisselingen tijdens wandelingen.",
+      "Met 23 bushaltes is openbaar vervoer beschikbaar, maar voor grotere boodschappen of de dierenwinkel is een auto praktischer. De combinatie van rust en bereikbaarheid maakt het een prettige leefomgeving voor wie graag buiten de drukte woont."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Berendrecht - Kern is een kleine woonkern met 6.192 inwoners. De bevolkingsdichtheid van 604 per km² is relatief laag, wat zorgt voor ruimte en rust. De mediane huizenprijs ligt rond €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 6192,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Berendrecht - Kern? Filter op postcode 2040 om aanbod in de wijk te vinden. Let op: deze postcode wordt gedeeld met andere gebieden in Antwerpen.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-stabroek",
+    "antwerpen-grote-ruigeheidezandvl-5dis",
+    "antwerpen-district-lillo-tunnel-zuid",
+    "antwerpen-schelde-noord",
+    "antwerpen-albertdok"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T00:00:00Z",
+    "qualityScore": 88,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig dorps karakter aan de rand van Antwerpen met groen op wandelafstand — ruimte genoeg voor je dagelijkse routine",
+        "after": "Berendrecht: dorps karakter aan de rand van Antwerpen met groen op wandelafstand — ruimte voor je routine",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt Berendrecht een goede basis.",
+        "after": "Berendrecht biedt een goede basis voor het dagelijks leven.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Berendrecht is geschikt voor wie zoekt naar een rustige, groene omgeving waar je hond volop ruimte heeft, zonder al te veel stedelijke drukte.",
+        "after": "Berendrecht is geschikt voor wie zoekt naar een rustige, groene omgeving met volop ruimte, zonder al te veel stedelijke drukte.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Ook hondenliefhebbers die elke week naar een gespecialiseerde dierenwinkel gaan, zullen hier wat meer moeten plannen.",
+        "after": "Ook wie elke week naar een gespecialiseerde dierenwinkel gaat, zal hier wat meer moeten plannen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De 3 hondenparken zijn een mooie troef, al zijn ze niet omheind — wat betekent dat je vooral geschikt bent als je hond goed luistert.",
+        "after": "De 3 hondenparken zijn een mooie troef, al zijn ze niet omheind — wat betekent dat ze vooral geschikt zijn als je hond goed luistert.",
+        "reason": "readability"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Berendrecht begint met rust.",
+        "after": "Een typische dag in Berendrecht begint met rust.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "De wijk is overzichtelijk, je ontmoet regelmatig dezelfde baasjes.",
+        "after": "De wijk is overzichtelijk, je ontmoet regelmatig dezelfde mensen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De lage bevolkingsdichtheid van 604 inwoners per km² betekent rustiger wandelen met minder drukte op straat en in de parken. Je hond heeft hier meer vrijheid en ruimte dan in drukke stadsdelen.",
+        "after": "De lage bevolkingsdichtheid van 604 inwoners per km² betekent rustiger wandelen met minder drukte op straat en in de parken. Meer vrijheid en ruimte dan in drukke stadsdelen.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 25,
+      "keywordScore": 17,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 17,
+      "decisionUsefulnessScore": 15
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T00:30:00Z",
+    "qualityScore": 87,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "valueCards[0].description",
+        "before": "3 hondenparken in de buurt",
+        "after": "3 hondenparken in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Het dorpse karakter zorgt voor een hechte gemeenschap. Je leert andere mensen snel kennen en er ontstaat een vertrouwd buurtgevoel, fijn voor sociale uitwisselingen tijdens wandelingen.",
+        "after": "Het dorpse karakter zorgt voor een hechte gemeenschap. Je leert andere mensen snel kennen en er ontstaat een vertrouwd gevoel in de wijk, fijn voor sociale uitwisselingen tijdens wandelingen.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 6
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "valueCards[0].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurtgevoel",
+            "field": "dailyLife.benefits[3]",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "hondenparken",
+          "dierenarts",
+          "wandeling"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (meaning nearby - not standalone 'buurt')"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 6,
+        "localTipsFound": [
+          "richting een van de 3 hondenparken of het Kruisdijkpark",
+          "Dierenarts Van Tilborg in de Schouwvegerstraat",
+          "Tom & Co in Stabroek"
+        ],
+        "neighborhoodObservations": [
+          "rustgevend, bijna landelijk karakter",
+          "dorpsgevoel met parkeergemak en ademruimte",
+          "overzichtelijk, je ontmoet regelmatig dezelfde mensen"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 1,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

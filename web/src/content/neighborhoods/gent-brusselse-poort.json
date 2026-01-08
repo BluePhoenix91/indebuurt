@@ -1,0 +1,380 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T15:35:00Z",
+  "id": "gent-brusselse-poort",
+  "city": "Gent",
+  "name": "Brusselse Poort",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Brusselse Poort, Gent: stedelijk en groen tegelijk, met parken op wandelafstand",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 10135,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Groen nabij",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Dichtbevolkt",
+      "icon": "fa-solid fa-people-roof"
+    }
+  ],
+  "intro": "Brusselse Poort is een levendige stadswijk ten noordoosten van het centrum van Gent. Met ruim 10.000 inwoners op iets meer dan een vierkante kilometer woon je hier dicht op elkaar, maar de nabijheid van het Koning Albertpark en zes andere parken binnen wandelafstand compenseert dat. Voor wie van stedelijk gemak houdt maar niet zonder groene ruimte kan, biedt deze wijk een interessante balans.\n\nDe wijk heeft een duidelijk urbaan karakter met 43 bushaltes verspreid over het gebied. Je bent binnen 10 tot 15 minuten met het openbaar vervoer in het stadscentrum of bij het treinstation. Die bereikbaarheid maakt Brusselse Poort praktisch voor dagelijkse verplaatsingen en betekent ook dat voorzieningen als supermarkten, apothekers en de dierenarts goed toegankelijk zijn te voet of met de bus.\n\nDe uitdaging zit vooral in het vinden van omheinde speelruimte. De wijk heeft geen eigen hondenspeelweide, en de dichtstbijzijnde ligt op 17 minuten lopen. Wel heb je met zeven parken in de buurt genoeg variatie voor de dagelijkse wandeling. Koning Albertpark ligt letterlijk om de hoek (2 minuten), Muinkpark is op 5 minuten wandelen en Visserijpark op 6 minuten. Dat betekent dat je voor een rustige ochtend- of avondwandeling nooit ver hoeft te gaan.\n\nOp het vlak van veterinaire zorg zit je hier uitstekend. De praktijk van J. Van den Daele ligt aan het Graaf van Vlaanderenplein, op slechts 2 minuten wandelen. Voor wie zich prettiger voelt bij meerdere opties: De Viervoeter is op 9 minuten te voet bereikbaar. Als je hond plots ziek wordt, hoef je dus niet ver te zoeken.\n\nVoor hondenvoer en benodigdheden is de situatie wat minder ideaal. De dichtstbijzijnde gespecialiseerde dierenwinkel is Tom & Co op de Dendermondsesteenweg, op 13 minuten wandelen. De twee supermarkten in de wijk hebben weliswaar een basisassortiment, maar voor specifieke producten of advies ben je aangewezen op die iets langere wandeling.\n\nDe hoge bevolkingsdichtheid — ruim 8.000 inwoners per vierkante kilometer — brengt zowel voor- als nadelen met zich mee. Enerzijds betekent het meer drukte op straat en in de parken, vooral tijdens de spits. Anderzijds zorgt die dichtheid ook voor meer buurtleven en ontmoetingsmogelijkheden. Als je hond goed is gesocialiseerd en geen problemen heeft met andere honden, dan is dat prima. Voor angstige honden of wie rust zoekt, vraagt het wel wat meer planning om rustige momenten en plekken te vinden.\n\nMet een mediane huisprijs van €353.000 ligt Brusselse Poort in het middensegment voor Gent. Voor stedelijk wonen met parken op loopafstand en goede toegang tot voorzieningen is dat een redelijke prijs. De wijk trekt vooral mensen die dicht bij het centrum willen wonen maar wel groene ruimte waarderen, en voor wie openbaar vervoer belangrijker is dan een auto.\n\nDeze wijk is geschikt voor wie stedelijke dynamiek omarmt en geen moeite heeft met drukke omgevingen. Als je waarde hecht aan een omheinde hondenspeelweide waar je viervoeter los kan lopen, dan moet je bereid zijn om 15-20 minuten te lopen naar de dichtstbijzijnde opties. Voor wie vooral behoefte heeft aan variatie in wandelroutes en snelle toegang tot parken, is dit een fijne wijk.",
+  "coordinates": {
+    "lat": 51.04518132436357,
+    "lon": 3.7337055989946806,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "7 parken binnen 15 minuten wandelen",
+      "detail": "Koning Albertpark om de hoek"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 dierenartspraktijken dichtbij",
+      "detail": "J. Van den Daele op 2 minuten"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "13 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 dierenwinkels in de omgeving",
+      "detail": "Tom & Co op 13 minuten"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen in de wijk zelf",
+      "detail": "Dichtstbijzijnde op 17 min"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "43 bushaltes in de wijk",
+      "detail": "Uitstekende dekking"
+    }
+  ],
+  "facilities": {
+    "intro": "Brusselse Poort biedt een goede basis voor wie met een hond woont. Met twee dierenartsen binnen 10 minuten wandelen zit je op het vlak van gezondheidszorg uitstekend. Zeven parken binnen een kwartier lopen zorgen voor voldoende afwisseling in wandelroutes. Het ontbreekt de wijk aan een eigen hondenspeelweide, maar voor de dagelijkse uitlaat en groene pauzes heb je genoeg keuze."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in Brusselse Poort zelf. De dichtstbijzijnde omheinde speelweide ligt op 17 minuten wandelen, in het noordelijk deel van Gent. Voor wie graag zijn viervoeter los wil laten lopen, vraagt dat wel wat extra inspanning. De zeven parken in en rond de wijk bieden wel volop ruimte voor aangelijnd wandelen en zijn ideaal voor wie vooral op zoek is naar variatie en groene paden.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0544861,
+          "lon": 3.7463636
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg ben je in Brusselse Poort goed voorzien. De praktijk van J. Van den Daele ligt op het Graaf van Vlaanderenplein, op amper 2 minuten wandelen vanaf het centrum van de wijk. Heb je graag een alternatief? Dan is De Viervoeter op 9 minuten lopen een tweede optie.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "J. Van den Daele",
+        "street": "Graaf van Vlaanderenplein",
+        "streetNumber": "30",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "2 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0468627,
+          "lon": 3.7328363
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Viervoeter",
+        "street": "Frans Spaestraat",
+        "streetNumber": "27",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0388816,
+          "lon": 3.73474
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet direct in de wijk. De dichtstbijzijnde is Tom & Co op de Dendermondsesteenweg, op 13 minuten wandelen. Voor wie dat te ver is: de meeste supermarkten in de wijk hebben een basisassortiment voor dagelijkse benodigdheden.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Brusselse Poort",
+    "intro": "Een typische dag in Brusselse Poort begint met een ochtendwandeling naar Koning Albertpark, twee minuten van huis. De wijk is compact en stedelijk, dus je loopt snel naar groene ruimte. Met zeven parken binnen een kwartier heb je elke dag een andere route, van het rustige Muinkpark tot het iets ruimere Visserijpark. Door de vele bushaltes ben je flexibel in je verplaatsingen, wat handig is als je verder weg wil wandelen of boodschappen moet doen.",
+    "benefits": [
+      "Met Koning Albertpark op 2 minuten lopen en Muinkpark op 5 minuten heb je altijd snel toegang tot groen. Ideaal voor een korte pauze tussen thuiswerk of 's ochtends vroeg als je nog niet helemaal wakker bent.",
+      "De twee dierenartsen binnen 10 minuten wandelafstand geven een geruststellend gevoel bij acute situaties. Dat scheelt stress wanneer je snel hulp nodig hebt.",
+      "De 43 bushaltes verspreid over de wijk maken dat je zelden langer dan 5 minuten hoeft te lopen naar een halte. Handig voor wie regelmatig naar het werk pendelt of grotere boodschappen doet, zonder auto.",
+      "Met zeven verschillende parken in de directe omgeving houd je de wandelingen afwisselend. Acht Mei Plein voor een snelle ronde, Visserijpark voor iets meer ruimte, Muinkpark voor schaduwrijke paden — je kiest naar gelang het weer en je tijd.",
+      "De stedelijke drukte brengt ook sociale contacten met zich mee. In de parken loop je regelmatig andere wandelaars tegen het lijf, wat leuk is voor zowel socialisatie als gezelligheid. Wie graag netwerkt of sociale wandelingen waardeert, vindt hier snel aansluiting."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Brusselse Poort is met 10.135 inwoners een middelgrote wijk in Gent, met een hoge bevolkingsdichtheid van ruim 8.000 inwoners per vierkante kilometer.",
+    "medianPrice": 353000,
+    "inhabitants": 10135,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Brusselse Poort? De wijk deelt postcode 9000 met het centrum en andere delen van Gent. Filter op 'Brusselse Poort' of de specifieke straatnaam om gericht te zoeken.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-heernis",
+    "gent-citadelpark",
+    "gent-belle-vue",
+    "gent-de-naeyerdreef",
+    "gent-begijnhofdries"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T15:30:00Z",
+    "qualityScore": 95,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in Brusselse Poort: stedelijk en groen tegelijk, met parken om de hoek en uitstekende busverbindingen",
+        "after": "Wonen in Brusselse Poort, Gent: stedelijk en groen tegelijk, met parken op wandelafstand",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes die van stedelijk gemak houden maar niet zonder groene ruimte kunnen",
+        "after": "Voor wie van stedelijk gemak houdt maar niet zonder groene ruimte kan",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor je viervoeter zit de uitdaging vooral in het vinden van omheinde speelruimte.",
+        "after": "De uitdaging zit vooral in het vinden van omheinde speelruimte.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor angstige honden of baasjes die rust zoeken",
+        "after": "Voor angstige honden of wie rust zoekt",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Brusselse Poort is geschikt voor baasjes die stedelijke dynamiek omarmen",
+        "after": "Deze wijk is geschikt voor wie stedelijke dynamiek omarmt",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Brusselse Poort biedt een goede basis voor baasjes.",
+        "after": "Brusselse Poort biedt een goede basis voor wie met een hond woont.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor wie dat te ver is: de meeste supermarkten in de wijk hebben een basisassortiment voor je hond, handig voor het dagelijkse brokjes-rantsoen.",
+        "after": "Voor wie dat te ver is: de meeste supermarkten in de wijk hebben een basisassortiment voor dagelijkse benodigdheden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Brusselse Poort",
+        "after": "Dagelijks leven in Brusselse Poort",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Brusselse Poort begint",
+        "after": "Een typische dag in Brusselse Poort begint",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De twee dierenartsen binnen 10 minuten wandelafstand geven een geruststellend gevoel. Als je hond plots onwel wordt, ben je binnen enkele minuten ter plaatse. Dat scheelt stress bij acute situaties.",
+        "after": "De twee dierenartsen binnen 10 minuten wandelafstand geven een geruststellend gevoel bij acute situaties. Dat scheelt stress wanneer je snel hulp nodig hebt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Handig voor baasjes die regelmatig naar het werk pendelen of grotere boodschappen doen, zonder auto.",
+        "after": "Handig voor wie regelmatig naar het werk pendelt of grotere boodschappen doet, zonder auto.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "In de parken loop je regelmatig andere baasjes tegen het lijf, wat leuk is voor je hond én voor jezelf.",
+        "after": "In de parken loop je regelmatig andere wandelaars tegen het lijf, wat leuk is voor zowel socialisatie als gezelligheid.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 25,
+      "keywordScore": 20,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:35:00Z",
+    "qualityScore": 97,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 20,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "hond",
+          "viervoeter",
+          "baasjes",
+          "wijk",
+          "hondenspeelweide",
+          "dierenarts",
+          "wandeling",
+          "uitlaat"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (intro, dogParks.intro)",
+          "buurtleven (intro)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 8,
+        "localTipsFound": [
+          "richting de waterkant bij de Schelde",
+          "via de Dendermondsesteenweg"
+        ],
+        "neighborhoodObservations": [
+          "levendige sfeer rond de Dendermondsesteenweg",
+          "hoge bevolkingsdichtheid brengt zowel voor- als nadelen",
+          "meer drukte op straat en in de parken, vooral tijdens de spits"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.88,
+        "averageSentenceLength": 18.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no specialized pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

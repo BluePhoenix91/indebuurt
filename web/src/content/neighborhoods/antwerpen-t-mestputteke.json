@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:45:00Z",
+  "id": "antwerpen-t-mestputteke",
+  "city": "Antwerpen",
+  "name": "'T MESTPUTTEKE",
+  "postalCode": "2100",
+  "subtitle": "Wonen in 't Mestputteke: rustige Antwerpse buitenwijk met groen nabij en voorzieningen op wandelafstand",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 15277,
+  "labels": [
+    {
+      "text": "Rustige woonwijk",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    }
+  ],
+  "intro": "'t Mestputteke is een rustige woonwijk aan de oostkant van Antwerpen, tussen Deurne en Borsbeek. Met 4 parken binnen 10 minuten lopen en brede woonstraten combineer je hier stedelijke voorzieningen met voldoende buitenruimte voor je dagelijkse routine.\n\nDe wijk kenmerkt zich door een overwegend residentieel karakter. Je vindt hier vooral rijtjeswoningen en nieuwere appartementsgebouwen, met supermarkten en winkels verspreid doorheen de wijk. Met 15.277 inwoners is het een middelgrote wijk die zich goed leent voor gezinnen en wie op zoek is naar een combinatie van rust en bereikbaarheid.\n\nVoor wie met een hond woont, biedt 't Mestputteke een praktische leefomgeving. Je hebt één hondenpark op 7 minuten wandelen, en met 4 parken in de wijk is er genoeg groen voor de dagelijkse wandeling. De dichtstbijzijnde dierenarts ligt op 17 minuten te voet in het aangrenzende Deurne, terwijl je voor dierenvoeding terecht kan bij Tom & Co op 25 minuten wandelen of Maxi Zoo op 29 minuten. Voor de dagelijkse boodschappen zijn er 4 supermarkten in de wijk, wat het praktisch maakt om snel hondenvoer bij te halen.\n\nEen belangrijk aandachtspunt is de beperkte aanwezigheid van veterinaire zorg in de directe omgeving. De dichtstbijzijnde dierenarts ligt buiten de wijk, wat betekent dat je bij urgente situaties rekening moet houden met ongeveer 17 minuten lopen of een kort autoritje. Ook de dierenspeciaalzaken liggen op grotere wandelafstand, al zijn supermarkten met een basisassortiment wel nabij.\n\nHet openbaar vervoer is goed geregeld met 18 bushaltes verspreid over de wijk. Voor wie met de auto pendelt, ligt de Ring dichtbij. Er is geen treinstation in de wijk zelf, maar Deurne en Berchem zijn op korte afstand.\n\nDe mediaanprijs voor een woning ligt op €353.000, wat 't Mestputteke toegankelijker maakt dan veel centraalstedelijke wijken in Antwerpen. Met een bevolkingsdichtheid van 9.314 inwoners per km² is het hier drukker dan in de buitengordel, maar rustiger dan in het stadscentrum. Deze wijk is geschikt voor wie stedelijk gemak wil zonder de drukte van de binnenstad, en die bereid is om voor veterinaire zorg of gespecialiseerde dierenwinkels een stukje verder te gaan.",
+  "coordinates": {
+    "lat": 51.2078226108399,
+    "lon": 4.4644786853990714,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenpark",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 hondenpark nabij",
+      "detail": "Niet omheind"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken in de omgeving",
+      "detail": "Dichtstbijzijnde in Deurne"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "25 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 gespecialiseerde winkels",
+      "detail": "Tom & Co en Maxi Zoo"
+    },
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Groen",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 parken in de wijk",
+      "detail": "Dichtstbijzijnde park nabij"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "binnen de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 supermarkten",
+      "detail": "Praktisch voor hondenvoer"
+    }
+  ],
+  "facilities": {
+    "intro": "'t Mestputteke biedt een goede basis voor wie met een hond leeft: je hebt 4 parken binnen 10 minuten wandelen en dagelijkse voorzieningen zoals supermarkten verspreid door de wijk. Voor veterinaire zorg en gespecialiseerde dierenwinkels moet je rekening houden met 15 tot 25 minuten wandelen naar de aangrenzende wijken."
+  },
+  "dogParks": {
+    "intro": "Er is één hondenpark in de wijk op 7 minuten wandelen, al is dit terrein niet omheind. Voor wie een volledig afgesloten speelruimte zoekt, is het de moeite om verder in de omgeving te kijken. De 4 parken in de wijk bieden wel alternatieven voor de dagelijkse wandeling.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark 't Mestputteke",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2107069,
+          "lon": 4.470864
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Veterinaire zorg vind je niet in de wijk zelf. De dichtstbijzijnde praktijk is die van Valérie Monster in Deurne op 17 minuten te voet. Voor spoedgevallen is het handig om vooraf te weten waar je naartoe moet, vooral als je geen auto hebt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Valérie Monster",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1957937,
+          "lon": 4.461436
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Algemene Dierenkliniek Randstad",
+        "street": "Frans Beirenslaan",
+        "streetNumber": "155",
+        "municipality": "Borsbeek",
+        "postalCode": "2150",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1977726,
+          "lon": 4.4811983
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Eddy Janssens",
+        "street": "Unnamed",
+        "streetNumber": "291",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1930795,
+          "lon": 4.4461398
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AniCura",
+        "street": "Borsbeeksebrug",
+        "streetNumber": "34",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1999622,
+          "lon": 4.4337817
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet direct om de hoek. De dichtstbijzijnde Tom & Co ligt op 25 minuten te voet, Maxi Zoo op 29 minuten. Voor de dagelijkse benodigdheden hebben de 4 supermarkten in de wijk vaak een basisassortiment hondenvoer en accessoires.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1985998,
+          "lon": 4.4397835
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2100",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2283151,
+          "lon": 4.4684619
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in 't Mestputteke",
+    "intro": "Een typische dag in 't Mestputteke draait om de nabijheid van groen en voorzieningen. De ochtendwandeling naar een van de 4 parken is snel gemaakt, en voor de dagelijkse boodschappen hoef je niet ver te gaan. Alleen voor dierenartsenbezoek of grotere aankopen bij een gespecialiseerde winkel moet je wat meer tijd rekenen.",
+    "benefits": [
+      "Met 4 parken binnen 10 minuten wandelen heb je altijd een groene plek voor de ochtendwandeling. Het dichtstbijzijnde park ligt op slechts 6 minuten, ideaal voor een snelle ronde na het werk.",
+      "De 4 supermarkten in de wijk zijn praktisch voor wie snel hondenvoer of snacks moet halen. Je hoeft dus niet ver te gaan voor de dagelijkse benodigdheden.",
+      "Het hondenpark op 7 minuten wandelen biedt een vaste plek voor sociale contacten met andere baasjes, al moet je rekening houden dat het terrein niet omheind is.",
+      "Dankzij 18 bushaltes verspreid over de wijk ben je met het openbaar vervoer goed verbonden met de rest van Antwerpen, handig als je zonder auto naar de dierenarts moet.",
+      "De rustige woonstraten maken 't Mestputteke geschikt voor wie rust zoekt zonder al te ver van de stad te wonen. Met een mediaanprijs van €353.000 is het ook toegankelijker dan veel centrumwijken."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "'t Mestputteke is een middelgrote wijk met 15.277 inwoners en een bevolkingsdichtheid van 9.314 inwoners per km². De mediaanprijs voor een woning ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 15277,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in 't Mestputteke? Filter je zoekopdracht op postcode 2100 om alle beschikbare woningen in de wijk te vinden.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-boelaerpark-noord",
+    "antwerpen-boekenberg",
+    "antwerpen-deurne-het-dorp",
+    "antwerpen-cruyslei",
+    "antwerpen-deurne-huiskens"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:45:00Z",
+    "qualityScore": 86,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in 't Mestputteke: rustige buitenwijk met groen nabij en voldoende voorzieningen op wandelafstand",
+        "after": "Wonen in 't Mestputteke: rustige Antwerpse buitenwijk met groen nabij en voorzieningen op wandelafstand",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt 't Mestputteke een praktische leefomgeving.",
+        "after": "Voor wie met een hond woont, biedt 't Mestputteke een praktische leefomgeving.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "'t Mestputteke biedt een goede basis voor wie met een hond leeft. Je hebt groen op wandelafstand en dagelijkse voorzieningen in de buurt, al moet je voor veterinaire zorg en gespecialiseerde dierenwinkels wat verder kijken.",
+        "after": "'t Mestputteke biedt een goede basis voor wie met een hond leeft: je hebt 4 parken binnen 10 minuten wandelen en dagelijkse voorzieningen zoals supermarkten verspreid door de wijk. Voor veterinaire zorg en gespecialiseerde dierenwinkels moet je rekening houden met 15 tot 25 minuten wandelen naar de aangrenzende wijken.",
+        "reason": "section_intro_thin"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Er is één hondenpark in de wijk op 7 minuten wandelen, al is dit terrein niet omheind. Voor baasjes die een volledig afgesloten speelruimte zoeken, is het de moeite om verder in de omgeving te kijken. De 4 parken in de buurt bieden wel alternatieven voor de dagelijkse wandeling.",
+        "after": "Er is één hondenpark in de wijk op 7 minuten wandelen, al is dit terrein niet omheind. Voor wie een volledig afgesloten speelruimte zoekt, is het de moeite om verder in de omgeving te kijken. De 4 parken in de wijk bieden wel alternatieven voor de dagelijkse wandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in 't Mestputteke draait om de nabijheid van groen en voorzieningen.",
+        "after": "Een typische dag in 't Mestputteke draait om de nabijheid van groen en voorzieningen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Het hondenpark op 7 minuten wandelen biedt een vaste plek voor sociale contacten met andere baasjes, al moet je rekening houden dat het terrein niet omheind is.",
+        "after": "Het hondenpark op 7 minuten wandelen biedt een vaste plek voor sociale contacten met andere hondeneigenaren, al moet je rekening houden dat het terrein niet omheind is.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 7
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T14:50:00Z",
+    "qualityScore": 76,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Het hondenpark op 7 minuten wandelen biedt een vaste plek voor sociale contacten met andere hondeneigenaren, al moet je rekening houden dat het terrein niet omheind is.",
+        "after": "Het hondenpark op 7 minuten wandelen biedt een vaste plek voor sociale contacten met andere baasjes, al moet je rekening houden dat het terrein niet omheind is.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Er is één hondenpark in de wijk op 7 minuten wandelen, al is dit terrein niet omheind. Voor wie een volledig afgesloten speelruimte zoekt, is het de moeite om verder in de omgeving te kijken. De 4 parken in de buurt bieden wel alternatieven voor de dagelijkse wandeling.",
+        "after": "Er is één hondenpark in de wijk op 7 minuten wandelen, al is dit terrein niet omheind. Voor wie een volledig afgesloten speelruimte zoekt, is het de moeite om verder in de omgeving te kijken. De 4 parken in de wijk bieden wel alternatieven voor de dagelijkse wandeling.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "intro",
+        "issue": "Limited local authenticity - no specific street names or landmarks mentioned in narrative. Consider adding references to specific routes or neighborhood features.",
+        "severity": "warning"
+      }
+    ],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 10,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 6
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "hondeneigenaren",
+            "field": "dailyLife.benefits[2]",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurt",
+            "field": "dogParks.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenpark",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (intro paragraph 2 - proximity meaning)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 3,
+        "localTipsFound": [],
+        "neighborhoodObservations": [
+          "rustige woonwijk tussen Deurne en Borsbeek",
+          "rijtjeswoningen en nieuwere appartementsgebouwen",
+          "brede woonstraten"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store nearby"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

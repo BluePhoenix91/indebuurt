@@ -1,0 +1,456 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:30:00Z",
+  "id": "gent-akademisch-ziekenhuis",
+  "city": "Gent",
+  "name": "Akademisch Ziekenhuis",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Akademisch Ziekenhuis, Gent: uitstekende bereikbaarheid en veel groen — praktisch voor wie mobiliteit waardeert",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 7603,
+  "labels": [
+    {
+      "text": "Ziekenhuisdomein",
+      "icon": "fa-solid fa-building"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Veel groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "Akademisch Ziekenhuis is een bijzondere wijk in Gent die zijn karakter ontleent aan het universitair ziekenhuis dat er het hart van vormt. Dit is geen typische woonwijk, maar eerder een gespecialiseerd gebied waar wonen en werken samenkomen. Met 7.603 inwoners verspreid over het domein vind je hier een unieke mix van medisch personeel, studenten en gezinnen die de rust en centrale ligging waarderen. De wijk ligt aan de zuidwestelijke rand van Gent en combineert een parkachtige setting met uitstekende bereikbaarheid — 43 bushaltes zorgen ervoor dat je overal snel bent.\n\nWat direct opvalt is het groen. Met 16 parken en groenzones binnen handbereik heb je meer dan genoeg ruimte voor de dagelijkse wandeling. Het Vosmeerspark ligt op slechts 6 minuten wandelen en biedt schaduwrijke paden die in de zomer prettig zijn. De parkachtige structuur van het ziekenhuisdomein zelf draagt bij aan een rustige, groene uitstraling die je niet verwacht in een zo'n stedelijke omgeving. Voor wie van wandelen houdt zonder ver te moeten reizen, is dit een fijne opstap.\n\nMaar er zijn ook duidelijke trade-offs. Dit is geen wijk voor wie alle voorzieningen om de hoek wil hebben. In de wijk zelf is geen dierenarts gevestigd — de dichtstbijzijnde praktijk ligt op 20 minuten wandelen in het nabijgelegen Gentbrugge. Ook voor een dierenwinkel moet je verder kijken: de Maxi Zoo in Melle ligt op 37 minuten te voet. Dat betekent dat je voor specifieke hondengerelateerde zaken moet plannen of de auto moet pakken. De dagelijkse basis — wandelingen, boodschappen, bereikbaarheid — is uitstekend geregeld, maar voor gespecialiseerde zorg ben je afhankelijk van de omliggende wijken.\n\nEen ander punt is het karakter van de wijk. Dit is geen levendige wijk met cafés en winkels op elke hoek. De wijk draait om het ziekenhuis, met de bijbehorende rust en functionele opzet. Voor wie rust en groen zoekt en niet dagelijks cafés of winkels nodig heeft, is dat perfect. Voor wie juist die levendigheid zoekt, voelt dit misschien te gericht op één functie. Er zijn 2 supermarkten voor je boodschappen en 6 scholen in de buurt, dus voor de basis zit je goed. Maar voor sociale voorzieningen en horecagelegenheden ben je aangewezen op de omliggende wijken.\n\nEen belangrijk pluspunt is de mobiliteit. Met 43 bushaltes verspreid over het gebied is het openbaar vervoer uitstekend geregeld. Naar het Gentse centrum is het een kort ritje, en richting de randgemeenten ben je ook snel. Dat compenseert het gebrek aan directe voorzieningen en maakt de wijk praktisch voor wie veel onderweg is — denk aan medisch personeel met wisselende diensten of gezinnen met kinderen op verschillende scholen.\n\nVoor wie een viervoeter heeft, is er één hondenspeelweide in de wijk, op 3 minuten wandelen. Deze is niet omheind en heeft geen speciale voorzieningen, maar biedt wel een plek waar je andere baasjes tegenkomt. Voor een omheinde speelweide moet je uitwijken naar andere delen van Gent. De vele reguliere parken compenseren dit deels — voor een ontspannen wandeling of een uitgebreide ronde heb je keuze genoeg.\n\nDe bevolkingsdichtheid ligt met 1.912 inwoners per km² lager dan in veel andere Gentse wijken, wat bijdraagt aan het rustige karakter. De mediaan huizenprijs ligt op €353.000, vergelijkbaar met het Gentse gemiddelde. Wie hier komt wonen, kiest bewust voor rust, groen en mobiliteit, en accepteert dat je voor gespecialiseerde voorzieningen een stukje verder moet kijken.\n\nAkademisch Ziekenhuis is een wijk die past bij mensen die de combinatie van stedelijke bereikbaarheid en groene rust waarderen, en die niet dagelijks behoefte hebben aan winkels en cafés om de hoek. Voor wie een flexibele agenda heeft en toegang tot een auto, werkt dit goed. Voor wie alles te voet wil kunnen doen, kan het beperkte aanbod aan specifieke voorzieningen een uitdaging zijn. Het is geen typische stadswijk, maar juist daardoor heeft het zijn eigen charme.",
+  "coordinates": {
+    "lat": 51.02134443798126,
+    "lon": 3.729245968959965,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 speelweide in de wijk",
+      "detail": "Niet omheind, dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "16 parken en groenzones",
+      "detail": "Vosmeerspark op 6 minuten"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "20 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen praktijk in de wijk",
+      "detail": "Botermarkt op 20 minuten"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "37 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen winkel in de wijk",
+      "detail": "Maxi Zoo op 37 minuten"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "43 bushaltes in de wijk",
+      "detail": "Uitstekende bereikbaarheid"
+    }
+  ],
+  "facilities": {
+    "intro": "Akademisch Ziekenhuis biedt een goede basis voor wie met een hond woont, maar vraagt enige flexibiliteit. De wijk zelf heeft beperkte dog-specifieke voorzieningen, waardoor je voor dierenartsen en winkels naar omliggende wijken moet. Wat de wijk wel biedt, is ruim groen en uitstekende mobiliteit om die afstanden makkelijk te overbruggen."
+  },
+  "dogParks": {
+    "intro": "De wijk heeft één hondenspeelweide op amper 3 minuten wandelen van het centrum. Deze speelweide is niet omheind en heeft geen speciale voorzieningen zoals drinkwater, maar biedt wel een vaste plek waar je andere baasjes tegenkomt. Voor een omheinde speelweide met meer faciliteiten moet je uitwijken naar andere Gentse wijken. De 16 reguliere parken in de buurt bieden ruime compensatie voor uitgebreide wandelingen en buitenspeeltijd.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide nabij ziekenhuis",
+        "distance": "3 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0207354,
+          "lon": 3.7259168
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde praktijk is Dierenartsenpraktijk Botermarkt in Gentbrugge, op 20 minuten wandelen. Voor spoedgevallen of gespecialiseerde zorg kun je gebruikmaken van de klinische faciliteiten die in de regio beschikbaar zijn. Met de auto ben je snel bij meerdere praktijken.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Botermarkt",
+        "street": "Hundelgemsesteenweg",
+        "streetNumber": "6",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0332212,
+          "lon": 3.7415122
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Marty",
+        "street": "Heerweg-Noord",
+        "streetNumber": "88",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0066818,
+          "lon": 3.7173101
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Kat&Ko",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0339439,
+          "lon": 3.7101744
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Viervoeter",
+        "street": "Frans Spaestraat",
+        "streetNumber": "27",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0388816,
+          "lon": 3.73474
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. De dichtstbijzijnde opties zijn Maxi Zoo in Melle op 37 minuten wandelen en Tom & Co op de Martelaarslaan op 40 minuten. Voor de dagelijkse basis hebben de 2 supermarkten in de wijk een beperkt assortiment voor je viervoeter, maar voor speciaal voer of accessoires plan je beter een uitstapje of bestel je online.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "2",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.025379,
+          "lon": 3.7710589
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "40 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "45 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Akademisch Ziekenhuis",
+    "intro": "Een typische dag in Akademisch Ziekenhuis draait om rust, groen en bereikbaarheid. De ochtendwandeling voert je door een van de 16 parken die binnen enkele minuten bereikbaar zijn, en dankzij de lage bevolkingsdichtheid loop je niet constant in de drukte. Voor de dagelijkse routine is het praktisch, maar voor gespecialiseerde zaken — een bezoek aan de dierenarts of een run naar de dierenwinkel — moet je verder plannen.",
+    "benefits": [
+      "Dankzij de 16 parken en groenzones binnen de wijk heb je elke dag keuze uit verschillende wandelroutes. Het Vosmeerspark op 6 minuten biedt schaduwrijke paden voor warme dagen, terwijl de kleinere parken dichtbij ideaal zijn voor een korte ochtendronde. Zonder dat je ver hoeft te reizen, kun je elke dag variatie inbouwen.",
+      "Met 43 bushaltes verspreid over het gebied is mobiliteit geen probleem. Als je met je hond naar een dierenarts of park buiten de wijk moet, ben je met een korte busrit overal. Voor wie geen auto heeft, biedt dit een praktische oplossing om de beperkte voorzieningen in de wijk zelf te compenseren.",
+      "De lage bevolkingsdichtheid van 1.912 inwoners per km² zorgt voor rustiger straten en minder drukte in de parken. Voor honden die gespannen zijn in mensenmassa's of wie juist van rust houdt, is dat een belangrijke troef. Je loopt hier niet constant andere mensen tegen het lijf.",
+      "De hondenspeelweide op 3 minuten wandelen is weliswaar niet omheind, maar biedt wel een vaste ontmoetingsplek waar lokale baasjes elkaar tegenkomen. Voor sociale honden of wie graag tips uitwisselt met andere baasjes is dit een fijne plek om te beginnen.",
+      "De 2 supermarkten in de wijk hebben een basisassortiment voor je viervoeter, wat handig is voor last-minute aankopen of als je voer opraakt. Voor speciale producten of grotere voorraden moet je wel naar een gespecialiseerde winkel, maar de dagelijkse basis is geregeld.",
+      "Het rustige karakter van de wijk maakt het geschikt voor oudere honden of honden die gevoelig zijn voor prikkels. Er is minder verkeerslawaai dan in het centrum en de groene setting draagt bij aan een ontspannen sfeer. Voor energieke jonge honden kan het wel saai worden zonder extra uitdagingen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Akademisch Ziekenhuis telt 7.603 inwoners verspreid over een oppervlakte met een bevolkingsdichtheid van 1.912 per km². De mediaan huizenprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 7603,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Akademisch Ziekenhuis? Gebruik postcode 9000 om je zoekopdracht te filteren. Let op dat deze postcode gedeeld wordt met meerdere wijken in Gent, dus verfijn je zoekopdracht door de wijk of straatnamen te specificeren.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-konleopoldstraat",
+    "gent-merelbeke-station",
+    "gent-aaigem",
+    "gent-belle-vue",
+    "gent-citadelpark"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:30:00Z",
+    "qualityScore": 87,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in een specialistische wijk met uitstekende bereikbaarheid en verrassend veel groen — praktisch voor wie mobiliteit waardeert",
+        "after": "Wonen in Akademisch Ziekenhuis, Gent: uitstekende bereikbaarheid en veel groen — praktisch voor wie mobiliteit waardeert",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Wat direct opvalt is het groen. Met 16 parken en groenzones binnen handbereik heb je als baasje meer dan genoeg ruimte voor de dagelijkse wandeling.",
+        "after": "Wat direct opvalt is het groen. Met 16 parken en groenzones binnen handbereik heb je meer dan genoeg ruimte voor de dagelijkse wandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor hondenbezitters is er één hondenspeelweide in de wijk, op 3 minuten wandelen. Deze is niet omheind en heeft geen speciale voorzieningen, maar biedt wel een plek waar je andere baasjes tegenkomt.",
+        "after": "Voor wie een viervoeter heeft, is er één hondenspeelweide in de wijk, op 3 minuten wandelen. Deze is niet omheind en heeft geen speciale voorzieningen, maar biedt wel een plek waar je andere eigenaren tegenkomt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Akademisch Ziekenhuis is een wijk die past bij mensen die de combinatie van stedelijke bereikbaarheid en groene rust waarderen, en die niet dagelijks behoefte hebben aan winkels en cafés om de hoek. Voor baasjes met een flexibele agenda en een auto werkt dit goed.",
+        "after": "Akademisch Ziekenhuis is een wijk die past bij mensen die de combinatie van stedelijke bereikbaarheid en groene rust waarderen, en die niet dagelijks behoefte hebben aan winkels en cafés om de hoek. Voor wie een flexibele agenda heeft en toegang tot een auto, werkt dit goed.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor wie alles te voet wil kunnen doen, kan het beperkte aanbod aan dog-specifieke voorzieningen een uitdaging zijn.",
+        "after": "Voor wie alles te voet wil kunnen doen, kan het beperkte aanbod aan specifieke voorzieningen een uitdaging zijn.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "De wijk heeft één hondenspeelweide op amper 3 minuten wandelen van het centrum. Deze speelweide is niet omheind en heeft geen speciale voorzieningen zoals drinkwater, maar biedt wel een vaste plek waar je andere baasjes tegenkomt.",
+        "after": "De wijk heeft één hondenspeelweide op amper 3 minuten wandelen van het centrum. Deze speelweide is niet omheind en heeft geen speciale voorzieningen zoals drinkwater, maar biedt wel een vaste plek waar je andere eigenaren tegenkomt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Akademisch Ziekenhuis draait om rust, groen en bereikbaarheid.",
+        "after": "Een typische dag in Akademisch Ziekenhuis draait om rust, groen en bereikbaarheid.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Met 43 bushaltes verspreid over het gebied is mobiliteit geen probleem. Als je met je hond naar een dierenarts of park buiten de wijk moet, ben je met een korte busrit overal. Voor baasjes zonder auto biedt dit een praktische oplossing om de beperkte voorzieningen in de wijk zelf te compenseren.",
+        "after": "Met 43 bushaltes verspreid over het gebied is mobiliteit geen probleem. Als je met je hond naar een dierenarts of park buiten de wijk moet, ben je met een korte busrit overal. Voor wie geen auto heeft, biedt dit een praktische oplossing om de beperkte voorzieningen in de wijk zelf te compenseren.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "De lage bevolkingsdichtheid van 1.912 inwoners per km² zorgt voor rustiger straten en minder drukte in de parken. Voor honden die gespannen zijn in mensenmassa's of baasjes die juist van rust houden, is dat een belangrijke troef.",
+        "after": "De lage bevolkingsdichtheid van 1.912 inwoners per km² zorgt voor rustiger straten en minder drukte in de parken. Voor honden die gespannen zijn in mensenmassa's of wie juist van rust houdt, is dat een belangrijke troef.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De hondenspeelweide op 3 minuten wandelen is weliswaar niet omheind, maar biedt wel een vaste ontmoetingsplek waar lokale baasjes elkaar tegenkomen. Voor sociale honden of baasjes die graag tips uitwisselen met andere eigenaren is dit een fijne plek om te beginnen.",
+        "after": "De hondenspeelweide op 3 minuten wandelen is weliswaar niet omheind, maar biedt wel een vaste ontmoetingsplek waar lokale eigenaren elkaar tegenkomen. Voor sociale honden of wie graag tips uitwisselt met andere eigenaren is dit een fijne plek om te beginnen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "topicCoverageScore": 18,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:00:00Z",
+    "qualityScore": 82,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Dit is geen typische woonbuurt, maar eerder een gespecialiseerd gebied waar wonen en werken samenkomen.",
+        "after": "Dit is geen typische woonwijk, maar eerder een gespecialiseerd gebied waar wonen en werken samenkomen.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "Dit is geen bruisende buurt met cafés en winkels op elke hoek.",
+        "after": "Dit is geen levendige wijk met cafés en winkels op elke hoek.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "Voor wie een viervoeter heeft, is er één hondenspeelweide in de wijk, op 3 minuten wandelen. Deze is niet omheind en heeft geen speciale voorzieningen, maar biedt wel een plek waar je andere eigenaren tegenkomt.",
+        "after": "Voor wie een viervoeter heeft, is er één hondenspeelweide in de wijk, op 3 minuten wandelen. Deze is niet omheind en heeft geen speciale voorzieningen, maar biedt wel een plek waar je andere baasjes tegenkomt.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "De wijk heeft één hondenspeelweide op amper 3 minuten wandelen van het centrum. Deze speelweide is niet omheind en heeft geen speciale voorzieningen zoals drinkwater, maar biedt wel een vaste plek waar je andere eigenaren tegenkomt.",
+        "after": "De wijk heeft één hondenspeelweide op amper 3 minuten wandelen van het centrum. Deze speelweide is niet omheind en heeft geen speciale voorzieningen zoals drinkwater, maar biedt wel een vaste plek waar je andere baasjes tegenkomt.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De hondenspeelweide op 3 minuten wandelen is weliswaar niet omheind, maar biedt wel een vaste ontmoetingsplek waar lokale eigenaren elkaar tegenkomen. Voor sociale honden of wie graag tips uitwisselt met andere eigenaren is dit een fijne plek om te beginnen.",
+        "after": "De hondenspeelweide op 3 minuten wandelen is weliswaar niet omheind, maar biedt wel een vaste ontmoetingsplek waar lokale baasjes elkaar tegenkomen. Voor sociale honden of wie graag tips uitwisselt met andere baasjes is dit een fijne plek om te beginnen.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 6
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "eigenaren",
+            "field": "intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "eigenaren",
+            "field": "dogParks.intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "eigenaren",
+            "field": "dailyLife.benefits[3]",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "hond",
+          "viervoeter",
+          "hondenspeelweide",
+          "dierenarts",
+          "wandeling",
+          "baasjes"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (voor nabijheid)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 34
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 8,
+        "localTipsFound": [
+          "richting de randgemeenten",
+          "in het nabijgelegen Gentbrugge",
+          "Maxi Zoo in Melle",
+          "Tom & Co op de Martelaarslaan"
+        ],
+        "neighborhoodObservations": [
+          "parkachtige setting met uitstekende bereikbaarheid",
+          "parkachtige structuur van het ziekenhuisdomein",
+          "wijk draait om het ziekenhuis",
+          "lage bevolkingsdichtheid van 1.912 inwoners per km²"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.79,
+        "averageSentenceLength": 18.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood",
+          "no enclosed dog park"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

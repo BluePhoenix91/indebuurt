@@ -1,0 +1,402 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T00:00:00Z",
+  "id": "gent-blaisantvest",
+  "city": "Gent",
+  "name": "BLAISANTVEST",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Blaisantvest: groene stadswijk met 8 parken en hondenweides op wandelafstand — fijn voor je dagelijkse routine",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 10755,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    }
+  ],
+  "intro": "Blaisantvest is een compacte stadswijk in het noorden van Gent, vlak bij het centrum. Met 8 parken in de directe omgeving en een hondenspeelweide op nauwelijks 5 minuten wandelen combineer je hier stedelijk wonen met voldoende groene ruimte voor je dagelijkse wandelingen. De wijk is goed bereikbaar dankzij 33 bushaltes, wat het makkelijk maakt om zonder auto door de stad te bewegen.\n\nWat Blaisantvest kenmerkt is de grote hoeveelheid groen voor een stadswijk. Het Van Crombrugghepark, Tolhuispark en Sassevaartpark liggen allemaal binnen een paar minuten lopen van elkaar. Voor je viervoeter zijn er meerdere hondenspeelweiden in de wijk — de dichtstbijzijnde ligt op 5 minuten, en binnen een kwartier wandelen heb je keuze uit 4 omheinde speelterreinen. Die variatie is fijn als je graag afwisselt of als één weide te druk is.\n\nQua voorzieningen vind je binnen de wijk 3 supermarkten, 4 apotheken en 6 scholen. Voor dagelijkse boodschappen hoef je dus niet ver. Wat je wel moet weten: er is geen dierenarts in de wijk zelf. De dichtstbijzijnde praktijk, Tania Maenhout, ligt op 18 minuten wandelen in het aangrenzende Dampoort. Dat is niet om de hoek, dus voor spoedgevallen moet je rekenen op een iets langere rit. Ook een gespecialiseerde dierenwinkel vind je niet in de wijk — Tom & Co ligt op 19 minuten te voet.\n\nDe bevolkingsdichtheid is fors: met 10.514 inwoners per km² is dit een drukke stadswijk. Dat merk je aan het straatbeeld, het verkeer en de drukte in de parken tijdens de spitsuren. Voor wie rust zoekt is dit niet de meest afgelegen plek, maar wie stedelijk gemak waardeert en niet bang is voor wat levendigheid vindt hier wel z'n plek. De voordelen van die dichtheid zijn er ook: voldoende mensen betekent ook dat er altijd wel iemand is om mee te babbelen tijdens de avondwandeling.\n\nHet park- en groenareaal is ruim genoeg om af te wisselen, maar de afwezigheid van een dierenarts in de wijk kan een nadeel zijn als je hond ouder wordt of regelmatig controle nodig heeft. Je moet dan toch regelmatig een stuk verder rijden of wandelen. Voor gezonde, jonge honden die vooral behoefte hebben aan uitlaatplekken is dit minder een probleem.\n\nBlaisantvest is geschikt voor wie stedelijk wonen wil combineren met toegang tot groen, maar die niet per se absolute rust zoekt. Je hebt hier de drukte van de stad, maar met voldoende ademruimte om je hond goed uit te laten. Het is vooral praktisch voor wie geen auto nodig wil hebben voor dagelijkse dingen, maar die wel accepteert dat specialistische voorzieningen zoals de dierenarts wat verder liggen.",
+  "coordinates": {
+    "lat": 51.063695917881184,
+    "lon": 3.7300295020305696,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenweides",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 hondenspeelweiden binnen 14 mins",
+      "detail": "Dichtstbijzijnde omheind op 5 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "8 parken in de directe omgeving",
+      "detail": "Van Crombrugghepark op 4 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "18 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde buiten de wijk",
+      "detail": "Tania Maenhout in Dampoort"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "19 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co op wandelafstand",
+      "detail": "Dendermondsesteenweg"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "33 bushaltes in de wijk",
+      "detail": "Goed bereikbaar zonder auto"
+    }
+  ],
+  "facilities": {
+    "intro": "Blaisantvest heeft een sterke basis voor dagelijks leven met je hond: voldoende groen, meerdere hondenweides en goede bereikbaarheid. Wat ontbreekt is een dierenarts in de wijk zelf, waardoor je voor medische zorg iets verder moet."
+  },
+  "dogParks": {
+    "intro": "Met 4 omheinde hondenspeelweiden binnen een kwartier wandelen heb je in Blaisantvest voldoende keuze. De dichtstbijzijnde ligt op slechts 5 minuten, handig voor een snelle ochtenduitlaatbeurt. Drie van de vier zijn omheind, wat fijn is als je hond graag los loopt. De variatie in afstand en type ondergrond maakt het makkelijk om af te wisselen.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide nabij Sassevaartpark",
+        "distance": "5 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0669876,
+          "lon": 3.7266103
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide nabij Vogelenzangpark",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0637741,
+          "lon": 3.717675
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide Noord",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0734578,
+          "lon": 3.7315395
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Blaisantvest zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Tania Maenhout in Dampoort, op 18 minuten wandelen. Voor routinecontroles is dat te doen, maar voor spoedgevallen of als je geen auto hebt kan die afstand lastig zijn. Er zijn verder meerdere praktijken binnen een straal van 20-24 minuten.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van de Walle",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0595905,
+          "lon": 3.752562
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Heughebaert Anne",
+        "street": "Recollettenlei",
+        "streetNumber": "18",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0497844,
+          "lon": 3.7195429
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Dr. Sofie Breugelmans",
+        "street": "Adolf Baeyensstraat",
+        "streetNumber": "147",
+        "municipality": "Sint-Amandsberg",
+        "postalCode": "9040",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0519339,
+          "lon": 3.7479351
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Blaisantvest zelf. Tom & Co op de Dendermondsesteenweg ligt op 19 minuten te voet, wat haalbaar is voor een voorraadrit. Voor snelle aankopen hebben de 3 supermarkten in de wijk vaak een basisassortiment aan hondenvoer en snacks.",
+  "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Blaisantvest",
+    "intro": "Een typische dag in Blaisantvest begint met een wandeling door een van de nabije parken. Het Van Crombrugghepark ligt op 4 minuten, handig voor een snelle ochtendrondje voordat je naar je werk vertrekt. Als je hond veel energie heeft, is de omheinde hondenweide op 5 minuten een uitstekende optie om los te laten rennen. Dankzij het openbaar vervoer ben je snel in het centrum zonder je zorgen te maken over parkeren.",
+    "benefits": [
+      "Dankzij de 8 parken binnen 10 minuten wandelen heb je altijd een groene plek voor de ochtend- en avondwandeling. Het Tolhuispark en Sassevaartpark zijn populair onder lokale baasjes en bieden schaduwrijke paden voor warme dagen.",
+      "Met 4 omheinde hondenspeelweiden binnen 14 minuten heb je voldoende keuze om je hond sociaal te laten zijn. De dichtstbijzijnde op 5 minuten is perfect voor een snelle uitlaatbeurt, terwijl de grotere weide op 14 minuten meer ruimte biedt voor actieve honden.",
+      "De 33 bushaltes in de wijk maken het makkelijk om zonder auto te leven. Voor een uitje naar andere parken of een bezoek aan de dierenarts buiten de wijk is het openbaar vervoer een praktische oplossing.",
+      "De hoge bevolkingsdichtheid betekent dat er altijd wel andere baasjes zijn tijdens de wandeling. Dat maakt het sociaal, zowel voor jou als voor je hond, maar op drukke momenten kunnen de populaire parken vol zijn.",
+      "Voor dagelijkse boodschappen heb je 3 supermarkten in de wijk, wat het makkelijk maakt om snel hondenvoer of snacks te halen zonder ver te moeten reizen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Blaisantvest is een middelgrote stadswijk met 10.755 inwoners en een bevolkingsdichtheid van 10.514 inwoners per km². De mediane woningprijs ligt rond €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 10755,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Blaisantvest? De wijk heeft postcode 9000, die je deelt met meerdere andere Gentse wijken. Filter bij je zoekopdracht op straatnamen of de specifieke wijknaam om woningen in Blaisantvest te vinden.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-afrikalaan",
+    "gent-wissenhagestraat",
+    "gent-begijnhofdries",
+    "gent-dampoort",
+    "gent-rabot"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T00:00:00Z",
+    "qualityScore": 85,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Voor baasjes die rust zoeken is dit niet de meest afgelegen plek, maar wie stedelijk gemak waardeert en niet bang is voor wat levendigheid vindt hier wel z'n plek.",
+        "after": "Voor wie rust zoekt is dit niet de meest afgelegen plek, maar wie stedelijk gemak waardeert en niet bang is voor wat levendigheid vindt hier wel z'n plek.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Blaisantvest is ideaal voor baasjes die stedelijk wonen willen combineren met toegang tot groen, maar die niet per se absolute rust zoeken.",
+        "after": "Blaisantvest is geschikt voor wie stedelijk wonen wil combineren met toegang tot groen, maar die niet per se absolute rust zoekt.",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Het is vooral geschikt voor wie geen auto nodig wil hebben voor dagelijkse dingen, maar die wel accepteert dat specialistische voorzieningen zoals de dierenarts wat verder liggen.",
+        "after": "Het is vooral praktisch voor wie geen auto nodig wil hebben voor dagelijkse dingen, maar die wel accepteert dat specialistische voorzieningen zoals de dierenarts wat verder liggen.",
+        "reason": "readability"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Met 4 omheinde hondenspeelweiden binnen een kwartier wandelen heb je als baasje in Blaisantvest voldoende keuze.",
+        "after": "Met 4 omheinde hondenspeelweiden binnen een kwartier wandelen heb je in Blaisantvest voldoende keuze.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "De dichtstbijzijnde ligt op slechts 5 minuten, ideaal voor een snelle ochtenduitlaatbeurt.",
+        "after": "De dichtstbijzijnde ligt op slechts 5 minuten, handig voor een snelle ochtenduitlaatbeurt.",
+        "reason": "readability"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Blaisantvest begint met een wandeling door een van de nabije parken.",
+        "after": "Een typische dag in Blaisantvest begint met een wandeling door een van de nabije parken.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Het Van Crombrugghepark ligt op 4 minuten, ideaal voor een snelle ochtendrondje voordat je naar je werk vertrekt.",
+        "after": "Het Van Crombrugghepark ligt op 4 minuten, handig voor een snelle ochtendrondje voordat je naar je werk vertrekt.",
+        "reason": "readability"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Als je viervoeter veel energie heeft, is de omheinde hondenweide op 5 minuten een uitstekende optie om los te laten rennen.",
+        "after": "Als je hond veel energie heeft, is de omheinde hondenweide op 5 minuten een uitstekende optie om los te laten rennen.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T00:00:00Z",
+    "qualityScore": 90,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "houses.intro",
+        "before": "Op zoek naar een woning in Blaisantvest? De wijk heeft postcode 9000, die je deelt met meerdere andere Gentse wijken. Filter bij je zoekopdracht op straatnamen of de specifieke buurtnaam om woningen in Blaisantvest te vinden.",
+        "after": "Op zoek naar een woning in Blaisantvest? De wijk heeft postcode 9000, die je deelt met meerdere andere Gentse wijken. Filter bij je zoekopdracht op straatnamen of de specifieke wijknaam om woningen in Blaisantvest te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 7
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurtnaam",
+            "field": "houses.intro",
+            "preferred": "wijknaam"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (van parken)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 28
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 7,
+        "localTipsFound": [
+          "Van Crombrugghepark",
+          "Tolhuispark",
+          "Sassevaartpark",
+          "Dendermondsesteenweg",
+          "Dampoort (neighborhood reference)",
+          "Hogeweg",
+          "Recollettenlei"
+        ],
+        "neighborhoodObservations": [
+          "de grote hoeveelheid groen voor een stadswijk",
+          "de drukte in de parken tijdens de spitsuren",
+          "populair onder lokale baasjes"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

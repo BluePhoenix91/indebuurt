@@ -1,0 +1,504 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T10:30:00Z",
+  "id": "gent-aaigem",
+  "city": "Gent",
+  "name": "Aaigem",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Aaigem, Gent: rustige residentiële wijk met 9 parken op wandelafstand en goede busverbinding",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 7911,
+  "labels": [
+    {
+      "text": "Groene wijk",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    }
+  ],
+  "intro": "Aaigem is een rustige residentiële wijk in het zuiden van Gent, waar je woont tussen groen en stedelijk gemak. Met 9 parken binnen handbereik, een goede busverbinding naar het centrum, en een compacte bebouwing die toch ruimtelijk aanvoelt, vind je hier een fijne balans tussen natuur en bereikbaarheid. De wijk heeft een gemoedelijke sfeer, met voldoende lokale voorzieningen voor de dagelijkse boodschappen en 39 bushaltes die je snel naar het stadscentrum brengen.\n\nVoor wie dagelijks buiten wil zijn met zijn viervoeter, biedt Aaigem vooral rust en ruimte voor lange wandelingen. Het Reigerspark ligt op 5 minuten, het Guido Moonspark op 7 minuten, en met het Natuurpark Overmeers op 12 minuten heb je toegang tot uitgestrekte natuurgebieden. Een officiële hondenspeelweide vind je niet in de wijk zelf — de dichtstbijzijnde ligt op 10 minuten wandelen zonder voorzieningen — maar de vele parken en groene zones compenseren dit ruimschoots. Voor een omheinde speelweide met drinkwater moet je 24 minuten lopen, wat iets verder weg is maar bruikbaar voor het weekend.\n\nOp het vlak van veterinaire zorg zit je uitstekend: dierenartspraktijk Kat&Ko ligt op amper 5 minuten wandelen, wat een luxe is voor spoedgevallen of routinecontroles. Voor hondenbenodigdheden is de situatie minder ideaal — de dichtstbijzijnde Tom & Co ligt op 24 minuten te voet aan de Martelaarslaan. Wel hebben de lokale supermarkten in Aaigem een basisassortiment voer en accessoires, wat het dagelijkse leven makkelijker maakt.\n\nDe wijk heeft 4 supermarkten, 11 scholen en 39 bushaltes, wat het praktische aspect van wonen hier vergemakkelijkt. Je bent snel in het centrum van Gent voor werk of ontspanning, maar keert terug naar een omgeving die veel rustiger en groener is. De bevolkingsdichtheid van 3.132 inwoners per km² is aangenaam — je hebt buren, maar het voelt niet druk.\n\nToch is Aaigem niet voor iedereen. Als je op zoek bent naar een levendige uitgaansbuurt of een bruisend winkelcentrum, zul je teleurgesteld zijn. Dit is een wijk voor gezinnen, gepensioneerden, en mensen die rust en groen prioriteit geven boven de dynamiek van het stadscentrum. Ook de beperkte hondeninfrastructuur — geen omheinde speelweides in de onmiddellijke nabijheid, geen dierenwinkels op wandelafstand — vraagt enige planning. Maar als je een auto hebt of niet vies bent van een stevige wandeling naar het centrum, dan weegt het groene karakter van Aaigem ruimschoots op tegen deze kleine compromissen.\n\nMet een mediane huisprijs van €353.000 positioneer je je in het middensegment van de Gentse woningmarkt. Je krijgt waar voor je geld: ruimte, groen, en een buurtgevoel dat moeilijk te vinden is in het stadscentrum. Praktisch voor wie dagelijks wil wandelen en waarde hecht aan toegang tot natuur, minder geschikt als je de levendigheid van het centrum op loopafstand wil.",
+  "coordinates": {
+    "lat": 51.030261933323985,
+    "lon": 3.708671498505627,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "1 min",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "9 parken binnen 15 minuten",
+      "detail": "Reigerspark op 5 mins"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 dierenarts in de wijk",
+      "detail": "Kat&Ko dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweides",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen in de wijk zelf",
+      "detail": "Dichtstbijzijnde op 10 mins"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "24 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co op wandelafstand",
+      "detail": "Martelaarslaan"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 supermarkten in de wijk",
+      "detail": "Dagelijkse boodschappen dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "39 bushaltes in de wijk",
+      "detail": "Goed verbonden met Gent"
+    }
+  ],
+  "facilities": {
+    "intro": "Aaigem biedt een goede basis voor het dagelijks leven. De combinatie van dichtbijgelegen parken, een nabije dierenarts en voldoende voorzieningen voor boodschappen maakt het praktisch. Wat ontbreekt is een gespecialiseerde dierenwinkel op loopafstand en een officiële hondenspeelweide in de wijk zelf, maar met de 9 parken in de wijk en wat planning los je dat makkelijk op."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in Aaigem zelf. De dichtstbijzijnde omheinde speelzone ligt op 10 minuten wandelen, zonder hekwerk of voorzieningen. Wil je een volledig omheinde speelweide met drinkwater, dan moet je 24 minuten lopen. Voor de dagelijkse wandeling zijn de 9 parken in de wijk — zoals het Reigerspark, Guido Moonspark, en vooral het Natuurpark Overmeers — een prima alternatief waar je langere tochten kunt maken.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelzone 1",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.033781,
+          "lon": 3.7181814
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelzone 2",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0413171,
+          "lon": 3.7006241
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelzone 3",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0207354,
+          "lon": 3.7259168
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelzone 4",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0464956,
+          "lon": 3.7000542
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg zit je uitstekend in Aaigem. Dierenartspraktijk Kat&Ko ligt op amper 5 minuten wandelen, wat zelfs bij spoedgevallen snel bereikbaar is. Daarnaast vind je Dr. Paul Panis op 11 minuten, en binnen een halfuur zijn er nog drie andere praktijken in de wijk.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Kat&Ko",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "5 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0339439,
+          "lon": 3.7101744
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr. Paul Panis",
+        "street": "Koning Albertlaan",
+        "streetNumber": "25",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0378647,
+          "lon": 3.7106911
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Viervoeter",
+        "street": "Frans Spaestraat",
+        "streetNumber": "27",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0388816,
+          "lon": 3.73474
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Heughebaert Anne",
+        "street": "Recollettenlei",
+        "streetNumber": "18",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0497844,
+          "lon": 3.7195429
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Aaigem zelf. De dichtstbijzijnde Tom & Co ligt aan de Martelaarslaan, op 24 minuten te voet. Voor dagelijkse benodigdheden zoals voer of snacks kun je terecht bij de lokale supermarkten, die een basisassortiment hebben. Voor grotere aankopen of speelgoed plan je best een uitstapje naar Tom & Co of bestel je online.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "43 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "54 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Aaigem",
+    "intro": "Een typische dag in Aaigem draait om rust, groen en eenvoud. Je stapt je voordeur uit en binnen enkele minuten loop je door een van de parken in de wijk. De ochtendwandeling voert je naar het Reigerspark of Guido Moonspark, en in het weekend trek je naar het Natuurpark Overmeers voor een langere tocht. Na de wandeling haal je verse broodjes bij de lokale bakker, en 's avonds maak je een rondje door de rustige straten. Het gebrek aan een hondenspeelweide in de wijk zelf voel je niet echt, dankzij de overvloed aan groen.",
+    "benefits": [
+      "Met 9 parken binnen 15 minuten wandelen heb je altijd een groene bestemming voor je dagelijkse routine. Het Reigerspark is populair onder lokale wandelaars en heeft schaduwrijke paden voor warme dagen.",
+      "De dichtbijgelegen dierenartspraktijk Kat&Ko op 5 minuten geeft rust — bij medische noden ben je er binnen enkele minuten. Dit is zeldzaam in Gent.",
+      "De 39 bushaltes in de wijk bieden flexibiliteit. Moet je naar de dierenwinkel of het centrum, dan pak je de bus en ben je er binnen 10 minuten.",
+      "De rustige, residentiële sfeer maakt Aaigem fijn voor wie rust zoekt. Je kunt ontspannen wandelen zonder constant op je hoede te zijn voor verkeer.",
+      "Dankzij 4 lokale supermarkten kun je snel basisbenodigdheden halen als je voorraad opraakt. Het basisassortiment is voldoende voor de dagelijkse noden, grotere aankopen plan je bij Tom & Co."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help anderen de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Aaigem is een middelgrote wijk met 7.911 inwoners en een gemoedelijke bevolkingsdichtheid van 3.132 inwoners per km². De mediane huisprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 7911,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Aaigem? De wijk deelt postcode 9000 met andere Gentse wijken, dus filter op wijknaam om gericht te zoeken. Immoweb en Zimmo zijn goede startpunten.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-citadelpark",
+    "gent-over-de-meersstraat",
+    "gent-bugten",
+    "gent-akademisch-ziekenhuis",
+    "gent-paolalaan"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T10:30:00Z",
+    "qualityScore": 78,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige groene wijk met 9 parken binnen bereik — ruimte voor wandelingen, dagelijkse voorzieningen dichtbij",
+        "after": "Wonen in Aaigem, Gent: rustige residentiële wijk met 9 parken op wandelafstand en goede busverbinding",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Aaigem is een rustige residentiële wijk in het zuiden van Gent, waar je woont tussen groen en stedelijk gemak. Met 9 parken binnen handbereik en een dichte bebouwing die toch ruimtelijk aanvoelt, is dit een fijne plek voor wie dagelijks buiten wil zijn zonder ver te moeten reizen. De wijk heeft een gemoedelijke sfeer, met voldoende lokale voorzieningen voor de dagelijkse boodschappen en een goede busverbinding naar het centrum.\n\nAls baasje vind je hier vooral rust en ruimte voor lange wandelingen. Het Reigerspark ligt op 5 minuten, het Guido Moonspark op 7 minuten, en met het Natuurpark Overmeers op 12 minuten heb je toegang tot uitgestrekte natuurgebieden waar je hond zich kan uitleven. Een officiële hondenspeelweide vind je niet in de wijk zelf — de dichtstbijzijnde ligt op 10 minuten wandelen — maar de vele parken en groene zones compenseren dit ruimschoots. Voor baasjes die op zoek zijn naar een omheind terrein is er wel een speelweide met drinkwater op 24 minuten, wat iets verder weg is maar bruikbaar voor het weekend.\n\nOp het vlak van hondengezondheidszorg zit je goed: dierenartspraktijk Kat&Ko ligt op amper 5 minuten wandelen, wat een luxe is voor spoedgevallen of routinecontroles. Voor hondenbenodigdheden is de situatie minder ideaal — de dichtstbijzijnde Tom & Co ligt op 24 minuten te voet aan de Martelaarslaan. Gelukkig hebben de lokale supermarkten in Aaigem een basisassortiment voer en accessoires, wat het dagelijkse leven makkelijker maakt.\n\nDe wijk heeft 4 supermarkten, 11 scholen en 39 bushaltes, wat het praktische aspect van wonen hier vergemakkelijkt. Je bent snel in het centrum van Gent voor werk of ontspanning, maar keert terug naar een omgeving die veel rustiger en groener is. De bevolkingsdichtheid van 3.132 inwoners per km² is aangenaam — je hebt buren, maar het voelt niet druk.\n\nToch is Aaigem niet voor iedereen. Als je op zoek bent naar een levendige uitgaansbuurt of een bruisend winkelcentrum, zul je teleurgesteld zijn. Dit is een wijk voor gezinnen, gepensioneerden, en baasjes die rust en groen prioriteit geven boven de dynamiek van het stadscentrum. Ook de beperkte hondeninfrastructuur — geen omheinde speelweides in de onmiddellijke nabijheid, geen dierenwinkels op wandelafstand — vraagt enige planning. Maar als je een auto hebt of niet vies bent van een stevige wandeling naar het centrum, dan weegt het groene karakter van Aaigem ruimschoots op tegen deze kleine compromissen.\n\nMet een mediane huisprijs van €353.000 positioneer je je in het middensegment van de Gentse woningmarkt. Je krijgt waar voor je geld: ruimte, groen, en een buurtgevoel dat moeilijk te vinden is in het stadscentrum. Voor baasjes die graag elke dag een flinke wandeling maken en waarde hechten aan toegang tot natuur, is Aaigem een verstandige keuze.",
+        "after": "Aaigem is een rustige residentiële wijk in het zuiden van Gent, waar je woont tussen groen en stedelijk gemak. Met 9 parken binnen handbereik, een goede busverbinding naar het centrum, en een compacte bebouwing die toch ruimtelijk aanvoelt, vind je hier een fijne balans tussen natuur en bereikbaarheid. De wijk heeft een gemoedelijke sfeer, met voldoende lokale voorzieningen voor de dagelijkse boodschappen en 39 bushaltes die je snel naar het stadscentrum brengen.\n\nVoor wie dagelijks buiten wil zijn met zijn viervoeter, biedt Aaigem vooral rust en ruimte voor lange wandelingen. Het Reigerspark ligt op 5 minuten, het Guido Moonspark op 7 minuten, en met het Natuurpark Overmeers op 12 minuten heb je toegang tot uitgestrekte natuurgebieden. Een officiële hondenspeelweide vind je niet in de wijk zelf — de dichtstbijzijnde ligt op 10 minuten wandelen zonder voorzieningen — maar de vele parken en groene zones compenseren dit ruimschoots. Voor een omheinde speelweide met drinkwater moet je 24 minuten lopen, wat iets verder weg is maar bruikbaar voor het weekend.\n\nOp het vlak van veterinaire zorg zit je uitstekend: dierenartspraktijk Kat&Ko ligt op amper 5 minuten wandelen, wat een luxe is voor spoedgevallen of routinecontroles. Voor hondenbenodigdheden is de situatie minder ideaal — de dichtstbijzijnde Tom & Co ligt op 24 minuten te voet aan de Martelaarslaan. Wel hebben de lokale supermarkten in Aaigem een basisassortiment voer en accessoires, wat het dagelijkse leven makkelijker maakt.\n\nDe wijk heeft 4 supermarkten, 11 scholen en 39 bushaltes, wat het praktische aspect van wonen hier vergemakkelijkt. Je bent snel in het centrum van Gent voor werk of ontspanning, maar keert terug naar een omgeving die veel rustiger en groener is. De bevolkingsdichtheid van 3.132 inwoners per km² is aangenaam — je hebt buren, maar het voelt niet druk.\n\nToch is Aaigem niet voor iedereen. Als je op zoek bent naar een levendige uitgaansbuurt of een bruisend winkelcentrum, zul je teleurgesteld zijn. Dit is een wijk voor gezinnen, gepensioneerden, en mensen die rust en groen prioriteit geven boven de dynamiek van het stadscentrum. Ook de beperkte hondeninfrastructuur — geen omheinde speelweides in de onmiddellijke nabijheid, geen dierenwinkels op wandelafstand — vraagt enige planning. Maar als je een auto hebt of niet vies bent van een stevige wandeling naar het centrum, dan weegt het groene karakter van Aaigem ruimschoots op tegen deze kleine compromissen.\n\nMet een mediane huisprijs van €353.000 positioneer je je in het middensegment van de Gentse woningmarkt. Je krijgt waar voor je geld: ruimte, groen, en een buurtgevoel dat moeilijk te vinden is in het stadscentrum. Praktisch voor wie dagelijks wil wandelen en waarde hecht aan toegang tot natuur, minder geschikt als je de levendigheid van het centrum op loopafstand wil.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Aaigem biedt een goede basis voor het dagelijks leven met je hond. De combinatie van dichtbijgelegen parken, een nabije dierenarts en voldoende voorzieningen voor boodschappen maakt het praktisch. Wat ontbreekt is een gespecialiseerde dierenwinkel op loopafstand en een officiële hondenspeelweide in de wijk zelf, maar met wat planning los je dat makkelijk op.",
+        "after": "Aaigem biedt een goede basis voor het dagelijks leven. De combinatie van dichtbijgelegen parken, een nabije dierenarts en voldoende voorzieningen voor boodschappen maakt het praktisch. Wat ontbreekt is een gespecialiseerde dierenwinkel op loopafstand en een officiële hondenspeelweide in de wijk zelf, maar met de 9 parken in de buurt en wat planning los je dat makkelijk op.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Een officiële hondenspeelweide vind je niet in Aaigem zelf. De dichtstbijzijnde omheinde speelzone ligt op 10 minuten wandelen, zonder hekwerk of voorzieningen. Wil je een volledig omheinde speelweide met drinkwater, dan moet je 24 minuten lopen. Voor de dagelijkse wandeling zijn de 9 parken in de wijk een prima alternatief — denk aan het Reigerspark, Guido Moonspark, en vooral het Natuurpark Overmeers, waar je met je viervoeter langere tochten kunt maken.",
+        "after": "Een officiële hondenspeelweide vind je niet in Aaigem zelf. De dichtstbijzijnde omheinde speelzone ligt op 10 minuten wandelen, zonder hekwerk of voorzieningen. Wil je een volledig omheinde speelweide met drinkwater, dan moet je 24 minuten lopen. Voor de dagelijkse wandeling zijn de 9 parken in de wijk — zoals het Reigerspark, Guido Moonspark, en vooral het Natuurpark Overmeers — een prima alternatief waar je langere tochten kunt maken.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "vets.intro",
+        "before": "Voor medische zorg voor je viervoeter zit je uitstekend in Aaigem. Dierenartspraktijk Kat&Ko ligt op amper 5 minuten wandelen, wat zelfs bij spoedgevallen snel bereikbaar is. Daarnaast vind je Dr. Paul Panis op 11 minuten, en binnen een halfuur zijn er nog drie andere praktijken in de buurt.",
+        "after": "Voor medische zorg zit je uitstekend in Aaigem. Dierenartspraktijk Kat&Ko ligt op amper 5 minuten wandelen, wat zelfs bij spoedgevallen snel bereikbaar is. Daarnaast vind je Dr. Paul Panis op 11 minuten, en binnen een halfuur zijn er nog drie andere praktijken in de buurt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Aaigem",
+        "after": "Dagelijks leven in Aaigem",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Aaigem draait om rust, groen en eenvoud. Je stapt je voordeur uit en binnen enkele minuten loop je door een van de parken in de buurt. De ochtendwandeling voert je naar het Reigerspark of Guido Moonspark, en in het weekend trek je naar het Natuurpark Overmeers voor een langere tocht. Na de wandeling haal je verse broodjes bij de lokale bakker, en 's avonds maak je een rondje door de rustige straten. Het gebrek aan een hondenspeelweide in de wijk zelf voel je niet echt, dankzij de overvloed aan groen.",
+        "after": "Een typische dag in Aaigem draait om rust, groen en eenvoud. Je stapt je voordeur uit en binnen enkele minuten loop je door een van de parken in de buurt. De ochtendwandeling voert je naar het Reigerspark of Guido Moonspark, en in het weekend trek je naar het Natuurpark Overmeers voor een langere tocht. Na de wandeling haal je verse broodjes bij de lokale bakker, en 's avonds maak je een rondje door de rustige straten. Het gebrek aan een hondenspeelweide in de wijk zelf voel je niet echt, dankzij de overvloed aan groen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 9 parken binnen 15 minuten wandelen heb je altijd een groene bestemming voor je dagelijkse routine. Het Reigerspark is populair onder lokale baasjes en heeft schaduwrijke paden voor warme dagen.",
+        "after": "Met 9 parken binnen 15 minuten wandelen heb je altijd een groene bestemming voor je dagelijkse routine. Het Reigerspark is populair onder lokale wandelaars en heeft schaduwrijke paden voor warme dagen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De dichtbijgelegen dierenartspraktijk Kat&Ko op 5 minuten geeft rust — als je hond onverwacht ziek wordt, ben je er binnen enkele minuten. Dit is zeldzaam in Gent.",
+        "after": "De dichtbijgelegen dierenartspraktijk Kat&Ko op 5 minuten geeft rust — bij medische noden ben je er binnen enkele minuten. Dit is zeldzaam in Gent.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De rustige, residentiële sfeer maakt Aaigem fijn voor honden die gestrest raken van drukke straten. Hier kun je ontspannen wandelen zonder constant op je hoede te zijn voor verkeer.",
+        "after": "De rustige, residentiële sfeer maakt Aaigem fijn voor wie rust zoekt. Je kunt ontspannen wandelen zonder constant op je hoede te zijn voor verkeer.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Dankzij 4 lokale supermarkten kun je snel hondenvoer halen als je voorraad opraakt. Het basisassortiment is voldoende voor de dagelijkse noden, grotere aankopen plan je bij Tom & Co.",
+        "after": "Dankzij 4 lokale supermarkten kun je snel basisbenodigdheden halen als je voorraad opraakt. Het basisassortiment is voldoende voor de dagelijkse noden, grotere aankopen plan je bij Tom & Co.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help anderen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "keywordScore": 16,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T11:00:00Z",
+    "qualityScore": 87,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "valueCards[4].description",
+        "before": "4 supermarkten in de buurt",
+        "after": "4 supermarkten in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag in Aaigem draait om rust, groen en eenvoud. Je stapt je voordeur uit en binnen enkele minuten loop je door een van de parken in de buurt. De ochtendwandeling voert je naar het Reigerspark of Guido Moonspark, en in het weekend trek je naar het Natuurpark Overmeers voor een langere tocht. Na de wandeling haal je verse broodjes bij de lokale bakker, en 's avonds maak je een rondje door de rustige straten. Het gebrek aan een hondenspeelweide in de wijk zelf voel je niet echt, dankzij de overvloed aan groen.",
+        "after": "Een typische dag in Aaigem draait om rust, groen en eenvoud. Je stapt je voordeur uit en binnen enkele minuten loop je door een van de parken in de wijk. De ochtendwandeling voert je naar het Reigerspark of Guido Moonspark, en in het weekend trek je naar het Natuurpark Overmeers voor een langere tocht. Na de wandeling haal je verse broodjes bij de lokale bakker, en 's avonds maak je een rondje door de rustige straten. Het gebrek aan een hondenspeelweide in de wijk zelf voel je niet echt, dankzij de overvloed aan groen.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen in deze wijk en help anderen de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help anderen de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Aaigem biedt een goede basis voor het dagelijks leven. De combinatie van dichtbijgelegen parken, een nabije dierenarts en voldoende voorzieningen voor boodschappen maakt het praktisch. Wat ontbreekt is een gespecialiseerde dierenwinkel op loopafstand en een officiële hondenspeelweide in de wijk zelf, maar met de 9 parken in de buurt en wat planning los je dat makkelijk op.",
+        "after": "Aaigem biedt een goede basis voor het dagelijks leven. De combinatie van dichtbijgelegen parken, een nabije dierenarts en voldoende voorzieningen voor boodschappen maakt het praktisch. Wat ontbreekt is een gespecialiseerde dierenwinkel op loopafstand en een officiële hondenspeelweide in de wijk zelf, maar met de 9 parken in de wijk en wat planning los je dat makkelijk op.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "vets.intro",
+        "before": "Voor medische zorg zit je uitstekend in Aaigem. Dierenartspraktijk Kat&Ko ligt op amper 5 minuten wandelen, wat zelfs bij spoedgevallen snel bereikbaar is. Daarnaast vind je Dr. Paul Panis op 11 minuten, en binnen een halfuur zijn er nog drie andere praktijken in de buurt.",
+        "after": "Voor medische zorg zit je uitstekend in Aaigem. Dierenartspraktijk Kat&Ko ligt op amper 5 minuten wandelen, wat zelfs bij spoedgevallen snel bereikbaar is. Daarnaast vind je Dr. Paul Panis op 11 minuten, en binnen een halfuur zijn er nog drie andere praktijken in de wijk.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "houses.intro",
+        "before": "Op zoek naar een woning in Aaigem? De wijk deelt postcode 9000 met andere Gentse buurten, dus filter op wijknaam om gericht te zoeken. Immoweb en Zimmo zijn goede startpunten.",
+        "after": "Op zoek naar een woning in Aaigem? De wijk deelt postcode 9000 met andere Gentse wijken, dus filter op wijknaam om gericht te zoeken. Immoweb en Zimmo zijn goede startpunten.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 7
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "valueCards[4].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "dailyLife.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "facilities.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "vets.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "houses.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "viervoeter",
+          "hond",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "buurtgevoel"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 6,
+        "localTipsFound": [
+          "Het Reigerspark ligt op 5 minuten",
+          "Guido Moonspark op 7 minuten",
+          "Natuurpark Overmeers op 12 minuten",
+          "Tom & Co aan de Martelaarslaan"
+        ],
+        "neighborhoodObservations": [
+          "rustige residentiële wijk",
+          "gemoedelijke sfeer",
+          "compacte bebouwing die toch ruimtelijk aanvoelt",
+          "veel rustiger en groener"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no pet store nearby"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

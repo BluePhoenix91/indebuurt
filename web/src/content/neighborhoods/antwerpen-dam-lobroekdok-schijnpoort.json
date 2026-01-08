@@ -1,0 +1,458 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T12:00:00Z",
+  "id": "antwerpen-dam-lobroekdok-schijnpoort",
+  "city": "Antwerpen",
+  "name": "Dam- Lobroekdok (Schijnpoort)",
+  "postalCode": "2060",
+  "subtitle": "Schijnpoort in Antwerpen: compact wonen aan het water met groene doorgangen — rustig havengebied voor baasjes",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 4201,
+  "labels": [
+    {
+      "text": "Waterfront",
+      "icon": "fa-solid fa-water"
+    },
+    {
+      "text": "Rustig wonen",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Industriële sfeer",
+      "icon": "fa-solid fa-industry"
+    }
+  ],
+  "intro": "Dam- Lobroekdok (Schijnpoort) is een kleinschalige woonwijk in het Antwerpse havengebied, waar je langs oude dokken en groene doorgangen woont. Met 4201 inwoners blijft het hier overzichtelijk en rustig — fijn als je de hectiek van het stadscentrum wilt vermijden zonder volledig naar de rand te verhuizen. Je woont hier tussen water en industrie, met een lokaal gevoel dat je niet snel vindt in drukkere wijken.\n\nVoor baasjes biedt deze wijk een praktische balans. Er zijn 4 kleine parken in de directe omgeving, waarvan enkele naamloze groenzones die je binnen een paar minuten wandelen bereikt. Officiële hondenspeelweiden zijn schaars: de dichtstbijzijnde omheinde terreinen liggen op 6 tot 8 minuten lopen, niet in de wijk zelf. Dat betekent dat je voor de dagelijkse wandeling vooral gebruik maakt van de havenomgeving en de groene doorgangen — fijn voor rustige rondes, maar zonder de levendigheid van een groot stadspark.\n\nEen belangrijk aandachtspunt is de afstand tot voorzieningen. Binnen de wijk vind je geen dierenarts of dierenwinkel. De dichtstbijzijnde dierenartspraktijk ligt op 15 minuten wandelen, richting het centrum. Voor medische spoedgevallen is dat iets om rekening mee te houden. Dierenwinkels zoals Antwerps Cichliden Center bereik je op 24 minuten te voet — voor de wekelijkse boodschappen is dat haalbaar, voor snelle aankopen minder praktisch. De drie lokale supermarkten hebben wel een beperkt aanbod, wat dagelijkse zaken vergemakkelijkt.\n\nDeze wijk past bij baasjes die van rust en ruimte houden, en die het niet erg vinden om iets verder te lopen voor gespecialiseerde zorg. De populatiedichtheid van 5991 inwoners per km² ligt hoger dan gemiddeld, maar doordat het gebied compact is en veel wateroppervlak kent, voelt het minder druk aan. Je woont hier met een gevoel van afzondering, ook al ligt het centrum relatief dichtbij.\n\nDe beperkte bereikbaarheid met openbaar vervoer is een ander punt: met 9 bushaltes en geen treinstation blijf je afhankelijker van de fiets of auto dan in meer centrale wijken. Voor wie een auto heeft en graag even de stad uit wil voor een uitgebreide wandeling, biedt dat juist flexibiliteit. De Sportpaleiswijk ligt op 505 meter afstand en heeft meer voorzieningen — handig als je combinatie zoekt.\n\nAls je kiest voor Schijnpoort, kies je bewust voor een rustige, compacte woonomgeving met industrieel karakter. Je accepteert dat niet alles binnen handbereik ligt, maar wint daarmee ruimte, overzicht en een unieke waterfront-sfeer die je elders in Antwerpen niet snel vindt.",
+  "coordinates": {
+    "lat": 51.23160884167042,
+    "lon": 4.432863946558363,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 omheinde terreinen nabij",
+      "detail": "Dichtstbijzijnde op 6 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "15 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde buiten wijk",
+      "detail": "Praktijk op 15 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "24 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Gespecialiseerde winkels verder",
+      "detail": "Antwerps Cichliden Center"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "1 min",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 kleine groenzones nabij",
+      "detail": "Naamloos park op 90 meter"
+    }
+  ],
+  "facilities": {
+    "intro": "Schijnpoort heeft een beperkt aanbod aan voorzieningen binnen de wijk. Dierenartsen en gespecialiseerde dierenwinkels vind je niet lokaal, maar wel binnen loop- of fietsafstand. Voor dagelijkse boodschappen kun je terecht bij de drie supermarkten in de wijk, die ook basisproducten voeren."
+  },
+  "dogParks": {
+    "intro": "Officiële hondenspeelweiden zijn niet direct in de wijk zelf te vinden. De dichtstbijzijnde omheinde terreinen liggen op 6 tot 8 minuten wandelen. Deze speelweiden zijn vaak naamloos en bieden ruimte voor loslopende honden, hoewel voorzieningen zoals drinkwater ontbreken. Voor de dagelijkse wandeling maak je vooral gebruik van de havenomgeving en de kleine groenzones.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Unnamed",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2271939,
+          "lon": 4.4327765
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Unnamed",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2264241,
+          "lon": 4.4290142
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Unnamed",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2289177,
+          "lon": 4.4309176
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie ligt op 15 minuten wandelen richting het centrum. Voor medische spoedgevallen is het verstandig om de afstand en bereikbaarheid van tevoren te checken, zodat je snel ter plaatse kunt zijn als dat nodig is.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts praktijk",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2262093,
+          "lon": 4.4174961
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts DAS",
+        "street": "Nassaustraat",
+        "streetNumber": "18A",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.230521,
+          "lon": 4.4050374
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Sinjan",
+        "street": "Ringlaan",
+        "streetNumber": "180",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "35 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2543585,
+          "lon": 4.4495427
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AniCura",
+        "street": "Borsbeeksebrug",
+        "streetNumber": "34",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "44 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1999622,
+          "lon": 4.4337817
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk, maar Antwerps Cichliden Center ligt op 24 minuten te voet. Voor de wekelijkse voorraad is dat haalbaar, maar voor snelle aankopen kun je beter terecht bij de supermarkten in de wijk, die ook een basisassortiment hebben.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Antwerps Cichliden Center",
+        "street": "Annuntiatenstraat",
+        "streetNumber": "16",
+        "municipality": "Antwerpen",
+        "postalCode": "2170",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.24693,
+          "lon": 4.4463608
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "KATshop",
+        "street": "Lange Koepoortstraat",
+        "streetNumber": "54",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2221272,
+          "lon": 4.4022574
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "pet à porter",
+        "street": "Schrijnwerkersstraat",
+        "streetNumber": "19",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2176989,
+          "lon": 4.4038982
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Pauw",
+        "street": "Oudevaartplaats",
+        "streetNumber": "55",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.213601,
+          "lon": 4.4094113
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Schijnpoort",
+    "intro": "Een typische dag in Schijnpoort draait om korte wandelingen door de havenomgeving en kleine groenzones. Je maakt gebruik van de rustige sfeer en de waterfront-ligging voor je dagelijkse routine, waarbij je de wat langere afstand tot voorzieningen accepteert in ruil voor ruimte en overzicht.",
+    "benefits": [
+      "Met 4 kleine parken binnen wandelafstand heb je altijd een groene plek voor de ochtendwandeling, ook al zijn ze niet groot. Het dichtstbijzijnde park ligt op slechts 90 meter van het wijkcentrum.",
+      "De rustige sfeer en lage mensendichtheid in de praktijk (door het wateroppervlak) zorgen ervoor dat je vaak ongestoord kunt wandelen, zonder drukke paden of veel andere honden.",
+      "Voor baasjes met een auto biedt de ligging flexibiliteit: je bereikt sneller grotere groengebieden buiten de stad en kunt uitgebreide wandelingen plannen zonder afhankelijk te zijn van de lokale voorzieningen.",
+      "De drie supermarkten in de wijk hebben basisproducten, wat dagelijkse boodschappen vergemakkelijkt zonder dat je telkens naar een gespecialiseerde winkel moet.",
+      "De nabijheid van de Sportpaleiswijk (505 meter) geeft je toegang tot meer voorzieningen en een levendiger leven in de wijk als je behoefte hebt aan meer afwisseling."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Schijnpoort telt 4201 inwoners en heeft een populatiedichtheid van 5991 inwoners per km². De mediaanprijs voor een woning ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 4201,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Schijnpoort? Filter op postcode 2060 om aanbod in deze wijk te vinden. De wijk deelt de postcode met andere gebieden in de omgeving, dus let goed op de straatnaam.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-sportpaleis",
+    "antwerpen-st-amandus-noordwijk",
+    "antwerpen-dambruggestraat-nstationsw",
+    "antwerpen-duivelshoek",
+    "antwerpen-t-eilandje"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T12:00:00Z",
+    "qualityScore": 93,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen aan het water in Schijnpoort: compact havengebied met groene doorgangen — praktisch voor baasjes die rust en nabijheid waarderen",
+        "after": "Schijnpoort in Antwerpen: compact wonen aan het water met groene doorgangen — rustig havengebied voor baasjes",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "De drie lokale supermarkten hebben wel een beperkt aanbod voor je viervoeter, wat dagelijkse zaken vergemakkelijkt.",
+        "after": "De drie lokale supermarkten hebben wel een beperkt aanbod, wat dagelijkse zaken vergemakkelijkt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Voor dagelijkse boodschappen kun je terecht bij de drie supermarkten in de buurt, die ook basisproducten voor je hond voeren.",
+        "after": "Voor dagelijkse boodschappen kun je terecht bij de drie supermarkten in de buurt, die ook basisproducten voeren.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor de wekelijkse voorraad is dat haalbaar, maar voor snelle aankopen kun je beter terecht bij de supermarkten in de buurt, die ook een basisassortiment voor je viervoeter hebben.",
+        "after": "Voor de wekelijkse voorraad is dat haalbaar, maar voor snelle aankopen kun je beter terecht bij de supermarkten in de buurt, die ook een basisassortiment hebben.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De drie supermarkten in de buurt hebben basisproducten voor je hond, wat dagelijkse boodschappen vergemakkelijkt zonder dat je telkens naar een gespecialiseerde winkel moet.",
+        "after": "De drie supermarkten in de buurt hebben basisproducten, wat dagelijkse boodschappen vergemakkelijkt zonder dat je telkens naar een gespecialiseerde winkel moet.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 25,
+      "keywordScore": 20,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 14,
+      "internalLinkingScore": 10
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T13:00:00Z",
+    "qualityScore": 85,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Met 4201 inwoners blijft het hier overzichtelijk en rustig — ideaal als je de hectiek van het stadscentrum wilt vermijden zonder volledig naar de rand te verhuizen. Je woont hier tussen water en industrie, met een lokaal buurtgevoel dat je niet snel vindt in drukkere wijken.",
+        "after": "Met 4201 inwoners blijft het hier overzichtelijk en rustig — fijn als je de hectiek van het stadscentrum wilt vermijden zonder volledig naar de rand te verhuizen. Je woont hier tussen water en industrie, met een lokaal gevoel dat je niet snel vindt in drukkere wijken.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Voor dagelijkse boodschappen kun je terecht bij de drie supermarkten in de buurt, die ook basisproducten voeren.",
+        "after": "Voor dagelijkse boodschappen kun je terecht bij de drie supermarkten in de wijk, die ook basisproducten voeren.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor de wekelijkse voorraad is dat haalbaar, maar voor snelle aankopen kun je beter terecht bij de supermarkten in de buurt, die ook een basisassortiment hebben.",
+        "after": "Voor de wekelijkse voorraad is dat haalbaar, maar voor snelle aankopen kun je beter terecht bij de supermarkten in de wijk, die ook een basisassortiment hebben.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De drie supermarkten in de buurt hebben basisproducten, wat dagelijkse boodschappen vergemakkelijkt zonder dat je telkens naar een gespecialiseerde winkel moet.",
+        "after": "De drie supermarkten in de wijk hebben basisproducten, wat dagelijkse boodschappen vergemakkelijkt zonder dat je telkens naar een gespecialiseerde winkel moet.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De nabijheid van de Sportpaleiswijk (505 meter) geeft je toegang tot meer voorzieningen en een levendiger buurtleven als je behoefte hebt aan meer afwisseling.",
+        "after": "De nabijheid van de Sportpaleiswijk (505 meter) geeft je toegang tot meer voorzieningen en een levendiger leven in de wijk als je behoefte hebt aan meer afwisseling.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 24,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 8
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurtgevoel",
+            "field": "intro",
+            "preferred": "wijk (exception: buurtgevoel is allowed)"
+          },
+          {
+            "term": "buurt",
+            "field": "facilities.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "petStores.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "dailyLife.benefits[3]",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurtleven",
+            "field": "dailyLife.benefits[4]",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "ideaal",
+            "field": "intro",
+            "preferred": "avoid marketing cliché"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "hond",
+          "viervoeter",
+          "wijk",
+          "wandeling",
+          "dierenarts",
+          "hondenspeelweiden"
+        ],
+        "allowedExceptionsUsed": []
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 5,
+        "localTipsFound": [
+          "richting het centrum",
+          "De Sportpaleiswijk ligt op 505 meter afstand"
+        ],
+        "neighborhoodObservations": [
+          "waar je langs oude dokken en groene doorgangen woont",
+          "met een lokaal gevoel dat je niet snel vindt in drukkere wijken",
+          "Je woont hier tussen water en industrie",
+          "de havenomgeving en de groene doorgangen"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.76,
+        "averageSentenceLength": 19.8,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog parks in neighborhood",
+          "no vet in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

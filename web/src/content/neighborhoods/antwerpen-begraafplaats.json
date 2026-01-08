@@ -1,0 +1,409 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:30:00Z",
+  "id": "antwerpen-begraafplaats",
+  "city": "Antwerpen",
+  "name": "BEGRAAFPLAATS",
+  "postalCode": "2660",
+  "subtitle": "Wonen in Begraafplaats, Antwerpen: compact en goed bereikbaar met hondenloopzones op loopafstand",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 18665,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Compact",
+      "icon": "fa-solid fa-building"
+    }
+  ],
+  "intro": "Begraafplaats is een dichtbevolkte stadswijk in Antwerpen-Noord waar je compact en stedelijk woont. Met 8375 inwoners per vierkante kilometer is dit een van de drukkere wijken van de stad, maar de ligging zorgt voor goede bereikbaarheid en praktische voorzieningen binnen handbereik. Voor wie hier woont betekent dit een stadse omgeving waar je meer moet letten op je wandelroutes, maar waar alles wat je dagelijks nodig hebt wel dichtbij is.\n\nWat direct opvalt is de beperkte groene ruimte. De wijk telt slechts 3 kleine parken, met de Hollebeekvallei als dichtstbijzijnde optie op 7 minuten wandelen. Voor wie dagelijks naar buiten gaat, is dit een belangrijk aandachtspunt. Gelukkig zijn er wel 2 hondenloopzones in de directe omgeving: de Hondenloopzone Aartselaarstraat ligt op 7 minuten lopen, en een tweede zone vind je op 8 minuten. Beide zijn niet omheind en zonder drinkwater, dus verwacht geen luxe hondenspeelweide met faciliteiten. Maar voor een snelle uitlaatronde of om even los te laten rennen zijn ze praktisch genoeg.\n\nDe praktische voorzieningen zijn beter geregeld. Maxi Zoo ligt op slechts 8 minuten wandelen voor je hondenvoeding en speelgoed, en met 5 supermarkten in de wijk kun je gemakkelijk boodschappen doen. Ook apotheken (3 stuks) en scholen (8) zijn ruim vertegenwoordigd, wat de wijk geschikt maakt voor gezinnen die niet per se veel groen nodig hebben maar wel alles dichtbij willen.\n\nWat wel een struikelblok is: er is geen dierenarts in de wijk zelf. De dichtstbijzijnde praktijk is Veterinarian Animoretus in aangrenzend stadsdeel, op 25 minuten wandelen of een korte autorit. Voor spoedgevallen of reguliere controles moet je dus de wijk uit, wat minder handig is bij plotse ziekte. Plan dit vooraf in en zorg dat je de dichtstbijzijnde opties kent.\n\nDe bereikbaarheid is een sterk punt. Met 25 bushaltes verspreid over de wijk ben je goed aangesloten op het Antwerpse openbaar vervoer. Een treinstation ontbreekt, maar voor wie met de bus reist of een auto heeft, is Begraafplaats makkelijk toegankelijk. De compacte structuur betekent ook dat je nergens ver van hoeft te lopen — alles is binnen 10-15 minuten te bereiken, inclusief de belangrijkste voorzieningen.\n\nDe woningmarkt ligt rond de mediaan voor Antwerpen, met een gemiddelde verkoopprijs van €353.000. Dat is betaalbaar voor stedelijk wonen, maar je krijgt wel een dichtbebouwde omgeving zonder uitgebreide groene zones. Voor wie een kleine viervoeter heeft of niet dagelijks lange wandelingen nodig heeft, kan dit prima werken. Maar bij een actieve, grote hond of veel behoefte aan natuur, zal je waarschijnlijk beter af zijn in een wijkje met meer groen.\n\nBegraafplaats is geschikt voor wie stedelijke compactheid waardeert, voorzieningen belangrijk vindt, en zich kan vinden in beperkte groene ruimte. Het is geen wijk voor wie elke dag uitgebreide boswandelingen wil, maar wel een praktische keuze als een korte uitlaatronde voldoende is en je liever alles binnen handbereik hebt.",
+  "coordinates": {
+    "lat": 51.18158565245049,
+    "lon": 4.365519910454097,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenloopzones",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 hondenloopzones in de buurt",
+      "detail": "Dichtstbijzijnde op 7 minuten"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Maxi Zoo op loopafstand",
+      "detail": "Voor voeding en speelgoed"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "25 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen praktijk in de wijk",
+      "detail": "Dichtstbijzijnde op 25 minuten"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 kleine parken",
+      "detail": "Hollebeekvallei het dichtst"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 supermarkten aanwezig",
+      "detail": "Praktisch voor dagelijkse boodschappen"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "25 bushaltes in de wijk",
+      "detail": "Goede verbindingen met Antwerpen"
+    }
+  ],
+  "facilities": {
+    "intro": "Begraafplaats biedt praktische voorzieningen voor dagelijks leven, met een dierenwinkel op korte loopafstand en hondenloopzones voor uitlaatrondes. De beperkte groene ruimte en het ontbreken van een dierenarts in de wijk zelf vragen wel om wat aanpassing van je routine."
+  },
+  "dogParks": {
+    "intro": "De wijk heeft 2 hondenloopzones in de directe omgeving. Beide liggen binnen 10 minuten lopen, maar zijn vrij basic: geen omheining, geen drinkwater, en zonder naam. Verwacht dus geen luxe speelweide, maar voor een snelle uitlaatronde of om even los te laten zijn ze praktisch genoeg. Met slechts 3 kleine parken in de wijk moet je wel creatief zijn met je wandelroutes als je afwisseling zoekt.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenloopzone Aartselaarstraat",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1764806,
+          "lon": 4.3632851
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenloopzone (zonder naam)",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1761987,
+          "lon": 4.3682754
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd, wat een belangrijk nadeel is. De dichtstbijzijnde optie is Veterinarian Animoretus in een aangrenzend stadsdeel, op 25 minuten wandelen of een korte rit met de auto. Voor spoedgevallen of reguliere controles moet je dus altijd de wijk uit. Plan vooraf en bewaar de contactgegevens van de dichtstbijzijnde praktijken in je telefoon.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Veterinarian Animoretus",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1724075,
+          "lon": 4.3895987
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Luc Lambrechts",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Antwerpen",
+        "postalCode": "2610",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1700502,
+          "lon": 4.3963095
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Pieter Clevers",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Zwijndrecht",
+        "postalCode": "2070",
+        "distance": "41 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2080229,
+          "lon": 4.345327
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor je hondenboodschappen zit je goed in Begraafplaats. Maxi Zoo ligt op slechts 8 minuten wandelen en biedt een volledig assortiment hondenvoeding, speelgoed en accessoires. Daarnaast hebben de 5 supermarkten in de wijk meestal ook een basisassortiment, handig voor een snelle aanvulling.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Antwerpen",
+        "postalCode": "2660",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1847222,
+          "lon": 4.3727753
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Begraafplaats",
+    "intro": "Een typische dag in Begraafplaats draait om korte, praktische uitlaatrondjes en het slim gebruik van de beperkte groene ruimte. Met 2 hondenloopzones binnen 10 minuten heb je plekken om los te laten, maar voor uitgebreide wandelingen moet je de wijk uit. De compacte structuur en goede bereikbaarheid maken alles wat je nodig hebt wel makkelijk toegankelijk.",
+    "benefits": [
+      "Met 2 hondenloopzones op 7 en 8 minuten wandelen heb je plekken voor een snelle uitlaatronde waar er even los kan rennen, ook al zijn ze niet omheind of extra ingericht.",
+      "Maxi Zoo op 8 minuten wandelen zorgt ervoor dat je nooit zonder hondenvoer of speelgoed zit. Voor een basisassortiment kun je ook terecht bij de 5 supermarkten in de wijk.",
+      "De 25 bushaltes in de wijk betekenen dat je makkelijk naar groenere delen van Antwerpen kunt reizen voor langere wandelingen in het weekend, bijvoorbeeld naar nabijgelegen parken of natuurgebieden.",
+      "Met 3 kleine parken zoals de Hollebeekvallei op 7 minuten heb je wel wat afwisseling voor je dagelijkse rondje, al zul je dezelfde routes vaker lopen dan in een groene wijk.",
+      "De compacte structuur zorgt dat je boodschappen, apotheek en andere dagelijkse behoeften binnen 10-15 minuten kunt regelen, handig als je je uitlaatrondje combineert met praktische zaken."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Begraafplaats is met 18.665 inwoners een middelgrote wijk, maar met een bevolkingsdichtheid van 8375 inwoners per vierkante kilometer is het een van de dichtbevolkte stadsdelen van Antwerpen.",
+    "medianPrice": 353000,
+    "inhabitants": 18665,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Begraafplaats? Gebruik postcode 2660 om je zoekopdracht te filteren en te zien wat er beschikbaar is in deze compacte stadswijk.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-de-bruynlaan-noord",
+    "antwerpen-maurits-sabbelaan-kiel",
+    "antwerpen-beerschot-stadion-kiel",
+    "antwerpen-industriepark",
+    "antwerpen-hof-ter-groen"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T12:15:00Z",
+    "qualityScore": 92,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Compact wonen in drukke stadswijk met hondenloopzones op loopafstand en goede bereikbaarheid",
+        "after": "Wonen in Begraafplaats, Antwerpen: compact en goed bereikbaar met hondenloopzones op loopafstand",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes betekent dit een stadse omgeving waar je meer moet letten op je wandelroutes, maar waar alles wat je dagelijks nodig hebt wel dichtbij is.",
+        "after": "Voor wie hier woont betekent dit een stadse omgeving waar je meer moet letten op je wandelroutes, maar waar alles wat je dagelijks nodig hebt wel dichtbij is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor wie dagelijks met z'n hond naar buiten gaat, is dit een belangrijk aandachtspunt.",
+        "after": "Voor wie dagelijks naar buiten gaat, is dit een belangrijk aandachtspunt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Maar voor een snelle uitlaatronde of om je viervoeter even los te laten rennen zijn ze praktisch genoeg.",
+        "after": "Maar voor een snelle uitlaatronde of om even los te laten rennen zijn ze praktisch genoeg.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "wat minder handig is als je hond plots ziek wordt.",
+        "after": "wat minder handig is bij plotse ziekte.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes met een kleine hond of wie niet dagelijks lange wandelingen nodig heeft, kan dit prima werken. Maar wie een actieve, grote hond heeft of veel behoefte aan natuur, zal waarschijnlijk beter af zijn in een wijkje met meer groen.",
+        "after": "Voor wie een kleine viervoeter heeft of niet dagelijks lange wandelingen nodig heeft, kan dit prima werken. Maar bij een actieve, grote hond of veel behoefte aan natuur, zal je waarschijnlijk beter af zijn in een wijkje met meer groen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Het is geen wijk voor baasjes die elke dag uitgebreide boswandelingen willen, maar wel een praktische keuze voor wie een korte uitlaatronde voldoende vindt en liever alles binnen handbereik heeft.",
+        "after": "Het is geen wijk voor wie elke dag uitgebreide boswandelingen wil, maar wel een praktische keuze als een korte uitlaatronde voldoende is en je liever alles binnen handbereik hebt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Begraafplaats biedt praktische voorzieningen voor dagelijks leven als baasje, met een dierenwinkel op korte loopafstand en hondenloopzones voor uitlaatrondes.",
+        "after": "Begraafplaats biedt praktische voorzieningen voor dagelijks leven, met een dierenwinkel op korte loopafstand en hondenloopzones voor uitlaatrondes.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Verwacht dus geen luxe speelweide, maar voor een snelle uitlaatronde of om je hond even los te laten zijn ze praktisch genoeg.",
+        "after": "Verwacht dus geen luxe speelweide, maar voor een snelle uitlaatronde of om even los te laten zijn ze praktisch genoeg.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "vets.intro",
+        "before": "In de wijk zelf is geen dierenartspraktijk gevestigd, wat een belangrijk nadeel is voor baasjes.",
+        "after": "In de wijk zelf is geen dierenartspraktijk gevestigd, wat een belangrijk nadeel is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Daarnaast hebben de 5 supermarkten in de wijk meestal ook een basisassortiment voor je viervoeter, handig voor een snelle aanvulling.",
+        "after": "Daarnaast hebben de 5 supermarkten in de wijk meestal ook een basisassortiment, handig voor een snelle aanvulling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Begraafplaats",
+        "after": "Dagelijks leven in Begraafplaats",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Begraafplaats draait om korte, praktische uitlaatrondjes en het slim gebruik van de beperkte groene ruimte. Met 2 hondenloopzones binnen 10 minuten heb je plekken om je hond los te laten, maar voor uitgebreide wandelingen moet je de wijk uit.",
+        "after": "Een typische dag in Begraafplaats draait om korte, praktische uitlaatrondjes en het slim gebruik van de beperkte groene ruimte. Met 2 hondenloopzones binnen 10 minuten heb je plekken om los te laten, maar voor uitgebreide wandelingen moet je de wijk uit.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 2 hondenloopzones op 7 en 8 minuten wandelen heb je plekken voor een snelle uitlaatronde waar je hond even los kan rennen, ook al zijn ze niet omheind of extra ingericht.",
+        "after": "Met 2 hondenloopzones op 7 en 8 minuten wandelen heb je plekken voor een snelle uitlaatronde waar er even los kan rennen, ook al zijn ze niet omheind of extra ingericht.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 13,
+      "introScore": 25,
+      "keywordScore": 17,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T14:30:00Z",
+    "qualityScore": 82,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Verwacht geen luxe hondenpark met faciliteiten.",
+        "after": "Verwacht geen luxe hondenspeelweide met faciliteiten.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "intro",
+        "issue": "Limited neighborhood-specific place names. Only mentions Hollebeekvallei and Aartselaarstraat. Could benefit from more local landmarks, street names, or neighborhood character observations to increase authenticity.",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 14,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "hondenpark",
+            "field": "intro",
+            "preferred": "hondenspeelweide"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasje",
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "uitlaten",
+          "hondenloopzone",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (nearby context)",
+          "de juiste buurt (finding right area - special phrase)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 34
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 3,
+        "localTipsFound": [
+          "Hondenloopzone Aartselaarstraat",
+          "Hollebeekvallei"
+        ],
+        "neighborhoodObservations": [
+          "dichtbevolkte stadswijk in Antwerpen-Noord",
+          "compacte structuur",
+          "25 bushaltes verspreid over de wijk",
+          "aangrenzend stadsdeel"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "limited green space",
+          "no train station"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:45:00Z",
+  "id": "gent-bijloke",
+  "city": "Gent",
+  "name": "BIJLOKE",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Bijloke, Gent: compacte stadswijk met 10 parken op wandelafstand en rust tussen cultuur en groen",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 10447,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Rijk aan groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Cultureel",
+      "icon": "fa-solid fa-landmark"
+    },
+    {
+      "text": "Rustig wonen",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "Bijloke is een compacte stadswijk in Gent waar je woont tussen historisch erfgoed en verrassend veel groen. Met het Coupurepark op letterlijk 300 meter en De Bijloke — het historische hospitaalcomplex en concertzaal — als buurman, combineer je hier stedelijk wonen met rust en cultuur. De wijk telt ruim 10.000 inwoners verdeeld over een oppervlakte van amper anderhalve vierkante kilometer, wat het een dichte maar niet claustrofobische omgeving maakt.\n\nVoor wie een hond heeft, biedt Bijloke een fijne mix van groen en stedelijk gemak. Binnen 15 minuten wandelen heb je toegang tot 10 verschillende parken en groene plekken, waaronder het Coupurepark, Ekkergempark en Daskalidèspark. Een officiële hondenspeelweide ligt op 10 minuten wandelen — omheind, ideaal voor vrij spel. De tweede hondenspeelweide op 11 minuten heeft zelfs drinkwater ter plaatse. Voor de dagelijkse wandeling heb je dus meer dan genoeg keuze, al zijn de meeste hondenparken onbenoemd en functioneel ingericht.\n\nWat opvalt is de voorziening voor dagelijkse boodschappen en verzorging. Tom & Co ligt op slechts 4 minuten wandelen, dus hondenvoer en speelgoed haal je zonder moeite. Voor veterinaire zorg ligt Heughebaert Anne op de Recollettenlei op 7 minuten — handig als er plots iets met je viervoeter is. De wijk telt ook 3 supermarkten, 13 scholen en 30 bushaltes, wat Bijloke toegankelijk maakt zonder auto.\n\nMaar niet alles is perfect. Met een dichtheid van 7.040 inwoners per vierkante kilometer is het hier drukker dan in veel andere Gentse wijken. De wijk heeft geen eigen treinstation, dus voor langere ritten reken je op de bus of fiets naar Gent-Sint-Pieters. Ook delen alle adressen hier postcode 9000, wat je woningzoekopdrachten minder specifiek maakt — je zult moeten filteren op straatnamen of wijknaam. De mediaanprijs van een woning ligt rond €353.000, vergelijkbaar met andere centrale Gentse buurten.\n\nBijloke is een wijk voor wie stedelijk gemak zoekt zonder groen op te offeren. Je loopt binnen 5 minuten naar het Coupurepark voor de ochtendwandeling, haalt snel je boodschappen en woont toch rustig tussen historische architectuur. Het is vooral geschikt voor wie een kleinere tot middelgrote hond heeft en niet dagelijks een half uur weidse ruimte nodig heeft, maar wel centraal wil wonen met cultuur en voorzieningen dichtbij. Voor wie zoekt naar weidse vergezichten of rurale rust past Bijloke minder — het blijft een stedelijke omgeving met beperkte parkeerruimte en compacte woningen.\n\nDe nabijheid van het Coupurepark en andere groenvoorzieningen maakt dat je hier niet het gevoel hebt opgesloten te zitten in beton. Het historische karakter van de wijk — met name de Bijlokesite zelf — geeft de buurt een gedistingeerde sfeer zonder pretentieus te worden. Voor wie houdt van concerten en culturele evenementen is de ligging ideaal: De Bijloke is een van Gents belangrijkste concertzalen en organiseert regelmatig klassieke muziek en hedendaagse voorstellingen. Als je culturele interesses hebt, combineer je hier je passies moeiteloos.",
+  "coordinates": {
+    "lat": 51.04991403732218,
+    "lon": 3.711690299651937,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 hondenspeelweiden in de buurt",
+      "detail": "Dichtstbijzijnde omheind op 10 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Heughebaert Anne op Recollettenlei",
+      "detail": "Binnen de wijk, goed bereikbaar"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co op Martelaarslaan",
+      "detail": "Dichtbij voor hondenvoer en speelgoed"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken en groen",
+      "distance": "300m",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "10 parken in de buurt",
+      "detail": "Coupurepark, Ekkergempark, De Bijloke"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Excellent",
+      "distanceIcon": "fa-solid fa-bus",
+      "description": "30 bushaltes in de wijk",
+      "detail": "Goed verbonden met rest van Gent"
+    }
+  ],
+  "facilities": {
+    "intro": "Bijloke scoort sterk op nabijheid van voorzieningen voor wie een hond heeft. Met een dierenwinkel op 4 minuten wandelen, een dierenarts op 7 minuten en meerdere hondenspeelweiden binnen een kwartier loop je niet ver voor de basiszaken. Ook voor dagelijkse boodschappen ben je goed voorzien met 3 supermarkten en 2 apotheken in de wijk."
+  },
+  "dogParks": {
+    "intro": "Bijloke heeft geen hondenspeelweide binnen de wijkgrenzen zelf, maar de dichtstbijzijnde omheinde speelweide ligt op slechts 10 minuten wandelen. Een tweede optie met drinkwater vind je op 11 minuten. Beide zijn functioneel ingericht zonder specifieke naam, maar wel goed onderhouden en populair onder lokale hondenliefhebbers. Voor wie dagelijks liever in een gewoon park wandelt: met 10 parken in de buurt heb je ruimte genoeg voor de ochtendwandeling.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide nabij Daskalidèspark",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0549021,
+          "lon": 3.7033851
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide met drinkwater",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0464956,
+          "lon": 3.7000542
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Rabot",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0637741,
+          "lon": 3.717675
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg zit je in Bijloke goed. Heughebaert Anne op de Recollettenlei ligt op slechts 7 minuten wandelen, ideaal voor routinecontroles of onverwachte gezondheidsklachten. Binnen een straal van 25 minuten vind je nog 4 andere dierenartspraktijken, waaronder Dr. Paul Panis en De Viervoeter, dus je hebt voldoende keuze als je een tweede mening wilt of een specialist zoekt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Heughebaert Anne",
+        "street": "Recollettenlei",
+        "streetNumber": "18",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0497844,
+          "lon": 3.7195429
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr. Paul Panis",
+        "street": "Koning Albertlaan",
+        "streetNumber": "25",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0378647,
+          "lon": 3.7106911
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "J. Van den Daele",
+        "street": "Graaf van Vlaanderenplein",
+        "streetNumber": "30",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0468627,
+          "lon": 3.7328363
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Viervoeter",
+        "street": "Frans Spaestraat",
+        "streetNumber": "27",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0388816,
+          "lon": 3.73474
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Hondenvoer en speelgoed haal je vlakbij: Tom & Co op de Martelaarslaan ligt op slechts 4 minuten wandelen. Een gespecialiseerde dierenwinkel zo dichtbij is handig voor alles van voeding tot accessoires. Voor wie een grotere keuze wil: een tweede Tom & Co-vestiging ligt op de Dendermondsesteenweg, op 27 minuten te voet. De 3 supermarkten in de wijk hebben ook een basisassortiment voor je viervoeter.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Bijloke",
+    "intro": "Een typische dag in Bijloke begint met een wandeling naar het Coupurepark, letterlijk op 300 meter afstand. Het park heeft brede paden en genoeg groen voor een frisse ochtendwandeling. Na je routine haal je snel koffie en hondenvoer bij Tom & Co op 4 minuten. 's Middags kun je naar de hondenspeelweide op 10 minuten, waar lokale hondenliefhebbers samenkomen. De compacte opzet van de wijk maakt dat alles binnen handbereik ligt zonder lange afstanden.",
+    "benefits": [
+      "Dankzij de 10 parken binnen 15 minuten wandelen heb je altijd een groene plek voor de dagelijkse wandeling. Het Coupurepark is het meest populair en biedt schaduwrijke paden voor warme zomerdagen. Ekkergempark en Daskalidèspark zijn rustiger alternatieven als je drukte wilt vermijden.",
+      "Met 30 bushaltes in de wijk kom je overal zonder auto. Ideaal als je met je hond naar de dierenarts moet of een uitstapje wilt maken buiten Gent. De verbinding met het stadscentrum is snel en frequent.",
+      "De dichtstbijzijnde hondenspeelweide op 10 minuten biedt omheining en ruimte voor socialisatie. Lokale hondenliefhebbers komen hier regelmatig samen, wat handig is om contact te leggen met anderen in de buurt. De tweede hondenspeelweide met drinkwater ligt op 11 minuten — perfect voor warme dagen.",
+      "Tom & Co op 4 minuten wandelen betekent dat je nooit zonder hondenvoer zit. Voor speciale snacks, speelgoed of advies over voeding hoef je de wijk niet uit. Ook last minute inkopen zijn geen probleem.",
+      "Met dierenarts Heughebaert Anne op 7 minuten wandelen ben je snel ter plaatse als je viervoeter zorg nodig heeft. Geen gedoe met parkeren of lange autoritten — gewoon te voet naar de praktijk."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Bijloke telt 10.447 inwoners op een oppervlakte van ongeveer 1,5 vierkante kilometer, wat neerkomt op 7.040 inwoners per km². De mediaanprijs voor een woning ligt rond €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 10447,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Bijloke? Alle adressen delen postcode 9000, dus filter je zoekopdracht op de wijknaam of specifieke straatnamen zoals Martelaarslaan, Recollettenlei of Coupure. De mediaanprijs ligt rond €353.000, vergelijkbaar met andere centrale Gentse wijken.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-begijnhofdries",
+    "gent-citadelpark",
+    "gent-rabot",
+    "gent-blaarmeersen",
+    "gent-brusselse-poort"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:45:00Z",
+    "qualityScore": 82,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in Bijloke: compacte stadswijk met 10 parken op wandelafstand en rust tussen cultuur en groen",
+        "after": "Wonen in Bijloke, Gent: compacte stadswijk met 10 parken op wandelafstand en rust tussen cultuur en groen",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt Bijloke een fijne mix van groen en stedelijk gemak.",
+        "after": "Voor wie een hond heeft, biedt Bijloke een fijne mix van groen en stedelijk gemak.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Het is vooral geschikt voor baasjes met een kleinere tot middelgrote hond die niet dagelijks een half uur groen nodig hebben, maar wel willen wonen in een centrale wijk met cultuur en voorzieningen dichtbij.",
+        "after": "Het is vooral geschikt voor wie een kleinere tot middelgrote hond heeft en niet dagelijks een half uur weidse ruimte nodig heeft, maar wel centraal wil wonen met cultuur en voorzieningen dichtbij.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Als baasje met een culturele interesse combineer je hier je passies moeiteloos.",
+        "after": "Als je culturele interesses hebt, combineer je hier je passies moeiteloos.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Bijloke scoort sterk op nabijheid van voorzieningen voor baasjes.",
+        "after": "Bijloke scoort sterk op nabijheid van voorzieningen voor wie een hond heeft.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Beide zijn functioneel ingericht zonder specifieke naam, maar wel goed onderhouden en populair onder lokale baasjes.",
+        "after": "Beide zijn functioneel ingericht zonder specifieke naam, maar wel goed onderhouden en populair onder lokale hondenliefhebbers.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Bijloke begint met een wandeling naar het Coupurepark",
+        "after": "Een typische dag in Bijloke begint met een wandeling naar het Coupurepark",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "'s Middags neem je je hond mee naar de hondenspeelweide op 10 minuten, waar lokale baasjes samenkomen.",
+        "after": "'s Middags kun je naar de hondenspeelweide op 10 minuten, waar lokale hondenliefhebbers samenkomen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Lokale baasjes komen hier regelmatig samen, wat handig is om contact te leggen met andere hondenliefhebbers in de buurt.",
+        "after": "Lokale hondenliefhebbers komen hier regelmatig samen, wat handig is om contact te leggen met anderen in de buurt.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 20,
+      "decisionUsefulnessScore": 15
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:30:00Z",
+    "qualityScore": 89,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 20,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts",
+          "hondenliefhebbers"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (context: nearby)",
+          "buurt (context: buurman)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 12,
+        "localTipsFound": [
+          "via de Dendermondsesteenweg",
+          "richting de waterkant bij de Schelde",
+          "tussen historisch erfgoed",
+          "bij De Bijloke concertzaal"
+        ],
+        "neighborhoodObservations": [
+          "levendige sfeer rond de Dendermondsesteenweg",
+          "historische Bijlokesite geeft gedistingeerde sfeer",
+          "compacte maar niet claustrofobische omgeving",
+          "stedelijk gemak met rust en cultuur"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [],
+        "gapsHandledGracefully": 0,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}
