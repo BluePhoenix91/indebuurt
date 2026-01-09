@@ -1,0 +1,264 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T15:45:00Z",
+  "id": "gent-bugten",
+  "city": "Gent",
+  "name": "Bugten",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Bugten Gent: rustige buitenwijk met groen binnen handbereik — praktisch voor dagelijkse wandelingen",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 2267,
+  "labels": [
+    {
+      "text": "Rustige woonwijk",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Buitengebied",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "Bugten is een rustige buitenwijk in het zuidwesten van Gent, met een kleinschalig karakter en een lage bevolkingsdichtheid van 747 inwoners per km². Voor wie rust en ruimte zoekt buiten het drukke stadscentrum, maar toch binnen de Gentse grenzen wil blijven, biedt deze wijk een interessante balans. Met 2267 inwoners is Bugten een van de kleinere wijken van Gent, wat direct voelbaar is in het karakter: meer ruimte om te ademen, minder drukte op straat.\n\nVoor wie een hond heeft, is de wijk een gemengd verhaal. Het goede nieuws: je hebt direct toegang tot groen. Rondom de wijk liggen verschillende kleine parken en groene plekken, waarvan de dichtstbijzijnde al op 6 minuten wandelen ligt. In totaal zijn er 4 parken binnen de wijk zelf, wat voldoende variatie biedt voor je dagelijkse rondjes. Het Natuurpark Overmeers, op ongeveer 15 minuten wandelen, is een grotere groene long waar je langere uitstaptjes kunt maken.\n\nHet minder goede nieuws: gespecialiseerde voorzieningen liggen niet direct om de hoek. In de wijk zelf vind je geen dierenarts, dierenwinkel of officiële hondenspeelweide. De dichtstbijzijnde dierenarts, Jana Meyers op de Kortrijksesteenweg, ligt op 15 minuten wandelen — dat is haalbaar voor controles, maar voor spoedgevallen moet je waarschijnlijk de auto pakken. Voor een hondenspeelweide ben je aangewezen op de omliggende wijken, met de dichtstbijzijnde op 24 minuten te voet.\n\nWat transport betreft, is Bugten redelijk aangesloten met 28 bushaltes verspreid over de wijk. Een treinstation is er niet in de directe omgeving, maar met de bus kom je makkelijk bij Gent-Sint-Pieters of het centrum. Voor de dagelijkse boodschappen is er 1 supermarkt in de wijk, dus je basisbehoeften zijn gedekt zonder ver te hoeven reizen.\n\nDe wijk is praktisch voor wie bereid is een stukje gemak in te ruilen voor rust en ruimte. Als je vooral behoefte hebt aan groene wandelruimte zonder omheining, en je vindt het niet erg om voor gespecialiseerde zorg wat verder te reizen, dan kan Bugten prima werken. Voor wie regelmatig naar de dierenarts moet, of voor wie een omheinde speelweide essentieel is, vraagt deze wijk meer planning en mobiliteit. De mediane huizenprijs van €353.000 ligt in lijn met het Gentse gemiddelde, wat Bugten ook financieel toegankelijker maakt dan sommige centrumwijken.\n\nBugten vraagt dus om bewuste keuzes: je krijgt rust, groen en ruimte, maar moet accepteren dat niet alles direct voor de deur ligt. Het is een wijk voor wie zelfstandigheid waardeert en bereid is daar wat extra inspanning voor te leveren.",
+  "coordinates": {
+    "lat": 51.02610644430482,
+    "lon": 3.686665787249705,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 parken in de wijk",
+      "detail": "Dichtstbijzijnde op 6 minuten"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "24 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen in de wijk zelf",
+      "detail": "Dichtstbijzijnde op 24 minuten"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "15 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen in de wijk zelf",
+      "detail": "Jana Meyers op 15 minuten"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "35 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co op 35 minuten",
+      "detail": "Supermarkt met basisassortiment"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "direct",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "28 bushaltes in de wijk",
+      "detail": "Goede aansluiting op centrum"
+    }
+  ],
+  "facilities": {
+    "intro": "Bugten biedt de basics voor het dagelijks leven — groen, boodschappen en openbaar vervoer — maar voor gespecialiseerde voorzieningen zoals een dierenarts of dierenwinkel moet je de wijk uit. Het vraagt om wat extra planning, maar met goede mobiliteit is alles bereikbaar."
+  },
+  "dogParks": {
+    "intro": "In Bugten zelf vind je geen officiële hondenspeelweide. De dichtstbijzijnde omheinde speelterreinen liggen in de aangrenzende wijken, op 24 tot 30 minuten wandelen. Dat is een flink stuk lopen voor een bezoek aan een hondenspeelweide. Gelukkig heb je wel toegang tot verschillende groene plekken en parken waar je je viervoeter vrij kunt laten bewegen, zij het zonder hekken.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde speelweide",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0413171,
+          "lon": 3.7006241
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde speelweide",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0152033,
+          "lon": 3.6622439
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde speelweide",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.033781,
+          "lon": 3.7181814
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde speelweide",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0464956,
+          "lon": 3.7000542
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde speelweide",
+        "distance": "35 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0207354,
+          "lon": 3.7259168
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Bugten zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Jana Meyers op de Kortrijksesteenweg in Sint-Denijs-Westrem, op 15 minuten wandelen. Voor spoedgevallen of als je auto nodig hebt, liggen er ook praktijken op 23 tot 27 minuten in de richting van het Gentse centrum.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Jana Meyers",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "1132",
+        "municipality": "Gent",
+        "postalCode": "9051",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0188576,
+          "lon": 3.6745676
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Kat&Ko",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0339439,
+          "lon": 3.7101744
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr. Paul Panis",
+        "street": "Koning Albertlaan",
+        "streetNumber": "25",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0378647,
+          "lon": 3.7106911
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Marty",
+        "street": "Heerweg-Noord",
+        "streetNumber": "88",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "38 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0066818,
+          "lon": 3.7173101
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Bugten. De dichtstbijzijnde Tom & Co ligt op de Martelaarslaan, op 35 minuten wandelen — dat is realistisch gezien alleen haalbaar met de fiets of auto. Voor dagelijkse spullen heeft de lokale supermarkt in de wijk wel een basisassortiment voer en accessoires.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "35 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Bugten",
+    "intro": "Een typische dag in Bugten draait vooral om rust en groene wandelingen. Je begint de ochtend met een rondje door een van de kleine parken in de wijk — op 6 minuten wandelen heb je al groen onder je voeten. Voor afwisseling kun je richting Natuurpark Overmeers, waar je op 15 minuten wat meer ruimte vindt. De wijk zelf is rustig genoeg voor ontspannen wandelingen zonder veel drukte of verkeer.",
+    "benefits": [
+      "Met 4 parken binnen de wijk heb je voldoende variatie voor je dagelijkse wandelrondes. De dichtstbijzijnde ligt op slechts 6 minuten wandelen, dus zelfs voor een snelle ochtendwandeling hoef je niet ver.",
+      "De lage bevolkingsdichtheid van 747 inwoners per km² betekent dat je weinig andere wandelaars tegenkomt en je viervoeter meer ruimte heeft om zich vrij te bewegen. Het is rustig op straat, wat fijn is voor gevoelige honden.",
+      "Met 28 bushaltes ben je goed aangesloten op de rest van Gent. Als je met je hond naar het centrum wilt of naar voorzieningen die verder liggen, is openbaar vervoer een optie — mits je hond comfortabel is in de bus.",
+      "Het Natuurpark Overmeers op 15 minuten wandelen biedt een mooie uitwijkmogelijkheid voor langere wandelingen in een natuurlijke setting, ideaal voor honden die van afwisseling houden.",
+      "De wijk heeft 1 supermarkt, dus voor basisbenodigdheden zoals hondenvoer hoef je niet ver te reizen. Voor gespecialiseerde producten moet je wel naar Tom & Co op 35 minuten, maar dat is met de fiets of auto goed te doen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Bugten is een kleinschalige wijk met 2267 inwoners en een lage dichtheid van 747 inwoners per km². De mediane huizenprijs ligt op €353.000, vergelijkbaar met het Gentse gemiddelde.",
+    "medianPrice": 353000,
+    "inhabitants": 2267,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Bugten? De wijk deelt postcode 9000 met andere Gentse wijken, dus filter bij je zoekopdracht op de wijknaam 'Bugten' om gericht te zoeken. Met een mediane prijs van €353.000 is de wijk financieel vergelijkbaar met andere buitenwijken van Gent.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-over-de-meersstraat",
+    "gent-paolalaan",
+    "gent-aaigem",
+    "gent-drie-sleutels",
+    "gent-assels"
+  ]
+}

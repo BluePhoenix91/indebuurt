@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T15:30:00Z",
+  "id": "gent-drie-sleutels",
+  "city": "Gent",
+  "name": "Drie Sleutels",
+  "postalCode": "9051",
+  "subtitle": "Wonen in Drie Sleutels: rustig aan de rand van Gent met groen op wandelafstand en omheinde hondenspeelweide op 6 min",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 3378,
+  "labels": [
+    {
+      "text": "Rustige wijk",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Woonomgeving",
+      "icon": "fa-solid fa-house-chimney"
+    }
+  ],
+  "intro": "Drie Sleutels is een rustige woonwijk aan de zuidwestelijke rand van Gent, tussen de Kortrijksesteenweg en de grens met Sint-Martens-Latem. Met zo'n 3.400 inwoners verspreid over een relatief groot gebied vind je hier de rust van een buitenwijk, maar met de voorzieningen van de stad binnen handbereik. De wijk kenmerkt zich door zijn lage bebouwingsdichtheid en groene uitstraling — ideaal als je ruimte en stilte zoekt, maar niet helemaal in de Gentse binnenstad wilt wonen.\n\nVoor je dagelijks leven met je hond biedt Drie Sleutels een fijne omgeving. Met 7 parken en groene zones binnen wandelafstand heb je meer dan genoeg ruimte voor je ochtend- en avondwandeling. De dichtstbijzijnde hondenspeelweide ligt op 6 minuten wandelen — een omheind terrein waar je viervoeter veilig los kan lopen en andere honden kan ontmoeten. Hoewel de weide geen naam heeft in OpenStreetMap, biedt het wel de basisvoorzieningen die je zoekt voor socialisatie en beweging.\n\nOp het vlak van medische zorg ben je goed af. Dierenarts Jana Meyers heeft haar praktijk in de Kortrijksesteenweg, op slechts 7 minuten wandelen van het centrum van de wijk. Voor spoedgevallen of gespecialiseerde zorg zijn er vier extra dierenartsen binnen bereik, al liggen die wat verder weg in De Pinte en andere omliggende gemeenten. Het is geruststellend om te weten dat de dichtstbijzijnde optie zo dichtbij is.\n\nEen eerlijke trade-off: voor specifieke hondenspullen moet je wat verder reizen. Er is geen dierenwinkel in de wijk zelf. De dichtstbijzijnde Maxi Zoo ligt in Sint-Martens-Latem, op 44 minuten wandelen (of een korte rit met de auto of fiets). Voor alledaagse benodigdheden kun je terecht bij de 4 supermarkten in de wijk, waar je vaak een basisassortiment aan hondenvoeding en speelgoed vindt. Voor grotere aankopen of gespecialiseerd voer plan je best een aparte trip.\n\nMobiliteit is een ander aandachtspunt. Drie Sleutels heeft geen treinstation, wat betekent dat je afhankelijk bent van de bus, fiets of auto om het Gentse centrum of andere steden te bereiken. Met 19 bushaltes verspreid over de wijk heb je wel degelijk openbaarvervoersopties, maar de frequentie en reistijd zijn niet te vergelijken met wijken dichter bij het centrum. Als je dagelijks moet pendelen voor werk, kan dit een uitdaging zijn. Voor wie vooral lokaal leeft en af en toe naar de stad gaat, is dit geen groot probleem.\n\nDrie Sleutels is een plek voor wie rust en ruimte waardeert boven stedelijke drukte. De lage bevolkingsdichtheid (999 inwoners per km²) betekent dat je niet in elkaars zakken zit en dat wandelingen aangenaam rustig zijn. De wijk heeft een residentieel karakter met vooral gezinswoningen en tuinen — geen bruisend uitgaansleven of cafés op elke hoek, maar wel buurtgevoel en stilte. Als je op zoek bent naar een plek waar je hond kan rennen zonder constant andere honden tegen te komen, waar je 's avonds een rustige wandeling kunt maken langs groene pleinen, en waar je niet ver hoeft te lopen voor de dierenarts, dan is Drie Sleutels een goede match.\n\nDe mediaanprijs voor een woning ligt op €353.000, wat in lijn ligt met het Gentse gemiddelde voor buitenwijken. Je krijgt hier meer ruimte voor je geld dan in het centrum, en de combinatie van groen, rust en bereikbaarheid maakt het aantrekkelijk voor jonge gezinnen en mensen die net uit een appartement willen.\n\nSamenvattend: Drie Sleutels is een rustige, groene woonwijk voor wie de rust van een buitenwijk zoekt met voldoende voorzieningen voor dagelijks leven met een hond. De nabijheid van een dierenarts, een omheinde speelweide en meerdere parken maakt het praktisch. De afwezigheid van een dierenwinkel en een treinstation vraagt wat planning, maar als je toch vaak met de auto of fiets onderweg bent, weegt dat minder zwaar. Ideaal voor wie rust en ruimte prioriteit geeft.",
+  "coordinates": {
+    "lat": 51.016101453965476,
+    "lon": 3.6684003820577327,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheinde speelweide",
+      "detail": "Dichtstbijzijnde op 6 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 praktijk in de wijk",
+      "detail": "Jana Meyers op 7 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "7 groene zones",
+      "detail": "Dichtstbijzijnde op 5 min"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 supermarkten in de wijk",
+      "detail": "Voor dagelijkse boodschappen"
+    }
+  ],
+  "facilities": {
+    "intro": "Drie Sleutels biedt een praktische basis voor het dagelijks leven met je hond. Met een dierenarts op 7 minuten wandelen, een omheinde hondenspeelweide op 6 minuten en 7 parken verspreid over de wijk heb je de essentiële voorzieningen binnen handbereik. Voor gespecialiseerde hondenspullen moet je iets verder reizen, maar voor de dagelijkse routine is alles aanwezig."
+  },
+  "dogParks": {
+    "intro": "In Drie Sleutels vind je één officiële hondenspeelweide op 6 minuten wandelen. Het terrein is omheind, wat betekent dat je viervoeter er veilig los kan lopen en met andere honden kan spelen. Hoewel de weide geen officiële naam heeft in OpenStreetMap, biedt het wel de basisvoorzieningen voor socialisatie en beweging. Voor afwisseling kun je terecht bij de 7 groene zones en parken in de wijk, waar je mooie wandelingen kunt maken.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Drie Sleutels",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0152033,
+          "lon": 3.6622439
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg ben je goed af in Drie Sleutels. Dierenarts Jana Meyers heeft haar praktijk in de Kortrijksesteenweg, op 7 minuten wandelen. Voor spoedgevallen of gespecialiseerde behandelingen zijn er extra dierenartsen in de omliggende gemeenten zoals AnimaPlus in De Pinte (33 minuten wandelen, maar goed bereikbaar met de auto).",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Jana Meyers",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "1132",
+        "municipality": "Gent",
+        "postalCode": "9051",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0188576,
+          "lon": 3.6745676
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AnimaPlus",
+        "street": "Grote Steenweg",
+        "streetNumber": "15-17",
+        "municipality": "De Pinte",
+        "postalCode": "9840",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9947067,
+          "lon": 3.6840865
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dokters van Vacht",
+        "street": "Koning Leopoldlaan",
+        "streetNumber": "14",
+        "municipality": "De Pinte",
+        "postalCode": "9840",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9936331,
+          "lon": 3.6523488
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bart Verstuyft",
+        "street": "Deinsesteenweg",
+        "streetNumber": "13",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "42 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0417527,
+          "lon": 3.6423883
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor gespecialiseerde hondenspullen moet je iets verder reizen. De dichtstbijzijnde dierenwinkel is Maxi Zoo in Sint-Martens-Latem, op 44 minuten wandelen (of een korte rit met de fiets of auto). Voor dagelijkse benodigdheden zoals hondenvoer en speelgoed hebben de meeste supermarkten in de wijk een basisassortiment. Voor grotere aankopen of specifiek voer is een aparte trip naar Maxi Zoo aan te raden.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "214",
+        "municipality": "Sint-Martens-Latem",
+        "postalCode": "9830",
+        "distance": "44 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0046153,
+          "lon": 3.621812
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Drie Sleutels",
+    "intro": "Een typische dag in Drie Sleutels draait om rust en ruimte. De lage bevolkingsdichtheid betekent dat wandelingen rustig en ontspannen zijn, zonder constante drukte van andere honden of mensen. 's Ochtends kun je een rondje maken door een van de 7 groene zones, en 's avonds staat de omheinde hondenspeelweide open voor een speelsessie. Met een dierenarts op 7 minuten wandelen en supermarkten binnen 8 minuten voor je dagelijkse boodschappen, is de logistiek eenvoudig.",
+    "benefits": [
+      "Met 7 parken en groene zones binnen wandelafstand heb je altijd een rustige plek voor de ochtendwandeling. De dichtstbijzijnde groene zone ligt op 5 minuten, ideaal voor een snelle uitlaatrondje voordat je naar je werk vertrekt.",
+      "De omheinde hondenspeelweide op 6 minuten wandelen is een veilige plek waar je viervoeter los kan lopen en met andere honden kan spelen. Vooral voor honden die graag socialiseren is dit een fijne optie zonder ver te hoeven reizen.",
+      "Dierenarts Jana Meyers in de Kortrijksesteenweg ligt op slechts 7 minuten wandelen. Voor routinecontroles, vaccinaties of kleine kwaaltjes hoef je niet ver te reizen, wat het leven een stuk eenvoudiger maakt.",
+      "De lage bevolkingsdichtheid (999 inwoners per km²) betekent rustige straten en minder verkeer. Ideaal voor nerveuze honden of wie van stilte houdt tijdens wandelingen.",
+      "Met 19 bushaltes verspreid over de wijk ben je goed verbonden met het Gentse centrum en omliggende gemeenten. Hoewel er geen treinstation is, zijn de busverbindingen voldoende voor wie niet dagelijks hoeft te pendelen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Drie Sleutels is een kleine, rustige woonwijk met 3.378 inwoners en een lage bevolkingsdichtheid van 999 per km². De mediaanprijs voor een woning ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 3378,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Drie Sleutels? De wijk heeft een eigen postcode (9051), wat het eenvoudig maakt om je zoekopdracht te filteren op vastgoedplatforms zoals Immoweb of Zimmo. De meeste woningen zijn gezinshuizen met tuinen, passend bij het rustige, groene karakter van de wijk.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-bugten",
+    "gent-paolalaan",
+    "gent-afsnee-centrum",
+    "gent-hoedjen",
+    "gent-keuzemeersen"
+  ]
+}

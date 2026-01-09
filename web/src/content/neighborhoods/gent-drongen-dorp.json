@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T16:15:00Z",
+  "id": "gent-drongen-dorp",
+  "city": "Gent",
+  "name": "Drongen Dorp",
+  "postalCode": "9031",
+  "subtitle": "Wonen in Drongen Dorp, Gent: rustiger dorpskern met groen op loopafstand en dierenarts nabij",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 1611,
+  "labels": [
+    {
+      "text": "Dorps karakter",
+      "icon": "fa-solid fa-house"
+    },
+    {
+      "text": "Rustige omgeving",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen nabij",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Drongen Dorp is de historische kern van Drongen, een deelgemeente aan de westrand van Gent. Met 1.611 inwoners en een lager tempo dan de stedelijke wijken vind je hier een dorpser karakter met groen op loopafstand. Voor wie rust en wandelmogelijkheden zoekt, biedt deze wijk een aantrekkelijke leefomgeving, al vraagt het wel om bereidheid om voor specifieke hondenfaciliteiten wat verder te gaan.\n\nWat meteen opvalt is de groene omgeving. Drie parken liggen binnen wandelbereik van het dorpscentrum, waarvan het dichtstbijzijnde op amper 3 minuten lopen. Die nabijheid van groen maakt de dagelijkse wandelingen gevarieerd en toegankelijk. Het recreatiedomein Blaarmeersen ligt op een kwartier lopen en biedt uitgestrekte wandelgebieden waar je uren kunt doorbrengen. Voor wie houdt van rustige routes door een meer villawijkachtige omgeving is Drongen Dorp een aantrekkelijke optie.\n\nDe trade-off zit hem in de hondenspecifieke voorzieningen. Binnen de wijk zelf is er geen hondenspeelweide — de dichtstbijzijnde omheinde speelterreinen liggen in andere Gentse deelwijken, op een half uur wandelen. Dat is haalbaar voor occasionele bezoeken, maar voor dagelijkse sociale contacten ben je aangewezen op de reguliere parken. Wel positief: er is een dierenarts op 8 minuten wandelen in de wijk zelf, en nog drie andere praktijken binnen redelijke afstand.\n\nHet compacte dorpscentrum heeft beperkte voorzieningen — 2 supermarkten, 2 apotheken, 8 bushaltes — maar dat past bij het dorpse karakter. Je moet voor gespecialiseerde zaken (zoals een dierenwinkel) verder kijken, maar de meeste dagelijkse boodschappen zijn dichtbij. Voor wie spullen nodig heeft, is een online bestelling of een rit naar een grotere winkel in Gent-centrum (op een kwartiertje met de wagen) de praktische oplossing.\n\nDrongen Dorp is vooral geschikt voor wie rust en groen waardeert, en niet per se een hondenspeelweide op elke hoek nodig heeft. Wie een actieve hond heeft die graag met soortgenoten speelt, zal vaker moeten uitwijken naar nabijgelegen wijken voor omheinde speelterreinen. Maar wie houdt van lange wandelingen in een groene, rustige setting en minder waarde hecht aan stedelijke voorzieningen, vindt hier een fijne leefomgeving. De bevolkingsdichtheid ligt met 1.397 inwoners per km² een stuk lager dan in het drukke Gentse centrum, wat bijdraagt aan de rustige sfeer.",
+  "coordinates": {
+    "lat": 51.04778138749809,
+    "lon": 3.6601329500499373,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken binnen bereik",
+      "detail": "Dichtstbijzijnde op 8 min"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "31 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 omheinde weiden in Gent",
+      "detail": "Dichtste op 31 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 parken nabij",
+      "detail": "Blaarmeersen op 23 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "—",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen in de wijk",
+      "detail": "Online of Gent-centrum"
+    }
+  ],
+  "facilities": {
+    "intro": "Drongen Dorp heeft een bescheiden maar functioneel aanbod aan voorzieningen. De focus ligt op rust en groen, met beperkte stedelijke faciliteiten. Voor hondengerelateerde zaken moet je vaak iets verder kijken, maar de dierenarts ligt gelukkig wel dichtbij."
+  },
+  "dogParks": {
+    "intro": "Een hondenspeelweide binnen de wijk zelf is er niet. De drie dichtstbijzijnde omheinde speelterreinen liggen in andere Gentse deelwijken, allemaal op ongeveer een half uur wandelen. Dat maakt ze geschikt voor weekenduitstapjes of geplande speelsessies, maar minder voor spontane dagelijkse bezoeken. De drie nabije parken in en rond de wijk bieden wel ruimte voor gewone wandelingen en ontmoetingen met andere honden aan de lijn.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (Gentbrugge/Ledeberg)",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0612926,
+          "lon": 3.6886939
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (Gentbrugge)",
+        "distance": "35 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0464956,
+          "lon": 3.7000542
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (Gentbrugge)",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0413171,
+          "lon": 3.7006241
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg zit je goed in Drongen Dorp. Dierenarts Inge Verboven ligt op 8 minuten wandelen, ideaal voor routinecontroles en vaccinaties. Binnen een straal van 25 minuten zijn er in totaal vier praktijken, wat voldoende keuze biedt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Inge Verboven",
+        "street": "Congregatiestraat",
+        "streetNumber": "12A",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0520524,
+          "lon": 3.6536824
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Hans Smet",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0584423,
+          "lon": 3.6591565
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bart Verstuyft",
+        "street": "Deinsesteenweg",
+        "streetNumber": "13",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0417527,
+          "lon": 3.6423883
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Harlekijn",
+        "street": "Varendriesstraat",
+        "streetNumber": "5",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0476244,
+          "lon": 3.6312444
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Drongen Dorp. Voor voer, speelgoed en andere benodigdheden kun je online bestellen of naar een Tom & Co of een soortgelijke keten in Gent-centrum rijden (ongeveer 15 minuten met de wagen). De lokale supermarkten hebben vaak een basisassortiment hondenvoer en snacks.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Drongen Dorp",
+    "intro": "Een typische dag in Drongen Dorp draait om rust, groen en flexibiliteit. De ochtendwandeling voert je naar een van de drie nabije parken, vaak rustig en met ruimte om te bewegen (waar toegestaan). Voor de avondwandeling kun je richting Blaarmeersen, een uitgestrekt recreatiedomein op 23 minuten lopen. De afwezigheid van hondenspeelweiden in de wijk vraagt om creativiteit — sociale contacten vind je vooral tijdens wandelingen in de parken of door eens per week naar een omheinde weide in een andere wijk te gaan.",
+    "benefits": [
+      "De drie parken binnen 15 minuten wandelen bieden gevarieerde routes voor dagelijkse wandelingen, van korte rondes voor regenachtige dagen tot langere tochten als je tijd hebt. Het dichtste park ligt op slechts 3 minuten, ideaal voor een snelle pauze.",
+      "Het recreatiedomein Blaarmeersen op 23 minuten lopen is een uitgelezen plek voor weekenduitstapjes met grote open ruimtes, waterpartijen en bospaden waar je uren kunt wandelen zonder dezelfde route twee keer te doen.",
+      "Met 1.397 inwoners per km² is het hier rustiger dan in het drukke Gentse centrum. Dat betekent minder verkeer, minder lawaai en meer ruimte op de wandelpaden — fijn voor wie niet goed tegen drukte kan.",
+      "De dierenarts op 8 minuten wandelen geeft gemoedsrust. Voor routinecontroles, vaccinaties of bij gezondheidsproblemen ben je snel ter plekke zonder afhankelijk te zijn van de auto.",
+      "Het dorpse karakter betekent minder stedelijke stress. Je wandelingen voeren je door villabuurten en langs groene zones, niet langs drukke winkelstraten of rondpunten. Voor wie van rust houdt is dat een voordeel."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Drongen Dorp is een kleine dorpskern met 1.611 inwoners en een bevolkingsdichtheid van 1.397 inwoners per km². De medianae huizenprijs in Gent ligt rond de €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 1611,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Drongen Dorp? Deze wijk heeft een eigen postcode (9031), wat het filteren op vastgoedplatforms zoals Immoweb of Zimmo eenvoudiger maakt. Let op: sommige woningen in 9031 liggen net buiten de dorpskern, dus controleer altijd de straatnaam.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-de-roos",
+    "gent-assels",
+    "gent-heilig-huizeken",
+    "gent-afsnee-centrum",
+    "gent-beekstraat-kouter"
+  ]
+}

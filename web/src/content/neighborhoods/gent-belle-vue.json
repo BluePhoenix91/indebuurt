@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T18:00:00Z",
+  "id": "gent-belle-vue",
+  "city": "Gent",
+  "name": "Belle Vue",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Belle Vue, Gent: stedelijk én verrassend groen met 21 parken op wandelafstand — praktisch voor je dagelijkse routine",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 9296,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Veel groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Hoge dichtheid",
+      "icon": "fa-solid fa-building"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    }
+  ],
+  "intro": "Belle Vue is een compacte stadswijk in Gent met een verrassende combinatie van stedelijke levendigheid en groene ruimte. Met 9.296 inwoners op iets meer dan een vierkante kilometer woon je hier middenin het bruisende stadsleven, maar met een kwartiertje wandelen bereik je 21 verschillende parken en groene plekken. Voor wie een hond heeft betekent dit dat je nooit ver hoeft te zoeken voor een wandeling — de dichtstbijzijnde groene ruimte ligt op amper 1 minuut stappen.\n\nWat Belle Vue bijzonder maakt, is de toegankelijkheid van voorzieningen. Je vindt hier 2 dierenartsen binnen de wijk zelf, met de dichtstbijzijnde praktijk op slechts 3 minuten wandelen. Dat is zeldzaam voor een stadswijk en geeft rust voor wie weet dat de dierenarts altijd snel bereikbaar is. Ook heb je toegang tot een hondenspeelweide op 4 minuten wandelen, al is deze niet omheind — iets om rekening mee te houden als je viervoeter graag los mag lopen. Voor de dagelijkse boodschappen kies je uit 5 supermarkten in de wijk, en met 18 bushaltes kom je gemakkelijk overal.\n\nDe keerzijde van deze centrale locatie is de dichtheid: met ruim 8.000 inwoners per vierkante kilometer is Belle Vue een van de dichtbevolkte wijken van Gent. Dat betekent meer drukte op straat, minder parkeerruimte en minder privacy dan je in een ruimere buitenwijk zou hebben. Ook is er geen treinstation in de wijk zelf, al is Gent-Dampoort op fietsafstand bereikbaar. Voor wie een actieve hond of een grote viervoeter heeft, kan de beperkte ruimte in een stedelijke omgeving soms voelen als een beperking — je zult vaker naar de rand van de wijk moeten voor echte uitloop.\n\nEen ander punt: gespecialiseerde dierenwinkels vind je niet in Belle Vue. De dichtstbijzijnde Tom & Co ligt op 24 minuten wandelen, wat voor de meeste mensen te ver is voor regelmatige bezoeken. De praktische oplossing is dat vrijwel alle supermarkten in de wijk een basisassortiment voor je hond hebben — handig voor voer en snacks, maar minder geschikt als je op zoek bent naar gespecialiseerd speelgoed of advies.\n\nDeze wijk is vooral geschikt voor wie houdt van stadsleven en graag alles op loopafstand wil hebben. Je hebt medische zorg dichtbij, voldoende groen voor wandelingen, en de dagelijkse boodschappen doe je zonder auto. Het is minder geschikt voor wie zoekt naar rust, ruimte of een eigen tuin, en voor wie een grote hond heeft die veel uitloop nodig heeft. Belle Vue vraagt om flexibiliteit en aanpassing aan het stedelijke ritme, maar biedt daar een rijkdom aan voorzieningen en sociale dynamiek voor terug.\n\nMet een mediane huizenprijs van €353.000 ligt Belle Vue in het middensegment voor Gent. De hoge dichtheid zorgt voor een levendige buurtdynamiek — je zult regelmatig andere hondenliefhebbers tegenkomen op je wandelingen, wat fijn kan zijn voor sociale contacten, maar soms ook voor drukke paden. De wijk heeft geen eigen postcode, wat betekent dat woningzoekers vaak ook andere delen van 9000 moeten bekijken om een volledig beeld te krijgen. Voor wie de stadse levensstijl omarmt en graag centraal woont, biedt Belle Vue een fijne balans tussen stedelijk gemak en groene ontsnappingsmogelijkheden.",
+  "coordinates": {
+    "lat": 51.03570927533863,
+    "lon": 3.741872529908767,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 hondenspeelweide nabij",
+      "detail": "Let op: niet omheind"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 dierenartsen in de wijk",
+      "detail": "Praktijk Botermarkt dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "24 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen winkel in de wijk",
+      "detail": "Tom & Co in Ledeberg"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "1 min",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "21 parken binnen 2 km",
+      "detail": "Ruime keuze voor wandelingen"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "Binnen bereik",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 supermarkten in de wijk",
+      "detail": "Praktisch voor dagelijkse boodschappen"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Binnen bereik",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "18 bushaltes in de wijk",
+      "detail": "Goede verbindingen door Gent"
+    }
+  ],
+  "facilities": {
+    "intro": "Belle Vue scoort sterk op basale voorzieningen voor wie met een hond woont. Met 2 dierenartsen binnen de wijk zelf zit je goed voor medische zorg, en de 21 parken in de omgeving geven voldoende variatie voor dagelijkse wandelingen. De wijk mist wel een gespecialiseerde dierenwinkel, maar de aanwezigheid van 5 supermarkten compenseert dat voor basis-benodigdheden."
+  },
+  "dogParks": {
+    "intro": "Belle Vue heeft 1 hondenspeelweide op 4 minuten wandelen, wat voor stedelijke omstandigheden prima bereikbaar is. Het nadeel is dat deze speelweide niet omheind is, dus voor honden die graag loslopen en goed luisteren is dit geschikt, maar voor jonge of onzekere honden kan dit beperkend zijn. Gelukkig zijn er wel 21 parken in de buurt waar je samen kunt wandelen, waaronder het nabijgelegen Moriaanpark en de Standaertsite.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Belle Vue",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0330089,
+          "lon": 3.74035
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg zit je goed in Belle Vue. Dierenartsenpraktijk Botermarkt ligt op slechts 3 minuten wandelen, wat uitzonderlijk dichtbij is. Ook Herbots en De Viervoeter zijn binnen 8 minuten te voet bereikbaar, wat betekent dat je voor spoedgevallen of controles nooit lang onderweg bent.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Botermarkt",
+        "street": "Hundelgemsesteenweg",
+        "streetNumber": "6",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "3 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0332212,
+          "lon": 3.7415122
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Herbots",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "35",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0410057,
+          "lon": 3.7425297
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Viervoeter",
+        "street": "Frans Spaestraat",
+        "streetNumber": "27",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0388816,
+          "lon": 3.73474
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Moscou",
+        "street": "Jules de Saint-Genoisstraat",
+        "streetNumber": "49A",
+        "municipality": "Gentbrugge",
+        "postalCode": "9050",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0301719,
+          "lon": 3.7593946
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Belle Vue zelf. De dichtstbijzijnde Tom & Co ligt in Ledeberg op 24 minuten wandelen, wat praktisch te ver is voor regelmatige bezoeken. De meeste mensen doen hun inkopen daarom online of combineren een bezoek aan de dierenwinkel met een autoritje. Voor dagelijkse benodigdheden zoals voer en snacks hebben de supermarkten in de wijk gelukkig een basisassortiment.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Belle Vue",
+    "intro": "Een typische dag met je hond in Belle Vue begint op straat — letterlijk. Met zoveel inwoners op een beperkte oppervlakte kom je altijd andere hondenliefhebbers tegen tijdens de ochtendwandeling, wat zorgt voor een hechte community. Het groen is dichtbij, maar je moet wel bewust kiezen welke route je neemt om drukte te vermijden, vooral in de ochtend- en avondspits. De stadse omgeving betekent ook dat je je hond vaker aan de lijn houdt en alert bent op verkeer, fietsen en andere honden.",
+    "benefits": [
+      "Met 21 parken binnen 2 kilometer heb je iedere dag een andere wandelroute. Het Moriaanpark en de Standaertsite zijn populair en bieden schaduwrijke paden, terwijl de kleinere groene plekken fijn zijn voor een snelle ronde. Variatie is hier geen probleem.",
+      "De nabijheid van 2 dierenartsen binnen de wijk — waarvan één op slechts 3 minuten — geeft een veilig gevoel. Als je viervoeter plots onwel is of je een vraag hebt, ben je zo ter plekke. Dat scheelt stress en reistijd.",
+      "Door de 18 bushaltes in de wijk kom je gemakkelijk bij grotere parken of natuurgebieden buiten Gent als je zin hebt in een langere uitstap. De Bourgoyen-Ossemeersen zijn bijvoorbeeld goed bereikbaar voor wie af en toe een uitgebreide wandeling wil.",
+      "De stedelijke omgeving zorgt ervoor dat je hond gewend raakt aan drukte, geluiden en verschillende prikkels. Voor honden die later regelmatig mee naar drukke plekken moeten, is dit socialisatievoordeel goud waard.",
+      "Boodschappen doen met je hond is makkelijk: de 5 supermarkten in de wijk betekenen dat je nooit ver hoeft te lopen, en de meeste winkels hebben een hondenvoerbak in het schap. Een dierenwinkel extra plannen is zelden nodig voor de basics.",
+      "De afwezigheid van een eigen tuin wordt gecompenseerd door de vele kleine groene pleinen en parken die letterlijk om de hoek liggen. Je hoeft geen lange wandeling te maken voordat je hond zich kan uitlaten — binnen een minuut sta je in het groen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Belle Vue telt 9.296 inwoners met een populatiedichtheid van 8.192 per vierkante kilometer — een van de dichtst bevolkte wijken in Gent. De mediane huizenprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 9296,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Belle Vue? Let op dat de wijk geen eigen postcode heeft — je deelt postcode 9000 met meerdere buurten. Filter bij je woningzoekopdracht daarom specifiek op de straatnamen in Belle Vue om gericht te zoeken.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-de-naeyerdreef",
+    "gent-brusselse-poort",
+    "gent-citadelpark",
+    "gent-merelbeke-station",
+    "gent-heernis"
+  ]
+}

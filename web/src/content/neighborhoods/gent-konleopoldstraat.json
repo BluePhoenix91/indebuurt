@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T13:00:00Z",
+  "id": "gent-konleopoldstraat",
+  "city": "Gent",
+  "name": "Kon.Leopoldstraat",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Kon.Leopoldstraat Gent: landelijk buitengebied met rust en ruimte voor lange wandelingen — voorzieningen op afstand",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 371,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Ruim en groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Beperkte voorzieningen",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "Kon.Leopoldstraat is een uitgestrekt, landelijk gebied aan de zuidwestelijke rand van Gent. Met amper 371 inwoners verspreid over 2,43 vierkante kilometer is dit een van de dunst bevolkte wijken van de stad — waar je meer kans maakt op een weiland dan op een buur. Voor wie zoekt naar rust, ruimte en lange wandelingen zonder drukke trottoirs biedt deze wijk precies dat: ongerepte ruimte en vrijheid. Maar die rust komt met een duidelijke afweging: voorzieningen zijn schaars tot afwezig.\n\nIn de wijk zelf vind je geen supermarkt, geen apotheek, geen dierenarts en geen school. Ook een hondenspeelweide binnen de wijkgrenzen is er niet. Wat je wel hebt, zijn uitgestrekte landbouwpercelen, kleinschalige woningclusters en een handvol bushaltes (5 in totaal) die je verbinden met het centrum van Gent en omliggende dorpen zoals Merelbeke. Dit is een wijk voor mensen die bewust kiezen voor afstand van de drukte, die een auto als vanzelfsprekend beschouwen en die hun hond liever meenemen naar groene ruimte buiten de stad dan naar een omheind speelterrein.\n\nWat betreft groen: er liggen 15 parken binnen 2 kilometer, waaronder het Liedermeerspark en Zonnebloempark, beide op ongeveer 17 minuten wandelen. De dichtstbijzijnde hondenspeelweide ligt op 16 minuten (ongeveer 1,3 kilometer), maar is niet omheind. Voor echte off-leash vrijheid rijd je naar een van de grotere hondenspeelweiden in Gent-centrum of richting de buitengebieden van Merelbeke. De ruimte om te wandelen is er meer dan genoeg — denk aan landwegen, dijken en onverharde paden — maar verwacht geen gebaande wandelroutes of gezellige hondenkoffiebarretjes.\n\nVoor medische zorg moet je de wijk uit. De dichtstbijzijnde dierenarts is Dierenarts Marty in Zwijnaarde, op 10 minuten wandelen (830 meter). Dat is nog te doen voor een routine-afspraak, maar voor spoedgevallen of intensievere begeleiding moet je rekenen op de auto. Dierenartspraktijk Thas ligt op 16 minuten, en voor gespecialiseerde zorg kun je terecht bij Wellopet in Merelbeke (29 minuten wandelen, beter met de auto).\n\nDierenvoeding en benodigdheden? Die haal je niet in de wijk. Er zijn geen dierenwinkels binnen redelijke loopafstand. De meeste mensen hier doen hun boodschappen in Merelbeke of Gent-centrum, waar supermarkten zoals Colruyt of Carrefour een basisassortiment hebben, of bestellen online bij Tom & Co of Medpets. Plan dus vooruit en zorg dat je voorraad op orde is.\n\nDit is een wijk voor wie houdt van stilte, die zelfvoorzienend wil zijn en die de auto niet als last maar als logische keuze ziet. Wie zoekt naar een compact, goed voorzien stadswijkje met alles binnen handbereik, kan hier beter niet terecht. Maar wie droomt van ochtendwandelingen door ongerepte velden, waar je hond vrij kan rennen zonder andere honden tegen te komen, en waar het geluid van vogels het straatrumoer vervangt — die vindt in Kon.Leopoldstraat precies die rust en ruimte.",
+  "coordinates": {
+    "lat": 51.009155439270344,
+    "lon": 3.7284631858038777,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "15 parken binnen 2 km",
+      "detail": "Liedermeerspark en Zonnebloempark nabij"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "16 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 hondenspeelweiden binnen 3 km",
+      "detail": "Geen omheind terrein, open ruimte"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dierenarts Marty in Zwijnaarde",
+      "detail": "Dichtsbijzijnde op 830 m"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Variabel",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 bushaltes",
+      "detail": "Verbinding naar Gent en Merelbeke"
+    }
+  ],
+  "facilities": {
+    "intro": "Kon.Leopoldstraat biedt weinig voorzieningen binnen de wijk zelf. Er zijn geen supermarkten, apotheken of scholen in de buurt. Voor dagelijkse boodschappen en diensten is een auto praktisch onmisbaar. De focus hier ligt op rust en ruimte, niet op gemak."
+  },
+  "dogParks": {
+    "intro": "Een officiële, omheinde hondenspeelweide vind je niet in de directe omgeving van Kon.Leopoldstraat. Wel liggen er 6 hondenspeelweiden binnen 3 kilometer, maar geen enkele is omheind of voorzien van voorzieningen zoals drinkwater. De dichtstbijzijnde ligt op 16 minuten wandelen. Voor echte off-leash vrijheid zoek je beter naar grotere hondenspeelweiden in Gent-centrum of rijd je naar buitengebieden waar meer ruimte is.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0207354,
+          "lon": 3.7259168
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0231235,
+          "lon": 3.7462904
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0056376,
+          "lon": 3.7633826
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9992683,
+          "lon": 3.7627393
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Kon.Leopoldstraat zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Dierenarts Marty in Zwijnaarde, op 10 minuten wandelen. Voor spoedgevallen of uitgebreidere zorg kun je terecht bij praktijken in Merelbeke of Gent-centrum, maar reken dan op de auto.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Marty",
+        "street": "Heerweg-Noord",
+        "streetNumber": "88",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0066818,
+          "lon": 3.7173101
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartspraktijk Thas",
+        "street": "Heerweg-Zuid",
+        "streetNumber": "9",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0025368,
+          "lon": 3.7139738
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Clos Fleuri",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Merelbeke",
+        "postalCode": "9820",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0053406,
+          "lon": 3.7491428
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Wellopet",
+        "street": "Fraterstraat",
+        "streetNumber": "111",
+        "municipality": "Merelbeke",
+        "postalCode": "9820",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.00313,
+          "lon": 3.7596242
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Kon.Leopoldstraat of directe omgeving. Voor hondenvoeding, speelgoed en benodigdheden rijd je naar Tom & Co of Pets Place in Gent of Merelbeke. De meeste mensen hier bestellen online of doen hun basisinkopen bij supermarkten buiten de wijk.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Kon.Leopoldstraat",
+    "intro": "Een typische dag in Kon.Leopoldstraat begint stil. Je stapt buiten en ziet velden, lucht en weinig verkeer. De ochtendwandeling voert over rustige landwegen, langs landbouwpercelen en kleinschalige bebouwing. Je komt weinig andere baasjes tegen — dit is geen wijk waar je snel een vast rondje met buurtgenoten maakt. Voor voorzieningen stap je in de auto, voor rust en ruimte stap je gewoon naar buiten.",
+    "benefits": [
+      "Met 15 parken binnen 2 kilometer heb je meer dan genoeg groene ruimte voor afwisselende wandelingen. Het Liedermeerspark en Zonnebloempark liggen op ongeveer 17 minuten wandelen en bieden schaduwrijke paden en open grasvelden.",
+      "De lage bevolkingsdichtheid (153 inwoners per vierkante kilometer) betekent dat je wandelingen rustig en ongestoord verlopen. Ideaal voor honden die nerveus worden van drukte of veel prikkels.",
+      "Voor medische zorg ligt Dierenarts Marty op slechts 10 minuten wandelen, wat nog net te doen is voor routine-afspraken. Voor spoedgevallen of gespecialiseerde zorg rijd je naar Merelbeke of Gent-centrum.",
+      "De 5 bushaltes bieden een basisverbinding naar Gent en Merelbeke, maar voor echte mobiliteit is een auto praktisch onmisbaar. Wie niet rijdt, moet rekening houden met beperkte flexibiliteit.",
+      "Dit is een wijk voor wie bewust kiest voor afstand van de drukte. Geen gezellige hondenkoffie, geen omheinde speelweide om de hoek — maar wel vrijheid, stilte en eindeloze ruimte om te lopen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Met slechts 371 inwoners op 2,43 vierkante kilometer is Kon.Leopoldstraat een van de dunst bevolkte wijken van Gent. De mediane woningprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 371,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Kon.Leopoldstraat? Filter op postcode 9000 om het aanbod te bekijken. Let op: deze wijk deelt de postcode met andere delen van Gent, dus check de straatnaam of kaartligging.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-akademisch-ziekenhuis",
+    "gent-t-schaarken",
+    "gent-merelbeke-station",
+    "gent-paolalaan",
+    "gent-hoedjen"
+  ]
+}

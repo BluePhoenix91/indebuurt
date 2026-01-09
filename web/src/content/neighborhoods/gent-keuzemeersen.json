@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T13:30:00Z",
+  "id": "gent-keuzemeersen",
+  "city": "Gent",
+  "name": "Keuzemeersen",
+  "postalCode": "9031",
+  "subtitle": "Keuzemeersen bij Gent: natuurgebied met wandelpaden langs de Leie — geen woonwijk, wel populair bij baasjes",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 0,
+  "labels": [
+    {
+      "text": "Natuurgebied",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Waterrijk",
+      "icon": "fa-solid fa-water"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "De Keuzemeersen zijn geen woonwijk, maar een uitgestrekt natuurgebied aan de rand van Gent, tussen de Leie en de Ringvaart. Dit voormalige overstromingsgebied is getransformeerd tot een groene long met wandelpaden, waterpartijen en open graslanden. Voor baasjes uit Drongen, Afsnee en omliggende wijken is dit een geliefd uitstapje voor langere wandelingen, vooral in het weekend of na het werk.\n\nWat je hier vindt is ruimte — veel ruimte. Geen drukke straten, geen winkels, geen woningen. Enkel natuur en water. De wandelpaden lopen langs de Leie en door het grasland, met voldoende ruimte voor je viervoeter om te rennen en te snuffelen. Op zonnige dagen zie je hier gezinnen picknicken, joggers trainen en mensen hun hond uitlaten. In de winter is het er stiller, met mist boven het water en modderige paden.\n\nDe Keuzemeersen zijn vooral interessant als je in een van de omliggende wijken woont — Drongen, Afsnee of het centrum van Gent — en op zoek bent naar een alternatief voor je dagelijkse parkenrondje. Met de auto ben je er vanuit het centrum in een kwartier. Met de fiets is het een fijne uitstap vanaf verschillende wijken. Te voet is het alleen haalbaar als je heel dicht in de buurt woont.\n\nWat je hier niet vindt: voorzieningen. Geen dierenartsen, geen dierenwinkels, geen hondenparken met omheining. De dichtstbijzijnde dierenarts staat in Drongen, op 17 minuten wandelen vanaf de rand van het gebied. Voor een hondenspeelweide moet je naar Gentbrugge of Mariakerke, beide zo'n half uur verderop. Supermarkten en andere voorzieningen liggen in de omliggende woonwijken.\n\nDe Keuzemeersen zijn dus geen plek om te wonen, maar wel een waardevol gebied om te bezoeken. Als je op zoek bent naar een wijk met goede voorzieningen én toegang tot groen, bekijk dan de omliggende wijken zoals Drongen-Dorp, Afsnee-Centrum of Heilig Huizeken. Deze woonwijken liggen op fietsafstand van de Keuzemeersen en bieden wél de dagelijkse voorzieningen die je nodig hebt.\n\nDe informatie op deze pagina is vooral bedoeld om te laten zien wat je in dit gebied kunt verwachten als je het bezoekt vanuit een andere wijk. De statistieken over woningprijzen verwijzen naar de gemeente Gent, omdat er in de Keuzemeersen zelf geen woningen staan. Als baasje zoek je waarschijnlijk een woonwijk met goede toegang tot natuur — en dan zijn de buurten rond de Keuzemeersen een betere keuze dan het gebied zelf.",
+  "coordinates": {
+    "lat": 51.029260352156214,
+    "lon": 3.640599460790093,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Groene wandelruimte",
+      "distance": "0 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Uitgestrekt natuurgebied",
+      "detail": "Open graslanden en waterkanten"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "27 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 omheinde speelweiden",
+      "detail": "Gentbrugge en Mariakerke"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken in de buurt",
+      "detail": "Dichtsbijzijnde in Drongen"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Extra parkruimte",
+      "distance": "20 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 extra parken in omgeving",
+      "detail": "Drongen en Afsnee"
+    }
+  ],
+  "facilities": {
+    "intro": "De Keuzemeersen zijn een natuurgebied zonder voorzieningen. Voor dierenartsen, dierenwinkels en hondenspeelweiden moet je naar de omliggende woonwijken zoals Drongen, Afsnee of Gentbrugge. Als je in één van die wijken woont, zijn de Keuzemeersen een fijne aanvulling op je lokale parken."
+  },
+  "dogParks": {
+    "intro": "In de Keuzemeersen zelf is geen hondenspeelweide, en dat past ook bij het karakter van het gebied — dit is open natuur, geen park met omheiningen. Voor een officiële hondenweide kun je naar Gentbrugge (27 minuten) of Mariakerke (32 minuten). De meeste baasjes die hier komen, zijn vooral op zoek naar ruimte om te wandelen, niet naar een omheind speelterrein.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Gentbrugge",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0152033,
+          "lon": 3.6622439
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Mariakerke",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0061531,
+          "lon": 3.6396207
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "De dichtstbijzijnde dierenarts ligt in Drongen, op 17 minuten wandelen vanaf de rand van de Keuzemeersen. Voor wie in de omliggende wijken woont is dat goed bereikbaar. Als je het gebied bezoekt voor een wandeling en je hond raakt gewond, houd er dan rekening mee dat je een flink stuk moet lopen of fietsen naar medische hulp.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bart Verstuyft",
+        "street": "Deinsesteenweg",
+        "streetNumber": "13",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0417527,
+          "lon": 3.6423883
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Harlekijn",
+        "street": "Varendriesstraat",
+        "streetNumber": "5",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0476244,
+          "lon": 3.6312444
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Jana Meyers",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "1132",
+        "municipality": "Gent",
+        "postalCode": "9051",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0188576,
+          "lon": 3.6745676
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Inge Verboven",
+        "street": "Congregatiestraat",
+        "streetNumber": "12A",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0520524,
+          "lon": 3.6536824
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Dierenwinkels vind je niet in dit natuurgebied. De dichtstbijzijnde gespecialiseerde winkels staan in Drongen-Dorp en in het centrum van Gent. Voor baasjes die hier regelmatig komen wandelen: neem vooraf wat je nodig hebt mee uit je eigen wijk. Supermarkten met een basisassortiment voor je viervoeter vind je in Drongen en Afsnee.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Bezoeken met je hond: de Keuzemeersen als uitstapje",
+    "intro": "De Keuzemeersen zijn geen woonwijk, dus een 'dagelijks leven' speelt zich hier niet af. Wel is dit een populaire bestemming voor wie op zoek is naar ruimte, rust en natuurlijke wandelpaden. Als je in Drongen, Afsnee of een andere nabijgelegen wijk woont, is dit een fijn alternatief voor het lokale park — vooral als je hond van lange wandelingen houdt.",
+    "benefits": [
+      "De open graslanden en waterkanten bieden veel ruimte voor je viervoeter om te rennen en te snuffelen, zonder de drukte van een stadspark. Ideaal voor honden die wat meer bewegingsvrijheid nodig hebben.",
+      "De wandelpaden langs de Leie zijn vlak en goed begaanbaar, geschikt voor alle seizoenen. In de zomer zoek je schaduw langs de waterkant, in de winter zijn de paden modderig maar altijd begaanbaar.",
+      "Het gebied is rustig en overzichtelijk, met weinig verkeer. Voor wie met jonge of angstige honden traint is dit een veilige plek om te oefenen en te socialiseren, zonder de prikkels van een drukke wijk.",
+      "De Keuzemeersen liggen op fietsafstand van meerdere Gentse wijken. Met de auto ben je er vanuit het centrum in een kwartier, met de fiets duurt het iets langer maar blijft het goed bereikbaar voor een weekendwandeling.",
+      "Als aanvulling op je lokale parken bieden de Keuzemeersen afwisseling. Niet voor elke dag, maar wel een fijne bestemming als je zin hebt in een langere wandeling met wat meer natuurgevoel."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je dit gebied?",
+    "intro": "Deel je ervaringen als baasje in de Keuzemeersen en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "De Keuzemeersen zijn een natuurgebied zonder inwoners of woningen. De mediaanprijs verwijst naar de gemeente Gent. Voor actuele woningprijzen bekijk je best de omliggende woonwijken zoals Drongen of Afsnee.",
+    "medianPrice": 353000,
+    "inhabitants": 0,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "In de Keuzemeersen staan geen woningen te koop — dit is een beschermd natuurgebied. Als je op zoek bent naar een woning met toegang tot dit groen, bekijk dan de omliggende wijken in postcode 9031 (Drongen) of nabijgelegen postcodes in Afsnee en Gentbrugge.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-afsnee-centrum",
+    "gent-heilig-huizeken",
+    "gent-drie-sleutels",
+    "gent-drongen-dorp",
+    "gent-assels"
+  ]
+}

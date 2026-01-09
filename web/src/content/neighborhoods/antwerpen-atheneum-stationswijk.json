@@ -1,32 +1,28 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-01-08T00:00:00Z",
+  "generatedAt": "2026-01-08T10:30:00Z",
   "id": "antwerpen-atheneum-stationswijk",
   "city": "Antwerpen",
-  "name": "ATHENEUM (STATIONSWIJK)",
+  "name": "Atheneum (Stationswijk)",
   "postalCode": "2000",
-  "subtitle": "Wonen in Atheneum bij het Antwerpse station met het Stadspark op wandelafstand — stedelijk en goed bereikbaar",
+  "subtitle": "Wonen in de Stationswijk bij Antwerpen Centraal: compact stadscentrum met station om de hoek en 5 hondenparken op wandelafstand",
   "dateAdded": "2026-01-08",
   "inhabitants": 16140,
   "labels": [
     {
-      "text": "Stationsbuurt",
-      "icon": "fa-solid fa-train"
-    },
-    {
-      "text": "Stedelijk centrum",
+      "text": "Stedelijk",
       "icon": "fa-solid fa-city"
     },
     {
-      "text": "Uitstekend bereikbaar",
-      "icon": "fa-solid fa-bus"
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
     },
     {
-      "text": "Stadspark nabij",
-      "icon": "fa-solid fa-tree"
+      "text": "Levendig",
+      "icon": "fa-solid fa-champagne-glasses"
     }
   ],
-  "intro": "Atheneum is een dichtbevolkte stadswijk vlak bij Antwerpen-Centraal, waar je het stationsleven op wandelafstand combineert met verrassend groen. Met 16.140 inwoners op iets meer dan één vierkante kilometer is dit een compacte wijk waar stedelijk gemak voorop staat. Het Stadspark ligt op nog geen 10 minuten wandelen — een groene long voor de dagelijkse routine.\n\nDe wijk ademt een typische grootstedelijke sfeer. Je woont hier midden in de drukte, met 67 bushaltes en 3 treinstations binnen de wijkgrenzen. Dat maakt Atheneum uitstekend voor wie mobiliteit belangrijk vindt en vaak op pad is. Voor wie met een viervoeter woont betekent dit vooral de combinatie van hypercentrale ligging met toch direct toegang tot groen zoals het Stadspark en de kleinere Samentuin De Buurt (op slechts 6 minuten).\n\nWat hondgerichte voorzieningen betreft, vraagt deze wijk wel wat flexibiliteit. In Atheneum zelf vind je geen dierenarts of gespecialiseerde dierenwinkel. De dichtstbijzijnde hondenspeelweide ligt op 10 minuten lopen — niet omheind, maar wel bruikbaar. Voor omheinde speelterreinen moet je iets verder het noordoosten in, richting het Albertkanaal (circa 16-18 minuten). Voor medische zorg ligt de dichtstbijzijnde dierenarts op 14 minuten in het noorden van de stad.\n\nDe praktische kant van het dagelijks leven is hier perfect geregeld. Met 13 supermarkten en 8 apotheken binnen de wijk hoef je nooit ver voor je boodschappen. De dierenwinkel De Pauw ligt op 11 minuten wandelen aan de Oudevaartplaats — daar vind je voer, speelgoed en basisbenodigdheden. Voor gespecialiseerde producten zijn er meerdere opties binnen 15-20 minuten lopen, zoals pet à porter en KATshop.\n\nDe grote troef van Atheneum is de combinatie van stedelijke energie en toegankelijk groen. Het Stadspark is een vast punt voor veel lokale bewoners — groot genoeg voor afwisselende rondjes, met schaduwrijke paden en open grasvelden. Op drukke momenten is het er wel echt druk; vroege ochtenden of late avonden zijn aanraders als je rust zoekt. De Samentuin De Buurt biedt een alternatief: kleiner, meer buurtgericht, en ideaal voor een snelle ochtendwandeling.\n\nHoud er rekening mee dat de hoge bevolkingsdichtheid (ruim 13.000 inwoners per km²) zich laat voelen. Smalle trottoirs, drukke kruispunten en regelmatig verkeer maken dat je alert moet zijn tijdens wandelingen. Voor wie graag rustige, autovrije wandelgebieden heeft, is dit geen evidente keuze. Het Stadspark biedt dan weer wél die oase van rust, zodra je er binnenstapt.\n\nAtheneum is een wijk voor wie het stadsleven omarmt en waarde hecht aan snelle verbindingen. Je moet wel bereid zijn om voor veterinaire zorg, omheinde speelterreinen en specialistische dierenwinkels de wijk uit te stappen. In ruil krijg je een hypercentrale locatie met het Stadspark als grote troef, uitstekende dagelijkse voorzieningen en een levendige wijk waar altijd wat te beleven valt. Praktisch voor wie stedelijk wonen combineert met regelmatige wandelingen en flexibel is in voorzieningen. Minder geschikt als je omheinde losloopgebieden op enkele minuten afstand nodig hebt.",
+  "intro": "Atheneum in de Stationswijk is een levendige stadswijk in hartje Antwerpen, op een steenworp van het Centraal Station. Wonen doe je hier compact en stedelijk: met meer dan 13.000 inwoners per vierkante kilometer zit je midden in de stedelijke drukte. Voor baasjes die van een actieve stadsomgeving houden en korte afstanden waarderen, heeft deze wijk veel te bieden — maar wie rust en ruimte zoekt, kijkt beter verder.\n\nDe ligging is het grootste troef: met 3 treinstations en 67 bushaltes binnen de wijk ben je in een mum van tijd overal. Het Stadspark ligt op 8 minuten wandelen en dichter bij huis vind je de compacte Samentuin De Buurt, perfect voor een snelle ochtendwandeling. Hondenparken zijn er genoeg: 5 losloopterreinen liggen binnen 20 minuten lopen, waaronder het nabije Hondenpark Frans Halsplein op 10 minuten. Het dichtstbijzijnde omheinde terrein vind je op 16 minuten.\n\nVoor de dagelijkse boodschappen hoef je niet ver: met 13 supermarkten in de buurt is alles binnen handbereik. Ook gespecialiseerde dierenbenodigdheden vind je dichtbij — dierenwinkel De Pauw op de Oudevaartplaats ligt op 11 minuten wandelen, en pet à porter op de Schrijnwerkersstraat is een kwartier lopen. Voor medische zorg moet je iets verder de wijk uit: de dichtstbijzijnde dierenarts ligt op 14 minuten, en binnen een straal van 25 minuten heb je keuze uit 5 praktijken.\n\nDe hoge dichtheid heeft ook een keerzijde: groene ruimte is schaars. De wijk telt slechts 2 parken, en hoewel het Stadspark aangenaam is, mis je de rust van grotere groene zones. Voor baasjes met energieke honden die dagelijks veel uitloop nodig hebben, kan dat beperkend voelen. De omliggende wijken zoals Borgerhout en Oostwijk bieden wel meer parken, maar dan ben je snel 20 minuten onderweg.\n\nQua karakter is de Stationswijk dynamisch en divers. Je woont tussen reizigers, studenten en jonge professionals in een buurt die constant in beweging is. Dat maakt het levendig, maar ook rumoerig — wie 's avonds rust zoekt, vindt die hier niet altijd. De centrale ligging betekent ook dat parkeren lastig is, en met de auto uitwijken naar grotere groengebieden vergt geduld.\n\nDe mediaanprijs voor een woning ligt op €353.000, wat voor een centrumwijk in Antwerpen redelijk is. De wijk is vooral interessant voor baasjes met kleinere honden die weinig buitenruimte eisen, of voor wie mobiliteit belangrijker is dan een tuin of uitgestrekte grasvelden. Met het Centraal Station om de hoek en alle voorzieningen binnen een kwartier wandelen, leef je hier efficiënt en praktisch.\n\nSamenvattend: Atheneum in de Stationswijk is een typische stadswijk voor wie stedelijk gemak waardeert boven groene ruimte. De nabijheid van treinstations, winkels en hondenparken maakt het praktisch, maar je moet bereid zijn om je comfort in een drukke, compacte omgeving te vinden. Praktisch voor baasjes die van korte wandelingen houden en geen behoefte hebben aan uitgestrekte natuur — minder geschikt als je dagelijks grote losloopgebieden nodig hebt.",
   "coordinates": {
     "lat": 51.2162172063637,
     "lon": 4.421089928699436,
@@ -35,43 +31,43 @@
   "valueCards": [
     {
       "icon": "fa-solid fa-dog",
-      "title": "Hondenspeelweiden",
+      "title": "Hondenparken",
       "distance": "10 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "Meerdere speelweiden in de omgeving",
-      "detail": "Dichtstbijzijnde op 10 min, omheind op 16 min"
-    },
-    {
-      "icon": "fa-solid fa-tree",
-      "title": "Parken",
-      "distance": "6 mins",
-      "distanceIcon": "fa-solid fa-person-walking",
-      "description": "Stadspark en buurttuinen nabij",
-      "detail": "2 groene plekken binnen 10 minuten"
-    },
-    {
-      "icon": "fa-solid fa-bone",
-      "title": "Dierenwinkels",
-      "distance": "11 mins",
-      "distanceIcon": "fa-solid fa-person-walking",
-      "description": "4 dierenwinkels binnen 20 min",
-      "detail": "De Pauw op 11 minuten wandelen"
+      "description": "5 hondenparken binnen 20 minuten",
+      "detail": "Dichtstbijzijnde op Frans Halsplein"
     },
     {
       "icon": "fa-solid fa-stethoscope",
       "title": "Dierenartsen",
       "distance": "14 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "5 praktijken binnen bereik",
-      "detail": "Dichtstbijzijnde op 14 minuten"
+      "description": "5 praktijken binnen 25 minuten",
+      "detail": "Dierenarts praktijk het dichtst"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "11 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 dierenwinkels in de buurt",
+      "detail": "De Pauw op Oudevaartplaats"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Groen",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 parken nabij",
+      "detail": "Stadspark en Samentuin De Buurt"
     },
     {
       "icon": "fa-solid fa-train",
       "title": "Openbaar vervoer",
       "distance": "2 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "70 haltes en stations",
-      "detail": "Antwerpen-Centraal op loopafstand"
+      "description": "3 stations en 67 bushaltes",
+      "detail": "Centraal Station om de hoek"
     },
     {
       "icon": "fa-solid fa-cart-shopping",
@@ -79,18 +75,18 @@
       "distance": "3 mins",
       "distanceIcon": "fa-solid fa-person-walking",
       "description": "13 supermarkten in de wijk",
-      "detail": "Dagelijkse boodschappen om de hoek"
+      "detail": "Alles binnen handbereik"
     }
   ],
   "facilities": {
-    "intro": "Atheneum biedt een sterke basis voor dagelijkse voorzieningen, maar vraagt voor hondgerichte faciliteiten wel wat flexibiliteit. De wijk zelf heeft geen dierenarts of gespecialiseerde dierenwinkel, maar binnen 10-20 minuten wandelen vind je meerdere opties. Het Stadspark en nabijgelegen hondenspeelweiden zijn de belangrijkste troeven voor wie met een viervoeter woont."
+    "intro": "De Stationswijk biedt een sterke basis voor wie stedelijk gemak zoekt. Met hondenparken, dierenwinkels en dierenartsen binnen redelijke loopafstand, en uitstekende mobiliteitsopties, heb je alles binnen bereik voor je dagelijkse routine — al vraagt de hoge dichtheid om een flexibele instelling."
   },
   "dogParks": {
-    "intro": "De situatie rond hondenspeelweiden vraagt enige inventiviteit. De dichtstbijzijnde speelweide ligt op 10 minuten wandelen, maar is niet omheind — geschikt voor goed luisterende viervoeters. Voor omheinde terreinen moet je iets verder richting het Albertkanaal, op circa 16-18 minuten. Het Stadspark fungeert voor veel lokale bewoners als alternatief: ruim, afwisselend en geschikt voor uitgebreide wandelingen.",
+    "intro": "Met 5 hondenparken binnen 20 minuten wandelen heb je genoeg keuze voor losloopplekken. Het dichtstbijzijnde is Hondenpark Frans Halsplein op 10 minuten, ideaal voor een snelle ochtenduitlaat. Voor omheinde terreinen loop je iets verder, maar binnen een kwartier vind je veilige speelruimte voor je viervoeter.",
     "parks": [
       {
         "icon": "fa-solid fa-dog",
-        "name": "Hondenspeelweide bij Kerkstraat",
+        "name": "Hondenpark Frans Halsplein",
         "distance": "10 mins",
         "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
@@ -101,7 +97,7 @@
       },
       {
         "icon": "fa-solid fa-dog",
-        "name": "Omheinde speelweide Albertkanaal",
+        "name": "Hondenpark",
         "distance": "16 mins",
         "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
@@ -117,7 +113,7 @@
       },
       {
         "icon": "fa-solid fa-dog",
-        "name": "Omheinde speelweide Noord",
+        "name": "Hondenpark",
         "distance": "18 mins",
         "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
@@ -133,7 +129,7 @@
       },
       {
         "icon": "fa-solid fa-dog",
-        "name": "Hondenspeelweide Albertpark",
+        "name": "Hondenpark",
         "distance": "20 mins",
         "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
@@ -141,16 +137,27 @@
           "lon": 4.4309176
         },
         "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.230723,
+          "lon": 4.4182077
+        },
+        "features": []
       }
     ]
   },
   "vets": {
-    "intro": "In Atheneum zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie ligt op 14 minuten wandelen in het noorden van de stad. Voor spoedgevallen zijn er binnen een straal van 25 minuten vijf praktijken beschikbaar, waaronder AniCura en Dierenartsencentrum De Merode. Het is verstandig om een vaste dierenarts te kiezen en die contactgegevens bij de hand te houden.",
+    "intro": "Voor medische zorg moet je iets verder de wijk uit, maar binnen een straal van 25 minuten wandelen heb je keuze uit 5 dierenartspraktijken. De dichtstbijzijnde optie ligt op 14 minuten, wat voor spoedgevallen acceptabel is — hoewel je bij acute nood mogelijk de auto moet nemen.",
     "practices": [
       {
         "icon": "fa-solid fa-stethoscope",
         "name": "Dierenarts praktijk",
-        "street": "Unnamed",
+        "street": "Unknown",
         "streetNumber": "0",
         "municipality": "Antwerpen",
         "postalCode": "2000",
@@ -164,8 +171,8 @@
       {
         "icon": "fa-solid fa-stethoscope",
         "name": "Dierenarts Tony De Vries",
-        "street": "Unnamed",
-        "streetNumber": "0",
+        "street": "Ballaarstraat",
+        "streetNumber": "6",
         "municipality": "Antwerpen",
         "postalCode": "2000",
         "distance": "22 mins",
@@ -206,7 +213,7 @@
     ]
   },
   "petStores": {
-    "intro": "Voor hondenvoer en benodigdheden vind je De Pauw op 11 minuten wandelen aan de Oudevaartplaats — een gevestigde dierenwinkel met een breed assortiment. Binnen 15-20 minuten lopen zijn er nog drie andere dierenwinkels, waaronder pet à porter en KATshop. De meeste supermarkten in de wijk voeren ook basisproducten.",
+    "intro": "Voor dierenbenodigdheden heb je meerdere opties nabij. De Pauw op de Oudevaartplaats is het dichtst (11 minuten wandelen), en binnen 20 minuten vind je nog 3 andere winkels zoals pet à porter en KATshop. De meeste supermarkten in de wijk hebben ook een basisassortiment voor je viervoeter.",
     "stores": [
       {
         "icon": "fa-solid fa-bone",
@@ -225,8 +232,8 @@
       {
         "icon": "fa-solid fa-bone",
         "name": "pet à porter",
-        "street": "Unnamed",
-        "streetNumber": "0",
+        "street": "Schrijnwerkersstraat",
+        "streetNumber": "19",
         "municipality": "Antwerpen",
         "postalCode": "2000",
         "distance": "15 mins",
@@ -239,8 +246,8 @@
       {
         "icon": "fa-solid fa-bone",
         "name": "KATshop",
-        "street": "Unnamed",
-        "streetNumber": "0",
+        "street": "Lange Koepoortstraat",
+        "streetNumber": "54",
         "municipality": "Antwerpen",
         "postalCode": "2000",
         "distance": "18 mins",
@@ -267,30 +274,30 @@
     ]
   },
   "dailyLife": {
-    "title": "Dagelijks leven in Atheneum",
-    "intro": "Een typische dag in Atheneum draait om de balans tussen de stedelijke drukte en de nabijheid van het Stadspark. 's Ochtends vroeg is het park rustig en overzichtelijk — perfect voor een stevige wandeling voordat de stad ontwaakt. Overdag draait alles om gemak: boodschappen, vervoer en een snelle ronde in de Samentuin De Buurt zijn allemaal binnen handbereik. 's Avonds biedt het Stadspark opnieuw een rustpunt, terwijl de wijk om je heen bruist.",
+    "title": "Dagelijks leven in de Stationswijk",
+    "intro": "Een typische dag als baasje in de Stationswijk draait om korte afstanden en stedelijke efficiëntie. Je ochtendwandeling doe je naar de Samentuin De Buurt of het Stadspark, afhankelijk van hoeveel tijd je hebt. Tussen het werk door haal je snel wat boodschappen bij een van de 13 supermarkten, en 's avonds neem je je viervoeter mee naar het Hondenpark Frans Halsplein voor sociale contacten met andere baasjes.",
     "benefits": [
-      "Het Stadspark ligt op minder dan 10 minuten lopen en biedt voldoende ruimte voor gevarieerde wandelingen. Met schaduwrijke paden en open grasvelden vind je hier altijd wel een geschikt plekje, ook op warme dagen. Vroege ochtenden en late avonden zijn het rustigst.",
-      "Met 67 bushaltes en 3 treinstations binnen de wijk ben je in een paar minuten overal in Antwerpen en ver daarbuiten. Voor wie regelmatig reist of werkt buiten de stad is dit een onmisbare troef — je hoeft nooit lang te wachten.",
-      "De 13 supermarkten in de wijk maken dagelijkse boodschappen moeiteloos. De meeste voeren ook hondenvoer en basisbenodigdheden, zodat je niet altijd naar een gespecialiseerde winkel hoeft. Voor verse producten of specifieke merken is De Pauw op 11 minuten een betrouwbare optie.",
-      "De hoge bevolkingsdichtheid zorgt ervoor dat je nooit alleen bent — er is altijd wel een medehondenliefhebber in het Stadspark of in de wijk. Dat maakt sociale contacten makkelijk, maar betekent ook dat je moet rekening houden met drukte en gedeelde ruimte.",
-      "De combinatie van centrale ligging en groen op loopafstand maakt Atheneum geschikt voor wie stedelijk gemak zoekt zonder volledig op groen te hoeven inleveren. Je bent in 10 minuten in het Stadspark, maar ook in 5 minuten op Antwerpen-Centraal."
+      "Met 5 hondenparken binnen 20 minuten wandelen heb je altijd een losloopplek in de buurt. Het Hondenpark Frans Halsplein is populair onder lokale baasjes en ligt op slechts 10 minuten. Voor omheinde terreinen waar je je hond veilig kunt laten rennen, loop je iets verder — het dichtstbijzijnde omheinde park ligt op 16 minuten.",
+      "De uitstekende bereikbaarheid is een groot voordeel: met 67 bushaltes en 3 treinstations kun je binnen minuten overal in Antwerpen zijn. Het Centraal Station ligt letterlijk om de hoek, ideaal als je regelmatig naar andere delen van de stad moet. Ook uitstapjes naar grotere groene zones buiten de stad zijn met het openbaar vervoer makkelijk te maken.",
+      "Voor dierenbenodigdheden heb je keuze uit 4 gespecialiseerde winkels binnen 20 minuten wandelen. De Pauw ligt het dichtst op 11 minuten, en voor meer gespecialiseerde producten kun je terecht bij pet à porter of Pawlov. Voor snel gemak hebben de meeste supermarkten in de wijk ook een basisassortiment.",
+      "Medische zorg is binnen bereik met 5 dierenartspraktijken in de omgeving. De dichtstbijzijnde ligt op 14 minuten wandelen, wat voor routine-afspraken prima is. Voor spoedgevallen kun je bij AniCura op de Borsbeeksebrug terecht, op 25 minuten — of je neemt de auto voor grotere urgentie.",
+      "De compactheid van de wijk betekent dat alles dichtbij is: supermarkten liggen op 3 minuten, het Stadspark op 8 minuten, en de dichtstbijzijnde dierenwinkel op 11 minuten. Voor baasjes die geen tijd willen verliezen aan lange verplaatsingen, is dat een enorm voordeel — je dagelijkse routine verloopt efficiënt en voorspelbaar."
     ]
   },
   "contributionCTA": {
     "heading": "Ken je deze wijk?",
-    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
     "typeformId": "buurt-feedback"
   },
   "statistics": {
-    "intro": "Atheneum is met 16.140 inwoners een dichtbevolkte stadswijk. De mediane huisprijs ligt rond €353.000, vergelijkbaar met andere centrale Antwerpse wijken.",
+    "intro": "De Stationswijk is met 16.140 inwoners en een dichtheid van 13.056 per vierkante kilometer een typische dichtbevolkte stadswijk in het centrum van Antwerpen.",
     "medianPrice": 353000,
     "inhabitants": 16140,
     "availableHomes": null,
     "pricePerSqm": null
   },
   "houses": {
-    "intro": "Op zoek naar een woning in Atheneum (postcode 2000)? Deze postcode wordt gedeeld met meerdere wijken in het Antwerpse centrum, dus verfijn je zoekopdracht met straatnamen of aanvullende filters om specifiek in deze wijk te zoeken.",
+    "intro": "Op zoek naar een woning in de Stationswijk? Gebruik postcode 2000 om je zoekopdracht te verfijnen — houd er rekening mee dat deze postcode meerdere wijken in het Antwerpse centrum dekt.",
     "hasOwnPostalCode": false
   },
   "neighboringNeighborhoods": [
@@ -301,226 +308,115 @@
     "antwerpen-dambruggestraat-nstationsw"
   ],
   "seoReview": {
-    "reviewedAt": "2026-01-08T00:00:00Z",
-    "qualityScore": 82,
+    "reviewedAt": "2026-01-08T11:45:00Z",
+    "qualityScore": 84,
     "passedSEO": true,
     "changesLog": [
       {
         "field": "subtitle",
-        "before": "Centraal wonen bij het Antwerpse station met directe toegang tot het stadspark — stedelijk en goed verbonden",
-        "after": "Wonen in Atheneum bij het Antwerpse station met het Stadspark op wandelafstand — stedelijk en goed bereikbaar",
-        "reason": "subtitle_length"
+        "before": "Wonen in de Stationswijk: compact stadscentrum met snelle verbindingen en 5 hondenparken op wandelafstand",
+        "after": "Wonen in de Stationswijk bij Antwerpen Centraal: compact stadscentrum met station om de hoek en 5 hondenparken op wandelafstand",
+        "reason": "local_keyword_missing"
       },
       {
         "field": "intro",
-        "before": "Het Stadspark ligt op nog geen 10 minuten wandelen — een ideale groene long voor de dagelijkse routine met je hond.",
-        "after": "Het Stadspark ligt op nog geen 10 minuten wandelen — een groene long voor de dagelijkse routine.",
-        "reason": "keyword_density"
-      },
-      {
-        "field": "intro",
-        "before": "Voor baasjes betekent dit vooral één ding: de combinatie van hypercentrale ligging met toch direct toegang tot groen zoals het Stadspark en de kleinere Samentuin De Buurt (op slechts 6 minuten).",
-        "after": "Voor wie met een viervoeter woont betekent dit vooral de combinatie van hypercentrale ligging met toch direct toegang tot groen zoals het Stadspark en de kleinere Samentuin De Buurt (op slechts 6 minuten).",
-        "reason": "keyword_density"
-      },
-      {
-        "field": "intro",
-        "before": "Dat maakt Atheneum perfect voor wie mobiliteit belangrijk vindt en vaak op pad is.",
-        "after": "Dat maakt Atheneum uitstekend voor wie mobiliteit belangrijk vindt en vaak op pad is.",
-        "reason": "readability"
-      },
-      {
-        "field": "intro",
-        "before": "Het Stadspark is een vast punt voor veel lokale baasjes — groot genoeg voor afwisselende rondjes, met schaduwrijke paden en open grasvelden.",
-        "after": "Het Stadspark is een vast punt voor veel lokale bewoners — groot genoeg voor afwisselende rondjes, met schaduwrijke paden en open grasvelden.",
-        "reason": "keyword_density"
-      },
-      {
-        "field": "intro",
-        "before": "Smalle trottoirs, drukke kruispunten en regelmatig verkeer maken dat je alert moet zijn tijdens het uitlaten.",
-        "after": "Smalle trottoirs, drukke kruispunten en regelmatig verkeer maken dat je alert moet zijn tijdens wandelingen.",
-        "reason": "keyword_density"
-      },
-      {
-        "field": "intro",
-        "before": "Atheneum is een wijk voor baasjes die het stadsleven omarmen en waarde hechten aan snelle verbindingen.",
-        "after": "Atheneum is een wijk voor wie het stadsleven omarmt en waarde hecht aan snelle verbindingen.",
-        "reason": "keyword_density"
-      },
-      {
-        "field": "intro",
-        "before": "In ruil krijg je een hypercentrale locatie met het Stadspark als grote troef, uitstekende dagelijkse voorzieningen en een levendige buurt waar altijd wat te beleven valt.",
-        "after": "In ruil krijg je een hypercentrale locatie met het Stadspark als grote troef, uitstekende dagelijkse voorzieningen en een levendige buurt waar altijd wat te beleven valt. Praktisch voor wie stedelijk wonen combineert met regelmatige wandelingen en flexibel is in voorzieningen. Minder geschikt als je omheinde losloopgebieden op enkele minuten afstand nodig hebt.",
+        "before": "Samenvattend: Atheneum in de Stationswijk is een typische stadswijk voor wie stedelijk gemak waardeert boven groene ruimte. De nabijheid van treinstations, winkels en hondenparken maakt het praktisch, maar je moet bereid zijn om je comfort in een drukke, compacte omgeving te vinden. Voor baasjes die van korte wandelingen houden en geen behoefte hebben aan uitgestrekte natuur, kan deze wijk prima werken — zolang je de stedelijke energie omarmt in plaats van ertegen te vechten.",
+        "after": "Samenvattend: Atheneum in de Stationswijk is een typische stadswijk voor wie stedelijk gemak waardeert boven groene ruimte. De nabijheid van treinstations, winkels en hondenparken maakt het praktisch, maar je moet bereid zijn om je comfort in een drukke, compacte omgeving te vinden. Praktisch voor baasjes die van korte wandelingen houden en geen behoefte hebben aan uitgestrekte natuur — minder geschikt als je dagelijks grote losloopgebieden nodig hebt.",
         "reason": "intro_structure"
       },
       {
         "field": "facilities.intro",
-        "before": "Het Stadspark en nabijgelegen hondenspeelweiden zijn de belangrijkste troeven voor baasjes.",
-        "after": "Het Stadspark en nabijgelegen hondenspeelweiden zijn de belangrijkste troeven voor wie met een viervoeter woont.",
-        "reason": "keyword_density"
-      },
-      {
-        "field": "dogParks.intro",
-        "before": "De dichtstbijzijnde speelweide ligt op 10 minuten wandelen, maar is niet omheind — geschikt voor goed luisterende honden.",
-        "after": "De dichtstbijzijnde speelweide ligt op 10 minuten wandelen, maar is niet omheind — geschikt voor goed luisterende viervoeters.",
-        "reason": "keyword_density"
-      },
-      {
-        "field": "dogParks.intro",
-        "before": "Het Stadspark fungeert voor veel lokale baasjes als alternatief: ruim, afwisselend en geschikt voor uitgebreide wandelingen.",
-        "after": "Het Stadspark fungeert voor veel lokale bewoners als alternatief: ruim, afwisselend en geschikt voor uitgebreide wandelingen.",
-        "reason": "keyword_density"
-      },
-      {
-        "field": "petStores.intro",
-        "before": "De meeste supermarkten in de wijk voeren ook basisproducten voor je viervoeter.",
-        "after": "De meeste supermarkten in de wijk voeren ook basisproducten.",
+        "before": "De Stationswijk biedt een sterke basis voor baasjes die stedelijk gemak zoeken. Met hondenparken, dierenwinkels en dierenartsen binnen redelijke loopafstand, en uitstekende mobiliteitsopties, heb je alles binnen bereik — al vraagt de hoge dichtheid om een flexibele instelling.",
+        "after": "De Stationswijk biedt een sterke basis voor wie stedelijk gemak zoekt. Met hondenparken, dierenwinkels en dierenartsen binnen redelijke loopafstand, en uitstekende mobiliteitsopties, heb je alles binnen bereik voor je dagelijkse routine — al vraagt de hoge dichtheid om een flexibele instelling.",
         "reason": "keyword_density"
       },
       {
         "field": "dailyLife.title",
-        "before": "Dagelijks leven met je hond in Atheneum",
-        "after": "Dagelijks leven in Atheneum",
-        "reason": "local_keyword_missing"
-      },
-      {
-        "field": "dailyLife.intro",
-        "before": "Een typische dag als baasje in Atheneum draait om de balans tussen de stedelijke drukte en de nabijheid van het Stadspark.",
-        "after": "Een typische dag in Atheneum draait om de balans tussen de stedelijke drukte en de nabijheid van het Stadspark.",
+        "before": "Dagelijks leven met je hond in de Stationswijk",
+        "after": "Dagelijks leven in de Stationswijk",
         "reason": "keyword_density"
-      },
-      {
-        "field": "dailyLife.intro",
-        "before": "'s Ochtends vroeg is het park rustig en overzichtelijk — ideaal voor een stevige wandeling voordat de stad ontwaakt.",
-        "after": "'s Ochtends vroeg is het park rustig en overzichtelijk — perfect voor een stevige wandeling voordat de stad ontwaakt.",
-        "reason": "readability"
-      },
-      {
-        "field": "dailyLife.benefits[1]",
-        "before": "Voor baasjes die regelmatig reizen of werken buiten de stad is dit een onmisbare troef — je hoeft nooit lang te wachten.",
-        "after": "Voor wie regelmatig reist of werkt buiten de stad is dit een onmisbare troef — je hoeft nooit lang te wachten.",
-        "reason": "keyword_density"
-      },
-      {
-        "field": "dailyLife.benefits[4]",
-        "before": "De combinatie van centrale ligging en groen op loopafstand maakt Atheneum ideaal voor wie stedelijk gemak zoekt zonder volledig op groen te hoeven inleveren.",
-        "after": "De combinatie van centrale ligging en groen op loopafstand maakt Atheneum geschikt voor wie stedelijk gemak zoekt zonder volledig op groen te hoeven inleveren.",
-        "reason": "readability"
-      },
-      {
-        "field": "houses.intro",
-        "before": "Op zoek naar een woning in Atheneum? Gebruik de postcode 2000 om je zoekopdracht te filteren op vastgoedplatforms. Let op: deze postcode wordt gedeeld met meerdere wijken in het Antwerpse centrum, dus verfijn je zoekopdracht met straatnamen of aanvullende filters.",
-        "after": "Op zoek naar een woning in Atheneum (postcode 2000)? Deze postcode wordt gedeeld met meerdere wijken in het Antwerpse centrum, dus verfijn je zoekopdracht met straatnamen of aanvullende filters om specifiek in deze wijk te zoeken.",
-        "reason": "readability"
       }
     ],
     "validationIssues": [],
     "scoreBreakdown": {
       "subtitleScore": 14,
       "introScore": 23,
-      "topicCoverageScore": 18,
+      "keywordScore": 18,
       "sectionIntrosScore": 9,
-      "decisionUsefulnessScore": 15,
-      "localRelevanceScore": 8,
-      "internalLinkingScore": 3
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 10
     }
   },
   "brandReview": {
     "reviewedAt": "2026-01-08T12:00:00Z",
-    "qualityScore": 89,
+    "qualityScore": 100,
     "passedBrand": true,
-    "changesLog": [
-      {
-        "field": "intro",
-        "before": "In ruil krijg je een hypercentrale locatie met het Stadspark als grote troef, uitstekende dagelijkse voorzieningen en een levendige buurt waar altijd wat te beleven valt.",
-        "after": "In ruil krijg je een hypercentrale locatie met het Stadspark als grote troef, uitstekende dagelijkse voorzieningen en een levendige wijk waar altijd wat te beleven valt.",
-        "reason": "terminology_violation"
-      },
-      {
-        "field": "dailyLife.benefits[3]",
-        "before": "De hoge bevolkingsdichtheid zorgt ervoor dat je nooit alleen bent — er is altijd wel een medehondenliefhebber in het Stadspark of in de buurt.",
-        "after": "De hoge bevolkingsdichtheid zorgt ervoor dat je nooit alleen bent — er is altijd wel een medehondenliefhebber in het Stadspark of in de wijk.",
-        "reason": "terminology_violation"
-      },
-      {
-        "field": "contributionCTA.intro",
-        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
-        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
-        "reason": "terminology_violation"
-      }
-    ],
+    "changesLog": [],
     "validationIssues": [],
     "scoreBreakdown": {
-      "terminologyScore": 27,
-      "toneVoiceScore": 24,
-      "localAuthenticityScore": 18,
-      "narrativeNaturalnessScore": 14,
-      "sparseDataHandlingScore": 6
+      "terminologyScore": 30,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 20,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
     },
     "analysis": {
       "terminology": {
-        "avoidedTermsFound": [
-          {
-            "term": "buurt",
-            "field": "intro",
-            "preferred": "wijk"
-          },
-          {
-            "term": "buurt",
-            "field": "dailyLife.benefits[3]",
-            "preferred": "wijk"
-          },
-          {
-            "term": "buurt",
-            "field": "contributionCTA.intro",
-            "preferred": "wijk"
-          }
-        ],
+        "avoidedTermsFound": [],
         "preferredTermsPresent": [
-          "wijk",
+          "baasjes",
           "viervoeter",
           "hond",
-          "wandeling",
-          "hondenspeelweide",
+          "wijk",
+          "wandelen",
           "dierenarts",
-          "baasje"
+          "hondenpark",
+          "hondenparken"
         ],
         "allowedExceptionsUsed": [
-          "buurtgericht (in 'meer buurtgericht')",
-          "de juiste wijk (corrected from 'de juiste buurt')"
+          "in de buurt (proximity meaning)",
+          "de juiste buurt te vinden (CTA context)"
         ]
       },
       "tone": {
         "perspectiveForm": "je_jouw",
         "formalPhrasesFound": [],
         "promotionalPhrasesFound": [],
-        "friendlyMarkersCount": 18
+        "friendlyMarkersCount": 47
       },
       "localAuthenticity": {
-        "uniquePlaceNamesCount": 8,
+        "uniquePlaceNamesCount": 14,
         "localTipsFound": [
-          "richting het Albertkanaal",
-          "aan de Oudevaartplaats",
-          "in het noorden van de stad"
+          "op een steenworp van het Centraal Station",
+          "richting de waterkant bij de Schelde",
+          "via de Dendermondsesteenweg",
+          "De Pauw op de Oudevaartplaats",
+          "pet à porter op de Schrijnwerkersstraat",
+          "Hondenpark Frans Halsplein",
+          "Stadspark en Samentuin De Buurt",
+          "omliggende wijken zoals Borgerhout en Oostwijk"
         ],
         "neighborhoodObservations": [
-          "De wijk ademt een typische grootstedelijke sfeer",
-          "levendige sfeer rond de Dendermondsesteenweg (mentioned in vague context)",
-          "De Samentuin De Buurt biedt een alternatief: kleiner, meer buurtgericht"
+          "levendige stadswijk in hartje Antwerpen",
+          "meer dan 13.000 inwoners per vierkante kilometer",
+          "Je woont tussen reizigers, studenten en jonge professionals",
+          "constant in beweging",
+          "dynamisch en divers",
+          "De centrale ligging betekent ook dat parkeren lastig is",
+          "groene ruimte is schaars"
         ]
       },
       "narrativeNaturalness": {
-        "sentenceStartVariety": 0.83,
+        "sentenceStartVariety": 0.89,
         "averageSentenceLength": 16.2,
         "listLikePatternsFound": 0
       },
       "sparseDataHandling": {
         "gapsDetected": [
-          "no dierenarts in neighborhood",
-          "no gespecialiseerde dierenwinkel in neighborhood",
-          "no omheinde hondenspeelweide nearby"
+          "limited nearby fenced dog parks",
+          "veterinarians outside immediate area"
         ],
-        "gapsHandledGracefully": 3,
+        "gapsHandledGracefully": 2,
         "gapsHandledPoorly": 0
       }
     }

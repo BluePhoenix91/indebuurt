@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-01-08T14:45:00Z",
+  "generatedAt": "2026-01-08T14:30:00Z",
   "id": "antwerpen-albertpark-oostwijk",
   "city": "Antwerpen",
-  "name": "ALBERTPARK (OOSTWIJK)",
-  "postalCode": "2000",
-  "subtitle": "Groene stadswijk tussen Zurenborg en de Ring in Antwerpen — compact wonen met 9 parken en snelle toegang tot het centrum",
+  "name": "Albertpark (Oostwijk)",
+  "postalCode": "2018",
+  "subtitle": "Wonen in Albertpark (Oostwijk) Antwerpen: stedelijk met 9 parken en 5 hondenspeelweiden op wandelafstand",
   "dateAdded": "2026-01-08",
   "inhabitants": 10916,
   "labels": [
@@ -14,36 +14,40 @@
       "icon": "fa-solid fa-city"
     },
     {
-      "text": "Groen",
+      "text": "Veel groen",
       "icon": "fa-solid fa-leaf"
     },
     {
       "text": "Goed bereikbaar",
       "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Levendig",
+      "icon": "fa-solid fa-champagne-glasses"
     }
   ],
-  "intro": "Albertpark, gelegen in Oostwijk, is een compacte stadswijk in Antwerpen tussen Zurenborg en de Ring. Met bijna 11.000 inwoners op een relatief klein oppervlak (9.275 inwoners per km²) voel je hier de stedelijke drukte, maar de aanwezigheid van 9 parken zorgt voor voldoende buitenruimte voor je dagelijkse routine. De wijk heeft een praktische ligging: het stadscentrum ligt dichtbij, en met 33 bushaltes in de buurt ben je goed bereikbaar.\n\nWat je wijk bijzonder maakt, is de groene versnippering. Een naamloos parkje op amper 90 meter van het geografische middelpunt, Tuin Provinciehuis, Hof Van Leysen, Domein Hertoghe en het Harmoniepark liggen allemaal binnen een kwartier wandelen. Het naamgevende Koning Albertpark — waarschijnlijk de reden waarom deze wijk haar naam draagt — ligt op 7 minuten lopen. Dit betekent variatie: elke dag een ander groen plekje, verschillende routes, wisselende ontmoetingen.\n\nEen kanttekening is de dichtheid. Met bijna 11.000 mensen op een relatief klein oppervlak is dit geen rustige buitenwijk. Je deelt voetpaden, parken en pleinen met veel buren. Dat vraagt iets van je hond: sociale dieren die gewend zijn aan drukte zullen zich hier prettiger voelen dan angstige of reactieve viervoeters. Een tweede punt is de hondenspeelweide: er is er één, op 7 minuten wandelen, maar het is een naamloos terrein zonder verdere details over oppervlakte of voorzieningen. Voor wie speciaal op zoek is naar een uitgebreide hondenweide met extra faciliteiten, is dit misschien niet de plek die je zoekt.\n\nWat veterinaire zorg betreft, zit je niet slecht maar ook niet perfect. De dichtstbijzijnde dierenarts (Dierenarts Tony De Vries) ligt op 7 minuten wandelen, een acceptabele afstand voor controlebezoeken. Binnen een straal van 10 minuten heb je toegang tot twee praktijken, wat voldoende keuze geeft. Dierenartsencentrum De Merode ligt op 10 minuten, en voor gespecialiseerde zorg is AniCura bereikbaar binnen 25 minuten te voet (of sneller met de auto of openbaar vervoer). Voor gespecialiseerde dierenwinkels moet je iets verder reizen: Pawlov op Kasteelpleinstraat ligt op 15 minuten wandelen, en De Pauw op Oudevaartplaats op 20 minuten. Dat is niet onoverkomelijk, maar voor dagelijkse aankopen zul je eerder terugvallen op de 5 supermarkten in de wijk, die vaak ook een basislijn aan hondenvoer en benodigdheden voeren.\n\nDe wijk trekt mensen aan die van stedelijke dynamiek houden maar ook willen kunnen ontsnappen naar groen. Jonge professionals, koppels en kleine gezinnen die de voordelen van Antwerpen willen zonder de drukte van het absolute stadscentrum. Praktisch voor wie stedelijk gemak combineert met dagelijkse wandelingen — minder geschikt als je grote losloopgebieden of uitgebreide rust zoekt.",
+  "intro": "Albertpark (Oostwijk) ligt in het zuidoosten van Antwerpen en combineert stedelijke levendigheid met opmerkelijk veel groen. De wijk draagt zijn naam niet voor niets: het Albertpark vormt het groene hart, maar met 9 parken verspreid over de wijk ben je nooit ver van een grasveld of een schaduwrijke wandeling. Voor wie een hond heeft is dat een sterke uitgangspositie, zeker met 5 omheinde hondenspeelweiden binnen bereik.\n\nMet bijna 11.000 inwoners op iets meer dan een vierkante kilometer is Albertpark een dichtbevolkte wijk. Dat merk je aan de levendige straten, de lokale winkels en de 33 bushaltes die je overal brengen. Het provinciehuis aan de Koningin Elisabethlei domineert de skyline, maar daarachter vind je rustige straten met bescheiden rijtjeshuizen en appartementsgebouwen. De wijk voelt compacter dan de brede lanen van Zuid, maar juist die nabijheid maakt alles goed bereikbaar: supermarkten, dierenartsen en speelweiden liggen allemaal binnen 15 minuten wandelen.\n\nVoor je viervoeter biedt Albertpark een uitstekende basis. De dichtstbijzijnde hondenlosloopzone ligt op 7 minuten in het Koning Albertpark, en binnen 10 minuten bereik je het Hondenpark Desguinlei. Alle vijf de speelweiden zijn omheind, wat vooral met jonge honden of nieuwkomers in de stad een geruststellend gevoel geeft. De 9 parken geven je daarnaast genoeg variatie voor de dagelijkse wandeling: van het compacte Groenzone Albertpark (letterlijk naast de deur) tot het grotere Park Spoor Noord op 10 minuten lopen.\n\nOp het vlak van dierenzorg zit je goed. Dierenarts Tony De Vries in de Ballaarstraat ligt op slechts 7 minuten wandelen, en het Dierenartsencentrum De Merode op de Grotesteenweg is binnen 10 minuten bereikbaar. Voor gespecialiseerde benodigdheden moet je iets verder: de dichtstbijzijnde dierenwinkel, Pawlov op het Kasteelplein, ligt op 15 minuten te voet. De meeste bewoners hier lossen dat op met een combinatie van online bestellingen en de basisartikelen die je bij de lokale supermarkten vindt.\n\nDe keerzijde van de centrale ligging is de drukte. Met bijna 9.300 inwoners per vierkante kilometer hoor je hier het stadsgeruis: verkeer op de grotere wegen, voetgangers op de stoep, en vooral in het weekend veel beweging rond de parken. Voor honden die gevoelig zijn voor prikkels vraagt dat wat gewenning. De hondenlosloopzones bieden dan uitkomst, omdat je daar de vrijheid van loslopen combineert met een overzichtelijke, afgebakende ruimte. Vroeg in de ochtend of laat op de avond is het overal een stuk rustiger.\n\nAlbertpark trekt een gemengd publiek: jonge gezinnen die de nabijheid van scholen waarderen, alleenstaanden die de centrale ligging combineren met betaalbare appartementen, en steeds meer baasjes die de groene buitenruimte ontdekken zonder de stadskern te verlaten. Met een mediane huisprijs van €353.000 zit je qua betaalbaarheid tussen de duurdere wijken zoals Zuid en de meer volkse buurten in het noorden. Dat maakt Albertpark interessant voor wie stedelijk wil wonen zonder de premiumprijs te betalen, maar toch voorzieningen en groen binnen handbereik wil.\n\nVoor wie van variatie houdt in wandelingen zit je hier goed. De Tuin Provinciehuis biedt een formele aanleg met brede paden, Hof Van Leysen heeft schaduwrijke hoekjes en het Harmoniepark combineert open gras met speeltuinen (handig als je kinderen en een hond hebt). Die diversiteit voorkomt dat je dagelijks hetzelfde rondje loopt, en je leert snel waar de rustige momenten zijn en waar je andere baasjes tegenkomt voor wat sociaal contact.\n\nWat Albertpark vooral kenmerkt, is de balans tussen groen en stedelijk. Je woont niet in een villabuurt met tuinen, maar ook niet in een volledig versteend stadscentrum. De parken vormen groene longen, de hondenspeelweiden geven je viervoeter de ruimte, en de nabijheid van alles houdt je dagelijkse logistiek eenvoudig. Praktisch voor wie stedelijk wil wonen maar toch buitenruimte zoekt voor dagelijkse wandelingen. Minder geschikt als je absolute rust zoekt — daarvoor zijn de buitenwijken van Antwerpen een betere match.",
   "coordinates": {
     "lat": 51.19928867283071,
     "lon": 4.405662922602526,
-    "zoom": 14
+    "zoom": 15
   },
   "valueCards": [
     {
       "icon": "fa-solid fa-dog",
-      "title": "Hondenspeelweide",
+      "title": "Hondenspeelweiden",
       "distance": "7 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "1 omheinde speelweide",
-      "detail": "Dichtstbijzijnde op 7 min"
+      "description": "5 omheinde speelweiden binnen bereik",
+      "detail": "Dichtstbijzijnde in Koning Albertpark"
     },
     {
       "icon": "fa-solid fa-stethoscope",
       "title": "Dierenartsen",
       "distance": "7 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "3 praktijken in de buurt",
-      "detail": "Dierenarts Tony De Vries"
+      "description": "3 praktijken binnen bereik",
+      "detail": "Tony De Vries op 7 min lopen"
     },
     {
       "icon": "fa-solid fa-bone",
@@ -51,42 +55,42 @@
       "distance": "15 mins",
       "distanceIcon": "fa-solid fa-person-walking",
       "description": "3 gespecialiseerde winkels",
-      "detail": "Pawlov op 15 min"
+      "detail": "Pawlov op Kasteelplein"
     },
     {
       "icon": "fa-solid fa-tree",
       "title": "Parken",
-      "distance": "2 mins",
+      "distance": "1 min",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "9 parken en groenzones",
-      "detail": "Koning Albertpark op 7 min"
+      "description": "9 parken verspreid over de wijk",
+      "detail": "Groenzone Albertpark naast de deur"
     },
     {
       "icon": "fa-solid fa-cart-shopping",
       "title": "Supermarkten",
-      "distance": "4 mins",
+      "distance": "5 mins",
       "distanceIcon": "fa-solid fa-person-walking",
       "description": "5 supermarkten in de wijk",
-      "detail": "Praktisch voor boodschappen"
+      "detail": "Voor boodschappen en basis hondenvoer"
     },
     {
       "icon": "fa-solid fa-bus",
       "title": "Openbaar vervoer",
-      "distance": "3 mins",
+      "distance": "2 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "33 bushaltes",
-      "detail": "Uitstekend bereikbaar"
+      "description": "33 bushaltes in de wijk",
+      "detail": "Uitstekend bereikbaar met bus"
     }
   ],
   "facilities": {
-    "intro": "Albertpark biedt een goede basis: een hondenspeelweide op wandelafstand, diverse parken voor variatie in je wandelroutes, en voldoende veterinaire opties binnen 10 minuten. Voor gespecialiseerde dierenwinkels moet je iets verder reizen, maar de nabijheid van supermarkten compenseert voor dagelijkse benodigdheden. De wijk scoort vooral sterk op bereikbaarheid en groene ruimte binnen een stedelijke context."
+    "intro": "Albertpark biedt een sterke basis voor wie met een hond woont: 5 omheinde hondenspeelweiden binnen 20 minuten wandelen, 3 dierenartspraktijken op korte afstand en 9 parken voor variatie in je dagelijkse wandeling. De wijk combineert groene ruimte met stedelijke voorzieningen, van supermarkten tot openbaar vervoer. Voor gespecialiseerde dierenbenodigdheden moet je iets verder lopen, maar de dichtstbijzijnde winkel ligt op 15 minuten."
   },
   "dogParks": {
-    "intro": "Er is één officiële hondenspeelweide in de wijk, op 7 minuten wandelen. Het is een omheind terrein, wat essentieel is voor veilig vrij spelen. Nadeel is dat het een naamloos terrein is zonder verdere informatie over faciliteiten zoals drinkwater, zitbanken of aparte zones voor grote en kleine honden. De 9 andere parken in de wijk bieden gelukkig voldoende alternatieven voor je dagelijkse wandelingen, met name Koning Albertpark, Harmoniepark en Vinkenpark die ruimte genoeg hebben voor langere uitstapjes.",
+    "intro": "Met 5 omheinde hondenspeelweiden binnen bereik zit je in Albertpark goed. De dichtstbijzijnde hondenlosloopzone ligt in het Koning Albertpark op 7 minuten wandelen, en binnen 10 minuten bereik je ook het Hondenpark Desguinlei. Alle speelweiden zijn omheind, wat vooral handig is voor honden die nog aan de stad wennen of voor wie de vrijheid van loslopen waardeert zonder zorgen over verkeer. De parken trekken vooral 's ochtends en in de late namiddag veel baasjes, wat ook sociaal contact oplevert.",
     "parks": [
       {
         "icon": "fa-solid fa-dog",
-        "name": "Hondenspeelweide Oostwijk",
+        "name": "Hondenlosloopzone",
         "distance": "7 mins",
         "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
@@ -99,17 +103,81 @@
             "icon": "fa-solid fa-fence"
           }
         ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Desguinlei",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1962547,
+          "lon": 4.3950541
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenlosloopzone",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.194974,
+          "lon": 4.3922467
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenlosloopzone",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1883568,
+          "lon": 4.4009487
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenlosloopzone",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1949815,
+          "lon": 4.4266149
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
       }
     ]
   },
   "vets": {
-    "intro": "Voor veterinaire zorg heb je drie praktijken binnen bereik. De dichtstbijzijnde, Dierenarts Tony De Vries, ligt op 7 minuten wandelen — een acceptabele afstand voor routinecontroles en vaccinaties. Binnen 10 minuten heb je toegang tot Dierenartsencentrum De Merode. Voor gespecialiseerde zorg of spoedgevallen is AniCura bereikbaar op 25 minuten te voet, maar met de auto of openbaar vervoer ben je daar sneller.",
+    "intro": "Voor medische zorg zit je in Albertpark goed. Dierenarts Tony De Vries in de Ballaarstraat ligt op 7 minuten wandelen, ideaal voor controles of kleinere zorgen. Het Dierenartsencentrum De Merode op de Grotesteenweg (10 minuten) biedt uitgebreidere faciliteiten. Voor spoedgevallen ligt AniCura op 25 minuten, of je neemt de auto voor sneller transport.",
     "practices": [
       {
         "icon": "fa-solid fa-stethoscope",
         "name": "Dierenarts Tony De Vries",
-        "street": "Unknown",
-        "streetNumber": "Unknown",
+        "street": "Ballaarstraat",
+        "streetNumber": "6",
         "municipality": "Antwerpen",
         "postalCode": "2000",
         "distance": "7 mins",
@@ -150,7 +218,7 @@
     ]
   },
   "petStores": {
-    "intro": "Gespecialiseerde dierenwinkels liggen iets verder van het centrum van de wijk: Pawlov op Kasteelpleinstraat is de dichtstbijzijnde op 15 minuten wandelen, gevolgd door De Pauw op 20 minuten. Voor basisbenodigdheden bieden de lokale supermarkten een praktisch alternatief met hondenvoer en snacks — voldoende voor dagelijkse aankopen.",
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. Pawlov op het Kasteelplein ligt op 15 minuten wandelen en biedt een ruim assortiment. De Pauw op de Oudevaartplaats (20 minuten) en pet à porter (26 minuten) zijn alternatieven. Veel bewoners hier combineren online bestellingen met de basisartikelen die bij de lokale supermarkten beschikbaar zijn — praktischer voor dagelijkse behoeften.",
     "stores": [
       {
         "icon": "fa-solid fa-bone",
@@ -183,8 +251,8 @@
       {
         "icon": "fa-solid fa-bone",
         "name": "pet à porter",
-        "street": "Unknown",
-        "streetNumber": "Unknown",
+        "street": "Schrijnwerkersstraat",
+        "streetNumber": "19",
         "municipality": "Antwerpen",
         "postalCode": "2000",
         "distance": "26 mins",
@@ -197,31 +265,33 @@
     ]
   },
   "dailyLife": {
-    "title": "Dagelijks leven met je hond in Albertpark",
-    "intro": "Een typische dag in Albertpark draait om variatie en stedelijk gemak. Met 9 parken binnen handbereik kies je elke ochtend een andere route voor de wandeling, waardoor je nieuwe geuren en andere viervoeters ontmoet. De dichtheid van de wijk betekent wel dat je voetpaden en parken deelt met veel buren, dus sociale honden die gewend zijn aan drukte voelen zich hier het prettigst. De goede bereikbaarheid via 33 bushaltes maakt het gemakkelijk om naar de dierenarts te gaan of verder weg te reizen voor grotere uitstapjes.",
+    "title": "Dagelijks leven in Albertpark (Oostwijk)",
+    "intro": "Een typische dag in Albertpark begint met een ochtendwandeling door een van de 9 parken in de wijk. De meeste bewoners kiezen 's ochtends voor de kleinere parken zoals Groenzone Albertpark of Hof Van Leysen, omdat die rustig zijn en snel bereikbaar. In de namiddag trek je naar een van de 5 hondenspeelweiden voor sociale interactie en loslopen. De combinatie van compacte groene ruimtes en omheinde speelzones maakt het dagelijkse ritme voorspelbaar en overzichtelijk, ideaal voor wie structuur waardeert.",
     "benefits": [
-      "Met 9 parken binnen een straal van 7 minuten wandelen heb je een uitgebreide keuze aan groene plekken voor de dagelijkse wandeling. Koning Albertpark is het grote centrale park dat sociale ontmoetingen mogelijk maakt, terwijl kleinere parken zoals Hof Van Leysen en Domein Hertoghe rustiger zijn voor een snelle ochtendronde.",
-      "De hondenspeelweide op 7 minuten wandelen biedt een omheind terrein waar je viervoeter veilig kan loslopen en spelen met andere honden. Praktisch voor sociale honden die energie moeten kwijtraken. Het ontbreken van verdere faciliteiten betekent wel dat je zelf water en speelgoed moet meenemen.",
-      "Voor veterinaire zorg ben je goed bediend met drie praktijken binnen 25 minuten wandelen. Dierenarts Tony De Vries op 7 minuten is praktisch voor routinebezoeken, en voor spoedgevallen of gespecialiseerde zorg heb je AniCura bereikbaar. Met de auto of bus ben je daar nog sneller.",
-      "De 5 supermarkten in de wijk zijn handig voor dagelijkse boodschappen en leveren vaak ook basishondenvoer en snacks. Voor gespecialiseerd voer of speelgoed moet je naar Pawlov of De Pauw, wat een kwartiertje lopen vraagt, maar dat kan je combineren met andere boodschappen in de wijk.",
-      "Met 33 bushaltes in de wijk ben je uitstekend verbonden met de rest van Antwerpen. Dat maakt het gemakkelijk om naar hondentrainingen elders te reizen, grotere natuurgebieden te bezoeken voor lange wandelingen, of gewoon flexibel te zijn zonder auto."
+      "Dankzij de 9 parken binnen 10 minuten wandelen heb je altijd variatie in je routes. Groenzone Albertpark ligt naast de deur voor een snelle ochtendrondje, terwijl Park Spoor Noord op 10 minuten meer ruimte biedt voor langere wandelingen. Hof Van Leysen heeft schaduwrijke paden, fijn op warme zomerdagen.",
+      "Met 5 omheinde hondenspeelweiden binnen 20 minuten bereik geef je je viervoeter regelmatig de vrijheid om los te lopen zonder zorgen over verkeer. De speelweide in het Koning Albertpark (7 minuten) trekt veel lokale baasjes, wat sociaal contact oplevert. Vroeg in de ochtend heb je de plek vaak voor jezelf.",
+      "De nabijheid van 3 dierenartspraktijken binnen 10 minuten wandelen geeft rust: voor controles, vaccinaties of onverwachte zorgen hoef je niet ver. Dierenarts Tony De Vries in de Ballaarstraat is op 7 minuten bereikbaar, ideaal voor snelle consultaties.",
+      "Met 33 bushaltes verspreid over de wijk bereik je makkelijk andere delen van Antwerpen, handig als je grotere parken buiten de wijk wilt verkennen of naar een specialistische dierenarts moet. De busverbindingen lopen frequent, ook in het weekend.",
+      "De 5 supermarkten in de wijk bieden naast je eigen boodschappen ook basisartikelen voor je viervoeter: hondenvoer, snacks en afvalzakjes. Dat scheelt extra stops bij een dierenwinkel voor dagelijkse behoeften, zeker als je Pawlov op 15 minuten toch te ver vindt voor een losse boodschap.",
+      "De levendige straten en lokale voorzieningen maken dat je vaak andere baasjes tegenkomt. Dat levert niet alleen sociaal contact op, maar ook praktische tips: welke parken rustig zijn, waar je een goede dierenarts vindt, en welke speelweide het populairst is op welk moment van de dag.",
+      "Hoewel de wijk dichtbevolkt is (bijna 9.300 inwoners per km²), bieden de parken en hondenspeelweiden voldoende ontsnappingsplekken. Vroeg in de ochtend of laat op de avond is het overal rustiger, ideaal voor honden die gevoelig zijn voor drukte."
     ]
   },
   "contributionCTA": {
     "heading": "Ken je deze wijk?",
-    "intro": "Deel je ervaringen als baasje in deze wijk en help andere baasjes de juiste wijk te vinden.",
+    "intro": "Deel je ervaringen in deze wijk en help andere baasjes de juiste wijk te vinden.",
     "typeformId": "buurt-feedback"
   },
   "statistics": {
-    "intro": "Albertpark is een dichtbevolkte stadswijk met 10.916 inwoners en een bevolkingsdichtheid van 9.275 per km². De gemiddelde huizenprijs ligt op €353.000, vergelijkbaar met andere Antwerpse stadswijken.",
+    "intro": "Albertpark (Oostwijk) telt bijna 11.000 inwoners op iets meer dan een vierkante kilometer, wat de wijk tot een van de dichter bevolkte buurten van Antwerpen maakt. De mediane huisprijs van €353.000 ligt tussen de duurdere wijken zoals Zuid en de meer betaalbare buurten in het noorden.",
     "medianPrice": 353000,
     "inhabitants": 10916,
     "availableHomes": null,
     "pricePerSqm": null
   },
   "houses": {
-    "intro": "Op zoek naar een woning in Albertpark? Filter je zoekresultaten op postcode 2000 om huizen en appartementen in deze wijk te vinden. Houd er rekening mee dat deze postcode wordt gedeeld met andere wijken in Antwerpen, dus controleer de exacte locatie altijd op een kaart.",
-    "hasOwnPostalCode": false
+    "intro": "Op zoek naar een woning in Albertpark (Oostwijk)? De wijk heeft postcode 2018, wat het zoeken op vastgoedplatforms eenvoudiger maakt. Je vindt hier vooral appartementen en rijtjeshuizen, met de mediane prijs rond €353.000. Voor actuele aanbiedingen filter je best op postcode 2018.",
+    "hasOwnPostalCode": true
   },
   "neighboringNeighborhoods": [
     "antwerpen-bell-zuidwijk",
@@ -232,121 +302,109 @@
   ],
   "seoReview": {
     "reviewedAt": "2026-01-08T14:45:00Z",
-    "qualityScore": 78,
+    "qualityScore": 85,
     "passedSEO": true,
     "changesLog": [
       {
         "field": "subtitle",
-        "before": "Groene stadswijk tussen Zurenborg en de Ring — compact wonen met 9 parken en snelle toegang tot het centrum",
-        "after": "Groene stadswijk tussen Zurenborg en de Ring in Antwerpen — compact wonen met 9 parken en snelle toegang tot het centrum",
-        "reason": "local_keyword_missing"
+        "before": "Groen wonen in het hart van Antwerpen — met 5 hondenspeelweiden en ruim 9 parken op wandelafstand",
+        "after": "Wonen in Albertpark (Oostwijk) Antwerpen: stedelijk met 9 parken en 5 hondenspeelweiden op wandelafstand",
+        "reason": "subtitle_length"
       },
       {
         "field": "intro",
-        "before": "Voor baasjes betekent dit variatie: elke dag een ander groen plekje, verschillende routes, wisselende ontmoetingen met andere hondeneigenaren.",
-        "after": "Dit betekent variatie: elke dag een ander groen plekje, verschillende routes, wisselende ontmoetingen.",
+        "before": "Voor baasjes is dat een ideale uitgangspositie",
+        "after": "Voor wie een hond heeft is dat een sterke uitgangspositie",
         "reason": "keyword_density"
       },
       {
         "field": "intro",
-        "before": "Als je op zoek bent naar rust en ruimte, is dit waarschijnlijk niet je ideale plek — maar voor wie het stedelijke leven omarmt en waarde hecht aan bereikbaarheid en variatie in wandelroutes, biedt Albertpark een fijne balans.",
-        "after": "Praktisch voor wie stedelijk gemak combineert met dagelijkse wandelingen — minder geschikt als je grote losloopgebieden of uitgebreide rust zoekt.",
-        "reason": "intro_structure"
-      },
-      {
-        "field": "facilities.intro",
-        "before": "Albertpark biedt een goede basis voor baasjes: een hondenspeelweide op wandelafstand, diverse parken voor variatie in je wandelroutes, en voldoende veterinaire opties binnen 10 minuten.",
-        "after": "Albertpark biedt een goede basis: een hondenspeelweide op wandelafstand, diverse parken voor variatie in je wandelroutes, en voldoende veterinaire opties binnen 10 minuten.",
+        "before": "De meeste baasjes hier lossen dat op",
+        "after": "De meeste bewoners hier lossen dat op",
         "reason": "keyword_density"
       },
       {
-        "field": "petStores.intro",
-        "before": "Gespecialiseerde dierenwinkels liggen iets verder van het centrum van de wijk: Pawlov op Kasteelpleinstraat is de dichtstbijzijnde op 15 minuten wandelen, gevolgd door De Pauw op 20 minuten. Voor wie niet regelmatig ver wil lopen voor dierenbenodigdheden, is dit een kleine uitdaging. Gelukkig hebben de 5 supermarkten in de wijk vaak ook een basisassortiment hondenvoer, snacks en benodigdheden, wat voor dagelijkse aankopen prima werkt.",
-        "after": "Gespecialiseerde dierenwinkels liggen iets verder van het centrum van de wijk: Pawlov op Kasteelpleinstraat is de dichtstbijzijnde op 15 minuten wandelen, gevolgd door De Pauw op 20 minuten. Voor basisbenodigdheden bieden de lokale supermarkten een praktisch alternatief met hondenvoer en snacks — voldoende voor dagelijkse aankopen.",
+        "field": "intro",
+        "before": "Als je een hond hebt die goed omgaat met stedelijke drukte, of als je bereid bent om dat rustig op te bouwen, dan biedt Albertpark een fijne plek om te wonen. Voor wie absolute rust zoekt, zijn de buitenwijken van Antwerpen wellicht een betere match.",
+        "after": "Praktisch voor wie stedelijk wil wonen maar toch buitenruimte zoekt voor dagelijkse wandelingen. Minder geschikt als je absolute rust zoekt — daarvoor zijn de buitenwijken van Antwerpen een betere match.",
         "reason": "readability"
       },
       {
-        "field": "dailyLife.intro",
-        "before": "Een typische dag als baasje in Albertpark draait om variatie en stedelijk gemak. Met 9 parken binnen handbereik kies je elke ochtend een andere route voor de wandeling, waardoor je hond nieuwe geuren en andere viervoeters ontmoet. De dichtheid van de wijk betekent wel dat je voetpaden en parken deelt met veel buren, dus je hond moet comfortabel zijn in drukke omgevingen.",
-        "after": "Een typische dag in Albertpark draait om variatie en stedelijk gemak. Met 9 parken binnen handbereik kies je elke ochtend een andere route voor de wandeling, waardoor je nieuwe geuren en andere viervoeters ontmoet. De dichtheid van de wijk betekent wel dat je voetpaden en parken deelt met veel buren, dus sociale honden die gewend zijn aan drukte voelen zich hier het prettigst.",
+        "field": "facilities.intro",
+        "before": "Albertpark biedt een sterke basis voor baasjes:",
+        "after": "Albertpark biedt een sterke basis voor wie met een hond woont:",
         "reason": "keyword_density"
       },
       {
-        "field": "dailyLife.benefits[0]",
-        "before": "Met 9 parken binnen een straal van 7 minuten wandelen heb je een uitgebreide keuze aan groene plekken voor de dagelijkse wandeling. Koning Albertpark is het grote centrale park dat sociale ontmoetingen met andere baasjes mogelijk maakt, terwijl kleinere parken zoals Hof Van Leysen en Domein Hertoghe rustiger zijn voor een snelle ochtendronde.",
-        "after": "Met 9 parken binnen een straal van 7 minuten wandelen heb je een uitgebreide keuze aan groene plekken voor de dagelijkse wandeling. Koning Albertpark is het grote centrale park dat sociale ontmoetingen mogelijk maakt, terwijl kleinere parken zoals Hof Van Leysen en Domein Hertoghe rustiger zijn voor een snelle ochtendronde.",
+        "field": "dogParks.intro",
+        "before": "Met 5 omheinde hondenspeelweiden binnen bereik zit je als baasje in Albertpark goed.",
+        "after": "Met 5 omheinde hondenspeelweiden binnen bereik zit je in Albertpark goed.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Albertpark (Oostwijk)",
+        "after": "Dagelijks leven in Albertpark (Oostwijk)",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Albertpark begint",
+        "after": "Een typische dag in Albertpark begint",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk",
+        "after": "Deel je ervaringen in deze wijk",
         "reason": "keyword_density"
       }
     ],
     "validationIssues": [],
     "scoreBreakdown": {
-      "subtitleScore": 14,
-      "introScore": 22,
-      "keywordScore": 15,
+      "subtitleScore": 13,
+      "introScore": 23,
+      "keywordScore": 18,
       "sectionIntrosScore": 9,
-      "localRelevanceScore": 9,
+      "localRelevanceScore": 13,
       "internalLinkingScore": 5,
       "topicCoverageScore": 18,
-      "decisionUsefulnessScore": 13
+      "decisionUsefulnessScore": 15
     }
   },
   "brandReview": {
-    "reviewedAt": "2026-01-08T15:02:00Z",
-    "qualityScore": 82,
+    "reviewedAt": "2026-01-08T15:00:00Z",
+    "qualityScore": 88,
     "passedBrand": true,
     "changesLog": [
       {
-        "field": "intro",
-        "before": "Voor wie speciaal op zoek is naar een uitgebreide hondenweide met extra faciliteiten, is dit misschien niet de ideale plek.",
-        "after": "Voor wie speciaal op zoek is naar een uitgebreide hondenweide met extra faciliteiten, is dit misschien niet de plek die je zoekt.",
-        "reason": "tone_promotional"
-      },
-      {
-        "field": "dogParks.intro",
-        "before": "Er is één officiële hondenspeelweide in de buurt, op 7 minuten wandelen.",
-        "after": "Er is één officiële hondenspeelweide in de wijk, op 7 minuten wandelen.",
+        "field": "valueCards[1].description",
+        "before": "3 praktijken in de buurt",
+        "after": "3 praktijken binnen bereik",
         "reason": "terminology_violation"
       },
       {
         "field": "contributionCTA.intro",
-        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
-        "after": "Deel je ervaringen als baasje in deze wijk en help andere baasjes de juiste wijk te vinden.",
-        "reason": "terminology_violation"
-      },
-      {
-        "field": "dailyLife.benefits[1]",
-        "before": "De hondenspeelweide op 7 minuten wandelen biedt een omheind terrein waar je viervoeter veilig kan loslopen en spelen met andere honden. Ideaal voor sociale honden die energie moeten kwijtraken.",
-        "after": "De hondenspeelweide op 7 minuten wandelen biedt een omheind terrein waar je viervoeter veilig kan loslopen en spelen met andere honden. Praktisch voor sociale honden die energie moeten kwijtraken.",
-        "reason": "tone_promotional"
-      },
-      {
-        "field": "dailyLife.benefits[2]",
-        "before": "Voor veterinaire zorg ben je goed bediend met drie praktijken binnen 25 minuten wandelen. Dierenarts Tony De Vries op 7 minuten is ideaal voor routinebezoeken, en voor spoedgevallen of gespecialiseerde zorg heb je AniCura bereikbaar.",
-        "after": "Voor veterinaire zorg ben je goed bediend met drie praktijken binnen 25 minuten wandelen. Dierenarts Tony De Vries op 7 minuten is praktisch voor routinebezoeken, en voor spoedgevallen of gespecialiseerde zorg heb je AniCura bereikbaar.",
-        "reason": "tone_promotional"
-      },
-      {
-        "field": "dailyLife.benefits[3]",
-        "before": "De 5 supermarkten in de wijk zijn handig voor dagelijkse boodschappen en leveren vaak ook basishondenvoer en snacks. Voor gespecialiseerd voer of speelgoed moet je naar Pawlov of De Pauw, wat een kwartiertje lopen vraagt, maar dat kan je combineren met andere boodschappen in de buurt.",
-        "after": "De 5 supermarkten in de wijk zijn handig voor dagelijkse boodschappen en leveren vaak ook basishondenvoer en snacks. Voor gespecialiseerd voer of speelgoed moet je naar Pawlov of De Pauw, wat een kwartiertje lopen vraagt, maar dat kan je combineren met andere boodschappen in de wijk.",
+        "before": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere baasjes de juiste wijk te vinden.",
         "reason": "terminology_violation"
       }
     ],
     "validationIssues": [],
     "scoreBreakdown": {
       "terminologyScore": 27,
-      "toneVoiceScore": 21,
+      "toneVoiceScore": 23,
       "localAuthenticityScore": 18,
       "narrativeNaturalnessScore": 13,
-      "sparseDataHandlingScore": 3
+      "sparseDataHandlingScore": 7
     },
     "analysis": {
       "terminology": {
         "avoidedTermsFound": [
           {
-            "term": "buurt",
-            "field": "dogParks.intro",
-            "preferred": "wijk"
+            "term": "in de buurt",
+            "field": "valueCards[1].description",
+            "preferred": "within reach phrasing"
           },
           {
             "term": "hondenliefhebbers",
@@ -355,7 +413,7 @@
           },
           {
             "term": "buurt",
-            "field": "dailyLife.benefits[3]",
+            "field": "contributionCTA.intro",
             "preferred": "wijk"
           }
         ],
@@ -368,51 +426,39 @@
           "hondenspeelweide",
           "dierenarts"
         ],
-        "allowedExceptionsUsed": [
-          "in de buurt (intro)",
-          "3 praktijken in de buurt (valueCards)"
-        ]
+        "allowedExceptionsUsed": []
       },
       "tone": {
         "perspectiveForm": "je_jouw",
         "formalPhrasesFound": [],
-        "promotionalPhrasesFound": [
-          "ideale plek"
-        ],
-        "friendlyMarkersCount": 18
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 42
       },
       "localAuthenticity": {
         "uniquePlaceNamesCount": 11,
         "localTipsFound": [
-          "Koning Albertpark",
-          "Harmoniepark",
-          "Vinkenpark",
-          "Tuin Provinciehuis",
-          "Hof Van Leysen",
-          "Domein Hertoghe",
-          "Kasteelpleinstraat",
-          "Oudevaartplaats",
-          "Borsbeeksebrug",
-          "Grotesteenweg"
+          "het provinciehuis aan de Koningin Elisabethlei",
+          "de wijk voelt compacter dan de brede lanen van Zuid",
+          "De Tuin Provinciehuis biedt een formele aanleg",
+          "Hof Van Leysen heeft schaduwrijke hoekjes"
         ],
         "neighborhoodObservations": [
-          "tussen Zurenborg en de Ring",
-          "groene versnippering",
-          "stedelijke drukte",
-          "compact oppervlak"
+          "de levendige straten, de lokale winkels en de 33 bushaltes",
+          "Het provinciehuis aan de Koningin Elisabethlei domineert de skyline",
+          "rustige straten met bescheiden rijtjeshuizen en appartementsgebouwen",
+          "steeds meer baasjes die de groene buitenruimte ontdekken"
         ]
       },
       "narrativeNaturalness": {
         "sentenceStartVariety": 0.78,
-        "averageSentenceLength": 16.4,
+        "averageSentenceLength": 16.2,
         "listLikePatternsFound": 0
       },
       "sparseDataHandling": {
         "gapsDetected": [
-          "no dedicated dog park facilities",
-          "specialized pet stores farther away"
+          "no pet store in neighborhood"
         ],
-        "gapsHandledGracefully": 2,
+        "gapsHandledGracefully": 1,
         "gapsHandledPoorly": 0
       }
     }

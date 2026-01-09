@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T16:00:00Z",
+  "id": "gent-afsnee-centrum",
+  "city": "Gent",
+  "name": "Afsnee-Centrum",
+  "postalCode": "9051",
+  "subtitle": "Wonen in Afsnee aan de rand van Gent: rustig dorpsleven met ruimte en groen — praktisch met een auto",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 798,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Afsnee-Centrum is een klein dorpskern aan de zuidwestelijke rand van Gent, waar je de rust van het platteland combineert met de nabijheid van de stad. Met slechts 798 inwoners en een lage bevolkingsdichtheid van 270 inwoners per vierkante kilometer woon je hier ruim en groen. De wijk heeft een uitgesproken dorps karakter met veel open ruimte, ideaal voor wie zoekt naar een rustige woonomgeving met voldoende ruimte voor langere wandelingen.\n\nWat je moet weten voordat je hier gaat wonen: Afsnee-Centrum is een echte woonwijk zonder directe voorzieningen. Er is geen supermarkt, dierenarts of dierenwinkel in de wijk zelf. De dichtstbijzijnde dierenarts ligt op 19 minuten wandelen, en voor een gespecialiseerde dierenwinkel moet je richting Sint-Martens-Latem (47 minuten te voet) of Martelaarslaan in Gent (52 minuten te voet). Dit maakt een auto praktisch noodzakelijk voor dagelijkse boodschappen en spoedbezoeken aan de dierenarts. Als je een auto hebt, zijn alle voorzieningen binnen 10-15 minuten rijden bereikbaar.\n\nDe grootste troef van Afsnee-Centrum is de groene omgeving. Hoewel er geen officieel park binnen de wijkgrenzen ligt, vind je binnen 15 tot 25 minuten wandelen meerdere onbesloten groenzones en natuurgebieden. Voor wie graag lange, rustige wandelingen maakt zonder drukte, is dit een sterke troef. De Keuzemeersen, een uitgestrekt natuurgebied, ligt op korte afstand en biedt kilometers aan wandelpaden langs het water. Je hond heeft hier alle ruimte om te rennen en te snuffelen, ver weg van het stadsgewoel.\n\nVoor een omheinde hondenspeelweide moet je wel even verder wandelen. De dichtstbijzijnde ligt op 23 minuten te voet, en een tweede optie is bereikbaar binnen 37 minuten. Beide zijn onbenoemde speelweiden, wat betekent dat je ter plekke moet beoordelen of ze goed onderhouden zijn. De omheinde weide is wel geschikt als je een hond hebt die graag los mag zonder direct toezicht, maar voor dagelijkse uitlaatbeurten zul je voornamelijk gebruikmaken van de vele onverharde paden en grasvelden in de omgeving.\n\nAfsnee-Centrum is geen wijk voor wie alles op loopafstand wil hebben. Maar als je een auto hebt, houdt van rust, en bereid bent om even te rijden voor voorzieningen, dan biedt deze plek iets wat je in het stadscentrum niet vindt: echte ruimte, stilte, en groen zover je kijkt. De lage bevolkingsdichtheid betekent ook minder verkeer, minder hondenontmoetingen op je wandelingen (als je dat verkiest), en meer privacy. Voor wie een jonge, energieke hond heeft die veel beweging nodig heeft, is de ruimte hier een groot voordeel.\n\nDe mediane huisprijs in Gent ligt rond de €353.000, en gezien het landelijke karakter van Afsnee kan dit deelgebied aantrekkelijk zijn voor wie op zoek is naar meer woonoppervlakte voor hetzelfde budget. De wijk heeft een eigen postcode (9051), wat het zoeken naar een woning eenvoudiger maakt. Houd er wel rekening mee dat de beperkte voorzieningen zich vertalen in langere ritten voor boodschappen, medische zorg voor je hond, en sociale activiteiten.",
+  "coordinates": {
+    "lat": 51.030895252811995,
+    "lon": 3.6556436432923975,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "23 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheinde speelweide",
+      "detail": "Dichtstbijzijnde op 23 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "19 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken in de buurt",
+      "detail": "Bart Verstuyft op 19 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "47 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 winkels beschikbaar",
+      "detail": "Maxi Zoo in Sint-Martens-Latem"
+    },
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Groen",
+      "distance": "15 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Meerdere groenzones nabij",
+      "detail": "Keuzemeersen op korte afstand"
+    }
+  ],
+  "facilities": {
+    "intro": "Afsnee-Centrum is een woonwijk zonder directe voorzieningen binnen de wijkgrenzen. Voor medische zorg, hondenbenodigdheden en sociale contacten met andere hondeneigenaren moet je naar aangrenzende wijken of het centrum van Gent. Met een auto zijn alle faciliteiten binnen 10 tot 15 minuten bereikbaar."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet direct in de wijk, maar op 23 minuten wandelen ligt een omheinde speelweide. Voor dagelijkse wandelingen kun je terecht in de vele groene gebieden rondom Afsnee, zoals de Keuzemeersen, waar je hond volop kan loslopen in de natuur zonder dat een omheining nodig is.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (onbenoemd)",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0152033,
+          "lon": 3.6622439
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Bart Verstuyft op de Deinsesteenweg, op 19 minuten wandelen of een korte rit met de auto. Voor spoedgevallen is een auto wel praktisch, gezien de afstanden.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bart Verstuyft",
+        "street": "Deinsesteenweg",
+        "streetNumber": "13",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0417527,
+          "lon": 3.6423883
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Jana Meyers",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "1132",
+        "municipality": "Gent",
+        "postalCode": "9051",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0188576,
+          "lon": 3.6745676
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Inge Verboven",
+        "street": "Congregatiestraat",
+        "streetNumber": "12A",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0520524,
+          "lon": 3.6536824
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Harlekijn",
+        "street": "Varendriesstraat",
+        "streetNumber": "5",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0476244,
+          "lon": 3.6312444
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. De dichtstbijzijnde opties zijn Maxi Zoo in Sint-Martens-Latem (47 minuten te voet) en Tom & Co op de Martelaarslaan (52 minuten te voet). Voor hondenvoeding en basisbenodigdheden is een auto of fiets praktischer dan te voet gaan.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "214",
+        "municipality": "Sint-Martens-Latem",
+        "postalCode": "9830",
+        "distance": "47 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0046153,
+          "lon": 3.621812
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "52 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Afsnee-Centrum",
+    "intro": "Een typische dag in Afsnee-Centrum draait om rust, ruimte en de auto. Je begint de dag met een lange wandeling door de weilanden of langs het natuurgebied, zonder gedrang of verkeersdrukte. Voor boodschappen of een bezoek aan de dierenarts stap je in de auto, wat betekent dat je planning nodig hebt. Maar wat je inlevert aan gemak, win je terug in ruimte en stilte.",
+    "benefits": [
+      "Met meerdere groenzones binnen 15 tot 25 minuten wandelen heb je altijd de keuze tussen rustige paden, open velden en waterrijke natuurgebieden zoals de Keuzemeersen. Je hond kan hier echt loslopen zonder constante controle, omdat de omgeving veilig en overzichtelijk is.",
+      "De lage bevolkingsdichtheid van 270 inwoners per vierkante kilometer betekent weinig verkeer, weinig herrie, en weinig andere honden tijdens je wandelingen. Voor wie een angstige of reactieve hond heeft, is dit een grote troef, omdat je minder onverwachte ontmoetingen hebt.",
+      "Hoewel er slechts 11 bushaltes in de wijk liggen en geen treinstation, zijn alle voorzieningen per auto binnen 10 tot 15 minuten bereikbaar. Voor spoedgevallen bij de dierenarts of een snelle stop bij de dierenwinkel is dit voldoende, mits je mobiliteit hebt.",
+      "De omheinde hondenspeelweide op 23 minuten lopen biedt een veilige plek voor socialisatie of training. Voor oudere honden of wie niet graag ver loopt, is dit wel een uitdaging, dus een fiets of auto kan helpen om de afstand te overbruggen.",
+      "De wijk heeft weinig voorzieningen, maar dat betekent ook minder commercie, minder bouwprojecten en minder verandering. Voor wie houdt van een stabiele, voorspelbare woonomgeving is Afsnee-Centrum een fijne keuze."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Afsnee-Centrum is een kleine, dunbevolkte wijk met 798 inwoners. De mediane huisprijs voor Gent ligt rond €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 798,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Afsnee-Centrum? De wijk heeft een eigen postcode (9051), wat het zoeken op Immoweb of Zimmo eenvoudiger maakt. Filter op deze postcode om het aanbod te bekijken.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-keuzemeersen",
+    "gent-assels",
+    "gent-heilig-huizeken",
+    "gent-drie-sleutels",
+    "gent-drongen-dorp"
+  ]
+}

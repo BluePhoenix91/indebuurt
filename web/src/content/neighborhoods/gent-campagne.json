@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T16:00:00Z",
+  "id": "gent-campagne",
+  "city": "Gent",
+  "name": "Campagne",
+  "postalCode": "9031",
+  "subtitle": "Wonen in Campagne Gent: rustig aan de stadsrand met ruime wandelmogelijkheden — praktisch voor wie autonomie belangrijk vindt",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 2641,
+  "labels": [
+    {
+      "text": "Rustig & landelijk",
+      "icon": "fa-solid fa-house"
+    },
+    {
+      "text": "Lage dichtheid",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Stadsrand",
+      "icon": "fa-solid fa-tractor"
+    }
+  ],
+  "intro": "Campagne is een rustige, dunbevolkte wijk aan de westelijke rand van Gent. Met slechts 424 inwoners per vierkante kilometer woon je hier met aanzienlijk meer ruimte dan in het Gentse stadscentrum. De wijk heeft een landelijk karakter en biedt rust voor wie de drukte van de stad wil mijden, maar wel binnen bereik van voorzieningen wil blijven.\n\nAls je hier met je hond komt wonen, moet je weten dat de wijk zelf weinig gespecialiseerde voorzieningen heeft. Er is geen hondenspeelweide in de buurt, geen dierenwinkel in de wijk, en ook geen dierenarts op wandelafstand. De dichtstbijzijnde dierenarts, De Harlekijn, ligt op 17 minuten wandelen in de Varendriesstraat. Voor een omheinde speelweide moet je rekenen op een wandeling van 47 minuten, wat in de praktijk betekent dat je met de auto of fiets zult moeten.\n\nWat Campagne wel biedt, is ruimte en rust. Met open velden en weinig verkeersdrukte heb je hier alle vrijheid voor lange wandelingen. De lage bevolkingsdichtheid betekent dat je zelden in de drukte loopt en voldoende ruimte hebt om te bewegen. Het Goed Jonckershof, een klein park op 11 minuten wandelen, is de dichtstbijzijnde groene plek voor een kortere uitstap.\n\nDeze wijk is praktisch voor zelfstandige baasjes die graag hun eigen weg gaan en niet afhankelijk willen zijn van een hondenspeelweide of gespecialiseerde diensten op elke hoek. Heb je een auto en ben je bereid om verder te rijden voor dierenartsconsulten of grotere boodschappen, dan biedt Campagne een rustige thuisbasis met veel wandelruimte. Ben je daarentegen iemand die voorzieningen binnen loopafstand wil hebben, of ben je zonder auto, dan zal het dagelijkse leven hier uitdagender zijn.\n\nDe wijk heeft één supermarkt en één apotheek binnen bereik, en 12 bushaltes zorgen voor een basisverbinding met het stadscentrum. Er is geen treinstation in de wijk zelf. De mediane huizenprijs ligt op €353.000, vergelijkbaar met andere Gentse randwijken.\n\nCampagne is geen wijk voor wie een compleet hondenecosysteem binnen handbereik wil. Het is wél een plek voor wie rust, ruimte en autonomie waardeert, en bereid is om voor gespecialiseerde zorg of voorzieningen wat verder te reizen. Als socialisatie in een omheinde speelweide niet per se nodig is, maar eerder lange, ongestoorde wandelingen in een rustige omgeving, dan kan Campagne een goede keuze zijn.",
+  "coordinates": {
+    "lat": 51.05984226728027,
+    "lon": 3.6283528913714793,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "47 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen in de wijk, dichtstbijzijnde ver weg",
+      "detail": "Omheinde weide op 47 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken buiten de wijk",
+      "detail": "De Harlekijn dichtstbij"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "11 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 kleinere groene plekken",
+      "detail": "Goed Jonckershof dichtst"
+    },
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Open ruimte",
+      "distance": "Direct",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Veel wandelruimte door lage dichtheid",
+      "detail": "424 inwoners/km²"
+    }
+  ],
+  "facilities": {
+    "intro": "Campagne heeft zelf weinig gespecialiseerde voorzieningen voor honden. De focus ligt op de natuurlijke ruimte en rust die de lage bebouwingsdichtheid biedt, eerder dan op een compleet aanbod van hondengerichte diensten binnen de wijk."
+  },
+  "dogParks": {
+    "intro": "In Campagne zelf en in de directe omgeving is geen officiële hondenspeelweide. De dichtstbijzijnde omheinde terreinen liggen op meer dan drie kwartier wandelen. Praktisch betekent dit dat je met de auto of fiets moet voor een bezoek aan een speelweide. Voor dagelijkse beweging kun je echter de open velden en rustige straten in en rond de wijk gebruiken.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde hondenspeelweide",
+        "distance": "47 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0766593,
+          "lon": 3.6751225
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk. De dichtstbijzijnde opties liggen allemaal buiten Campagne, met de kortste wandeling richting De Harlekijn op 17 minuten. Voor spoedgevallen of regelmatige controles is een auto of fiets aan te raden.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Harlekijn",
+        "street": "Varendriesstraat",
+        "streetNumber": "5",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0476244,
+          "lon": 3.6312444
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Inge Verboven",
+        "street": "Congregatiestraat",
+        "streetNumber": "12A",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0520524,
+          "lon": 3.6536824
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Hans Smet",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0584423,
+          "lon": 3.6591565
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bart Verstuyft",
+        "street": "Deinsesteenweg",
+        "streetNumber": "13",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0417527,
+          "lon": 3.6423883
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Campagne. Voor hondenvoeding, speelgoed of andere benodigdheden moet je naar een aangrenzende wijk of het stadscentrum. De supermarkt in de wijk heeft vaak wel een basisassortiment voor je viervoeter.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Campagne",
+    "intro": "Een typische dag als hondenbaasje in Campagne draait om zelfstandigheid en ruimte. Je hebt hier geen dichtbevolkte straten of drukke hondenontmoetingen op elke hoek, maar juist veel rust en open ruimte voor lange wandelingen. Dit past bij baasjes die van autonomie houden en niet afhankelijk willen zijn van stedelijke voorzieningen.",
+    "benefits": [
+      "Met slechts 424 inwoners per vierkante kilometer heb je hier aanzienlijk meer ruimte dan in dichtbevolkte Gentse wijken. Je hond kan tijdens wandelingen vrij ademen zonder constant andere honden of drukke voetpaden tegen te komen.",
+      "De lage verkeersdrukte en landelijke karakter maken Campagne veilig en rustig voor dagelijkse wandelingen. Je hoeft je minder zorgen te maken over druk verkeer of lawaaierige omgevingen die je viervoeter kunnen stressen.",
+      "Het Goed Jonckershof ligt op 11 minuten wandelen en biedt een groene plek voor een kortere uitstap. Voor langere wandelingen kun je de open velden en rustige wegen in de omgeving verkennen.",
+      "Met 12 bushaltes heb je een basisbereikbaarheid naar het Gentse centrum, handig als je af en toe zonder auto naar stedelijke voorzieningen wilt. Verwacht echter geen intensieve dienstregeling zoals in het centrum.",
+      "De wijk is geschikt voor honden die niet per se socialisatie in een speelweide nodig hebben, maar eerder baat hebben bij rustige, langere wandelingen in een minder gestimuleerde omgeving."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Campagne is een kleinere, dunbevolkte wijk met 2.641 inwoners en een bevolkingsdichtheid van 424 per km². De mediane huizenprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 2641,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Campagne? Je kunt zoeken via postcode 9031, die deze wijk omvat. Let op: deze postcode kan ook andere gebieden dekken, dus controleer altijd de exacte ligging van een woning.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-heie",
+    "gent-de-roos",
+    "gent-heilig-huizeken",
+    "gent-drongen-dorp",
+    "gent-baarle-dorp"
+  ]
+}

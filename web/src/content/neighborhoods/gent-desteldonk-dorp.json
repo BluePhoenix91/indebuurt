@@ -1,0 +1,430 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T12:00:00Z",
+  "id": "gent-desteldonk-dorp",
+  "city": "Gent",
+  "name": "Desteldonk-Dorp",
+  "postalCode": "9042",
+  "subtitle": "Wonen in Desteldonk-Dorp bij Gent: landelijk, rustig en groene wandelroutes — minder voorzieningen, meer buitenruimte",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 960,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustig wonen",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groene omgeving",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Desteldonk-Dorp is een klein, landelijk dorpje aan de noordoostelijke rand van Gent. Met slechts 960 inwoners op een uitgestrekt gebied vind je hier de rust en ruimte die je in de stedelijke wijken van Gent niet zult vinden. De lage bevolkingsdichtheid van 168 inwoners per vierkante kilometer betekent dat je hier letterlijk ademruimte hebt — praktisch voor wie graag lange wandelingen maakt en het drukke stadsleven achter zich wil laten.\n\nMaar die rust komt met een keerzijde: Desteldonk-Dorp heeft vrijwel geen lokale voorzieningen. Je vindt hier geen supermarkt, geen dierenarts, geen dierenwinkel en geen officiële hondenspeelweide. Voor dagelijkse boodschappen, medische zorg voor je viervoeter of gespecialiseerde benodigdheden moet je uitwijken naar aangrenzende wijken of het centrum van Gent. De dichtstbijzijnde dierenarts ligt in Lochristi, op 52 minuten te voet — wat betekent dat je voor routinecontroles of spoedgevallen een auto of fiets nodig hebt.\n\nWat Desteldonk-Dorp wél biedt, is ongeëvenaarde toegang tot buitenruimte. De wijk ligt ingebed in groene landbouwgronden en open velden, waardoor elke wandeling een verkenning van ongerepte natuur kan zijn. Je hoeft je niet te beperken tot ingerichte hondenparken — hier is vrijwel elke route een groene route. Voor wie graag lange, rustige wandelingen maakt en de voorkeur geeft aan stilte boven stedelijk gemak, is dit een unieke plek.\n\nDe afwezigheid van commerciële voorzieningen betekent ook dat je moet plannen. Hondenvoer en benodigdheden bestel je online of je haalt ze op in het centrum van Gent. Voor dierenartszorg is de praktijk WelloPet in Lochristi de dichtstbijzijnde optie, maar je bent aangewezen op mobiliteit. De 22 bushaltes in de wijk bieden wel verbindingen naar Gent en omliggende kernen, wat handig is als je niet altijd de auto wilt nemen.\n\nDesteldonk-Dorp is een wijk voor wie bewust kiest voor dorpsleven. Niet voor wie gemak en nabijheid van voorzieningen prioriteit geeft, maar wel voor wie rust, ruimte en groene omgeving belangrijker vindt. Voor wie met een viervoeter woont betekent dat vrijheid in de dagelijkse routine, maar ook accepteren dat je voor bijna alles — van voer tot dierenarts tot sociale contacten met andere baasjes — buiten de wijk moet. Het is een keuze die past bij mensen met een auto, een voorkeur voor landelijke stilte, en de bereidheid om een eindje te rijden voor praktische zaken.\n\nEen typisch voordeel van zo'n kleine gemeenschap is het sterke buurtgevoel. Hier kent men elkaar, en je zult sneller in gesprek komen met medebewoners dan in dichtbevolkte wijken. De ontmoetingen die je hebt zijn vaak persoonlijker, al kom je minder andere viervoeters tegen tijdens wandelingen.",
+  "coordinates": {
+    "lat": 51.12707362158822,
+    "lon": 3.8024067552092267,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Groene ruimte",
+      "distance": "Overal",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Onbeperkte wandelroutes",
+      "detail": "Ingebed in landbouwgronden"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "52 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 opties in Lochristi",
+      "detail": "WelloPet en De Zaffelbeek"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "19 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 park in de omgeving",
+      "detail": "Onbenoemde groenzone"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Nabij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "22 bushaltes",
+      "detail": "Verbindingen naar Gent"
+    }
+  ],
+  "facilities": {
+    "intro": "Desteldonk-Dorp heeft vrijwel geen voorzieningen binnen de wijk. Er zijn geen supermarkten, geen dierenwinkels en geen dierenartspraktijken in het dorp zelf. Voor alle dagelijkse behoeften — van boodschappen tot medische zorg voor je viervoeter — ben je aangewezen op aangrenzende wijken zoals Mendonk, Langerbrugge of het centrum van Gent. De 22 bushaltes bieden verbindingen naar deze locaties, maar een auto of fiets maakt het leven hier aanzienlijk gemakkelijker."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in Desteldonk-Dorp of directe omgeving. Het dichtsbijzijnde omheinde hondenpark ligt in het centrum van Gent, op meer dan een half uur rijden. Maar de afwezigheid van speelweiden wordt ruimschoots gecompenseerd door de toegang tot uitgestrekte open velden en landbouwgronden rondom het dorp. Hier heb je de vrijheid om je eigen wandelroutes te kiezen, en zolang je rekening houdt met landbouwactiviteiten en wildleven, kun je volop genieten van de natuur.",
+    "parks": []
+  },
+  "vets": {
+    "intro": "De dichtstbijzijnde dierenartsen bevinden zich in Lochristi, op ongeveer 52 tot 53 minuten wandelen (of 10-12 minuten met de auto). WelloPet en De Zaffelbeek zijn de twee opties in de omgeving. Voor routinecontroles kun je deze afstand nog plannen, maar voor spoedgevallen is het essentieel dat je een auto hebt of snel vervoer kunt regelen. De afstand maakt Desteldonk-Dorp minder geschikt voor wie geen eigen vervoer heeft.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "WelloPet",
+        "street": "Bosdreef",
+        "streetNumber": "1D",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "52 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.097247,
+          "lon": 3.8390069
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Zaffelbeek",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "53 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1324189,
+          "lon": 3.8623004
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een dierenwinkel vind je niet in Desteldonk-Dorp. Voor hondenvoer, speelgoed of andere benodigdheden moet je uitwijken naar het centrum van Gent of winkels in Lochristi en omgeving. De meeste bewoners hier bestellen hun voorraad online of doen bulk-aankopen wanneer ze toch in de stad zijn. Supermarkten in naburige wijken hebben vaak een klein assortiment voor honden, maar voor gespecialiseerde producten ben je aangewezen op een autoritje of online shops.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Desteldonk-Dorp",
+    "intro": "Een typische dag in Desteldonk-Dorp draait om rust, ruimte en zelfstandigheid. 's Ochtends vroeg wandel je door lege velden waar je vrijwel niemand tegenkomt, en je viervoeter kan naar hartenlust rennen zonder dat je je zorgen hoeft te maken over drukke straten. De stilte en open lucht zijn een luxe die je in stedelijke wijken niet vindt. Maar tegen de middag, als je hondenvoer nodig hebt of een afspraak bij de dierenarts, merk je dat je altijd moet plannen en reizen. Dit leven vraagt zelfredzaamheid, maar biedt in ruil daarvoor een kwaliteit van ruimte en stilte die zeldzaam is geworden.",
+    "benefits": [
+      "Met uitgestrekte landbouwgronden en open velden rondom het dorp kun je elke dag een nieuwe wandelroute kiezen. Je bent niet gebonden aan ingerichte paden of overvolle hondenparken — hier is de natuur zelf je speeltuin.",
+      "De lage bevolkingsdichtheid van 168 inwoners per vierkante kilometer betekent dat je tijdens je wandelingen vrijwel niemand tegenkomt. Voor wie rust zoekt tijdens dagelijkse wandelingen is dit een enorm voordeel.",
+      "Hoewel de afstand tot voorzieningen een uitdaging is, zorgt de aanwezigheid van 22 bushaltes ervoor dat je zonder auto toch verbindingen hebt naar Gent en omliggende kernen. Voor wie de combinatie van landelijk wonen en openbaar vervoer zoekt, is dit een werkbare optie.",
+      "Het kleine dorpsgevoel betekent dat je buurtbewoners snel leert kennen. De gemeenschap is hecht, en hoewel je minder andere baasjes tegenkomt, zijn de ontmoetingen die je wel hebt vaak persoonlijker en langduriger.",
+      "De rust en stilte zijn praktisch voor wie gevoelig is voor stadse geluiden. Geen sirenes, geen druk verkeer, geen luidruchtige evenementen — alleen de geluiden van vogels en wind.",
+      "Voor wie graag fotografeert of van het buitenleven geniet, biedt de landelijke omgeving eindeloze mogelijkheden. Elke wandeling voelt aan als een mini-escape, en je hoeft maar een paar minuten te lopen om volledig omringd te zijn door groen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Desteldonk-Dorp is een van de kleinste en dunstbevolkte wijken in Gent, met slechts 960 inwoners verspreid over een uitgestrekt gebied. De mediane huisprijs in de gemeente bedraagt €353.000, vergelijkbaar met de rest van Gent, maar de beschikbaarheid van woningen is beperkt door de kleine omvang van de wijk.",
+    "medianPrice": 353000,
+    "inhabitants": 960,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Desteldonk-Dorp? Gebruik postcode 9042 om je zoekopdracht te filteren. Het aanbod is beperkt door de kleine omvang van het dorp, dus het loont om een zoekopdracht in te stellen en geduldig te wachten op nieuwe listings. Overweeg ook de naburige wijken Mendonk en Langerbrugge als alternatieven met vergelijkbare landelijke rust.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-jfkennedylaan",
+    "gent-mendonk",
+    "gent-langerbrugge",
+    "gent-drie-zwaantjes",
+    "gent-rostijne"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T12:00:00Z",
+    "qualityScore": 76,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig dorpsleven aan de rand van Gent met uitgestrekte groene ruimte — minder voorzieningen, meer buitenruimte",
+        "after": "Wonen in Desteldonk-Dorp bij Gent: landelijk, rustig en groene wandelroutes — minder voorzieningen, meer buitenruimte",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro (paragraph 1)",
+        "before": "Met slechts 960 inwoners op een uitgestrekt gebied vind je hier de rust en ruimte die je in de stedelijke wijken van Gent niet zult vinden. De lage bevolkingsdichtheid van 168 inwoners per vierkante kilometer betekent dat je hier letterlijk ademruimte hebt — ideaal voor wie van wandelen houdt en graag het drukke stadsleven achter zich laat.",
+        "after": "Met slechts 960 inwoners op een uitgestrekt gebied vind je hier de rust en ruimte die je in de stedelijke wijken van Gent niet zult vinden. De lage bevolkingsdichtheid van 168 inwoners per vierkante kilometer betekent dat je hier letterlijk ademruimte hebt — praktisch voor wie graag lange wandelingen maakt en het drukke stadsleven achter zich wil laten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro (paragraph 2)",
+        "before": "Voor dagelijkse boodschappen, medische zorg voor je viervoeter of gespecialiseerde hondenbenodigdheden moet je uitwijken naar aangrenzende wijken of het centrum van Gent.",
+        "after": "Voor dagelijkse boodschappen, medische zorg voor je huisdier of gespecialiseerde benodigdheden moet je uitwijken naar aangrenzende wijken of het centrum van Gent.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro (paragraph 3)",
+        "before": "waardoor elke wandeling met je hond een verkenning van ongerepte natuur kan zijn.",
+        "after": "waardoor elke wandeling een verkenning van ongerepte natuur kan zijn.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro (paragraph 3)",
+        "before": "Voor baasjes die graag lange, rustige wandelingen maken en de voorkeur geven aan stilte boven stedelijk gemak, is dit een unieke plek.",
+        "after": "Voor wie graag lange, rustige wandelingen maakt en de voorkeur geeft aan stilte boven stedelijk gemak, is dit een unieke plek.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro (paragraph 5)",
+        "before": "Als baasje betekent dat vrijheid in je dagelijkse wandelingen, maar ook accepteren dat je voor bijna alles — van voer tot dierenarts tot sociale contacten met andere hondenbezitters — buiten de wijk moet.",
+        "after": "Voor wie met een huisdier woont betekent dat vrijheid in de dagelijkse routine, maar ook accepteren dat je voor bijna alles — van voer tot dierenarts tot sociale contacten met andere hondenbezitters — buiten de wijk moet.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro (paragraph 6)",
+        "before": "Voor baasjes die van sociale wandelingen houden, betekent dit dat je wel minder kans hebt om andere honden tegen te komen, maar dat de ontmoetingen die je wel hebt vaak persoonlijker zijn.",
+        "after": "De ontmoetingen die je hebt zijn vaak persoonlijker, al kom je minder andere viervoeters tegen tijdens wandelingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Voor alle dagelijkse behoeften — van boodschappen tot medische zorg voor je viervoeter — ben je aangewezen op aangrenzende wijken zoals Mendonk, Langerbrugge of het centrum van Gent.",
+        "after": "Voor alle dagelijkse behoeften — van boodschappen tot medische zorg voor je huisdier — ben je aangewezen op aangrenzende wijken zoals Mendonk, Langerbrugge of het centrum van Gent.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Hier heb je de vrijheid om je eigen wandelroutes te kiezen, en zolang je rekening houdt met landbouwactiviteiten en wildleven, kun je je hond volop laten ravotten in de natuur.",
+        "after": "Hier heb je de vrijheid om je eigen wandelroutes te kiezen, en zolang je rekening houdt met landbouwactiviteiten en wildleven, kun je volop genieten van de natuur.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "vets.intro",
+        "before": "De afstand maakt Desteldonk-Dorp minder geschikt voor baasjes zonder eigen vervoer.",
+        "after": "De afstand maakt Desteldonk-Dorp minder geschikt voor wie geen eigen vervoer heeft.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "De meeste baasjes hier bestellen hun voorraad online of doen bulk-aankopen wanneer ze toch in de stad zijn.",
+        "after": "De meeste bewoners hier bestellen hun voorraad online of doen bulk-aankopen wanneer ze toch in de stad zijn.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Desteldonk-Dorp",
+        "after": "Dagelijks leven in Desteldonk-Dorp",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Desteldonk-Dorp draait om rust, ruimte en zelfstandigheid. 's Ochtends vroeg wandel je door lege velden waar je vrijwel niemand tegenkomt, en je hond kan naar hartenlust rennen zonder dat je je zorgen hoeft te maken over drukke straten of andere honden.",
+        "after": "Een typische dag in Desteldonk-Dorp draait om rust, ruimte en zelfstandigheid. 's Ochtends vroeg wandel je door lege velden waar je vrijwel niemand tegenkomt, en je huisdier kan naar hartenlust rennen zonder dat je je zorgen hoeft te maken over drukke straten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De lage bevolkingsdichtheid van 168 inwoners per vierkante kilometer betekent dat je tijdens je wandelingen vrijwel niemand tegenkomt. Voor honden die moeite hebben met andere dieren of drukte is dit een enorm voordeel.",
+        "after": "De lage bevolkingsdichtheid van 168 inwoners per vierkante kilometer betekent dat je tijdens je wandelingen vrijwel niemand tegenkomt. Voor wie rust zoekt tijdens dagelijkse wandelingen is dit een enorm voordeel.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Het kleine dorpsgevoel betekent dat je buurtbewoners snel leert kennen. De gemeenschap is hecht, en hoewel je minder andere baasjes tegenkomt, zijn de ontmoetingen die je wel hebt vaak persoonlijker en langduriger.",
+        "after": "Het kleine dorpsgevoel betekent dat je buurtbewoners snel leert kennen. De gemeenschap is hecht, en hoewel je minder andere hondenbezitters tegenkomt, zijn de ontmoetingen die je wel hebt vaak persoonlijker en langduriger.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De rust en stilte zijn ideaal voor honden die gevoelig zijn voor stadse geluiden.",
+        "after": "De rust en stilte zijn praktisch voor wie gevoelig is voor stadse geluiden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[5]",
+        "before": "Voor baasjes die graag fotograferen of van het buitenleven genieten, biedt de landelijke omgeving eindeloze mogelijkheden.",
+        "after": "Voor wie graag fotografeert of van het buitenleven geniet, biedt de landelijke omgeving eindeloze mogelijkheden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 13,
+      "introScore": 22,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T13:30:00Z",
+    "qualityScore": 81,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro (paragraph 2)",
+        "before": "Voor dagelijkse boodschappen, medische zorg voor je huisdier of gespecialiseerde benodigdheden moet je uitwijken naar aangrenzende wijken of het centrum van Gent.",
+        "after": "Voor dagelijkse boodschappen, medische zorg voor je viervoeter of gespecialiseerde benodigdheden moet je uitwijken naar aangrenzende wijken of het centrum van Gent.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro (paragraph 5)",
+        "before": "Voor wie met een huisdier woont betekent dat vrijheid in de dagelijkse routine, maar ook accepteren dat je voor bijna alles — van voer tot dierenarts tot sociale contacten met andere hondenbezitters — buiten de wijk moet.",
+        "after": "Voor wie met een viervoeter woont betekent dat vrijheid in de dagelijkse routine, maar ook accepteren dat je voor bijna alles — van voer tot dierenarts tot sociale contacten met andere baasjes — buiten de wijk moet.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Voor alle dagelijkse behoeften — van boodschappen tot medische zorg voor je huisdier — ben je aangewezen op aangrenzende wijken zoals Mendonk, Langerbrugge of het centrum van Gent.",
+        "after": "Voor alle dagelijkse behoeften — van boodschappen tot medische zorg voor je viervoeter — ben je aangewezen op aangrenzende wijken zoals Mendonk, Langerbrugge of het centrum van Gent.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "vets.intro",
+        "before": "De dichtstbijzijnde dierenartsen bevinden zich in Lochristi, op ongeveer 52 tot 53 minuten wandelen (of 10-12 minuten met de auto). WelloPet en De Zaffelbeek zijn de twee opties in de buurt.",
+        "after": "De dichtstbijzijnde dierenartsen bevinden zich in Lochristi, op ongeveer 52 tot 53 minuten wandelen (of 10-12 minuten met de auto). WelloPet en De Zaffelbeek zijn de twee opties in de omgeving.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Supermarkten in naburige wijken hebben vaak een klein assortiment voor huisdieren, maar voor gespecialiseerde producten ben je aangewezen op een autoritje of online shops.",
+        "after": "Supermarkten in naburige wijken hebben vaak een klein assortiment voor honden, maar voor gespecialiseerde producten ben je aangewezen op een autoritje of online shops.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag in Desteldonk-Dorp draait om rust, ruimte en zelfstandigheid. 's Ochtends vroeg wandel je door lege velden waar je vrijwel niemand tegenkomt, en je huisdier kan naar hartenlust rennen zonder dat je je zorgen hoeft te maken over drukke straten.",
+        "after": "Een typische dag in Desteldonk-Dorp draait om rust, ruimte en zelfstandigheid. 's Ochtends vroeg wandel je door lege velden waar je vrijwel niemand tegenkomt, en je viervoeter kan naar hartenlust rennen zonder dat je je zorgen hoeft te maken over drukke straten.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Het kleine dorpsgevoel betekent dat je buurtbewoners snel leert kennen. De gemeenschap is hecht, en hoewel je minder andere hondenbezitters tegenkomt, zijn de ontmoetingen die je wel hebt vaak persoonlijker en langduriger.",
+        "after": "Het kleine dorpsgevoel betekent dat je buurtbewoners snel leert kennen. De gemeenschap is hecht, en hoewel je minder andere baasjes tegenkomt, zijn de ontmoetingen die je wel hebt vaak persoonlijker en langduriger.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "intro",
+        "issue": "Limited local place names. Content mentions Lochristi and Gent but lacks specific street names or local landmarks within Desteldonk-Dorp itself. This is partially justified by the rural, sparse nature of the neighborhood.",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 12,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 9
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "huisdier",
+            "field": "intro (paragraph 2)",
+            "preferred": "viervoeter"
+          },
+          {
+            "term": "huisdier",
+            "field": "intro (paragraph 5)",
+            "preferred": "viervoeter"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "intro (paragraph 5)",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "huisdier",
+            "field": "facilities.intro",
+            "preferred": "viervoeter"
+          },
+          {
+            "term": "buurt",
+            "field": "vets.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "huisdieren",
+            "field": "petStores.intro",
+            "preferred": "honden"
+          },
+          {
+            "term": "huisdier",
+            "field": "dailyLife.intro",
+            "preferred": "viervoeter"
+          },
+          {
+            "term": "hondenbezitters",
+            "field": "dailyLife.benefits[3]",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "baasjes",
+          "viervoeter",
+          "hondenspeelweide",
+          "dierenarts",
+          "wandeling"
+        ],
+        "allowedExceptionsUsed": [
+          "buurtgevoel (intro paragraph 6)",
+          "buurtbewoners (dailyLife.benefits[3])",
+          "in de buurt (vets.intro - acceptable for 'nearby')"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 4,
+        "localTipsFound": [
+          "uitwijken naar aangrenzende wijken zoals Mendonk, Langerbrugge",
+          "WelloPet in Lochristi",
+          "De Zaffelbeek"
+        ],
+        "neighborhoodObservations": [
+          "ingebed in groene landbouwgronden en open velden",
+          "lage bevolkingsdichtheid van 168 inwoners per vierkante kilometer",
+          "klein dorpsgevoel",
+          "uitgestrekte open velden"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 16.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog parks in neighborhood",
+          "no pet stores in neighborhood",
+          "no vets in neighborhood",
+          "no supermarkets in neighborhood"
+        ],
+        "gapsHandledGracefully": 4,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

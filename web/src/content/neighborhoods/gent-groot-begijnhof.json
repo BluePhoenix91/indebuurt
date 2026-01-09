@@ -1,0 +1,536 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T12:00:00Z",
+  "id": "gent-groot-begijnhof",
+  "city": "Gent",
+  "name": "GROOT BEGIJNHOF",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Groot Begijnhof, Gent: historisch karakter met 20 parken op wandelafstand en uitstekende bereikbaarheid",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 21413,
+  "labels": [
+    {
+      "text": "Historische wijk",
+      "icon": "fa-solid fa-landmark"
+    },
+    {
+      "text": "Veel groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    }
+  ],
+  "intro": "Groot Begijnhof is een wijk in Gent waar historisch erfgoed en moderne voorzieningen samenkomen. Met meer dan 21.000 inwoners en een bevolkingsdichtheid van 5.577 inwoners per vierkante kilometer woon je hier in een levendige stadswijk. Het historische karakter van de wijk — vernoemd naar het begijnhof — geeft je een gevoel van rust temidden van de stad, terwijl je toch alle voorzieningen binnen handbereik hebt.\n\nDe groene inrichting van de wijk is een groot pluspunt voor wie dagelijks buiten wil zijn. Met maar liefst 20 parken verspreid over de wijk heb je altijd wel een plek voor een wandeling. Park Potuit ligt op slechts 5 minuten wandelen vanaf het centrum van de wijk, gevolgd door Azaleapark en Park Rozebroeken. Die diversiteit aan groene ruimtes zorgt ervoor dat je verschillende omgevingen kunt ontdekken zonder ver te hoeven reizen.\n\nWat medische zorg betreft zit je hier uitstekend. Met 5 dierenartsen in de directe omgeving is er altijd wel een optie binnen handbereik. De dichtstbijzijnde praktijk ligt op amper 2 minuten wandelen, wat een geruststellende gedachte is als je plots veterinaire hulp nodig hebt. Ook qua boodschappen ben je goed voorzien: 5 supermarkten zorgen ervoor dat je nooit ver hoeft voor dagelijkse behoeften.\n\nEen eerlijke trade-off: officiële hondenspeelweiden zijn er minder frequent dan je misschien zou wensen. Hoewel er wel 4 hondenspeelweiden geregistreerd staan in de omgeving, liggen de dichtstbijzijnde op 5 minuten wandelen en zijn niet allemaal omheind. Voor wie specifiek op zoek is naar een volledig afgesloten speelweide waar je hond los kan rennen, betekent dit dat je iets verder moet lopen — de dichtstbijzijnde omheinde optie ligt op 13 minuten. Maar met de overvloed aan reguliere parken heb je wel voldoende alternatieven voor gevarieerde wandelingen.\n\nDe bereikbaarheid van Groot Begijnhof is een van de sterke punten. Met 47 bushaltes in de wijk ben je altijd snel bij het openbaar vervoer. Dit maakt de wijk interessant voor wie zonder auto wil leven of regelmatig naar andere delen van Gent moet. De combinatie van stadsleven en groene ruimte maakt deze wijk vooral geschikt voor wie niet wil kiezen tussen stedelijk gemak en wandelmogelijkheden.\n\nQua huisvesting ligt de mediane woningprijs rond de €353.000, wat voor Gent redelijk in lijn ligt met vergelijkbare stadswijken. Met meer dan 21.000 inwoners is dit een grote wijk waar je zowel sociale dynamiek als voldoende ruimte voor privacy vindt. Voor wie een actieve wandelroutine waardeert en graag in een wijk met karakter woont, biedt Groot Begijnhof een solide basis. Wie daarentegen op zoek is naar uitgestrekte natuurgebieden of dorpse rust, kan zich hier mogelijk wat benauwd voelen door de stedelijke densiteit.",
+  "coordinates": {
+    "lat": 51.061754853217856,
+    "lon": 3.755690345619716,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 hondenspeelweiden binnen 15 min",
+      "detail": "Dichtstbijzijnde op 5 min wandelen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 dierenartsen in de wijk",
+      "detail": "Benoît Fiers op 2 min wandelen"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "15 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 gespecialiseerde winkels",
+      "detail": "Aleashop op 15 min te voet"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken & groen",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "20 parken voor wandelingen",
+      "detail": "Park Potuit, Azaleapark, Sint-Baafskouter"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "Dichtbij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 supermarkten in de wijk",
+      "detail": "Voor snacks en basisbehoeften"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Overal",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "47 bushaltes in de wijk",
+      "detail": "Zeer goed bereikbaar"
+    }
+  ],
+  "facilities": {
+    "intro": "Groot Begijnhof combineert een sterke infrastructuur met voldoende variatie in voorzieningen. Van snelle toegang tot dierenartsen tot gespecialiseerde dierenwinkels en een uitgebreid netwerk van parken — je vindt hier alles wat je nodig hebt voor een comfortabel leven."
+  },
+  "dogParks": {
+    "intro": "In Groot Begijnhof vind je 4 hondenspeelweiden binnen een straal van 15 minuten wandelen. De dichtstbijzijnde liggen op 5 minuten, maar let op: niet alle zijn omheind. Voor wie een volledig afgesloten speelweide zoekt waar je hond vrij kan rondrennen, is de dichtstbijzijnde omheinde optie op 13 minuten wandelen. De vele reguliere parken bieden wel volop ruimte voor aangelijnd wandelen en sociale interactie.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (niet omheind)",
+        "distance": "5 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0585471,
+          "lon": 3.7567109
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (niet omheind)",
+        "distance": "5 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0601233,
+          "lon": 3.7509435
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark (niet omheind)",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0554521,
+          "lon": 3.7463015
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde hondenspeelweide",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0544861,
+          "lon": 3.7463636
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde hondenspeelweide",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.072154,
+          "lon": 3.7516795
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg zit je in Groot Begijnhof uitstekend. Met 5 dierenartsen binnen 15 minuten wandelen is er altijd wel een optie dichtbij. De dichtstbijzijnde praktijk van Benoît Fiers ligt op amper 2 minuten — ideaal voor spoedgevallen of routinecontroles.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Benoît Fiers",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "2 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0631388,
+          "lon": 3.7569615
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van de Walle",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0595905,
+          "lon": 3.752562
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Sofie Breugelmans",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0523672,
+          "lon": 3.7550973
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor gespecialiseerde hondenspullen heb je keuze uit 3 dierenwinkels. Aleashop ligt op 15 minuten wandelen in Destelbergen, terwijl Tom & Co op 17 minuten te voet bereikbaar is. Voor snelle boodschappen hebben de 5 supermarkten in de wijk vaak ook een basisassortiment.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0757366,
+          "lon": 3.7613707
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Groot Begijnhof",
+    "intro": "Een typische dag in Groot Begijnhof begint met een ochtendwandeling door een van de vele parken in de buurt. Park Potuit en Azaleapark liggen op slechts 5 minuten wandelen en bieden schaduwrijke paden en open grasvelden. Na de wandeling haal je snel wat boodschappen bij een van de nabije supermarkten. 's Avonds kun je kiezen uit verschillende routes — van het rustige Park Rozebroeken tot het levendige Cirkelspark, waar je vaak andere mensen tegenkomt.",
+    "benefits": [
+      "Met 20 parken binnen een straal van 15 minuten wandelen heb je elke dag een andere route. Of je nu kiest voor de uitgestrekte Sint-Baafskouter of de compacte Azaleapark, variatie zit ingebakken in je wandelroutine.",
+      "De 47 bushaltes in de wijk maken het makkelijk om zonder auto te leven. Ook voor uitstapjes naar andere delen van Gent of naar grotere natuurgebieden buiten de stad ben je snel aangesloten op het openbaar vervoer.",
+      "Veterinaire zorg is altijd dichtbij. Met 5 dierenartsen binnen 15 minuten wandelen en de dichtstbijzijnde op slechts 2 minuten, hoef je je geen zorgen te maken over noodgevallen of routinecontroles.",
+      "De historische sfeer van de wijk — met authentieke begijnhofarchitectuur — maakt je dagelijkse wandelingen extra aangenaam. Je loopt hier door straten met karakter, wat het gevoel van een dorps centrum geeft terwijl je midden in de stad bent.",
+      "Voor sociale ontmoetingen bieden de vele parken natuurlijke plekken. Vooral in Park Potuit en Buurtpark Biest kom je regelmatig anderen tegen, wat leuk is voor gesprekken tijdens je wandelingen.",
+      "Qua boodschappen heb je alles binnen handbereik: 5 supermarkten voor dagelijkse behoeften en 3 gespecialiseerde dierenwinkels voor specifiek hondenvoer of speelgoed. Aleashop en Tom & Co liggen beide op minder dan 20 minuten wandelen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere mensen de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Groot Begijnhof is met 21.413 inwoners een van de grotere wijken in Gent. De bevolkingsdichtheid van 5.577 inwoners per km² maakt het een levendige stadswijk waar je altijd wel leven op straat vindt.",
+    "medianPrice": 353000,
+    "inhabitants": 21413,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Groot Begijnhof? De wijk heeft postcode 9000. Je kunt op Immoweb of Zimmo filteren op deze postcode om actuele aanbiedingen te vinden. Let op: omdat deze postcode gedeeld wordt met andere Gentse wijken, is het belangrijk om de specifieke straatnaam of buurt te controleren.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-dampoort",
+    "gent-afrikalaan",
+    "gent-westveld-kern",
+    "gent-heernis",
+    "gent-blaisantvest"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T12:00:00Z",
+    "qualityScore": 84,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in Groot Begijnhof: historisch karakter met 20 parken op wandelafstand en uitstekende bereikbaarheid",
+        "after": "Wonen in Groot Begijnhof, Gent: historisch karakter met 20 parken op wandelafstand en uitstekende bereikbaarheid",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Groot Begijnhof is een unieke wijk in Gent waar historisch erfgoed en moderne voorzieningen samenkomen.",
+        "after": "Groot Begijnhof is een wijk in Gent waar historisch erfgoed en moderne voorzieningen samenkomen.",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes is de groene inrichting van de wijk een groot pluspunt. Met maar liefst 20 parken verspreid over de buurt heb je altijd wel een plek voor de dagelijkse wandeling. Park Potuit ligt op slechts 5 minuten wandelen vanaf het centrum van de wijk, gevolgd door Azaleapark en Park Rozebroeken. Die diversiteit aan groene ruimtes zorgt ervoor dat je je viervoeter verschillende omgevingen kunt laten ontdekken zonder ver te hoeven reizen.",
+        "after": "De groene inrichting van de wijk is een groot pluspunt voor wie dagelijks buiten wil zijn. Met maar liefst 20 parken verspreid over de buurt heb je altijd wel een plek voor een wandeling. Park Potuit ligt op slechts 5 minuten wandelen vanaf het centrum van de wijk, gevolgd door Azaleapark en Park Rozebroeken. Die diversiteit aan groene ruimtes zorgt ervoor dat je verschillende omgevingen kunt ontdekken zonder ver te hoeven reizen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Ook qua boodschappen ben je goed voorzien: 5 supermarkten zorgen ervoor dat je nooit ver hoeft voor de basisbehoeften van je hond.",
+        "after": "Ook qua boodschappen ben je goed voorzien: 5 supermarkten zorgen ervoor dat je nooit ver hoeft voor dagelijkse behoeften.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Een eerlijke trade-off: officiële hondenspeelweiden zijn er minder frequent dan je misschien zou wensen. Hoewel er wel 4 hondenparken geregistreerd staan in de omgeving, liggen de dichtstbijzijnde op 5 minuten wandelen en zijn niet allemaal omheind. Voor baasjes die specifiek op zoek zijn naar een volledig afgesloten speelweide waar je hond los kan rennen, betekent dit dat je iets verder moet lopen — de dichtstbijzijnde omheinde optie ligt op 13 minuten.",
+        "after": "Een eerlijke trade-off: officiële hondenspeelweiden zijn er minder frequent dan je misschien zou wensen. Hoewel er wel 4 hondenparken geregistreerd staan in de omgeving, liggen de dichtstbijzijnde op 5 minuten wandelen en zijn niet allemaal omheind. Voor wie specifiek op zoek is naar een volledig afgesloten speelweide waar je hond los kan rennen, betekent dit dat je iets verder moet lopen — de dichtstbijzijnde omheinde optie ligt op 13 minuten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De combinatie van stadsleven en groene ruimte maakt deze wijk vooral geschikt voor baasjes die niet willen kiezen tussen stedelijk gemak en wandelmogelijkheden.",
+        "after": "De combinatie van stadsleven en groene ruimte maakt deze wijk vooral geschikt voor wie niet wil kiezen tussen stedelijk gemak en wandelmogelijkheden.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Groot Begijnhof combineert een sterke infrastructuur voor baasjes met voldoende variatie in voorzieningen. Van snelle toegang tot dierenartsen tot gespecialiseerde dierenwinkels en een uitgebreid netwerk van parken — je vindt hier alles wat je nodig hebt voor een comfortabel leven met je viervoeter.",
+        "after": "Groot Begijnhof combineert een sterke infrastructuur met voldoende variatie in voorzieningen. Van snelle toegang tot dierenartsen tot gespecialiseerde dierenwinkels en een uitgebreid netwerk van parken — je vindt hier alles wat je nodig hebt voor een comfortabel leven.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "In Groot Begijnhof vind je 4 hondenparken binnen een straal van 15 minuten wandelen. De dichtstbijzijnde liggen op 5 minuten, maar let op: niet alle parken zijn omheind. Voor wie een volledig afgesloten speelweide zoekt waar je hond vrij kan rondrennen, is de dichtstbijzijnde omheinde optie op 13 minuten wandelen. De vele reguliere parken bieden wel volop ruimte voor aangelijnd wandelen en sociale interactie met andere baasjes.",
+        "after": "In Groot Begijnhof vind je 4 hondenparken binnen een straal van 15 minuten wandelen. De dichtstbijzijnde liggen op 5 minuten, maar let op: niet alle parken zijn omheind. Voor wie een volledig afgesloten speelweide zoekt waar je hond vrij kan rondrennen, is de dichtstbijzijnde omheinde optie op 13 minuten wandelen. De vele reguliere parken bieden wel volop ruimte voor aangelijnd wandelen en sociale interactie.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor gespecialiseerde hondenspullen heb je keuze uit 3 dierenwinkels. Aleashop ligt op 15 minuten wandelen in Destelbergen, terwijl Tom & Co op 17 minuten te voet bereikbaar is. Voor snelle boodschappen hebben de 5 supermarkten in de wijk vaak ook een basisassortiment voor je viervoeter.",
+        "after": "Voor gespecialiseerde hondenspullen heb je keuze uit 3 dierenwinkels. Aleashop ligt op 15 minuten wandelen in Destelbergen, terwijl Tom & Co op 17 minuten te voet bereikbaar is. Voor snelle boodschappen hebben de 5 supermarkten in de wijk vaak ook een basisassortiment.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Groot Begijnhof",
+        "after": "Dagelijks leven in Groot Begijnhof",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Groot Begijnhof begint met een ochtendwandeling door een van de vele parken in de buurt. Park Potuit en Azaleapark liggen op slechts 5 minuten wandelen en bieden schaduwrijke paden en open grasvelden. Na de wandeling haal je snel wat boodschappen bij een van de nabije supermarkten. 's Avonds kun je kiezen uit verschillende routes — van het rustige Park Rozebroeken tot het levendige Cirkelspark, waar je vaak andere baasjes tegenkomt.",
+        "after": "Een typische dag in Groot Begijnhof begint met een ochtendwandeling door een van de vele parken in de buurt. Park Potuit en Azaleapark liggen op slechts 5 minuten wandelen en bieden schaduwrijke paden en open grasvelden. Na de wandeling haal je snel wat boodschappen bij een van de nabije supermarkten. 's Avonds kun je kiezen uit verschillende routes — van het rustige Park Rozebroeken tot het levendige Cirkelspark, waar je vaak andere mensen tegenkomt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Voor sociale baasjes bieden de vele parken natuurlijke ontmoetingsplekken. Vooral in Park Potuit en Buurtpark Biest kom je regelmatig andere hondeneigenaars tegen, wat leuk is voor zowel jou als je viervoeter.",
+        "after": "Voor sociale ontmoetingen bieden de vele parken natuurlijke plekken. Vooral in Park Potuit en Buurtpark Biest kom je regelmatig anderen tegen, wat leuk is voor gesprekken tijdens je wandelingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T14:30:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Met maar liefst 20 parken verspreid over de buurt heb je altijd wel een plek voor een wandeling.",
+        "after": "Met maar liefst 20 parken verspreid over de wijk heb je altijd wel een plek voor een wandeling.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "intro",
+        "before": "Hoewel er wel 4 hondenparken geregistreerd staan in de omgeving",
+        "after": "Hoewel er wel 4 hondenspeelweiden geregistreerd staan in de omgeving",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[0].title",
+        "before": "Hondenparken",
+        "after": "Hondenspeelweiden",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[0].description",
+        "before": "4 hondenparken binnen 15 min",
+        "after": "4 hondenspeelweiden binnen 15 min",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[1].description",
+        "before": "5 dierenartsen in de buurt",
+        "after": "5 dierenartsen in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "In Groot Begijnhof vind je 4 hondenparken binnen een straal van 15 minuten wandelen. De dichtstbijzijnde liggen op 5 minuten, maar let op: niet alle parken zijn omheind.",
+        "after": "In Groot Begijnhof vind je 4 hondenspeelweiden binnen een straal van 15 minuten wandelen. De dichtstbijzijnde liggen op 5 minuten, maar let op: niet alle zijn omheind.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere mensen de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "valueCards[1].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "hondenparken",
+            "field": "intro",
+            "preferred": "hondenspeelweiden"
+          },
+          {
+            "term": "hondenparken",
+            "field": "valueCards[0].title",
+            "preferred": "hondenspeelweiden"
+          },
+          {
+            "term": "hondenparken",
+            "field": "valueCards[0].description",
+            "preferred": "hondenspeelweiden"
+          },
+          {
+            "term": "hondenparken",
+            "field": "dogParks.intro",
+            "preferred": "hondenspeelweiden"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "hond",
+          "dierenarts",
+          "wandeling"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (dailyLife.intro)",
+          "de juiste buurt te vinden (contributionCTA.intro - was changed to wijk)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 28
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "Park Potuit ligt op slechts 5 minuten wandelen",
+          "Azaleapark en Park Rozebroeken",
+          "Aleashop ligt op 15 minuten wandelen in Destelbergen",
+          "Tania Maenhout op Hogeweg 203"
+        ],
+        "neighborhoodObservations": [
+          "Het historische karakter van de wijk — vernoemd naar het begijnhof",
+          "De historische sfeer van de wijk — met authentieke begijnhofarchitectuur",
+          "Je loopt hier door straten met karakter, wat het gevoel van een dorps centrum geeft terwijl je midden in de stad bent"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 18.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "Some dog parks not fenced"
+        ],
+        "gapsHandledGracefully": 1,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

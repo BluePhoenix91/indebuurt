@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T12:30:00Z",
+  "id": "gent-de-naeyerdreef",
+  "city": "Gent",
+  "name": "De Naeyerdreef",
+  "postalCode": "9050",
+  "subtitle": "Wonen in De Naeyerdreef Gent: rustige woonwijk met 6 parken op wandelafstand, groen voor dagelijkse wandelingen en goed openbaar vervoer",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 5310,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Veel groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    },
+    {
+      "text": "Rustige wijk",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "De Naeyerdreef is een rustige woonwijk aan de zuidrand van Gent, grenzend aan Gentbrugge en Merelbeke. Met haar brede lanen, lage bebouwing en ruime parken is dit een typische residentiële wijk waar je vooral je rust vindt. De Brusselsesteenweg vormt de centrale verkeersader, maar zodra je de zijstraten induikt kom je in een netwerk van rustige woonstraten met veel groen. De wijk heeft een duidelijk vooroorlogse karakter met opvallend veel tuinwijken en open ruimte.\n\nMet 6 parken binnen de wijk en nog eens 9 binnen 15 minuten wandelen, is dit een uitstekende plek voor je dagelijkse wandelingen. Park De Vijvers ligt op slechts 274 meter, Park de Pélichy op 308 meter — je hebt groene ruimte letterlijk om de hoek. Voor wie van afwisseling houdt: Standaertsite, Moriaanpark en Victoria Regiapark zijn allemaal binnen 10 minuten te voet. Ook voor wie op zoek is naar uitloop zonder speelweide vind je hier dus voldoende alternatief.\n\nEr is één hondenspeelweide in de wijk, op 6 minuten wandelen. Dat is verrassend dichtbij, al moet je weten dat dit een onafgewerkte speelweide is zonder omheining of voorzieningen. Voor een volwaardig omheind speelterrein moet je verder kijken: de dichtstbijzijnde ligt op 25 minuten wandelen richting het noorden. Als je vooral behoefte hebt aan vrij rondrennen in een veilige omgeving, is dat een overweging waard.\n\nQua voorzieningen vraagt De Naeyerdreef wat meer organisatie. Er is geen dierenarts of dierenwinkel in de wijk zelf. De dichtstbijzijnde dierenarts Herbots vind je op de Brusselsesteenweg op 9 minuten wandelen, dus dat is nog prima te doen. Voor dierenvoeding en speelgoed moet je naar Aleashop of Tom & Co, beide op ruim 20 minuten te voet. De meeste mensen kiezen ervoor om dit te combineren met een auto-uitstap, of bestellen online. Het is zeker geen dagelijkse ergernis, maar je moet dit wel even in je routine inplannen.\n\nOpenbaar vervoer is sterk aanwezig: 15 bushaltes en 1 treinstation (Gentbrugge) liggen in de wijk. Je bent binnen een kwartier in het centrum van Gent. Met de auto is de E40 snel bereikbaar, wat handig is als je regelmatig naar Brussel of de kust moet. De wijk is vooral geschikt voor wie rust en groen belangrijk vindt, en geen bezwaar heeft tegen wat langere afstanden naar gespecialiseerde voorzieningen. Voor jonge honden die veel socialisatie nodig hebben op een omheinde speelweide, is dit misschien minder ideaal — tenzij je bereid bent om regelmatig die 25 minuten te lopen of met de auto te gaan.\n\nMet 5.310 inwoners en een dichtheid van 4.826 per km² is De Naeyerdreef compacter dan je op het eerste gezicht zou denken. Toch voelt het ruim, dankzij het groene karakter en de opzet van de wijk. De mediaanprijs voor een woning ligt op €353.000, wat voor Gent aan de betaalbare kant is voor een wijk met zoveel groene ruimte. Als je op zoek bent naar een rustige, groene thuisbasis met goede verbindingen maar zonder de drukte van het centrum, dan is De Naeyerdreef de moeite waard om te verkennen.",
+  "coordinates": {
+    "lat": 51.03693580308141,
+    "lon": 3.7507525985586003,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 speelweide in de wijk (niet omheind)",
+      "detail": "Omheinde speelweide op 25 mins"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen dierenarts in de wijk",
+      "detail": "Herbots op Brusselsesteenweg"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "22 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen dierenwinkel in de wijk",
+      "detail": "Aleashop op 22 mins in Destelbergen"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 parken binnen de wijk",
+      "detail": "Park De Vijvers dichtste op 274m"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "In de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "15 bushaltes + 1 treinstation",
+      "detail": "Station Gentbrugge in de wijk"
+    },
+    {
+      "icon": "fa-solid fa-prescription-bottle-medical",
+      "title": "Apotheken",
+      "distance": "In de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 apotheken aanwezig",
+      "detail": "Basis medische voorzieningen"
+    }
+  ],
+  "facilities": {
+    "intro": "De Naeyerdreef heeft een beperkt aanbod aan gespecialiseerde voorzieningen: geen dierenarts of dierenwinkel in de wijk zelf. De dichtstbijzijnde dierenarts Herbots ligt op 9 minuten wandelen aan de Brusselsesteenweg, wat nog prima te doen is bij een controlebezoek of kleine zorgen. Voor dierenvoeding en speelgoed moet je naar Aleashop (22 minuten) of Tom & Co (23 minuten), beide buiten de wijk. Wat de wijk wél biedt, is groen: 6 parken binnen de wijk en een hondenspeelweide op 6 minuten wandelen, ideaal voor dagelijkse uitloop."
+  },
+  "dogParks": {
+    "intro": "De wijk telt 1 hondenspeelweide op 6 minuten wandelen, maar dit is een simpele uitloop zonder omheining, water of voorzieningen. Voor wie graag vrij rondrent in een veilige, afgesloten ruimte is dat onvoldoende. De dichtstbijzijnde omheinde speelweide ligt op 25 minuten wandelen naar het noorden. Met 6 parken in de directe omgeving heb je wel meer dan genoeg alternatieve groene ruimte voor de dagelijkse wandeling: Park De Vijvers, Park de Pélichy en Standaertsite liggen allemaal binnen 5 minuten. Voor sociale uitwisseling met andere hondenliefhebbers is een echt omheind hondenpark wel fijner.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (onbekend)",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0406636,
+          "lon": 3.7534797
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In De Naeyerdreef zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Herbots op de Brusselsesteenweg, op 9 minuten wandelen — dus voor routinecontroles, vaccinaties of kleine zorgen is dat goed te doen. Binnen 15 minuten wandelen heb je toegang tot drie praktijken: Herbots, Dierenartsenpraktijk Botermarkt en Dierenartsenpraktijk Moscou. Voor spoedgevallen of complexere behandelingen zijn er meerdere opties binnen 15 minuten met de auto.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Herbots",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "35",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0410057,
+          "lon": 3.7425297
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Botermarkt",
+        "street": "Hundelgemsesteenweg",
+        "streetNumber": "6",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0332212,
+          "lon": 3.7415122
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Moscou",
+        "street": "Jules de Saint-Genoisstraat",
+        "streetNumber": "49A",
+        "municipality": "Gentbrugge",
+        "postalCode": "9050",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0301719,
+          "lon": 3.7593946
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Viervoeter",
+        "street": "Frans Spaestraat",
+        "streetNumber": "27",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0388816,
+          "lon": 3.73474
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in De Naeyerdreef. De dichtstbijzijnde opties — Aleashop in Destelbergen (22 minuten) en Tom & Co op de Dendermondsesteenweg (23 minuten) — zijn net iets te ver om er spontaan even naartoe te lopen. De meeste mensen doen deze boodschappen daarom met de auto, of bestellen online. Voor kleine noodgevallen kun je terecht bij apotheken in de wijk voor basisproducten zoals vlooienmiddelen of wondverzorging.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "2",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.025379,
+          "lon": 3.7710589
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in De Naeyerdreef",
+    "intro": "Een typische dag in De Naeyerdreef draait om rustige ochtendwandelingen door wijkparken, afwisseling tussen groene pleinen en uitloop in nabijgelegen natuurgebieden. Je geniet van de rust en het groen, maar houdt rekening met wat extra planning voor dierenartbezoeken en het halen van dierenvoeding. Met goed openbaar vervoer en snelle toegang tot de E40 is de wijk vooral geschikt voor wie graag een rustige thuisbasis heeft met veel wandelmogelijkheden, maar niet afhankelijk wil zijn van directe voorzieningen.",
+    "benefits": [
+      "Met 6 parken binnen de wijk — waaronder Park De Vijvers op slechts 274 meter en Park de Pélichy op 308 meter — heb je altijd een groene plek voor de ochtendwandeling. Standaertsite, Moriaanpark en Victoria Regiapark bieden afwisseling met verschillende paden en sferen, ideaal voor wie van variatie houdt.",
+      "Het openbaar vervoer is uitstekend met 15 bushaltes en Station Gentbrugge in de wijk. Je bent binnen een kwartier in het centrum van Gent, handig als je daar werkt of vrienden bezoekt. Ook de E40 is snel bereikbaar, wat fijn is voor uitstapjes naar de kust of Ardennen.",
+      "De wijk heeft een rustig, residentieel karakter met weinig doorgaand verkeer in de zijstraten. Voor wie van stilte houdt, is dit een pluspunt. Veel straten hebben brede voetpaden en tuinen, wat de wandelingen aangenaam maakt.",
+      "Dankzij de lage bebouwingsdichtheid en veel groen voelt De Naeyerdreef ruimer dan de cijfers (4.826 inwoners per km²) doen vermoeden. Je ervaart hier minder drukte en meer bewegingsvrijheid dan in compactere stadswijken.",
+      "De mediaanprijs van €353.000 voor een woning is voor Gent aan de betaalbare kant, zeker voor een wijk met zoveel groen en goede verbindingen. Als je op zoek bent naar waar voor je geld, is deze wijk interessant.",
+      "Voor dierenartbezoeken heb je Herbots op 9 minuten wandelen, dus routinecontroles blijven haalbaar te voet. Spoedgevallen zijn met de auto binnen 10-15 minuten op te lossen dankzij meerdere praktijken in de omgeving.",
+      "De nabijheid van Gentbrugge en aangrenzende wijken betekent dat je voor dagelijkse boodschappen en sociale activiteiten makkelijk even de wijk uit kunt zonder ver te hoeven reizen. Combineer een wandeling met een bezoek aan de supermarkt of bakker net buiten de wijk."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere mensen de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "De Naeyerdreef telt 5.310 inwoners met een dichtheid van 4.826 per vierkante kilometer. De wijk voelt ondanks die cijfers ruim en groen, dankzij de opzet met veel parken en lage bebouwing.",
+    "medianPrice": 353000,
+    "inhabitants": 5310,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in De Naeyerdreef? De wijk heeft postcode 9050 (gedeeld met Gentbrugge en omgeving). Filter je zoekopdracht op deze postcode en combineer met de straatnaam of wijk om resultaten te verfijnen. Woningen in deze wijk bieden meestal tuin of terras, ideaal voor wie van buitenruimte houdt.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-belle-vue",
+    "gent-arsenaal",
+    "gent-merelbeke-station",
+    "gent-brusselse-poort",
+    "gent-heernis"
+  ]
+}

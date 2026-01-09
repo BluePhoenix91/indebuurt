@@ -1,0 +1,378 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T11:15:00Z",
+  "id": "gent-rostijne",
+  "city": "Gent",
+  "name": "Rostijne",
+  "postalCode": "9042",
+  "subtitle": "Wonen in Rostijne, Gent: landelijk gebied met veel ruimte en rust — voorzieningen op afstand",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 0,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Rostijne is een landelijk gebied aan de noordrand van Gent, officieel zonder vaste bewoners. Dit is geen traditionele woonwijk, maar eerder een agrarisch en groen gebied met open ruimte en weinig bebouwing. Als je hier terechtkomt, is het belangrijk te weten dat alle dagelijkse voorzieningen op behoorlijke afstand liggen.\n\nDe realiteit is dat je in Rostijne geen supermarkten, winkels of andere voorzieningen aantreft. Het dichtstbijzijnde openbaar vervoer is beperkt tot één enkele bushalte, en verder ben je aangewezen op de auto voor vrijwel alle verplaatsingen. Voor wie een viervoeter heeft, betekent dit dat dierenartsen, dierenartsenwinkels en zelfs hondenparken niet om de hoek liggen — de dichtstbijzijnde dierenarts ligt op 40 minuten lopen in Zelzate, een afstand die met de auto natuurlijk veel praktischer is.\n\nWat Rostijne wel biedt, is ruimte en rust. De omgeving is open en groen, met weilanden en verspreide natuurgebieden. Voor wie houdt van lange wandelingen in een rustige setting zonder drukte, biedt de omgeving mogelijkheden. Maar dit is geen plek voor wie gemak en nabijheid van voorzieningen belangrijk vindt.\n\nVoor medische zorg moet je uitwijken naar omliggende gemeenten. De dichtstbijzijnde dierenartspraktijken liggen in Zelzate (40-41 minuten te voet), wat in de praktijk betekent dat je een auto nodig hebt voor spoedgevallen of reguliere controles. Hetzelfde geldt voor dierenwinkels — de dichtstbijzijnde optie is Vogelparadijs Wachtebeke op 28 minuten lopen, maar ook hier is de auto de praktische keuze.\n\nHet Kloosterbos ligt op 26 minuten wandelen en biedt een uitloop met gemengde ondergrond, maar dit is geen omheinde hondenspeelweide. Voor een gespecialiseerde hondenzone zoals de Hondenzwemzone Puyenbroeck moet je al meer dan een uur lopen (76 minuten), wat dit eerder een uitstapje voor het weekend maakt dan een dagelijkse optie.\n\nRostijne is duidelijk niet voor iedereen. Als je zoekt naar een klassieke woonwijk met nabije voorzieningen, goede bereikbaarheid en een levendige buurt, is dit niet de juiste plek. Maar voor wie bewust kiest voor een landelijke omgeving, veel ruimte wil en bereid is om voor alle voorzieningen de auto te pakken, biedt Rostijne wel een unieke rust en openheid die je in een stedelijke context niet vindt.\n\nDe mediaan huizenprijs in de gemeente Gent ligt op €353.000, maar gezien het ontbreken van traditionele woningen in Rostijne zelf, zul je vooral kijken naar omliggende wijken zoals Rieme, Mendonk of Langerbrugge als je in de buurt wilt wonen. Die wijken combineren meer voorzieningen met nog steeds een landelijk karakter.",
+  "coordinates": {
+    "lat": 51.17111157943339,
+    "lon": 3.810983293315748,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "26 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Kloosterbos op 26 min lopen",
+      "detail": "Geen omheinde speelweide"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "40 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde in Zelzate",
+      "detail": "Auto noodzakelijk"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "28 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Vogelparadijs Wachtebeke",
+      "detail": "Auto praktischer"
+    },
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Groene ruimte",
+      "distance": "26 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Open landschap en rust",
+      "detail": "Veel ruimte voor wandelingen"
+    }
+  ],
+  "facilities": {
+    "intro": "Rostijne heeft geen voorzieningen binnen het gebied zelf. Alle dierenartsen, winkels en diensten liggen in omliggende gemeenten zoals Zelzate, Wachtebeke en Lochristi, op afstanden die een auto vrijwel noodzakelijk maken."
+  },
+  "dogParks": {
+    "intro": "Een omheinde hondenspeelweide vind je niet in de directe omgeving van Rostijne. Het Kloosterbos op 26 minuten wandelen biedt wel uitloopruimte, maar zonder omheining. Voor een gespecialiseerde hondenzone moet je naar de Hondenzwemzone Puyenbroeck (76 minuten lopen), wat eerder een uitstapje dan een dagelijkse optie is.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Kloosterbos",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1778079,
+          "lon": 3.8391072
+        },
+        "features": [
+          {
+            "text": "Gemengde ondergrond",
+            "icon": "fa-solid fa-layer-group"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenzwemzone Puyenbroeck",
+        "distance": "76 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1477649,
+          "lon": 3.8891737
+        },
+        "features": [
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Rostijne zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie ligt in Zelzate, op 40 minuten te voet — een afstand die in de praktijk betekent dat je voor veterinaire zorg de auto nodig hebt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Zelzate",
+        "street": "Onbekend",
+        "streetNumber": "0",
+        "municipality": "Zelzate",
+        "postalCode": "9060",
+        "distance": "40 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1996448,
+          "lon": 3.8134354
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Frieda Erven",
+        "street": "Onbekend",
+        "streetNumber": "0",
+        "municipality": "Zelzate",
+        "postalCode": "9060",
+        "distance": "41 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2002729,
+          "lon": 3.8097402
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Zaffelbeek",
+        "street": "Onbekend",
+        "streetNumber": "0",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "70 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1324189,
+          "lon": 3.8623004
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenkliniek Sas van Gent",
+        "street": "Zusterstraat",
+        "streetNumber": "3",
+        "municipality": "Sas van Gent",
+        "postalCode": "4551 ER",
+        "distance": "79 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2274887,
+          "lon": 3.7991515
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Rostijne. De dichtstbijzijnde optie is Vogelparadijs Wachtebeke op 28 minuten lopen, maar gezien de afstand is de auto hier praktischer. Voor een breder assortiment kun je terecht bij Maxi Zoo of Tom & Co in Lochristi.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Vogelparadijs Wachtebeke",
+        "street": "Onbekend",
+        "streetNumber": "0",
+        "municipality": "Wachtebeke",
+        "postalCode": "9185",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1766518,
+          "lon": 3.8415737
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Animales",
+        "street": "Dijkstraat",
+        "streetNumber": "11",
+        "municipality": "Assenede",
+        "postalCode": "9960",
+        "distance": "95 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2304507,
+          "lon": 3.7572059
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo Lochristi",
+        "street": "Bosdreef",
+        "streetNumber": "1A",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "106 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0970977,
+          "lon": 3.8385171
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Antwerpse Steenweg",
+        "streetNumber": "100",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "115 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0885319,
+          "lon": 3.806785
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Rostijne",
+    "intro": "Een typische dag in Rostijne draait om rust, ruimte en zelfvoorziening. Dit is geen wijk waar je snel even naar de dierenarts loopt of een hondenspeelweide om de hoek hebt. Alles vergt planning en in de meeste gevallen de auto. Voor wie dat accepteert, biedt de omgeving wel een unieke openheid en stilte.",
+    "benefits": [
+      "De landelijke omgeving rondom Rostijne geeft je veel ruimte voor lange wandelingen zonder drukte. Met open velden en landbouwgrond heb je volop mogelijkheden om vrij te bewegen, zolang je rekening houdt met privéterrein en landbouwactiviteiten.",
+      "Als je een auto hebt, bereik je binnen een kwartier rijden meerdere dierenartsen in Zelzate en Lochristi, alsook dierenwinkels zoals Maxi Zoo en Tom & Co. Wat te voet onpraktisch is, wordt met de wagen redelijk haalbaar.",
+      "Het Kloosterbos op 26 minuten lopen biedt een natuurlijke uitloopruimte met gemengde ondergrond. Het is niet omheind, maar wel een rustige plek voor een wandeling tussen de bomen zonder veel andere mensen tegen te komen.",
+      "Voor wie bewust kiest voor een rustige, landelijke omgeving zonder stedelijke drukte, is Rostijne een optie. Je hebt hier geen last van verkeerslawaai, volle trottoirs of drukke hondenparken — wel stilte en veel open ruimte."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Rostijne is geen traditionele woonwijk en heeft officieel geen inwoners. De mediaan huizenprijs van €353.000 geldt voor de gemeente Gent in het algemeen.",
+    "medianPrice": 353000,
+    "inhabitants": 0,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in de buurt van Rostijne? Omdat het gebied zelf geen woningen heeft, zoek je het best in aangrenzende wijken zoals Rieme (postcode 9042) of Mendonk. Filter op postcode 9042 om woningen in de omgeving te vinden.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-rieme",
+    "gent-mendonk",
+    "gent-langerbrugge",
+    "gent-desteldonk-dorp",
+    "gent-jfkennedylaan"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T11:15:00Z",
+    "qualityScore": 84,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Landelijk gebied zonder inwoners — voorzieningen liggen op afstand, geschikt voor wie rust en ruimte zoekt",
+        "after": "Wonen in Rostijne, Gent: landelijk gebied met veel ruimte en rust — voorzieningen op afstand",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes betekent dit dat dierenartsen, dierenartsenwinkels en zelfs hondenparken niet om de hoek liggen",
+        "after": "Voor wie een viervoeter heeft, betekent dit dat dierenartsen, dierenartsenwinkels en zelfs hondenparken niet om de hoek liggen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Rostijne",
+        "after": "Dagelijks leven in Rostijne",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "De landelijke omgeving rondom Rostijne geeft je veel ruimte voor lange wandelingen zonder drukte. Met open velden en landbouwgrond heb je volop mogelijkheden om je hond vrij te laten bewegen, zolang je rekening houdt met privéterrein en landbouwactiviteiten.",
+        "after": "De landelijke omgeving rondom Rostijne geeft je veel ruimte voor lange wandelingen zonder drukte. Met open velden en landbouwgrond heb je volop mogelijkheden om vrij te bewegen, zolang je rekening houdt met privéterrein en landbouwactiviteiten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Voor baasjes die bewust kiezen voor een rustige, landelijke omgeving zonder stedelijke drukte, is Rostijne een optie. Je hebt hier geen last van verkeerslawaai, volle trottoirs of drukke hondenparken — wel stilte en veel open ruimte.",
+        "after": "Voor wie bewust kiest voor een rustige, landelijke omgeving zonder stedelijke drukte, is Rostijne een optie. Je hebt hier geen last van verkeerslawaai, volle trottoirs of drukke hondenparken — wel stilte en veel open ruimte.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 21,
+      "keywordScore": 17,
+      "sectionIntrosScore": 8,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T11:30:00Z",
+    "qualityScore": 100,
+    "passedBrand": true,
+    "changesLog": [],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 30,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 20,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [],
+        "preferredTermsPresent": [
+          "wijk",
+          "viervoeter",
+          "hondenspeelweide",
+          "dierenarts",
+          "wandeling"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt te vinden",
+          "in de buurt van Rostijne"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 24
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 11,
+        "localTipsFound": [
+          "naar omliggende gemeenten zoals Zelzate, Wachtebeke en Lochristi",
+          "de dichtstbijzijnde optie is Vogelparadijs Wachtebeke",
+          "Filter op postcode 9042 om woningen in de omgeving te vinden",
+          "aangrenzende wijken zoals Rieme (postcode 9042) of Mendonk"
+        ],
+        "neighborhoodObservations": [
+          "Dit is geen traditionele woonwijk, maar eerder een agrarisch en groen gebied met open ruimte en weinig bebouwing",
+          "De omgeving is open en groen, met weilanden en verspreide natuurgebieden",
+          "Dit is geen wijk waar je snel even naar de dierenarts loopt of een hondenspeelweide om de hoek hebt",
+          "De landelijke omgeving rondom Rostijne geeft je veel ruimte voor lange wandelingen zonder drukte"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.88,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in immediate area",
+          "no veterinarian in Rostijne",
+          "no pet store in Rostijne",
+          "no traditional housing/residents"
+        ],
+        "gapsHandledGracefully": 4,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

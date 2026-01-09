@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T15:45:00Z",
+  "id": "gent-heilig-huizeken",
+  "city": "Gent",
+  "name": "Heilig Huizeken",
+  "postalCode": "9031",
+  "subtitle": "Wonen in Heilig Huizeken: rustig aan de rand van Gent, dierenarts op 3 min wandelen — landelijk en goed bereikbaar",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 2222,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustige omgeving",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    }
+  ],
+  "intro": "Heilig Huizeken is een kleine, rustige wijk aan de westelijke rand van Gent, met een landelijk karakter en lage bebouwingsdichtheid. Met 2.222 inwoners verspreid over een groene omgeving combineer je hier de rust van het platteland met de nabijheid van de stad. De wijk ligt tussen Drongen en het centrum, met goede verbindingen via het openbaar vervoer: 2 treinstations en 24 bushaltes brengen je snel naar elders.\n\nVoor baasjes is de wijk praktisch dankzij de zeer goede toegang tot veterinaire zorg. De dichtstbijzijnde dierenarts, Bart Verstuyft aan de Deinsesteenweg, ligt op amper 3 minuten wandelen — dat is uitzonderlijk dichtbij en geeft rust voor wie zich zorgen maakt over spoedgevallen. In totaal zijn er 4 dierenartsen binnen bereik, dus je hebt keuze genoeg.\n\nEen eerlijke kanttekening: Heilig Huizeken heeft geen officiële hondenspeelweide. Voor een omheind speelterrein moet je uitwijken naar een naburige wijk, maar met 5 parken en groene plekken in de buurt is er genoeg ruimte voor de dagelijkse wandeling. De meeste parken zijn klein en onbenoemd, maar bieden wel voldoende uitloop. De dichtstbijzijnde groene zone ligt op 6 minuten wandelen. Voor wie een jonge, energieke hond heeft die graag loslaat is dit misschien een beperkende factor, maar voor rustige wandelingen en routes door de groene omgeving heb je hier meer dan genoeg mogelijkheden.\n\nOok op het vlak van dierenwinkels is de wijk beperkt: er is geen gespecialiseerde dierenwinkel in de buurt. Voor voeding en speelgoed moet je naar een supermarkt (er is er één in de wijk) of een rit maken naar een Tom & Co of een andere dierenwinkelketen in het centrum van Gent. Wie regelmatig speciaalgoed nodig heeft, plant dit dus het beste in combinatie met andere boodschappen.\n\nHeilig Huizeken is ideaal voor wie rust en ruimte zoekt, dichtbij de stad wil blijven zonder in het drukke centrum te zitten, en veterinaire zorg hoog in het vaandel draagt. De lage bevolkingsdichtheid (814 inwoners per km²) betekent minder drukte op straat, wat fijn is voor honden die niet van massa's houden. De wijk trekt vooral mensen die van groen en stilte houden, maar wel snel in Gent willen zijn. Voor wie een actieve hondengemeenschap zoekt met hondenspeelweiden en regelmatige ontmoetingen met andere baasjes, zijn er in Gent betere opties.\n\nDe mediane huizenprijs in Gent ligt rond de €353.000, wat relatief betaalbaar is voor een studentenstad met veel voorzieningen. Heilig Huizeken deelt postcode 9031 met enkele andere wijken in de omgeving, dus bij woningzoekopdrachten is het slim om op straatnaam te filteren.",
+  "coordinates": {
+    "lat": 51.042510114410845,
+    "lon": 3.6391832588424715,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 dierenartsen bereikbaar",
+      "detail": "Dichtstbijzijnde op 3 min"
+    },
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Groene ruimte",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 parken in de buurt",
+      "detail": "Kleine, rustige parken"
+    },
+    {
+      "icon": "fa-solid fa-train",
+      "title": "Openbaar vervoer",
+      "distance": "nabij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 stations en 24 bushaltes",
+      "detail": "Goede verbinding met Gent"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "buiten wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen dierenwinkel in de wijk",
+      "detail": "Supermarkt biedt basis"
+    }
+  ],
+  "facilities": {
+    "intro": "Heilig Huizeken scoort uitstekend op veterinaire zorg met 4 dierenartsen binnen handbereik, waarvan de dichtstbijzijnde op slechts 3 minuten wandelen ligt. Voor dierenwinkels en hondenspeelweiden moet je buiten de wijk zoeken, maar de groene omgeving en nabijheid van parken maken dit voor veel baasjes geen probleem."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide is er niet in Heilig Huizeken. Voor een omheind speelterrein waar je viervoeter veilig kan loslopen moet je naar een naburige wijk zoals Keuzemeersen of Drongen Dorp. Wel zijn er 5 parken en groene zones in de buurt waar je rustige wandelingen kan maken, al zijn deze klein en onbenoemd. Voor baasjes die vooral behoefte hebben aan groene ruimte voor de dagelijkse wandeling is dit voldoende, maar voor een echte losloopzone moet je een stukje reizen.",
+    "parks": []
+  },
+  "vets": {
+    "intro": "Veterinaire zorg is een van de sterkste punten van Heilig Huizeken. Met de praktijk van Bart Verstuyft op amper 3 minuten wandelen ben je nergens sneller bij de dierenarts in geval van nood. In totaal zijn er 4 dierenartsen bereikbaar binnen 28 minuten te voet, dus je hebt ruime keuze.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bart Verstuyft",
+        "street": "Deinsesteenweg",
+        "streetNumber": "13",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "3 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0417527,
+          "lon": 3.6423883
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Harlekijn",
+        "street": "Varendriesstraat",
+        "streetNumber": "5",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0476244,
+          "lon": 3.6312444
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Inge Verboven",
+        "street": "Congregatiestraat",
+        "streetNumber": "12A",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0520524,
+          "lon": 3.6536824
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Hans Smet",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0584423,
+          "lon": 3.6591565
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Heilig Huizeken. Voor voeding, speelgoed en accessoires moet je naar het centrum van Gent of een grotere winkel zoals Tom & Co. De lokale supermarkt heeft wel een basisassortiment voor je viervoeter, wat handig is voor snelle aankopen.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Heilig Huizeken",
+    "intro": "Een typische dag als baasje in Heilig Huizeken draait om rust en eenvoud. De wijk heeft een landelijk karakter met veel groen en weinig verkeersdrukte, wat de ochtendwandeling aangenaam maakt. Je bent dichtbij Gent voor werk of sociale afspraken, maar woont in een rustige bubbel. De nabijheid van veterinaire zorg geeft veel gemoedsrust, en de parken in de omgeving bieden voldoende ruimte voor een dagelijkse wandeling.",
+    "benefits": [
+      "Met 4 dierenartsen binnen bereik en de dichtstbijzijnde op 3 minuten wandelen heb je uitzonderlijke toegang tot veterinaire zorg. Dat geeft rust als je viervoeter plots ziek wordt of na een incident snel hulp nodig heeft.",
+      "De lage bevolkingsdichtheid van 814 inwoners per km² betekent rustige straten en weinig drukte. Dat is fijn voor honden die niet van massa's houden of voor baasjes die juist rust zoeken tijdens de dagelijkse wandeling.",
+      "Met 2 treinstations en 24 bushaltes ben je goed verbonden met het centrum van Gent en andere delen van de stad. Als je moet pendelen of regelmatig naar de stad gaat, biedt Heilig Huizeken het beste van twee werelden: landelijke rust en stedelijke bereikbaarheid.",
+      "De 5 parken in de buurt bieden voldoende ruimte voor korte wandelingen en uitlaatmomenten. Al zijn ze klein en onbenoemd, je hebt wel meerdere opties op wandelafstand, wat variatie mogelijk maakt in je dagelijkse routine.",
+      "De rustige, groene omgeving is ideaal voor oudere honden of honden die rust nodig hebben. Zonder hondenspeelweide en drukke ontmoetingsplekken is de wijk minder geschikt voor actieve baasjes die sociale interactie voor hun viervoeter zoeken, maar perfect voor wie gewoon fijne, rustige wandelingen wil maken."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere baasjes de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Heilig Huizeken is een kleine wijk met 2.222 inwoners en een lage bevolkingsdichtheid. De mediane huizenprijs in Gent ligt rond de €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 2222,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Heilig Huizeken? De wijk deelt postcode 9031 met enkele andere wijken in de regio, dus filter best op straatnaam om specifiek in deze wijk te zoeken.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-keuzemeersen",
+    "gent-drongen-dorp",
+    "gent-afsnee-centrum",
+    "gent-de-roos",
+    "gent-campagne"
+  ]
+}

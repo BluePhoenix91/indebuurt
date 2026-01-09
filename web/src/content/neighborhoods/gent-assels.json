@@ -1,0 +1,264 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T17:00:00Z",
+  "id": "gent-assels",
+  "city": "Gent",
+  "name": "Assels",
+  "postalCode": "9031",
+  "subtitle": "Wonen in Assels: rustige wijk nabij Blaarmeersen met groen op wandelafstand — dierenarts en voorzieningen verder weg — Gent",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 817,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Assels is een kleine, rustige wijk aan de westrand van Gent. Met slechts 817 inwoners en een lage bevolkingsdichtheid van 327 inwoners per km² woon je hier met ruimte om je heen. Het Blaarmeersen-park ligt op iets meer dan 1 kilometer afstand, en dat merkt je: de groene uitlopers van dit grote recreatiegebied vormen een natuurlijke buffer tussen de wijk en de drukte van de stad.\n\nHier moet je eerlijk zijn over wat je wél en niét binnen handbereik hebt. Assels is een residentiële wijk zonder eigen voorzieningen. Geen dierenarts, geen dierenwinkel, geen hondenspeelweide in de wijk zelf. Wat je wél hebt: rust, groen op wandelafstand, en een hechte gemeenschap. De dichtstbijzijnde dierenarts ligt op 23 minuten wandelen in aangrenzende wijken, en voor grotere boodschappen of gespecialiseerde spullen moet je richting het centrum of naar nabijgelegen winkelzones.\n\nWat Assels vooral kenmerkt, is de nabijheid van het Blaarmeersen. Dit grote stadspark met water en bos ligt op iets meer dan een kwartier wandelen en biedt uitgestrekte groene ruimte voor lange wandelingen. Daarnaast vind je binnen een straal van 15-20 minuten verschillende kleinere parken en groenzones verspreid rond de wijk. Voor wie van rustige, natuurrijke omgevingen houdt en bereid is om voor voorzieningen wat verder te reizen, biedt dit een fijne leefomgeving.\n\nHondenspeelweiden zijn er niet in de directe omgeving van Assels, maar wel op 25 tot 35 minuten wandelen in omliggende wijken zoals rond de Martelaarslaan en het noordelijke deel van de stad. Dat vraagt planning: een spontane trip naar een omheinde speelweide zit er niet in. Voor de dagelijkse wandeling kun je prima terecht in de groene zones rondom de wijk, maar sociaal contact met andere honden vereist wat extra inspanning.\n\nDe mediane woningprijs in Gent ligt rond de €353.000, en Assels volgt dat patroon. Met een eigen postcode (9031) is het eenvoudig om gericht naar woningen te zoeken. De lage bevolkingsdichtheid vertaalt zich in rustige straten en meestal ruime percelen — ideaal als je graag een tuin hebt.\n\nDeze wijk is vooral geschikt voor mensen die rust en ruimte prioriteit geven boven stedelijk gemak. Als je ermee kan leven dat je voor een dierenarts, boodschappen of een dierenwinkel de wijk uit moet, en je houdt van lange wandelingen in groene omgevingen, dan zit je hier goed. Voor wie graag snel bij een hondenspeelweide of binnen enkele minuten bij een dierenarts wil zijn, zijn er in Gent waarschijnlijk betere opties.",
+  "coordinates": {
+    "lat": 51.04076800399361,
+    "lon": 3.6722905285042424,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "25 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Meerdere speelweiden buiten de wijk",
+      "detail": "Dichtstbijzijnde op 25 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "23 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken bereikbaar",
+      "detail": "Dichtstbijzijnde: Inge Verboven"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "33 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Gespecialiseerde winkels elders",
+      "detail": "Tom & Co op Martelaarslaan"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Groen",
+      "distance": "Vlakbij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Blaarmeersen op 1 km",
+      "detail": "10+ parken binnen 20 min"
+    }
+  ],
+  "facilities": {
+    "intro": "Assels heeft geen hondenvoorzieningen binnen de wijk zelf. Voor dierenartsen, dierenwinkels en hondenspeelweiden moet je richting aangrenzende wijken of het Gentse centrum. De dichtstbijzijnde dierenarts ligt op 23 minuten wandelen, de dichtstbijzijnde dierenwinkel op een half uur. Wat je wél in de buurt hebt, is groen: het Blaarmeersen-park ligt op iets meer dan een kwartier wandelen."
+  },
+  "dogParks": {
+    "intro": "Een hondenspeelweide vind je niet in Assels zelf. De dichtstbijzijnde omheinde speelterreinen liggen in wijken richting het oosten, op 25 tot 35 minuten wandelen. Dat maakt een spontaan uitje naar een speelweide minder voor de hand liggend. Voor de dagelijkse wandeling kun je prima terecht in de parken en groenzones rondom de wijk, maar sociaal contact met andere honden vraagt wat extra planning.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (bij Martelaarslaan)",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0413171,
+          "lon": 3.7006241
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (omheind)",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0464956,
+          "lon": 3.7000542
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Drinkwater aanwezig",
+            "icon": "fa-solid fa-droplet"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (omheind)",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0612926,
+          "lon": 3.6886939
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (omheind)",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0549021,
+          "lon": 3.7033851
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Assels zelf is geen dierenartspraktijk. De dichtstbijzijnde optie is Dierenarts Inge Verboven in Drongen, op 23 minuten wandelen. Binnen een straal van een half uur lopen heb je toegang tot 4 praktijken, allemaal in nabijgelegen wijken. Voor spoedgevallen is het goed om te weten dat je met de auto sneller ter plaatse bent.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Inge Verboven",
+        "street": "Congregatiestraat",
+        "streetNumber": "12A",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0520524,
+          "lon": 3.6536824
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bart Verstuyft",
+        "street": "Deinsesteenweg",
+        "streetNumber": "13",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0417527,
+          "lon": 3.6423883
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Hans Smet",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0584423,
+          "lon": 3.6591565
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Jana Meyers",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "1132",
+        "municipality": "Gent",
+        "postalCode": "9051",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0188576,
+          "lon": 3.6745676
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Assels. De dichtstbijzijnde Tom & Co ligt op de Martelaarslaan, op 33 minuten wandelen. Andere opties zijn Maxi Zoo richting Sint-Martens-Latem of andere Tom & Co-vestigingen verspreid over Gent, maar die liggen allemaal verder weg. Voor wie in Assels woont is het handig om grotere voorraadaankopen te plannen of gebruik te maken van online leveringen.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "214",
+        "municipality": "Sint-Martens-Latem",
+        "postalCode": "9830",
+        "distance": "67 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0046153,
+          "lon": 3.621812
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Assels",
+    "intro": "Een typische dag in Assels draait om rust, groen en ruimte. De ochtendwandeling voert je door rustige straten en groene zones, met het Blaarmeersen als uitgebreid wandelgebied op korte afstand. Voor voorzieningen zoals een dierenarts of dierenwinkel moet je wat verder, maar de rust en ruimte compenseren daarvoor. Praktisch voor wie van een rustig levensritme houdt en bereid is om voor voorzieningen buiten de wijk te gaan.",
+    "benefits": [
+      "Het Blaarmeersen-park ligt op iets meer dan een kwartier wandelen en biedt uitgebreide wandelroutes langs water en door bos. Voor afwisselende wandelingen heb je hier genoeg keuze.",
+      "Met een bevolkingsdichtheid van slechts 327 inwoners per km² is er weinig verkeersdrukte. Rustige straten betekent minder stress en meer ruimte om te bewegen zonder constante prikkels.",
+      "De wijk heeft een eigen postcode (9031), wat woningzoektochten eenvoudiger maakt. Met een mediane prijs van €353.000 ligt Assels in lijn met het Gentse gemiddelde, en de lagere dichtheid vertaalt zich vaak in ruimere percelen.",
+      "De nabijheid van meerdere kleinere parken binnen 15-20 minuten wandelen zorgt voor variatie in je dagelijkse wandelingen. Je zit niet vast aan één groene plek, maar hebt meerdere opties.",
+      "Voor wie liever afstand neemt van stedelijke drukte en niet constant behoefte heeft aan hondenvoorzieningen biedt Assels een fijne balans: groen en rust vlakbij, met de stad bereikbaar als je die nodig hebt."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere mensen de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Assels is een kleine wijk met 817 inwoners en een lage bevolkingsdichtheid van 327 inwoners per km². De mediane woningprijs ligt rond €353.000, in lijn met het Gentse gemiddelde.",
+    "medianPrice": 353000,
+    "inhabitants": 817,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Assels? De wijk heeft een eigen postcode (9031), wat het eenvoudig maakt om gericht te zoeken. Met de lage bevolkingsdichtheid vind je hier vaak woningen met ruimere percelen.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-drongen-dorp",
+    "gent-over-de-meersstraat",
+    "gent-blaarmeersen",
+    "gent-afsnee-centrum",
+    "gent-bugten"
+  ]
+}

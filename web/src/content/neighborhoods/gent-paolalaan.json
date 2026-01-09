@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T16:50:00Z",
+  "id": "gent-paolalaan",
+  "city": "Gent",
+  "name": "Paolalaan",
+  "postalCode": "9052",
+  "subtitle": "Paolalaan in Gent: rustige randwijk met groen op wandelafstand — compact en betaalbaar wonen",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 451,
+  "labels": [
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groene omgeving",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Lage dichtheid",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "Paolalaan is een compacte, rustige wijk aan de rand van Gent. Met slechts 451 inwoners verspreid over 0,43 km² en een populatiedichtheid van 1.050 inwoners per km² woon je hier merkbaar rustiger dan in de meeste Gentse wijken. De wijk ligt op fietsafstand van het centrum en wordt omringd door groene ruimte — het Maaltebruggepark ligt op nog geen 10 minuten wandelen.\n\nDe rust en het groene karakter maken deze wijk aantrekkelijk voor wie een rustige woonomgeving zoekt met voldoende ruimte voor dagelijkse wandelingen. Met 10 parken binnen 2 kilometer heb je altijd groene alternatieven binnen handbereik. Het dichtstbijzijnde park ligt op slechts 747 meter, ideaal voor een snelle ochtendwandeling voordat je aan je dag begint.\n\nEerlijkheid gebiedt te zeggen dat deze wijk uitdagend is voor wie voorzieningen op korte afstand willen. Er is geen supermarkt, apotheek of dierenarts in de wijk zelf. De dichtstbijzijnde dierenarts, Jana Meyers op de Kortrijksesteenweg, ligt op 17 minuten wandelen. Voor dagelijkse boodschappen ben je op de fiets aangewezen, of je rijdt naar de naburige wijken. Hetzelfde geldt voor hondenspeelweiden: de dichtstbijzijnde omheinde speelweide ligt op 28 minuten te voet. Dit is een wijk voor wie rust en groen waardeert boven stedelijk gemak — en idealiter een auto of fiets heeft voor de praktische zaken.\n\nOpenbaar vervoer is beperkt, met slechts 3 bushaltes in de buurt en geen treinstation in de directe omgeving. Voor woon-werkverkeer richting het centrum ben je dus afhankelijk van de fiets, auto of bus. De wijk heeft wel een basisschool, wat handig is voor gezinnen.\n\nMet een mediane huizenprijs van €353.000 ligt Paolalaan onder het Gentse gemiddelde, wat de wijk interessant maakt voor wie betaalbaar wil wonen in een rustige omgeving met groen op loopafstand. De lage bevolkingsdichtheid zorgt voor ruimte en weinig drukte op straat — fijn voor rustzoekers en honden die gestrest raken van drukke, lawaaiige omgevingen.\n\nPaolalaan is eerlijk gezegd niet de meest hondvriendelijke wijk qua voorzieningen. Geen speelweide op korte afstand, geen dierenarts in de buurt, geen dierenwinkel binnen 3 kilometer. Maar de rust, het groen en de betaalbaarheid maken de wijk aantrekkelijk voor wie voorzieningen op afstand niet erg vinden en liever investeren in ruimte en groen. Je moet wel bereid zijn om voor bijna alles de wijk uit te gaan — maar daar krijg je wel een rustige, groene en betaalbare woonomgeving voor terug.",
+  "coordinates": {
+    "lat": 51.01668633031084,
+    "lon": 3.693826981737747,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "10 parken binnen 2km",
+      "detail": "Maaltebruggepark op 10 min"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "28 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 speelweiden binnen 3km",
+      "detail": "Dichtstbijzijnde is omheind"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen dierenarts in de wijk",
+      "detail": "Jana Meyers op 17 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "—",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen binnen 3km",
+      "detail": "Naar centrum voor benodigdheden"
+    }
+  ],
+  "facilities": {
+    "intro": "Paolalaan heeft vrijwel geen voorzieningen in de wijk zelf. Je vindt hier geen supermarkt, geen apotheek, geen dierenarts en geen dierenwinkel. Voor alle dagelijkse behoeften ben je afhankelijk van naburige wijken. Gelukkig ligt het Maaltebruggepark dichtbij voor wandelingen, en met de fiets of auto ben je snel bij voorzieningen in het centrum of in aangrenzende wijken."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in de directe omgeving. De dichtstbijzijnde omheinde speelweide ligt op 28 minuten wandelen. Met 10 parken binnen 2 kilometer heb je gelukkig meer dan genoeg alternatieven voor wandelingen en uitlaatmomenten. Het Maaltebruggepark ligt op 10 minuten en biedt voldoende ruimte voor je dagelijkse routine.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (onbekend)",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0152033,
+          "lon": 3.6622439
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Jana Meyers op de Kortrijksesteenweg in Gent, op 17 minuten wandelen. Voor spoedzorg of controles is dat haalbaar te voet, maar een fiets of auto maakt het gemakkelijker.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Jana Meyers",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "1132",
+        "municipality": "Gent",
+        "postalCode": "9051",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0188576,
+          "lon": 3.6745676
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Marty",
+        "street": "Heerweg-Noord",
+        "streetNumber": "88",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0066818,
+          "lon": 3.7173101
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartspraktijk Thas",
+        "street": "Heerweg-Zuid",
+        "streetNumber": "9",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0025368,
+          "lon": 3.7139738
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Kat&Ko",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0339439,
+          "lon": 3.7101744
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet binnen 3 kilometer van Paolalaan. Voor hondenvoer, speelgoed en andere benodigdheden rijd je het beste naar het centrum of naar een dierenwinkel in een naburige wijk. Online bestellen is voor veel baasjes in deze wijk een praktisch alternatief.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Paolalaan",
+    "intro": "Een typische dag in Paolalaan begint rustig. Met de lage bevolkingsdichtheid en weinig verkeer heb je alle ruimte voor een ontspannen ochtendwandeling. Het Maaltebruggepark ligt op 10 minuten, ideaal voor een snelle ronde voordat je aan je dag begint. Voor voorzieningen zoals de dierenarts of boodschappen pak je de fiets of auto, want in de wijk zelf is vrijwel niets te vinden.",
+    "benefits": [
+      "Met 10 parken binnen 2 kilometer heb je altijd een groene plek voor de dagelijkse wandeling. Het dichtstbijzijnde park ligt op slechts 747 meter, perfect voor een snelle ochtend- of avondronde zonder ver te hoeven lopen.",
+      "De lage bevolkingsdichtheid van 1.050 inwoners per km² zorgt voor rust op straat en weinig drukte tijdens wandelingen. Ideaal voor honden die gestrest raken van veel mensen of verkeer.",
+      "Met een mediane huizenprijs van €353.000 is Paolalaan betaalbaarder dan veel andere Gentse wijken, waardoor je meer ruimte voor je geld krijgt — fijn als je een tuin of extra leefruimte wilt voor je viervoeter.",
+      "De groene omgeving en rustige ligging maken deze wijk geschikt voor wie bewust kiezen voor rust en ruimte boven stedelijk gemak. Als je toch regelmatig naar het centrum moet, is de fietsafstand prima te doen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Paolalaan is een kleine wijk met slechts 451 inwoners op 0,43 km². De lage bevolkingsdichtheid van 1.050 inwoners per km² en betaalbare huizenprijs van €353.000 maken de wijk aantrekkelijk voor wie rust en ruimte zoekt.",
+    "medianPrice": 353000,
+    "inhabitants": 451,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Paolalaan? Deze wijk heeft een eigen postcode (9052), wat het zoeken naar beschikbare huizen eenvoudiger maakt. Filter op 9052 bij je zoekopdracht op immosites.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-bugten",
+    "gent-hoedjen",
+    "gent-drie-sleutels",
+    "gent-aaigem",
+    "gent-over-de-meersstraat"
+  ]
+}

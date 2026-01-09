@@ -1,0 +1,472 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T16:45:00Z",
+  "id": "gent-mendonk",
+  "city": "Gent",
+  "name": "Mendonk",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Mendonk met je hond: landelijk en rustig aan de rand van Gent — voorzieningen op afstand",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 1533,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Lage dichtheid",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "Mendonk is een landelijk deelgebied aan de noordelijke rand van Gent, waar je nog echt ruimte om je heen hebt. Met slechts 162 inwoners per vierkante kilometer en een totale bevolking van 1533 mensen is dit een van de rustigste plekken in de Gentse regio. De wijk ligt verscholen tussen de velden, met een karakter dat meer doet denken aan een kleine dorpskern dan aan een stadswijk.\n\nVoor wie hier wil wonen geldt: je kiest bewust voor een landelijke levensstijl. Hier vind je geen drukke winkelstraten, geen hondenparken om de hoek en geen dierenarts in de buurt. Wat je wel hebt is ruimte, stilte en open landschap. Voor dagelijkse wandelingen zijn er voldoende onverharde paden en landelijke wegen waar je nauwelijks verkeer tegenkomt. De vraag is dus: ben je bereid om voor voorzieningen de auto te nemen of een flinke wandeling te maken?\n\nDe dichtstbijzijnde dierenarts ligt in Lochristi, op 50 minuten wandelen (bijna 4 kilometer) — een afstand die je eerder met de auto aflegt. Voor hondenvoeding en benodigdheden is de situatie vergelijkbaar: Vogelparadijs Wachtebeke ligt op 45 minuten lopen, terwijl Maxi Zoo en Tom & Co in Lochristi beide ruim een uur wandelen betekenen. Dit is duidelijk geen wijk waar je even snel naar de dierenwinkel stapt.\n\nWat Mendonk interessant maakt voor wie hier wil wonen, is juist die afzondering. Als je veel ruimte nodig hebt om te rennen, als je houdt van lange wandelingen door open landschap, en als je de voorkeur geeft aan stilte boven stedelijk gemak, dan biedt deze wijk precies dat. De 18 bushaltes in de buurt zorgen voor een minimale verbinding met het centrum van Gent, maar verwacht geen stedelijke frequentie.\n\nDe mediaanprijs voor een woning ligt op 353.000 euro — vergelijkbaar met het Gentse gemiddelde, maar dan met aanzienlijk meer ruimte en grond voor dat bedrag. Je krijgt hier eerder een vrijstaande woning met tuin dan een rijtjeshuis, wat voor veel mensen met grote honden een belangrijke overweging is.\n\nMendonk is dus een keuze voor wie bewust afstand neemt van de stedelijke drukte. Je mist het gemak van voorzieningen om de hoek, maar wint aan ruimte, rust en vrijheid. Voor wie graag uitgebreide wandelingen maakt en niet afhankelijk wil zijn van kleine omheinde speelterreinen, kan dit aantrekkelijk zijn. Voor wie regelmatig naar de dierenarts moet of snel boodschappen wil doen, is de afstand tot voorzieningen een dagelijkse realiteit waarmee je rekening moet houden.\n\nEr zijn geen officiële hondenspeelweiden in of vlakbij de wijk. De dichtstbijzijnde optie is een hondentoilet in Wachtebeke op 36 minuten wandelen, en een bos met losloopgebied (Kloosterbos) op 45 minuten. Dat betekent dat je voor socialisatie met andere honden moet reizen, en dat dagelijkse uitlaatrondes vooral plaatsvinden langs landwegen en door open veld.\n\nDe wijk heeft één school, wat wijst op de bescheiden omvang van de gemeenschap. Voor supermarkten, apotheken of andere dagelijkse voorzieningen moet je naar de omliggende wijken zoals Rostijne, Desteldonk-Dorp of Langerbrugge, die op 2 tot 3 kilometer afstand liggen. Dit is geen probleem als je een auto hebt, maar maakt het gebied minder geschikt voor wie op loopafstand afhankelijk wil zijn van winkels en diensten.\n\nMendonk is dus een wijk voor wie rust en ruimte prioriteit geeft, en bereid is om voor alle voorzieningen een stuk te reizen. Het is een plek waar je vrij kan bewegen in open landschap, waar je 's avonds stilte hebt in plaats van verkeerslawaai, en waar je buren op behoorlijke afstand wonen. Maar het vraagt ook planning: dierenarts bezoeken, boodschappen doen en sociale contacten vereisen allemaal mobiliteit en bereidheid om kilometers te overbruggen.",
+  "coordinates": {
+    "lat": 51.150114543891,
+    "lon": 3.8128151293252053,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondentoilet",
+      "distance": "36 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde voorziening",
+      "detail": "In Wachtebeke, 2.9 km"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "50 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 praktijken in de regio",
+      "detail": "Dichtstbijzijnde in Lochristi"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "45 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 winkels in omliggende kernen",
+      "detail": "Vogelparadijs op 3.6 km"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Groene ruimte",
+      "distance": "In de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Open landschap rondom",
+      "detail": "Onverharde paden en velden"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "In de wijk",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "18 bushaltes",
+      "detail": "Verbinding met Gent centrum"
+    }
+  ],
+  "facilities": {
+    "intro": "Mendonk heeft vrijwel geen voorzieningen binnen de wijk zelf. Voor alles wat je nodig hebt — van dierenarts tot hondenvoeding — moet je naar de omliggende kernen. De dichtstbijzijnde faciliteiten liggen in Lochristi en Wachtebeke, beide op minimaal 45 minuten wandelen. Dit maakt een auto of fiets vrijwel onmisbaar voor wie hier wil wonen."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in Mendonk of in de directe omgeving. De dichtstbijzijnde voorziening is een hondentoilet in Wachtebeke op 36 minuten wandelen — niet echt een plek om vrij te laten rennen. Voor een echt losloopgebied moet je naar Kloosterbos, ook in Wachtebeke, op 45 minuten lopen. Wat de wijk wel biedt is veel open ruimte: onverharde paden, velden en landwegen waar je tijdens wandelingen weinig verkeer tegenkomt. Je hebt hier dus ruimte, maar geen omheind terrein om veilig te spelen of andere honden te ontmoeten.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "hondentoilet",
+        "distance": "36 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1654214,
+          "lon": 3.8462281
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Kloosterbos",
+        "distance": "45 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1778079,
+          "lon": 3.8391072
+        },
+        "features": [
+          {
+            "text": "Gemengde ondergrond",
+            "icon": "fa-solid fa-layer-group"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg moet je Mendonk uit. De dichtstbijzijnde dierenarts is De Zaffelbeek in Lochristi, op 50 minuten wandelen — in de praktijk betekent dit dat je met de auto gaat. WelloPet (77 minuten lopen) en Dierenkliniek Sas van Gent (108 minuten lopen) liggen nog verder. Voor spoedgevallen is het belangrijk om deze afstanden in gedachten te houden en altijd te zorgen dat je mobiel bent.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Zaffelbeek",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "50 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1324189,
+          "lon": 3.8623004
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "WelloPet",
+        "street": "Bosdreef",
+        "streetNumber": "1D",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "77 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.097247,
+          "lon": 3.8390069
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenkliniek Sas van Gent",
+        "street": "Zusterstraat",
+        "streetNumber": "3",
+        "municipality": "Sas van Gent",
+        "postalCode": "4551 ER",
+        "distance": "108 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2274887,
+          "lon": 3.7991515
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een dierenwinkel in loopafstand is er niet. Vogelparadijs Wachtebeke ligt op 45 minuten wandelen, terwijl de bekendere ketens zoals Maxi Zoo, Tom & Co en Aquarium Neon allemaal in Lochristi zitten op 76 tot 86 minuten lopen. In de praktijk betekent dit dat je voor hondenvoeding, speelgoed of andere benodigdheden de auto neemt. Lokale supermarkten in de omliggende kernen hebben vaak wel basisartikelen, maar voor een breed assortiment ben je afhankelijk van winkels buiten de wijk.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Vogelparadijs Wachtebeke",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Wachtebeke",
+        "postalCode": "9185",
+        "distance": "45 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1766518,
+          "lon": 3.8415737
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo Lochristi",
+        "street": "Bosdreef",
+        "streetNumber": "1A",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "77 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0970977,
+          "lon": 3.8385171
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aquarium Neon",
+        "street": "Dorp-Oost",
+        "streetNumber": "100",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "76 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.098288,
+          "lon": 3.8420863
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Antwerpse Steenweg",
+        "streetNumber": "100",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "86 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0885319,
+          "lon": 3.806785
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Mendonk",
+    "intro": "Een typische dag in Mendonk draait om ruimte en rust. Je ochtendwandeling voert je langs stille landwegen en door open velden, waar je nauwelijks andere mensen tegenkomt. Er zijn geen drukke pleinen waar baasjes samenkomen, geen hondenspeelweide om de hoek voor een snelle uitlaatbeurt. In plaats daarvan maak je gebruik van de vrijheid die het landelijke karakter biedt: lange wandelingen zonder drukte, onverharde paden waar je kunt snuffelen, en ruimte om los te lopen waar het veilig is. Voor alles wat je nodig hebt — van dierenarts tot hondenvoeding — plan je een trip naar Lochristi of Wachtebeke, bij voorkeur met de auto.",
+    "benefits": [
+      "Met 162 inwoners per vierkante kilometer heb je ruimte in overvloed. Je kunt tijdens wandelingen meters van je af lopen zonder dat je bang hoeft te zijn voor druk verkeer of mensenmassa's.",
+      "De vele onverharde paden en landwegen rondom Mendonk maken het mogelijk om dagelijks te variëren in je wandelroutes. Je bent niet afhankelijk van dezelfde kleine parken of pleintjes, maar kunt telkens een andere kant op tussen de velden en landerijen.",
+      "Het gebrek aan hondenparken betekent ook dat je niet samenkomt met andere baasjes in de wijk zelf. Voor wie socialisatie belangrijk vindt, vraagt dit extra moeite: een ritje naar Kloosterbos of een ander losloopgebied in de buurt wordt dan een wekelijkse activiteit.",
+      "De afstand tot voorzieningen is de keerzijde van de rust. Boodschappen doen, een afspraak bij de dierenarts maken of even snel iets halen, vraagt altijd planning en transport. Spontaniteit is minder vanzelfsprekend dan in stedelijke wijken.",
+      "De 18 bushaltes in de buurt zorgen voor een basisverbinding met Gent centrum, maar verwacht geen hoge frequentie. Voor veel ritten blijft de auto de meest praktische optie, vooral als je met een grote hond reist of boodschappen moet vervoeren.",
+      "Het landelijke karakter trekt ook mensen aan die juist op zoek zijn naar stilte en privacy. Als je houdt van een hechte gemeenschap met veel interactie tussen buren, dan kan Mendonk te afgelegen aanvoelen. Als je daarentegen privacy waardeert en geen behoefte hebt aan dagelijkse sociale contacten, biedt de wijk precies dat."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Mendonk is een van de dunst bevolkte delen van Gent. Met slechts 1533 inwoners verspreid over een relatief groot gebied is de bevolkingsdichtheid laag: 162 inwoners per km². De mediaanprijs voor woningen ligt rond het Gentse gemiddelde, maar je krijgt hier wel aanzienlijk meer ruimte en grond voor je geld.",
+    "medianPrice": 353000,
+    "inhabitants": 1533,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Mendonk? De wijk valt onder postcode 9000 (Gent), dus je deelt deze met meerdere Gentse wijken. Filter bij je zoekopdracht op de specifieke wijk of gebruik geografische criteria om woningen in Mendonk te vinden. Verwacht grotere kavels en meer ruimte dan in het stadscentrum.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-rostijne",
+    "gent-desteldonk-dorp",
+    "gent-langerbrugge",
+    "gent-rieme",
+    "gent-jfkennedylaan"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T16:30:00Z",
+    "qualityScore": 78,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig wonen aan de rand van Gent met landelijk karakter — voorzieningen vragen een ritje of wandeling",
+        "after": "Wonen in Mendonk met je hond: landelijk en rustig aan de rand van Gent — voorzieningen op afstand",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Als baasje in Mendonk kies je bewust voor een landelijke levensstijl.",
+        "after": "Voor wie hier wil wonen geldt: je kiest bewust voor een landelijke levensstijl.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Als je hond veel ruimte nodig heeft om te rennen",
+        "after": "Als je veel ruimte nodig hebt om te rennen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "wat voor veel baasjes met grote honden een belangrijke overweging is.",
+        "after": "wat voor veel mensen met grote honden een belangrijke overweging is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor actieve baasjes die graag uitgebreide wandelingen maken",
+        "after": "Voor wie graag uitgebreide wandelingen maakt",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Het is een plek waar je hond vrij kan bewegen in open landschap",
+        "after": "Het is een plek waar je vrij kan bewegen in open landschap",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "en sociale contacten met andere baasjes vereisen",
+        "after": "en sociale contacten vereisen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Voor alles wat je nodig hebt als baasje — van dierenarts tot hondenvoeding — moet je naar de omliggende kernen.",
+        "after": "Voor alles wat je nodig hebt — van dierenarts tot hondenvoeding — moet je naar de omliggende kernen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Dit maakt een auto of fiets vrijwel onmisbaar voor wie hier wil wonen met een hond.",
+        "after": "Dit maakt een auto of fiets vrijwel onmisbaar voor wie hier wil wonen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "niet echt een plek om je hond vrij te laten rennen",
+        "after": "niet echt een plek om vrij te laten rennen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Je hond heeft hier dus ruimte",
+        "after": "Je hebt hier dus ruimte",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Mendonk",
+        "after": "Dagelijks leven in Mendonk",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Er zijn geen drukke pleinen waar baasjes samenkomen",
+        "after": "Er zijn geen drukke pleinen waar hondeneigenaren samenkomen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "onverharde paden waar je hond kan snuffelen",
+        "after": "onverharde paden waar je kunt snuffelen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Je hond kan tijdens wandelingen meters van je af lopen zonder dat je bang hoeft te zijn voor druk verkeer of mensenmassa's. Dit is ideaal voor honden die onrustig worden van stedelijke drukte.",
+        "after": "Je kunt tijdens wandelingen meters van je af lopen zonder dat je bang hoeft te zijn voor druk verkeer of mensenmassa's.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Het gebrek aan hondenparken betekent ook dat je niet samenkomt met andere baasjes in de wijk zelf. Voor wie socialisatie voor de hond belangrijk vindt",
+        "after": "Het gebrek aan hondenparken betekent ook dat je niet samenkomt met andere hondeneigenaren in de wijk zelf. Voor wie socialisatie belangrijk vindt",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De afstand tot voorzieningen is de keerzijde van de rust. Boodschappen voor je hond doen",
+        "after": "De afstand tot voorzieningen is de keerzijde van de rust. Boodschappen doen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Voor veel ritten blijft de auto de meest praktische optie, vooral als je met een grote hond reist",
+        "after": "Voor veel ritten blijft de auto de meest praktische optie, vooral als je met een grote hond reist",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "topicCoverageScore": 18,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T16:45:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "dailyLife.intro",
+        "before": "Er zijn geen drukke pleinen waar hondeneigenaren samenkomen, geen hondenspeelweide om de hoek voor een snelle uitlaatbeurt.",
+        "after": "Er zijn geen drukke pleinen waar baasjes samenkomen, geen hondenspeelweide om de hoek voor een snelle uitlaatbeurt.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Het gebrek aan hondenparken betekent ook dat je niet samenkomt met andere hondeneigenaren in de wijk zelf. Voor wie socialisatie belangrijk vindt, vraagt dit extra moeite: een ritje naar Kloosterbos of een ander losloopgebied in de buurt wordt dan een wekelijkse activiteit.",
+        "after": "Het gebrek aan hondenparken betekent ook dat je niet samenkomt met andere baasjes in de wijk zelf. Voor wie socialisatie belangrijk vindt, vraagt dit extra moeite: een ritje naar Kloosterbos of een ander losloopgebied in de buurt wordt dan een wekelijkse activiteit.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "hondeneigenaren",
+            "field": "dailyLife.intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "hondeneigenaren",
+            "field": "dailyLife.benefits[2]",
+            "preferred": "baasjes"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt te vinden (in contributionCTA.intro)",
+          "in de buurt (multiple occurrences for 'nearby')"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 47
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 8,
+        "localTipsFound": [
+          "De wijk ligt verscholen tussen de velden",
+          "omliggende wijken zoals Rostijne, Desteldonk-Dorp of Langerbrugge",
+          "De 18 bushaltes in de buurt zorgen voor een basisverbinding met Gent centrum"
+        ],
+        "neighborhoodObservations": [
+          "met een karakter dat meer doet denken aan een kleine dorpskern dan aan een stadswijk",
+          "Het is een plek waar je vrij kan bewegen in open landschap, waar je 's avonds stilte hebt in plaats van verkeerslawaai",
+          "waar je nauwelijks verkeer tegenkomt",
+          "onverharde paden en velden"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 18.5,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no pet store in neighborhood",
+          "no vet in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

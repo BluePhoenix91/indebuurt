@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T16:30:00Z",
+  "id": "gent-baarle-dorp",
+  "city": "Gent",
+  "name": "Baarle Dorp",
+  "postalCode": "9031",
+  "subtitle": "Wonen in Baarle Dorp Gent: landelijk, rustig en ruimte voor natuur — beperkte voorzieningen maar wel groene omgeving",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 2693,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustig wonen",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Lage dichtheid",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "Baarle Dorp is een kleine, landelijke wijk in het zuidwesten van Gent, met amper 2693 inwoners verspreid over een relatief groot gebied. Met een bevolkingsdichtheid van slechts 424 inwoners per vierkante kilometer woon je hier aanzienlijk rustiger dan in het Gentse centrum. De wijk heeft een uitgesproken dorps karakter: je vindt hier geen supermarkten, geen dierenartsen en ook geen gespecialiseerde dierenwinkels binnen de wijkgrenzen zelf.\n\nDat maakt Baarle Dorp een uitdagende keuze als je op zoek bent naar stedelijk gemak. Voor dagelijkse boodschappen, veterinaire zorg of hondenbenodigdheden moet je de wijk uit. De dichtstbijzijnde dierenarts, De Harlekijn aan de Varendriesstraat, ligt op 26 minuten wandelen. Voor een dierenwinkel wandel je bijna een uur naar de Maxi Zoo in Sint-Martens-Latem. Ook een officiële hondenspeelweide vind je pas op 53 minuten lopen, en dan nog een onbenoemde, niet-omheinde locatie.\n\nWat de wijk wél biedt, is ruimte en rust. De lage bevolkingsdichtheid betekent minder verkeer, minder lawaai en meer groene omgeving. Er zijn 2 kleine parken in de wijk zelf, waarvan de dichtstbijzijnde op slechts 2 minuten wandelen ligt. Voor langere wandelingen heb je toegang tot de bredere natuurlijke omgeving rond de wijk. Met 19 bushaltes is het openbaar vervoer beschikbaar, maar zonder treinstation blijf je voor langere afstanden wel afhankelijk van de bus of de auto.\n\nBaarle Dorp is eerlijk gezegd niet de meest praktische keuze voor wie waarde hecht aan nabije hondenvoorzieningen. De wijk is vooral geschikt voor mensen die op zoek zijn naar een rustige, landelijke woonomgeving en bereid zijn om voor alle voorzieningen verder te reizen. Als je graag dicht bij een dierenarts woont, regelmatig verse hondenbenodigdheden wilt kopen of graag uitlaat in een omheinde speelweide, dan zijn de meer stedelijke wijken van Gent een betere match.\n\nToch heeft deze afgelegen ligging ook zijn charme. Als je houdt van lange wandelingen door groene omgevingen, weinig drukte en verkeer waardeert, en een auto hebt om voorzieningen buiten de wijk te bereiken, dan biedt Baarle Dorp wel degelijk kwaliteiten. De huizenprijzen zijn gemiddeld gezien vergelijkbaar met andere Gentse wijken (mediane prijs rond €353.000), maar je krijgt hier waarschijnlijk meer ruimte voor je geld. Voor wie grote honden heeft die veel beweging nodig hebben en niet afhankelijk wil zijn van omheinde speelweiden, kan de natuurlijke omgeving een aantrekkelijk alternatief zijn.\n\nDe praktische realiteit is echter dat je zonder auto hier beperkt bent. Voor spoedgevallen bij de dierenarts, voor het ophalen van zwaar hondenvoer of tijdens slecht weer wordt die 26-48 minuten wandelen naar voorzieningen al snel een obstakel. Veel mensen in vergelijkbare buitenwijken lossen dit op door online te bestellen of periodiek grotere inkopen te doen, maar dat vereist wel planning en organisatie.",
+  "coordinates": {
+    "lat": 51.037477288825954,
+    "lon": 3.605843206104514,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 kleine parken in de wijk",
+      "detail": "Dichtstbijzijnde op 146 meter"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "26 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde buiten de wijk",
+      "detail": "De Harlekijn, Varendriesstraat"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "48 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Maxi Zoo buiten de wijk",
+      "detail": "Sint-Martens-Latem"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "53 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen binnen de wijk",
+      "detail": "Dichtstbijzijnde niet omheind"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Variabel",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "19 bushaltes in de wijk",
+      "detail": "Geen treinstation"
+    }
+  ],
+  "facilities": {
+    "intro": "Baarle Dorp is een landelijke wijk met minimale voorzieningen binnen de wijkgrenzen. Er is geen dierenarts, geen dierenwinkel en geen supermarkt in de wijk zelf. Voor alle hondgerelateerde voorzieningen ben je aangewezen op naburige wijken of dorpen, wat zonder auto uitdagend kan zijn."
+  },
+  "dogParks": {
+    "intro": "Er is geen officiële hondenspeelweide in Baarle Dorp. De dichtstbijzijnde ligt op 53 minuten wandelen en is bovendien niet omheind, wat de praktische waarde beperkt. Voor sociale momenten met andere honden en veilig los lopen moet je dus flink wat tijd investeren. De 2 kleine parken in de wijk bieden wel ruimte voor aangelijnd wandelen.",
+    "parks": []
+  },
+  "vets": {
+    "intro": "In Baarle Dorp zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Dierenarts De Harlekijn in de Varendriesstraat, op 26 minuten wandelen (ruim 2 kilometer). Voor spoedgevallen is dat een aanzienlijke afstand, dus een auto of bereidheid om een taxi te nemen is aan te raden.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Harlekijn",
+        "street": "Varendriesstraat",
+        "streetNumber": "5",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0476244,
+          "lon": 3.6312444
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Bart Verstuyft",
+        "street": "Deinsesteenweg",
+        "streetNumber": "13",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0417527,
+          "lon": 3.6423883
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel is er niet in Baarle Dorp. De Maxi Zoo aan de Kortrijksesteenweg in Sint-Martens-Latem ligt op 48 minuten wandelen (bijna 4 kilometer). Voor dagelijkse benodigdheden is online bestellen of inkopen doen tijdens een autorit naar andere wijken praktischer. Let op: er zijn geen supermarkten in de wijk, dus ook voor basisproducten moet je de wijk uit.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "214",
+        "municipality": "Sint-Martens-Latem",
+        "postalCode": "9830",
+        "distance": "48 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0046153,
+          "lon": 3.621812
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Baarle Dorp",
+    "intro": "Het dagelijks leven in Baarle Dorp vereist organisatie en mobiliteit. Je ochtendwandeling doe je door rustige straten en langs velden, met weinig verkeer en veel groene omgeving. De 2 kleine parken in de wijk bieden een eerste bestemming voor kortere uitlaatrondes, maar voor sociale interactie met andere honden of gevarieerde wandelroutes moet je de wijk uit. Voor praktische zaken zoals dierenarts, hondenvoer of spoedgevallen is een auto of goede planning met openbaar vervoer essentieel.",
+    "benefits": [
+      "Met slechts 424 inwoners per vierkante kilometer is Baarle Dorp een van de dunst bevolkte wijken van Gent. Dat betekent rustige straten, weinig verkeer en veel ruimte voor langere wandelingen door een natuurrijke omgeving zonder de drukte van stedelijke parken.",
+      "De 2 parken in de wijk liggen respectievelijk op 2 minuten en 10 minuten wandelen. Het dichtstbijzijnde park op 146 meter afstand biedt een snelle uitlaatplek voor korte rondes, handig voor vroege ochtenden of late avonden.",
+      "De 19 bushaltes in de wijk zorgen voor openbaar vervoer, wat handig is als je zonder auto naar andere delen van Gent wilt. Zonder treinstation blijft de bereikbaarheid wel beperkter dan in meer centrale wijken.",
+      "Het dorpse karakter en de lage bevolkingsdichtheid betekenen ook minder geluidsoverlast en een rustigere leefomgeving, wat fijn kan zijn voor honden die gevoelig zijn voor drukte of voor wie waarde hecht aan stilte en privacy.",
+      "De afwezigheid van supermarkten en andere commerciële voorzieningen betekent ook minder winkelverkeer en een meer residentieel karakter, wat bijdraagt aan de rustige sfeer tijdens wandelingen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Baarle Dorp is een kleine wijk met 2693 inwoners en een lage bevolkingsdichtheid van 424 inwoners per vierkante kilometer. De mediane huizenprijs ligt rond €353.000, vergelijkbaar met andere Gentse wijken.",
+    "medianPrice": 353000,
+    "inhabitants": 2693,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Baarle Dorp? De wijk heeft postcode 9031. Filteren op deze postcode helpt je gericht te zoeken, al zijn de aantallen beschikbare woningen doorgaans beperkt gezien de kleinschalige aard van de wijk.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-heilig-huizeken",
+    "gent-keuzemeersen",
+    "gent-campagne",
+    "gent-afsnee-centrum",
+    "gent-de-roos"
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T10:45:00Z",
+  "id": "antwerpen-dambruggestraat-nstationsw",
+  "city": "Antwerpen",
+  "name": "DAMBRUGGESTRAAT-N.(STATIONSW.)",
+  "postalCode": "2060",
+  "subtitle": "Wonen in Dambruggestraat-N.(Stationswijk), Antwerpen: compact, uitstekend bereikbaar en hondenparken op 6 min",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 13770,
+  "labels": [
+    {
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    },
+    {
+      "text": "Dichtbevolkt",
+      "icon": "fa-solid fa-people-roof"
+    }
+  ],
+  "intro": "Dambruggestraat-N.(Stationswijk) is een compacte, dichtbevolkte stadswijk in Antwerpen, vlak bij het stadscentrum en met uitzonderlijke verbindingen naar de rest van de stad. Met 3 treinstations en 24 bushaltes binnen handbereik, is dit een wijk voor wie mobiliteit prioriteit geeft. Wil je snel naar werk maar ook snel naar groenere omgevingen wanneer je wat meer ruimte nodig hebt? Dan biedt deze wijk dat stedelijke gemak.\n\nMet 17.313 inwoners per vierkante kilometer is dit een van de dichter bevolkte wijken van Antwerpen. Dat merk je in de dagelijkse gang van zaken: straten zijn levendig, parkeerplaatsen schaars, en rustige groene plekken zijn beperkt. De wijk heeft slechts 1 park binnen de wijkgrenzen (Zusters-Der-Armenplein op 838 meter), maar dat wordt gecompenseerd door de aanwezigheid van meerdere hondenspeelweiden op loopafstand. Twee omheinde terreinen liggen op slechts 6 minuten wandelen — praktisch voor wie even snel wil uitlaten zonder ver te hoeven gaan.\n\nDe voorzieningen in de wijk zijn behoorlijk praktisch georganiseerd. Je vindt 4 supermarkten voor de dagelijkse boodschappen, en met 6 scholen in de buurt is dit ook een gezinsvriendelijke omgeving. Wat medische zorg voor je viervoeter betreft, moet je wel iets verder zoeken: de dichtstbijzijnde dierenarts ligt op 14 minuten wandelen in een aangrenzende wijk. Dat is geen probleem voor routinecontroles, maar bij spoedgevallen zul je sneller met de auto of fiets moeten zijn.\n\nDe wijk heeft geen gespecialiseerde dierenwinkels binnen de grenzen, maar De Pauw op de Oudevaartplaats ligt op 24 minuten te voet — haalbaar voor wie graag wandelt, of een snelle fietsrit voor grotere voorraden. Voor dagelijkse benodigdheden kun je ook terecht bij de supermarkten in de wijk, die vaak een basisassortiment aan honden- en kattenvoer hebben.\n\nWat Dambruggestraat-N.(Stationswijk) bijzonder maakt, is de combinatie van stedelijke levendigheid met goede bereikbaarheid. Dit is een wijk voor wie het bruisende stadsleven waardeert, flexibel wil zijn in verplaatsingen, en geen problemen heeft om voor specifieke behoeften een klein stukje verder te lopen of te fietsen. Als je rust en ruimte zoekt, of een grote tuin belangrijk vindt, is dit waarschijnlijk niet je beste match. Maar als je houdt van de energie van een stadswijk en graag alle voorzieningen binnen handbereik hebt, biedt deze wijk een praktische uitvalsbasis.\n\nEen eerlijke kanttekening: door de hoge bevolkingsdichtheid kan het druk zijn op straat, en je deelt de openbare ruimte met veel andere bewoners. Voor wie niet goed overweg kan met drukte of veel prikkels, vraagt dit wat extra training en geduld. Maar voor wie van ontmoetingen houdt, is dit juist een pluspunt — tijdens de dagelijkse wandeling kom je gegarandeerd andere mensen tegen.",
+  "coordinates": {
+    "lat": 51.22296714051019,
+    "lon": 4.432819162676909,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 omheinde terreinen op 6 minuten",
+      "detail": "Meerdere opties binnen bereik"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "14 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde praktijk",
+      "detail": "Dierenarts praktijk in naburige wijk"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "24 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "De Pauw op de Oudevaartplaats",
+      "detail": "Gespecialiseerde dierenwinkel"
+    },
+    {
+      "icon": "fa-solid fa-train",
+      "title": "Openbaar vervoer",
+      "distance": "Uitstekend",
+      "distanceIcon": "fa-solid fa-train",
+      "description": "3 treinstations en 24 bushaltes",
+      "detail": "Topverbindingen door heel Antwerpen"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "Nabij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 supermarkten in de wijk",
+      "detail": "Praktisch voor dagelijkse boodschappen"
+    }
+  ],
+  "facilities": {
+    "intro": "Dambruggestraat-N.(Stationswijk) biedt een praktische uitvalsbasis voor wie stedelijk gemak waardeert. De wijk zelf is compact en dichtbevolkt, met basisvoorzieningen zoals supermarkten en scholen binnen handbereik. Voor hondenspecifieke behoeften — zoals dierenartsen en gespecialiseerde winkels — moet je een klein stukje verder lopen of fietsen naar aangrenzende wijken, maar de afstanden blijven behapbaar."
+  },
+  "dogParks": {
+    "intro": "Voor uitlaatplekken zit je in deze wijk verrassend goed. Er zijn twee omheinde hondenspeelweiden op slechts 6 minuten wandelen, ideaal voor een snelle ochtenduitlaatsessie of om wat te laten rennen. Daarnaast liggen er nog drie andere hondenparken binnen 15 minuten te voet. De wijk heeft zelf maar 1 regulier park (Zusters-Der-Armenplein), dus voor grotere wandelingen en meer groen moet je naar de randen van de wijk of verder.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide bij Dambruggestraat",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2264241,
+          "lon": 4.4290142
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide bij Stationswijk",
+        "distance": "6 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2271939,
+          "lon": 4.4327765
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark nabij Noordwijk",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2289177,
+          "lon": 4.4309176
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark richting Borgerhout",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.216655,
+          "lon": 4.4404228
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark Borgerhout",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2150439,
+          "lon": 4.444237
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd, dus voor veterinaire zorg moet je naar een aangrenzende wijk. De dichtstbijzijnde optie ligt op 14 minuten wandelen — prima te doen voor routinecontroles of geplande afspraken. Voor spoedgevallen is het handig om met de fiets of auto te gaan, zeker als je viervoeter minder goed te been is.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts praktijk",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2262093,
+          "lon": 4.4174961
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts DAS",
+        "street": "Nassaustraat",
+        "streetNumber": "18A",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.230521,
+          "lon": 4.4050374
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AniCura",
+        "street": "Borsbeeksebrug",
+        "streetNumber": "34",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1999622,
+          "lon": 4.4337817
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsencentrum De Merode",
+        "street": "Grotesteenweg",
+        "streetNumber": "78",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "38 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1975816,
+          "lon": 4.4171474
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf, maar De Pauw op de Oudevaartplaats ligt op 24 minuten te voet — een leuke wandeling als je even tijd hebt, of een snelle fietsrit voor grotere voorraden. Voor dagelijkse benodigdheden zoals hondenvoer of snacks kun je ook terecht bij de 4 supermarkten in de wijk, die vaak een basisassortiment hebben.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Pauw",
+        "street": "Oudevaartplaats",
+        "streetNumber": "55",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.213601,
+          "lon": 4.4094113
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "pet à porter",
+        "street": "Schrijnwerkersstraat",
+        "streetNumber": "19",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2176989,
+          "lon": 4.4038982
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "KATshop",
+        "street": "Lange Koepoortstraat",
+        "streetNumber": "54",
+        "municipality": "Antwerpen",
+        "postalCode": "2000",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.2221272,
+          "lon": 4.4022574
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Diksmuidelaan",
+        "streetNumber": "79-83",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1985998,
+          "lon": 4.4397835
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Dambruggestraat-N.(Stationswijk)",
+    "intro": "Een typische dag in deze wijk draait om flexibiliteit en stedelijk gemak. Je woont dichtbij alle voorzieningen en hebt uitstekende verbindingen, maar je moet wel wat plannen voor rustigere uitlaatmomenten. De ochtendwandeling kan snel en praktisch bij een van de twee omheinde hondenspeelweiden op 6 minuten, ideaal als je weinig tijd hebt voor vertrek naar je werk. Voor de avondwandeling kun je iets verder de wijk uit lopen richting groenere zones.",
+    "benefits": [
+      "Dankzij de 2 omheinde hondenspeelweiden op slechts 6 minuten wandelen heb je altijd een plek waar je viervoeter veilig kan loslopen en rennen, zonder ver te hoeven gaan. Perfect voor een snelle ochtenduitlaatbeurt.",
+      "Met 3 treinstations en 24 bushaltes in de buurt ben je extreem flexibel in je verplaatsingen. Of je nu richting werk moet of naar een groter park buiten de wijk, de verbindingen zijn uitstekend.",
+      "De 4 supermarkten in de wijk maken het eenvoudig om hondenvoer en basisbenodigdheden te halen tijdens je dagelijkse boodschappen. Voor gespecialiseerde producten trek je naar De Pauw op 24 minuten.",
+      "Door de hoge bevolkingsdichtheid kom je tijdens elke wandeling andere mensen en hun viervoeters tegen. Dat maakt socialisatie makkelijk, en je leert snel de lokale gemeenschap kennen.",
+      "De wijk heeft 6 scholen, wat betekent dat er gezinnen met kinderen wonen. Dat zorgt voor een levendige buurt overdag, en er is meestal wel iemand op straat — fijn voor wie gezelligheid en buurtcontact waardeert.",
+      "Hoewel groen binnen de wijk beperkt is, liggen omliggende wijken zoals Noordwijk en Borgerhout dichtbij, waar je wel meer parken en wandelroutes vindt. Door de goede verbindingen ben je snel bij uitgestrektere groene zones."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Dambruggestraat-N.(Stationswijk) is een dichtbevolkte stadswijk met 13.770 inwoners en een bevolkingsdichtheid van 17.313 inwoners per km² — een van de hogere dichtheden in Antwerpen.",
+    "medianPrice": 353000,
+    "inhabitants": 13770,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Dambruggestraat-N.(Stationswijk)? Filter op postcode 2060 om aanbod in deze wijk te vinden. Let op: deze postcode wordt gedeeld met meerdere wijken in de buurt, dus controleer de exacte locatie van elke woning.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "antwerpen-st-amandus-noordwijk",
+    "antwerpen-de-peperbus",
+    "antwerpen-dam-lobroekdok-schijnpoort",
+    "antwerpen-borgerhout-gemeentehuis",
+    "antwerpen-atheneum-stationswijk"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T11:30:00Z",
+    "qualityScore": 81,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Dichtbevolkte stadswijk met directe toegang tot 3 treinstations en meerdere hondenparken op wandelafstand",
+        "after": "Wonen in Dambruggestraat-N.(Stationswijk), Antwerpen: compact, uitstekend bereikbaar en hondenparken op 6 min",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes betekent dit: snel naar werk, maar ook snel naar groenere omgevingen buiten de wijk wanneer je viervoeter wat meer ruimte nodig heeft.",
+        "after": "Wil je snel naar werk maar ook snel naar groenere omgevingen wanneer je wat meer ruimte nodig hebt? Dan biedt deze wijk dat stedelijke gemak.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Twee omheinde terreinen liggen op slechts 6 minuten wandelen — praktisch voor wie even snel zijn hond wil laten rennen zonder ver te hoeven gaan.",
+        "after": "Twee omheinde terreinen liggen op slechts 6 minuten wandelen — praktisch voor wie even snel wil uitlaten zonder ver te hoeven gaan.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Als je rust en ruimte zoekt, of een grote tuin belangrijk vindt, is dit waarschijnlijk niet je ideale match.",
+        "after": "Als je rust en ruimte zoekt, of een grote tuin belangrijk vindt, is dit waarschijnlijk niet je beste match.",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Voor honden die niet goed overweg kunnen met drukte of veel prikkels, vraagt dit wat extra training en geduld. Maar voor sociale honden die van ontmoetingen houden, is dit juist een pluspunt — je komt hier gegarandeerd andere baasjes tegen tijdens de dagelijkse wandeling.",
+        "after": "Voor wie niet goed overweg kan met drukte of veel prikkels, vraagt dit wat extra training en geduld. Maar voor wie van ontmoetingen houdt, is dit juist een pluspunt — tijdens de dagelijkse wandeling kom je gegarandeerd andere mensen tegen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Er zijn twee omheinde hondenspeelweiden op slechts 6 minuten wandelen, ideaal voor een snelle ochtenduitlaatsessie of om je hond even los te laten rennen.",
+        "after": "Er zijn twee omheinde hondenspeelweiden op slechts 6 minuten wandelen, ideaal voor een snelle ochtenduitlaatsessie of om wat te laten rennen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Dambruggestraat-N.(Stationswijk)",
+        "after": "Dagelijks leven in Dambruggestraat-N.(Stationswijk)",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in deze wijk draait om flexibiliteit en stedelijk gemak.",
+        "after": "Een typische dag in deze wijk draait om flexibiliteit en stedelijk gemak.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "Door de hoge bevolkingsdichtheid kom je tijdens elke wandeling andere baasjes en honden tegen. Dat maakt socialisatie makkelijk, en je leert snel de lokale hondengemeenschap kennen.",
+        "after": "Door de hoge bevolkingsdichtheid kom je tijdens elke wandeling andere mensen en hun viervoeters tegen. Dat maakt socialisatie makkelijk, en je leert snel de lokale gemeenschap kennen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Dambruggestraat-N.(Stationswijk) biedt een praktische uitvalsbasis voor baasjes die stedelijk gemak waarderen.",
+        "after": "Dambruggestraat-N.(Stationswijk) biedt een praktische uitvalsbasis voor wie stedelijk gemak waardeert.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "topicCoverageScore": 18,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 7,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T12:15:00Z",
+    "qualityScore": 96,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 30,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 17,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "hondenspeelweide",
+          "hondenspeelweiden",
+          "viervoeter",
+          "viervoeters",
+          "dierenarts",
+          "wandeling",
+          "wandelen",
+          "uitlaten",
+          "wijk"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt (contributionCTA.intro - before fix)",
+          "in de buurt (houses.intro, facilities.intro)",
+          "buurt (in dailyLife.benefits[4] as part of 'levendige buurt')"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 6,
+        "localTipsFound": [
+          "richting groenere zones",
+          "naar de randen van de wijk",
+          "Oudevaartplaats"
+        ],
+        "neighborhoodObservations": [
+          "straten zijn levendig, parkeerplaatsen schaars",
+          "hoge bevolkingsdichtheid",
+          "stedelijke levendigheid",
+          "compact en dichtbevolkt"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood",
+          "limited green space within neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T13:45:00Z",
+  "id": "gent-dries",
+  "city": "Gent",
+  "name": "DRIES",
+  "postalCode": "9050",
+  "subtitle": "Wonen in Dries, Gent: rustige woonwijk met 6 parken op loopafstand — ruimte voor dagelijkse wandelingen",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 8189,
+  "labels": [
+    {
+      "text": "Rustig wonen",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Woonwijk",
+      "icon": "fa-solid fa-house-chimney"
+    }
+  ],
+  "intro": "Dries is een rustige woonwijk aan de zuidelijke rand van Gent, tussen Gentbrugge en Merelbeke. Met 8189 inwoners verspreid over een relatief grote oppervlakte woon je hier ruimer dan in het drukke stadscentrum, maar wel met de stad binnen handbereik. De wijk heeft een residentieel karakter met vooral eengezinswoningen en kleinere appartementscomplexen, en een bevolkingsdichtheid van 2130 inwoners per vierkante kilometer — dat is vergelijkbaar met andere randwijken rond Gent.\n\nVoor wie van rustig wonen houdt, biedt Dries een aangenaam leefritme met voldoende groene ruimte voor dagelijkse wandelingen. De wijk telt 6 parken binnen wandelafstand, waaronder het Frans Tochpark en het Arbedpark. De dichtstbijzijnde ligt op amper 4 minuten lopen vanaf het centrum van de wijk. Er is ook een hondenspeelweide op 8 minuten wandelen, al is die niet omheind — voor wie een veilige speelplek zonder leiband zoekt, vraagt dat extra oplettendheid.\n\nDe belangrijkste trade-off is de beperkte voorzieningen binnen de wijk zelf. Voor een dierenarts moet je naar buiten de wijk: de dichtstbijzijnde praktijk ligt in Destelbergen (19 minuten lopen) of Gentbrugge (21 minuten). Ook voor gespecialiseerde dierenwinkels ben je aangewezen op Aleashop in Destelbergen (18 minuten) of Maxi Zoo in Melle (24 minuten). Voor wie geen auto heeft, kan dat onpraktisch zijn bij spoedgevallen of voor het ophalen van zwaar voer. Wel vind je in de wijk zelf een supermarkt met basisassortiment voor je viervoeter, en met 21 bushaltes in de wijk ben je redelijk mobiel.\n\nDries is een wijk voor wie rust en ruimte zoekt zonder te ver van de stad te wonen. De groene wandelomgeving en het rustige straatbeeld maken het aantrekkelijk voor dagelijkse uitlaatrondes, maar je moet bereid zijn om voor specialistische zorg en spullen wat verder te rijden of lopen. Voor jonge, actieve honden die veel vrij willen lopen, is het gebrek aan een omheinde hondenspeelweide een minpunt — maar de ruime parken bieden genoeg alternatief voor wie aan de leiband blijft. De mediaanprijs van €353.000 voor een woning ligt in lijn met andere randwijken in Gent, wat de wijk toegankelijker maakt dan de duurdere centrumwijken.\n\nMet je eigen postcode (9050) is het makkelijk om woningen specifiek voor deze wijk te filteren op immowebsites. De wijk trekt vooral gezinnen en senioren die van rust houden, en minder studenten of jonge professionals die de bruisende stadsdynamiek zoeken. Praktisch voor wie rust en groen waardeert en bereid is om voor voorzieningen wat verder te gaan — minder geschikt als je specialistische hondenzorg binnen enkele minuten nodig hebt.",
+  "coordinates": {
+    "lat": 51.04224366976259,
+    "lon": 3.7738717389737992,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 hondenspeelweide in de buurt",
+      "detail": "Niet omheind, 8 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "19 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde in Destelbergen",
+      "detail": "Cedivet op 19 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "18 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Aleashop in Destelbergen",
+      "detail": "18 min te voet"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 parken in de buurt",
+      "detail": "Dichtstbijzijnde op 4 min"
+    }
+  ],
+  "facilities": {
+    "intro": "Dries heeft een beperkt aanbod aan hondenvoorzieningen binnen de wijk zelf. Er is één hondenspeelweide op 8 minuten wandelen, maar die is niet omheind. Voor dierenartsen en gespecialiseerde dierenwinkels ben je aangewezen op de buurgemeenten Destelbergen, Gentbrugge en Melle. De 6 parken in en rond de wijk bieden wel voldoende groene ruimte voor dagelijkse wandelingen."
+  },
+  "dogParks": {
+    "intro": "Er is één hondenspeelweide op 8 minuten wandelen vanaf het centrum van de wijk. Het terrein is niet omheind, wat betekent dat je viervoeter niet volledig vrij kan lopen. Voor wie een veilig omheind terrein zoekt waar de hond zonder leiband kan spelen, is dit een belangrijk minpunt. De 6 parken in de wijk bieden wel voldoende alternatieve wandelruimte, al blijft je hond daar aan de leiband.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Dries",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0385626,
+          "lon": 3.7671307
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Dries zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde opties liggen in Destelbergen (19 minuten lopen) en Gentbrugge (21 minuten). Voor spoedgevallen kan die afstand onpraktisch zijn als je geen auto hebt, al zijn de praktijken wel bereikbaar met het openbaar vervoer of de fiets.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartspraktijk Cedivet",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "24",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0518026,
+          "lon": 3.7591682
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Moscou",
+        "street": "Jules de Saint-Genoisstraat",
+        "streetNumber": "49A",
+        "municipality": "Gentbrugge",
+        "postalCode": "9050",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0301719,
+          "lon": 3.7593946
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Sofie Breugelmans",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0523672,
+          "lon": 3.7550973
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van de Walle",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0595905,
+          "lon": 3.752562
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. De dichtstbijzijnde opties zijn Aleashop in Destelbergen (18 minuten lopen) en Maxi Zoo in Melle (24 minuten). Voor wie geen auto heeft, kan het ophalen van zwaar voer of grote bestellingen lastig zijn. De supermarkt in de wijk heeft wel een basisassortiment voor je viervoeter.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "2",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.025379,
+          "lon": 3.7710589
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "31 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Dries",
+    "intro": "Een typische dag in Dries begint rustig. De ochtendwandeling voert je door groene straten naar een van de 6 parken in de buurt — vaak zonder drukte of hectiek. Met 2130 inwoners per vierkante kilometer heb je meer ruimte dan in het Gentse centrum, en dat merk je aan de rustige sfeer en de ruime wandelpaden. De wijk heeft een duidelijk residentieel karakter: je komt vooral gezinnen, senioren en andere hondenliefhebbers tegen tijdens je ronde.",
+    "benefits": [
+      "Met 6 parken binnen 15 minuten wandelen heb je genoeg afwisseling voor je dagelijkse rondes. Het dichtstbijzijnde park ligt op 4 minuten lopen, ideaal voor een snelle ochtend- of avondwandeling. Het Frans Tochpark en Arbedpark liggen iets verder maar bieden meer ruimte en schaduwrijke paden voor warmere dagen.",
+      "De hondenspeelweide ligt op 8 minuten wandelen, maar is niet omheind. Dat betekent dat je viervoeter niet helemaal vrij kan lopen zonder toezicht. Voor goed afgeleide honden die komen op commando is het bruikbaar, maar voor jonge of impulsieve honden is dit minder geschikt.",
+      "Dankzij de 21 bushaltes in de wijk ben je redelijk mobiel zonder auto. Dat helpt als je naar de dierenarts in Destelbergen of Gentbrugge moet, of als je naar een grotere dierenwinkel wilt. De verbindingen naar het centrum van Gent zijn ook goed, wat handig is voor uitstapjes of bezoeken aan grotere dierenklinieken.",
+      "De rustige straten en het lage verkeer maken Dries veilig voor wandelingen. Je hoeft niet constant op je hoede te zijn voor drukke kruispunten of snelle auto's zoals in het centrum. Dat maakt de wijk vooral geschikt voor oudere honden of wie van een ontspannen wandeling houdt.",
+      "De afwezigheid van een dierenarts binnen de wijk betekent dat je vooruit moet plannen. Voor routinecontroles of vaccinaties is dat geen probleem, maar voor spoedgevallen moet je rekenen op 19 minuten lopen naar Cedivet in Destelbergen of 21 minuten naar Moscou in Gentbrugge. Een fiets of auto maakt het leven hier een stuk makkelijker."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Dries telt 8189 inwoners met een bevolkingsdichtheid van 2130 per vierkante kilometer — rustiger dan het Gentse centrum maar niet landelijk. De mediaanprijs voor een woning ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 8189,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Dries? Gebruik postcode 9050 om je zoekopdracht te filteren op immowebsites. De wijk heeft een eigen postcode, wat het makkelijker maakt om specifiek hier te zoeken.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-arsenaal",
+    "gent-de-naeyerdreef",
+    "gent-belle-vue",
+    "gent-merelbeke-station",
+    "gent-groot-begijnhof"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-09T13:45:00Z",
+    "qualityScore": 82,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige woonwijk aan de rand van Gent met parken op loopafstand — praktisch voor wie rust zoekt",
+        "after": "Wonen in Dries, Gent: rustige woonwijk met 6 parken op loopafstand — ruimte voor dagelijkse wandelingen",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Als baasje vind je hier een rustig leefritme met voldoende groene ruimte voor dagelijkse wandelingen.",
+        "after": "Voor wie van rustig wonen houdt, biedt Dries een aangenaam leefritme met voldoende groene ruimte voor dagelijkse wandelingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor wie geen auto hebt, kan dat onpraktisch zijn bij spoedgevallen of voor het ophalen van zwaar voer. Wel vind je in de wijk zelf een supermarkt met basisassortiment voor je viervoeter, en met 21 bushaltes in de wijk ben je redelijk mobiel.",
+        "after": "Voor wie geen auto heeft, kan dat onpraktisch zijn bij spoedgevallen of voor het ophalen van zwaar voer. Wel vind je in de wijk zelf een supermarkt met basisassortiment voor je viervoeter, en met 21 bushaltes in de wijk ben je redelijk mobiel.",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Als je waarde hecht aan een groene, rustige woonomgeving en bereid bent om voor voorzieningen wat verder te gaan, dan vind je hier een fijne plek voor je viervoeter en jezelf.",
+        "after": "Praktisch voor wie rust en groen waardeert en bereid is om voor voorzieningen wat verder te gaan — minder geschikt als je specialistische hondenzorg binnen enkele minuten nodig hebt.",
+        "reason": "intro_structure"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Voor baasjes die een veilig omheind terrein zoeken waar hun hond zonder leiband kan spelen, is dit een belangrijk minpunt.",
+        "after": "Voor wie een veilig omheind terrein zoekt waar de hond zonder leiband kan spelen, is dit een belangrijk minpunt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Dries",
+        "after": "Dagelijks leven in Dries",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Dries begint rustig.",
+        "after": "Een typische dag in Dries begint rustig.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "je komt vooral gezinnen, senioren en andere baasjes tegen tijdens je ronde.",
+        "after": "je komt vooral gezinnen, senioren en andere hondenliefhebbers tegen tijdens je ronde.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De rustige straten en het lage verkeer maken Dries veilig voor wandelingen met je hond. Je hoeft niet constant op je hoede te zijn voor drukke kruispunten of snelle auto's zoals in het centrum. Dat maakt de wijk vooral geschikt voor oudere honden of baasjes die van een ontspannen wandeling houden.",
+        "after": "De rustige straten en het lage verkeer maken Dries veilig voor wandelingen. Je hoeft niet constant op je hoede te zijn voor drukke kruispunten of snelle auto's zoals in het centrum. Dat maakt de wijk vooral geschikt voor oudere honden of wie van een ontspannen wandeling houdt.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "keywordScore": 17,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 18,
+      "decisionUsefulnessScore": 15
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-09T14:30:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "intro",
+        "issue": "Could benefit from more specific local directional tips (e.g., 'via de X straat', 'richting het Y') to enhance local authenticity",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 17,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (valueCards[0].description)",
+          "in de buurt (valueCards[3].description)",
+          "in de buurt (dailyLife.intro)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 7,
+        "localTipsFound": [],
+        "neighborhoodObservations": [
+          "rustige sfeer en de ruime wandelpaden",
+          "duidelijk residentieel karakter",
+          "groene wandelomgeving en het rustige straatbeeld"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no vet in neighborhood",
+          "no pet store in neighborhood",
+          "dog park not fenced"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

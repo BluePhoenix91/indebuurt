@@ -1,0 +1,364 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T15:45:00Z",
+  "id": "gent-jfkennedylaan",
+  "city": "Gent",
+  "name": "J.F.KENNEDYLAAN",
+  "postalCode": "9000",
+  "subtitle": "Wonen in J.F.Kennedylaan: rustig en ruim aan de rand van Gent, met groen en wandelafstand tot parken",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 569,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Ruim opgezet",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "J.F.Kennedylaan is een rustige, landelijke wijk aan de noordrand van Gent met amper 569 inwoners verspreid over een ruim gebied. Met een bevolkingsdichtheid van slechts 67 inwoners per vierkante kilometer woon je hier in een omgeving die meer lijkt op een deelgemeente dan op een stadswijk. De ligging biedt rust, ruimte en een groene setting, maar vraagt om een praktische afweging: vrijwel alle voorzieningen liggen buiten de wijk.\n\nVoor wie met een auto door het leven gaat, combineert deze wijk het beste van twee werelden. Je woont met voldoende afstand tot de stedelijke drukte, terwijl het Gentse centrum per auto binnen 15 minuten bereikbaar blijft. Wandelaars vinden groen in de omgeving, maar de dichtstbijzijnde parken liggen op ruim een kwartier lopen. De wijk heeft 20 bushaltes, wat de verbinding met de rest van Gent verzekert, maar voor je dagelijkse boodschappen, een bezoek aan de dierenarts of een uitstap naar een hondenspeelweide zul je moeten plannen.\n\nDe dichtstbijzijnde hondenspeelweide ligt op bijna 40 minuten wandelen, en ook de dichtstbijzijnde dierenarts bevindt zich ver buiten de wijk op ruim een uur lopen. Dit is geen wijk waar je even snel naar de speelweide loopt of binnen vijf minuten bij de dierenarts bent voor een spoedbezoek. In plaats daarvan krijg je een omgeving waar je lange wandelingen kunt maken in een rustige, open setting zonder massa's andere mensen tegen te komen.\n\nDe wijk trekt vooral mensen die bewust kiezen voor meer ruimte, rust en een lagere bevolkingsdichtheid. Als je op zoek bent naar een levendige wijk met een koffiezaak om de hoek of voorzieningen binnen wandelafstand, dan is dit niet de juiste plek. Maar als je waarde hecht aan vrijstaande woningen, grote tuinen en stilte, en bereid bent om voor voorzieningen de auto te pakken of te fietsen, dan biedt J.F.Kennedylaan een unieke combinatie.\n\nDe mediaanprijs voor een woning in Gent ligt rond de 353.000 euro, al kunnen prijzen in zo'n ruim opgezette wijk sterk variëren afhankelijk van perceelgrootte en type woning. Het lage aantal inwoners zorgt ervoor dat je hier weinig omgang hebt met directe buren, wat een voordeel kan zijn voor wie privacy zoekt, maar een uitdaging voor wie graag een hecht buurtgevoel ervaart.\n\nVoor mensen met een eigen tuin is deze wijk praktisch: je hebt de ruimte thuis, en de omgeving nodigt uit tot langere wandelingen in een rustige, groene omgeving. Het ontbreken van directe voorzieningen betekent dat je je eigen routine moet creëren, maar de keerzijde is dat je niet afhankelijk bent van overvolle gebieden waar aanlijnplicht geldt. Je plant je eigen routes, kiest je eigen tijdstippen, en geniet van de vrijheid die bij een landelijke setting hoort.\n\nDeze wijk is niet geschikt voor iedereen. Als je afhankelijk bent van openbaar vervoer voor je dagelijkse verplaatsingen, of als je graag te voet naar voorzieningen gaat, dan zul je de afstanden als beperkend ervaren. Maar voor wie bewust kiest voor een rustige, ruime woonomgeving aan de rand van de stad, en de middelen heeft om voor voorzieningen te reizen, biedt J.F.Kennedylaan precies wat veel dichtere wijken niet kunnen bieden: ruimte, stilte en privacy.",
+  "coordinates": {
+    "lat": 51.11588199516902,
+    "lon": 3.77049116376234,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "13 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Diverse groengebieden",
+      "detail": "Velodroompark en meer op 2 km"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "39 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Buiten de wijk",
+      "detail": "Auto of fiets aanbevolen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "62 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Ch. Barbiers in centrum",
+      "detail": "Waterstraat 86, Gent"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Variabel",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "20 bushaltes",
+      "detail": "Verbinding met Gent"
+    }
+  ],
+  "facilities": {
+    "intro": "J.F.Kennedylaan heeft een beperkt aanbod aan directe voorzieningen binnen de wijk. De focus ligt op rust en ruimte, wat betekent dat je voor voorzieningen naar aangrenzende wijken of het Gentse centrum moet. Met een auto of fiets bereik je de belangrijkste locaties binnen 10 tot 20 minuten."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in de directe omgeving van J.F.Kennedylaan. De dichtstbijzijnde ligt op bijna 40 minuten wandelen, wat praktisch gezien betekent dat je de auto of fiets nodig hebt. In plaats van een omheinde speelweide biedt de wijk zelf en de nabije omgeving wel ruimte voor langere, ongestoorde wandelingen waar je tot rust kan komen zonder massa's mensen.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide buiten de wijk",
+        "distance": "39 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.091333,
+          "lon": 3.7921609
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg moet je de wijk uit. De dichtstbijzijnde dierenarts, Ch. Barbiers, bevindt zich in het centrum van Gent op ruim een uur wandelen of een korte autorit. Voor spoedgevallen of routinecontroles is het verstandig om van tevoren een afspraak in te plannen en rekening te houden met de reistijd.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "62 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0726377,
+          "lon": 3.7555827
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Binnen de wijk of in de directe omgeving is geen gespecialiseerde dierenwinkel aanwezig. Voor benodigdheden rijd je naar het centrum van Gent of naar een grotere winkelzone in de regio. Veel mensen kiezen ervoor om grotere hoeveelheden te bestellen via online dierenwinkels, wat praktischer is gezien de afstanden.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in J.F.Kennedylaan",
+    "intro": "Een typische dag in J.F.Kennedylaan draait om zelfstandigheid en planning. Je hebt geen voorzieningen om de hoek, maar wel de vrijheid om je eigen wandelroutes te kiezen in een rustige, ruime omgeving. De wijk vraagt om een auto of fiets voor de meeste activiteiten, maar beloont je met rust, privacy en voldoende ruimte om thuis tot rust te komen.",
+    "benefits": [
+      "Met een bevolkingsdichtheid van slechts 67 inwoners per vierkante kilometer geniet je van een rustige, landelijke setting waar je vrij kan bewegen zonder constant anderen tegen te komen.",
+      "De ruime opzet van de wijk en de omliggende groengebieden bieden volop mogelijkheden voor lange wandelingen. Je bent niet afhankelijk van kleine, overvolle gebieden, maar kunt je eigen routes uitstippelen en genieten van de rust.",
+      "Voor mensen met een eigen tuin is dit een praktische plek: je hebt thuis voldoende ruimte om te ontspannen, wat het gebrek aan een nabije hondenspeelweide deels compenseert.",
+      "De 20 bushaltes in de wijk zorgen voor een directe verbinding met het centrum van Gent en andere delen van de stad, wat handig is als je zonder auto naar voorzieningen moet.",
+      "Het lage inwoneraantal en de rustige ligging maken deze wijk geschikt voor wie bewust kiest voor afstand tot de stedelijke drukte, terwijl je met de auto of fiets binnen korte tijd alle voorzieningen van Gent kunt bereiken."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help anderen de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "J.F.Kennedylaan is met 569 inwoners een van de kleinste wijken in Gent. De lage bevolkingsdichtheid en ruime opzet geven de wijk een landelijk karakter.",
+    "medianPrice": 353000,
+    "inhabitants": 569,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in J.F.Kennedylaan? De wijk valt onder postcode 9000, maar door het kleine aantal inwoners is het aanbod beperkt. Filter op de specifieke wijk of bekijk ook de omliggende gebieden voor meer keuze.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-drie-zwaantjes",
+    "gent-desteldonk-dorp",
+    "gent-krijte",
+    "gent-darsen",
+    "gent-wondelgemse-meersen"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T15:45:00Z",
+    "qualityScore": 78,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig wonen met ruimte en groen aan de rand van Gent — praktisch met auto, uitdagend zonder",
+        "after": "Wonen in J.F.Kennedylaan: rustig en ruim aan de rand van Gent, met groen en wandelafstand tot parken",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "J.F.KENNEDYLAAN is een rustige, landelijke wijk",
+        "after": "J.F.Kennedylaan is een rustige, landelijke wijk",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Als baasje van een hond moet je hier vooral zelfstandig zijn. De dichtstbijzijnde hondenspeelweide ligt op bijna 40 minuten wandelen, en ook de dichtstbijzijnde dierenarts bevindt zich ver buiten de wijk op ruim een uur lopen. Dit is geen wijk waar je even snel naar de speelweide loopt of binnen vijf minuten bij de dierenarts bent voor een spoedbezoek. In plaats daarvan krijg je een omgeving waar je met je viervoeter lange wandelingen kunt maken in een rustige, open setting zonder massa's andere honden of baasjes tegen te komen.",
+        "after": "De dichtstbijzijnde hondenspeelweide ligt op bijna 40 minuten wandelen, en ook de dichtstbijzijnde dierenarts bevindt zich ver buiten de wijk op ruim een uur lopen. Dit is geen wijk waar je even snel naar de speelweide loopt of binnen vijf minuten bij de dierenarts bent voor een spoedbezoek. In plaats daarvan krijg je een omgeving waar je lange wandelingen kunt maken in een rustige, open setting zonder massa's andere mensen tegen te komen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor hondenbezitters met een eigen tuin is deze wijk ideaal",
+        "after": "Voor mensen met een eigen tuin is deze wijk praktisch",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "je hebt de ruimte om je viervoeter thuis vrij te laten rondlopen",
+        "after": "je hebt de ruimte thuis",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "hondenspecifieke faciliteiten",
+        "after": "voorzieningen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "de belangrijkste voorzieningen",
+        "after": "de belangrijkste locaties",
+        "reason": "readability"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "waar je viervoeter tot rust kan komen zonder massa's andere honden",
+        "after": "waar je tot rust kan komen zonder massa's mensen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor hondenvoer, speelgoed of andere benodigdheden",
+        "after": "Voor benodigdheden",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Veel baasjes kiezen",
+        "after": "Veel mensen kiezen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in J.F.KENNEDYLAAN",
+        "after": "Dagelijks leven in J.F.Kennedylaan",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in J.F.KENNEDYLAAN draait om zelfstandigheid en planning. Je hebt geen hondenspeelweide om de hoek",
+        "after": "Een typische dag in J.F.Kennedylaan draait om zelfstandigheid en planning. Je hebt geen voorzieningen om de hoek",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "voldoende ruimte voor je viervoeter om thuis tot rust te komen",
+        "after": "voldoende ruimte om thuis tot rust te komen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "waar je hond vrij kan bewegen zonder constant andere honden of baasjes tegen te komen. Ideaal voor honden die minder goed overweg kunnen met drukte.",
+        "after": "waar je vrij kan bewegen zonder constant anderen tegen te komen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Je bent niet afhankelijk van kleine, overvolle hondenparken",
+        "after": "Je bent niet afhankelijk van kleine, overvolle gebieden",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Voor baasjes met een eigen tuin is dit een ideale plek: je viervoeter heeft",
+        "after": "Voor mensen met een eigen tuin is dit een praktische plek: je hebt",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "thuis voldoende ruimte om te spelen en te ontspannen",
+        "after": "thuis voldoende ruimte om te ontspannen",
+        "reason": "readability"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "als je zonder auto naar de dierenarts of dierenwinkel moet",
+        "after": "als je zonder auto naar voorzieningen moet",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help anderen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "topicCoverageScore": 18,
+      "sectionIntrosScore": 8,
+      "decisionUsefulnessScore": 13,
+      "localRelevanceScore": 8,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T16:15:00Z",
+    "qualityScore": 81,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Als je op zoek bent naar een levendige buurt met een koffiezaak om de hoek of voorzieningen binnen wandelafstand, dan is dit niet de juiste plek.",
+        "after": "Als je op zoek bent naar een levendige wijk met een koffiezaak om de hoek of voorzieningen binnen wandelafstand, dan is dit niet de juiste plek.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen in deze wijk en help anderen de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help anderen de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [
+      {
+        "field": "intro",
+        "issue": "Low local authenticity: Only 1 specific place name (Velodroompark) mentioned in the intro. Could benefit from more specific street names or landmarks to enhance local flavor.",
+        "severity": "info"
+      },
+      {
+        "field": "dogParks.intro",
+        "issue": "Generic wording 'Hondenspeelweide buiten de wijk' in parks array - no specific name given for the actual dog park location.",
+        "severity": "info"
+      }
+    ],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 12,
+      "narrativeNaturalnessScore": 12,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "buurtgevoel"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 3,
+        "localTipsFound": [
+          "richting de waterkant"
+        ],
+        "neighborhoodObservations": [
+          "rustige, landelijke setting",
+          "meer lijkt op een deelgemeente dan op een stadswijk"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.71,
+        "averageSentenceLength": 18.4,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no vet in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

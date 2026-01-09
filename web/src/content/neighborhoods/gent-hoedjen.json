@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T17:00:00Z",
+  "id": "gent-hoedjen",
+  "city": "Gent",
+  "name": "Hoedjen",
+  "postalCode": "9052",
+  "subtitle": "Rustig wonen aan de rand van Gent met groen op wandelafstand — eerder voor wie zelfstandigheid en rust zoekt in deze wijk",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 550,
+  "labels": [
+    { "text": "Landelijk", "icon": "fa-solid fa-tractor" },
+    { "text": "Rustig", "icon": "fa-solid fa-volume-off" },
+    { "text": "Groene omgeving", "icon": "fa-solid fa-leaf" }
+  ],
+  "intro": "Hoedjen is een van de kleinste wijken van Gent met slechts 550 inwoners, gelegen aan de zuidrand van de stad. Dit is geen wijk waar je op elk straathoek een supermarkt of café vindt — de dichtstbijzijnde voorzieningen liggen in de aangrenzende wijken, en stedelijk gemak is hier ver te zoeken. Wat je wel vindt, is rust, ruimte en een landelijke sfeer die zeldzaam is geworden in Gent. Met een bevolkingsdichtheid van amper 181 inwoners per vierkante kilometer woon je hier bijna als op het platteland, terwijl je toch binnen het Gentse grondgebied blijft.\n\nVoor wie een hond heeft, biedt Hoedjen een dubbelzinnig plaatje. Het groene karakter en de lage bebouwingsdichtheid zorgen ervoor dat je voldoende ruimte hebt voor wandelingen in de buurt. Met 3 parken binnen handbereik, waarvan het dichtstbijzijnde op nog geen 4 minuten wandelen ligt, heb je genoeg opties om je dagelijkse rondes te variëren. Predikherenhof en Park de Ghellinck d'Elsegem liggen ook op wandelafstand en bieden schaduwrijke paadjes voor warme dagen. Maar een officiële hondenspeelweide vind je niet in de wijk zelf — de dichtstbijzijnde ligt op 27 minuten lopen in De Pinte, en dat is voor de meeste baasjes te ver voor een spontane uitlaatronde.\n\nOok op het vlak van praktische voorzieningen moet je rekening houden met afstanden. Er zijn geen supermarkten in Hoedjen zelf, en de dichtstbijzijnde dierenwinkel ligt op een uur wandelen. Voor voer en speelgoed reken je dus op de auto of bestel je online. Wat betreft veterinaire zorg zit je iets beter: er zijn vier dierenartsen binnen een straal van 17 tot 24 minuten te voet, waaronder AnimaPlus in De Pinte op 17 minuten en Dierenartspraktijk Thas op 21 minuten. Dat is haalbaar voor reguliere controles, maar voor spoedgevallen wil je waarschijnlijk toch een auto bij de hand hebben.\n\nOpenbaar vervoer is beperkt tot 3 bushaltes in de wijk, geen treinstation in de buurt. Mobiliteit betekent hier vooral: fiets of auto. Als je dagelijks naar het Gentse centrum moet voor werk, kan dat een uitdaging zijn. Maar als je juist op zoek bent naar een rustige thuisbasis buiten de drukte, en je hebt een auto of fiets om de afstanden te overbruggen, dan biedt Hoedjen een zeldzaam stukje groen en ruimte binnen de stadsgrenzen.\n\nDeze wijk is iets voor jou als je rust en ruimte belangrijker vindt dan gemak en bereikbaarheid. Voor jonge gezinnen met kleine kinderen kan de afwezigheid van scholen en winkels lastig zijn. Voor baasjes die van lange wandelingen houden en niet dagelijks naar een hondenspeelweide hoeven, kan het landelijke karakter juist een pluspunt zijn. Je moet wel rekening houden met het feit dat je voor bijna alles — van boodschappen tot spoedeisende dierenartszorg — afhankelijk bent van vervoer. Hoedjen vraagt een bepaalde zelfstandigheid en voorbereiding, maar geeft daar rust en groen voor terug.",
+  "coordinates": {
+    "lat": 51.00609734168616,
+    "lon": 3.690461273640079,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Parken",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 parken in de buurt",
+      "detail": "Dichtstbijzijnde op 4 minuten"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken binnen bereik",
+      "detail": "AnimaPlus op 17 minuten"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "27 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde in De Pinte",
+      "detail": "Geen speelweide in wijk zelf"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "60 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 winkels op afstand",
+      "detail": "Auto of online bestellen"
+    }
+  ],
+  "facilities": {
+    "intro": "Hoedjen heeft een beperkt aanbod aan voorzieningen binnen de wijk zelf — er zijn geen supermarkten, scholen of winkels. Voor baasjes betekent dat vooral: vooruit plannen voor dierenbenodigdheden en dagelijkse boodschappen. Dierenartsen zijn gelukkig wel bereikbaar te voet, met vier praktijken binnen 17 tot 24 minuten. Het groene karakter en de rust compenseren veel, maar verwacht geen stadse voorzieningen om de hoek. De landelijke sfeer vraagt zelfstandigheid, maar geeft daar ruimte en stilte voor terug."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in Hoedjen zelf. De dichtstbijzijnde omheinde speelweide ligt in De Pinte op 27 minuten wandelen, waar je hond vrij kan rondlopen. Dat is voor een dagelijkse uitlaatronde te ver, maar de 3 parken in de buurt — waarvan het dichtstbijzijnde op 4 minuten ligt — bieden voldoende alternatieven voor losse wandelingen en speeltijd. Het landelijke karakter van de wijk zorgt voor rustige straten met weinig verkeer, wat het uitlaten ook buiten de parken aangenaam en veilig maakt.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide De Pinte",
+        "distance": "27 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9889069,
+          "lon": 3.675231
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Sint-Denijs-Westrem",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0152033,
+          "lon": 3.6622439
+        },
+        "features": [
+          { "text": "Omheind terrein", "icon": "fa-solid fa-fence" }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg zijn er vier dierenartsen binnen 17 tot 24 minuten te voet — een goede dekking voor een kleine wijk. AnimaPlus in De Pinte is het dichtst bij op 17 minuten, gevolgd door Dierenartspraktijk Thas op 21 minuten. Voor reguliere controles en vaccinaties is dat goed haalbaar te voet. Voor spoedgevallen of late avonduren is het wel handig om vervoer bij de hand te hebben, gezien de afstanden.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AnimaPlus",
+        "street": "Grote Steenweg",
+        "streetNumber": "15-17",
+        "municipality": "De Pinte",
+        "postalCode": "9840",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9947067,
+          "lon": 3.6840865
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartspraktijk Thas",
+        "street": "Heerweg-Zuid",
+        "streetNumber": "9",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0025368,
+          "lon": 3.7139738
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Jana Meyers",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "1132",
+        "municipality": "Gent",
+        "postalCode": "9051",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0188576,
+          "lon": 3.6745676
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Marty",
+        "street": "Heerweg-Noord",
+        "streetNumber": "88",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0066818,
+          "lon": 3.7173101
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een dierenwinkel vind je niet in de buurt van Hoedjen. Tom & Co en Maxi Zoo liggen beide op een uur wandelen, wat in de praktijk betekent dat je de auto neemt of online bestelt voor voer en speelgoed. Veel baasjes in Hoedjen regelen hun dierenbenodigdheden via webshops met thuislevering, of combineren het met een grotere boodschappenronde in de stad. De afwezigheid van een nabije dierenwinkel vraagt wat planning, maar is goed te overbruggen.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Hoedjen",
+    "intro": "Een typische dag als baasje in Hoedjen draait om rust, ruimte en zelfstandigheid. Je bent niet omringd door voorzieningen, maar je hebt wel direct groen voor de deur en rustige straten om je hond uit te laten. De ochtendwandeling maak je door het dichtstbijzijnde parkje op 4 minuten, de avondwandeling misschien langs de landelijke wegen richting De Pinte. Voor boodschappen en dierenbenodigdheden plan je vooruit — spontaan even naar de winkel is er niet bij. Praktisch voor wie rust en ruimte belangrijker vindt dan stedelijk gemak, en zelfstandig genoeg is om vooruit te plannen.",
+    "benefits": [
+      "Met 3 parken binnen handbereik, waarvan het dichtstbijzijnde op 4 minuten wandelen, heb je altijd een groene plek voor een rondje. Predikherenhof en Park de Ghellinck d'Elsegem liggen iets verder maar bieden afwisseling voor langere wandelingen.",
+      "Door de lage bebouwingsdichtheid en het landelijke karakter heb je veel rustige straten en weinig verkeer. Dat maakt het uitlaten ook buiten de parken prettig en veilig, vooral voor honden die wat meer ruimte en stilte nodig hebben.",
+      "Met vier dierenartsen binnen 17 tot 24 minuten wandelen ben je voor reguliere zorg goed geholpen. Voor spoedgevallen of late avonden is het wel handig om een auto bij de hand te hebben.",
+      "De afwezigheid van een hondenspeelweide in de wijk zelf is een gemis voor wie graag dagelijks naar een omheind speelterrein gaat. De dichtstbijzijnde ligt op 27 minuten in De Pinte — haalbaar voor een weekenduitje, maar te ver voor de dagelijkse routine.",
+      "Voor voer en speelgoed ben je aangewezen op de auto of online bestellen. De dichtstbijzijnde dierenwinkels liggen op een uur wandelen, wat in de praktijk betekent dat je vooruit plant en grotere voorraden aanhoudt."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Met slechts 550 inwoners is Hoedjen een van de kleinste wijken van Gent. De mediane huizenprijs ligt rond €353.000, in lijn met het Gentse gemiddelde.",
+    "medianPrice": 353000,
+    "inhabitants": 550,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Hoedjen (postcode 9052)? Door het kleine formaat en de lage dichtheid komt hier niet vaak iets vrij, dus geduld is een vereiste. De landelijke sfeer en het groene karakter maken het voor baasjes die rust zoeken wel de moeite waard om te wachten op een geschikte woning.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-paolalaan",
+    "gent-t-schaarken",
+    "gent-drie-sleutels",
+    "gent-bugten",
+    "gent-konleopoldstraat"
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:45:00Z",
+  "id": "gent-westveld-kern",
+  "city": "Gent",
+  "name": "Westveld-Kern",
+  "postalCode": "9040",
+  "subtitle": "Wonen in Westveld-Kern, Gent: rustige groene woonwijk met parken om de hoek — praktisch voor baasjes",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 2709,
+  "labels": [
+    {
+      "text": "Groene wijk",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig wonen",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    }
+  ],
+  "intro": "Westveld-Kern is een rustige woonwijk in het noordoosten van Gent, waar je woont tussen groen en toch dicht bij alle voorzieningen. Met 2709 inwoners en een dichtheid van 2356 per vierkante kilometer vind je hier meer lucht dan in het drukke stadscentrum. Het Spellekenspark en Westveldpark liggen praktisch voor je deur, ideaal voor de dagelijkse wandeling.\n\nWat Westveld-Kern kenmerkt, is het karakter van een echte woonwijk. Je vindt hier geen supermarkten of winkels in de wijk zelf, maar die bewuste keuze zorgt wel voor rust en groen. Voor boodschappen of een bezoek aan de dierenarts trek je naar de omliggende wijken, allemaal binnen 20 minuten te voet bereikbaar. Met 8 bushaltes en een treinstation binnen handbereik is de wijk uitstekend ontsloten.\n\nVoor wie een hond heeft, biedt de wijk direct toegang tot drie parken binnen 250 meter — meer dan genoeg voor de ochtend- en avondwandeling. Een officiële hondenspeelweide vind je niet in Westveld-Kern zelf, maar de dichtstbijzijnde omheinde speelplek ligt op 20 minuten wandelen in het naburige gebied. Voor veterinaire zorg zijn er meerdere praktijken binnen 20 minuten, met de dichtstbijzijnde dierenarts Benoît Fiers op 17 minuten.\n\nDe wijk is geschikt voor wie zoekt naar een rustige uitvalsbasis met veel groen, maar geen voorzieningen direct voor de deur nodig heeft. Met de mediane huisprijs van 353.000 euro ligt Westveld-Kern in de middenmoot voor Gentse wijken. Het postcodedistrict 9040 omvat meerdere wijken, dus bij je zoektocht naar een woning filter je best op de exacte straatnaam.\n\nWat je hier krijgt: rust, groen op wandelafstand, en goede bereikbaarheid naar het centrum en alle voorzieningen in de wijk. Wat je mist: winkels en gespecialiseerde voorzieningen binnen de wijk zelf. Als je houdt van een rustige woonomgeving waar je letterlijk tussen de parken woont, en je vindt het geen probleem om voor dagelijkse boodschappen of de dierenarts een kwartier te wandelen, dan is Westveld-Kern een fijne plek. Voor wie juist de bruisende stadsdrukte en alles op loopafstand wil, kijk je beter naar wijken dichter bij het centrum.\n\nEen typische dag in Westveld-Kern begint met een korte wandeling naar het Spellekenspark, amper 100 meter verderop. 's Avonds wissel je af tussen het Westveldpark en het iets verder gelegen Admiraalpark. Voor de weekendwandeling trek je richting Park Rozebroeken of het uitgestrekte Sint-Baafskouter, beide binnen een kwartiertje lopen. De combinatie van nabijgelegen groen en relatieve rust maakt dat je hier een voorspelbare, aangename routine opbouwt zonder dagelijks ver te hoeven lopen.",
+  "coordinates": {
+    "lat": 51.066410252326,
+    "lon": 3.7760479431362057,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 parken direct in de wijk",
+      "detail": "Spellekenspark op 100m"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "20 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Omheinde speelplek nabij",
+      "detail": "Dichtstbijzijnde op 1,8km"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "7 praktijken in de wijk",
+      "detail": "Benoît Fiers op 1,4km"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "18 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 winkels in de wijk",
+      "detail": "Kippentuin op 1,5km"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "8 bushaltes + 1 station",
+      "detail": "Uitstekende ontsluiting"
+    }
+  ],
+  "facilities": {
+    "intro": "Westveld-Kern is een echte woonwijk zonder commerciële voorzieningen binnen de wijkgrenzen zelf. Voor alle praktische zaken zoals dierenartsen, dierenwinkels en dagelijkse boodschappen wandel je naar de aangrenzende wijken. De dichtstbijzijnde voorzieningen liggen allemaal binnen 20 minuten te voet, met goede bereikbaarheid via de 8 bushaltes en het treinstation in de wijk."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in Westveld-Kern zelf. De dichtstbijzijnde omheinde speelweide ligt op 20 minuten wandelen. Voor de dagelijkse uitlaat heb je wel direct toegang tot drie parken binnen 250 meter: het Spellekenspark, Westveldpark en nog een kleinere groene plek. Deze parken bieden voldoende ruimte voor wandelingen, al moet je er rekening mee houden dat honden hier aan de lijn moeten blijven.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde hondenspeelweide",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0585471,
+          "lon": 3.7567109
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde hondenspeelweide",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.072154,
+          "lon": 3.7516795
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0601233,
+          "lon": 3.7509435
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg trek je buiten de wijk, maar de afstanden blijven beperkt. De dichtstbijzijnde dierenarts, Benoît Fiers, ligt op 17 minuten wandelen. Binnen een straal van 25 minuten vind je 7 verschillende praktijken, waardoor je voldoende keuze hebt voor zowel routine check-ups als spoedgevallen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Benoît Fiers",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0631388,
+          "lon": 3.7569615
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0726377,
+          "lon": 3.7555827
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van de Walle",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0595905,
+          "lon": 3.752562
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een dierenwinkel in de wijk zelf vind je niet, maar Kippentuin op de Waterstraat ligt op 18 minuten wandelen. Voor een uitgebreider assortiment zijn er binnen 25 minuten nog twee andere opties, waaronder Aleashop richting Destelbergen. Voor basisspullen kun je ook terecht bij de grotere supermarkten in de omliggende wijken.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0757366,
+          "lon": 3.7613707
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Westveld-Kern",
+    "intro": "Een typische dag in Westveld-Kern draait om de parken direct voor je deur. Je ochtendwandeling begint meestal in het Spellekenspark, binnen een minuut of twee lopen vanaf de meeste straten in de wijk. De rust en het groen maken dat je hier een vaste routine opbouwt, zonder dagelijks ver te moeten lopen voor een fatsoenlijke wandeling. Voor specifieke voorzieningen zoals een omheinde hondenweide of de dierenarts plan je iets meer tijd in, maar alles blijft binnen een comfortabele loopafstand.",
+    "benefits": [
+      "Met drie parken binnen 250 meter heb je altijd een groene plek voor de ochtend- en avondwandeling. Het Spellekenspark ligt praktisch voor je deur, terwijl het Westveldpark iets meer ruimte biedt voor langere wandelingen. Voor afwisseling trek je richting het Admiraalpark, op nog geen 15 minuten.",
+      "De wijk zelf is rustig en overzichtelijk, met weinig doorgaand verkeer. Dat maakt uitlaten veilig en ontspannen, vooral voor wie een hond heeft die nog niet goed aan verkeer gewend is. De combinatie van rust en groen zorgt ervoor dat je hier een voorspelbare dagelijkse routine opbouwt.",
+      "Hoewel er geen officiële hondenspeelweide in de wijk ligt, zijn er binnen 20 tot 25 minuten wandelen meerdere omheinde speelplekken beschikbaar. Als je graag je hond vrijuit laat rennen, plan je deze uitjes in het weekend of op een rustige doordeweekse dag.",
+      "Voor veterinaire zorg heb je keuze uit zeven praktijken binnen 25 minuten. De dichtstbijzijnde dierenarts ligt op 17 minuten, wat voor routine check-ups en vaccinaties prima werkbaar is. Bij spoedgevallen is het goed te weten dat er meerdere opties dichtbij zijn.",
+      "Het openbaar vervoer is uitstekend geregeld met 8 bushaltes en een treinstation in de wijk. Voor uitstapjes naar het Gentse centrum of uitgestrekte wandelgebieden verder weg ben je zo aangesloten. Met de trein ben je in een mum van tijd in het centrum of richting natuurgebieden buiten de stad.",
+      "De afwezigheid van winkels en commerciële drukte in de wijk zelf houdt de straten rustig en schoon. Voor boodschappen wandel je naar de aangrenzende wijken, wat je dagelijkse stappenteller goed doet en tegelijk zorgt voor beweging. Veel bewoners combineren de boodschappen met een langere wandeling."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere baasjes de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Westveld-Kern telt 2709 inwoners met een bevolkingsdichtheid van 2356 per vierkante kilometer, wat de wijk een rustig en overzichtelijk karakter geeft.",
+    "medianPrice": 353000,
+    "inhabitants": 2709,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Westveld-Kern? Houd er rekening mee dat postcode 9040 meerdere wijken in Gent omvat. Filter daarom op de exacte straatnaam om woningen specifiek in Westveld-Kern te vinden.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-goedlevenstraat",
+    "gent-groot-begijnhof",
+    "gent-achtendries",
+    "gent-krijte",
+    "gent-dampoort"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:45:00Z",
+    "qualityScore": 86,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige groene woonwijk met parken om de hoek en snelle toegang tot voorzieningen — praktisch wonen in Gent",
+        "after": "Wonen in Westveld-Kern, Gent: rustige groene woonwijk met parken om de hoek — praktisch voor baasjes",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Het Spellekenspark en Westveldpark liggen praktisch voor je deur, ideaal voor de dagelijkse wandeling met je viervoeter.",
+        "after": "Het Spellekenspark en Westveldpark liggen praktisch voor je deur, ideaal voor de dagelijkse wandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt de wijk direct toegang tot drie parken binnen 250 meter",
+        "after": "Voor wie een hond heeft, biedt de wijk direct toegang tot drie parken binnen 250 meter",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De wijk is perfect voor wie zoekt naar een rustige uitvalsbasis",
+        "after": "De wijk is geschikt voor wie zoekt naar een rustige uitvalsbasis",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Een typische dag als baasje in Westveld-Kern begint",
+        "after": "Een typische dag in Westveld-Kern begint",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "al moet je er rekening mee houden dat je viervoeter hier aan de lijn moet blijven.",
+        "after": "al moet je er rekening mee houden dat honden hier aan de lijn moeten blijven.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Westveld-Kern draait om de parken",
+        "after": "Een typische dag in Westveld-Kern draait om de parken",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "Dat maakt uitlaten veilig en ontspannen, vooral voor baasjes met een hond die nog niet goed aan verkeer gewend is.",
+        "after": "Dat maakt uitlaten veilig en ontspannen, vooral voor wie een hond heeft die nog niet goed aan verkeer gewend is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[5]",
+        "before": "Voor boodschappen wandel je naar de aangrenzende wijken, wat je dagelijkse stappenteller goed doet en tegelijk zorgt voor beweging voor je hond. Veel baasjes combineren de boodschappen met een langere wandeling.",
+        "after": "Voor boodschappen wandel je naar de aangrenzende wijken, wat je dagelijkse stappenteller goed doet en tegelijk zorgt voor beweging. Veel bewoners combineren de boodschappen met een langere wandeling.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 23,
+      "topicCoverageScore": 20,
+      "sectionIntrosScore": 10,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 8,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-09T15:30:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Wat je hier krijgt: rust, groen op wandelafstand, en goede bereikbaarheid naar het centrum en alle voorzieningen in de buurt.",
+        "after": "Wat je hier krijgt: rust, groen op wandelafstand, en goede bereikbaarheid naar het centrum en alle voorzieningen in de wijk.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[2].description",
+        "before": "7 praktijken in de omgeving",
+        "after": "7 praktijken in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[3].description",
+        "before": "3 winkels in de omgeving",
+        "after": "3 winkels in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere baasjes de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "hondenliefhebbers",
+            "field": "contributionCTA.intro",
+            "preferred": "baasjes"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "hond",
+          "viervoeter",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": []
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 28
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "richting Park Rozebroeken",
+          "richting het uitgestrekte Sint-Baafskouter",
+          "richting Destelbergen"
+        ],
+        "neighborhoodObservations": [
+          "rustige woonwijk in het noordoosten van Gent",
+          "meer lucht dan in het drukke stadscentrum",
+          "karakter van een echte woonwijk",
+          "letterlijk tussen de parken woont"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.85,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no shops in neighborhood",
+          "no dog park in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

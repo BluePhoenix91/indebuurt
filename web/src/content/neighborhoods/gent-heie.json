@@ -1,0 +1,261 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T18:30:00Z",
+  "id": "gent-heie",
+  "city": "Gent",
+  "name": "Heie",
+  "postalCode": "9031",
+  "subtitle": "Wonen in Heie: landelijk, rustig en groen op wandelafstand — voor wie rust belangrijker vindt dan nabijheid van voorzieningen",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 399,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Heie is een kleine, landelijke wijk in het noordwesten van Gent met slechts 399 inwoners en een bevolkingsdichtheid van amper 96 mensen per km². Hier woon je in een rustige, groene omgeving met open ruimte en vier parken binnen handbereik. Met het dichtstbijzijnde park Goed Jonckershof op minder dan 10 minuten wandelen, heb je voldoende mogelijkheden voor dagelijkse wandelingen in een natuurlijke setting.\n\nHet landelijke karakter van Heie betekent wel dat je voor voorzieningen verder moet kijken. In de wijk zelf vind je geen dierenarts, dierenwinkel of hondenspeelweide. De dichtstbijzijnde dierenarts (Hans Smet) ligt op 29 minuten wandelen, de dichtstbijzijnde gespecialiseerde dierenwinkel (Tom & Co in Wondelgem) is zelfs 66 minuten te voet. Ook een officiële hondenspeelweide vind je pas op 34 minuten wandelen richting het Gentse centrum. Dit maakt Heie vooral geschikt voor wie een auto heeft of bereid is wat verder te reizen voor dergelijke faciliteiten.\n\nDe mediane huizenprijs in de gemeente Gent ligt rond €353.000, vergelijkbaar met andere Gentse wijken. Door het landelijke karakter en de ruimere kavels kan je hier echter meer woonoppervlakte verwachten dan in de dichtbevolkte stadswijken. Met één basisschool en slechts vier bushaltes is ook het openbaar vervoer beperkt, wat Heie minder geschikt maakt voor wie volledig autoloos wil leven.\n\nDe grote troef van Heie is de rust en ruimte. Met zo weinig inwoners en veel groen rondom ervaar je hier een dorps karakter binnen de Gentse stadsgrenzen. Voor wandelingen heb je de keuze uit verschillende parken, waaronder de Vinderhoutse bossen op 16 minuten wandelen en het Landschapspark Groene Velden op ongeveer 25 minuten. Deze groene zones zijn ideaal voor langere, rustige wandelingen waarbij je zelden drukte tegenkomt.\n\nHet ontbreken van stedelijke voorzieningen in de directe omgeving vraagt wel om planning. Voor spoedgevallen bij de dierenarts, het halen van hondenvoer of een bezoek aan een omheinde speelweide ben je aangewezen op transport of een flinke wandeling. Dit past bij wie rust en ruimte belangrijker vindt dan directe nabijheid van voorzieningen, en die een auto tot hun beschikking heeft.\n\nHeie is dus vooral geschikt voor wie de voorkeur geeft aan een rustige, landelijke woonomgeving met veel ruimte voor lange wandelingen in de natuur. Voor wie graag dagelijks naar een hondenspeelweide gaat of voorzieningen op loopafstand wil hebben, zijn de compactere stadswijken van Gent een betere match.",
+  "coordinates": {
+    "lat": 51.07380002427283,
+    "lon": 3.636557212992869,
+    "zoom": 13
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 parken in de wijk",
+      "detail": "Dichtstbijzijnde: Goed Jonckershof"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "34 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 omheinde speelweiden",
+      "detail": "Dichtstbijzijnde richting centrum"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "29 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 praktijken bereikbaar",
+      "detail": "Dichtstbijzijnde: Hans Smet"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "66 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co in Wondelgem",
+      "detail": "Met auto beter bereikbaar"
+    }
+  ],
+  "facilities": {
+    "intro": "Heie is een landelijke wijk zonder voorzieningen in de wijk zelf. Voor dierenartsen, dierenwinkels en hondenspeelweiden ben je aangewezen op de aangrenzende wijken of het Gentse centrum. De dichtstbijzijnde dierenarts ligt op bijna een half uur wandelen, de dichtstbijzijnde gespecialiseerde dierenwinkel zelfs op ruim een uur te voet. Een auto is hier praktisch gezien onmisbaar."
+  },
+  "dogParks": {
+    "intro": "In Heie zelf is geen officiële hondenspeelweide aanwezig. De dichtstbijzijnde omheinde speelterreinen liggen op 34 minuten wandelen richting het centrum van Gent. Met vier parken in en rond de wijk heb je echter wel voldoende ruimte voor vrije wandelingen in een groene, rustige omgeving. De Vinderhoutse bossen en het Landschapspark Groene Velden zijn populaire plekken voor langere wandelingen.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde speelweide (naamloos)",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0766593,
+          "lon": 3.6751225
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Omheinde speelweide (naamloos)",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0764943,
+          "lon": 3.6752873
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Heie is geen dierenartspraktijk gevestigd. De dichtstbijzijnde opties liggen in de aangrenzende wijken, met Hans Smet op 29 minuten wandelen als snelste optie. Voor spoedgevallen is een auto aangeraden, omdat de wandelafstanden behoorlijk zijn. Wel zijn er vijf praktijken binnen redelijke afstand bereikbaar.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Hans Smet",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0584423,
+          "lon": 3.6591565
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Inge Verboven",
+        "street": "Congregatiestraat",
+        "streetNumber": "12A",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0520524,
+          "lon": 3.6536824
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Harlekijn",
+        "street": "Varendriesstraat",
+        "streetNumber": "5",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0476244,
+          "lon": 3.6312444
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Ulrike Cocquyt",
+        "street": "Molendreef",
+        "streetNumber": "77",
+        "municipality": "Lievegem",
+        "postalCode": "9920",
+        "distance": "42 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0989178,
+          "lon": 3.6104567
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel is er niet in Heie. De dichtstbijzijnde Tom & Co ligt in Wondelgem op 66 minuten wandelen, wat in de praktijk betekent dat je met de auto moet gaan. Voor dagelijkse boodschappen zoals hondenvoer is het handig om voorraad aan te leggen of te bestellen via webshops met thuislevering.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Botestraat",
+        "streetNumber": "14",
+        "municipality": "Gent",
+        "postalCode": "9032",
+        "distance": "66 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0891227,
+          "lon": 3.7079612
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Martelaarslaan",
+        "streetNumber": "307",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "73 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.047314,
+          "lon": 3.7086601
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Kortrijksesteenweg",
+        "streetNumber": "214",
+        "municipality": "Sint-Martens-Latem",
+        "postalCode": "9830",
+        "distance": "97 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0046153,
+          "lon": 3.621812
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "97 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Heie",
+    "intro": "Een typische dag in Heie draait om rust, ruimte en natuurlijke wandelingen. Je stapt letterlijk je voordeur uit het groen in, met open velden en bosrijke paden direct bereikbaar. De afwezigheid van stedelijke drukte maakt elke wandeling tot een ontspannen ervaring, maar vereist wel planning voor voorzieningen zoals de dierenarts of dierenwinkel.",
+    "benefits": [
+      "Met vier parken in de directe omgeving, waaronder Goed Jonckershof op 10 minuten en de Vinderhoutse bossen op 16 minuten wandelen, heb je altijd een groene bestemming voor de ochtendwandeling. De rust en het gebrek aan drukte maken deze plekken ideaal voor wie ruimte en vrijheid zoekt.",
+      "De lage bevolkingsdichtheid van slechts 96 inwoners per km² betekent dat je zelden andere wandelaars tegenkomt. Voor wie met angstige honden wandelt of afstand nodig heeft, is dit een groot voordeel. Je hebt de natuur vrijwel voor jezelf.",
+      "Het Landschapspark Groene Velden op 25 minuten wandelen biedt een uitgestrekt gebied voor langere wandelingen. Dit park is perfect voor een uitgebreide weekend-wandeling waarbij je écht de natuur intrekt. Je kunt hier gemakkelijk een uur of langer rondlopen zonder dezelfde paden te volgen.",
+      "Door het ontbreken van voorzieningen in de wijk zelf ben je aangewezen op vooruitplannen. Een voorraad hondenvoer en regelmatig bezoek aan de dierenarts in de aangrenzende wijken zijn essentieel. Dit past bij wie goed kan organiseren en een auto heeft.",
+      "Voor sociale contacten met andere hondenliefhebbers moet je wat verder zoeken. De hondenspeelweiden richting het centrum liggen op 34 minuten wandelen. Dit maakt Heie minder geschikt voor wie graag dagelijks bij een speelweide komt, maar perfect voor wie liever in alle rust wandelt."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Heie is met 399 inwoners en een bevolkingsdichtheid van 96 mensen per km² een van de dunst bevolkte wijken van Gent. De mediane huizenprijs in de gemeente ligt rond €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 399,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Heie? Filter je zoekopdracht op postcode 9031 om woningen in deze wijk te vinden. Door het landelijke karakter zijn kavels hier ruimer dan in de compactere stadswijken.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-campagne",
+    "gent-de-roos",
+    "gent-beekstraat-kouter",
+    "gent-brug-zuidoost",
+    "gent-drongen-dorp"
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T00:00:00Z",
+  "id": "gent-drie-zwaantjes",
+  "city": "Gent",
+  "name": "Drie Zwaantjes",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Drie Zwaantjes, Gent: rustige woonwijk met groen op loopafstand en uitstekende busbereikbaarheid",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 8124,
+  "labels": [
+    {
+      "text": "Woonwijk",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Groene uitvalsbasis",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Drie Zwaantjes is een rustige woonwijk in het noordoosten van Gent, tussen het stadscentrum en de groene buitenrand. Met ongeveer 8.100 inwoners biedt de wijk een evenwichtige mix van residentiële rust en stedelijke bereikbaarheid. Het Sint-Laurentiuspark ligt op een paar minuten wandelen, en dankzij 40 bushaltes in en rond de wijk ben je snel verbonden met andere delen van de stad.\n\nVoor wie rust en groene ruimte belangrijk vindt, is Drie Zwaantjes een interessante uitvalsbasis, maar je moet wel bereid zijn om voor bepaalde voorzieningen iets verder te reizen. De wijk heeft zelf beperkte hondenspecifieke infrastructuur: de dichtstbijzijnde dierenarts ligt op bijna 40 minuten wandelen, en ook gespecialiseerde dierenwinkels vind je op vergelijkbare afstand. Dat maakt een auto of fiets praktisch als je regelmatig naar de dierenarts of dierenwinkel moet.\n\nWat de wijk wel biedt is toegang tot groen. Met zeven parken binnen handbereik, waarvan twee in de directe omgeving, heb je voldoende opties voor de dagelijkse wandeling. Het Sint-Laurentiuspark is het meest nabije groene plekje en populair bij lokale bewoners voor een ontspannen rondje. Voor wie een echte losloopruimte zoekt: er ligt een hondenweide op 19 minuten wandelen, al is die onbegrend en heeft deze geen voorzieningen zoals drinkwater.\n\nDe wijk is geen bruisend stadscentrum. Het karakter is rustig en residentieel, met vooral gezinnen en mensen die de voorkeur geven aan een kalme woonomgeving. Dat betekent weinig straatcafés of winkels om de hoek, maar wel voldoende supermarkten en basisvoorzieningen. Voor wie een actief sociaal buurtleven met terrasjes en evenementen verwacht, is dit waarschijnlijk niet de juiste match. Maar als je rust, ruimte en een goede uitvalsbasis richting zowel het centrum als de natuur zoekt, scoort Drie Zwaantjes goed.\n\nHet openbaar vervoer is een sterk punt: met 40 bushaltes in de omgeving ben je uitstekend verbonden. Dat compenseert het gebrek aan een treinstation in de buurt en maakt de wijk geschikt voor wie zonder auto wil leven, zolang je bereid bent om ook langere wandelingen of de bus in te plannen voor bepaalde voorzieningen.\n\nVoor je hond biedt de wijk vooral rust en groen. De parken zijn divers genoeg om dagelijks af te wisselen, en de wijk zelf is veilig en rustig om te wandelen. Wie een omheinde speelweide essentieel vindt, zal de 19 minuten wandelen naar de dichtstbijzijnde hondenweide moeten accepteren. Dat is haalbaar voor gezonde honden en wie graag wandelt, maar kan een drempel zijn voor wie korte, snelle uitlaatrondes wil of met een oudere hond wandelt.\n\nTer vergelijking: de mediaan woningprijs in de omgeving Gent ligt rond €353.000, wat de wijk toegankelijk maakt voor wie op zoek is naar een betaalbare optie met groene ruimte en goede mobiliteit, zonder de premie van een centrumlocatie. Drie Zwaantjes is daarmee vooral geschikt voor wie waarde hecht aan een rustige, groene woonomgeving en bereid is om voor specialistische voorzieningen iets verder te reizen. Als je een auto hebt, of graag fietst, wordt dit een stuk praktischer.",
+  "coordinates": {
+    "lat": 51.098207456292485,
+    "lon": 3.7727616487750764,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Groene ruimte",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "7 parken in de omgeving",
+      "detail": "Sint-Laurentiuspark op 6 min"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenweide",
+      "distance": "19 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 speelweide in de buurt",
+      "detail": "Onbegrend terrein"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "39 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 praktijken bereikbaar",
+      "detail": "Dichtstbijzijnde: Ch. Barbiers"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "33 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 winkels in de omgeving",
+      "detail": "Tom & Co en Kippentuin"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "40 bushaltes in de wijk",
+      "detail": "Uitstekende bereikbaarheid"
+    }
+  ],
+  "facilities": {
+    "intro": "Drie Zwaantjes biedt basisvoorzieningen voor het dagelijks leven, maar voor hondenspecifieke zaken moet je de wijk uit. De nadruk ligt op groen en bereikbaarheid, minder op directe toegang tot dierenartsen of gespecialiseerde winkels."
+  },
+  "dogParks": {
+    "intro": "In Drie Zwaantjes zelf is geen omheinde hondenspeelweide. De dichtstbijzijnde hondenweide ligt op 19 minuten wandelen, maar heeft geen omheining of watervoorzieningen. Voor dagelijkse wandelingen kun je terecht in een van de zeven nabijgelegen parken, waarvan het Sint-Laurentiuspark het dichtst bij is.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide (onbenoemd)",
+        "distance": "19 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.091333,
+          "lon": 3.7921609
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Drie Zwaantjes zelf is geen dierenarts gevestigd. De dichtstbijzijnde praktijk, Ch. Barbiers op de Waterstraat, ligt op 39 minuten wandelen. Voor reguliere controles of spoedgevallen is een auto of fiets praktisch.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "39 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0726377,
+          "lon": 3.7555827
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "46 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Benoît Fiers",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "51 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0631388,
+          "lon": 3.7569615
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Gespecialiseerde dierenwinkels liggen op afstand: Tom & Co en Kippentuin zijn beide op 33 minuten wandelen bereikbaar. Voor wie regelmatig naar de dierenwinkel moet, is een fiets of auto handig. De lokale supermarkten hebben wel een basisassortiment voor je viervoeter.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Antwerpse Steenweg",
+        "streetNumber": "100",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0885319,
+          "lon": 3.806785
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0757366,
+          "lon": 3.7613707
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Drie Zwaantjes",
+    "intro": "Een typische dag als baasje in Drie Zwaantjes draait om rust, groen en wat flexibiliteit. Je bent niet omringd door hondenspecifieke voorzieningen, maar met zeven parken binnen handbereik en goede openbaar vervoersverbindingen organiseer je je routine makkelijk. De wijk is veilig en rustig om te wandelen, ideaal voor wie het ochtendritme niet gehaast wil.",
+    "benefits": [
+      "Met zeven parken binnen 20 minuten wandelen heb je voldoende afwisseling voor de dagelijkse wandeling. Het Sint-Laurentiuspark ligt op 6 minuten lopen en is een rustige groene plek waar je regelmatig andere baasjes tegenkomt.",
+      "De 40 bushaltes in en rond de wijk maken het makkelijk om zonder auto te leven. Als je naar een dierenarts of dierenwinkel moet, pak je simpelweg de bus. Dat compenseert de grotere afstanden tot specialistische voorzieningen.",
+      "De rustige, residentiële sfeer maakt de wijk prettig voor honden die van rust houden of juist wat terughoudend zijn in drukke omgevingen. Weinig verkeer en brede trottoirs maken elke wandeling ontspannen.",
+      "Met een bevolkingsdichtheid van ongeveer 1.967 inwoners per km² is Drie Zwaantjes minder compact dan het stadscentrum, maar ook niet uitgestrekt. Je hebt voldoende ruimte zonder dat het landelijk aanvoelt.",
+      "Voor wie een fiets heeft, worden de afstanden naar dierenarts en dierenwinkel veel behapbaarder. Fietsen is in Gent sowieso populair, en Drie Zwaantjes heeft veilige routes richting het centrum en de omliggende wijken."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Drie Zwaantjes telt ongeveer 8.100 inwoners en heeft een gemiddelde bevolkingsdichtheid. De mediaan woningprijs ligt rond €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 8124,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Drie Zwaantjes? Filter je zoekresultaten op postcode 9000 en verfijn op wijk om alleen woningen in Drie Zwaantjes te zien.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-krijte",
+    "gent-jfkennedylaan",
+    "gent-darsen",
+    "gent-goedlevenstraat",
+    "gent-achtendries"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T00:00:00Z",
+    "qualityScore": 88,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige woonwijk aan de rand van Gent met groen op loopafstand en uitstekende busbereikbaarheid",
+        "after": "Wonen in Drie Zwaantjes, Gent: rustige woonwijk met groen op loopafstand en uitstekende busbereikbaarheid",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes is Drie Zwaantjes een interessante uitvalsbasis als je rust en groene ruimte belangrijk vindt, maar je moet wel bereid zijn om voor bepaalde voorzieningen iets verder te reizen.",
+        "after": "Voor wie rust en groene ruimte belangrijk vindt, is Drie Zwaantjes een interessante uitvalsbasis, maar je moet wel bereid zijn om voor bepaalde voorzieningen iets verder te reizen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Dat is haalbaar voor gezonde honden en baasjes die graag wandelen, maar kan een drempel zijn voor wie korte, snelle uitlaatrondes wil of met een oudere hond wandelt.",
+        "after": "Dat is haalbaar voor gezonde honden en wie graag wandelt, maar kan een drempel zijn voor wie korte, snelle uitlaatrondes wil of met een oudere hond wandelt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Drie Zwaantjes is daarmee vooral geschikt voor baasjes die waarde hechten aan een rustige, groene woonomgeving en bereid zijn om voor specialistische voorzieningen iets verder te reizen.",
+        "after": "Drie Zwaantjes is daarmee vooral geschikt voor wie waarde hecht aan een rustige, groene woonomgeving en bereid is om voor specialistische voorzieningen iets verder te reizen.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 23,
+      "keywordScore": 18,
+      "sectionIntrosScore": 9,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T12:00:00Z",
+    "qualityScore": 98,
+    "passedBrand": true,
+    "changesLog": [],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 30,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [],
+        "preferredTermsPresent": [
+          "wijk (used consistently throughout)",
+          "baasjes (used appropriately)",
+          "viervoeter (present in petStores.intro)",
+          "hondenspeelweide (used in dogParks.intro)",
+          "dierenarts (used consistently)",
+          "hond (used throughout)"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt te vinden (in contributionCTA.intro - allowed phrase)",
+          "in de buurt (in valueCards - allowed phrase for 'nearby')",
+          "in de buurt (in intro - allowed phrase for 'nearby')"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 7,
+        "localTipsFound": [
+          "Het Sint-Laurentiuspark ligt op een paar minuten wandelen",
+          "richting het centrum en de omliggende wijken",
+          "Ch. Barbiers op de Waterstraat",
+          "Tom & Co en Kippentuin zijn beide op 33 minuten wandelen bereikbaar"
+        ],
+        "neighborhoodObservations": [
+          "rustige woonwijk in het noordoosten van Gent",
+          "Het karakter is rustig en residentieel, met vooral gezinnen",
+          "Weinig straatcafés of winkels om de hoek, maar wel voldoende supermarkten",
+          "De wijk is veilig en rustig om te wandelen",
+          "Weinig verkeer en brede trottoirs"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.88,
+        "averageSentenceLength": 17.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dierenarts in neighborhood",
+          "no dierenwinkels in neighborhood",
+          "no omheinde hondenspeelweide in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

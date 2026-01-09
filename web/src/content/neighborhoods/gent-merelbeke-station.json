@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T15:30:00Z",
+  "id": "gent-merelbeke-station",
+  "city": "Gent",
+  "name": "Merelbeke Station",
+  "postalCode": "9050",
+  "subtitle": "Wonen in Merelbeke Station, Gent: compact bij het station met groen op loopafstand — voorzieningen net buiten de wijk",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 1774,
+  "labels": [
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
+    },
+    {
+      "text": "Compact",
+      "icon": "fa-solid fa-house"
+    },
+    {
+      "text": "Groen nabij",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Merelbeke Station is een kleine, overzichtelijke wijk in Gent die zich rond het gelijknamige treinstation organiseert. Met slechts 0,30 km² en 1.774 inwoners is dit een van de compactste wijken in de buurt, waar je alles binnen enkele minuten kunt bereiken. De wijk heeft een relatief hoge dichtheid van 5.939 inwoners per km², wat zich uit in een stedelijke, levendige uitstraling.\n\nDe grootste troef van deze wijk is de bereikbaarheid: het station staat centraal, en met 8 bushaltes ben je snel overal in Gent en daarbuiten. Voor je dagelijkse wandeling met je viervoeter heb je toegang tot ruim 20 parken binnen 2 kilometer, waarvan het dichtstbijzijnde op slechts 5 minuten wandelen ligt. Ook 5 hondenparken binnen 3 kilometer geven je keuze voor variatie, al zijn deze allemaal onafgerasterd.\n\nDe belangrijkste kanttekening: binnen de wijk zelf vind je geen supermarkt, dierenarts of gespecialiseerde dierenwinkel. Voor boodschappen en veterinaire zorg moet je de wijk uit. De dichtstbijzijnde dierenarts, Dierenartsenpraktijk Moscou in Gentbrugge, ligt op 767 meter — ongeveer 10 minuten te voet. Voor hondenbrokken en speelgoed is Maxi Zoo de dichtstbijzijnde optie, op 1,2 kilometer (15 minuten lopen). Wie dat geen probleem vindt en vooral waarde hecht aan een goede treinverbinding en nabijheid tot groen, vindt hier een praktische uitvalsbasis.\n\nMet een mediane huisprijs van €353.000 beweeg je je in het middensegment voor de regio Gent. De wijk trekt voornamelijk mensen die pendelen of waardering hebben voor de combinatie van stedelijke dichtheid en groene ademruimte op korte afstand. Als je regelmatig met de trein reist en niet van lange wandelingen houdt, is dit een handige locatie. Voor wie graag spontaan even naar de supermarkt loopt of een dierenarts om de hoek wil hebben, vraagt deze wijk wat meer planning.\n\nQua karakter is Merelbeke Station eerder functioneel dan historisch of sfeervol. De wijk is compact georganiseerd, met weinig ruimte voor uitgebreide lokale winkels of cafés binnen de wijk zelf. Je dagelijkse leven speelt zich grotendeels af in de directe omgeving en aangrenzende wijken zoals Arsenaal, De Naeyerdreef en Belle Vue, die allemaal binnen een kwartier lopen bereikbaar zijn. Deze compactheid kan een voordeel zijn als je graag overzicht hebt, maar het betekent ook dat je niet het gevoel hebt van een volledig zelfvoorzienende wijk.\n\nVoor baasjes betekent dit concreet: je ochtendwandeling maak je in een van de nabijgelegen parken, je grootste boodschappen doe je buiten de wijk, en als je hond ziek wordt, fiets of wandel je een kwartier naar de dichtstbijzijnde dierenarts. De wijk is vooral geschikt voor wie flexibel is, weinig bagage heeft aan voorzieningen direct voor de deur, en van plan is om regelmatig te pendelen of verder te reizen.",
+  "coordinates": {
+    "lat": 51.02425123418878,
+    "lon": 3.7537920718890243,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "20 parken binnen 2 km",
+      "detail": "Dichtstbijzijnde op 368 m"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenparken",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 hondenparken binnen 3 km",
+      "detail": "Allemaal onafgerasterd"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen in de wijk zelf",
+      "detail": "Dichtstbijzijnde op 767 m"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "15 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen in de wijk zelf",
+      "detail": "Maxi Zoo op 1,2 km"
+    },
+    {
+      "icon": "fa-solid fa-train",
+      "title": "Openbaar vervoer",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 station, 8 bushaltes",
+      "detail": "Zeer goed bereikbaar"
+    }
+  ],
+  "facilities": {
+    "intro": "Merelbeke Station is een kleine wijk zonder veel voorzieningen binnen de eigen grenzen. Binnen de wijk vind je één apotheek en uitstekende openbaarvervoersverbindingen, maar voor veterinaire zorg, dierenwinkels en boodschappen moet je de wijk uit. De dichtstbijzijnde voorzieningen liggen allemaal binnen 10 tot 15 minuten wandelen, wat de wijk geschikt maakt voor wie flexibel is en niet alles direct om de hoek nodig heeft."
+  },
+  "dogParks": {
+    "intro": "In de directe omgeving van Merelbeke Station vind je 5 hondenparken binnen 3 kilometer, allemaal bereikbaar binnen maximaal 25 minuten wandelen. Het dichtstbijzijnde hondenpark ligt op 541 meter — ongeveer 7 minuten lopen. Een belangrijke kanttekening: geen enkel hondenpark in deze selectie is omheind, wat betekent dat je altijd alert moet blijven. Voor wie een afgerasterde hondenspeelweide zoekt, zul je verder moeten zoeken in de bredere regio Gent.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark 1",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0231235,
+          "lon": 3.7462904
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark 2",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0268617,
+          "lon": 3.766388
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark 3",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0330089,
+          "lon": 3.74035
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark 4",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0406636,
+          "lon": 3.7534797
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenpark 5",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0385626,
+          "lon": 3.7671307
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Merelbeke Station zelf is geen dierenarts gevestigd. De dichtstbijzijnde praktijk, Dierenartsenpraktijk Moscou, ligt in het naburige Gentbrugge op 767 meter — een wandeling van ongeveer 10 minuten. Voor wie dat te ver vindt, zijn er binnen een straal van 1,5 kilometer drie andere opties beschikbaar. De afstand vraagt wat planning, maar met vier praktijken binnen een kwartier wandelen heb je voldoende keuze voor routinecontroles en spoedgevallen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Moscou",
+        "street": "Jules de Saint-Genoisstraat",
+        "streetNumber": "49A",
+        "municipality": "Gentbrugge",
+        "postalCode": "9050",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0301719,
+          "lon": 3.7593946
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Botermarkt",
+        "street": "Hundelgemsesteenweg",
+        "streetNumber": "6",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0332212,
+          "lon": 3.7415122
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Herbots",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "35",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0410057,
+          "lon": 3.7425297
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Viervoeter",
+        "street": "Frans Spaestraat",
+        "streetNumber": "27",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0388816,
+          "lon": 3.73474
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Merelbeke Station zelf. De dichtstbijzijnde optie is Maxi Zoo op de Brusselsesteenweg in Melle, op 1,2 kilometer afstand — ongeveer 15 minuten te voet. Voor basisboodschappen zoals brokken en speelgoed is dat een haalbare wandeling, maar voor grotere aankopen of zwaardere producten kun je beter de fiets of auto pakken.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "2",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.025379,
+          "lon": 3.7710589
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Merelbeke Station",
+    "intro": "Een typische dag als baasje in Merelbeke Station draait vooral rond mobiliteit en planning. Je ochtendwandeling maak je in een van de vele nabijgelegen parken of groenzones, waarna je met de trein naar het werk vertrekt. Het station is letterlijk om de hoek, waardoor pendelen een fluitje van een cent is. Voor boodschappen of veterinaire zorg moet je de wijk uit, maar alles ligt binnen 10 tot 20 minuten wandelen. De wijk vraagt wat flexibiliteit, maar biedt in ruil rust en groene ruimte dichtbij.",
+    "benefits": [
+      "Met 20 parken binnen 2 kilometer heb je elke dag een ander groen wandelgebied om te verkennen. Wijkpark De Porre, Sente Clarenhof en Anthospark liggen allemaal binnen een kwartier wandelen, ideaal voor rustige ochtend- of avondrondjes met je hond.",
+      "Dankzij het station en 8 bushaltes in de wijk ben je in een mum van tijd in het centrum van Gent of andere nabijgelegen steden. Voor baasjes die pendelen of regelmatig reizen, is deze bereikbaarheid een groot pluspunt.",
+      "De compacte omvang van de wijk (0,30 km²) betekent dat je overal snel bent en weinig tijd kwijt bent aan verplaatsingen binnen de wijk zelf. Alles voelt dichtbij en overzichtelijk.",
+      "Met een bevolkingsdichtheid van 5.939 inwoners per km² is de wijk levendig zonder overvoerd te zijn. Je hebt voldoende beweging en sociale interactie zonder de drukte van het stadscentrum.",
+      "De nabijheid van aangrenzende wijken zoals Arsenaal, De Naeyerdreef en Belle Vue zorgt ervoor dat je snel toegang hebt tot een bredere selectie van winkels, cafés en andere voorzieningen als je die mist binnen Merelbeke Station zelf."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Merelbeke Station is een van de kleinste wijken in Gent met 1.774 inwoners op 0,30 km². De mediane huisprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 1774,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Merelbeke Station? De wijk deelt postcode 9050 met meerdere naburige wijken. Filter je woningzoekopdracht op postcode en verfijn op basis van straatnaam om enkel woningen in Merelbeke Station te zien.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-arsenaal",
+    "gent-de-naeyerdreef",
+    "gent-belle-vue",
+    "gent-akademisch-ziekenhuis",
+    "gent-konleopoldstraat"
+  ]
+}

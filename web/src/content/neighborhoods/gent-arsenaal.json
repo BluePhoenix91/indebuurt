@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T16:00:00Z",
+  "id": "gent-arsenaal",
+  "city": "Gent",
+  "name": "Arsenaal",
+  "postalCode": "9050",
+  "subtitle": "Wonen in Arsenaal: rustige groene woonwijk aan de rand van Gent met uitstekende bereikbaarheid — fijn voor dagelijkse wandelingen",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 8270,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Veel groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "Arsenaal is een rustige residentiële wijk in het zuidoosten van Gent, net aan de grens met Gentbrugge en Merelbeke. Met 8.270 inwoners op 2,67 km² is het hier ruim bemeten voor een stadswijk, en dat merk je direct aan het groene karakter. Als je houdt van wandelen met je hond, dan zit je hier goed: de wijk telt maar liefst 11 parken binnen handbereik, van kleine groenpleinen tot grotere parken zoals Rattendalepark en Park de Pélichy.\n\nWat Arsenaal vooral aantrekkelijk maakt voor baasjes, is de combinatie van rust en bereikbaarheid. Je woont hier in een overwegend groene omgeving met veel wandelmogelijkheden, maar zit tegelijk dicht bij belangrijke uitvalswegen en het openbaar vervoer — met 29 bushaltes in de wijk ben je nooit ver van een busverbinding. De nabijheid van zowel Gent-centrum als de landelijke gebieden rond Merelbeke geeft je als bewoner flexibiliteit: stedelijke voorzieningen zijn binnen een kwartier bereikbaar, terwijl je dagelijkse wandeling gewoon in je eigen wijk kan.\n\nEr zijn wel trade-offs. Supermarkten vind je niet in de wijk zelf, dus je dagelijkse boodschappen doe je in aangrenzende wijken of bij lokale winkeltjes. Ook een gespecialiseerde dierenwinkel moet je even verder zoeken — de dichtstbijzijnde Maxi Zoo ligt net buiten de wijk op 8 minuten wandelen. Voor veterinaire zorg ben je wel goed voorzien: Dierenartsenpraktijk Moscou zit in Gentbrugge op amper 7 minuten te voet.\n\nWat hondenvoorzieningen betreft, is er één officiële hondenspeelweide op 5 minuten wandelen, al is dit geen omheind terrein. Voor losloopplezier moet je dus wat verder kijken of uitwijken naar de vele reguliere parken waar je je viervoeter kan uitlaten. Rattendalepark en Groenzone Jean Jaurès zijn populair bij lokale baasjes vanwege hun ruime paden en groene karakter — perfect voor een ontspannen ochtendwandeling of een avondronde na het werk.\n\nArsenaal is ideaal voor wie rustig wil wonen zonder ver van de stad te zijn. Je hebt hier de ruimte en het groen van een buitenwijk, maar blijft goed aangesloten op stedelijke voorzieningen. Het is een wijk waar je dagelijkse routine rondom je hond makkelijk inpasbaar is: voldoende groen voor variatie, een dierenarts binnen handbereik, en genoeg ruimte om te ontspannen. Tegelijk is het minder geschikt als je veel waarde hecht aan directe nabijheid van winkels en uitgaansgelegenheden — daarvoor moet je even naar het centrum of naar buurgemeenten.\n\nMet een bevolkingsdichtheid van ruim 3.000 inwoners per km² ligt Arsenaal tussen stedelijk en suburbaan in. Je merkt dat aan het rustige straatbeeld met veel eengezinswoningen, maar ook aan de open groene structuur met parken die naadloos in elkaar overlopen. Voor gezinnen met jonge kinderen is er ook veel te vinden: de wijk telt 9 scholen en heeft een veilig, autoarm karakter. De aanwezigheid van 3 apotheken binnen de wijk geeft aan dat basisvoorzieningen dichtbij zijn.\n\nDe woningmarkt in Gent beweegt zich rond een mediane huizenprijs van €353.000. Arsenaal, als meer residentiële wijk met ruime percelen en groene omgeving, trekt vooral gezinnen en mensen die rust zoeken zonder het stadsgemak te verliezen. Wie hier woont, waardeert vaak de balans tussen privacy en bereikbaarheid, en de mogelijkheid om vanuit de deur direct het groen in te stappen.",
+  "coordinates": {
+    "lat": 51.03069816953754,
+    "lon": 3.7669915724295238,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 hondenspeelweide nabij Groenzone",
+      "detail": "Let op: niet omheind"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 dierenarts in de wijk",
+      "detail": "Dierenartsenpraktijk Moscou"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Maxi Zoo op wandelafstand",
+      "detail": "Net buiten de wijk"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "6 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "11 parken in de wijk",
+      "detail": "Rattendalepark, Groenzone Jean Jaurès"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "29 bushaltes in de wijk",
+      "detail": "Goed bereikbaar met het OV"
+    },
+    {
+      "icon": "fa-solid fa-school",
+      "title": "Scholen",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "9 scholen in de wijk",
+      "detail": "Gezinsvriendelijke omgeving"
+    }
+  ],
+  "facilities": {
+    "intro": "Arsenaal is goed voorzien voor de dagelijkse zorg van je viervoeter. De wijk heeft een dierenarts op wandelafstand, en ook een gespecialiseerde dierenwinkel ligt net buiten de wijk. Voor basisbenodigdheden zijn er alternatieven dichtbij. Wat hondenvoorzieningen betreft, ligt de focus vooral op de vele groene ruimtes waar je je hond kan uitlaten — minder op gespecialiseerde losloopterreinen."
+  },
+  "dogParks": {
+    "intro": "Arsenaal heeft één officiële hondenspeelweide op 5 minuten wandelen, gelegen nabij de Groenzone Jean Jaurès. Dit terrein is wel niet omheind, dus geschikt voor goed luisterende honden of voor gecontroleerde oefensessies. Wil je echt losloop met omheining, dan moet je iets verder naar buurgemeenten kijken. Gelukkig zijn er in de wijk zelf 11 reguliere parken waar je je hond prima kan uitlaten aan de lijn — zoals Rattendalepark en Wijkpark De Porre, beide populair bij lokale baasjes.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dog Park near Groenzone",
+        "distance": "5 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0268617,
+          "lon": 3.766388
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor medische zorg van je viervoeter heb je in Arsenaal een dierenarts op wandelafstand. Dierenartsenpraktijk Moscou in Gentbrugge ligt op 7 minuten lopen — ideaal voor routinecontroles en vaccinaties. Voor spoedgevallen of gespecialiseerde zorg zijn er meerdere praktijken in de omgeving bereikbaar met de auto of per fiets.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Moscou",
+        "street": "Jules de Saint-Genoisstraat",
+        "streetNumber": "49A",
+        "municipality": "Gentbrugge",
+        "postalCode": "9050",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0301719,
+          "lon": 3.7593946
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Botermarkt",
+        "street": "Hundelgemsesteenweg",
+        "streetNumber": "6",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0332212,
+          "lon": 3.7415122
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Herbots",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "35",
+        "municipality": "Gent",
+        "postalCode": "9050",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0410057,
+          "lon": 3.7425297
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartspraktijk Cedivet",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "24",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0518026,
+          "lon": 3.7591682
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf, maar Maxi Zoo ligt net buiten Arsenaal op 8 minuten wandelen. Voor je wekelijkse voorraadje brokken of speelgoed is dat prima te doen. Wil je snel een blik hondenvoer of een botje, dan hebben veel supermarkten in aangrenzende wijken ook een basisassortiment.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Maxi Zoo",
+        "street": "Brusselsesteenweg",
+        "streetNumber": "2",
+        "municipality": "Melle",
+        "postalCode": "9090",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.025379,
+          "lon": 3.7710589
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Arsenaal",
+    "intro": "Een typische dag als baasje in Arsenaal draait vooral om de rust en het groen. Je stapt vanuit de deur direct het groen in — de dichtstbijzijnde parken liggen op enkele minuten lopen. De ochtendwandeling maak je vaak in Rattendalepark of langs de Groenzone Jean Jaurès, waar je andere baasjes tegenkomt en je hond lekker kan snuffelen. Voor grotere uitstappen fiets je richting de open velden rond Merelbeke, of neem je de bus naar het Gentse centrum voor meer stedelijke afwisseling.",
+    "benefits": [
+      "Met 11 parken binnen 15 minuten wandelen heb je eindeloos veel variatie voor je dagelijkse wandelingen. Rattendalepark en Groenzone Jean Jaurès zijn favorieten onder lokale baasjes, met ruime paden en voldoende groen om je hond te laten rennen en snuffelen. Elke dag een andere route is hier geen probleem.",
+      "De dierenarts ligt op 7 minuten lopen, wat betekent dat routinecontroles en vaccinaties moeiteloos inpasbaar zijn in je schema. Voor acute situaties ben je binnen tien minuten ter plaatse, zonder gedoe met de auto of lange wachttijden in het verkeer.",
+      "Openbaar vervoer is uitstekend geregeld: 29 bushaltes zorgen ervoor dat je nooit langer dan een paar minuten hoeft te lopen naar een busverbinding. Wil je met je hond naar het centrum of naar andere wijken, dan is dat zonder auto prima te doen.",
+      "De rustige, residentiële sfeer maakt dat je je hond hier ontspannen kan uitlaten zonder veel drukte of lawaai. Er zijn weinig grote doorgaande wegen binnen de wijk, wat het veiliger maakt om te wandelen en ook prettiger voor honden die gevoelig zijn voor verkeer.",
+      "Voor gezinnen met kinderen is de combinatie ideaal: 9 scholen en veel speelpleinen maken dat je als ouder én als baasje alles dichtbij hebt. Je kan je ochtendwandeling combineren met de schoolbreng, en na school met de kinderen en hond naar een van de parken.",
+      "De nabijheid van Maxi Zoo op 8 minuten wandelen betekent dat je niet ver hoeft voor hondenbenodigdheden. Je kan je wekelijkse boodschappen doen en tegelijk even langs voor een zak brokken of speelgoed — praktisch en makkelijk in te passen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Arsenaal is een middelgrote Gentse wijk met ruim 8.000 inwoners, verspreid over een oppervlakte van 2,67 km². De bevolkingsdichtheid ligt met 3.092 inwoners per km² lager dan in het stadscentrum, wat bijdraagt aan het rustige, groene karakter.",
+    "medianPrice": 353000,
+    "inhabitants": 8270,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Arsenaal? De wijk valt onder postcode 9050, wat het makkelijk maakt om op immosites te filteren op deze specifieke wijk. Let op dat je ook woningen in aangrenzende delen van Gentbrugge en Merelbeke kan overwegen als je de voordelen van deze rustige, groene omgeving zoekt.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-merelbeke-station",
+    "gent-de-naeyerdreef",
+    "gent-dries",
+    "gent-belle-vue",
+    "gent-brusselse-poort"
+  ]
+}

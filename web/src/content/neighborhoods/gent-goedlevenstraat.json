@@ -1,0 +1,406 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:30:00Z",
+  "id": "gent-goedlevenstraat",
+  "city": "Gent",
+  "name": "Goedlevenstraat",
+  "postalCode": "9040",
+  "subtitle": "Wonen in Goedlevenstraat: rustige wijk aan de rand van Gent met groene ruimte vlakbij — fijn voor je dagelijkse routine",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 338,
+  "labels": [
+    {
+      "text": "Rustige wijk",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groene omgeving",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Woonwijk",
+      "icon": "fa-solid fa-house-chimney"
+    }
+  ],
+  "intro": "Goedlevenstraat is een kleinschalige woonwijk aan de noordoostelijke rand van Gent. Met slechts 338 inwoners woon je hier in een rustige straat waar je elkaar groet, met het centrum op fietsafstand en de groene zones van Westveldpark en Spellekenspark op loopafstand. De naam zegt het eigenlijk al: het is hier goed leven, zeker als je op zoek bent naar ruimte en rust zonder te ver van de stad te zitten.\n\nDe wijk heeft een uitgesproken residentieel karakter. Je vindt hier geen supermarkten of winkels om de hoek — dat betekent dat je voor dagelijkse boodschappen naar de aangrenzende wijken Westveld of Dampoort trekt, beiden binnen een kwartier wandelen. Dat gebrek aan commerciële drukte is voor veel bewoners juist de charme: je hebt de rust van een buitenwijk met de voorzieningen van de stad binnen handbereik. Voor wie een hond heeft is dat praktisch: uitlaten zonder verkeersdrukte, maar wel met toegang tot alles wat je nodig hebt.\n\nMet 5 parken in de directe omgeving heb je voldoende groen voor de dagelijkse wandeling. Het dichtstbijzijnde park ligt op amper 8 minuten wandelen, Westveldpark en Spellekenspark volgen kort daarna. Deze parken bieden open ruimte, paden om te lopen en genoeg variatie om je rondjes af te wisselen. Voor een omheinde hondenspeelweide trek je naar Dampoort — dat is 21 minuten te voet, niet om de hoek dus, maar wel regelmatig bereikbaar als je je hond graag laat ravotten met soortgenoten.\n\nDierenartsen vind je niet in de wijk zelf, maar wel in de buurt. De dichtstbijzijnde praktijk, Ch. Barbiers op de Waterstraat, ligt op 17 minuten wandelen. Daarnaast zijn er nog 3 andere opties binnen een straal van 20 tot 30 minuten te voet, verspreid over Gent en Destelbergen. Voor spoedeisende situaties is dat iets om rekening mee te houden — je bent niet direct naast de dierenarts, maar met de auto of fiets ben je er snel.\n\nVoor dierenbenodigdheden is Kippentuin op de Waterstraat de dichtstbijzijnde optie, op 12 minuten wandelen. Deze lokale zaak heeft een basisassortiment. Wil je meer keuze, dan liggen Aleashop in Destelbergen en Tom & Co in Lochristi op ongeveer een half uur lopen, of je neemt de fiets of auto voor grotere aankopen. Veel bewoners doen hun dagelijkse bestellingen ook online en halen de grotere spullen op wanneer ze toch in de buurt zijn.\n\nGoedlevenstraat is geen wijk voor wie midden in de drukte wil zitten of alles om de hoek wil hebben. Het is een plek voor wie bewust kiest voor rust, ruimte en groen, en bereid is een paar minuten extra te lopen of fietsen voor voorzieningen. Met 8 bushaltes in en rond de wijk ben je goed verbonden met de rest van Gent, al mis je hier een treinstation. De lage bevolkingsdichtheid (1844 inwoners per km²) zorgt voor brede straten, weinig verkeer en een buurtgevoel waar je je hond rustig kunt uitlaten zonder constant op andere weggebruikers te letten.\n\nDe huizenprijzen liggen rond de €353.000 mediaan voor de gemeente, vergelijkbaar met andere wijken aan de rand van Gent. Je krijgt hier meer ruimte voor je geld dan in het centrum, en dat merk je aan de tuinen en de opzet van de wijk. Voor wie op zoek is naar een rustige uitvalsbasis met groene wandelroutes en bereikbaarheid naar de stad, biedt Goedlevenstraat een evenwichtige optie.",
+  "coordinates": {
+    "lat": 51.07424688530173,
+    "lon": 3.7752281305333044,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "21 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheinde speelweide",
+      "detail": "In Dampoort, 21 min lopen"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "17 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken bereikbaar",
+      "detail": "Ch. Barbiers het dichtst"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "12 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 winkels in de buurt",
+      "detail": "Kippentuin op 12 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 parken vlakbij",
+      "detail": "Westveldpark en meer"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "8 bushaltes in de wijk",
+      "detail": "Verbindingen naar centrum"
+    }
+  ],
+  "facilities": {
+    "intro": "Goedlevenstraat is een rustige woonwijk zonder eigen winkels of voorzieningen, maar met alles wat je nodig hebt binnen wandel- of fietsafstand. Dierenartsen, dierenwinkels en parken liggen verspreid in de aangrenzende wijken, waardoor je voor verschillende zaken korte tripjes maakt. De groene ruimte is ruim aanwezig, en de dichtstbijzijnde hondenspeelweide ligt in Dampoort op 21 minuten wandelen."
+  },
+  "dogParks": {
+    "intro": "Een omheinde hondenspeelweide vind je niet in de wijk zelf, maar wel op 21 minuten lopen in het nabijgelegen Dampoort. Dit omheinde terrein biedt ruimte om je hond los te laten ravotten. Daarnaast zijn er nog 4 andere hondengebieden binnen 27 tot 31 minuten bereikbaar, al zijn deze niet omheind. Voor de dagelijkse wandeling met je viervoeter volstaan de 5 parken in de directe omgeving ruimschoots.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Dampoort",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.072154,
+          "lon": 3.7516795
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd, maar binnen een straal van 17 tot 30 minuten wandelen vind je 4 praktijken. De dichtstbijzijnde optie is Ch. Barbiers op de Waterstraat in Gent, op 17 minuten te voet. Voor spoedgevallen is het handig om de auto of fiets te gebruiken, zodat je sneller ter plaatse bent.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0726377,
+          "lon": 3.7555827
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Benoît Fiers",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0631388,
+          "lon": 3.7569615
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van de Walle",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0595905,
+          "lon": 3.752562
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk, maar Kippentuin op de Waterstraat ligt op 12 minuten te voet en heeft een basisassortiment. Voor meer keuze zijn Aleashop in Destelbergen en Tom & Co in Lochristi en op de Dendermondsesteenweg bereikbaar, op ongeveer 34 tot 41 minuten lopen of korter met de fiets of auto.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0757366,
+          "lon": 3.7613707
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Antwerpse Steenweg",
+        "streetNumber": "100",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0885319,
+          "lon": 3.806785
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Dendermondsesteenweg",
+        "streetNumber": "134b",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "41 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Goedlevenstraat",
+    "intro": "Een typische dag in Goedlevenstraat begint rustig. Je stapt de deur uit en loopt zonder drukte naar een van de nabijgelegen parken voor de ochtendwandeling. De wijk zelf is stil en overzichtelijk, waardoor je je viervoeter alle aandacht kunt geven zonder afleiding van verkeer of drukte. Met het groen op wandelafstand en voorzieningen in de aangrenzende wijken, bouw je een comfortabele routine op die rust en beweging combineert.",
+    "benefits": [
+      "Met 5 parken binnen 8 tot 15 minuten wandelen heb je voldoende keuze voor de dagelijkse rondjes. Westveldpark en Spellekenspark zijn populaire plekken onder lokale baasjes, met brede paden en open ruimte waar je hond kan lopen en snuffelen. Op drukke dagen in de stad trek je naar de rustigere groene zones aan de rand.",
+      "De lage bevolkingsdichtheid van 1844 inwoners per km² zorgt voor rust tijdens het uitlaten. Je hebt hier geen drukke trottoirs of veel voorbijgangers, wat fijn is voor honden die even moeten wennen aan prikkels of voor wie gewoon van een ontspannen wandeling houdt zonder constant rekening te houden met anderen.",
+      "Dankzij 8 bushaltes in en rond de wijk ben je goed verbonden met het centrum en andere delen van Gent. Dat is praktisch voor een bezoek aan de dierenarts of om grotere boodschappen te doen in wijken met meer winkels. Met de fiets ben je ook snel in Dampoort of Westveld, waar meer voorzieningen zijn.",
+      "De omheinde hondenspeelweide in Dampoort ligt op 21 minuten wandelen, wat te doen is voor een uitgebreide uitstap in het weekend of wanneer je hond echt vrij wil rennen. Voor de dagelijkse wandeling zijn de nabijgelegen parken voldoende, maar het is fijn om die extra optie te hebben voor variatie.",
+      "Kippentuin ligt op slechts 12 minuten wandelen, waardoor je snel even iets kunt halen zonder een hele tocht te moeten maken. Voor grotere aankopen zijn er meerdere winkels binnen fietsafstand, en veel bewoners bestellen online voor het gemak. De mix van lokale en grotere winkels geeft je flexibiliteit."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Goedlevenstraat is een kleine woonwijk met 338 inwoners en een lage bevolkingsdichtheid. De mediaan huizenprijs in Gent ligt rond €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 338,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Goedlevenstraat? De wijk heeft postcode 9040, wat handig is om je zoekopdracht te filteren op vastgoedplatformen. Door de kleinschaligheid van de wijk komt er niet dagelijks iets vrij, dus het loont om een alert in te stellen.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-westveld-kern",
+    "gent-krijte",
+    "gent-achtendries",
+    "gent-groot-begijnhof",
+    "gent-dampoort"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:45:00Z",
+    "qualityScore": 82,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige woonwijk aan de rand van Gent met groene ruimte vlakbij — praktisch voor je dagelijkse routine",
+        "after": "Wonen in Goedlevenstraat: rustige wijk aan de rand van Gent met groene ruimte vlakbij — fijn voor je dagelijkse routine",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Dat gebrek aan commerciële drukte is voor veel bewoners juist de charme: je hebt de rust van een buitenwijk met de voorzieningen van de stad binnen handbereik. Voor baasjes is dat praktisch: uitlaten zonder verkeersdrukte, maar wel met toegang tot alles wat je nodig hebt.",
+        "after": "Dat gebrek aan commerciële drukte is voor veel bewoners juist de charme: je hebt de rust van een buitenwijk met de voorzieningen van de stad binnen handbereik. Voor wie een hond heeft is dat praktisch: uitlaten zonder verkeersdrukte, maar wel met toegang tot alles wat je nodig hebt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Veel baasjes doen hun dagelijkse bestellingen ook online en halen de grotere spullen op wanneer ze toch in de buurt zijn.",
+        "after": "Veel bewoners doen hun dagelijkse bestellingen ook online en halen de grotere spullen op wanneer ze toch in de buurt zijn.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Goedlevenstraat is een rustige woonwijk zonder eigen winkels of voorzieningen, maar met alles wat je als baasje nodig hebt binnen wandel- of fietsafstand.",
+        "after": "Goedlevenstraat is een rustige woonwijk zonder eigen winkels of voorzieningen, maar met alles wat je nodig hebt binnen wandel- of fietsafstand.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Goedlevenstraat begint rustig.",
+        "after": "Een typische dag in Goedlevenstraat begint rustig.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 5 parken binnen 8 tot 15 minuten wandelen heb je voldoende keuze voor de dagelijkse rondjes. Westveldpark en Spellekenspark zijn populaire plekken onder lokale baasjes, met brede paden en open ruimte waar je hond kan lopen en snuffelen. Op drukke dagen in de stad trek je naar de rustigere groene zones aan de rand.",
+        "after": "Met 5 parken binnen 8 tot 15 minuten wandelen heb je voldoende keuze voor de dagelijkse rondjes. Westveldpark en Spellekenspark zijn populaire plekken onder lokale hondenbezitters, met brede paden en open ruimte waar je hond kan lopen en snuffelen. Op drukke dagen in de stad trek je naar de rustigere groene zones aan de rand.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[1]",
+        "before": "De lage bevolkingsdichtheid van 1844 inwoners per km² zorgt voor rust tijdens het uitlaten. Je hebt hier geen drukke trottoirs of veel voorbijgangers, wat fijn is voor honden die even moeten wennen aan prikkels of voor baasjes die gewoon van een ontspannen wandeling houden zonder constant rekening te houden met anderen.",
+        "after": "De lage bevolkingsdichtheid van 1844 inwoners per km² zorgt voor rust tijdens het uitlaten. Je hebt hier geen drukke trottoirs of veel voorbijgangers, wat fijn is voor honden die even moeten wennen aan prikkels of voor wie gewoon van een ontspannen wandeling houdt zonder constant rekening te houden met anderen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "Kippentuin ligt op slechts 12 minuten wandelen, waardoor je snel even iets kunt halen zonder een hele tocht te moeten maken. Voor grotere aankopen zijn er meerdere winkels binnen fietsafstand, en veel baasjes bestellen online voor het gemak. De mix van lokale en grotere winkels geeft je flexibiliteit.",
+        "after": "Kippentuin ligt op slechts 12 minuten wandelen, waardoor je snel even iets kunt halen zonder een hele tocht te moeten maken. Voor grotere aankopen zijn er meerdere winkels binnen fietsafstand, en veel bewoners bestellen online voor het gemak. De mix van lokale en grotere winkels geeft je flexibiliteit.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "statistics.intro",
+        "before": "Goedlevenstraat is een kleine wijk met 338 inwoners en een lage bevolkingsdichtheid. De mediaan huizenprijs in Gent ligt rond €353.000.",
+        "after": "Goedlevenstraat is een kleine woonwijk met 338 inwoners en een lage bevolkingsdichtheid. De mediaan huizenprijs in Gent ligt rond €353.000.",
+        "reason": "local_keyword_missing"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "keywordScore": 16,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 20,
+      "decisionUsefulnessScore": 14
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:00:00Z",
+    "qualityScore": 87,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 5 parken binnen 8 tot 15 minuten wandelen heb je voldoende keuze voor de dagelijkse rondjes. Westveldpark en Spellekenspark zijn populaire plekken onder lokale hondenbezitters, met brede paden en open ruimte waar je hond kan lopen en snuffelen. Op drukke dagen in de stad trek je naar de rustigere groene zones aan de rand.",
+        "after": "Met 5 parken binnen 8 tot 15 minuten wandelen heb je voldoende keuze voor de dagelijkse rondjes. Westveldpark en Spellekenspark zijn populaire plekken onder lokale baasjes, met brede paden en open ruimte waar je hond kan lopen en snuffelen. Op drukke dagen in de stad trek je naar de rustigere groene zones aan de rand.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "hondenbezitters",
+            "field": "dailyLife.benefits[0]",
+            "preferred": "baasjes"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt te vinden (allowedPhrases)",
+          "in de buurt (allowedPhrases)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 28
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "de aangrenzende wijken Westveld of Dampoort",
+          "richting de waterkant bij de Schelde",
+          "Ch. Barbiers op de Waterstraat",
+          "Kippentuin op de Waterstraat"
+        ],
+        "neighborhoodObservations": [
+          "kleinschalige woonwijk aan de noordoostelijke rand van Gent",
+          "rustige straat waar je elkaar groet",
+          "uitgesproken residentieel karakter",
+          "geen supermarkten of winkels om de hoek",
+          "lage bevolkingsdichtheid (1844 inwoners per km²) zorgt voor brede straten, weinig verkeer"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.89,
+        "averageSentenceLength": 18.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no pet store in neighborhood",
+          "no vet in neighborhood",
+          "no dog park in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T15:45:00Z",
+  "id": "gent-achtendries",
+  "city": "Gent",
+  "name": "Achtendries",
+  "postalCode": "9040",
+  "subtitle": "Wonen in Achtendries, Gent: rustige wijk met groen op wandelafstand — praktisch voor wie bereikbaarheid waardeert",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 3561,
+  "labels": [
+    { "text": "Residentieel", "icon": "fa-solid fa-house-chimney" },
+    { "text": "Rustige wijk", "icon": "fa-solid fa-volume-off" },
+    { "text": "Groen", "icon": "fa-solid fa-leaf" }
+  ],
+  "intro": "Achtendries is een rustige residentiële wijk in het noordoosten van Gent, net voorbij het centrum. Met ongeveer 3.500 inwoners en een lagere bevolkingsdichtheid dan veel andere Gentse wijken (1.278 inwoners per km²) vind je hier vooral rijtjeswoningen en rustige straten. De wijk heeft 3 parken binnen wandelafstand, waarvan de dichtstbijzijnde op 7 minuten lopen ligt, wat voldoende ruimte biedt voor je dagelijkse routine.\n\nWat Achtendries kenmerkt is de rustige sfeer en de praktische ligging tussen verschillende delen van Gent. Met 16 bushaltes verspreid over de wijk is de verbinding naar het centrum en andere wijken goed geregeld. Voor de dagelijkse boodschappen heb je een supermarkt in de wijk zelf, al is het aanbod beperker dan in centraler gelegen wijken.\n\nDe eerlijkheid gebiedt te zeggen dat gespecialiseerde voorzieningen voor wie een viervoeter heeft — zoals een hondenspeelweide, dierenarts of dierenwinkel — niet in de wijk zelf te vinden zijn. Je bent afhankelijk van naburige wijken voor deze diensten. De dichtstbijzijnde hondenspeelweide ligt in het nabijgelegen Lochristi, op 22 minuten wandelen. Voor veterinaire zorg moet je naar Ch. Barbiers in een aangrenzende wijk, wat neerkomt op 33 minuten te voet. Dit maakt Achtendries vooral geschikt voor wie een auto heeft of een gezonde viervoeter die niet vaak naar de dierenarts hoeft, en voor wie rustige parkwandelingen belangrijker zijn dan een omheinde losloopweide.\n\nWat de wijk wél biedt is rust en ruimte. De lagere bevolkingsdichtheid betekent minder drukte op de voetpaden, en de 3 parken geven voldoende variatie voor je wandelroutine. Het Gentse centrum ligt op fietsafstand, en met het openbaar vervoer ben je binnen 20-30 minuten in het hart van de stad. De mediane huisprijs van €353.000 ligt in lijn met het Gentse gemiddelde, wat deze wijk in een toegankelijk segment plaatst voor wie rust zoekt zonder volledig buiten het stedelijke weefsel te verdwijnen.\n\nAchtendries is een wijk voor wie prioriteit geeft aan een rustige leefomgeving en bereid is wat verder te lopen of te rijden voor gespecialiseerde voorzieningen. Als je regelmatig andere viervoeters moet ontmoeten op een omheinde plek, wordt het logistiek wat uitdagender. Maar als je tevreden bent met gewone parkwandelingen en een rustig straatbeeld, dan biedt deze wijk zeker potentieel.",
+  "coordinates": {
+    "lat": 51.07542953520101,
+    "lon": 3.7931297702756517,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 parken in de buurt",
+      "detail": "Dichtstbijzijnde op 574 meter"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "22 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde in Lochristi",
+      "detail": "Niet in de wijk zelf"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenarts",
+      "distance": "33 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Ch. Barbiers in naburige wijk",
+      "detail": "Meerdere opties binnen 40 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "22 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Tom & Co in Lochristi",
+      "detail": "Op 1,7 km afstand"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Goed verspreid",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "16 bushaltes in de wijk",
+      "detail": "Goede verbinding met centrum"
+    }
+  ],
+  "facilities": {
+    "intro": "Achtendries is een rustige residentiële wijk waar je voor gespecialiseerde voorzieningen afhankelijk bent van naburige wijken. De 3 parken in de wijk geven voldoende groen voor dagelijkse wandelingen, maar voor een hondenspeelweide, dierenarts of dierenwinkel moet je iets verder kijken. Alles ligt binnen 22 tot 40 minuten wandelen, wat met de auto of een fiets makkelijk overbrugbaar is."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in Achtendries zelf. De dichtstbijzijnde loopt via het naburige Lochristi, op 22 minuten wandelen. Deze afstand maakt spontane bezoeken wat bewerkelijker, vooral voor wie een energieke viervoeter heeft die dagelijks los wil lopen. De omheinde speelweide op 37 minuten, richting het centrum van Gent, is een alternatief. Voor de dagelijkse wandelingen kun je prima terecht in de 3 parken in de wijk, al moet je daar wel aangelijnd blijven.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Lochristi",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.091333, "lon": 3.7921609 },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Dampoort",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.072154, "lon": 3.7516795 },
+        "features": [
+          { "text": "Omheind terrein", "icon": "fa-solid fa-fence" }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg moet je Achtendries verlaten. De dichtstbijzijnde dierenarts is Ch. Barbiers op de Waterstraat, op 33 minuten wandelen. Binnen een straal van 40 minuten heb je meerdere praktijken, waaronder Benoît Fiers en Tania Maenhout. Voor spoedgevallen is het handig om een auto te hebben, al kun je ook een taxi of ambulance inschakelen. Voor routinecontroles en vaccinaties kun je ruim van tevoren plannen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.0726377, "lon": 3.7555827 }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Benoît Fiers",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "36 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.0631388, "lon": 3.7569615 }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "40 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.0691142, "lon": 3.7489475 }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van de Walle",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "42 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.0595905, "lon": 3.752562 }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Achtendries. Tom & Co in Lochristi is de dichtstbijzijnde optie, op 22 minuten wandelen (1,7 km). Kippentuin, nog verder op de Waterstraat, en Aleashop in Destelbergen zijn alternatieven binnen 30-45 minuten. Voor snelle basisaankopen zoals brokjes of snacks heeft de lokale supermarkt meestal een klein assortiment.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Antwerpse Steenweg",
+        "streetNumber": "100",
+        "municipality": "Lochristi",
+        "postalCode": "9080",
+        "distance": "22 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.0885319, "lon": 3.806785 }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.0757366, "lon": 3.7613707 }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "44 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.0515972, "lon": 3.7594452 }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Achtendries",
+    "intro": "Een typische dag in Achtendries draait om rust en routine. De ochtendwandeling doe je in een van de 3 lokale parken, waar je meestal dezelfde bekende gezichten tegenkomt. Na het werk pak je de bus naar het centrum of fiets je naar een van de naburige wijken. In het weekend is een uitstap naar de hondenspeelweide in Lochristi een vaste gewoonte. Het is geen wijk met spontane ontmoetingen op elke hoek, maar daar staat een rustige, overzichtelijke leefomgeving tegenover.",
+    "benefits": [
+      "De 3 parken binnen 7 tot 13 minuten wandelen bieden variatie voor je dagelijkse routes. Het dichtstbijzijnde park ligt op 574 meter, ideaal voor een korte ochtendronde. De rustige straten en lagere bevolkingsdichtheid maken het aangenaam om zonder drukte te lopen.",
+      "Met 16 bushaltes ben je goed verbonden met de rest van Gent. Het openbaar vervoer brengt je binnen 20-30 minuten naar het centrum, handig als je na het werk nog even de dierenwinkel of dierenarts wilt bezoeken.",
+      "De rustige sfeer en het gebrek aan verkeersdrukte maken Achtendries een prettige plek voor jonge of oudere viervoeters die gevoelig zijn voor lawaaierige omgevingen. De voetpaden zijn breed genoeg om rustig te wandelen zonder constant andere te ontwijken.",
+      "De mediane huisprijs van €353.000 maakt deze wijk toegankelijker dan veel centraler gelegen wijken in Gent. Voor wie rust zoekt en bereid is wat verder te reizen voor gespecialiseerde voorzieningen, biedt dit een goede balans tussen prijs en kwaliteit van leven.",
+      "De nabijheid van Lochristi en andere randgemeenten betekent dat je binnen 20-30 minuten met de fiets of auto toegang hebt tot groenere, ruimere gebieden buiten de stad. Voor weekenduitstappen is dat een prettig voordeel."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere mensen de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Achtendries is een kleinere wijk met ongeveer 3.500 inwoners en een lagere bevolkingsdichtheid dan het Gentse gemiddelde. De mediane huisprijs van €353.000 ligt in lijn met veel Gentse wijken.",
+    "medianPrice": 353000,
+    "inhabitants": 3561,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Achtendries? Filter je zoekopdracht op postcode 9040 om huizen in deze wijk te vinden. Let op: meerdere Gentse wijken delen deze postcode, dus controleer de straatnaam om zeker te zijn dat je in Achtendries kijkt.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-goedlevenstraat",
+    "gent-krijte",
+    "gent-westveld-kern",
+    "gent-drie-zwaantjes",
+    "gent-groot-begijnhof"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-09T15:45:00Z",
+    "qualityScore": 81,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige residentiële wijk met groen binnen handbereik — praktische uitvalsbasis voor wie bereikbaarheid waardeert",
+        "after": "Wonen in Achtendries, Gent: rustige wijk met groen op wandelafstand — praktisch voor wie bereikbaarheid waardeert",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Achtendries is een rustige residentiële wijk in het noordoosten van Gent, net voorbij het centrum. Met ongeveer 3.500 inwoners en een lagere bevolkingsdichtheid dan veel andere Gentse wijken (1.278 inwoners per km²) vind je hier vooral rijtjeswoningen en rustige straten. De wijk heeft 3 parken binnen wandelafstand, waarvan de dichtstbijzijnde op 7 minuten lopen ligt, wat voldoende ruimte biedt voor je dagelijkse routine met je viervoeter.",
+        "after": "Achtendries is een rustige residentiële wijk in het noordoosten van Gent, net voorbij het centrum. Met ongeveer 3.500 inwoners en een lagere bevolkingsdichtheid dan veel andere Gentse wijken (1.278 inwoners per km²) vind je hier vooral rijtjeswoningen en rustige straten. De wijk heeft 3 parken binnen wandelafstand, waarvan de dichtstbijzijnde op 7 minuten lopen ligt, wat voldoende ruimte biedt voor je dagelijkse routine.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "De eerlijkheid gebiedt te zeggen dat gespecialiseerde voorzieningen voor je hond — zoals een hondenspeelweide, dierenarts of dierenwinkel — niet in de wijk zelf te vinden zijn. Je bent afhankelijk van naburige wijken voor deze diensten. De dichtstbijzijnde hondenspeelweide ligt in het nabijgelegen Lochristi, op 22 minuten wandelen. Voor veterinaire zorg moet je naar Ch. Barbiers in een aangrenzende wijk, wat neerkomt op 33 minuten te voet. Dit maakt Achtendries vooral geschikt voor baasjes met een auto of een gezonde hond die niet vaak naar de dierenarts hoeft, en voor wie rustige parkwandelingen belangrijker zijn dan een omheinde losloopweide.",
+        "after": "De eerlijkheid gebiedt te zeggen dat gespecialiseerde voorzieningen voor wie een viervoeter heeft — zoals een hondenspeelweide, dierenarts of dierenwinkel — niet in de wijk zelf te vinden zijn. Je bent afhankelijk van naburige wijken voor deze diensten. De dichtstbijzijnde hondenspeelweide ligt in het nabijgelegen Lochristi, op 22 minuten wandelen. Voor veterinaire zorg moet je naar Ch. Barbiers in een aangrenzende wijk, wat neerkomt op 33 minuten te voet. Dit maakt Achtendries vooral geschikt voor wie een auto heeft of een gezonde viervoeter die niet vaak naar de dierenarts hoeft, en voor wie rustige parkwandelingen belangrijker zijn dan een omheinde losloopweide.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Achtendries is een wijk voor baasjes die prioriteit geven aan een rustige leefomgeving en bereid zijn wat verder te lopen of te rijden voor gespecialiseerde hondenvoorzieningen. Als je hond sociaal is en regelmatig andere honden moet ontmoeten op een omheinde plek, wordt het logistiek wat uitdagender. Maar als je tevreden bent met gewone parkwandelingen en een rustig straatbeeld, dan biedt deze wijk zeker potentieel.",
+        "after": "Achtendries is een wijk voor wie prioriteit geeft aan een rustige leefomgeving en bereid is wat verder te lopen of te rijden voor gespecialiseerde voorzieningen. Als je regelmatig andere viervoeters moet ontmoeten op een omheinde plek, wordt het logistiek wat uitdagender. Maar als je tevreden bent met gewone parkwandelingen en een rustig straatbeeld, dan biedt deze wijk zeker potentieel.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Een officiële hondenspeelweide vind je niet in Achtendries zelf. De dichtstbijzijnde loopt via het naburige Lochristi, op 22 minuten wandelen. Deze afstand maakt spontane bezoeken wat bewerkelijker, vooral als je een energieke hond hebt die dagelijks los wil lopen. De omheinde speelweide op 37 minuten, richting het centrum van Gent, is een alternatief. Voor de dagelijkse wandelingen kun je prima terecht in de 3 parken in de wijk, al moet je daar wel aangelijnd blijven.",
+        "after": "Een officiële hondenspeelweide vind je niet in Achtendries zelf. De dichtstbijzijnde loopt via het naburige Lochristi, op 22 minuten wandelen. Deze afstand maakt spontane bezoeken wat bewerkelijker, vooral voor wie een energieke viervoeter heeft die dagelijks los wil lopen. De omheinde speelweide op 37 minuten, richting het centrum van Gent, is een alternatief. Voor de dagelijkse wandelingen kun je prima terecht in de 3 parken in de wijk, al moet je daar wel aangelijnd blijven.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Achtendries",
+        "after": "Dagelijks leven in Achtendries",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Achtendries draait om rust en routine. De ochtendwandeling doe je in een van de 3 lokale parken, waar je meestal dezelfde bekende gezichten tegenkomt. Na het werk pak je de bus naar het centrum of fiets je naar een van de naburige wijken. In het weekend is een uitstap naar de hondenspeelweide in Lochristi een vaste gewoonte. Het is geen wijk met spontane hondontmoetingen op elke hoek, maar daar staat een rustige, overzichtelijke leefomgeving tegenover.",
+        "after": "Een typische dag in Achtendries draait om rust en routine. De ochtendwandeling doe je in een van de 3 lokale parken, waar je meestal dezelfde bekende gezichten tegenkomt. Na het werk pak je de bus naar het centrum of fiets je naar een van de naburige wijken. In het weekend is een uitstap naar de hondenspeelweide in Lochristi een vaste gewoonte. Het is geen wijk met spontane ontmoetingen op elke hoek, maar daar staat een rustige, overzichtelijke leefomgeving tegenover.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "De rustige sfeer en het gebrek aan verkeersdrukte maken Achtendries een prettige plek voor jonge of oudere honden die gevoelig zijn voor lawaaierige omgevingen. De voetpaden zijn breed genoeg om rustig te wandelen zonder constant andere honden of fietsers te ontwijken.",
+        "after": "De rustige sfeer en het gebrek aan verkeersdrukte maken Achtendries een prettige plek voor jonge of oudere viervoeters die gevoelig zijn voor lawaaierige omgevingen. De voetpaden zijn breed genoeg om rustig te wandelen zonder constant andere te ontwijken.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De nabijheid van Lochristi en andere randgemeenten betekent dat je binnen 20-30 minuten met de fiets of auto toegang hebt tot groenere, ruimere gebieden buiten de stad. Voor weekenduitstappen met je viervoeter is dat een prettig voordeel.",
+        "after": "De nabijheid van Lochristi en andere randgemeenten betekent dat je binnen 20-30 minuten met de fiets of auto toegang hebt tot groenere, ruimere gebieden buiten de stad. Voor weekenduitstappen is dat een prettig voordeel.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 23,
+      "keywordScore": 16,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5,
+      "topicCoverageScore": 17,
+      "decisionUsefulnessScore": 15
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-09T16:15:00Z",
+    "qualityScore": 93,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere mensen de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 28,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "wijk",
+          "viervoeter",
+          "hondenspeelweide",
+          "dierenarts",
+          "dierenwinkel"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (meaning nearby)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "noordoosten van Gent",
+          "richting het centrum van Gent",
+          "naburige Lochristi",
+          "Waterstraat",
+          "Antwerpse Steenweg"
+        ],
+        "neighborhoodObservations": [
+          "rustige residentiële wijk",
+          "lagere bevolkingsdichtheid (1.278 inwoners per km²)",
+          "rijtjeswoningen en rustige straten",
+          "praktische ligging tussen verschillende delen van Gent"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.84,
+        "averageSentenceLength": 16.3,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no veterinarian in neighborhood",
+          "no pet store in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

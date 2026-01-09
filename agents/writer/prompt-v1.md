@@ -154,15 +154,19 @@ The intro should answer "what's it like to live here?" with dog ownership as one
 
 Create 4-8 value proposition cards highlighting key amenities.
 
-**Always include (if data exists):**
-1. Dog parks or nearest green space
-2. Vets (healthcare priority)
-3. Pet stores (supplies)
+**Allowed categories (stick to these only):**
+1. Dog parks / Hondenspeelweiden (always include if data exists)
+2. Vets / Dierenartsen (always include if data exists)
+3. Pet stores / Dierenwinkels (always include if data exists)
+4. Supermarkets (if count > 3)
+5. Transport / Openbaar vervoer (if busStops + trainStations > 10)
+6. Green space summary (only as fallback when no dog parks exist — mention nearest green option)
 
-**Conditionally include:**
-- Parks (if count > 5)
-- Supermarkets (if count > 3)
-- Transport (if busStops + trainStations > 10)
+**Do NOT create value cards for:**
+- General parks (parken) — these are NOT a separate value card category
+- Schools, pharmacies, or other POI types not listed above
+
+**Note:** If there are no dog parks, you may create ONE "Groene ruimte" card as a fallback showing the nearest park or green space. But do not add a separate "Parken" card alongside a dog parks card.
 
 **Each card requires:**
 ```json
@@ -205,6 +209,13 @@ For each category (dogParks, vets, petStores):
 2. **Add icon** — from poiIcons in icon-mappings.json
 3. **Format distance** — `walkingTimeMinutes` → "X mins"
 4. **Add distanceIcon** — typically "fa-solid fa-person-walking"
+
+**CRITICAL: Always include the array field, even when empty.**
+- `dogParks.parks` — MUST be present, use `[]` if no dog parks
+- `vets.practices` — MUST be present, use `[]` if no vets
+- `petStores.stores` — MUST be present, use `[]` if no pet stores
+
+The schema validation will FAIL if these arrays are missing. An empty array `[]` is valid; a missing field is not.
 
 **For dog parks specifically:**
 Extract features from boolean flags:

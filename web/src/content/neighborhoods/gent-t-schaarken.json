@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T11:45:00Z",
+  "id": "gent-t-schaarken",
+  "city": "Gent",
+  "name": "'T SCHAARKEN",
+  "postalCode": "9052",
+  "subtitle": "'T SCHAARKEN in Gent: rustige randwijk met 6 parken op wandelafstand — autoluw en groen voor wie ruimte zoekt",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 6480,
+  "labels": [
+    {
+      "text": "Rustige woonwijk",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Veel groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    },
+    {
+      "text": "Laagbouw",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "'T SCHAARKEN is een ruime woonwijk aan de zuidwestelijke rand van Gent, waar lage bebouwing en groene lanen het beeld bepalen. Met slechts 1.196 inwoners per km² en 6 parken binnen de wijkgrenzen vind je hier relatief veel ruimte voor de dagelijkse wandeling — fijn als je waarde hecht aan rust en groen zonder al te ver van de stad te wonen.\n\nDe wijk voelt suburbaan: je loopt hier tussen eengezinswoningen, tuinen en brede straten met fietspaden. Het Zonnebloempark ligt op 7 minuten wandelen, Buurtpark Hekers op evenveel afstand, en voor langere uitstappen heb je het Zwijntjesbos en Park de Ghellinck d'Elsegem binnen handbereik. Dankzij 46 bushaltes verspreid over de wijk kun je gemakkelijk naar het centrum of omliggende gemeenten. Een treinstation is er niet in de buurt — het dichtstbijzijnde ligt op ruim 4 kilometer afstand — maar voor autobezitters is de aansluiting op de belangrijkste uitvalswegen prima geregeld.\n\nVoor wie met een viervoeter woont, biedt 'T SCHAARKEN een behoorlijke basis. Je hebt 2 dierenartsen binnen de wijk: Dierenartspraktijk Thas op 7 minuten lopen en Dierenarts Marty op 13 minuten. Voor spoed of specialistische zorg zijn er ook opties net buiten de wijk, zoals AnimaPlus in De Pinte. Een omheinde hondenspeelweide vind je niet in de directe omgeving — de dichtstbijzijnde liggen op ruim een halfuur wandelen in aangrenzende wijken — maar met 14 parken binnen 2 kilometer heb je meer dan genoeg variatie voor de dagelijkse uitlaatrondes. De meeste lokale bewoners gebruiken de grotere parken zoals Zonnebloempark of het Zwijntjesbos als ontmoetingsplek.\n\nEen dierenwinkel binnen de wijk is er niet; de dichtstbijzijnde gespecialiseerde zaak ligt op bijna een halfuur rijden. Voor standaard voer en benodigdheden kun je terecht bij de lokale supermarkt, maar voor een echt assortiment moet je de wijk uit. Dat geldt ook voor andere voorzieningen: met 1 supermarkt, 2 apotheken en 2 scholen is de basisinfrastructuur aanwezig, maar voor meer specialistische winkels of horeca rijd of fiets je naar het centrum van Gent of naar naburige gemeenten zoals De Pinte.\n\n'T SCHAARKEN is eerder iets voor wie rust en ruimte belangrijk vindt dan voor wie stedelijke dynamiek zoekt. Je woont hier in een groene, kinderrijke omgeving met voldoende buitenruimte voor dagelijkse wandelingen, maar je mist de directe nabijheid van cafés, winkels of een bruisend buurtleven. Wie een auto heeft en graag regelmatig naar grotere natuurgebieden wil, zit hier goed; wie liever alles op loopafstand wil, kiest beter voor een compactere stadswijk. De prijs ligt met een mediane huisprijs van €353.000 in lijn met andere randwijken in Gent — niet goedkoop, maar ook niet extreem.",
+  "coordinates": {
+    "lat": 50.99834409434148,
+    "lon": 3.710479078258363,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 parken in de wijk, 14 binnen 2 km",
+      "detail": "Dichtstbijzijnde op 110 meter"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 praktijken binnen de wijk",
+      "detail": "Dierenartspraktijk Thas op 527 m"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "34 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen omheinde speelweide nabij",
+      "detail": "Dichtstbijzijnde op 2,7 km"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "5,4 km",
+      "distanceIcon": "fa-solid fa-car",
+      "description": "Geen gespecialiseerde zaak nabij",
+      "detail": "Supermarkt voor basisboodschappen"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Overal",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "46 bushaltes in de wijk",
+      "detail": "Goed bereikbaar zonder auto"
+    }
+  ],
+  "facilities": {
+    "intro": "'T SCHAARKEN heeft de basisvoorzieningen voor het dagelijks leven op peil, maar voor meer specialistische zaken ben je afhankelijk van de auto of het openbaar vervoer. Met 2 dierenartspraktijken binnen de wijk ben je in elk geval goed geholpen voor medische zorg, en dankzij de vele groene plekken heb je meer dan genoeg ruimte om te wandelen."
+  },
+  "dogParks": {
+    "intro": "Een officiële, omheinde hondenspeelweide vind je niet in 'T SCHAARKEN of in de directe omgeving. De dichtstbijzijnde liggen op ruim 2,5 kilometer afstand — een wandeling van een halfuur — in aangrenzende wijken. Voor het dagelijks uitlaten kun je echter prima terecht in de 14 parken die binnen 2 kilometer bereik liggen. Veel lokale bewoners komen samen in het Zonnebloempark of het Zwijntjesbos, waar genoeg ruimte is om viervoeters sociaal te laten spelen. Als je specifiek een omheind terrein wilt voor veilig vrijlopen, plan dan een iets langere wandeling in of neem de auto.",
+    "parks": []
+  },
+  "vets": {
+    "intro": "Voor medische zorg ben je in 'T SCHAARKEN goed voorzien. Je hebt 2 dierenartspraktijken binnen de wijk, beide op wandelafstand van de meeste woningen. Voor spoedgevallen of specialistische behandelingen zijn er ook opties net buiten de wijk.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartspraktijk Thas",
+        "street": "Heerweg-Zuid",
+        "streetNumber": "9",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0025368,
+          "lon": 3.7139738
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Marty",
+        "street": "Heerweg-Noord",
+        "streetNumber": "88",
+        "municipality": "Gent",
+        "postalCode": "9052",
+        "distance": "13 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0066818,
+          "lon": 3.7173101
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "AnimaPlus",
+        "street": "Grote Steenweg",
+        "streetNumber": "15-17",
+        "municipality": "De Pinte",
+        "postalCode": "9840",
+        "distance": "24 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9947067,
+          "lon": 3.6840865
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in 'T SCHAARKEN. De dichtstbijzijnde ligt op ruim 5 kilometer afstand, wat betekent dat je de auto of fiets zult moeten pakken voor een grotere boodschap aan hondenvoer, speelgoed of accessoires. Voor standaardbenodigdheden zoals basishondenvoer kun je terecht bij de lokale supermarkt, maar voor een echt assortiment moet je de wijk uit. De meeste bewoners doen hun dierenboodschappen online of combineren ze met een winkeltrip naar Gent-centrum of aangrenzende gemeenten.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je viervoeter in 'T SCHAARKEN",
+    "intro": "Een typische dag in 'T SCHAARKEN begint rustig. Je loopt 's ochtends naar het Zonnebloempark of het dichtstbijzijnde groenpleintje — je hebt de keuze uit 6 parken binnen de wijk — en ontmoet daar vaak dezelfde gezichten. De wijk is autoluw en veilig, met brede stoepen en groene lanen die zich goed lenen voor een ontspannen wandeling. Voor boodschappen stap je naar de lokale supermarkt, en voor medische zorg ben je binnen 10 minuten bij een van de twee dierenartsen. 's Avonds ga je nog een langere ronde langs het Zwijntjesbos of Park de Ghellinck d'Elsegem. Een omheinde speelweide ontbreekt, maar met zoveel groene ruimte valt dat in de praktijk best mee.",
+    "benefits": [
+      "Dankzij 6 parken binnen de wijkgrenzen en nog eens 8 binnen 2 kilometer heb je altijd een groene plek binnen handbereik. Het Zonnebloempark is populair onder lokale bewoners, terwijl het Zwijntjesbos zich goed leent voor een langere uitstap. De parken zijn goed onderhouden en hebben voldoende paden voor variatie in je wandelrondes.",
+      "Met 2 dierenartsen op wandelafstand — Dierenartspraktijk Thas op 7 minuten en Dierenarts Marty op 13 minuten — ben je verzekerd van snelle medische zorg bij plots onwel worden. Ook voor reguliere controles of vaccinaties hoef je niet ver te reizen.",
+      "De wijk kent een lage bevolkingsdichtheid van 1.196 inwoners per km², wat betekent dat je ruime straten, veel tuinen en weinig drukte hebt. Voor wie minder goed tegen stedelijke hectiek kan of veel ruimte nodig heeft, is dat een groot pluspunt.",
+      "Met 46 bushaltes verspreid over de wijk is het openbaar vervoer goed geregeld. Je kunt gemakkelijk naar het centrum van Gent of naar aangrenzende gemeenten zonder auto. Dat is handig als je regelmatig naar een grotere dierenwinkel of naar natuurgebieden buiten de wijk wilt."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "'T SCHAARKEN is een middelgrote woonwijk met 6.480 inwoners en een lage bevolkingsdichtheid. De mediaan huisprijs ligt op €353.000, vergelijkbaar met andere randwijken in Gent.",
+    "medianPrice": 353000,
+    "inhabitants": 6480,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in 'T SCHAARKEN? Filter je zoekopdracht op postcode 9052 om woningen in deze wijk te vinden. De wijk deelt de postcode met enkele naburige gebieden, dus controleer altijd de ligging op de kaart.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-hoedjen",
+    "gent-konleopoldstraat",
+    "gent-paolalaan",
+    "gent-akademisch-ziekenhuis",
+    "gent-bugten"
+  ]
+}

@@ -181,6 +181,198 @@ Alternative: Update our neighborhoods table to use new NIS codes (larger change,
 
 ---
 
+## Story L5: Reduce Prompt Token Usage via External References
+
+> As a pipeline operator, I want agent prompts to be leaner, so that each neighborhood costs fewer tokens and processes faster.
+
+**Context:** Current agent prompts total 1,473 lines (~20KB) with inline examples, terminology lists, and scoring algorithms. Much of this content is duplicated across agents or could be loaded on-demand from reference files.
+
+**Current State:**
+- Researcher: 322 lines
+- Writer: 467 lines
+- SEO Reviewer: 299 lines
+- Brand Reviewer: 385 lines
+- Total: ~1,473 lines of prompt content per neighborhood
+- Estimated: 4-5K tokens in system prompts alone
+
+**Estimated Savings:**
+- 2-3K tokens per neighborhood
+- ~15-20% reduction in total token usage
+- Faster prompt loading and response times
+
+**Acceptance Criteria:**
+- [ ] Audit all agent prompts for content that can be externalized
+- [ ] Move inline examples to `references/examples/` folders (read on-demand)
+- [ ] Deduplicate terminology.json references (currently loaded by multiple agents)
+- [ ] Extract shared scoring algorithm docs to single reference file
+- [ ] Measure before/after token counts on sample neighborhoods
+- [ ] Verify output quality unchanged after prompt reduction
+
+**Optimization Targets:**
+
+| Content Type | Current Location | Proposed Change |
+|--------------|------------------|-----------------|
+| Output examples | Inline in prompts | Move to `references/examples/*.json` |
+| Terminology list | Duplicated in SEO + Brand | Single `references/terminology.json` |
+| Scoring algorithms | Inline in SEO + Brand | Shared `references/scoring.md` |
+| Icon mappings | Inline in Writer | Move to `references/icons.json` |
+| Character limits | Duplicated across agents | Single `references/constraints.json` |
+
+**Technical Notes:**
+- Use `@file` references in prompts to load external content
+- Consider lazy loading: only load examples when agent needs clarification
+- Measure with `tiktoken` library for accurate token counts
+- Keep critical instructions inline; only externalize reference material
+
+---
+
+## Story L6: Materialized Views for POI Aggregates
+
+> As a pipeline operator, I want pre-computed POI counts per neighborhood, so that researcher queries run faster and use fewer database round-trips.
+
+**Context:** The Researcher agent currently makes 7-8 separate PostGIS queries per neighborhood to count POIs by category. These queries are repeated for every neighborhood, even though POI data changes infrequently. Materialized views can pre-compute these aggregates.
+
+**Current State:**
+- Each researcher run queries: vets, pet stores, dog parks, parks, supermarkets, schools, pharmacies, bus stops
+- Each query: ~100-500ms depending on neighborhood size
+- Total: ~2-4 seconds of database time per neighborhood
+- For 2,800 neighborhoods: ~2-3 hours of pure query time
+
+**Proposed Materialized Views:**
+
+```sql
+-- Pre-computed POI counts per neighborhood
+CREATE MATERIALIZED VIEW mv_neighborhood_poi_counts AS
+SELECT
+    n.nis_code,
+    COUNT(*) FILTER (WHERE p.category = 'veterinary') as vet_count,
+    COUNT(*) FILTER (WHERE p.category = 'pet_shop') as pet_store_count,
+    COUNT(*) FILTER (WHERE p.category = 'dog_park') as dog_park_count,
+    COUNT(*) FILTER (WHERE p.category = 'park') as park_count,
+    -- ... other categories
+FROM neighborhoods n
+LEFT JOIN pois p ON ST_Contains(n.geometry, p.geometry)
+GROUP BY n.nis_code;
+
+-- Nearest POIs per neighborhood (top 5 each category)
+CREATE MATERIALIZED VIEW mv_neighborhood_nearest_pois AS
+SELECT DISTINCT ON (n.nis_code, p.category)
+    n.nis_code,
+    p.category,
+    p.name,
+    p.address,
+    ST_Distance(n.centroid, p.geometry) as distance_meters
+FROM neighborhoods n
+CROSS JOIN LATERAL (
+    SELECT * FROM pois
+    WHERE category IN ('veterinary', 'pet_shop', 'dog_park')
+    ORDER BY geometry <-> n.centroid
+    LIMIT 5
+) p;
+```
+
+**Acceptance Criteria:**
+- [ ] Create `mv_neighborhood_poi_counts` materialized view
+- [ ] Create `mv_neighborhood_nearest_pois` materialized view
+- [ ] Add refresh script for weekly updates (`REFRESH MATERIALIZED VIEW CONCURRENTLY`)
+- [ ] Update Researcher queries to use materialized views
+- [ ] Measure query time improvement (target: 80% reduction)
+- [ ] Document refresh schedule and manual refresh command
+
+**Estimated Savings:**
+- Query time: 2-4 seconds → 200-400ms per neighborhood
+- Total for 2,800 neighborhoods: ~3 hours → ~20 minutes of query time
+- Reduces database load during batch processing
+
+**Technical Notes:**
+- Use `CONCURRENTLY` refresh to avoid locking during updates
+- Schedule refresh via cron or after OSM data imports
+- Consider partial refresh for changed neighborhoods only
+- Index on `nis_code` for fast lookups
+
+---
+
+## Story L7: Qualitative Language in Prose (No Specific Counts)
+
+> As a content reader, I want neighborhood descriptions that use qualitative language instead of specific numbers, so that the content stays accurate even when POI data changes.
+
+**Context:** SEO expert feedback indicates that specific counts in prose ("20 parken", "5 dierenartsen") create maintenance burden and can become stale. Qualitative descriptions ("ruim voldoende groen", "voldoende dierenartsen in de buurt") read more naturally and don't require regeneration when POI data updates.
+
+**Current State:**
+- Intro text contains specific counts: "Met een opvallende concentratie van 20 parken..."
+- Specific POI names mentioned: "De dichtstbijzijnde dierenarts (Heughebaert Anne)..."
+- Any OSM update potentially makes prose inaccurate
+- Full pipeline rerun (~$0.22/neighborhood) needed to fix stale counts
+
+**Proposed Change:**
+
+| Count Range | Qualitative Dutch |
+|-------------|-------------------|
+| 0 | "geen ... in de directe omgeving" |
+| 1-2 | "beperkt aanbod" |
+| 3-5 | "enkele opties" |
+| 6-10 | "voldoende keuze" / "voldoende" |
+| 10+ | "ruim aanbod" / "veel" |
+
+**Acceptance Criteria:**
+- [ ] Update Writer prompt to prohibit specific counts in prose (intro, paragraphs)
+- [ ] Add qualitative language guide to Writer references
+- [ ] Specific counts remain allowed in `valueCards` (structured UI elements)
+- [ ] POI names only in structured data, not in prose
+- [ ] Test on 3-5 sample neighborhoods to verify natural Dutch output
+- [ ] Document the style change for future prompt iterations
+
+**Impact:**
+- Prose becomes stable (one-time AI cost)
+- POI list updates cost $0 (script refresh only)
+- Better SEO (no "outdated content" signals)
+
+**After Implementation:**
+- Regenerate all existing content with new style (~$450 one-time)
+- Future OSM updates don't require prose regeneration
+
+---
+
+## Story L8: Merge SEO and Brand Reviewers
+
+> As a pipeline operator, I want a single quality review stage instead of two separate ones, so that each neighborhood processes faster and costs fewer tokens.
+
+**Context:** The SEO Reviewer and Brand Reviewer perform similar functions - both read the full Writer output, apply scoring algorithms, and make minor text adjustments. Running them separately means passing the full content twice through Claude.
+
+**Current State:**
+- SEO Reviewer: ~15K input tokens, ~6.5K output tokens
+- Brand Reviewer: ~16K input tokens, ~7K output tokens
+- Combined: ~31K input, ~13.5K output per neighborhood
+- Two separate agent invocations = 2× latency
+
+**Proposed Change:**
+Merge into single "Quality Reviewer" agent that:
+- Applies SEO scoring (keyword density, meta optimization)
+- Applies Brand scoring (tone, terminology, authenticity)
+- Produces single combined output with both review sections
+- Returns unified `qualityScore` (weighted average)
+
+**Acceptance Criteria:**
+- [ ] Create combined `quality-reviewer` agent prompt
+- [ ] Merge scoring algorithms from SEO + Brand into single reference
+- [ ] Output schema includes both `seoReview` and `brandReview` sections
+- [ ] Pipeline updated to run 3 stages instead of 4
+- [ ] Quality threshold logic unchanged (score >= 70 to publish)
+- [ ] Test on 5 neighborhoods, compare output quality to separate reviewers
+- [ ] Measure token savings and time improvement
+
+**Estimated Savings:**
+- Input tokens: ~31K → ~18K (-40%)
+- Time per neighborhood: ~2 min saved (one fewer agent round-trip)
+- For 2,800 neighborhoods: ~$150-200 saved
+
+**Technical Notes:**
+- Keep separate review sections in output for debugging/transparency
+- May need to increase output token limit for combined response
+- Consider if any review logic is truly sequential (SEO before Brand)
+
+---
+
 ## Dependencies
 
 ```
@@ -189,6 +381,10 @@ Epic J (Agent Pipeline)
   └── L2 (Name Casing)
   └── L3 (Ralph Loop)
   └── L4 (Statbel NIS Mapping)
+  └── L5 (Prompt Token Reduction)
+  └── L6 (Materialized Views)
+  └── L7 (Qualitative Language)
+  └── L8 (Merge Reviewers)
 ```
 
 All stories in this epic depend on having a working pipeline from Epic J.

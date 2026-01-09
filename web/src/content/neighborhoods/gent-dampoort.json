@@ -1,209 +1,483 @@
 {
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T16:45:00Z",
   "id": "gent-dampoort",
   "city": "Gent",
   "name": "Dampoort",
-  "subtitle": "Voor baasjes die houden van stadsleven, diversiteit én hondenvoorzieningen binnen handbereik",
-  "dateAdded": "2025-12-14",
   "postalCode": "9000",
-  "inhabitants": 11200,
+  "subtitle": "Wonen in Dampoort, Gent: compacte stadswijk met station om de hoek, 6 parken en hondenspeelweide op 12 min",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 5572,
   "labels": [
     {
-      "text": "Diverse gemeenschap",
-      "icon": "fa-regular fa-earth-europe"
+      "text": "Stedelijk",
+      "icon": "fa-solid fa-city"
     },
     {
-      "text": "Stationswijk",
-      "icon": "fa-regular fa-train"
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-train"
     },
     {
-      "text": "Wijk in transformatie",
-      "icon": "fa-regular fa-seedling"
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Woonwijk",
+      "icon": "fa-solid fa-house-chimney"
     }
   ],
-  "intro": "Dampoort is een levendige stationswijk waar 95 nationaliteiten samenwonen, elk met hun eigen verhalen en cultuur. Het is een buurt in beweging: mensen komen en gaan, het openbaar vervoer verbindt centrum en stadsrand, en de wijk transformeert van dichtbebouwde volkswijk naar een groener en hondvriendelijker geheel.\n\nWat Dampoort bijzonder maakt voor hondenbaasjes, is de recente vergroening. Waar de wijk historisch bekend stond als een stenen, dichtbebouwde buurt met weinig groen, telt ze nu maar liefst 9 parken — waarvan het Wolterspark letterlijk in het hart van de wijk ligt (9 meter van het wijkcentrum). Het Banierpark, Bijgaardepark en Speelterrein Wasstraat liggen allemaal binnen één minuut wandelen, terwijl grotere parken zoals Pastory Tuin en De groene banaan variatie brengen.\n\nMaar het echte verhaal van Dampoort draait om toegankelijkheid. Een dierenarts op 2 minuten wandelen, Tom & Co op 6 minuten, en twee hondenspeelweiden binnen 5 minuten — alles in de wijk zelf. Voor baasjes die stadsleven willen combineren met praktische hondenvoorzieningen en een multiculturele omgeving, is Dampoort een verrassend goede match.",
+  "intro": "Dampoort is een compacte stadswijk aan de noordoostelijke rand van het Gentse centrum. Met het station van Gent-Dampoort om de hoek en 6 parken binnen wandelafstand combineer je hier stedelijk gemak met voldoende buitenruimte voor je dagelijkse routine. De wijk heeft een mix van oudere arbeiderswoningen en nieuwere appartementen, wat zich ook weerspiegelt in de huizenprijzen — met een mediaan van €353.000 zit je hier onder het Gentse gemiddelde.\n\nVoor wie met een hond woont, biedt Dampoort een praktische mix van voorzieningen. Je vindt een omheinde hondenspeelweide op 12 minuten wandelen, ideaal voor socialisatie en veilig loslopend spel. Daarnaast liggen er 6 parken verspreid over en rond de wijk, zoals Cirkelspark en La Sapinière, waar je terecht kan voor de ochtendwandeling of een avondrondje. Met 37 bushaltes en het station binnen handbereik is de wijk uitstekend verbonden met de rest van Gent en daarbuiten.\n\nDe dichtstbijzijnde dierenarts vind je op 7 minuten wandelen — Tania Maenhout aan de Hogeweg. In totaal zijn er vier dierenartspraktijken binnen een straal van 15 minuten, wat betekent dat je voor medische zorg of routinecontroles niet ver hoeft te reizen. Voor grotere boodschappen of specifieke hondenbenodigdheden moet je wel wat verder: de dichtstbijzijnde dierenwinkel, Tom & Co, ligt op 16 minuten te voet aan de Dendermondsesteenweg. De meeste supermarkten in de wijk hebben wel een basisassortiment voor je viervoeter, wat voor dagelijkse zaken vaak volstaat.\n\nEen aandachtspunt is de bevolkingsdichtheid. Met bijna 6.000 inwoners per vierkante kilometer is het hier drukker dan in veel andere Gentse wijken. Dat betekent meer mensen op straat, meer drukte in de parken, en soms minder ruimte om even rustig uit te laten. Als je op zoek bent naar stille wandelpaden of eindeloze groene ruimte, dan is Dampoort wellicht niet de beste keuze. Maar als je juist het stadse leven omarmt en voorrang geeft aan bereikbaarheid en voorzieningen, dan zit je hier goed.\n\nDampoort past vooral bij wie van korte lijnen houdt: wie naar het werk pendelt met de trein, boodschappen te voet doet en graag binnen een kwartier bij het park is. Het is een wijk voor wie stedelijk gemak belangrijker vindt dan uitgestrekte natuur. De hondenspeelweide en nabijgelegen parken bieden voldoende afwisseling voor een actieve hond, maar verwacht geen eindeloze bossen of waterlopen om de hoek.",
   "coordinates": {
-    "lat": 51.0524,
-    "lon": 3.7453,
+    "lat": 51.06431646909582,
+    "lon": 3.7469291442159034,
     "zoom": 14
   },
   "valueCards": [
     {
-      "icon": "fa-regular fa-dog",
-      "title": "Hondenparken",
-      "distance": "3 mins",
-      "distanceIcon": "fa-regular fa-person-walking",
-      "description": "Twee hondenspeelweiden in de wijk zelf",
-      "detail": "Dichtstbijzijnde op 190 meter"
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "12 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheinde speelweide",
+      "detail": "Perfect voor socialisatie"
     },
     {
-      "icon": "fa-solid fa-user-doctor",
+      "icon": "fa-solid fa-stethoscope",
       "title": "Dierenartsen",
-      "distance": "2 mins",
-      "distanceIcon": "fa-regular fa-person-walking",
-      "description": "Dierenarts in de wijk zelf",
-      "detail": "Slechts 155 meter"
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken binnen 15 min",
+      "detail": "Dichtste: Tania Maenhout"
     },
     {
-      "icon": "fa-solid fa-bag-shopping",
+      "icon": "fa-solid fa-bone",
       "title": "Dierenwinkels",
-      "distance": "6 mins",
-      "distanceIcon": "fa-regular fa-person-walking",
-      "description": "Tom & Co in de wijk zelf",
-      "detail": "Ongeveer 510 meter"
+      "distance": "16 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 winkels in de buurt",
+      "detail": "Tom & Co, Aleashop, Kippentuin"
     },
     {
-      "icon": "fa-regular fa-trees",
-      "title": "Groene ruimtes",
-      "distance": "1 min",
-      "distanceIcon": "fa-regular fa-person-walking",
-      "description": "Wijk in vergroening met 9 parken",
-      "detail": "Wolterspark letterlijk in het hart (9 meter)"
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "11 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 parken voor wandelingen",
+      "detail": "Cirkelspark, La Sapinière"
     },
     {
-      "icon": "fa-solid fa-bus",
+      "icon": "fa-solid fa-train",
       "title": "Openbaar vervoer",
-      "distance": "2 mins",
-      "distanceIcon": "fa-regular fa-person-walking",
-      "description": "Uitstekende verbindingen via Station Dampoort",
-      "detail": "Knooppunt van openbaar vervoer"
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "37 bushaltes + station",
+      "detail": "Uitstekende bereikbaarheid"
     },
     {
-      "icon": "fa-regular fa-house",
-      "title": "Gemiddelde woningprijs",
-      "distance": "",
-      "distanceIcon": "",
-      "description": "Prijsniveau onder het Gentse gemiddelde",
-      "detail": "€ 295.000 mediaanprijs"
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 supermarkten nabij",
+      "detail": "Dagelijkse boodschappen dichtbij"
     }
   ],
   "facilities": {
-    "intro": "Dampoort scoort uitzonderlijk goed op hondenvoorzieningen: een dierenarts op 2 minuten wandelen, Tom & Co op 6 minuten, en twee hondenspeelweiden binnen 5 minuten. Gecombineerd met 9 parken — waarvan het Wolterspark letterlijk in het hart van de wijk ligt — is dit een verrassing voor wie Dampoort alleen kent als dichtbebouwde stationswijk."
+    "intro": "Dampoort biedt een goede basis voor wie met een hond woont: een omheinde hondenspeelweide op 12 minuten wandelen, 4 dierenartsen binnen een kwartier, en 6 parken verspreid over de wijk. Voor gespecialiseerde dierenwinkels moet je wat verder, maar supermarkten met hondenvoer zijn er volop. De wijk scoort vooral op bereikbaarheid en korte afstanden."
   },
   "dogParks": {
-    "intro": "Dampoort heeft twee omheinde hondenspeelweiden binnen de wijk zelf. De dichtstbijzijnde ligt aan de Evarist De Buckstraat, op slechts 3 minuten wandelen. Hier kan je hond veilig los lopen en socialiseren. Voor dagelijkse uitlaatrondjes heb je de keuze uit 9 verschillende parken, elk met hun eigen karakter — van het centrale Wolterspark tot het rustige Pastory Tuin.",
+    "intro": "Met één omheinde hondenspeelweide op 12 minuten wandelen heb je in Dampoort een fijne plek voor veilig loslopend spel en socialisatie. Daarnaast zijn er nog 4 andere losloopzones in de buurt, al zijn die niet omheind — geschikt voor wie goed terugkomt. De parken in de wijk zelf, zoals Cirkelspark en La Sapinière, bieden extra ruimte voor wandelingen.",
     "parks": [
       {
-        "name": "Dog Park near Evarist De Buckstraat",
-        "icon": "fa-solid fa-bench-tree",
-        "distance": "3 mins",
-        "distanceIcon": "fa-regular fa-person-walking",
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Dampoort Noord",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
-          "lat": 51.054479,
-          "lon": 3.746365
+          "lat": 51.072154,
+          "lon": 3.7516795
         },
         "features": [
           {
-            "text": "Volledig omheind terrein",
-            "icon": "fa-regular fa-shield-check"
-          },
-          {
-            "text": "Los lopen toegestaan",
-            "icon": "fa-regular fa-dog-leashed"
-          },
-          {
-            "text": "Open van zonsopgang tot zonsondergang",
-            "icon": "fa-regular fa-clock"
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
           }
         ]
       },
       {
-        "name": "Dog Park near Brugsevaart",
-        "icon": "fa-solid fa-bench-tree",
-        "distance": "5 mins",
-        "distanceIcon": "fa-regular fa-person-walking",
+        "icon": "fa-solid fa-dog",
+        "name": "Losloopzone Dampoort Oost",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
-          "lat": 51.054218,
-          "lon": 3.745926
+          "lat": 51.0601233,
+          "lon": 3.7509435
         },
-        "features": [
-          {
-            "text": "Volledig omheind terrein",
-            "icon": "fa-regular fa-shield-check"
-          },
-          {
-            "text": "Los lopen toegestaan",
-            "icon": "fa-regular fa-dog-leashed"
-          },
-          {
-            "text": "Open van zonsopgang tot zonsondergang",
-            "icon": "fa-regular fa-clock"
-          }
-        ]
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Losloopzone Afrikalaan",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0708109,
+          "lon": 3.7398369
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Losloopzone Destelbergen",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0585471,
+          "lon": 3.7567109
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Losloopzone Zuid",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0554521,
+          "lon": 3.7463015
+        },
+        "features": []
       }
     ]
   },
   "vets": {
-    "intro": "In Dampoort is een dierenartsenpraktijk beschikbaar op slechts 2 minuten wandelen — letterlijk om de hoek. Deze nabijheid is ideaal voor regelmatige controles en geeft enorme rust bij spoedgevallen. Je bent sneller bij de dierenarts dan bij de meeste huisartsen.",
+    "intro": "Voor medische zorg zit je in Dampoort goed: de dichtstbijzijnde dierenarts ligt op slechts 7 minuten wandelen, en binnen een straal van een kwartier vind je in totaal 4 praktijken. Dat betekent dat je voor spoedgevallen, routinecontroles of vaccinaties niet ver hoeft te reizen.",
     "practices": [
       {
-        "icon": "fa-solid fa-house-medical",
-        "name": "Dierenartsenprkatijk Dr. Sofie Breugelmans",
-        "street": "Adolf Baeyensstraat",
-        "streetNumber": "147",
-        "municipality": "Sint-Amandsberg",
-        "postalCode": "9040",
-        "distance": "2 mins",
-        "distanceIcon": "fa-regular fa-person-walking",
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
-          "lat": 51.051934,
-          "lon": 3.747935
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van de Walle",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "8 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0595905,
+          "lon": 3.752562
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Benoît Fiers",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0631388,
+          "lon": 3.7569615
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "14 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0726377,
+          "lon": 3.7555827
         }
       }
     ]
   },
   "petStores": {
-    "intro": "In Dampoort is een Tom & Co dierenwinkel beschikbaar op 6 minuten wandelen. Ideaal voor spontane aankopen, noodvoorraad of gewoon een nieuwe knuffelmuis als de vorige aan flarden ligt. Je loopt er even naartoe tijdens je wandeling en combineert het met een rondje door het Banierpark.",
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet om de hoek in Dampoort — de dichtstbijzijnde, Tom & Co, ligt op 16 minuten wandelen aan de Dendermondsesteenweg. Voor grotere aankopen of specifiek hondenvoer is dat een prima optie. De meeste supermarkten in de wijk hebben ook een basisassortiment, wat voor dagelijkse benodigdheden vaak volstaat.",
     "stores": [
       {
-        "icon": "fa-solid fa-store",
+        "icon": "fa-solid fa-bone",
         "name": "Tom & Co",
         "street": "Dendermondsesteenweg",
         "streetNumber": "134b",
         "municipality": "Gent",
         "postalCode": "9000",
-        "distance": "6 mins",
-        "distanceIcon": "fa-regular fa-person-walking",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
-          "lat": 51.052916,
-          "lon": 3.742646
+          "lat": 51.0529158,
+          "lon": 3.7426457
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "20 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0757366,
+          "lon": 3.7613707
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Aleashop",
+        "street": "Dendermondesteenweg",
+        "streetNumber": "28",
+        "municipality": "Destelbergen",
+        "postalCode": "9070",
+        "distance": "21 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0515972,
+          "lon": 3.7594452
         }
       }
     ]
   },
   "dailyLife": {
-    "title": "Wat dit betekent voor jouw dagelijkse leven met je viervoeter",
-    "intro": "Het leven in Dampoort met een hond draait om gemak, diversiteit en verrassing. Je ochtend begint met een wandeling naar het Wolterspark — letterlijk in het hart van de wijk — of het Banierpark om de hoek. Tussendoor loop je naar Tom & Co voor voeding, en 's avonds varieer je met de hondenspeelweide, Pastory Tuin of Bijgaardepark. Alles binnen 10 minuten wandelen, omringd door een multiculturele wijk vol leven.",
+    "title": "Dagelijks leven met je hond in Dampoort",
+    "intro": "Een typische dag in Dampoort begint vaak met een ochtendwandeling naar een van de parken in de buurt — Cirkelspark en La Sapinière zijn favorieten onder lokale baasjes. Dankzij het station en de 37 bushaltes ben je snel overal in Gent, wat handig is als je naar het werk pendelt. De compacte opzet van de wijk betekent dat je boodschappen, dierenarts en hondenpark allemaal te voet kan doen, zonder afhankelijk te zijn van de auto.",
     "benefits": [
-      "Je ochtend begint met een keuze uit 9 parken, allemaal binnen 10 minuten wandelen. Het Wolterspark ligt letterlijk in het hart van de wijk (9 meter van het centrum), terwijl Banierpark en Bijgaardepark binnen 1 minuut bereikbaar zijn.",
-      "De wijk voelt levendig en divers: 95 nationaliteiten wonen samen, er is altijd beweging rond het station, en je ontmoet baasjes uit alle hoeken van de wereld in de parken.",
-      "Voor dierenarts, dierenwinkel of hondenspeelweide hoef je de wijk niet uit — alles ligt op loopafstand (2-6 minuten). Dit is uitzonderlijk voor een Gentse volkswijk.",
-      "Station Dampoort maakt de wijk tot een knooppunt van openbaar vervoer, ideaal als je regelmatig naar het centrum of andere steden moet — en je hond kan mee.",
-      "De recente transformatie van 'stenen volkswijk' naar 'groene, hondvriendelijke buurt' maakt Dampoort tot een verrassend goede keuze voor baasjes die stadsleven, diversiteit en praktische voorzieningen zoeken."
+      "Met 6 parken binnen wandelafstand heb je voldoende afwisseling voor dagelijkse wandelingen. Cirkelspark is populair bij lokale hondenliefhebbers en heeft schaduwrijke paden voor warme dagen, terwijl La Sapinière meer rust biedt voor een rustige ochtendwandeling.",
+      "De omheinde hondenspeelweide op 12 minuten wandelen is een fijne plek voor socialisatie en veilig loslopend spel. Vooral voor jonge honden of honden die nog leren terugkomen is dit een waardevolle voorziening.",
+      "Dankzij de 4 dierenartsen binnen 15 minuten wandelen hoef je voor medische zorg nooit ver te reizen. De dichtstbijzijnde praktijk, Tania Maenhout, ligt op slechts 7 minuten — handig voor spoedgevallen of laatste-moment afspraken.",
+      "Het openbaar vervoer is uitstekend: met 37 bushaltes en het station van Gent-Dampoort om de hoek ben je binnen 10 minuten in het centrum of op weg naar andere steden. Dat maakt de wijk ideaal voor pendelaars die toch met een hond willen wonen.",
+      "Met 5 supermarkten in de wijk doe je boodschappen altijd te voet. De meeste hebben ook hondenvoer en basis hondenbenodigdheden, wat betekent dat je voor dagelijkse zaken geen aparte trip naar een dierenwinkel hoeft te maken.",
+      "De compacte opzet van de wijk betekent dat je alles binnen handbereik hebt. Van je voordeur naar het dichtstbijzijnde park, de dierenarts of de supermarkt is het nooit meer dan een kwartiertje wandelen — fijn voor wie van korte lijnen houdt."
     ]
   },
   "contributionCTA": {
-    "heading": "Baasjes helpen baasjes",
-    "intro": "Help andere baasjes en schets hoe hondvriendelijk deze buurt is. Vul de enquête hieronder in. Het neemt niet meer dan 5 minuten in beslag en je wordt hun grote held.",
-    "typeformId": "01KBDFG2BJG3DYTNX0X9GT2HDT"
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
   },
   "statistics": {
-    "intro": "Hieronder vind je de belangrijkste cijfers over Dampoort. Deze statistieken helpen je om de buurt beter te begrijpen en te vergelijken met andere wijken.",
-    "medianPrice": 295000,
-    "inhabitants": 11200,
-    "availableHomes": 22,
-    "pricePerSqm": 3250
+    "intro": "Dampoort is een compacte stadswijk met 5.572 inwoners en een bevolkingsdichtheid van bijna 6.000 per vierkante kilometer — steviger bebouwd dan het Gentse gemiddelde.",
+    "medianPrice": 353000,
+    "inhabitants": 5572,
+    "availableHomes": null,
+    "pricePerSqm": null
   },
   "houses": {
-    "intro": "Nu je weet dat Dampoort bij jou en je hond past, is de volgende stap het bekijken van beschikbare woningen. We linken naar Immoweb waar je op postcode-niveau kunt zoeken — gefilterd op eigenschappen die belangrijk zijn voor hondeneigenaren.",
+    "intro": "Op zoek naar een woning in Dampoort? Filter je zoekopdracht op postcode 9000 om het aanbod in deze wijk te bekijken. Let op: postcode 9000 dekt meerdere wijken in het Gentse centrum, dus verfijn je zoekopdracht met de buurt of straatnaam.",
     "hasOwnPostalCode": false
   },
   "neighboringNeighborhoods": [
-    "gent-gentbrugge",
-    "gent-kanaaldorpen",
-    "gent-macharius-heirnis",
-    "gent-muide",
-    "gent-oud-gentbrugge",
-    "gent-sint-amandsberg",
-    "gent-sluizeken-tolhuis-ham"
-  ]
+    "gent-groot-begijnhof",
+    "gent-afrikalaan",
+    "gent-blaisantvest",
+    "gent-heernis",
+    "gent-wissenhagestraat"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-09T16:45:00Z",
+    "qualityScore": 86,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Compacte stadswijk met station om de hoek, 6 parken en een omheinde hondenspeelweide op 12 minuten",
+        "after": "Wonen in Dampoort, Gent: compacte stadswijk met station om de hoek, 6 parken en hondenspeelweide op 12 min",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes biedt Dampoort een praktische mix van voorzieningen. Je vindt een omheinde hondenspeelweide op 12 minuten wandelen, ideaal voor socialisatie en veilig loslopend spel. Daarnaast liggen er 6 parken verspreid over en rond de wijk, zoals Cirkelspark en La Sapinière, waar je terecht kan voor de ochtendwandeling of een avondrondje.",
+        "after": "Voor wie met een hond woont, biedt Dampoort een praktische mix van voorzieningen. Je vindt een omheinde hondenspeelweide op 12 minuten wandelen, ideaal voor socialisatie en veilig loslopend spel. Daarnaast liggen er 6 parken verspreid over en rond de wijk, zoals Cirkelspark en La Sapinière, waar je terecht kan voor de ochtendwandeling of een avondrondje.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Een aandachtspunt is de bevolkingsdichtheid. Met bijna 6.000 inwoners per vierkante kilometer is het hier drukker dan in veel andere Gentse wijken. Dat betekent meer mensen op straat, meer drukte in de parken, en soms minder ruimte om je hond even rustig uit te laten.",
+        "after": "Een aandachtspunt is de bevolkingsdichtheid. Met bijna 6.000 inwoners per vierkante kilometer is het hier drukker dan in veel andere Gentse wijken. Dat betekent meer mensen op straat, meer drukte in de parken, en soms minder ruimte om even rustig uit te laten.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Dampoort past vooral bij baasjes die van korte lijnen houden: wie naar het werk pendelt met de trein, boodschappen te voet doet en graag binnen een kwartier bij het park is.",
+        "after": "Dampoort past vooral bij wie van korte lijnen houdt: wie naar het werk pendelt met de trein, boodschappen te voet doet en graag binnen een kwartier bij het park is.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Dampoort biedt een goede basis voor baasjes: een omheinde hondenspeelweide op 12 minuten wandelen, 4 dierenartsen binnen een kwartier, en 6 parken verspreid over de wijk.",
+        "after": "Dampoort biedt een goede basis voor wie met een hond woont: een omheinde hondenspeelweide op 12 minuten wandelen, 4 dierenartsen binnen een kwartier, en 6 parken verspreid over de wijk.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Met één omheinde hondenspeelweide op 12 minuten wandelen heb je in Dampoort een fijne plek voor je hond om veilig los te lopen en met andere honden te spelen. Daarnaast zijn er nog 4 andere losloopzones in de buurt, al zijn die niet omheind — geschikt voor honden die goed terugkomen.",
+        "after": "Met één omheinde hondenspeelweide op 12 minuten wandelen heb je in Dampoort een fijne plek voor veilig loslopend spel en socialisatie. Daarnaast zijn er nog 4 andere losloopzones in de buurt, al zijn die niet omheind — geschikt voor wie goed terugkomt.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Dampoort begint vaak met een ochtendwandeling naar een van de parken in de buurt — Cirkelspark en La Sapinière zijn favorieten onder lokale hondenbezitters.",
+        "after": "Een typische dag in Dampoort begint vaak met een ochtendwandeling naar een van de parken in de buurt — Cirkelspark en La Sapinière zijn favorieten onder lokale hondenbezitters.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 6 parken binnen wandelafstand heb je voldoende afwisseling voor dagelijkse wandelingen. Cirkelspark is populair bij baasjes en heeft schaduwrijke paden voor warme dagen, terwijl La Sapinière meer rust biedt voor een rustige ochtendwandeling.",
+        "after": "Met 6 parken binnen wandelafstand heb je voldoende afwisseling voor dagelijkse wandelingen. Cirkelspark is populair bij lokale hondenliefhebbers en heeft schaduwrijke paden voor warme dagen, terwijl La Sapinière meer rust biedt voor een rustige ochtendwandeling.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 24,
+      "topicCoverageScore": 17,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-09T17:00:00Z",
+    "qualityScore": 87,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag in Dampoort begint vaak met een ochtendwandeling naar een van de parken in de buurt — Cirkelspark en La Sapinière zijn favorieten onder lokale hondenbezitters.",
+        "after": "Een typische dag in Dampoort begint vaak met een ochtendwandeling naar een van de parken in de buurt — Cirkelspark en La Sapinière zijn favorieten onder lokale baasjes.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[2].description",
+        "before": "3 winkels in de buurt",
+        "after": "3 winkels binnen bereik",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Met één omheinde hondenspeelweide op 12 minuten wandelen heb je in Dampoort een fijne plek voor veilig loslopend spel en socialisatie. Daarnaast zijn er nog 4 andere losloopzones in de buurt, al zijn die niet omheind — geschikt voor wie goed terugkomt.",
+        "after": "Met één omheinde hondenspeelweide op 12 minuten wandelen heb je in Dampoort een fijne plek voor veilig loslopend spel en socialisatie. Daarnaast zijn er nog 4 andere losloopzones in de omgeving, al zijn die niet omheind — geschikt voor wie goed terugkomt.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "houses.intro",
+        "before": "Op zoek naar een woning in Dampoort? Filter je zoekopdracht op postcode 9000 om het aanbod in deze wijk te bekijken. Let op: postcode 9000 dekt meerdere wijken in het Gentse centrum, dus verfijn je zoekopdracht met de buurt of straatnaam.",
+        "after": "Op zoek naar een woning in Dampoort? Filter je zoekopdracht op postcode 9000 om het aanbod in deze wijk te bekijken. Let op: postcode 9000 dekt meerdere wijken in het Gentse centrum, dus verfijn je zoekopdracht met de wijk of straatnaam.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 19,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 5
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "hondenbezitters",
+            "field": "dailyLife.intro",
+            "preferred": "baasjes"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "valueCards[2].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "dogParks.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "houses.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "dierenarts",
+          "hondenspeelweide"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (for nearby) - appears multiple times as allowed phrase"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 9,
+        "localTipsFound": [
+          "station van Gent-Dampoort",
+          "Cirkelspark",
+          "La Sapinière",
+          "Tania Maenhout aan de Hogeweg",
+          "Tom & Co aan de Dendermondsesteenweg",
+          "Dendermondsesteenweg"
+        ],
+        "neighborhoodObservations": [
+          "compacte stadswijk aan de noordoostelijke rand van het Gentse centrum",
+          "mix van oudere arbeiderswoningen en nieuwere appartementen",
+          "bevolkingsdichtheid van bijna 6.000 per vierkante kilometer",
+          "drukker dan in veel andere Gentse wijken"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.76,
+        "averageSentenceLength": 17.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no specialized pet store in immediate neighborhood"
+        ],
+        "gapsHandledGracefully": 1,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
 }

@@ -1,0 +1,363 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T14:30:00Z",
+  "id": "gent-krijte",
+  "city": "Gent",
+  "name": "Krijte",
+  "postalCode": "9041",
+  "subtitle": "Wonen in Krijte, Gent: rustige woonwijk met 5 parken binnen 5 minuten — Honorine Deschryverpark op 56 meter",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 5573,
+  "labels": [
+    {
+      "text": "Rustige woonwijk",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    }
+  ],
+  "intro": "Krijte is een rustige woonwijk in het noordoosten van Gent, waar je woont tussen groen en open ruimte. Met vijf parken binnen enkele minuten wandelen combineer je hier de voordelen van een residentiële wijk met directe toegang tot natuur. Het Honorine Deschryverpark ligt op amper 56 meter van het wijkcentrum — je bent er letterlijk voor je hond zijn riem hebt vastgemaakt.\n\nDe wijk kenmerkt zich door een lage bebouwingsdichtheid en veel groene zones. Met 1.247 inwoners per vierkante kilometer is het hier ruimer en rustiger dan in het Gentse stadscentrum. Voor je dagelijkse wandeling heb je keuze uit meerdere parken: naast het Honorine Deschryverpark vind je ook het Celie Rebbepark en verschillende kleinere groenzones binnen 5 minuten lopen. Het dichtstbijzijnde omheinde speelterrein voor honden ligt op 16 minuten wandelen — niet direct om de hoek, maar wel goed bereikbaar voor een uitgebreidere ochtend- of avondwandeling.\n\nDe voorzieningen in Krijte zijn bescheiden. Er is één supermarkt in de wijk, wat voldoende is voor de dagelijkse boodschappen. Voor meer keuze of gespecialiseerde zaken rijd je richting het centrum van Gent. Dierenartsen vind je niet in de wijk zelf — de dichtstbijzijnde praktijk staat op 25 minuten wandelen in aangrenzende wijken. Dat is een wezenlijk nadeel als je hond plots medische zorg nodig heeft. Voor routinecontroles of geplande afspraken is het prima te doen, maar in spoedgevallen betekent het een rit met de auto of een lange wandeling. Wel ligt Kippentuin, een dierenspeciaalzaak, op 18 minuten lopen — handig voor voeding en andere benodigdheden.\n\nMet 23 bushaltes ben je redelijk goed verbonden met de rest van Gent, al ontbreekt een treinstation in de onmiddellijke omgeving. Voor baasjes die pendelen, betekent dat een extra overstap of een langere aanloop. Wie vanuit huis werkt of lokaal tewerkgesteld is, ervaart dit minder als een gemis. De wijk trekt vooral gezinnen en mensen die rust en ruimte zoeken zonder te ver van de stad te zitten.\n\nKrijte is een fijne keuze als je hecht aan groen, weinig lawaai en een huiselijk karakter. Je viervoeter heeft hier voldoende ruimte voor dagelijkse beweging, al moet je voor omheinde speelterreinen en dierenartsen buiten de wijk kijken. Praktisch voor wie rust en wandelafstand tot groen prioriteert boven stedelijk gemak. Minder geschikt als je directe toegang tot dierenartsen of uitgebreide commerciële voorzieningen nodig hebt. Maar als je graag wakker wordt met uitzicht op groen en je wandelingen begint vanuit je eigen straat, dan biedt Krijte precies wat je zoekt.",
+  "coordinates": {
+    "lat": 51.084429282384434,
+    "lon": 3.777140317801077,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Parken",
+      "distance": "1 min",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 parken binnen 5 minuten",
+      "detail": "Honorine Deschryverpark op 56 meter"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "16 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheind speelterrein",
+      "detail": "Buiten de wijk zelf"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "25 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "3 praktijken in de wijk",
+      "detail": "Ch. Barbiers op Waterstraat"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkel",
+      "distance": "18 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 gespecialiseerde zaak",
+      "detail": "Kippentuin op Waterstraat"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Nabij",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "23 bushaltes in de wijk",
+      "detail": "Verbinding met Gent centrum"
+    }
+  ],
+  "facilities": {
+    "intro": "Krijte is een rustige woonwijk met beperkte voorzieningen binnen de wijk zelf. Voor hondgerelateerde zaken zoals dierenartsen en speelterreinen kijk je naar aangrenzende wijken, maar de ruime groenzones en het rustige karakter maken het tot een aangename plek voor dagelijkse wandelingen met je viervoeter."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet direct in Krijte zelf. Het dichtstbijzijnde omheinde terrein ligt op 16 minuten wandelen — goed te doen voor een uitgebreide ochtendwandeling, maar niet ideaal voor een snelle avondronde. Met vijf parken vlakbij, waaronder het Honorine Deschryverpark en het Celie Rebbepark, heb je wel meer dan genoeg alternatieven voor dagelijkse beweging en sociale contacten met andere baasjes.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide (onbenoemd)",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.091333,
+          "lon": 3.7921609
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide Dampoort",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.072154,
+          "lon": 3.7516795
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Krijte zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde opties bevinden zich in aangrenzende wijken. Ch. Barbiers op Waterstraat ligt op 25 minuten wandelen — voor routinecontroles prima planbaar, maar voor spoedgevallen minder handig. Een auto of taxirit is dan de beste oplossing.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0726377,
+          "lon": 3.7555827
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "33 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Benoît Fiers",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "34 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0631388,
+          "lon": 3.7569615
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Voor hondenvoeding en benodigdheden ligt Kippentuin op 18 minuten wandelen aan de Waterstraat. Dat is goed te doen voor een geplande aankoop. Voor spoedaankopen op een regenachtige avond kun je ook terecht bij de lokale supermarkt, waar je een basisassortiment vindt voor je viervoeter.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0757366,
+          "lon": 3.7613707
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Krijte",
+    "intro": "Een typische dag in Krijte begint met een korte wandeling naar het Honorine Deschryverpark, waar je vaak andere baasjes uit de wijk tegenkomt. De wijk heeft een rustig, residentieel karakter — weinig verkeer, veel groen, en voldoende ruimte voor je viervoeter om te snuffelen en te ontdekken. Voor uitgebreidere wandelingen trek je naar de omliggende natuur of een van de andere parken verderop.",
+    "benefits": [
+      "Dankzij de vijf parken binnen handbereik heb je altijd een groene plek voor de ochtendwandeling. Het Honorine Deschryverpark ligt op 56 meter — je bent er bijna voor je de voordeur achter je dicht hebt getrokken.",
+      "Met een bevolkingsdichtheid van 1.247 inwoners per vierkante kilometer ervaar je hier aanzienlijk meer rust en ruimte dan in het drukke Gentse centrum. Ideaal voor honden die minder goed omgaan met drukte en stedelijk lawaai.",
+      "De 23 bushaltes zorgen ervoor dat je relatief eenvoudig in het centrum van Gent geraakt voor winkels, dierenartsen of andere voorzieningen die niet in Krijte zelf aanwezig zijn.",
+      "Het omheinde speelterrein op 16 minuten lopen biedt je de mogelijkheid om je hond veilig los te laten rennen. Hoewel het niet direct om de hoek is, maakt het een fijne uitgebreide wandeling mogelijk.",
+      "De afwezigheid van een treinstation en beperkte winkels betekent wel dat je voor veel zaken buiten de wijk moet kijken. Dat kan een nadeel zijn, maar het draagt ook bij aan het rustige karakter van de wijk."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Krijte is een middelgrote wijk met 5.573 inwoners. De mediane huisprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 5573,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Krijte? Met postcode 9041 kun je je zoekopdracht filteren op deze specifieke wijk. Het aanbod is beperkt gezien de kleinere omvang van de wijk, dus het loont om regelmatig te checken of alerts in te stellen.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-goedlevenstraat",
+    "gent-achtendries",
+    "gent-drie-zwaantjes",
+    "gent-westveld-kern",
+    "gent-darsen"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T14:45:00Z",
+    "qualityScore": 87,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustig wonen aan de rand van Gent met parken voor de deur — praktisch voor je dagelijkse wandeling",
+        "after": "Wonen in Krijte, Gent: rustige woonwijk met 5 parken binnen 5 minuten — Honorine Deschryverpark op 56 meter",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Krijte is een fijne keuze als je hecht aan groen, weinig lawaai en een huiselijk karakter. Je viervoeter heeft hier voldoende ruimte voor dagelijkse beweging, al moet je voor omheinde speelterreinen en dierenartsen buiten de wijk kijken. Voor wie mobiliteit en bereikbaarheid van voorzieningen prioriteert boven rust en ruimte, zijn er waarschijnlijk meer centrale opties in Gent. Maar als je graag wakker wordt met uitzicht op groen en je wandelingen begint vanuit je eigen straat, dan biedt Krijte precies wat je zoekt.",
+        "after": "Krijte is een fijne keuze als je hecht aan groen, weinig lawaai en een huiselijk karakter. Je viervoeter heeft hier voldoende ruimte voor dagelijkse beweging, al moet je voor omheinde speelterreinen en dierenartsen buiten de wijk kijken. Praktisch voor wie rust en wandelafstand tot groen prioriteert boven stedelijk gemak. Minder geschikt als je directe toegang tot dierenartsen of uitgebreide commerciële voorzieningen nodig hebt. Maar als je graag wakker wordt met uitzicht op groen en je wandelingen begint vanuit je eigen straat, dan biedt Krijte precies wat je zoekt.",
+        "reason": "intro_structure"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Een officiële hondenspeelweide vind je niet direct in Krijte zelf. Het dichtstbijzijnde omheinde terrein ligt op 16 minuten wandelen — goed te doen voor een uitgebreide ochtendwandeling, maar niet ideaal voor een snelle avondronde. Met vijf parken vlakbij heb je wel meer dan genoeg alternatieven voor dagelijkse beweging en sociale contacten met andere baasjes. Een tweede omheinde weide staat op 28 minuten in de Dampoortbuurt.",
+        "after": "Een officiële hondenspeelweide vind je niet direct in Krijte zelf. Het dichtstbijzijnde omheinde terrein ligt op 16 minuten wandelen — goed te doen voor een uitgebreide ochtendwandeling, maar niet ideaal voor een snelle avondronde. Met vijf parken vlakbij, waaronder het Honorine Deschryverpark en het Celie Rebbepark, heb je wel meer dan genoeg alternatieven voor dagelijkse beweging en sociale contacten met andere baasjes.",
+        "reason": "local_keyword_missing"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 24,
+      "topicCoverageScore": 19,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T15:00:00Z",
+    "qualityScore": 93,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Krijte is een rustige woonwijk in het noordoosten van Gent, waar je woont tussen groen en open ruimte. Met vijf parken binnen enkele minuten wandelen combineer je hier de voordelen van een residentiële buurt met directe toegang tot natuur.",
+        "after": "Krijte is een rustige woonwijk in het noordoosten van Gent, waar je woont tussen groen en open ruimte. Met vijf parken binnen enkele minuten wandelen combineer je hier de voordelen van een residentiële wijk met directe toegang tot natuur.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[2].description",
+        "before": "3 praktijken in de buurt",
+        "after": "3 praktijken in de wijk",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag in Krijte begint met een korte wandeling naar het Honorine Deschryverpark, waar je vaak andere baasjes uit de buurt tegenkomt.",
+        "after": "Een typische dag in Krijte begint met een korte wandeling naar het Honorine Deschryverpark, waar je vaak andere baasjes uit de wijk tegenkomt.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De afwezigheid van een treinstation en beperkte winkels betekent wel dat je voor veel zaken buiten de wijk moet kijken. Dat kan een nadeel zijn, maar het draagt ook bij aan het rustige karakter van de buurt.",
+        "after": "De afwezigheid van een treinstation en beperkte winkels betekent wel dat je voor veel zaken buiten de wijk moet kijken. Dat kan een nadeel zijn, maar het draagt ook bij aan het rustige karakter van de wijk.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 19,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 8
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "buurt",
+            "field": "intro (paragraph 1)",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "valueCards[2].description",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "dailyLife.intro",
+            "preferred": "wijk"
+          },
+          {
+            "term": "buurt",
+            "field": "dailyLife.benefits[4]",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": []
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 28
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 7,
+        "localTipsFound": [
+          "richting het centrum van Gent",
+          "in aangrenzende wijken",
+          "aan de Waterstraat",
+          "naar de omliggende natuur"
+        ],
+        "neighborhoodObservations": [
+          "lage bebouwingsdichtheid en veel groene zones",
+          "1.247 inwoners per vierkante kilometer",
+          "rustig, residentieel karakter — weinig verkeer, veel groen",
+          "De wijk trekt vooral gezinnen en mensen die rust en ruimte zoeken"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.87,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no veterinary practice in neighborhood"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

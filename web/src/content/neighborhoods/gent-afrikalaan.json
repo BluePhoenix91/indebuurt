@@ -1,0 +1,411 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T12:00:00Z",
+  "id": "gent-afrikalaan",
+  "city": "Gent",
+  "name": "AFRIKALAAN",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Afrikalaan, Gent: groene woonwijk met parken op wandelafstand en goede bereikbaarheid — praktisch voor je dagelijkse routine",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 2332,
+  "labels": [
+    {
+      "text": "Groene wijk",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig wonen",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Goed bereikbaar",
+      "icon": "fa-solid fa-bus"
+    }
+  ],
+  "intro": "Afrikalaan is een rustige woonwijk in het noorden van Gent, die stedelijk gemak combineert met een verrassend groene omgeving. Met 2.332 inwoners verspreid over een kleinschalig gebied vind je hier een aangename balans tussen de drukte van het centrum en de rust van een woonwijk. De nabijheid van het Dampoortstation en de goede busverbindingen maken de wijk bijzonder praktisch voor wie regelmatig onderweg is.\n\nWat Afrikalaan aantrekkelijk maakt is vooral de concentratie van groen binnen handbereik. Je vindt hier 5 parken binnen comfortabele loopafstand, waaronder het Robinson Crusoëpark en de Groene Banaan. Voor wie graag wandelt is dit een luxe: je hoeft niet ver te gaan voor een frisse neus. De dichtstbijzijnde hondenspeelweide ligt op slechts 4 minuten lopen, ideaal voor een snelle uitlaatsessie voor het werk of een korte speelpauze tussen twee vergaderingen.\n\nToch zijn er praktische overwegingen. De wijk heeft zelf geen dierenarts of dierenwinkel. De dichtstbijzijnde dierenarts, Tania Maenhout, vind je op 9 minuten wandelen aan de Hogeweg in de aangrenzende wijk. Voor je regelmatige benodigdheden kun je terecht bij de lokale supermarkten die vaak een basisassortiment hebben, maar voor gespecialiseerd voer of speelgoed plan je best een uitstap naar Tom & Co of een vergelijkbare winkel verder in de stad. Als je regelmatig medische zorg voor je viervoeter nodig hebt, is de wijk dus minder handig dan wijken waar een dierenarts om de hoek zit.\n\nMet een bevolkingsdichtheid van 1.781 inwoners per vierkante kilometer is Afrikalaan rustiger dan veel andere Gentse wijken. Je merkt dat vooral 's avonds en in het weekend, wanneer de wijk een dorps karakter krijgt. De 19 bushaltes maken dat je ondanks die rust goed verbonden blijft met de rest van Gent. Het Dampoortstation ligt op fietsafstand, wat handig is als je vaak naar Brussel of Antwerpen moet.\n\nDe wijk heeft wel zijn eigenheden. Er is weinig horeca of winkelaanbod direct in de wijk, wat betekent dat je voor een koffie of een boodschap vaak naar het centrum trekt of naar aangrenzende wijken. Voor wie van een levendige sfeer houdt met terrasjes en winkeltjes kan dat een gemis zijn. Aan de andere kant: de rust en het groen compenseren dat ruimschoots, vooral als je dagelijks de deur uit gaat en meer waarde hecht aan natuur dan aan stedelijke drukte.\n\nQua huisvesting ligt de mediane prijs rond de €353.000, vergelijkbaar met andere Gentse wijken net buiten het centrum. Je krijgt hier vaak wat meer ruimte voor je geld dan in het hypercentrum, met woningen die vaker een tuintje hebben — een pluspunt voor wie een viervoeter heeft. De wijk trekt vooral jonge gezinnen en mensen die stedelijk wonen combineren met rust en groen.\n\nAfrikolaan is praktisch voor wie rust en groen prioriteit geeft boven stedelijke voorzieningen, die niet afhankelijk is van een dierenarts om de hoek en die het fijn vindt om in een kleinschalige, overzichtelijke wijk te wonen waar je snel de parken in kunt duiken voor een wandeling.",
+  "coordinates": {
+    "lat": 51.06816678376764,
+    "lon": 3.7389180742800407,
+    "zoom": 15
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "4 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Meerdere speelweiden in de buurt",
+      "detail": "Dichtstbijzijnde op 4 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 praktijken binnen bereik",
+      "detail": "Tania Maenhout op 9 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 parken binnen loopafstand",
+      "detail": "Groenzone Scandinaviëstraat"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "2 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "19 bushaltes in de wijk",
+      "detail": "Station Dampoort nabij"
+    }
+  ],
+  "facilities": {
+    "intro": "Afrikalaan biedt een solide basis voor wie op zoek is naar groen en rust. Met meerdere hondenspeelweiden binnen 15 minuten wandelen en 5 parken in de directe omgeving heb je voldoende opties voor je dagelijkse wandelingen. Dierenartsen en dierenwinkels liggen buiten de wijk zelf, maar zijn goed bereikbaar te voet of met de fiets."
+  },
+  "dogParks": {
+    "intro": "Met meerdere hondenspeelweiden binnen handbereik zit je in Afrikalaan goed. De dichtstbijzijnde vind je al op 4 minuten wandelen, ideaal voor een snelle uitlaatsessie. Op 10 en 11 minuten lopen tref je omheinde terreinen met grasondergrond, populair bij lokale bewoners voor sociale contacten tussen viervoeters. Als je graag afwisselt, zijn er voldoende alternatieven binnen 15 minuten.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide",
+        "distance": "4 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0708109,
+          "lon": 3.7398369
+        },
+        "features": []
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide",
+        "distance": "10 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0734578,
+          "lon": 3.7315395
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide",
+        "distance": "11 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0669876,
+          "lon": 3.7266103
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.072154,
+          "lon": 3.7516795
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenspeelweide",
+        "distance": "15 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0601233,
+          "lon": 3.7509435
+        },
+        "features": []
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd, maar binnen 10 minuten wandelen vind je Tania Maenhout aan de Hogeweg. Voor meer keuze zijn er binnen 20 minuten nog 4 andere praktijken bereikbaar, waaronder Ch. Barbiers en Van de Walle. Voor spoedgevallen is het dus zaak om te weten waar je naartoe kunt.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "9 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0726377,
+          "lon": 3.7555827
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van de Walle",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0595905,
+          "lon": 3.752562
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Benoît Fiers",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "17 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0631388,
+          "lon": 3.7569615
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk zelf. Voor hondenvoer, speelgoed en accessoires moet je naar aangrenzende wijken of het centrum. De meeste supermarkten in Afrikalaan hebben wel een basisassortiment voor je viervoeter, handig voor je dagelijkse benodigdheden.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven in Afrikalaan",
+    "intro": "Een typische dag in Afrikalaan draait om rust, groen en korte afstanden. Je stapt 's ochtends binnen enkele minuten een park in voor de eerste wandeling, geniet van de ruimte en de stilte, en bent snel weer thuis. Het ontbreken van drukte maakt het aangenaam om in je eigen tempo de wijk te verkennen, terwijl de goede busverbindingen je mobiel houden als je verder moet.",
+    "benefits": [
+      "Met 5 parken binnen 10 minuten wandelen heb je altijd een groene plek voor de ochtendwandeling. Het Robinson Crusoëpark is populair onder lokale bewoners en heeft ruime paden voor een ontspannen wandeling.",
+      "De hondenspeelweide op 4 minuten is ideaal voor een snelle uitlaatsessie tussen twee afspraken door. Je bent er zo naartoe en terug, zonder dat het je agenda verstoort.",
+      "Dankzij de 19 bushaltes kom je makkelijk naar het centrum of andere wijken zonder auto. Handig als je na het werk een wandeling maakt en daarna nog boodschappen wilt doen.",
+      "De rustige straten en het gebrek aan veel verkeer maken het veilig om uit te laten, ook in de avond. Je hoeft niet constant op je hoede te zijn voor drukke kruispunten of fietsers.",
+      "De nabijheid van Dampoort geeft je toegang tot langere wandelroutes langs het kanaal en de groenzones richting de stadrand, perfect voor weekendwandelingen."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Afrikalaan is een kleinschalige woonwijk met 2.332 inwoners en een bevolkingsdichtheid van 1.781 inwoners per km², rustiger dan veel andere Gentse wijken.",
+    "medianPrice": 353000,
+    "inhabitants": 2332,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Afrikalaan? De wijk deelt postcode 9000 met andere delen van Gent. Filter daarom op de wijknaam 'Afrikalaan' om specifiek woningen in dit gebied te vinden.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-dampoort",
+    "gent-blaisantvest",
+    "gent-wissenhagestraat",
+    "gent-groot-begijnhof",
+    "gent-begijnhofdries"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T12:00:00Z",
+    "qualityScore": 73,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Wonen in Afrikalaan: groene woonwijk met parken op wandelafstand en goede bereikbaarheid — praktisch voor je dagelijkse routine",
+        "after": "Wonen in Afrikalaan, Gent: groene woonwijk met parken op wandelafstand en goede bereikbaarheid — praktisch voor je dagelijkse routine",
+        "reason": "local_keyword_missing"
+      },
+      {
+        "field": "intro",
+        "before": "Wat Afrikalaan aantrekkelijk maakt voor baasjes is vooral de concentratie van groen binnen handbereik. Je vindt hier 5 parken binnen comfortabele loopafstand, waaronder het Robinson Crusoëpark en de Groene Banaan. Voor wie graag wandelt met de hond is dit een luxe: je hoeft niet ver te gaan voor een frisse neus.",
+        "after": "Wat Afrikalaan aantrekkelijk maakt is vooral de concentratie van groen binnen handbereik. Je vindt hier 5 parken binnen comfortabele loopafstand, waaronder het Robinson Crusoëpark en de Groene Banaan. Voor wie graag wandelt is dit een luxe: je hoeft niet ver te gaan voor een frisse neus.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor je regelmatige benodigdheden kun je terecht bij de lokale supermarkten die vaak een basisassortiment hebben, maar voor gespecialiseerd voer of speelgoed plan je best een uitstap naar Tom & Co of een vergelijkbare winkel verder in de stad. Als je hond regelmatig medische zorg nodig heeft, is de wijk dus minder handig dan wijken waar een dierenarts om de hoek zit.",
+        "after": "Voor je regelmatige benodigdheden kun je terecht bij de lokale supermarkten die vaak een basisassortiment hebben, maar voor gespecialiseerd voer of speelgoed plan je best een uitstap naar Tom & Co of een vergelijkbare winkel verder in de stad. Als je regelmatig medische zorg voor je viervoeter nodig hebt, is de wijk dus minder handig dan wijken waar een dierenarts om de hoek zit.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Aan de andere kant: de rust en het groen compenseren dat ruimschoots, vooral als je dagelijks met je hond de deur uit gaat en meer waarde hecht aan natuur dan aan stedelijke drukte.",
+        "after": "Aan de andere kant: de rust en het groen compenseren dat ruimschoots, vooral als je dagelijks de deur uit gaat en meer waarde hecht aan natuur dan aan stedelijke drukte.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Je krijgt hier vaak wat meer ruimte voor je geld dan in het hypercentrum, met woningen die vaker een tuintje hebben — een pluspunt als je een hond hebt.",
+        "after": "Je krijgt hier vaak wat meer ruimte voor je geld dan in het hypercentrum, met woningen die vaker een tuintje hebben — een pluspunt voor wie een viervoeter heeft.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Afrikolaan is ideaal voor baasjes die rust en groen prioriteit geven boven stedelijke voorzieningen, die niet afhankelijk zijn van een dierenarts om de hoek en die het fijn vinden om in een kleinschalige, overzichtelijke wijk te wonen waar je snel de parken in kunt duiken voor een wandeling.",
+        "after": "Afrikolaan is praktisch voor wie rust en groen prioriteit geeft boven stedelijke voorzieningen, die niet afhankelijk is van een dierenarts om de hoek en die het fijn vindt om in een kleinschalige, overzichtelijke wijk te wonen waar je snel de parken in kunt duiken voor een wandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Afrikalaan biedt een solide basis voor baasjes die op zoek zijn naar groen en rust.",
+        "after": "Afrikalaan biedt een solide basis voor wie op zoek is naar groen en rust.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Op 10 en 11 minuten lopen tref je omheinde terreinen met grasondergrond, populair bij lokale baasjes voor sociale contacten tussen honden.",
+        "after": "Op 10 en 11 minuten lopen tref je omheinde terreinen met grasondergrond, populair bij lokale bewoners voor sociale contacten tussen viervoeters.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.title",
+        "before": "Dagelijks leven met je hond in Afrikalaan",
+        "after": "Dagelijks leven in Afrikalaan",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 5 parken binnen 10 minuten wandelen heb je altijd een groene plek voor de ochtendwandeling. Het Robinson Crusoëpark is populair onder lokale baasjes en heeft ruime paden voor een ontspannen wandeling.",
+        "after": "Met 5 parken binnen 10 minuten wandelen heb je altijd een groene plek voor de ochtendwandeling. Het Robinson Crusoëpark is populair onder lokale bewoners en heeft ruime paden voor een ontspannen wandeling.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[2]",
+        "before": "Dankzij de 19 bushaltes kom je makkelijk naar het centrum of andere wijken zonder auto. Handig als je na het werk je hond uitlaat en daarna nog boodschappen wilt doen.",
+        "after": "Dankzij de 19 bushaltes kom je makkelijk naar het centrum of andere wijken zonder auto. Handig als je na het werk een wandeling maakt en daarna nog boodschappen wilt doen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[3]",
+        "before": "De rustige straten en het gebrek aan veel verkeer maken het veilig om je hond uit te laten, ook in de avond. Je hoeft niet constant op je hoede te zijn voor drukke kruispunten of fietsers.",
+        "after": "De rustige straten en het gebrek aan veel verkeer maken het veilig om uit te laten, ook in de avond. Je hoeft niet constant op je hoede te zijn voor drukke kruispunten of fietsers.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[4]",
+        "before": "De nabijheid van Dampoort geeft je toegang tot langere wandelroutes langs het kanaal en de groenzones richting de stadrand, perfect voor weekendwandelingen met je viervoeter.",
+        "after": "De nabijheid van Dampoort geeft je toegang tot langere wandelroutes langs het kanaal en de groenzones richting de stadrand, perfect voor weekendwandelingen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen in deze wijk en help andere mensen de juiste buurt te vinden.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 22,
+      "topicCoverageScore": 15,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 8,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T13:30:00Z",
+    "qualityScore": 98,
+    "passedBrand": true,
+    "changesLog": [],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 30,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 15,
+      "sparseDataHandlingScore": 10
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [],
+        "preferredTermsPresent": [
+          "wijk",
+          "viervoeter",
+          "hondenspeelweide",
+          "dierenarts",
+          "wandeling",
+          "uitlaten"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (nearby)",
+          "de juiste buurt te vinden"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 42
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 6,
+        "localTipsFound": [
+          "langs het kanaal",
+          "richting de stadrand",
+          "aan de Hogeweg",
+          "nabijheid van Dampoortstation"
+        ],
+        "neighborhoodObservations": [
+          "dorps karakter 's avonds en in het weekend",
+          "rustige straten en gebrek aan veel verkeer",
+          "weinig horeca of winkelaanbod direct in de wijk"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.95,
+        "averageSentenceLength": 16.8,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "geen dierenarts in de wijk zelf",
+          "geen gespecialiseerde dierenwinkel in de wijk zelf"
+        ],
+        "gapsHandledGracefully": 2,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

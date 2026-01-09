@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-09T16:45:00Z",
+  "id": "gent-de-roos",
+  "city": "Gent",
+  "name": "De Roos",
+  "postalCode": "9031",
+  "subtitle": "Wonen in De Roos, Gent-West: rustig met groene uitloopplekken en dierenarts op 5 min — wel verder van voorzieningen",
+  "dateAdded": "2026-01-09",
+  "inhabitants": 2742,
+  "labels": [
+    {
+      "text": "Rustige woonwijk",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Nabij Drongen",
+      "icon": "fa-solid fa-house"
+    }
+  ],
+  "intro": "De Roos is een rustige residentiële wijk aan de westrand van Gent, tussen het centrum en Drongen. Met 2.742 inwoners is het hier kleinschalig en overzichtelijk — je woont vlakbij groen, maar wel verder van de stedelijke drukte en voorzieningen.\n\nVoor wie hier met een hond woont, is De Roos een wijk met duidelijke trade-offs. Groen is er voldoende: meerdere kleine parkjes liggen binnen 10 tot 15 minuten wandelen, en richting het noorden vind je de Vinderhoutse bossen op een kleine 20 minuten. Voor de dagelijkse ochtend- of avondwandeling heb je dus opties genoeg. Ook voor medische zorg zit je goed: Dierenarts Inge Verboven ligt op amper 5 minuten te voet in de Congregatiestraat, en er is nog een tweede praktijk op 7 minuten.\n\nWat je hier niet vindt, zijn hondenspeelweiden of dierenwinkels in de buurt. De dichtstbijzijnde omheinde hondenspeelweide ligt op ruim 30 minuten wandelen richting het centrum, wat voor dagelijks gebruik meestal te ver is. Voor voeding en benodigdheden reken je op supermarkten met een klein assortiment, of je rijdt even naar een gespecialiseerde dierenwinkel elders in Gent. Deze wijk is dus vooral geschikt als je de voorkeur geeft aan rust en natuur boven directe toegang tot hondenvoorzieningen.\n\nQua karakter is De Roos eerder dorps dan stedelijk. De bevolkingsdichtheid ligt met 1.517 inwoners per km² een stuk lager dan in centrale Gentse wijken, en je merkt dat in het straatbeeld: meer ruimte, minder verkeer, rustigere straten. Dat maakt het fijn voor langere wandelingen zonder drukte, maar betekent ook dat je voor boodschappen, restaurants of cultuur naar buiten de wijk moet.\n\nWie zich hier thuisvoelt? Wie van stilte houdt, graag in het groen wandelt, en geen moeite heeft om voor specifieke hondenbenodigdheden even te rijden of naar een ander deel van Gent te gaan. Wie juist zoekt naar een levendige hondenbuurt met speelweiden, dierenwinkels en veel andere hondeneigenaren, kan beter in een centralere Gentse wijk kijken.\n\nDe huizenprijzen liggen met een mediaan van €353.000 vergelijkbaar met andere residentiële wijken rond Gent. Je betaalt hier voor rust en groen, niet voor stedelijk gemak. De wijk deelt postcode 9031 met omliggende buurten, wat het zoeken naar woningen iets breder maakt.",
+  "coordinates": {
+    "lat": 51.05539680797817,
+    "lon": 3.653246331788862,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 praktijken binnen 10 min",
+      "detail": "Dichtstbijzijnde: Inge Verboven"
+    },
+    {
+      "icon": "fa-solid fa-leaf",
+      "title": "Groene ruimte",
+      "distance": "9 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Meerdere parkjes nabij",
+      "detail": "Vinderhoutse bossen op 19 min"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "32 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Geen in de wijk zelf",
+      "detail": "Dichtstbijzijnde omheind terrein"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "—",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Niet in de directe omgeving",
+      "detail": "Supermarkten met basisassortiment"
+    }
+  ],
+  "facilities": {
+    "intro": "De Roos scoort goed op veterinaire zorg met twee dierenartspraktijken vlakbij, maar is beperkt op het gebied van hondenspecifieke voorzieningen. Een gespecialiseerde dierenwinkel of hondenspeelweide vind je niet in de buurt, wel voldoende groene ruimte voor wandelingen."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide binnen wandelafstand heeft De Roos niet. De dichtstbijzijnde omheinde speelterreinen liggen richting het Gentse centrum, op ruim 30 minuten te voet — praktisch gezien te ver voor dagelijks gebruik. Voor wie hier woont betekent dit dat je je hond uitlaat in de gewone parken en groenzones, of af en toe met de auto naar een hondenspeelweide elders in Gent rijdt.",
+    "parks": []
+  },
+  "vets": {
+    "intro": "Voor veterinaire zorg zit je in De Roos goed. Twee dierenartsen liggen binnen 10 minuten wandelen, met de praktijk van Inge Verboven op amper 5 minuten in de Congregatiestraat als dichtstbijzijnde optie.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenarts Inge Verboven",
+        "street": "Congregatiestraat",
+        "streetNumber": "12A",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "5 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0520524,
+          "lon": 3.6536824
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Hans Smet",
+        "street": "Unknown",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9031",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0584423,
+          "lon": 3.6591565
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in De Roos of de directe omgeving. Voor voeding en benodigdheden reken je op de supermarkten in de wijk (die een klein basisassortiment hebben), of je rijdt naar een Tom & Co of andere dierenwinkel elders in Gent.",
+    "stores": []
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in De Roos",
+    "intro": "Een typische dag met je hond in De Roos draait vooral om rust en ruimte. Je wandelt door stille straten en kleine parkjes zonder drukte, geniet van de nabijheid van groen, en regelt hondenbenodigdheden met een klein beetje extra planning. Het is een wijk voor wie van stilte houdt en geen moeite heeft om voor sommige voorzieningen verder te rijden.",
+    "benefits": [
+      "Met meerdere kleine parkjes binnen 10 tot 15 minuten wandelen heb je genoeg afwisseling voor de dagelijkse rondes. Het dichtsbijzijnde groene plekje ligt op ongeveer 9 minuten, handig voor snelle ochtendwandelingen.",
+      "De Vinderhoutse bossen liggen op bijna 20 minuten te voet en bieden uitgebreidere wandelroutes voor wie van natuur houdt. Een mooie optie voor weekendwandelingen met je viervoeter.",
+      "Met Dierenarts Inge Verboven op 5 minuten wandelen ben je snel ter plaatse bij gezondheidsproblemen. Ook voor controles of vaccinaties hoef je niet ver te reizen.",
+      "De rustige straten en lage bevolkingsdichtheid maken het prettig wandelen met jonge of angstige honden die niet goed tegen drukte kunnen. Je komt minder auto's en andere honden tegen dan in stedelijke wijken.",
+      "Voor boodschappen en hondenvoeding volstaan de 2 supermarkten in de buurt voor een basisassortiment. Voor gespecialiseerde producten plan je een ritje naar een dierenwinkel in een andere wijk."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "De Roos is een kleine, rustige wijk met 2.742 inwoners en een bevolkingsdichtheid van 1.517 per km². De mediane huizenprijs ligt op €353.000.",
+    "medianPrice": 353000,
+    "inhabitants": 2742,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in De Roos? De wijk valt onder postcode 9031, die je deelt met omliggende buurten in Gent-West. Filter op deze postcode om woningen in en rond De Roos te vinden.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "gent-drongen-dorp",
+    "gent-beekstraat-kouter",
+    "gent-heilig-huizeken",
+    "gent-campagne",
+    "gent-assels"
+  ]
+}

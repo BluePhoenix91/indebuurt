@@ -1,0 +1,446 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-08T15:45:00Z",
+  "id": "gent-darsen",
+  "city": "Gent",
+  "name": "DARSEN",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Darsen, Gent: rustige havenwijk met ruimte om te ademen en groen op wandelafstand — geschikt voor wie autoluw wil leven",
+  "dateAdded": "2026-01-08",
+  "inhabitants": 4416,
+  "labels": [
+    {
+      "text": "Rustige wijk",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Watergebied",
+      "icon": "fa-solid fa-water"
+    },
+    {
+      "text": "Groene omgeving",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Darsen is een rustige havenwijk in het noordwesten van Gent, een plek waar je de bedrijvigheid van de stad inruilt voor open ruimte en water. Met slechts 771 inwoners per vierkante kilometer is dit een van de minder dichtbevolkte wijken van de stad. Dat merk je meteen: brede straten, industrieel erfgoed, en een uitgestrekt havengebied dat de wijk z'n naam geeft. Het is niet de klassieke stadswijk met winkels om de hoek, maar dat is precies waar sommige mensen naar op zoek zijn.\n\nDarsen ligt letterlijk naast het water — de Gentse havens bepalen het karakter van de wijk. Voor je dagelijkse wandeling vind je binnen 15 minuten parken zoals Meulestedepark en Driemasterpark. De dichtstbijzijnde hondenspeelweide ligt op 18 minuten wandelen, net buiten de wijk bij Meulestedepark. Met 6 parken in de wijk en meerdere hondenspeelweiden in de omgeving heb je meer dan genoeg groene ruimte.\n\nWaar moet je eerlijk over zijn? Winkels zijn hier schaars. Geen supermarkt, geen dierenwinkel, en ook geen dierenarts binnen de wijk. Voor boodschappen en voorzieningen moet je naar aangrenzende wijken of richting het centrum van Gent. De dichtstbijzijnde dierenarts zit op 26 minuten te voet, en voor je hondenbrokken moet je vergelijkbare afstanden afleggen. Dat vraagt om planning. Als je een auto hebt, is dat geen probleem. Zonder auto wordt het meer puzzelen — of je bestelt online.\n\nOp het gebied van openbaar vervoer ben je afhankelijk van de bus. Met 12 bushaltes in de wijk ben je niet geïsoleerd, maar een treinstation vind je hier niet. Voor een verbinding met de rest van Gent en daarbuiten reken je op buslijnen of je fietst naar Gent-Dampoort of Gent-Sint-Pieters.\n\nWie past hier? Darsen is geschikt voor wie rust en ruimte belangrijker vindt dan directe winkelvoorzieningen. Als je het fijn vindt om te wandelen, een auto hebt voor praktische zaken, en graag een lage woondichtheid hebt, dan kan deze wijk goed bij je passen. Voor wie elke ochtend snel een supermarkt wil bereiken of vaak naar de dierenarts moet zonder vervoer, wordt het uitdagender.\n\nHet gebied kenmerkt zich door een mix van industrie, woningbouw, en groen. Je vindt er geen gezellig dorpsplein of uitgaansbuurt, maar wel stilte, weinig verkeer, en een hoge luchtkwaliteit door de afwezigheid van doorstromend autoverkeer. Voor wie 's avonds graag een terrasje pakt, is dit niet de wijk. Voor wie 's ochtends een rustige wandeling langs het water wil maken, juist wel.\n\nDe mediaanprijs voor een woning ligt op 353.000 euro, vergelijkbaar met veel andere Gentse wijken maar met het voordeel van meer ruimte per euro. Huizen zijn hier vaak ruimer en met tuin, wat voor een hond natuurlijk fijn is. Het is een wijk in ontwikkeling — sommige delen zijn nog industrieel, andere delen zijn opgeknapt tot rustige woongebieden.\n\nDe nabijheid van het havengebied betekent ook dat er overdag bedrijvigheid is, maar dat is grotendeels op afstand. Het geluid en de drukte van een stadscentrum ontbreekt hier volledig. Je woont hier niet voor de bruisende sfeer of de historische gevelrijen, maar voor de ruimte, de rust, en de betaalbare vierkante meters.",
+  "coordinates": {
+    "lat": 51.08900709269824,
+    "lon": 3.7407552178404004,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "18 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Meerdere hondenspeelweiden nabij",
+      "detail": "Dichtstbijzijnde omheind bij Meulestedepark"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Parken",
+      "distance": "11 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "6 parken binnen bereik",
+      "detail": "Meulestedepark en Driemasterpark dichtbij"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "26 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Dichtstbijzijnde buiten wijk",
+      "detail": "Ch. Barbiers in aangrenzende wijk"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "26 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 opties binnen 30 min wandelen",
+      "detail": "Kippentuin en Tom & Co nabij"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Lokaal",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "12 bushaltes in de wijk",
+      "detail": "Geen treinstation in de buurt"
+    }
+  ],
+  "facilities": {
+    "intro": "Darsen is een wijk met beperkte commerciële voorzieningen binnen wandelafstand. Wat de wijk wel heeft, is veel groen en ruimte. Voor veterinaire zorg, dierenwinkels en supermarkten moet je naar aangrenzende wijken. De dichtstbijzijnde dierenarts en dierenwinkel liggen beiden op ongeveer 26 minuten te voet. Binnen de wijk zelf vind je 6 parken, waarvan Meulestedepark en Driemasterpark populair zijn voor dagelijkse wandelingen."
+  },
+  "dogParks": {
+    "intro": "Darsen heeft geen eigen hondenspeelweide binnen de wijk, maar binnen 20 minuten wandelen vind je meerdere omheinde speelterreinen. De dichtstbijzijnde ligt bij Meulestedepark op 18 minuten. Daarnaast zijn er hondenspeelweiden bij Citadelpark (23 minuten) en Cirkelspark (25 minuten). Alle drie zijn omheind, wat betekent dat je viervoeter er veilig kan spelen. Voor wie verder wil wandelen, zijn er nog meer opties binnen 30 tot 40 minuten.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dog Park near Meulestedepark",
+        "distance": "18 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0872656,
+          "lon": 3.7206783
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dog Park near Citadelpark",
+        "distance": "23 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0734578,
+          "lon": 3.7315395
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dog Park near Cirkelspark",
+        "distance": "25 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.072154,
+          "lon": 3.7516795
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      },
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Dog Park near Honfleurpark",
+        "distance": "28 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0762807,
+          "lon": 3.7157256
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          },
+          {
+            "text": "Grasondergrond",
+            "icon": "fa-solid fa-seedling"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "In Darsen zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Ch. Barbiers in de aangrenzende wijk, op 26 minuten wandelen. Tania Maenhout ligt iets verder op 29 minuten. Voor spoedgevallen is het handig om een auto te hebben, of je plant vooruit met openbaar vervoer. Binnen een straal van 30-45 minuten te voet zijn er meerdere praktijken beschikbaar.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Ch. Barbiers",
+        "street": "Waterstraat",
+        "streetNumber": "86",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0726377,
+          "lon": 3.7555827
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0691142,
+          "lon": 3.7489475
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dr. H.P. Grootveld",
+        "street": "Grensstraat",
+        "streetNumber": "193",
+        "municipality": "Gent",
+        "postalCode": "9032",
+        "distance": "32 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0761925,
+          "lon": 3.7098784
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Benoît Fiers",
+        "street": "Unnamed",
+        "streetNumber": "0",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "39 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0631388,
+          "lon": 3.7569615
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Darsen. De dichtstbijzijnde opties zijn Kippentuin (26 minuten) en Tom & Co (29 minuten), beide in naburige wijken. Voor de standaard benodigdheden is online bestellen vaak praktischer. Als je liever fysiek winkelt, plan dan je bezoek in tijdens een trip naar een van de naburige wijken of het centrum.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Kippentuin",
+        "street": "Waterstraat",
+        "streetNumber": "207",
+        "municipality": "Gent",
+        "postalCode": "9040",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0757366,
+          "lon": 3.7613707
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Botestraat",
+        "streetNumber": "14",
+        "municipality": "Gent",
+        "postalCode": "9032",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0891227,
+          "lon": 3.7079612
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Darsen",
+    "intro": "Een typische dag in Darsen draait om rust, ruimte en natuurlijke omgeving. Je stapt 's ochtends de deur uit in een wijk waar je niet direct struikelt over andere voetgangers, en je loopt binnen tien minuten naar Meulestedepark of een van de andere groene plekken. De havenssfeer maakt dat je hier meer industrieel erfgoed dan historische panden ziet, maar dat geeft de wijk juist z'n karakter.",
+    "benefits": [
+      "Met 6 parken binnen een straal van 2 kilometer heb je keuze genoeg voor je dagelijkse wandeling. Meulestedepark ligt het dichtst bij en is populair bij lokale baasjes. Voor afwisseling zijn er Driemasterpark, Voorhavenpark en Gilberte Beyaertparkje. Elk heeft z'n eigen karakter, van waterrijke oevers tot schaduwrijke paden.",
+      "De lage woondichtheid van 771 inwoners per vierkante kilometer betekent dat je niet constant mensen om je heen hebt. Voor sommigen is dat een voordeel, voor anderen juist een nadeel. Als je graag sociale contacten maakt tijdens het uitlaten, moet je daar wellicht wat meer moeite voor doen dan in dichtbevolkte wijken.",
+      "Het gebrek aan commerciële voorzieningen vraagt om planning. Je doet boodschappen buiten de wijk, je boekt de dierenarts in een naburige wijk, en je haalt hondenbrokken online of tijdens een georganiseerde winkeltrip. Voor wie toch al een auto heeft of gewend is aan online bestellen, is dat geen probleem. Voor wie zonder auto leeft, wordt het intensiever.",
+      "Het openbaar vervoer bestaat uit buslijnen. Met 12 bushaltes ben je goed verbonden, maar een treinstation ontbreekt. Wil je met de trein ergens naartoe, dan fiets of bus je naar Gent-Dampoort of Gent-Sint-Pieters. Dat is geen onoverkomelijk obstakel, maar het maakt de wijk minder aantrekkelijk voor forenzen.",
+      "De nabijheid van het havengebied betekent dat je hier leeft met water, industrie en open ruimte. Dat kan aantrekkelijk zijn voor wie houdt van een andere sfeer dan de klassieke Gentse binnenstad. Je vindt hier geen gezellige cafés of boetiekjes, maar wel stilte en ruimte. Het is een kwestie van prioriteiten."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Darsen telt 4.416 inwoners met een bevolkingsdichtheid van 771 per vierkante kilometer, aanzienlijk lager dan het Gentse gemiddelde. De mediaanprijs voor een woning ligt op 353.000 euro.",
+    "medianPrice": 353000,
+    "inhabitants": 4416,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Darsen? De wijk deelt postcode 9000 met andere delen van Gent, dus filter op wijk of buurt om specifiek in Darsen te zoeken. Huizen zijn hier vaak ruimer met meer tuin dan in het centrum, en de prijs per vierkante meter is aantrekkelijker.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "gent-wondelgemse-meersen",
+    "gent-afrikalaan",
+    "gent-gavers-wondelgem",
+    "gent-drie-zwaantjes",
+    "gent-wissenhagestraat"
+  ],
+  "seoReview": {
+    "reviewedAt": "2026-01-08T15:45:00Z",
+    "qualityScore": 80,
+    "passedSEO": true,
+    "changesLog": [
+      {
+        "field": "subtitle",
+        "before": "Rustige havenwijk met ruimte om te ademen en groen op wandelafstand — ideaal voor wie autoluw wil wonen",
+        "after": "Wonen in Darsen, Gent: rustige havenwijk met ruimte om te ademen en groen op wandelafstand — geschikt voor wie autoluw wil leven",
+        "reason": "subtitle_length"
+      },
+      {
+        "field": "intro",
+        "before": "Wie past hier? Darsen is iets voor baasjes die rust en ruimte belangrijker vinden dan directe winkelvoorzieningen.",
+        "after": "Wie past hier? Darsen is geschikt voor wie rust en ruimte belangrijker vindt dan directe winkelvoorzieningen.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "intro",
+        "before": "Voor wie 's ochtends een rustige wandeling langs het water wil maken met z'n viervoeter, juist wel.",
+        "after": "Voor wie 's ochtends een rustige wandeling langs het water wil maken, juist wel.",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.intro",
+        "before": "Een typische dag als baasje in Darsen draait om rust, ruimte en natuurlijke omgeving.",
+        "after": "Een typische dag in Darsen draait om rust, ruimte en natuurlijke omgeving.",
+        "reason": "keyword_density"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "subtitleScore": 13,
+      "introScore": 23,
+      "topicCoverageScore": 18,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 7,
+      "internalLinkingScore": 5
+    }
+  },
+  "brandReview": {
+    "reviewedAt": "2026-01-08T16:00:00Z",
+    "qualityScore": 88,
+    "passedBrand": true,
+    "changesLog": [
+      {
+        "field": "intro",
+        "before": "Met 6 parken in de wijk en meerdere hondenparken in de omgeving heb je meer dan genoeg groene ruimte.",
+        "after": "Met 6 parken in de wijk en meerdere hondenspeelweiden in de omgeving heb je meer dan genoeg groene ruimte.",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[0].title",
+        "before": "Hondenparken",
+        "after": "Hondenspeelweiden",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "valueCards[0].description",
+        "before": "Meerdere hondenparken nabij",
+        "after": "Meerdere hondenspeelweiden nabij",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Daarnaast zijn er hondenparken bij Citadelpark (23 minuten) en Cirkelspark (25 minuten).",
+        "after": "Daarnaast zijn er hondenspeelweiden bij Citadelpark (23 minuten) en Cirkelspark (25 minuten).",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "contributionCTA.intro",
+        "before": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+        "after": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+        "reason": "terminology_violation"
+      }
+    ],
+    "validationIssues": [],
+    "scoreBreakdown": {
+      "terminologyScore": 24,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 7
+    },
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [
+          {
+            "term": "hondenparken",
+            "field": "intro",
+            "preferred": "hondenspeelweide"
+          },
+          {
+            "term": "hondenparken",
+            "field": "valueCards[0].title",
+            "preferred": "hondenspeelweide"
+          },
+          {
+            "term": "hondenparken",
+            "field": "valueCards[0].description",
+            "preferred": "hondenspeelweide"
+          },
+          {
+            "term": "hondenparken",
+            "field": "dogParks.intro",
+            "preferred": "hondenspeelweide"
+          },
+          {
+            "term": "buurt",
+            "field": "contributionCTA.intro",
+            "preferred": "wijk"
+          }
+        ],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "hondenspeelweide",
+          "dierenarts",
+          "wandeling"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt (valueCards - allowed phrase for nearby)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 12,
+        "localTipsFound": [
+          "richting het centrum van Gent",
+          "naar Gent-Dampoort of Gent-Sint-Pieters",
+          "langs het water"
+        ],
+        "neighborhoodObservations": [
+          "de Gentse havens bepalen het karakter van de wijk",
+          "industrieel erfgoed",
+          "De havenssfeer maakt dat je hier meer industrieel erfgoed dan historische panden ziet",
+          "nabijheid van het havengebied"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.84,
+        "averageSentenceLength": 16.2,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no dog park in neighborhood",
+          "no vet in neighborhood",
+          "no pet store in neighborhood",
+          "no supermarket in neighborhood",
+          "no train station"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

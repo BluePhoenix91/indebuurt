@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-01-08T15:00:00Z",
+  "generatedAt": "2026-01-08T13:45:00Z",
   "id": "antwerpen-astrid-bad-oostwijk",
   "city": "Antwerpen",
   "name": "ASTRID BAD (OOSTWIJK)",
   "postalCode": "2000",
-  "subtitle": "Wonen in ASTRID BAD, Antwerpen: stedelijk en compact met 4 hondenspeelweiden binnen kwartier wandelen",
+  "subtitle": "Wonen in Astrid Bad Antwerpen: compact, station op loopafstand en groen binnen 12 min — stedelijk met ruimte voor wandelen",
   "dateAdded": "2026-01-08",
   "inhabitants": 23586,
   "labels": [
@@ -14,59 +14,75 @@
       "icon": "fa-solid fa-city"
     },
     {
-      "text": "Dicht bevolkt",
-      "icon": "fa-solid fa-people-roof"
-    },
-    {
       "text": "Goed bereikbaar",
       "icon": "fa-solid fa-train"
+    },
+    {
+      "text": "Schoolwijk",
+      "icon": "fa-solid fa-school"
     }
   ],
-  "intro": "ASTRID BAD in Oostwijk is een compacte, dichtbevolkte stadswijk in Antwerpen. Met 18.000 inwoners per vierkante kilometer woon je hier midden in de stedelijke drukte, omringd door voorzieningen en met het openbaar vervoer om de hoek. Voor dagelijks leven met een hond betekent dit een typisch stadsleven: weinig ruimte direct voor de deur, maar wel goede toegang tot hondenvoorzieningen in de omgeving.\n\nDe wijk zelf heeft beperkte groene ruimte. Er is één klein park binnen de wijk, maar voor een echte wandeling of een bezoek aan een hondenspeelweide trek je de wijk uit. Het goede nieuws: binnen een straal van 12 tot 18 minuten wandelen vind je 4 omheinde hondenspeelweiden, verspreid over de aangrenzende wijken. Dat maakt het dagelijkse uitlaten goed te plannen, zeker als je de vaste routes van andere hondenliefhebbers leert kennen.\n\nVoor medische zorg en benodigdheden ben je aangewezen op praktijken en winkels buiten de wijk. De dichtstbijzijnde dierenarts ligt op 14 minuten wandelen (Dierenartsencentrum De Merode of AniCura), wat acceptabel is voor routinebezoeken maar minder handig bij spoedeisende situaties. Dierenwinkel De Pauw bereik je ook in 14 minuten, en voor dagelijkse benodigdheden hebben de 5 supermarkten in de wijk vaak een basisassortiment.\n\nDe bereikbaarheid is een sterk punt. Met 30 bushaltes en een treinstation in de wijk kom je snel waar je moet zijn. Dat is praktisch als je regelmatig naar een dierenarts verder weg moet of als je uitstapjes naar grotere groene zones buiten Antwerpen plant. De stedelijke omgeving betekent wel dat je tijdens de piekuren rekening houdt met drukte op straat en in het openbaar vervoer.\n\nDeze wijk past bij wie stedelijk comfort waardeert en niet verwacht dat alles voor de deur ligt. Je hebt discipline nodig om je hond voldoende beweging te geven — spontaan uitlaten in een groot park is hier geen optie. Maar als je gestructureerd te werk gaat en de omheinde speelweiden in de omliggende wijken benut, is het goed te doen. Voor wie rust, ruimte en groen prioriteit geeft, is dit niet de ideale plek.",
+  "intro": "Astrid Bad is een levendige stadswijk in het oosten van Antwerpen, onderdeel van de grotere Oostwijk. Met ruim 23.000 inwoners op een compacte oppervlakte is dit een van de dichtbevolkte wijken van de stad — je woont hier midden in het stedelijke leven. Het Centraal Station ligt op loopafstand, evenals het Astridplein en de brede winkelstraten van de binnenstad. Voor wie de energie van de stad waardeert en voorzieningen binnen handbereik wil, biedt deze wijk precies dat.\n\nVoor je dagelijkse wandelingen vind je hier een interessante balans. Hoewel de wijk zelf niet overloopt van groenruimte — er is slechts één klein park in het hart van het gebied — liggen meerdere omheinde speelweiden binnen 12 tot 20 minuten te voet. De dichtstbijzijnde omheinde speelplek ligt op 12 minuten en is volledig afgerasterd, geschikt voor een veilige uitlaatsessie. Daarnaast heb je toegang tot vijf verschillende dierenartspraktijken binnen een straal van 14 tot 29 minuten, waaronder gespecialiseerde centra zoals Dierenartsencentrum De Merode en AniCura. Voor dagelijkse benodigdheden zijn er meerdere dierenwinkels op wandelafstand, met De Pauw als dichtstbijzijnde optie op 14 minuten.\n\nDe stedelijke dichtheid brengt wel trade-offs met zich mee. Met bijna 18.000 inwoners per vierkante kilometer merk je dat in het dagelijkse leven: drukke straten, beperkte parkeermogelijkheden en weinig rustige groene ruimtes direct voor de deur. Je wandelroutine vraagt hier wat meer planning — je loopt niet zomaar een uitgestrekt park binnen zoals in de buitenwijken. Maar daar staat tegenover dat je nooit ver hoeft te lopen voor praktische zaken: 5 supermarkten, 9 apotheken en 21 scholen liggen allemaal binnen de wijk. De 30 bushaltes en het nabije treinstation maken dat je makkelijk de stad in of uit komt, ook voor uitstapjes naar grotere parken buiten de wijk.\n\nDeze wijk is praktisch voor wie van stedelijk gemak houdt en niet per se een tuin of groot park voor de deur nodig heeft. Jonge professionals, studenten en gezinnen die mobiliteit waarderen, voelen zich hier thuis. Voor wie met een rustige viervoeter wandelt past dit goed, maar wie een speelse hond heeft die dagelijks moet kunnen rennen, zal vaker de omheinde speelweiden buiten de wijk opzoeken. De mediaanprijs voor een woning ligt op €353.000, vergelijkbaar met andere centraal gelegen wijken in Antwerpen.\n\nWat Astrid Bad kenmerkt is de mix van wonen, werken en leren. De vele scholen geven de wijk een dynamisch karakter, met schoolkinderen op straat tijdens de spitsuren en een jong, divers publiek. De sfeer is informeel en pragmatisch — je groet je buren, maar verwacht geen dorps buurtgevoel. Het is een wijk waar je efficient woont, met alles binnen handbereik en de stad als uitvalsbasis voor werk, vrije tijd en sociale contacten.",
   "coordinates": {
     "lat": 51.20729700372701,
     "lon": 4.42208056953946,
-    "zoom": 14
+    "zoom": 15
   },
   "valueCards": [
     {
       "icon": "fa-solid fa-dog",
-      "title": "Hondenparken",
+      "title": "Hondenspeelweiden",
       "distance": "12 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "4 omheinde speelweiden in de omgeving",
-      "detail": "Dichtstbijzijnde op 12 min wandelen"
+      "description": "5 omheinde speelweiden",
+      "detail": "Dichtstbijzijnde op 12 min"
     },
     {
       "icon": "fa-solid fa-stethoscope",
       "title": "Dierenartsen",
       "distance": "14 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "2 praktijken op gelijke afstand",
-      "detail": "De Merode of AniCura"
+      "description": "5 praktijken binnen bereik",
+      "detail": "Gespecialiseerde centra"
     },
     {
       "icon": "fa-solid fa-bone",
       "title": "Dierenwinkels",
       "distance": "14 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "4 gespecialiseerde winkels bereikbaar",
-      "detail": "De Pauw of Pawlov dichtsbij"
+      "description": "5 winkels binnen bereik",
+      "detail": "Vanaf De Pauw op 14 min"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping",
+      "title": "Supermarkten",
+      "distance": "5 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "5 supermarkten",
+      "detail": "Dagelijkse boodschappen"
     },
     {
       "icon": "fa-solid fa-bus",
       "title": "Openbaar vervoer",
-      "distance": "5 mins",
+      "distance": "2 mins",
       "distanceIcon": "fa-solid fa-person-walking",
-      "description": "30 bushaltes en 1 treinstation",
-      "detail": "Uitstekende verbindingen"
+      "description": "30 bushaltes + station",
+      "detail": "Uitstekend bereikbaar"
+    },
+    {
+      "icon": "fa-solid fa-school",
+      "title": "Scholen",
+      "distance": "3 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "21 scholen in de wijk",
+      "detail": "Gezinsvriendelijk"
     }
   ],
   "facilities": {
-    "intro": "ASTRID BAD heeft beperkte hondenvoorzieningen binnen de wijk zelf, maar de omliggende wijken compenseren dit goed. Binnen een kwartier wandelen bereik je zowel hondenspeelweiden als dierenartsen en winkels. De hoge dichtheid van bushaltes maakt het ook mogelijk om met je viervoeter naar verder gelegen parken of specialisten te reizen."
+    "intro": "Astrid Bad biedt een degelijke set voorzieningen voor wie met een hond woont, met de kanttekening dat veel hondenspecifieke faciliteiten zich nét buiten de wijk bevinden. De dichtstbijzijnde omheinde speelweide ligt op 12 minuten wandelen, en je hebt keuze uit vijf dierenartspraktijken binnen 14 tot 29 minuten. Voor dagelijkse benodigdheden zoals voer en snacks zijn meerdere dierenwinkels bereikbaar te voet. De wijk zelf is compact en stedelijk, met de nadruk op bereikbaarheid en praktische voorzieningen."
   },
   "dogParks": {
-    "intro": "In de wijk zelf is geen hondenspeelweide, maar binnen 12 tot 18 minuten wandelen vind je 4 omheinde speelweiden. Ze liggen verspreid over de aangrenzende wijken, wat je flexibiliteit geeft om af te wisselen. Alle vier zijn omheind, wat veilig is voor je viervoeter. Voor een dagelijkse uitlaatplek zonder omheining is er één klein park vlakbij de wijk.",
+    "intro": "In Astrid Bad zelf vind je geen officiële omheinde speelweide, maar binnen een straal van 12 tot 20 minuten wandelen liggen vijf omheinde speelplekken. De dichtstbijzijnde ligt op 12 minuten lopen en is volledig afgerasterd, wat handig is voor honden die graag vrijuit rennen zonder direct onder toezicht te staan. Alle speelweiden zijn omheind, behalve de verste optie op 20 minuten. Voor een snelle ochtendwandeling loop je dus iets langer dan in wijken met een eigen speelweide, maar de keuze is wel ruim.",
     "parks": [
       {
         "icon": "fa-solid fa-dog",
@@ -86,7 +102,7 @@
       },
       {
         "icon": "fa-solid fa-dog",
-        "name": "Hondenspeelweide Borgerhout-Oost",
+        "name": "Hondenspeelweide Borgerhout",
         "distance": "15 mins",
         "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
@@ -102,7 +118,7 @@
       },
       {
         "icon": "fa-solid fa-dog",
-        "name": "Hondenspeelweide Borgerhout-Zuid",
+        "name": "Hondenspeelweide Berchem-Zuid",
         "distance": "17 mins",
         "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
@@ -118,7 +134,7 @@
       },
       {
         "icon": "fa-solid fa-dog",
-        "name": "Hondenspeelweide Berchem-Zuid",
+        "name": "Hondenspeelweide Zurenborgwijk",
         "distance": "18 mins",
         "distanceIcon": "fa-solid fa-person-walking",
         "coordinates": {
@@ -135,7 +151,7 @@
     ]
   },
   "vets": {
-    "intro": "Voor veterinaire zorg trek je de wijk uit. Op 14 minuten wandelen vind je twee praktijken: Dierenartsencentrum De Merode in Berchem en AniCura bij Borsbeeksebrug. Beide liggen op vrijwel gelijke afstand, wat je keuze geeft. Voor spoedgevallen is de afstand acceptabel, maar niet ideaal als je snel ter plaatse wilt zijn.",
+    "intro": "Voor medische zorg heb je in Astrid Bad meerdere opties binnen wandelafstand. De dichtstbijzijnde dierenartspraktijken liggen op 14 minuten: Dierenartsencentrum De Merode en AniCura, beide gespecialiseerde centra met ruime openingstijden. Verder zijn er nog drie praktijken binnen 16 tot 29 minuten, waaronder Dierenarts Tony De Vries. Voor spoedgevallen is het handig dat je keuze hebt uit meerdere locaties.",
     "practices": [
       {
         "icon": "fa-solid fa-stethoscope",
@@ -168,8 +184,8 @@
       {
         "icon": "fa-solid fa-stethoscope",
         "name": "Dierenarts Tony De Vries",
-        "street": "Unnamed",
-        "streetNumber": "Unnamed",
+        "street": "Ballaarstraat",
+        "streetNumber": "6",
         "municipality": "Antwerpen",
         "postalCode": "2000",
         "distance": "16 mins",
@@ -178,11 +194,25 @@
           "lat": 51.204489,
           "lon": 4.404204
         }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Eddy Janssens",
+        "street": "Generaal Eisenhowerlei",
+        "streetNumber": "291",
+        "municipality": "Antwerpen",
+        "postalCode": "2600",
+        "distance": "29 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1930795,
+          "lon": 4.4461398
+        }
       }
     ]
   },
   "petStores": {
-    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk, maar binnen 14 tot 21 minuten wandelen liggen 4 opties. De Pauw is het dichtst bij (14 minuten), gevolgd door Pawlov en Tom & Co. Voor dagelijkse benodigdheden zoals brokken kun je ook terecht bij de lokale supermarkten, die vaak een basisassortiment voeren.",
+    "intro": "In Astrid Bad zelf is geen gespecialiseerde dierenwinkel gevestigd, maar binnen 14 tot 27 minuten wandelen vind je vijf opties voor voer, snacks en speelgoed. De Pauw op de Oudevaartplaats ligt het dichtst bij (14 minuten), gevolgd door Pawlov (18 minuten) en Tom & Co (20 minuten). Voor dagelijkse basisbenodigdheden hebben ook de supermarkten in de wijk meestal een klein assortiment.",
     "stores": [
       {
         "icon": "fa-solid fa-bone",
@@ -215,8 +245,8 @@
       {
         "icon": "fa-solid fa-bone",
         "name": "Tom & Co",
-        "street": "Unnamed",
-        "streetNumber": "Unnamed",
+        "street": "Diksmuidelaan",
+        "streetNumber": "79-83",
         "municipality": "Antwerpen",
         "postalCode": "2600",
         "distance": "20 mins",
@@ -229,8 +259,8 @@
       {
         "icon": "fa-solid fa-bone",
         "name": "pet à porter",
-        "street": "Unnamed",
-        "streetNumber": "Unnamed",
+        "street": "Schrijnwerkersstraat",
+        "streetNumber": "19",
         "municipality": "Antwerpen",
         "postalCode": "2000",
         "distance": "21 mins",
@@ -243,31 +273,31 @@
     ]
   },
   "dailyLife": {
-    "title": "Dagelijks leven met je hond in ASTRID BAD",
-    "intro": "Een typische dag in ASTRID BAD draait om planning en routine. De wijk zelf biedt weinig ruimte voor spontane wandelingen, maar met de omheinde speelweiden binnen 15 minuten bereik kun je je viervoeter voldoende beweging geven. Het stedelijke karakter vraagt om aanpassing: je deelt het trottoir met veel voetgangers en fietsers, en groene plekken zijn schaars.",
+    "title": "Dagelijks leven met je hond in Astrid Bad",
+    "intro": "Een typische dag in Astrid Bad draait om efficiëntie en stedelijk gemak. Je ochtendwandeling voert je door drukke straten en langs het kleine parkje in de wijk, of je plant een langere tocht naar een van de omheinde speelweiden binnen 12 tot 20 minuten. Het stedelijke karakter vraagt wat aanpassing — je plant je routes bewust en profiteert van de uitstekende bereikbaarheid om regelmatig naar grotere groene zones buiten de wijk te gaan. Voor wie van de stadse dynamiek houdt en niet per se een rustig park voor de deur nodig heeft, biedt Astrid Bad een praktische thuisbasis.",
     "benefits": [
-      "Met 4 omheinde hondenspeelweiden binnen 12 tot 18 minuten wandelen heb je voldoende keuze voor afwisseling. Elke speelweide ligt in een andere richting, wat je dagelijkse routes gevarieerd houdt. De omheiningen geven vrijheid om je hond los te laten rennen zonder zorgen.",
-      "De 30 bushaltes en het treinstation in de wijk maken het mogelijk om met je viervoeter naar grotere parken buiten de wijk te reizen. Op warme dagen of in het weekend kun je zo uitwijken naar het Rivierenhof of Park Spoor Oost, waar meer ruimte en schaduw is.",
-      "De hoge dichtheid van supermarkten (5 stuks) zorgt ervoor dat je altijd snel basisproducten voor je hond kunt halen, zonder ver te hoeven lopen. Voor gespecialiseerd voer of speelgoed plan je een bezoek aan De Pauw of Pawlov, beide binnen een kwartier bereikbaar.",
-      "Als je routinematig werkt, is de afstand tot de dierenartsen acceptabel. Met 14 minuten wandelen naar twee verschillende praktijken heb je keuze en kun je gemakkelijk een afspraak inplannen. Voor spoedgevallen is het wel belangrijk om de dichtstbijzijnde route goed te kennen.",
-      "De stedelijke omgeving betekent dat je hond gewend raakt aan drukte, verkeer en andere mensen. Dat kan een voordeel zijn als je regelmatig met je viervoeter de stad in gaat of het openbaar vervoer gebruikt. Socialisatie gebeurt hier vanzelf.",
-      "Het compacte karakter van de wijk houdt wel in dat je geen grote, afgesloten tuin of rustige uitlooproutes voor de deur hebt. Als je hond veel ruimte nodig heeft of nerveus is in drukke omgevingen, vraagt dit extra aandacht en mogelijk dagelijkse trips naar rustiger gebieden buiten de wijk."
+      "Met 30 bushaltes en het Centraal Station op loopafstand ben je snel overal in Antwerpen, wat handig is voor uitstapjes naar grotere parken zoals het Nachtegalenpark of Rivierenhof.",
+      "De vijf supermarkten in de wijk maken dagelijkse boodschappen — inclusief hondenvoer en snacks — makkelijk te voet bereikbaar, zonder dat je ver moet lopen of de auto nodig hebt.",
+      "Hoewel de dichtstbijzijnde omheinde speelweide 12 minuten wandelen is, heb je keuze uit vijf verschillende omheinde locaties binnen 20 minuten, wat variatie biedt in je wandelroutine.",
+      "De aanwezigheid van vijf dierenartspraktijken binnen 14 tot 29 minuten geeft je genoeg keuze en back-upopties voor zowel controles als spoedgevallen.",
+      "De compacte opzet van de wijk betekent dat je nooit ver loopt voor praktische zaken zoals apotheken (9 stuks) of winkels, wat het dagelijkse leven efficiënt maakt.",
+      "De stedelijke dichtheid en de aanwezigheid van 21 scholen maken dat je hond gewend raakt aan drukte, geluid en sociale interacties — geschikt voor socialisatie."
     ]
   },
   "contributionCTA": {
     "heading": "Ken je deze wijk?",
-    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste wijk te vinden.",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
     "typeformId": "buurt-feedback"
   },
   "statistics": {
-    "intro": "ASTRID BAD is een zeer dicht bevolkte stadswijk met 23.586 inwoners en een dichtheid van 18.172 inwoners per km². De mediane huizenprijs ligt op €353.000, vergelijkbaar met het Antwerpse stadsgemiddelde.",
+    "intro": "Astrid Bad telt ruim 23.000 inwoners op een beperkte oppervlakte, wat resulteert in een hoge bevolkingsdichtheid van bijna 18.000 inwoners per vierkante kilometer — een van de dichtste wijken van Antwerpen.",
     "medianPrice": 353000,
     "inhabitants": 23586,
     "availableHomes": null,
     "pricePerSqm": null
   },
   "houses": {
-    "intro": "Op zoek naar een woning in ASTRID BAD? Deze wijk deelt postcode 2000 met het centrale deel van Antwerpen, dus filter je zoekopdracht best op wijknaam of straatnamen om alleen woningen in deze specifieke wijk te zien.",
+    "intro": "Op zoek naar een woning in Astrid Bad? Met postcode 2000 kun je je huizenzoektocht filteren op deze centraal gelegen wijk. Let erop dat meerdere wijken in Antwerpen dezelfde postcode delen, dus verfijn je zoekopdracht met specifieke straatnamen of wijknamen.",
     "hasOwnPostalCode": false
   },
   "neighboringNeighborhoods": [
@@ -278,138 +308,162 @@
     "antwerpen-borgerhout-gemeentehuis"
   ],
   "seoReview": {
-    "reviewedAt": "2026-01-08T14:30:00Z",
-    "qualityScore": 82,
+    "reviewedAt": "2026-01-08T13:45:00Z",
+    "qualityScore": 78,
     "passedSEO": true,
     "changesLog": [
       {
         "field": "subtitle",
-        "before": "Compact stedelijk wonen in Antwerpen met 4 omheinde hondenspeelweiden binnen kwartier — dichte wijk met goede bereikbaarheid",
-        "after": "Wonen in ASTRID BAD, Antwerpen: stedelijk en compact met 4 hondenspeelweiden binnen kwartier wandelen",
+        "before": "Wonen in een compacte stadswijk met uitstekende bereikbaarheid en hondenvoorzieningen op wandelafstand",
+        "after": "Wonen in Astrid Bad Antwerpen: compact, station op loopafstand en groen binnen 12 min — stedelijk met ruimte voor wandelen",
         "reason": "subtitle_length"
       },
       {
         "field": "intro",
-        "before": "Voor baasjes betekent dit een typisch stadsleven",
-        "after": "Voor dagelijks leven met een hond betekent dit een typisch stadsleven",
+        "before": "Als baasje vind je hier een interessante balans. Hoewel de wijk zelf niet overloopt van groenruimte — er is slechts één klein park in het hart van het gebied — liggen meerdere hondenspeelweiden binnen 12 tot 20 minuten wandelen.",
+        "after": "Voor je dagelijkse wandelingen vind je hier een interessante balans. Hoewel de wijk zelf niet overloopt van groenruimte — er is slechts één klein park in het hart van het gebied — liggen meerdere omheinde speelweiden binnen 12 tot 20 minuten te voet.",
         "reason": "keyword_density"
       },
       {
         "field": "intro",
-        "before": "zeker als je de vaste routes van andere baasjes leert kennen",
-        "after": "zeker als je de vaste routes van andere hondenliefhebbers leert kennen",
+        "before": "De dichtstbijzijnde omheinde speelplek ligt op 12 minuten en is volledig afgerasterd, ideaal voor een veilige uitlaatsessie.",
+        "after": "De dichtstbijzijnde omheinde speelplek ligt op 12 minuten en is volledig afgerasterd, geschikt voor een veilige uitlaatsessie.",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Je dagelijkse wandeling vraagt hier wat meer planning",
+        "after": "Je wandelroutine vraagt hier wat meer planning",
         "reason": "keyword_density"
       },
       {
         "field": "intro",
-        "before": "Deze wijk past bij baasjes die stedelijk comfort waarderen",
-        "after": "Deze wijk past bij wie stedelijk comfort waardeert",
+        "before": "Deze wijk is ideaal voor wie van stedelijk gemak houdt",
+        "after": "Deze wijk is praktisch voor wie van stedelijk gemak houdt",
+        "reason": "readability"
+      },
+      {
+        "field": "intro",
+        "before": "Voor baasjes met honden die rustig aan de lijn wandelen past dit goed, maar wie een speelse hond heeft die dagelijks moet kunnen rennen",
+        "after": "Voor wie met een rustige viervoeter wandelt past dit goed, maar wie een speelse hond heeft die dagelijks moet kunnen rennen",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "facilities.intro",
+        "before": "Astrid Bad biedt een degelijke set voorzieningen voor baasjes",
+        "after": "Astrid Bad biedt een degelijke set voorzieningen voor wie met een hond woont",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "In Astrid Bad zelf vind je geen officiële hondenspeelweide",
+        "after": "In Astrid Bad zelf vind je geen officiële omheinde speelweide",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dogParks.intro",
+        "before": "Voor een snelle ochtenduitlaatsessie loop je dus iets langer",
+        "after": "Voor een snelle ochtendwandeling loop je dus iets langer",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "vets.intro",
+        "before": "Voor medische zorg heb je als baasje in Astrid Bad meerdere opties",
+        "after": "Voor medische zorg heb je in Astrid Bad meerdere opties",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "petStores.intro",
+        "before": "Voor dagelijkse basisbenodigdheden hebben ook de supermarkten in de wijk meestal een klein assortiment voor je viervoeter.",
+        "after": "Voor dagelijkse basisbenodigdheden hebben ook de supermarkten in de wijk meestal een klein assortiment.",
         "reason": "keyword_density"
       },
       {
         "field": "dailyLife.intro",
-        "before": "Een typische dag als baasje in ASTRID BAD draait om planning en routine",
-        "after": "Een typische dag in ASTRID BAD draait om planning en routine",
+        "before": "Een typische dag als baasje in Astrid Bad draait om efficiëntie",
+        "after": "Een typische dag in Astrid Bad draait om efficiëntie",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[0]",
+        "before": "Met 30 bushaltes en het Centraal Station op loopafstand ben je snel overal in Antwerpen, wat handig is voor uitstapjes naar grotere parken zoals het Nachtegalenpark of Rivierenhof met je viervoeter.",
+        "after": "Met 30 bushaltes en het Centraal Station op loopafstand ben je snel overal in Antwerpen, wat handig is voor uitstapjes naar grotere parken zoals het Nachtegalenpark of Rivierenhof.",
         "reason": "keyword_density"
       },
       {
         "field": "dailyLife.benefits[2]",
-        "before": "De hoge dichtheid van supermarkten (5 stuks) zorgt ervoor dat je altijd snel basisprodukten voor je hond kunt halen",
-        "after": "De hoge dichtheid van supermarkten (5 stuks) zorgt ervoor dat je altijd snel basisproducten voor je hond kunt halen",
+        "before": "Hoewel de dichtstbijzijnde hondenspeelweide 12 minuten wandelen is",
+        "after": "Hoewel de dichtstbijzijnde omheinde speelweide 12 minuten wandelen is",
+        "reason": "keyword_density"
+      },
+      {
+        "field": "dailyLife.benefits[5]",
+        "before": "De stedelijke dichtheid en de aanwezigheid van 21 scholen maken dat je hond gewend raakt aan drukte, geluid en sociale interacties — ideaal voor socialisatie.",
+        "after": "De stedelijke dichtheid en de aanwezigheid van 21 scholen maken dat je hond gewend raakt aan drukte, geluid en sociale interacties — geschikt voor socialisatie.",
         "reason": "readability"
       }
     ],
     "validationIssues": [],
     "scoreBreakdown": {
-      "subtitleScore": 13,
-      "introScore": 23,
-      "topicCoverageScore": 18,
+      "subtitleScore": 14,
+      "introScore": 22,
+      "keywordScore": 16,
       "sectionIntrosScore": 9,
-      "decisionUsefulnessScore": 15,
       "localRelevanceScore": 9,
       "internalLinkingScore": 5
     }
   },
   "brandReview": {
-    "reviewedAt": "2026-01-08T15:00:00Z",
-    "qualityScore": 80,
+    "reviewedAt": "2026-01-08T14:30:00Z",
+    "qualityScore": 85,
     "passedBrand": true,
     "changesLog": [
       {
-        "field": "intro",
-        "before": "binnen de buurt",
-        "after": "binnen de wijk",
-        "reason": "terminology_violation"
-      },
-      {
-        "field": "intro",
-        "before": "Met 30 bushaltes en een treinstation in de buurt kom je snel waar je moet zijn.",
-        "after": "Met 30 bushaltes en een treinstation in de wijk kom je snel waar je moet zijn.",
-        "reason": "terminology_violation"
-      },
-      {
-        "field": "contributionCTA.intro",
-        "before": "andere hondenliefhebbers de juiste buurt te vinden",
-        "after": "andere hondenliefhebbers de juiste wijk te vinden",
+        "field": "valueCards[1].description",
+        "before": "5 praktijken in de buurt",
+        "after": "5 praktijken binnen bereik",
         "reason": "terminology_violation"
       },
       {
         "field": "houses.intro",
-        "before": "deze specifieke buurt te zien",
-        "after": "deze specifieke wijk te zien",
+        "before": "Op zoek naar een woning in Astrid Bad? Met postcode 2000 kun je je huizenzoektocht filteren op deze centraal gelegen wijk. Let erop dat meerdere wijken in Antwerpen dezelfde postcode delen, dus verfijn je zoekopdracht met specifieke straatnamen of buurtnamen.",
+        "after": "Op zoek naar een woning in Astrid Bad? Met postcode 2000 kun je je huizenzoektocht filteren op deze centraal gelegen wijk. Let erop dat meerdere wijken in Antwerpen dezelfde postcode delen, dus verfijn je zoekopdracht met specifieke straatnamen of wijknamen.",
         "reason": "terminology_violation"
       }
     ],
-    "validationIssues": [
-      {
-        "field": "intro",
-        "issue": "Low local authenticity: intro lacks specific street names, landmarks, or local observations. Generic references to 'aangrenzende wijken' and 'omliggende wijken' without naming specific areas like Berchem, Borgerhout, Oostwijk details.",
-        "severity": "warning"
-      },
-      {
-        "field": "dailyLife.benefits",
-        "issue": "Mentions 'Rivierenhof' and 'Park Spoor Oost' but no specific local details about ASTRID BAD itself (street names, local landmarks within the neighborhood).",
-        "severity": "info"
-      }
-    ],
+    "validationIssues": [],
     "scoreBreakdown": {
       "terminologyScore": 27,
-      "toneVoiceScore": 25,
-      "localAuthenticityScore": 13,
-      "narrativeNaturalnessScore": 14,
-      "sparseDataHandlingScore": 10
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 16,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 6
     },
     "analysis": {
       "terminology": {
         "avoidedTermsFound": [
           {
             "term": "buurt",
-            "field": "intro",
+            "field": "valueCards[1].description",
             "preferred": "wijk"
           },
           {
-            "term": "buurt",
-            "field": "contributionCTA.intro",
-            "preferred": "wijk"
-          },
-          {
-            "term": "buurt",
+            "term": "buurtnamen",
             "field": "houses.intro",
-            "preferred": "wijk"
+            "preferred": "wijknamen"
           }
         ],
         "preferredTermsPresent": [
-          "wijk",
-          "hondenspeelweide",
-          "hondenspeelweiden",
-          "dierenarts",
-          "dierenartsen",
+          "baasjes",
           "viervoeter",
-          "baasje",
-          "hondenliefhebbers"
+          "hond",
+          "wijk",
+          "wandeling",
+          "uitlaten",
+          "dierenarts"
         ],
         "allowedExceptionsUsed": [
-          "de juiste buurt (in contributionCTA.intro - allowed phrase)"
+          "de juiste buurt te vinden (contributionCTA.intro - allowed phrase)"
         ]
       },
       "tone": {
@@ -419,33 +473,29 @@
         "friendlyMarkersCount": 18
       },
       "localAuthenticity": {
-        "uniquePlaceNamesCount": 8,
+        "uniquePlaceNamesCount": 4,
         "localTipsFound": [
-          "Dierenartsencentrum De Merode in Berchem",
-          "AniCura bij Borsbeeksebrug",
-          "De Pauw (Oudevaartplaats)",
-          "Rivierenhof",
-          "Park Spoor Oost"
+          "Het Centraal Station op loopafstand",
+          "het Astridplein",
+          "De Pauw op de Oudevaartplaats"
         ],
         "neighborhoodObservations": [
-          "18.000 inwoners per vierkante kilometer",
-          "zeer dicht bevolkt",
-          "stedelijke drukte",
-          "30 bushaltes en een treinstation"
+          "midden in het stedelijke leven",
+          "De vele scholen geven de wijk een dynamisch karakter",
+          "De sfeer is informeel en pragmatisch"
         ]
       },
       "narrativeNaturalness": {
-        "sentenceStartVariety": 0.87,
-        "averageSentenceLength": 16.2,
+        "sentenceStartVariety": 0.78,
+        "averageSentenceLength": 18.2,
         "listLikePatternsFound": 0
       },
       "sparseDataHandling": {
         "gapsDetected": [
-          "no dog park in neighborhood itself",
-          "no pet store in neighborhood",
-          "no vet in neighborhood"
+          "no dog parks in neighborhood itself",
+          "no pet stores in neighborhood itself"
         ],
-        "gapsHandledGracefully": 3,
+        "gapsHandledGracefully": 2,
         "gapsHandledPoorly": 0
       }
     }
