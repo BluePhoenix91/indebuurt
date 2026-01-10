@@ -1,0 +1,323 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-10T15:00:00Z",
+  "id": "aalst-bergemeersen",
+  "city": "Aalst",
+  "name": "Bergemeersen",
+  "postalCode": "9300",
+  "subtitle": "Rustig wonen in Bergemeersen: groene ruimte om de hoek en toegang tot twee hondenspeelweiden",
+  "dateAdded": "2026-01-10",
+  "inhabitants": 9784,
+  "labels": [
+    {
+      "text": "Residentieel",
+      "icon": "fa-solid fa-house-chimney"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "text": "Rustig",
+      "icon": "fa-solid fa-volume-off"
+    }
+  ],
+  "intro": "Bergemeersen is een rustige, residentiële wijk aan de rand van Aalst. Met ruim voldoende groen binnen wandelafstand en een hondenspeelweide op een kwartier lopen combineer je hier een rustige woonomgeving met voldoende mogelijkheden voor je dagelijkse wandelingen. De wijk telt bijna 10.000 inwoners en heeft een gemoedelijk karakter — fijn als je zoekt naar rust zonder de stadse voorzieningen helemaal uit het oog te verliezen.\n\nAls baasje vind je hier een fijn evenwicht. Er zijn enkele parken binnen bereik waar je terecht kunt voor je ochtend- en avondwandeling, waaronder het Zwembadpark op 10 minuten en het Rozekensbos op 12 minuten. Voor een omheinde speelplek rijd je een kwartier wandelen naar de Hondenlosloopzone Bergemeesterstraat, waar je viervoeter veilig vrij kan rondlopen. Een tweede losloopzone ligt op vergelijkbare afstand, al is die niet omheind.\n\nWat je wel moet weten: binnen de wijk zelf zijn geen dierenartsen of dierenwinkels aanwezig. De dichtstbijzijnde praktijk ligt op ruim een halfuur wandelen of een kleine 10 minuten met de auto. Voor routine-afspraken of spoedgevallen moet je dus rekening houden met extra reistijd. Datzelfde geldt voor gespecialiseerde dierenwinkels — de dichtstbijzijnde optie ligt op ruim een halfuur te voet. De meeste supermarkten hebben wel een basisassortiment voor je hond, en dat maakt het dagelijkse gemak een stuk groter.\n\nBergemeersen is geen druk stadscentrum. Met 3.384 inwoners per vierkante kilometer is de dichtheid gemiddeld voor een residentiële wijk. Je hebt hier rust en ruimte, maar je bent ook afhankelijk van nabijgelegen wijken voor specifieke voorzieningen. Voor baasjes die een auto hebben of bereid zijn om af en toe wat verder te wandelen, is dat goed te doen. Voor wie liever alles binnen vijf minuten wil, zal Bergemeersen wat minder praktisch aanvoelen.\n\nDe wijk kent weinig openbaar vervoer — er zijn enkele bushaltes, maar geen treinstation in de buurt. Dat maakt dat je voor een bezoek aan het centrum van Aalst of voor grotere boodschappen vaak de auto zult nemen. Voor wandelingen met je hond is dat geen probleem, maar voor je algemene mobiliteit is het goed om daar rekening mee te houden.\n\nBergemeersen past bij baasjes die op zoek zijn naar rust, groen en ruimte, en die bereid zijn om een stuk te rijden voor bepaalde voorzieningen. Het is minder geschikt als je de voorkeur geeft aan korte loopafstanden naar winkels, dierenartsen en andere dagelijkse diensten. Voor gezinnen met een hond die veel waarde hechten aan een rustige omgeving en voldoende buitenruimte, biedt Bergemeersen een aantrekkelijk alternatief voor drukkere stadswijken.",
+  "coordinates": {
+    "lat": 50.946267696316006,
+    "lon": 4.06206080136151,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweiden",
+      "distance": "16 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 losloopzones in de buurt",
+      "detail": "Dichtstbijzijnde op 16 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "37 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Meerdere praktijken nabij",
+      "detail": "Dichtstbijzijnde op 37 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "36 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Enkele opties in omgeving",
+      "detail": "Dichtstbijzijnde op 36 min"
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Groene ruimte",
+      "distance": "10 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Meerdere parken nabij",
+      "detail": "Zwembadpark op 10 min"
+    }
+  ],
+  "facilities": {
+    "intro": "Bergemeersen biedt voldoende groen voor de dagelijkse wandeling, met enkele parken en twee hondenspeelweiden op fietsafstand. Voor dierenartsen en gespecialiseerde winkels ben je aangewezen op nabijgelegen wijken — de dichtstbijzijnde opties liggen buiten comfortabele loopafstand."
+  },
+  "dogParks": {
+    "intro": "In Bergemeersen zelf is geen hondenspeelweide, maar op een kwartier wandelen vind je de Hondenlosloopzone Bergemeesterstraat — een omheinde plek waar je viervoeter veilig kan rennen en spelen. Een tweede losloopzone ligt op vergelijkbare afstand, al is die niet omheind. Voor wie regelmatig een veilige speelplek zoekt, is de omheinde zone de beste keuze.",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenlosloopzone Bergemeesterstraat",
+        "distance": "16 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.937049,
+          "lon": 4.0518202
+        },
+        "features": [
+          {
+            "text": "Omheind terrein",
+            "icon": "fa-solid fa-fence"
+          }
+        ]
+      }
+    ]
+  },
+  "vets": {
+    "intro": "Binnen Bergemeersen is geen dierenartspraktijk aanwezig. De dichtstbijzijnde optie ligt op ruim een halfuur wandelen in een aangrenzende wijk — praktischer met de auto (ongeveer 10 minuten). Voor spoedgevallen of routinebezoeken is het handig om een praktijk in de buurt van je werk of op een route die je regelmatig rijdt te kiezen.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "De Mey",
+        "street": "Sint Jobstraat",
+        "streetNumber": "260",
+        "municipality": "Aalst",
+        "postalCode": "9300",
+        "distance": "37 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9313446,
+          "lon": 4.027274
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Iris Van de Sijpe",
+        "street": "Kwalestraat",
+        "streetNumber": "77",
+        "municipality": "Nieuwerkerken",
+        "postalCode": "9320",
+        "distance": "49 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9280383,
+          "lon": 4.0147656
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartsenpraktijk Radius",
+        "street": "Neerhoflaan",
+        "streetNumber": "20",
+        "municipality": "Aalst",
+        "postalCode": "9308",
+        "distance": "56 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9861161,
+          "lon": 4.0521733
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Dierenartspraktijk Sonck Wout",
+        "street": "Anderenbroek",
+        "streetNumber": "48",
+        "municipality": "Haaltert",
+        "postalCode": "9450",
+        "distance": "80 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.8938475,
+          "lon": 4.0240887
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet binnen Bergemeersen. De dichtstbijzijnde optie ligt op ruim een halfuur wandelen (of een kleine 10 minuten met de auto). Voor routinevoer en basisproducten hebben de meeste supermarkten in de omgeving wel een klein assortiment — handig voor je dagelijkse boodschappen.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Tom & Co",
+        "street": "Geraardsbergsestraat",
+        "streetNumber": "260A",
+        "municipality": "Aalst",
+        "postalCode": "9300",
+        "distance": "36 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9266741,
+          "lon": 4.0359197
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Hyacint",
+        "street": "Grote Baan",
+        "streetNumber": "267",
+        "municipality": "Aalst",
+        "postalCode": "9310",
+        "distance": "40 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9744606,
+          "lon": 4.0706783
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "UniKOi",
+        "street": "Welleweg",
+        "streetNumber": "66",
+        "municipality": "Aalst",
+        "postalCode": "9320",
+        "distance": "46 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9139518,
+          "lon": 4.0527052
+        }
+      },
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "De Graankorrel",
+        "street": "Unnamed",
+        "streetNumber": "Unnamed",
+        "municipality": "Denderleeuw",
+        "postalCode": "9473",
+        "distance": "57 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 50.9059069,
+          "lon": 4.0545119
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Bergemeersen",
+    "intro": "Een typische dag als baasje in Bergemeersen draait om rust, ruimte en groen. Je begint met een wandeling door een van de nabijgelegen parken, waar je viervoeter zijn energie kwijt kan. Voor de avondwandeling kies je voor een andere route, of je plant een uitstap naar de hondenspeelweide als je hond behoefte heeft aan sociaal contact met andere honden. Bergemeersen biedt die flexibiliteit, al vraagt het soms wat planning voor specifieke voorzieningen.",
+    "benefits": [
+      "Dankzij de parken binnen wandelafstand heb je altijd een groene plek voor de ochtendwandeling. Het Zwembadpark ligt op 10 minuten en biedt voldoende ruimte voor een stevige wandeling zonder ver van huis te hoeven.",
+      "De rustige, residentiële sfeer maakt dat je tijdens wandelingen zelden met drukke verkeerssituaties te maken hebt. Voor oudere honden of baasjes die rust zoeken, is dat een groot pluspunt.",
+      "Voor een omheinde speelplek waar je hond zonder lijn kan ravotten, plan je een uitstap van een kwartier naar de dichtstbijzijnde hondenspeelweide. Dat vraagt wat meer tijd, maar biedt wel een veilige plek voor socialisatie.",
+      "Woon je hier met een auto, dan zijn grotere winkels, dierenartsen en gespecialiseerde dierenwinkels goed bereikbaar binnen 10 à 15 minuten rijden. Dat maakt het praktisch voor weekendboodschappen of planmatige bezoeken aan de praktijk.",
+      "De lage dichtheid aan verkeer en de ruime opzet van de wijk maken wandelingen rustiger en aangenamer — ideaal voor wie graag even tot rust komt tijdens de dagelijkse ronde met zijn viervoeter."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Bergemeersen telt bijna 10.000 inwoners en heeft een gemiddelde bevolkingsdichtheid van 3.384 inwoners per vierkante kilometer. De medianprijs voor een woning ligt op 265.000 euro.",
+    "medianPrice": 265000,
+    "inhabitants": 9784,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Bergemeersen? Filter op postcode 9300 om aanbod in deze wijk te vinden. Let erop dat deze postcode ook andere wijken in Aalst omvat.",
+    "hasOwnPostalCode": false
+  },
+  "neighboringNeighborhoods": [
+    "aalst-binnenstraat",
+    "aalst-bergekouter",
+    "aalst-aalst-station",
+    "aalst-kerrebroek",
+    "aalst-duivekeet"
+  ],
+  "qualityReview": {
+    "reviewedAt": "2026-01-10T15:30:00Z",
+    "qualityScore": 86,
+    "passedQuality": true,
+    "seoScore": 85,
+    "brandScore": 87,
+    "seoBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "keywordScore": 19,
+      "sectionIntrosScore": 13,
+      "localRelevanceScore": 6,
+      "internalLinkingScore": 10
+    },
+    "brandBreakdown": {
+      "terminologyScore": 30,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 12,
+      "narrativeNaturalnessScore": 13,
+      "sparseDataHandlingScore": 7
+    },
+    "changesLog": [],
+    "validationIssues": [
+      {
+        "field": "intro",
+        "issue": "Only 1 specific place name mentioned in narrative (Zwembadpark, Rozekensbos, Hondenlosloopzone Bergemeesterstraat). More local details would strengthen authenticity.",
+        "severity": "info",
+        "domain": "brand"
+      }
+    ],
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [],
+        "preferredTermsPresent": [
+          "baasjes",
+          "viervoeter",
+          "hond",
+          "wijk",
+          "wandeling",
+          "hondenspeelweide",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "de juiste buurt te vinden (in contributionCTA)"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 18
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 3,
+        "localTipsFound": [],
+        "neighborhoodObservations": [
+          "rustige, residentiële wijk aan de rand van Aalst",
+          "gemoedelijk karakter",
+          "geen druk stadscentrum",
+          "weinig openbaar vervoer"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.79,
+        "averageSentenceLength": 18.2,
+        "listLikePatternsFound": 1
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no veterinary practices in neighborhood",
+          "no pet stores in neighborhood",
+          "no dog parks in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

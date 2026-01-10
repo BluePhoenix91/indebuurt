@@ -274,7 +274,28 @@
               },
               "surface": {
                 "type": "string",
-                "description": "Surface type: grass, gravel, mixed"
+                "description": "Surface type: grass, gravel, mixed, sand"
+              },
+              "isAccessible": {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "no",
+                  "limited"
+                ],
+                "description": "Wheelchair accessibility (19% coverage)"
+              },
+              "isLit": {
+                "type": "boolean",
+                "description": "Whether the area has lighting for evening use (2% coverage)"
+              },
+              "openingHours": {
+                "type": "string",
+                "description": "Opening hours if restricted, e.g., '24/7' or '08:00-21:00' (3% coverage)"
+              },
+              "hasSmallDogArea": {
+                "type": "boolean",
+                "description": "Whether there's a separate area for small dogs (2% coverage)"
               },
               "source": {
                 "type": "string",

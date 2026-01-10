@@ -20,6 +20,7 @@ import {
   finalOutputSchema,
   seoReviewerOutputSchema,
   brandReviewerOutputSchema,
+  qualityReviewerOutputSchema,
 } from "./schemas.js";
 import { humanReviewSchema } from "./review/review-schema.js";
 
@@ -73,6 +74,14 @@ const schemas: SchemaConfig[] = [
     title: "BrandReviewerOutput",
     description:
       "Output schema for the Brand Reviewer agent. Extends SEOReviewerOutput with terminology compliance, tone analysis, and brand quality score.",
+    version: "1.0.0",
+  },
+  {
+    schema: qualityReviewerOutputSchema,
+    outputPath: "quality-reviewer/output-schema.json",
+    title: "QualityReviewerOutput",
+    description:
+      "Output schema for the Quality Reviewer agent. Extends WriterOutput with combined SEO and Brand review in a single pass. This is the default pipeline.",
     version: "1.0.0",
   },
   {

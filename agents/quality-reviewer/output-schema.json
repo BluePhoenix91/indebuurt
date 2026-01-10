@@ -1,0 +1,955 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://indebuurt.be/schemas/quality-reviewer/output-schema.json",
+  "title": "QualityReviewerOutput",
+  "description": "Output schema for the Quality Reviewer agent. Extends WriterOutput with combined SEO and Brand review in a single pass. This is the default pipeline.",
+  "version": "1.0.0",
+  "$ref": "#/definitions/QualityReviewerOutput",
+  "definitions": {
+    "QualityReviewerOutput": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "const": "1.0.0"
+        },
+        "generatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "id": {
+          "type": "string",
+          "description": "Neighborhood slug for URLs"
+        },
+        "city": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Compelling subtitle for the neighborhood (target: 80-120 chars)"
+        },
+        "dateAdded": {
+          "type": "string",
+          "description": "ISO date when page was created"
+        },
+        "inhabitants": {
+          "type": "number"
+        },
+        "labels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "description": "Label text, e.g., 'Historisch centrum'"
+              },
+              "icon": {
+                "type": "string",
+                "description": "FontAwesome icon class, e.g., 'fa-regular fa-monument'"
+              }
+            },
+            "required": [
+              "text",
+              "icon"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 2,
+          "maxItems": 5,
+          "description": "2-5 characteristic labels for the neighborhood"
+        },
+        "intro": {
+          "type": "string",
+          "description": "Main introduction text (target: 400-800 words). Should cover character, dog-friendliness, trade-offs."
+        },
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "number",
+              "description": "Latitude in WGS84"
+            },
+            "lon": {
+              "type": "number",
+              "description": "Longitude in WGS84"
+            },
+            "zoom": {
+              "type": "number",
+              "description": "Default map zoom level"
+            }
+          },
+          "required": [
+            "lat",
+            "lon",
+            "zoom"
+          ],
+          "additionalProperties": false
+        },
+        "valueCards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "type": "string",
+                "description": "FontAwesome icon class"
+              },
+              "title": {
+                "type": "string",
+                "description": "Card title, e.g., 'Hondenparken'"
+              },
+              "distance": {
+                "type": "string",
+                "description": "Formatted distance, e.g., '9 mins'"
+              },
+              "distanceIcon": {
+                "type": "string",
+                "description": "Icon for distance type, e.g., 'fa-regular fa-person-walking'"
+              },
+              "description": {
+                "type": "string",
+                "description": "Brief description of the amenity situation"
+              },
+              "detail": {
+                "type": "string",
+                "description": "Additional detail or context"
+              }
+            },
+            "required": [
+              "icon",
+              "title",
+              "distance",
+              "description",
+              "detail"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 4,
+          "maxItems": 8,
+          "description": "4-8 value proposition cards highlighting key amenities"
+        },
+        "facilities": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Overview of dog-relevant facilities"
+            }
+          },
+          "required": [
+            "intro"
+          ],
+          "additionalProperties": false
+        },
+        "dogParks": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to dog parks situation"
+            },
+            "parks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {
+                    "type": "string",
+                    "description": "FontAwesome icon class"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "distance": {
+                    "type": "string",
+                    "description": "Formatted distance, e.g., '5 mins'"
+                  },
+                  "distanceIcon": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "object",
+                    "properties": {
+                      "lat": {
+                        "type": "number",
+                        "description": "Latitude in WGS84"
+                      },
+                      "lon": {
+                        "type": "number",
+                        "description": "Longitude in WGS84"
+                      }
+                    },
+                    "required": [
+                      "lat",
+                      "lon"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "features": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "text": {
+                          "type": "string",
+                          "description": "Feature description"
+                        },
+                        "icon": {
+                          "type": "string",
+                          "description": "FontAwesome icon class"
+                        }
+                      },
+                      "required": [
+                        "text",
+                        "icon"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "description": "Notable features of this park"
+                  }
+                },
+                "required": [
+                  "icon",
+                  "name",
+                  "distance",
+                  "coordinates",
+                  "features"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "intro",
+            "parks"
+          ],
+          "additionalProperties": false
+        },
+        "vets": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to veterinary options"
+            },
+            "practices": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {
+                    "type": "string",
+                    "description": "FontAwesome icon class"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "street": {
+                    "type": "string"
+                  },
+                  "streetNumber": {
+                    "type": "string"
+                  },
+                  "bus": {
+                    "type": "string"
+                  },
+                  "municipality": {
+                    "type": "string"
+                  },
+                  "postalCode": {
+                    "type": "string"
+                  },
+                  "distance": {
+                    "type": "string",
+                    "description": "Formatted distance, e.g., '4 mins'"
+                  },
+                  "distanceIcon": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "object",
+                    "properties": {
+                      "lat": {
+                        "type": "number",
+                        "description": "Latitude in WGS84"
+                      },
+                      "lon": {
+                        "type": "number",
+                        "description": "Longitude in WGS84"
+                      }
+                    },
+                    "required": [
+                      "lat",
+                      "lon"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "icon",
+                  "name",
+                  "street",
+                  "streetNumber",
+                  "municipality",
+                  "postalCode",
+                  "distance",
+                  "coordinates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "intro",
+            "practices"
+          ],
+          "additionalProperties": false
+        },
+        "petStores": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to pet store options"
+            },
+            "stores": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {
+                    "type": "string",
+                    "description": "FontAwesome icon class"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "street": {
+                    "type": "string"
+                  },
+                  "streetNumber": {
+                    "type": "string"
+                  },
+                  "bus": {
+                    "type": "string"
+                  },
+                  "municipality": {
+                    "type": "string"
+                  },
+                  "postalCode": {
+                    "type": "string"
+                  },
+                  "distance": {
+                    "type": "string",
+                    "description": "Formatted distance, e.g., '14 mins'"
+                  },
+                  "distanceIcon": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "object",
+                    "properties": {
+                      "lat": {
+                        "type": "number",
+                        "description": "Latitude in WGS84"
+                      },
+                      "lon": {
+                        "type": "number",
+                        "description": "Longitude in WGS84"
+                      }
+                    },
+                    "required": [
+                      "lat",
+                      "lon"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "icon",
+                  "name",
+                  "street",
+                  "streetNumber",
+                  "municipality",
+                  "postalCode",
+                  "distance",
+                  "coordinates"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "intro",
+            "stores"
+          ],
+          "additionalProperties": false
+        },
+        "dailyLife": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "Section title, typically about daily life with a dog"
+            },
+            "intro": {
+              "type": "string",
+              "description": "What daily life looks like for dog owners here"
+            },
+            "benefits": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 3,
+              "maxItems": 7,
+              "description": "3-7 key benefits/characteristics as bullet points"
+            }
+          },
+          "required": [
+            "title",
+            "intro",
+            "benefits"
+          ],
+          "additionalProperties": false
+        },
+        "contributionCTA": {
+          "type": "object",
+          "properties": {
+            "heading": {
+              "type": "string"
+            },
+            "intro": {
+              "type": "string"
+            },
+            "typeformId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "heading",
+            "intro",
+            "typeformId"
+          ],
+          "additionalProperties": false
+        },
+        "statistics": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to the statistics section"
+            },
+            "medianPrice": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Median house price, null if unavailable"
+            },
+            "inhabitants": {
+              "type": "number"
+            },
+            "availableHomes": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Available homes for sale, null if unavailable"
+            },
+            "pricePerSqm": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Price per square meter, null if unavailable"
+            }
+          },
+          "required": [
+            "intro",
+            "medianPrice",
+            "inhabitants",
+            "availableHomes",
+            "pricePerSqm"
+          ],
+          "additionalProperties": false
+        },
+        "houses": {
+          "type": "object",
+          "properties": {
+            "intro": {
+              "type": "string",
+              "description": "Introduction to the housing search section"
+            },
+            "hasOwnPostalCode": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "intro",
+            "hasOwnPostalCode"
+          ],
+          "additionalProperties": false
+        },
+        "neighboringNeighborhoods": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "IDs of neighboring neighborhoods for internal linking"
+        },
+        "qualityReview": {
+          "type": "object",
+          "properties": {
+            "reviewedAt": {
+              "type": "string",
+              "format": "date-time",
+              "description": "ISO 8601 timestamp of review"
+            },
+            "qualityScore": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Combined quality score: (seoScore + brandScore) / 2"
+            },
+            "passedQuality": {
+              "type": "boolean",
+              "description": "True if qualityScore >= 70"
+            },
+            "seoScore": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "SEO quality score 0-100"
+            },
+            "brandScore": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Brand quality score 0-100"
+            },
+            "seoBreakdown": {
+              "type": "object",
+              "properties": {
+                "subtitleScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 15,
+                  "description": "Subtitle/meta description quality (0-15)"
+                },
+                "introScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 25,
+                  "description": "Main intro SEO quality (0-25)"
+                },
+                "keywordScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 20,
+                  "description": "Keyword usage and density (0-20)"
+                },
+                "sectionIntrosScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 15,
+                  "description": "Section intros SEO value (0-15)"
+                },
+                "localRelevanceScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 15,
+                  "description": "Local SEO signals (0-15)"
+                },
+                "internalLinkingScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "description": "Internal link validity (0-10)"
+                }
+              },
+              "required": [
+                "subtitleScore",
+                "introScore",
+                "keywordScore",
+                "sectionIntrosScore",
+                "localRelevanceScore",
+                "internalLinkingScore"
+              ],
+              "additionalProperties": false,
+              "description": "SEO score breakdown by category"
+            },
+            "brandBreakdown": {
+              "type": "object",
+              "properties": {
+                "terminologyScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 30,
+                  "description": "Terminology compliance (0-30)"
+                },
+                "toneVoiceScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 25,
+                  "description": "Tone and voice consistency (0-25)"
+                },
+                "localAuthenticityScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 20,
+                  "description": "Local authenticity markers (0-20)"
+                },
+                "narrativeNaturalnessScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 15,
+                  "description": "Narrative naturalness (0-15)"
+                },
+                "sparseDataHandlingScore": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 10,
+                  "description": "Sparse data handling quality (0-10)"
+                }
+              },
+              "required": [
+                "terminologyScore",
+                "toneVoiceScore",
+                "localAuthenticityScore",
+                "narrativeNaturalnessScore",
+                "sparseDataHandlingScore"
+              ],
+              "additionalProperties": false,
+              "description": "Brand score breakdown by category"
+            },
+            "changesLog": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "description": "JSON path to the modified field, e.g., 'subtitle' or 'petStores.intro'"
+                  },
+                  "before": {
+                    "type": "string",
+                    "description": "Original text before modification"
+                  },
+                  "after": {
+                    "type": "string",
+                    "description": "Modified text after quality review"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "enum": [
+                      "subtitle_length",
+                      "keyword_density",
+                      "intro_structure",
+                      "section_intro_thin",
+                      "local_keyword_missing",
+                      "readability",
+                      "value_card_clarity",
+                      "benefit_specificity",
+                      "cta_optimization",
+                      "label_clarity",
+                      "terminology_violation",
+                      "tone_formal",
+                      "tone_promotional",
+                      "missing_local_detail",
+                      "narrative_list_like",
+                      "sparse_data_unhandled",
+                      "perspective_inconsistent",
+                      "english_term_used"
+                    ],
+                    "description": "Category of quality improvement made"
+                  }
+                },
+                "required": [
+                  "field",
+                  "before",
+                  "after",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "description": "All modifications made by Quality reviewer (both SEO and Brand)"
+            },
+            "validationIssues": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "description": "Field with validation issue"
+                  },
+                  "issue": {
+                    "type": "string",
+                    "description": "Description of the issue"
+                  },
+                  "severity": {
+                    "type": "string",
+                    "enum": [
+                      "error",
+                      "warning",
+                      "info"
+                    ],
+                    "description": "Issue severity"
+                  },
+                  "domain": {
+                    "type": "string",
+                    "enum": [
+                      "seo",
+                      "brand"
+                    ],
+                    "description": "Which review domain identified this issue"
+                  }
+                },
+                "required": [
+                  "field",
+                  "issue",
+                  "severity",
+                  "domain"
+                ],
+                "additionalProperties": false
+              },
+              "description": "Issues found that couldn't be auto-fixed or require human review"
+            },
+            "analysis": {
+              "type": "object",
+              "properties": {
+                "terminology": {
+                  "type": "object",
+                  "properties": {
+                    "avoidedTermsFound": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "term": {
+                            "type": "string",
+                            "description": "The avoided term that was found"
+                          },
+                          "field": {
+                            "type": "string",
+                            "description": "JSON path where the term was found"
+                          },
+                          "preferred": {
+                            "type": "string",
+                            "description": "The preferred term to use instead"
+                          }
+                        },
+                        "required": [
+                          "term",
+                          "field",
+                          "preferred"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "description": "List of terminology violations detected"
+                    },
+                    "preferredTermsPresent": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "List of preferred terms correctly used in content"
+                    },
+                    "allowedExceptionsUsed": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "List of allowed exception phrases used (e.g., 'buurtgevoel')"
+                    }
+                  },
+                  "required": [
+                    "avoidedTermsFound",
+                    "preferredTermsPresent",
+                    "allowedExceptionsUsed"
+                  ],
+                  "additionalProperties": false
+                },
+                "tone": {
+                  "type": "object",
+                  "properties": {
+                    "perspectiveForm": {
+                      "type": "string",
+                      "enum": [
+                        "je_jouw",
+                        "u",
+                        "wij",
+                        "mixed"
+                      ],
+                      "description": "Dominant perspective form used in content"
+                    },
+                    "formalPhrasesFound": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Formal/corporate phrases detected (e.g., 'u kunt', 'men dient')"
+                    },
+                    "promotionalPhrasesFound": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Promotional phrases detected (e.g., 'ontdek de mogelijkheden')"
+                    },
+                    "friendlyMarkersCount": {
+                      "type": "number",
+                      "description": "Count of friendly tone markers (je vindt, handig voor, etc.)"
+                    }
+                  },
+                  "required": [
+                    "perspectiveForm",
+                    "formalPhrasesFound",
+                    "promotionalPhrasesFound",
+                    "friendlyMarkersCount"
+                  ],
+                  "additionalProperties": false
+                },
+                "localAuthenticity": {
+                  "type": "object",
+                  "properties": {
+                    "uniquePlaceNamesCount": {
+                      "type": "number",
+                      "description": "Count of unique POI/street names mentioned in narrative"
+                    },
+                    "localTipsFound": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Local tips detected (e.g., 'via de Coupure', 'richting de waterkant')"
+                    },
+                    "neighborhoodObservations": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Neighborhood-specific observations detected"
+                    }
+                  },
+                  "required": [
+                    "uniquePlaceNamesCount",
+                    "localTipsFound",
+                    "neighborhoodObservations"
+                  ],
+                  "additionalProperties": false
+                },
+                "narrativeNaturalness": {
+                  "type": "object",
+                  "properties": {
+                    "sentenceStartVariety": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1,
+                      "description": "Score 0-1 indicating variety in sentence starters"
+                    },
+                    "averageSentenceLength": {
+                      "type": "number",
+                      "description": "Average sentence length in words"
+                    },
+                    "listLikePatternsFound": {
+                      "type": "number",
+                      "description": "Count of list-like patterns (e.g., 'Er zijn X. Er zijn Y.')"
+                    }
+                  },
+                  "required": [
+                    "sentenceStartVariety",
+                    "averageSentenceLength",
+                    "listLikePatternsFound"
+                  ],
+                  "additionalProperties": false
+                },
+                "sparseDataHandling": {
+                  "type": "object",
+                  "properties": {
+                    "gapsDetected": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Data gaps detected (e.g., 'no pet store in neighborhood')"
+                    },
+                    "gapsHandledGracefully": {
+                      "type": "number",
+                      "description": "Count of gaps handled with acknowledgment + pivot + alternative"
+                    },
+                    "gapsHandledPoorly": {
+                      "type": "number",
+                      "description": "Count of gaps handled poorly (just 'helaas geen...')"
+                    }
+                  },
+                  "required": [
+                    "gapsDetected",
+                    "gapsHandledGracefully",
+                    "gapsHandledPoorly"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "terminology",
+                "tone",
+                "localAuthenticity",
+                "narrativeNaturalness",
+                "sparseDataHandling"
+              ],
+              "additionalProperties": false,
+              "description": "Detailed analysis for debugging and feedback"
+            }
+          },
+          "required": [
+            "reviewedAt",
+            "qualityScore",
+            "passedQuality",
+            "seoScore",
+            "brandScore",
+            "seoBreakdown",
+            "brandBreakdown",
+            "changesLog",
+            "analysis"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "generatedAt",
+        "id",
+        "city",
+        "name",
+        "postalCode",
+        "subtitle",
+        "dateAdded",
+        "inhabitants",
+        "labels",
+        "intro",
+        "coordinates",
+        "valueCards",
+        "facilities",
+        "dogParks",
+        "vets",
+        "petStores",
+        "dailyLife",
+        "contributionCTA",
+        "statistics",
+        "houses",
+        "qualityReview"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

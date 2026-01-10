@@ -5,8 +5,8 @@ description: Run the neighborhood content pipeline
 
 # Pipeline Command
 
-Orchestrates the 4-stage neighborhood content pipeline:
-**Researcher** -> **Writer** -> **SEO Reviewer** -> **Brand Reviewer**
+Orchestrates the 3-stage neighborhood content pipeline:
+**Researcher** -> **Writer** -> **Quality Reviewer**
 
 ## Usage
 
@@ -25,11 +25,38 @@ Orchestrates the 4-stage neighborhood content pipeline:
 /pipeline regenerate municipality <nis5>     Regenerate all in municipality
 ```
 
+### Feature Flag: --separate-reviewers
+
+Add `--separate-reviewers` to use the legacy 4-stage pipeline with separate SEO and Brand reviewers:
+
+```
+/pipeline <nis_code> --separate-reviewers
+/pipeline municipality <nis5> --separate-reviewers
+/pipeline next N --separate-reviewers
+/pipeline regenerate <nis_code> --separate-reviewers
+```
+
+When `--separate-reviewers` is present:
+- Use 4-stage pipeline: researcher → writer → seo-reviewer → brand-reviewer
+- Output files: `3-seo-reviewer.json` + `4-brand-reviewer.json`
+- Final scores extracted from `seoReview` and `brandReview` objects
+
+**Default (no flag):**
+- Use 3-stage pipeline: researcher → writer → quality-reviewer
+- Output file: `3-quality-reviewer.json`
+- Final scores extracted from `qualityReview` object
+
 ---
 
 ## Argument Parsing
 
 Parse `$ARGUMENTS` to determine the subcommand:
+
+**First, check for `--separate-reviewers` flag:**
+- If present, set `use_separate_reviewers = true` and remove flag from arguments
+- Otherwise, set `use_separate_reviewers = false` (default: use quality-reviewer)
+
+**Then parse remaining arguments:**
 
 1. **Empty or "help"** -> Show the usage section above
 2. **"status"** -> Execute status dashboard (see below)
@@ -106,8 +133,9 @@ current transaction is aborted, commands ignored until end of transaction block
 Invoke using the **Task tool** with these agent types:
 - `neighborhood-researcher` - Gathers POI data from PostGIS
 - `neighborhood-writer` - Transforms data to Dutch prose
-- `neighborhood-seo-reviewer` - Optimizes for search visibility
-- `neighborhood-brand-reviewer` - Validates brand voice
+- `neighborhood-quality-reviewer` - Combined SEO + Brand review (default 3-stage pipeline)
+- `neighborhood-seo-reviewer` - Optimizes for search visibility (4-stage pipeline, use with `--separate-reviewers` flag)
+- `neighborhood-brand-reviewer` - Validates brand voice (4-stage pipeline, use with `--separate-reviewers` flag)
 
 ---
 
@@ -235,7 +263,11 @@ Use `/pipeline sessions` for detailed session info.
 
 ## /pipeline <nis_code>
 
-Process a single neighborhood through all 4 agents.
+Process a single neighborhood through the agent pipeline.
+
+**Pipeline modes:**
+- **3-stage (default):** researcher → writer → quality-reviewer
+- **4-stage (with `--separate-reviewers`):** researcher → writer → seo-reviewer → brand-reviewer
 
 ### Steps:
 
@@ -260,7 +292,16 @@ RETURNING id, status, current_stage, retry_count;
 ```
 
 4. **Check for existing outputs (resume logic):**
-   For each stage in order, check if output file exists and is valid:
+
+   **Default 3-stage pipeline:**
+
+   | Stage | File | Validation |
+   |-------|------|------------|
+   | researcher | `agents/pipeline-outputs/{nis_code}/1-researcher.json` | Has `schemaVersion` field |
+   | writer | `agents/pipeline-outputs/{nis_code}/2-writer.json` | Has `schemaVersion` field |
+   | quality-reviewer | `agents/pipeline-outputs/{nis_code}/3-quality-reviewer.json` | Has `qualityReview` object |
+
+   **If using `--separate-reviewers` (4-stage pipeline):**
 
    | Stage | File | Validation |
    |-------|------|------------|
@@ -324,7 +365,33 @@ Then commit the transaction.
    ```
    Then commit and stop processing this neighborhood.
 
-7. **After brand-reviewer completes:**
+7. **After final review stage completes:**
+
+   **Default 3-stage pipeline:**
+
+   a. Read the final output file: `agents/pipeline-outputs/{nis_code}/3-quality-reviewer.json`
+
+   b. Extract scores from `qualityReview` object:
+      - `seo_score` = `output.qualityReview.seoScore`
+      - `brand_score` = `output.qualityReview.brandScore`
+      - `final_score` = `output.qualityReview.qualityScore`
+
+   c. Update database with completion:
+   ```sql
+   UPDATE pipeline_jobs
+   SET status = 'completed',
+       current_stage = NULL,
+       seo_reviewer_completed_at = NOW(),
+       brand_reviewer_completed_at = NOW(),
+       seo_score = {seo_score},
+       brand_score = {brand_score},
+       final_score = {final_score},
+       completed_at = NOW()
+   WHERE nis_code = '{nis_code}';
+   ```
+   Then commit.
+
+   **If using `--separate-reviewers` (4-stage pipeline):**
 
    a. Read the final output file: `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json`
 
@@ -351,8 +418,9 @@ Then commit the transaction.
 
    a. Check if `final_score >= 70` (quality threshold from config)
 
-   b. Extract the slug from the brand-reviewer output:
-      - Read `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json`
+   b. Extract the slug from the final output:
+      - **Default:** Read `agents/pipeline-outputs/{nis_code}/3-quality-reviewer.json`
+      - **If `--separate-reviewers`:** Read `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json`
       - Extract the `id` field value (e.g., `"aalst-aalst-station"`)
       - This slug becomes the published filename
 
@@ -369,8 +437,9 @@ Then commit the transaction.
 
    d. **If final_score >= 70 AND address validation passes:**
       - Create directory if needed: `mkdir -p web/src/content/neighborhoods/`
-      - Copy the brand-reviewer output to content directory using the slug as filename:
-        `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json` -> `web/src/content/neighborhoods/{slug}.json`
+      - Copy the final output to content directory using the slug as filename:
+        - **Default:** `agents/pipeline-outputs/{nis_code}/3-quality-reviewer.json` -> `web/src/content/neighborhoods/{slug}.json`
+        - **If `--separate-reviewers`:** `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json` -> `web/src/content/neighborhoods/{slug}.json`
       - Update database with publish status:
         ```sql
         UPDATE pipeline_jobs

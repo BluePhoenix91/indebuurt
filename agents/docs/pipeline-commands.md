@@ -16,6 +16,25 @@ Complete reference for the `/pipeline` slash command.
 | `/pipeline retry-failed` | Re-process failed jobs |
 | `/pipeline publish <nis_code>` | Manually publish completed content |
 
+### Feature Flag: --separate-reviewers
+
+The default pipeline uses the merged 3-stage flow (researcher → writer → quality-reviewer). Add `--separate-reviewers` to use the legacy 4-stage pipeline with separate SEO and Brand reviewers:
+
+| Command | Description |
+|---------|-------------|
+| `/pipeline <nis_code> --separate-reviewers` | Process with 4-stage pipeline |
+| `/pipeline municipality <nis5> --separate-reviewers` | Municipality with 4-stage |
+| `/pipeline next N --separate-reviewers` | Next N with 4-stage |
+
+**Default (3-stage) benefits:**
+- ~45% fewer tokens (review stage)
+- One fewer agent round-trip
+- Single pass for both SEO and Brand checks
+
+**Output files:**
+- Default: `3-quality-reviewer.json`
+- With `--separate-reviewers`: `3-seo-reviewer.json` + `4-brand-reviewer.json`
+
 ---
 
 ## NIS Code Format
@@ -91,11 +110,12 @@ These jobs have been in_progress for >30 minutes and may need attention:
 
 ## `/pipeline <nis_code>`
 
-Process a single neighborhood through all 4 agents.
+Process a single neighborhood through the agent pipeline.
 
 **Usage:**
 ```
-/pipeline 44021A1
+/pipeline 44021A1                       # Default 3-stage pipeline
+/pipeline 44021A1 --separate-reviewers  # Legacy 4-stage pipeline
 ```
 
 **What happens:**
@@ -107,7 +127,21 @@ Process a single neighborhood through all 4 agents.
 6. Calculates final score (average of SEO + Brand)
 7. Auto-publishes if score >= 70 and POI data valid
 
-**Output:**
+**Output (default 3-stage):**
+
+```
+Running researcher for 44021A1...
+Running writer for 44021A1...
+Running quality-reviewer for 44021A1...
+
+Completed 44021A1 (Gent - Dampoort)
+- SEO Score: 82
+- Brand Score: 88
+- Quality Score: 85
+- Published: Yes -> web/src/content/neighborhoods/gent-dampoort.json
+```
+
+**Output (with --separate-reviewers):**
 
 ```
 Running researcher for 44021A1...
@@ -248,7 +282,9 @@ Use this after human review of below-threshold content.
 
 **Requirements:**
 - Job must exist and have `status = 'completed'`
-- Output file must exist at `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json`
+- Output file must exist at:
+  - `agents/pipeline-outputs/{nis_code}/3-quality-reviewer.json` (default 3-stage), OR
+  - `agents/pipeline-outputs/{nis_code}/4-brand-reviewer.json` (legacy 4-stage)
 - POI address data must be complete (all vets/pet stores have municipality/postalCode)
 
 **Output:**

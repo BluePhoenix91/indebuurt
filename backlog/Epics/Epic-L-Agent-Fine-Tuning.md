@@ -351,9 +351,11 @@ Testing:
 
 ---
 
-## Story L8: Merge SEO and Brand Reviewers
+## Story L8: Merge SEO and Brand Reviewers (In Progress)
 
 > As a pipeline operator, I want a single quality review stage instead of two separate ones, so that each neighborhood processes faster and costs fewer tokens.
+
+**Status:** Implementation complete (2026-01-10). Pending testing.
 
 **Context:** The SEO Reviewer and Brand Reviewer perform similar functions - both read the full Writer output, apply scoring algorithms, and make minor text adjustments. Running them separately means passing the full content twice through Claude.
 
@@ -363,21 +365,42 @@ Testing:
 - Combined: ~31K input, ~13.5K output per neighborhood
 - Two separate agent invocations = 2× latency
 
-**Proposed Change:**
-Merge into single "Quality Reviewer" agent that:
-- Applies SEO scoring (keyword density, meta optimization)
-- Applies Brand scoring (tone, terminology, authenticity)
-- Produces single combined output with both review sections
-- Returns unified `qualityScore` (weighted average)
+**Solution:**
+Created "Quality Reviewer" agent as the new default pipeline. Legacy 4-stage available via `--separate-reviewers` flag.
+- Weighted average scoring: `qualityScore = (seoScore + brandScore) / 2`
+- Brand checks run first (terminology) so SEO counts run on clean text
+- Single `qualityReview` object containing both breakdowns
+- Database columns unchanged (`seo_score`, `brand_score`, `final_score`)
 
 **Acceptance Criteria:**
-- [ ] Create combined `quality-reviewer` agent prompt
-- [ ] Merge scoring algorithms from SEO + Brand into single reference
-- [ ] Output schema includes both `seoReview` and `brandReview` sections
-- [ ] Pipeline updated to run 3 stages instead of 4
-- [ ] Quality threshold logic unchanged (score >= 70 to publish)
+- [x] Create combined `quality-reviewer` agent prompt (`agents/quality-reviewer/prompt-v1.md`)
+- [x] Merge scoring algorithms from SEO + Brand into references (`references/seo-scoring.md`, `references/brand-scoring.md`)
+- [x] Output schema includes unified `qualityReview` object with `seoBreakdown` and `brandBreakdown`
+- [x] Pipeline updated with 3-stage as default, `--separate-reviewers` flag for legacy 4-stage
+- [x] Quality threshold logic unchanged (score >= 70 to publish)
 - [ ] Test on 5 neighborhoods, compare output quality to separate reviewers
 - [ ] Measure token savings and time improvement
+
+**Files Created:**
+- `agents/quality-reviewer/prompt-v1.md` — Unified agent prompt
+- `agents/quality-reviewer/output-schema.json` — Generated JSON schema
+- `agents/quality-reviewer/references/seo-scoring.md` — SEO scoring rules
+- `agents/quality-reviewer/references/brand-scoring.md` — Brand scoring rules
+- `agents/quality-reviewer/references/unified-checklist.md` — Combined quick reference
+- `agents/quality-reviewer/references/do-not-modify.md` — Protected fields
+- `.claude/agents/neighborhood-quality-reviewer.md` — Agent definition
+- `agents/scripts/schemas.ts` — Added `QualityReviewerOutput` schema
+
+**Files Modified:**
+- `.claude/commands/pipeline.md` — Made 3-stage default, added `--separate-reviewers` flag for legacy
+- `agents/docs/pipeline-commands.md` — Documented the flag
+- `agents/scripts/generate-schemas.ts` — Added schema generation
+
+**Usage:**
+```
+/pipeline <nis_code>                       # Uses quality-reviewer (default)
+/pipeline <nis_code> --separate-reviewers  # Uses legacy seo-reviewer + brand-reviewer
+```
 
 **Estimated Savings:**
 - Input tokens: ~31K → ~18K (-40%)
@@ -385,9 +408,9 @@ Merge into single "Quality Reviewer" agent that:
 - For 2,800 neighborhoods: ~$150-200 saved
 
 **Technical Notes:**
-- Keep separate review sections in output for debugging/transparency
-- May need to increase output token limit for combined response
-- Consider if any review logic is truly sequential (SEO before Brand)
+- Execution order: Brand terminology first → SEO optimization → scoring
+- Keeps separate breakdowns for debugging/transparency
+- Legacy 4-stage pipeline available via `--separate-reviewers` flag for comparison/rollback
 
 ---
 
