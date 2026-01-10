@@ -37,26 +37,28 @@ After running the initial pipeline on test neighborhoods, several output quality
 
 ---
 
-## Story L2: Normalize Neighborhood Name Casing
+## Story L2: Normalize Neighborhood Name Casing ✅
 
 > As a content reader, I want neighborhood names in normal title case, so that the content looks professional rather than SHOUTING.
 
-**Context:** The GIS database stores neighborhood names in ALL CAPS (e.g., "AALST - STATION"). The writer should transform these to title case (e.g., "Aalst - Station") for display.
+**Status:** Completed (2026-01-10)
 
-**Current State:**
-- `name` field in brand-reviewer output: `"AALST - STATION"`
-- Appears in headings and titles as all-caps
+**Solution:** Fixed at GIS database level rather than in Writer agent.
+
+**Implementation:**
+- Created PostgreSQL function `normalize_dutch_name()` in migration `20260110_007`
+- Function uses `initcap()` + regex fixes for Dutch prefixes ('s, 't) and Roman numerals
+- Updated 2,791 neighborhoods and ~19,000 statistical sectors
+- City names were already correctly cased (no change needed)
 
 **Acceptance Criteria:**
-- [ ] Writer transforms neighborhood name to title case
-- [ ] Handles edge cases: "SINT-NIKLAAS" → "Sint-Niklaas", hyphenated words
-- [ ] City name also normalized if needed
-- [ ] Updated in writer output schema and transformation rules
+- [x] ~~Writer transforms neighborhood name to title case~~ → Fixed at DB level
+- [x] Handles edge cases: "SINT-NIKLAAS" → "Sint-Niklaas", hyphenated words
+- [x] City name also normalized if needed → Already correct
+- [x] ~~Updated in writer output schema and transformation rules~~ → N/A (DB fix)
 
-**Technical Notes:**
-- Simple transformation in writer agent
-- May need locale-aware handling for Dutch proper nouns
-- Consider maintaining a list of exceptions (e.g., abbreviations that stay uppercase)
+**Files:**
+- `database/migrations/20260110_007_normalize-neighborhood-names.sql`
 
 ---
 
