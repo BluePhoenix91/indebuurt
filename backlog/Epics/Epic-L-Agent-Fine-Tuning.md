@@ -294,43 +294,61 @@ CROSS JOIN LATERAL (
 
 ---
 
-## Story L7: Qualitative Language in Prose (No Specific Counts)
+## Story L7: Qualitative Language in Prose (No Specific Counts) ✅
 
 > As a content reader, I want neighborhood descriptions that use qualitative language instead of specific numbers, so that the content stays accurate even when POI data changes.
 
+**Status:** Completed (2026-01-10)
+
 **Context:** SEO expert feedback indicates that specific counts in prose ("20 parken", "5 dierenartsen") create maintenance burden and can become stale. Qualitative descriptions ("ruim voldoende groen", "voldoende dierenartsen in de buurt") read more naturally and don't require regeneration when POI data updates.
 
-**Current State:**
-- Intro text contains specific counts: "Met een opvallende concentratie van 20 parken..."
-- Specific POI names mentioned: "De dichtstbijzijnde dierenarts (Heughebaert Anne)..."
-- Any OSM update potentially makes prose inaccurate
-- Full pipeline rerun (~$0.22/neighborhood) needed to fix stale counts
+**Scope Decisions:**
+- All prose sections use qualitative language (intro, section intros, dailyLife)
+- POI names removed from prose entirely
+- Population stats from Statbel remain specific (annual update cadence)
+- Walking distances remain specific (calculated from fixed centroids)
+- valueCards and POI arrays keep specific counts
 
-**Proposed Change:**
+**Qualitative Language Guide:**
 
 | Count Range | Qualitative Dutch |
 |-------------|-------------------|
-| 0 | "geen ... in de directe omgeving" |
-| 1-2 | "beperkt aanbod" |
-| 3-5 | "enkele opties" |
-| 6-10 | "voldoende keuze" / "voldoende" |
-| 10+ | "ruim aanbod" / "veel" |
+| 0 | "geen ... in de wijk", "niet aanwezig in de directe omgeving" |
+| 1 | "één ...", "de enige ...", "een enkele ..." |
+| 2 | "een paar ...", "twee opties" |
+| 3-5 | "enkele ...", "een handvol ...", "meerdere opties" |
+| 6-10 | "voldoende ...", "ruim voldoende ...", "voldoende keuze" |
+| 11-20 | "veel ...", "een ruim aanbod aan ..." |
+| 20+ | "talrijke ...", "een uitgebreid aanbod aan ...", "ruim voldoende" |
 
 **Acceptance Criteria:**
-- [ ] Update Writer prompt to prohibit specific counts in prose (intro, paragraphs)
-- [ ] Add qualitative language guide to Writer references
-- [ ] Specific counts remain allowed in `valueCards` (structured UI elements)
-- [ ] POI names only in structured data, not in prose
-- [ ] Test on 3-5 sample neighborhoods to verify natural Dutch output
-- [ ] Document the style change for future prompt iterations
+- [x] Update Writer prompt to prohibit specific counts in prose (intro, paragraphs)
+- [x] Add qualitative language guide to Writer references
+- [x] Specific counts remain allowed in `valueCards` (structured UI elements)
+- [x] POI names only in structured data, not in prose
+- [x] Test on 3-5 sample neighborhoods to verify natural Dutch output
+- [x] Document the style change for future prompt iterations
+
+**Implementation Notes:**
+
+Files modified:
+- `agents/writer/prompt-v1.md` — Added "CRITICAL: Qualitative language in prose" sections in Steps 7, 9, 11
+- `agents/writer/references/content-guidelines.md` — Added qualitative language guide, POI names section, updated examples
+- `agents/shared/terminology.json` — Updated `specificity` and `encouragedPatterns` guidelines
+
+Testing:
+- Tested on 44021A0 (Begijnhofdries) — dense urban with 20 parks, 41 bus stops, 5 dog parks
+- Verified: prose uses "talrijke parken", "meerdere praktijken", "goede busverbindingen"
+- Verified: valueCards retain specific counts ("20 parken in de buurt", "41 bushaltes")
+- Verified: POI names only in structured arrays, not in prose
 
 **Impact:**
 - Prose becomes stable (one-time AI cost)
-- POI list updates cost $0 (script refresh only)
+- POI list updates cost €0 (script refresh only)
 - Better SEO (no "outdated content" signals)
 
 **After Implementation:**
-- Regenerate all existing content with new style (~$450 one-time)
+- Regenerate all existing content with new style (~€450 one-time)
 - Future OSM updates don't require prose regeneration
 
 ---

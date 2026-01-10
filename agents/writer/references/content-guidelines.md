@@ -21,12 +21,12 @@ Always write in second person, directly addressing the reader:
 ### Tone Examples
 
 **Good:**
-> Met 23 parken binnen handbereik en een hondenspeelweide op 12 minuten wandelen, is Dampoort een fijne wijk voor baasjes die van groene ruimte houden.
+> Met voldoende parken binnen handbereik en een hondenspeelweide op 12 minuten wandelen, is Dampoort een fijne wijk voor baasjes die van groene ruimte houden.
 
 **Bad:**
 > Dampoort is een ideale wijk voor hondenliefhebbers met veel groene ruimte.
 
-The good example is specific (23 parks, 12 minutes), uses correct terminology (baasjes, hondenspeelweide), and doesn't overclaim (says "fijne wijk" not "ideale wijk").
+The good example uses qualitative language for counts ("voldoende parken"), specific distances (12 minutes), correct terminology (baasjes, hondenspeelweide), and doesn't overclaim (says "fijne wijk" not "ideale wijk").
 
 ---
 
@@ -78,21 +78,66 @@ These phrases are:
 
 ---
 
+## POI Names in Prose
+
+Do NOT mention specific POI names in narrative text:
+
+**Avoid:**
+- "Tom & Co op de Martelaarslaan"
+- "Dierenarts Heughebaert Anne"
+- "Het Appelbrugparkje ligt om de hoek"
+
+**Use instead:**
+- "een dierenwinkel op 18 minuten wandelen"
+- "de dichtstbijzijnde praktijk"
+- "het dichtstbijzijnde park ligt om de hoek"
+
+POI names belong in structured data only (vets.practices, petStores.stores, dogParks.parks arrays).
+
+**Why?** Names change (businesses close, rename). Generic references stay accurate over time.
+
+---
+
 ## Patterns to Encourage
 
 Use these approaches instead:
 
 ### Specific Distances
 
+Keep walking times and distances specific — these add precision and don't become stale:
 - "op 4 minuten wandelen"
 - "binnen 500 meter"
 - "de dichtstbijzijnde dierenarts ligt op 7 minuten"
 
-### Exact Counts
+### Qualitative Counts (for prose)
 
-- "met 3 dierenartsen binnen bereik"
-- "23 parken verspreid over de wijk"
-- "1 hondenspeelweide in de buurt"
+Use qualitative language instead of specific numbers in all prose sections (intro, section intros, dailyLife):
+
+| Count | Dutch Phrasing |
+|-------|----------------|
+| 0 | "geen ... in de wijk", "niet aanwezig in de directe omgeving" |
+| 1 | "één ...", "de enige ...", "een enkele ..." |
+| 2 | "een paar ...", "twee opties" |
+| 3-5 | "enkele ...", "een handvol ...", "meerdere opties" |
+| 6-10 | "voldoende ...", "ruim voldoende ...", "voldoende keuze" |
+| 11-20 | "veel ...", "een ruim aanbod aan ..." |
+| 20+ | "talrijke ...", "een uitgebreid aanbod aan ...", "ruim voldoende" |
+
+**Good:**
+- "voldoende dierenartsen binnen bereik" (not "3 dierenartsen")
+- "ruim voldoende parken" (not "23 parken")
+- "een enkele hondenspeelweide" (not "1 hondenspeelweide")
+- "meerdere praktijken in de omgeving"
+- "goede OV-bereikbaarheid" (not "41 bushaltes")
+
+**Why?** OSM data changes regularly. Qualitative prose stays accurate; specific counts belong only in structured data (valueCards, POI arrays).
+
+### Specific Counts (for structured data only)
+
+Keep specific counts in these locations:
+- `valueCards.description`: "20 parken in de buurt"
+- `valueCards.detail`: "5 praktijken binnen 30 min"
+- POI arrays (`dogParks.parks`, `vets.practices`, `petStores.stores`)
 
 ### Honest Trade-offs
 
@@ -124,7 +169,7 @@ When data is missing or sparse, be honest and pivot to alternatives.
 > Helaas zijn er geen hondenparken in de wijk.
 
 **Good:**
-> Een officiële hondenspeelweide vind je niet in de wijk zelf, maar met 23 parken en groene pleinen heb je meer dan genoeg ruimte voor de dagelijkse wandeling. Het dichtstbijzijnde omheinde speelterrein ligt in Dampoort, op 12 minuten wandelen.
+> Een officiële hondenspeelweide vind je niet in de wijk zelf, maar met voldoende parken en groene pleinen heb je meer dan genoeg ruimte voor de dagelijkse wandeling. De dichtstbijzijnde omheinde speelweide ligt op 12 minuten wandelen.
 
 ### Example: No Vets
 
@@ -132,7 +177,7 @@ When data is missing or sparse, be honest and pivot to alternatives.
 > Er is geen dierenarts in de buurt.
 
 **Good:**
-> In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Dierenarts Van den Daele in het aangrenzende Groot Begijnhof, op 8 minuten wandelen. Voor spoedgevallen is de universitaire dierenkliniek bereikbaar met de auto.
+> In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie ligt op 8 minuten wandelen in een aangrenzende wijk. Voor spoedgevallen zijn meerdere praktijken bereikbaar met de auto.
 
 ### Example: No Pet Stores
 
@@ -140,7 +185,7 @@ When data is missing or sparse, be honest and pivot to alternatives.
 > Er zijn geen dierenwinkels.
 
 **Good:**
-> Een gespecialiseerde dierenwinkel vind je niet in de wijk, maar Tom & Co op de Dendermondsesteenweg is op 16 minuten te voet. De meeste supermarkten in de wijk hebben ook een basisassortiment voor je viervoeter.
+> Een gespecialiseerde dierenwinkel vind je niet in de wijk, maar de dichtstbijzijnde optie ligt op 16 minuten te voet. De meeste supermarkten in de wijk hebben ook een basisassortiment voor je viervoeter.
 
 ---
 
@@ -190,15 +235,17 @@ Don't pad to reach word count. Quality over quantity.
 ### Daily Life Benefits (3-7 items)
 
 Each benefit should be:
-- **Specific** — mention counts, distances, or features
+- **Qualitative counts** — use "voldoende", "meerdere", "ruim aanbod" (not specific numbers)
+- **Specific distances** — walking times are allowed ("op 15 minuten wandelen")
 - **Practical** — describe real scenarios
 - **30-80 words** — substantive but concise
+- **No POI names** — don't mention specific parks, vets, or stores by name
 
 **Good:**
-> Dankzij de 6 parken binnen 15 minuten wandelen heb je altijd een groene plek voor de ochtendwandeling. Het Cirkelspark is populair onder lokale baasjes en heeft schaduwrijke paden voor warme dagen.
+> Dankzij de voldoende parken binnen wandelafstand heb je altijd een groene plek voor de ochtendwandeling. Sommige parken hebben schaduwrijke paden voor warme dagen.
 
 **Bad:**
-> Er zijn veel parken in de buurt.
+> Dankzij de 6 parken... Het Cirkelspark is populair... (uses specific count and POI name)
 
 ---
 
@@ -209,7 +256,10 @@ Before finalizing content, verify:
 - [ ] All terminology matches the guide (baasjes, hondenspeelweide, etc.)
 - [ ] No forbidden phrases used
 - [ ] At least one honest trade-off mentioned
-- [ ] Specific numbers used instead of vague descriptions
+- [ ] **No specific counts in prose** — use qualitative language ("voldoende", "meerdere")
+- [ ] **No POI names in prose** — save names for structured data
+- [ ] **Distances remain specific** — "op X minuten wandelen" is encouraged
+- [ ] **Population stats remain specific** — Statbel data (inhabitants, density) keeps exact numbers
 - [ ] Content reads naturally, not like a list of facts
 - [ ] Second person consistently used (je, jouw)
 - [ ] Dutch spelling and grammar correct

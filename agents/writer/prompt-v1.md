@@ -134,7 +134,6 @@ The intro should answer "what's it like to live here?" with dog ownership as one
 - [ ] **Key amenities summary** — What's nearby? (Include dog-relevant but also general livability)
 - [ ] **At least one honest trade-off + mitigation** — What's not great AND how do you deal with it?
 - [ ] **"Who is this for" signal** — Who would thrive here? Who might not?
-- [ ] **Specific data points** — Numbers woven naturally into narrative
 
 **Writing guidelines:**
 - Second person (je, jouw)
@@ -143,6 +142,16 @@ The intro should answer "what's it like to live here?" with dog ownership as one
 - **Limit explicit dog keywords:** max 3-4 uses of hond/baasjes/viervoeter total
 - Don't pad to reach word count — quality over quantity
 - Flow naturally, not like a list of facts
+
+**CRITICAL: Qualitative language in prose**
+- **Do NOT** use specific counts in prose (e.g., "20 parken", "5 dierenartsen", "41 bushaltes")
+- **Use instead:** "voldoende parken", "meerdere praktijken", "goede OV-bereikbaarheid"
+- **Do NOT** name specific POIs in prose — save names for structured data (valueCards, POI arrays)
+- **Use instead:** "de dichtstbijzijnde praktijk", "een dierenwinkel in de buurt"
+- **Walking distances ARE allowed:** "op 10 minuten wandelen" adds precision without staleness
+- **Population statistics ARE allowed:** Statbel data (inhabitants, density) can use exact numbers
+
+See content-guidelines.md for the full qualitative language guide with count-to-phrase mappings.
 
 **Good opening:**
 > "Dampoort is een compacte stadswijk aan de rand van het Gentse centrum. Met het station om de hoek en groen op wandelafstand combineer je hier stedelijk gemak met voldoende buitenruimte voor je dagelijkse routine."
@@ -190,6 +199,12 @@ Write brief introductions for each section:
 | `dogParks.intro` | 50-120 | Dog park situation; be honest if none exist |
 | `vets.intro` | 40-100 | Veterinary options; mention distance if far |
 | `petStores.intro` | 40-100 | Pet store options |
+
+**CRITICAL: Qualitative language in section intros**
+Apply the same rules as the main intro:
+- **No specific counts:** "meerdere hondenspeelweiden" not "5 hondenspeelweiden"
+- **No POI names:** "de dichtstbijzijnde praktijk" not "Heughebaert Anne"
+- **Distances ARE allowed:** "op 10 minuten wandelen"
 
 **Section focus (relaxed rules):**
 - `dogParks.intro` — Primarily about hondenspeelweiden (one sentence about general parks as backup is OK)
@@ -240,9 +255,15 @@ Create the dailyLife object:
 }
 ```
 
+**CRITICAL: Qualitative language in dailyLife**
+Apply the same rules as other prose sections:
+- **No specific counts:** "voldoende parken" not "20 parken"
+- **No POI names:** describe scenarios without naming specific places
+- **Distances ARE allowed:** "op 10 minuten wandelen"
+
 **Benefits should be:**
-- Specific (mention counts, distances, features)
-- Practical (describe real scenarios)
+- Qualitative counts (use "voldoende", "meerdere", not specific numbers)
+- Practical (describe real scenarios without naming POIs)
 - Varied (don't repeat the same type)
 
 ### Step 12: Generate Supporting Sections

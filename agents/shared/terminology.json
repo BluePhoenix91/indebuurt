@@ -56,8 +56,9 @@
     "voice": "Friendly, informative, honest - like advice from a fellow dog owner",
     "perspective": "Second person ('je', 'jouw') - direct address to the reader",
     "honesty": "Always mention trade-offs honestly - no neighborhood is perfect",
-    "specificity": "Use specific numbers and distances, not vague descriptions",
-    "localAuthenticity": "Include local details that only someone who knows the area would mention"
+    "specificity": "Use specific distances (minutes, meters). Use qualitative language for counts in prose ('voldoende', 'meerdere'); specific counts only in structured data (valueCards, POI lists).",
+    "poiNames": "Do not mention POI names in prose. Use generic references ('de dichtstbijzijnde praktijk'). Names belong in structured POI arrays only.",
+    "localAuthenticity": "Describe character and atmosphere authentically without naming specific POIs"
   },
 
   "avoidPatterns": [
@@ -71,9 +72,11 @@
   ],
 
   "encouragedPatterns": [
-    "specific distance in meters or minutes",
-    "exact counts (e.g., '23 parken', '2 dierenartsen')",
+    "specific distance in meters or minutes (e.g., 'op 10 minuten wandelen')",
+    "qualitative counts in prose (e.g., 'voldoende parken', 'meerdere dierenartsen')",
+    "exact counts only in valueCards and POI arrays",
     "honest trade-offs (e.g., 'geen dierenarts in de wijk zelf')",
+    "generic POI references in prose (e.g., 'de dichtstbijzijnde praktijk')",
     "practical daily scenarios"
   ]
 }
