@@ -122,64 +122,62 @@ Use the official Ralph Wiggum plugin with smart defaults:
 
 ---
 
-## Story L4: Fix Statbel NIS Code Mapping for Merged Municipalities
+## Story L4: Fix Statbel NIS Code Mapping for Merged Municipalities ✅
 
 > As a content reader, I want to see house price data for all neighborhoods, so that I can compare affordability across areas.
 
-**Context:** Belgium merged several municipalities on January 1, 2025. Statbel's 2024 house price data already uses the **new merged NIS codes**, but our neighborhoods database still uses the old pre-merger codes. This causes a join failure in the ETL script, resulting in NULL house prices for affected neighborhoods.
+**Status:** Completed (2026-01-10)
 
-**Current State:**
-- 246 neighborhoods (~8.8%) have NULL `median_house_price`
-- Affected municipalities include Melle, Merelbeke, Lochristi, and others
-- Pipeline outputs show `medianHousePrice: 0` for these areas
-- The data **exists** in Statbel's source file but isn't matched
+**Context:** Belgium merged 28 municipalities on January 1, 2025. Statbel's 2024 house price data uses the **new merged NIS codes**, but our neighborhoods database uses the old pre-merger codes. This caused a join failure in the ETL script, resulting in NULL house prices for 246 neighborhoods.
 
-**Evidence:**
+**Solution:** Added `statbel_municipality_nis` column to neighborhoods table + CSV mapping file for ETL.
 
-Statbel Excel file (`vastgoed_2010_9999.xlsx`) shows:
+**Results:**
+| Metric | Before | After |
+|--------|--------|-------|
+| Neighborhoods with house prices | 2,554 | 2,792 |
+| Missing house prices | 246 | 8 |
+| Coverage | 91.2% | 99.7% |
 
-| Our NIS Code | Statbel NIS | Municipality Name | Median Price |
-|--------------|-------------|-------------------|--------------|
-| `44040` (Melle) | `44088` | MERELBEKE-MELLE | €400,000 |
-| `44043` (Merelbeke) | `44088` | MERELBEKE-MELLE | €400,000 |
-| `44034` (Lochristi) | `44087` | LOCHRISTI | €380,000 |
-
-The ETL script joins on `municipality_nis` but the codes don't match:
-```python
-# In load-statistics.py line 270-274
-merged = pop_df.merge(
-    price_df,
-    on="municipality_nis",  # Fails when codes differ
-    how="left"
-)
-```
+The 8 remaining missing are 5 small municipalities where Statbel doesn't publish data (privacy/sample size): Herstappe (76 pop), Mesen (1,070), Horebeke (2,012), Spiere-Helkijn (2,063), Bever (2,274).
 
 **Acceptance Criteria:**
-- [ ] Identify all NIS code changes from 2025 municipality mergers
-- [ ] Add NIS code mapping to ETL script (old code → new Statbel code)
-- [ ] Re-run ETL to generate updated staging CSV
-- [ ] Re-import statistics to GIS database
-- [ ] Verify affected neighborhoods now have house prices
-- [ ] Document mapping for future Statbel imports
+- [x] Identify all NIS code changes from 2025 municipality mergers → 27 mappings identified from Statbel REFNIS-NUTS 2025
+- [x] Add NIS code mapping to ETL script (old code → new Statbel code) → CSV file + `load_nis_mapping()` function
+- [x] Re-run ETL to generate updated staging CSV → 97.5% coverage in staging
+- [x] Re-import statistics to GIS database → Done via existing migration
+- [x] Verify affected neighborhoods now have house prices → All 27 merged municipalities now have prices
+- [x] Document mapping for future Statbel imports → README.md updated with merger section
 
-**Technical Notes:**
+**Implementation Notes:**
 
-Files involved:
-- `database/scripts/statbel/load-statistics.py` — ETL script needing NIS mapping
-- `database/data/statbel/vastgoed_2010_9999.xlsx` — Source Statbel data
-- `database/data/statbel/neighborhood_statistics_staging.csv` — Generated staging file
-- `database/migrations/20250102_005_load-statbel-statistics.sql` — Import script
+Chose Option A (add column) over alternatives:
+- Option B (update nis_code): Would break file paths, pipeline constraints, and lose historical provenance
+- Option C (mapping file only): Would require same mapping logic in every future Statbel import
 
-Proposed fix approach:
-1. Add mapping dict in ETL script: `NIS_CODE_MAPPING = {"44040": "44088", "44043": "44088", "44034": "44087", ...}`
-2. Apply mapping before join: `pop_df["statbel_nis"] = pop_df["municipality_nis"].map(lambda x: NIS_CODE_MAPPING.get(x, x))`
-3. Join on `statbel_nis` instead of `municipality_nis`
+Files created/modified:
+- `database/migrations/20260110_008_add-statbel-municipality-nis.sql` — NEW: Adds column + applies 27 merger mappings
+- `database/data/statbel/nis_code_mapping_2025.csv` — NEW: CSV mapping (old_nis → new_nis)
+- `database/scripts/statbel/load-statistics.py` — Added `load_nis_mapping()`, updated `merge_and_export()`
+- `database/data/statbel/README.md` — Documented 2025 mergers and mapping file
 
-Alternative: Update our neighborhoods table to use new NIS codes (larger change, affects more systems)
+**27 Merged Municipalities:**
 
-**After Fix:**
-- Re-run `/pipeline regenerate municipality 44040` for Melle
-- Re-run for other affected municipalities
+| Province | Old → New | Neighborhoods |
+|----------|-----------|---------------|
+| East Flanders | Melle, Merelbeke → 44088 | 12 |
+| East Flanders | Lochristi, Wachtebeke → 44087 | 14 |
+| East Flanders | De Pinte, Nazareth → 44086 | 10 |
+| East Flanders | Beveren, Kruibeke, Zwijndrecht → 46030 | 29 |
+| East Flanders | Lokeren, Moerbeke → 46029 | 19 |
+| Limburg | Hasselt, Kortessem → 71072 | 33 |
+| Limburg | Bilzen, Hoeselt → 73110 | 28 |
+| Limburg | Tongeren, Borgloon → 73111 | 39 |
+| Limburg | Tessenderlo, Ham → 71071 | 12 |
+| Flemish Brabant | Galmaarden, Gooik, Herne → 23106 | 15 |
+| Antwerp | Borsbeek → 11002 (Antwerpen) | 1 |
+| West Flanders | Tielt, Meulebeke → 37022 | 14 |
+| West Flanders | Wingene, Ruiselede → 37021 | 12 |
 
 ---
 

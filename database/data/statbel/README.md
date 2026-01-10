@@ -46,6 +46,43 @@ This directory contains socioeconomic data from Statbel (Belgian Statistics Offi
 - House prices: Inherited DOWN from municipality to all its neighborhoods
 - Income: Aggregated UP from sectors with weighted average
 
+## 2025 Municipality Mergers
+
+Belgium merged 28 municipalities on January 1, 2025. Statbel's data uses the **new merged NIS codes**, but our neighborhood boundaries retain the **original statistical sector codes** (which remain unchanged for historical comparability).
+
+### NIS Code Mapping File
+
+**File:** `nis_code_mapping_2025.csv`
+
+This file maps old municipality NIS codes to the new Statbel NIS codes. The ETL script uses this mapping when joining house price data.
+
+| Old NIS | New NIS | Old Name | New Name |
+|---------|---------|----------|----------|
+| 44040 | 44088 | Melle | Merelbeke-Melle |
+| 44043 | 44088 | Merelbeke | Merelbeke-Melle |
+| 44034 | 44087 | Lochristi | Lochristi |
+| 71022 | 71072 | Hasselt | Hasselt |
+| ... | ... | ... | ... |
+
+See the full mapping in `nis_code_mapping_2025.csv` (27 entries).
+
+### Source
+
+- [Statbel: Modification of NSI codes from 1 January 2025](https://statbel.fgov.be/en/news/modification-nsi-codes-municipalities-1-january-2025-onwards)
+- [REFNIS-NUTS 2025 PDF](https://statbel.fgov.be/sites/default/files/files/opendata/Nuts/Note%20REFNIS-NUTS%202025-NL.pdf)
+
+### Municipalities Without House Price Data
+
+Some small municipalities have no Statbel house price data (privacy/sample size):
+
+| Municipality | NIS | Population |
+|--------------|-----|------------|
+| Herstappe | 73028 | 76 |
+| Mesen | 33016 | 1,070 |
+| Horebeke | 45062 | 2,012 |
+| Spiere-Helkijn | 34043 | 2,063 |
+| Bever | 23009 | 2,274 |
+
 ## Update Process
 
 Statbel typically releases updated data annually:

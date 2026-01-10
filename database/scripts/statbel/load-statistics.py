@@ -40,6 +40,31 @@ FLANDERS_PROVINCES = [
 # Brussels NIS codes start with 21
 BRUSSELS_NIS_PREFIX = "21"
 
+# NIS code mapping file for 2025 municipality mergers
+NIS_MAPPING_FILE = DATA_DIR / "nis_code_mapping_2025.csv"
+
+
+def load_nis_mapping() -> dict:
+    """
+    Load NIS code mapping for 2025 municipality mergers.
+
+    Belgium merged 28 municipalities on January 1, 2025. Statbel's house price
+    data uses the new merged NIS codes, but our database uses the old codes.
+    This mapping allows us to join correctly.
+
+    Returns:
+        dict: Mapping from old NIS code to new Statbel NIS code.
+              For unchanged municipalities, returns empty dict (no mapping needed).
+    """
+    if not NIS_MAPPING_FILE.exists():
+        print(f"  No NIS mapping file found at {NIS_MAPPING_FILE}")
+        return {}
+
+    df = pd.read_csv(NIS_MAPPING_FILE, dtype=str)
+    mapping = dict(zip(df["old_nis"], df["new_nis"]))
+    print(f"  Loaded {len(mapping)} NIS code mappings for 2025 municipality mergers")
+    return mapping
+
 
 def load_population_data() -> pd.DataFrame:
     """
@@ -266,11 +291,27 @@ def merge_and_export(pop_df: pd.DataFrame, price_df: pd.DataFrame) -> None:
     """
     print("\nMerging datasets...")
 
-    # Join house prices to neighborhoods via municipality
+    # Load NIS code mapping for 2025 municipality mergers
+    nis_mapping = load_nis_mapping()
+
+    # Map municipality_nis to statbel_nis for house price lookup
+    # For unchanged municipalities, statbel_nis equals municipality_nis
+    pop_df["statbel_nis"] = pop_df["municipality_nis"].apply(
+        lambda x: nis_mapping.get(x, x)
+    )
+
+    # Report how many neighborhoods are affected by the mapping
+    mapped_count = (pop_df["municipality_nis"] != pop_df["statbel_nis"]).sum()
+    if mapped_count > 0:
+        print(f"  Applied NIS mapping to {mapped_count} neighborhoods")
+
+    # Join house prices to neighborhoods via Statbel municipality NIS
     merged = pop_df.merge(
         price_df,
-        on="municipality_nis",
-        how="left"
+        left_on="statbel_nis",
+        right_on="municipality_nis",
+        how="left",
+        suffixes=("", "_price")
     )
 
     # Add year column
