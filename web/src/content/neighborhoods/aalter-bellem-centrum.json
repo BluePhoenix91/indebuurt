@@ -1,0 +1,264 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-11T14:30:00Z",
+  "id": "aalter-bellem-centrum",
+  "city": "Aalter",
+  "name": "Bellem - Centrum",
+  "postalCode": "9880",
+  "subtitle": "Wonen in Bellem - Centrum: landelijk, rustig en ruimtelijk — met wandelmogelijkheden voor je hond nabij Aalter",
+  "dateAdded": "2026-01-11",
+  "inhabitants": 2177,
+  "labels": [
+    {
+      "text": "Landelijk",
+      "icon": "fa-solid fa-tractor"
+    },
+    {
+      "text": "Rustige wijk",
+      "icon": "fa-solid fa-volume-off"
+    },
+    {
+      "text": "Groen",
+      "icon": "fa-solid fa-leaf"
+    }
+  ],
+  "intro": "Bellem - Centrum is een rustige, landelijke wijk aan de rand van Aalter. Met slechts 177 inwoners per vierkante kilometer geniet je hier van ruimte en een ontspannen tempo. Voor baasjes betekent dit vooral: veel open lucht, rustige wandelroutes en een dorps karakter waar je hond niet constant tussen het stadsverkeer moet navigeren.\n\nDe wijk zelf heeft een beperkt aanbod aan voorzieningen — je vindt er geen supermarkten of uitgebreide winkels direct in de buurt. Dat is het rurale compromis: rust en ruimte in ruil voor een iets grotere afhankelijkheid van nabijgelegen kernen zoals Aalter-Centrum, dat op een kwartier rijden ligt. Voor dagelijkse boodschappen en diensten reken je dus op een auto of fiets.\n\nVoor honden biedt de omgeving vooral natuur en wandelruimte. Er zijn een paar kleinschalige parken op wandelafstand: het dichtstbijzijnde park ligt op ongeveer 8 minuten wandelen, en Mariahove op 10 minuten. Deze groene plekken zijn ideaal voor de dagelijkse ochtend- of avondwandeling. Gespecialiseerde hondenvoorzieningen zoals omheinde hondenspeelweiden zijn echter niet aanwezig in de directe omgeving — de dichtstbijzijnde ligt op ruim anderhalf uur wandelen, wat in de praktijk betekent dat je hiervoor de auto moet nemen.\n\nOok op gebied van dierenzorg vraagt Bellem - Centrum enige flexibiliteit. Een dierenartspraktijk vind je niet in de wijk zelf. De dichtstbijzijnde optie ligt op 30 minuten wandelen in de richting van het centrum van Aalter. Voor spoedgevallen of routinecontroles reken je dus op vervoer. Hetzelfde geldt voor dierenwinkels: de enige gespecialiseerde dierenwinkel in de regio, Baele tuin & diercentrum, ligt op ongeveer een halfuur wandelen. Voor basisbenodigdheden kun je ook uitwijken naar supermarkten in Aalter-Centrum, al is het aanbod daar beperkt.\n\nMet een treinstation in de buurt en een handvol bushaltes is de wijk niet volledig afgesloten, maar je dagelijkse mobiliteit draait hier vooral om de fiets of auto. Het landelijke karakter maakt het wel een rustige, overzichtelijke plek om te wonen — ideaal als je houdt van stilte, natuur en ruimte rond je huis.\n\nBellem - Centrum is geschikt voor baasjes die rust boven gemak verkiezen, die bereid zijn wat verder te rijden voor voorzieningen, en die de voorkeur geven aan lange, ongestoorde wandelingen boven drukke hondenparken. Het is minder geschikt als je veel waarde hecht aan direct toegankelijke diensten of een levendige buurtdynamiek. Hier woon je bewust voor de ruimte en de natuur.",
+  "coordinates": {
+    "lat": 51.09168465720688,
+    "lon": 3.497724322461589,
+    "zoom": 14
+  },
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-tree",
+      "title": "Groene ruimte",
+      "distance": "8 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "2 parken voor wandelingen",
+      "detail": "Dichtstbijzijnde op 8 min"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "30 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "Meerdere praktijken in Aalter",
+      "detail": "Dichtstbijzijnde op 30 min"
+    },
+    {
+      "icon": "fa-solid fa-bone",
+      "title": "Dierenwinkels",
+      "distance": "26 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 dierenwinkel bereikbaar",
+      "detail": "Baele tuin & diercentrum"
+    },
+    {
+      "icon": "fa-solid fa-bus",
+      "title": "Openbaar vervoer",
+      "distance": "Variabel",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "12 bushaltes en 1 station",
+      "detail": "Beperkte frequentie"
+    }
+  ],
+  "facilities": {
+    "intro": "Bellem - Centrum is een landelijke wijk met een beperkt lokaal aanbod. Voor hondenspecifieke voorzieningen zoals dierenartsen, dierenwinkels of hondenspeelweiden ben je aangewezen op Aalter-Centrum of nabijgelegen kernen. De wijk zelf biedt vooral rust, ruimte en toegang tot groene wandelgebieden."
+  },
+  "dogParks": {
+    "intro": "Een officiële hondenspeelweide vind je niet in de directe omgeving van Bellem - Centrum. De dichtstbijzijnde opties liggen op ruim 86 minuten wandelen, wat betekent dat je de auto moet nemen als je je hond vrij wilt laten rennen in een omheind terrein. Gelukkig biedt de landelijke omgeving wel ruim voldoende open wandelruimte en enkele kleinschalige parken voor de dagelijkse wandeling.",
+    "parks": []
+  },
+  "vets": {
+    "intro": "In de wijk zelf is geen dierenartspraktijk gevestigd. De dichtstbijzijnde optie is Veerle D'hoore in Aalter, op 30 minuten wandelen of een korte rit met de auto. Voor spoedgevallen of routinecontroles reken je dus op vervoer, maar meerdere praktijken zijn bereikbaar binnen de regio Aalter.",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Veerle D'hoore",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Aalter",
+        "postalCode": "9880",
+        "distance": "30 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0935451,
+          "lon": 3.4634929
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Unnamed",
+        "street": "Steenweg op Deinze",
+        "streetNumber": "40",
+        "municipality": "Aalter",
+        "postalCode": "9880",
+        "distance": "49 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0711881,
+          "lon": 3.4520444
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Van Haver",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Aalter",
+        "postalCode": "9880",
+        "distance": "58 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0879093,
+          "lon": 3.4319387
+        }
+      },
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Karen Verdegem",
+        "street": "Unknown",
+        "streetNumber": "Unknown",
+        "municipality": "Lievegem",
+        "postalCode": "9930",
+        "distance": "64 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.1125719,
+          "lon": 3.5631182
+        }
+      }
+    ]
+  },
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in Bellem - Centrum zelf. De dichtstbijzijnde optie is Baele tuin & diercentrum op 26 minuten wandelen. Voor basisbenodigdheden kun je uitwijken naar supermarkten in Aalter-Centrum, al is het aanbod daar beperkt.",
+    "stores": [
+      {
+        "icon": "fa-solid fa-bone",
+        "name": "Baele tuin & diercentrum",
+        "street": "Oostmolenstraat",
+        "streetNumber": "226",
+        "municipality": "Aalter",
+        "postalCode": "9880",
+        "distance": "26 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": {
+          "lat": 51.0989278,
+          "lon": 3.4700033
+        }
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Bellem - Centrum",
+    "intro": "Een typische dag als baasje in Bellem - Centrum draait om rust, ruimte en de natuur. Je begint de ochtend met een wandeling door open velden of een van de nabijgelegen parken, ver van het stadslawaai. De lage bevolkingsdichtheid betekent dat je zelden andere honden of drukke wandelpaden tegenkomt — ideaal voor honden die wat meer ruimte en kalmte nodig hebben.",
+    "benefits": [
+      "Dankzij de landelijke omgeving en lage bevolkingsdichtheid kun je je hond vaak zonder riem laten lopen op rustige paden en langs open velden. Hier is geen druk verkeer of grote menigten die je wandelingen verstoren.",
+      "De enkele parken in de buurt bieden groene plekken voor korte wandelingen, met schaduwrijke zones en open gras. Het dichtstbijzijnde park ligt op slechts 8 minuten wandelen, ideaal voor een snelle ochtend- of avondronde.",
+      "Het ontbreken van directe hondenvoorzieningen betekent dat je flexibel moet zijn, maar ook dat de omgeving zelf je speelterrein wordt. Lange wandelingen door de natuur vervangen de behoefte aan omheinde speelweiden.",
+      "Voor dierenarts of dierenwinkel reken je op een korte rit naar Aalter-Centrum of omliggende kernen. Dit vraagt wat planning, maar biedt ook de kans om meerdere boodschappen in één keer te combineren."
+    ]
+  },
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+  "statistics": {
+    "intro": "Bellem - Centrum is een kleine, landelijke wijk met 2177 inwoners en een lage bevolkingsdichtheid van 177 inwoners per vierkante kilometer.",
+    "medianPrice": 276250,
+    "inhabitants": 2177,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+  "houses": {
+    "intro": "Op zoek naar een woning in Bellem - Centrum? De wijk valt onder postcode 9880. Gebruik deze postcode om je zoektocht te filteren op grote vastgoedplatformen. De mediane huisprijs ligt op 276.250 euro.",
+    "hasOwnPostalCode": true
+  },
+  "neighboringNeighborhoods": [
+    "aalter-aalter-centrum",
+    "aalter-onderdale",
+    "aalter-aalterbrug",
+    "aalter-lotenhulle-centrum",
+    "aalter-biesem-kattewegel"
+  ],
+  "qualityReview": {
+    "reviewedAt": "2026-01-11T15:45:00Z",
+    "qualityScore": 94,
+    "passedQuality": true,
+    "seoScore": 92,
+    "brandScore": 96,
+    "seoBreakdown": {
+      "subtitleScore": 15,
+      "introScore": 20,
+      "keywordScore": 17,
+      "sectionIntrosScore": 10,
+      "localRelevanceScore": 10,
+      "internalLinkingScore": 5
+    },
+    "brandBreakdown": {
+      "terminologyScore": 30,
+      "toneVoiceScore": 25,
+      "localAuthenticityScore": 17,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+    "changesLog": [],
+    "validationIssues": [
+      {
+        "field": "intro",
+        "issue": "Explicit dog terms count is 11 (exceeds recommended threshold of 4). Content is natural and readable, but consider reducing keyword density in future iterations.",
+        "severity": "info",
+        "domain": "seo"
+      }
+    ],
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": [],
+        "preferredTermsPresent": [
+          "baasjes",
+          "wijk",
+          "hondenspeelweide",
+          "wandeling",
+          "dierenarts"
+        ],
+        "allowedExceptionsUsed": [
+          "in de buurt",
+          "de juiste buurt"
+        ]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 12
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 4,
+        "localTipsFound": [
+          "in de richting van het centrum van Aalter"
+        ],
+        "neighborhoodObservations": [
+          "dorps karakter",
+          "landelijke omgeving",
+          "lage bevolkingsdichtheid",
+          "rustige, overzichtelijke plek"
+        ]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.72,
+        "averageSentenceLength": 18.5,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": [
+          "no pet store in neighborhood",
+          "no vet in neighborhood",
+          "no dog park in neighborhood"
+        ],
+        "gapsHandledGracefully": 3,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

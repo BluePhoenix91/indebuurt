@@ -1,0 +1,72 @@
+{
+  "$comment": "Example BrandReviewerOutput structure. Includes all SEOReviewerOutput fields plus brandReview object.",
+
+  "id": "44021A0",
+  "name": "Begijnhofdries",
+  "city": "Gent",
+  "postalCode": "9000",
+
+  "_note": "All SEOReviewerOutput fields (including seoReview) are preserved unchanged.",
+
+  "seoReview": {
+    "reviewedAt": "2026-01-04T10:00:00Z",
+    "seoScore": 85,
+    "passedSEO": true,
+    "changesLog": [],
+    "validationIssues": []
+  },
+
+  "brandReview": {
+    "reviewedAt": "2026-01-04T12:00:00Z",
+    "qualityScore": 87,
+    "passedBrand": true,
+
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "andere hondenliefhebbers de juiste buurt te vinden",
+        "after": "andere hondenliefhebbers de juiste wijk te vinden",
+        "reason": "terminology_violation"
+      }
+    ],
+
+    "validationIssues": [],
+
+    "scoreBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": ["buurt"],
+        "preferredTermsPresent": ["baasjes", "hondenspeelweide", "wijk", "viervoeter"],
+        "allowedExceptionsUsed": ["buurtgevoel", "in de buurt"]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 12
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 5,
+        "localTipsFound": ["via de Coupure", "richting de Blaarmeersen"],
+        "neighborhoodObservations": ["rustige sfeer rond het Begijnhof"]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.82,
+        "averageSentenceLength": 14.3,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": ["no pet store in neighborhood"],
+        "gapsHandledGracefully": 1,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "$comment": "Example ResearcherOutput structure. All fields shown with sample data.",
+
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2025-01-02T10:30:00Z",
+
+  "neighborhoodId": "gent-dampoort",
+  "neighborhoodName": "Dampoort",
+  "city": "Gent",
+  "postalCode": "9000",
+
+  "centerCoordinates": {
+    "lat": 51.06431,
+    "lon": 3.74692
+  },
+
+  "boundingBox": {
+    "north": 51.0720,
+    "south": 51.0550,
+    "east": 3.7600,
+    "west": 3.7350
+  },
+
+  "vets": [
+    {
+      "name": "Tania Maenhout",
+      "street": "Hogeweg",
+      "streetNumber": "203",
+      "municipality": "Gent",
+      "postalCode": "9000",
+      "coordinates": { "lat": 51.0691142, "lon": 3.7489475 },
+      "distanceMeters": 560,
+      "walkingTimeMinutes": 7,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "petStores": [],
+
+  "dogParks": [
+    {
+      "name": "Hondenweide Dampoort",
+      "coordinates": { "lat": 51.072154, "lon": 3.7516795 },
+      "distanceMeters": 960,
+      "walkingTimeMinutes": 12,
+      "isFenced": true,
+      "hasWater": false,
+      "surface": "grass",
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "parks": [
+    {
+      "name": "Stadspark",
+      "coordinates": { "lat": 51.0580, "lon": 3.7400 },
+      "distanceMeters": 400,
+      "areaHectares": 2.5,
+      "source": "OSM 2024-12"
+    }
+  ],
+
+  "poiCounts": {
+    "vets": 4,
+    "petStores": 0,
+    "dogParks": 1,
+    "parks": 6,
+    "supermarkets": 5,
+    "pharmacies": 3,
+    "schools": 8,
+    "busStops": 37,
+    "trainStations": 1
+  },
+
+  "statistics": {
+    "inhabitants": 5572,
+    "medianHousePrice": 353000,
+    "pricePerSqm": null,
+    "availableHomes": 0,
+    "populationDensity": 8500,
+    "source": "Statbel 2024"
+  },
+
+  "context": {
+    "neighboringNeighborhoods": [
+      { "id": "gent-groot-begijnhof", "name": "Groot Begijnhof", "distanceMeters": 720 },
+      { "id": "gent-afrikalaan", "name": "Afrikalaan", "distanceMeters": 850 },
+      { "id": "gent-blaisantvest", "name": "Blaisantvest", "distanceMeters": 1100 }
+    ],
+    "cityContext": {
+      "name": "Gent",
+      "totalNeighborhoods": 25
+    }
+  },
+
+  "dataSources": [
+    {
+      "name": "OpenStreetMap",
+      "date": "2024-12",
+      "coverage": "POIs, parks, addresses"
+    },
+    {
+      "name": "Statbel",
+      "date": "2024",
+      "coverage": "Population, house prices"
+    }
+  ]
+}

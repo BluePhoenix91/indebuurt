@@ -1,0 +1,124 @@
+{
+  "$comment": "Example WriterOutput structure. Use this as a template for the complete output format.",
+
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2025-01-03T10:30:00Z",
+
+  "id": "gent-dampoort",
+  "city": "Gent",
+  "name": "Dampoort",
+  "postalCode": "9000",
+  "subtitle": "Wonen in Dampoort: compact, goed bereikbaar en groen op wandelafstand — met ruimte voor je hond in Gent",
+  "dateAdded": "2025-01-03",
+  "inhabitants": 5572,
+
+  "labels": [
+    { "text": "Stedelijk", "icon": "fa-solid fa-city" },
+    { "text": "Goed bereikbaar", "icon": "fa-solid fa-train" }
+  ],
+
+  "intro": "Als baasje in Dampoort woon je in een compacte stadswijk... [400-800 words of Dutch content]",
+
+  "coordinates": {
+    "lat": 51.06431,
+    "lon": 3.74692,
+    "zoom": 14
+  },
+
+  "valueCards": [
+    {
+      "icon": "fa-solid fa-dog",
+      "title": "Hondenspeelweide",
+      "distance": "12 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "1 omheinde speelweide",
+      "detail": "Hondenweide Dampoort"
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Dierenartsen",
+      "distance": "7 mins",
+      "distanceIcon": "fa-solid fa-person-walking",
+      "description": "4 praktijken binnen bereik",
+      "detail": "Dichtstbijzijnde op 7 min"
+    }
+  ],
+
+  "facilities": {
+    "intro": "Dampoort biedt een goede basis voor het dagelijks leven met je hond... [50-100 words]"
+  },
+
+  "dogParks": {
+    "intro": "Met één officiële hondenspeelweide in de wijk... [50-120 words]",
+    "parks": [
+      {
+        "icon": "fa-solid fa-dog",
+        "name": "Hondenweide Dampoort",
+        "distance": "12 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.072154, "lon": 3.7516795 },
+        "features": [
+          { "text": "Omheind terrein", "icon": "fa-solid fa-fence" },
+          { "text": "Grasondergrond", "icon": "fa-solid fa-seedling" }
+        ]
+      }
+    ]
+  },
+
+  "vets": {
+    "intro": "Voor medische zorg heb je voldoende opties... [40-100 words]",
+    "practices": [
+      {
+        "icon": "fa-solid fa-stethoscope",
+        "name": "Tania Maenhout",
+        "street": "Hogeweg",
+        "streetNumber": "203",
+        "municipality": "Gent",
+        "postalCode": "9000",
+        "distance": "7 mins",
+        "distanceIcon": "fa-solid fa-person-walking",
+        "coordinates": { "lat": 51.0691142, "lon": 3.7489475 }
+      }
+    ]
+  },
+
+  "petStores": {
+    "intro": "Een gespecialiseerde dierenwinkel vind je niet in de wijk... [40-100 words]",
+    "stores": []
+  },
+
+  "dailyLife": {
+    "title": "Dagelijks leven met je hond in Dampoort",
+    "intro": "Een typische dag als baasje in Dampoort begint met een wandeling... [60-150 words]",
+    "benefits": [
+      "Dankzij de voldoende parken binnen bereik heb je altijd een groene plek... [30-80 words]",
+      "Met goede OV-bereikbaarheid kun je makkelijk buiten de wijk... [30-80 words]",
+      "De hondenspeelweide biedt ruimte voor sociaal contact... [30-80 words]"
+    ]
+  },
+
+  "contributionCTA": {
+    "heading": "Ken je deze wijk?",
+    "intro": "Deel je ervaringen als baasje in deze wijk en help andere hondenliefhebbers de juiste buurt te vinden.",
+    "typeformId": "buurt-feedback"
+  },
+
+  "statistics": {
+    "intro": "Dampoort is een middelgrote wijk met 5572 inwoners... [20-50 words]",
+    "medianPrice": 353000,
+    "inhabitants": 5572,
+    "availableHomes": null,
+    "pricePerSqm": null
+  },
+
+  "houses": {
+    "intro": "Op zoek naar een woning in Dampoort? De wijk valt onder postcode 9000... [30-80 words]",
+    "hasOwnPostalCode": false
+  },
+
+  "neighboringNeighborhoods": [
+    "gent-groot-begijnhof",
+    "gent-afrikalaan",
+    "gent-blaisantvest"
+  ]
+}

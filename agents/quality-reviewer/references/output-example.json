@@ -1,0 +1,88 @@
+{
+  "$comment": "Example QualityReviewerOutput structure. All WriterOutput fields are preserved and a qualityReview object is added.",
+
+  "id": "44021A0",
+  "name": "Begijnhofdries",
+  "city": "Gent",
+  "postalCode": "9000",
+
+  "_note": "All other WriterOutput fields (subtitle, intro, facilities, dogParks, vets, petStores, dailyLife, statistics, houses, valueCards, labels, neighboringNeighborhoods, coordinates, contributionCTA, schemaVersion, dateAdded) are preserved unchanged except for narrative text improvements.",
+
+  "qualityReview": {
+    "reviewedAt": "2026-01-10T12:00:00Z",
+    "qualityScore": 86,
+    "passedQuality": true,
+
+    "seoScore": 85,
+    "brandScore": 87,
+
+    "seoBreakdown": {
+      "subtitleScore": 14,
+      "introScore": 23,
+      "topicCoverageScore": 18,
+      "sectionIntrosScore": 9,
+      "decisionUsefulnessScore": 15,
+      "localRelevanceScore": 9,
+      "internalLinkingScore": 4
+    },
+    "brandBreakdown": {
+      "terminologyScore": 27,
+      "toneVoiceScore": 23,
+      "localAuthenticityScore": 18,
+      "narrativeNaturalnessScore": 14,
+      "sparseDataHandlingScore": 10
+    },
+
+    "changesLog": [
+      {
+        "field": "contributionCTA.intro",
+        "before": "andere hondenliefhebbers de juiste buurt te vinden",
+        "after": "andere hondenliefhebbers de juiste wijk te vinden",
+        "reason": "terminology_violation"
+      },
+      {
+        "field": "subtitle",
+        "before": "Leuke wijk in Gent",
+        "after": "Begijnhofdries in Gent: groene wijk met wandelroutes langs de Coupure",
+        "reason": "subtitle_length"
+      }
+    ],
+
+    "validationIssues": [
+      {
+        "field": "neighboringNeighborhoods",
+        "issue": "Linked neighborhood 44021Z9 not found in database",
+        "severity": "warning"
+      }
+    ],
+
+    "analysis": {
+      "terminology": {
+        "avoidedTermsFound": ["buurt"],
+        "preferredTermsPresent": ["baasjes", "hondenspeelweide", "wijk", "viervoeter"],
+        "allowedExceptionsUsed": ["buurtgevoel", "in de buurt"]
+      },
+      "tone": {
+        "perspectiveForm": "je_jouw",
+        "formalPhrasesFound": [],
+        "promotionalPhrasesFound": [],
+        "friendlyMarkersCount": 12
+      },
+      "localAuthenticity": {
+        "uniquePlaceNamesCount": 5,
+        "localTipsFound": ["via de Coupure", "richting de Blaarmeersen"],
+        "neighborhoodObservations": ["rustige sfeer rond het Begijnhof"]
+      },
+      "narrativeNaturalness": {
+        "sentenceStartVariety": 0.82,
+        "averageSentenceLength": 14.3,
+        "listLikePatternsFound": 0
+      },
+      "sparseDataHandling": {
+        "gapsDetected": ["no pet store in neighborhood"],
+        "gapsHandledGracefully": 1,
+        "gapsHandledPoorly": 0
+      }
+    }
+  }
+}
