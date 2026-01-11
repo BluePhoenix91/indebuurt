@@ -47,11 +47,16 @@
       "Write(**/agents/pipeline-outputs/**)",
       "Write(web/src/content/neighborhoods/**)",
       "Write(**/web/src/content/neighborhoods/**)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(dotnet new:*)"
     ],
     "deny": [],
     "ask": []
   },
   "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": ["gis", "pipeline", "astro-docs"]
+  "enabledMcpjsonServers": [
+    "gis",
+    "pipeline",
+    "astro-docs"
+  ]
 }

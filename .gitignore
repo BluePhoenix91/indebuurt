@@ -44,6 +44,12 @@ CodeCoverage/
 # MSBuild Binary and Structured Log
 *.binlog
 
+# .NET user-specific files
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*

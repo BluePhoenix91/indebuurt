@@ -61,16 +61,58 @@ PostgreSQL on Lightsail
 | Migrations | Separate scripts | One EF Core project |
 
 **Acceptance Criteria:**
-- [ ] Lightsail instance provisioned (2GB RAM, $10/month)
-- [ ] PostgreSQL 16+ with PostGIS 3.4+ extension installed
-- [ ] Three schemas created: `gis`, `pipeline`, `content`
-- [ ] Connection secured (firewall rules, not public 5432)
-- [ ] Backup strategy: daily automated snapshots
+- [x] Lightsail instance provisioned (2GB RAM, $10/month)
+- [x] PostgreSQL 16+ with PostGIS 3.4+ extension installed
+- [x] Three schemas created: `gis`, `pipeline`, `content`
+- [x] Connection secured (firewall rules, not public 5432)
+- [x] Backup strategy: daily automated snapshots
 
 **Technical Notes:**
 - Lightsail $10/month (2GB) is comfortable for this workload
 - Use `pg_dump -Fc` (custom format) for faster restore
 - Set `search_path = gis, pipeline, content` for convenience
+
+**Implementation Notes (completed 2026-01-11):**
+
+*Infrastructure:*
+- Using existing Windows Lightsail VM ($20/month) instead of provisioning new Linux instance
+- PostgreSQL 18 (newer than required 16+) with PostGIS 3.5 installed via Stack Builder
+- Database: `buurtkompas` with three schemas: `gis`, `pipeline`, `content`
+
+*Users created:*
+| User | Purpose | Access |
+|------|---------|--------|
+| `buurtkompas_readonly` | MCP/Claude queries | SELECT on all schemas |
+| `buurtkompas_pipeline` | Pipeline operations | Full access to pipeline schema |
+| `buurtkompas_app` | EF Core migrations | Full access to all schemas |
+
+*Security:*
+- SSH tunnel required for remote access (port 5433 locally → 5432 on server)
+- OpenSSH Server installed on Windows VM with key-based auth
+- Database port 5432 open on Lightsail firewall (consider removing after API deployed)
+- MCP config (`.mcp.json`) added to `.gitignore` to protect credentials
+
+*Backups:*
+- Daily backup via Windows Task Scheduler at 3:00 AM
+- Script: `C:\PostgreSQL\backups\backup.bat`
+- Retention: 7 days
+- Format: `pg_dump -Fc` (custom format)
+
+*SSH tunnel command (run on dev machine):*
+```powershell
+ssh -L 5433:localhost:5432 Administrator@15.237.68.235 -N
+```
+
+*Data migration:*
+- Starting fresh (no data migrated from local)
+- Epic O (ETL) will populate GIS data
+- Pipeline jobs table created by EF Core in Story M2
+
+*Local development database:*
+- Database: `buurtkompas_dev` on localhost:5432
+- Same 3-schema structure as production (gis, pipeline, content)
+- PostGIS enabled
+- EF Core migrations will target this for local development
 
 ---
 
@@ -80,7 +122,7 @@ PostgreSQL on Lightsail
 
 **Context:** This creates the modular monolith structure that will host both CLI commands (Epic O) and API endpoints (Epic P).
 
-**Project Structure:**
+**Project Structure (original plan):**
 ```
 pipeline/
 ├── Pipeline.csproj
@@ -98,40 +140,105 @@ pipeline/
 └── Infrastructure/          # External services (added in P)
 ```
 
+*Note: Actual implementation uses 3-project solution — see Implementation Notes below.*
+
 **Acceptance Criteria:**
-- [ ] ASP.NET Core 8 project created in `pipeline/` directory
-- [ ] Entity Framework Core + Npgsql.EntityFrameworkCore.PostgreSQL configured
-- [ ] DbContext connects to Lightsail database
-- [ ] EF Core entities for existing tables (neighborhoods, pois, pipeline_jobs)
-- [ ] Health check endpoint: `GET /health`
-- [ ] Swagger documentation enabled for development
-- [ ] Connection string via environment variable or user secrets
+- [x] ASP.NET Core 8 project created in `pipeline/` directory
+- [x] Entity Framework Core + Npgsql.EntityFrameworkCore.PostgreSQL configured
+- [x] DbContext connects to Lightsail database
+- [ ] EF Core entities for existing tables (neighborhoods, pois, pipeline_jobs) — *deferred to Epic O*
+- [x] Health check endpoint: `GET /health`
+- [x] Swagger documentation enabled for development
+- [x] Connection string via environment variable or user secrets
 
 **Technical Notes:**
 - Use `dotnet new webapi` as starting point
 - Configure for both API hosting and CLI commands via `System.CommandLine`
 - No authentication yet (added in Epic P)
 
+**Implementation Notes (completed 2026-01-11):**
+
+*Architecture (deviated from original spec):*
+- **.NET 10** instead of .NET 8 (user preference for LTS)
+- **3-project solution** instead of single project:
+  - `Pipeline.Api` — ASP.NET Core Web API host
+  - `Pipeline.Cli` — Console app with System.CommandLine
+  - `Pipeline.Core` — Shared class library (DbContext, entities, services)
+- **DbContext shell only** — entities deferred to Epic O (incremental approach)
+
+*Project structure:*
+```
+pipeline/
+├── Pipeline.sln
+└── src/
+    ├── Pipeline.Api/
+    │   ├── Program.cs              # Health check, Swagger, EF Core config
+    │   ├── appsettings.json        # Connection string (update password)
+    │   └── appsettings.Development.json
+    │
+    ├── Pipeline.Cli/
+    │   ├── Program.cs              # System.CommandLine with "hello" test command
+    │   └── appsettings.json        # Connection string (update password)
+    │
+    └── Pipeline.Core/
+        └── Data/
+            └── PipelineDbContext.cs  # Shell, entities added in Epic O
+```
+
+*Key packages:*
+| Project | Package | Version |
+|---------|---------|---------|
+| Core | Npgsql.EntityFrameworkCore.PostgreSQL | 10.0.0 |
+| Core | Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite | 10.0.4 |
+| Core | Microsoft.EntityFrameworkCore.Design | 10.0.1 |
+| Api | Swashbuckle.AspNetCore | 10.1.0 |
+| Api | Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore | 10.0.1 |
+| Cli | System.CommandLine | 2.0.1 |
+| Cli | Microsoft.Extensions.Hosting | 10.0.1 |
+
+*Database configuration:*
+- Development: `buurtkompas_dev` on localhost:5432
+- Production: Lightsail via environment variable override
+- Connection string in appsettings.json (password not committed — update locally)
+
+*Endpoints:*
+- `GET /health` — Returns "Healthy" if DB connection works
+- `GET /swagger` — Swagger UI (Development only)
+- `GET /` — Placeholder message
+
+*CLI commands:*
+- `dotnet run -- hello` — Tests database connection
+- `dotnet run -- --help` — Shows available commands
+
+*Verification:*
+```bash
+# Build
+cd pipeline && dotnet build
+
+# Test CLI
+cd src/Pipeline.Cli && dotnet run -- hello
+# Expected: "Database connection: OK"
+
+# Test API
+cd src/Pipeline.Api && dotnet run
+# Visit http://localhost:5082/health → "Healthy"
+# Visit http://localhost:5082/swagger → Swagger UI
+```
+
+*Environment variable override for production:*
+```bash
+ConnectionStrings__DefaultConnection="Host=...;Password=..."
+```
+
 ---
 
-## Story M3: Local Development Setup
+## ~~Story M3: Local Development Setup~~ (Skipped)
 
-> As a developer, I want to run the project locally against the remote database, so that I can develop and test without deploying.
+> ~~As a developer, I want to run the project locally against the remote database, so that I can develop and test without deploying.~~
 
-**Acceptance Criteria:**
-- [ ] SSH tunnel script for secure local access to Lightsail PostgreSQL
-- [ ] `appsettings.Development.json` configured for local development
-- [ ] `dotnet run` starts API on localhost
-- [ ] README with setup instructions for new developers
-- [ ] Local MCP configs removed (no longer needed)
+**Status:** Skipped - not needed.
 
-**Technical Notes:**
-```bash
-# SSH tunnel for local development
-ssh -L 5432:localhost:5432 user@lightsail-ip
-
-# Then connection string uses localhost:5432
-```
+**Rationale:** Development happens on local machine with local PostgreSQL. Lightsail is the production environment. No need for SSH tunnel workflow during development - the ASP.NET Core project in M2 will use local database for dev and Lightsail for production via environment-specific connection strings.
 
 ---
 
@@ -139,11 +246,10 @@ ssh -L 5432:localhost:5432 user@lightsail-ip
 
 ```
 Epic H (Infrastructure Foundation)
-  └── M1 (PostgreSQL on Lightsail)
+  └── M1 (PostgreSQL on Lightsail) ✅
         └── M2 (ASP.NET Core Project)
-              └── M3 (Local Development)
 
-After M3:
+After M2:
   ├── Epic O (ETL Automation) — adds CLI commands, populates database
   └── Epic P (API Content Pipeline) — adds API endpoints
 ```
