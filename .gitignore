@@ -76,5 +76,8 @@ dist/
 .DS_Store
 Thumbs.db
 
+# MCP config (contains database credentials)
+.mcp.json
+
 # Pipeline outputs (generated content, not source)
 agents/pipeline-outputs/
