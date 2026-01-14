@@ -25,12 +25,16 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+    // Redirect root to Swagger in development
+    app.MapGet("/", () => Results.Redirect("/swagger"));
+}
+else
+{
+    app.MapGet("/", () => "Pipeline API - see /health");
 }
 
 // Health endpoint
 app.MapHealthChecks("/health");
-
-// Placeholder endpoint (remove later)
-app.MapGet("/", () => "Pipeline API - see /health or /swagger");
 
 app.Run();
