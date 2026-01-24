@@ -4,7 +4,7 @@
 
 **Depends on:** Epic M (API Infrastructure), Epic L (Agent Fine-Tuning)
 
-**New project:** `pipeline/` (.NET 8, ASP.NET Core, Hangfire)
+**New project:** `pipeline/` (.NET 10, ASP.NET Core) — *created in Epic M*
 
 ---
 
@@ -66,56 +66,80 @@ After implementation, data refreshes cost $0. AI is only needed for prose rewrit
 
 > As a developer, I want a separate content database schema, so that AI-generated prose is stored independently from GIS data.
 
-**Tables:**
-
-```sql
--- AI-generated prose (one row per neighborhood)
-CREATE TABLE neighborhood_prose (
-    nis_code        VARCHAR(14) PRIMARY KEY,
-    slug            VARCHAR(200) NOT NULL UNIQUE,
-    city            VARCHAR(200) NOT NULL,
-    name            VARCHAR(200) NOT NULL,
-    intro           TEXT NOT NULL,
-    subtitle        VARCHAR(400) NOT NULL,
-    quality_score   DECIMAL(4,1),
-    prompt_version  VARCHAR(20),
-    generated_at    TIMESTAMP NOT NULL,
-    modified_at     TIMESTAMP,           -- NULL = unedited
-    modified_by     VARCHAR(100)
-);
-
--- Global templates for value cards (~6 rows)
-CREATE TABLE value_card_templates (
-    card_type           VARCHAR(100) PRIMARY KEY,  -- "dog_parks", "vets", etc.
-    poi_category        VARCHAR(100),              -- maps to pois.category
-    icon                VARCHAR(100) NOT NULL,
-    title               VARCHAR(100) NOT NULL,
-    distance_icon       VARCHAR(100) NOT NULL,
-    description_template VARCHAR(200) NOT NULL,   -- "{count} hondenspeelweiden"
-    detail_template     VARCHAR(200) NOT NULL,    -- "Dichtstbijzijnde op {nearest_minutes} min"
-    sort_order          INTEGER NOT NULL
-);
-
--- Rule-based labels (~10-15 rows)
-CREATE TABLE label_rules (
-    id              SERIAL PRIMARY KEY,
-    label_text      VARCHAR(100) NOT NULL,        -- "Veel groen"
-    label_icon      VARCHAR(100) NOT NULL,        -- "fa-solid fa-leaf"
-    condition_field VARCHAR(100) NOT NULL,        -- "park_count"
-    condition_op    VARCHAR(10) NOT NULL,         -- ">", "<", ">=", "between"
-    condition_value VARCHAR(50) NOT NULL,         -- "10" or "5,15" for between
-    priority        INTEGER NOT NULL,             -- Higher = shown first
-    max_labels      INTEGER DEFAULT 4             -- Max labels per neighborhood
-);
-```
-
 **Acceptance Criteria:**
 
-- [ ] Schema created in `pipeline/` project as EF Core migrations
-- [ ] Can run on same PostgreSQL instance as GIS (separate schema)
-- [ ] Seed data for `value_card_templates` (6 card types)
-- [ ] Seed data for `label_rules` (initial set of ~10 rules)
-- [ ] Foreign key to GIS `neighborhoods` table for validation
+- [x] Schema created in `pipeline/` project as EF Core migrations
+- [x] Can run on same PostgreSQL instance as GIS (separate schema)
+- [ ] Seed data for `value_card_templates` (6 card types) — *deferred to N3*
+- [ ] Seed data for `label_rules` (initial set of ~10 rules) — *deferred to N4*
+- [ ] Foreign key to GIS `neighborhoods` table for validation — *deferred to Epic O (when GIS entities added to DbContext)*
+
+**Implementation Notes (completed 2026-01-24):**
+
+*Schema changes from original plan:*
+
+| Original | Implemented | Reason |
+|----------|-------------|--------|
+| `nis_code VARCHAR(14)` | `VARCHAR(7)` | Matches actual NIS code length in GIS data |
+| `poi_category` column | Removed | Derived from `CardType` via `PoiCategoryMapper` |
+| `icon`, `distance_icon` columns | Removed | Derived from `CardType` via `IconMapper` |
+| `priority`, `max_labels` columns | Removed | Replaced with `Category` enum; ordering handled by frontend |
+| `condition_field VARCHAR` | `ConditionField` enum | Type safety |
+| `condition_op VARCHAR` | `ConditionOperator` enum | Type safety |
+| `SERIAL` primary key | `GUID v7` | Consistency across all entities |
+
+*Final schema:*
+
+```sql
+-- content.neighborhood_prose
+nis_code        VARCHAR(7) PRIMARY KEY
+slug            VARCHAR(200) NOT NULL UNIQUE
+city            VARCHAR(200) NOT NULL
+name            VARCHAR(200) NOT NULL
+intro           TEXT NOT NULL
+subtitle        VARCHAR(400) NOT NULL
+quality_score   DECIMAL(4,1)
+prompt_version  VARCHAR(20)
+generated_at    TIMESTAMP NOT NULL
+modified_at     TIMESTAMP
+modified_by     VARCHAR(100)
+
+-- content.value_card_templates (~6 rows)
+card_type               VARCHAR(50) PRIMARY KEY  -- Enum: DogParks, Parks, Vets, etc.
+title                   VARCHAR(100) NOT NULL
+description_template    VARCHAR(200) NOT NULL
+detail_template         VARCHAR(200) NOT NULL
+sort_order              INTEGER NOT NULL
+
+-- content.label_rules
+id                  UUID PRIMARY KEY  -- Guid v7, app-generated
+category            VARCHAR(50) NOT NULL  -- Enum: Character, Amenities, Transport, Demographics
+label_text          VARCHAR(100) NOT NULL
+label_icon          VARCHAR(100) NOT NULL
+condition_field     VARCHAR(50) NOT NULL  -- Enum: ParkCount, DogParkCount, etc.
+condition_operator  VARCHAR(20) NOT NULL  -- Enum: GreaterThan, LessThan, Between, etc.
+condition_value     VARCHAR(50) NOT NULL
+```
+
+*Code structure:*
+- Entities: `Pipeline.Core/Entities/Content/`
+- Configurations: `Pipeline.Core/Data/Configurations/Content/`
+- Enums: `Pipeline.Core/Enums/` (CardType, LabelCategory, ConditionField, ConditionOperator)
+- Mappers: `Pipeline.Core/Mappers/` (IconMapper, PoiCategoryMapper)
+
+*Key decisions:*
+- Enums stored as strings (`.HasConversion<string>()`) for readability and safety against reordering
+- Icons and POI categories derived from `CardType` via mappers (not stored in DB)
+- `LabelCategory` enum for grouping labels; display order determined by frontend
+- Single `PipelineDbContext` manages all schemas (gis, pipeline, content)
+- Migration history in `gis.__EFMigrationsHistory`
+
+*Migration:*
+```bash
+cd pipeline
+dotnet ef migrations add CreateContentSchema --project src/Pipeline.Core --startup-project src/Pipeline.Api
+dotnet ef database update --project src/Pipeline.Core --startup-project src/Pipeline.Api
+```
 
 ---
 
@@ -331,6 +355,9 @@ Epic N (Content Architecture)
               └── N5 (Build Script)
                     └── N6 (Writer to DB)
                           └── N7 (Deprecate JSON source)
+
+Epic Q (CI/CD) — runs N5 build script in GitHub Actions
+  └── Q4 (Content Build Workflow) ─── Automates N5 in CI, commits JSON to git
 ```
 
 ---

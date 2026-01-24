@@ -48,7 +48,14 @@
       "Write(web/src/content/neighborhoods/**)",
       "Write(**/web/src/content/neighborhoods/**)",
       "Bash(test:*)",
-      "Bash(dotnet new:*)"
+      "Bash(dotnet new:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet run:*)",
+      "Bash(dotnet test:*)",
+      "Bash(dotnet add:*)",
+      "Bash(dotnet restore:*)",
+      "Edit(pipeline/**)",
+      "Write(pipeline/**)"
     ],
     "deny": [],
     "ask": []
