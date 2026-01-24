@@ -12,7 +12,7 @@ using Pipeline.Core.Data;
 namespace Pipeline.Core.Migrations
 {
     [DbContext(typeof(PipelineDbContext))]
-    [Migration("20260124083438_CreateContentSchema")]
+    [Migration("20260124141143_CreateContentSchema")]
     partial class CreateContentSchema
     {
         /// <inheritdoc />
@@ -104,6 +104,10 @@ namespace Pipeline.Core.Migrations
                         .HasPrecision(4, 1)
                         .HasColumnType("numeric(4,1)");
 
+                    b.Property<decimal?>("SeoQualityScore")
+                        .HasPrecision(4, 1)
+                        .HasColumnType("numeric(4,1)");
+
                     b.Property<string>("Slug")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -127,16 +131,6 @@ namespace Pipeline.Core.Migrations
                     b.Property<string>("CardType")
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
-
-                    b.Property<string>("DescriptionTemplate")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("character varying(200)");
-
-                    b.Property<string>("DetailTemplate")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("character varying(200)");
 
                     b.Property<int>("SortOrder")
                         .HasColumnType("integer");

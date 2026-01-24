@@ -1,4 +1,5 @@
 using Pipeline.Core.Enums;
+using Pipeline.Core.Services;
 
 namespace Pipeline.Core.Mappers;
 
@@ -19,6 +20,17 @@ public static class IconMapper
         CardType.Supermarkets => "fa-solid fa-cart-shopping",
         CardType.Transit => "fa-solid fa-bus",
         _ => "fa-solid fa-circle-question"
+    };
+
+    /// <summary>
+    /// Gets the distance icon for the travel mode.
+    /// </summary>
+    public static string GetDistanceIcon(TravelMode travelMode) => travelMode switch
+    {
+        TravelMode.Walking => "fa-solid fa-person-walking",
+        TravelMode.Biking => "fa-solid fa-bicycle",
+        TravelMode.Car => "fa-solid fa-car",
+        _ => "fa-solid fa-person-walking"
     };
 
     /// <summary>

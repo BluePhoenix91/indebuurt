@@ -9,7 +9,7 @@ public static class PoiCategoryMapper
 {
     /// <summary>
     /// Gets the POI category to query from GIS database for this card type.
-    /// Returns null for card types that don't map to POIs (e.g., Transit).
+    /// Returns null for card types that don't map to a single POI category (e.g., Transit).
     /// </summary>
     public static string? GetPoiCategory(CardType cardType) => cardType switch
     {
@@ -18,7 +18,14 @@ public static class PoiCategoryMapper
         CardType.Vets => "veterinary",
         CardType.PetStores => "pet_shop",
         CardType.Supermarkets => "supermarket",
-        CardType.Transit => null,
+        CardType.Transit => null, // Handled specially via GetTransitCategories
         _ => null
     };
+
+    /// <summary>
+    /// Gets the POI categories that count as transit stops.
+    /// Used for aggregating transit card counts.
+    /// </summary>
+    public static string[] GetTransitCategories() =>
+        ["bus_stop", "tram_stop", "train_station"];
 }

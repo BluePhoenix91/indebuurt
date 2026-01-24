@@ -5,6 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Pipeline.Cli.Commands;
 using Pipeline.Core.Data;
+using Pipeline.Core.Repositories;
+using Pipeline.Core.Services;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -20,6 +22,10 @@ builder.Services.AddDbContext<PipelineDbContext>(options =>
         connectionString,
         npgsql => npgsql.UseNetTopologySuite()
     ));
+
+// Services (Story N3)
+builder.Services.AddScoped<IGisRepository, GisRepository>();
+builder.Services.AddScoped<ValueCardBuilder>();
 
 var host = builder.Build();
 
@@ -40,5 +46,8 @@ rootCommand.Add(helloCommand);
 
 // Migrate content command (Story N2)
 rootCommand.Add(MigrateContentCommand.Create(host.Services));
+
+// Refresh views command (Story N3)
+rootCommand.Add(RefreshViewsCommand.Create(host.Services));
 
 return await rootCommand.Parse(args).InvokeAsync();

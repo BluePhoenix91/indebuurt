@@ -47,6 +47,7 @@ namespace Pipeline.Core.Migrations
                     Intro = table.Column<string>(type: "text", nullable: false),
                     Subtitle = table.Column<string>(type: "character varying(400)", maxLength: 400, nullable: false),
                     QualityScore = table.Column<decimal>(type: "numeric(4,1)", precision: 4, scale: 1, nullable: true),
+                    SeoQualityScore = table.Column<decimal>(type: "numeric(4,1)", precision: 4, scale: 1, nullable: true),
                     PromptVersion = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: true),
                     GeneratedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     ModifiedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
@@ -64,8 +65,6 @@ namespace Pipeline.Core.Migrations
                 {
                     CardType = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
                     Title = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    DescriptionTemplate = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false),
-                    DetailTemplate = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false),
                     SortOrder = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>

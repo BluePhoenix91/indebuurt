@@ -129,16 +129,6 @@ namespace Pipeline.Core.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
 
-                    b.Property<string>("DescriptionTemplate")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("character varying(200)");
-
-                    b.Property<string>("DetailTemplate")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("character varying(200)");
-
                     b.Property<int>("SortOrder")
                         .HasColumnType("integer");
 
@@ -150,6 +140,44 @@ namespace Pipeline.Core.Migrations
                     b.HasKey("CardType");
 
                     b.ToTable("value_card_templates", "content");
+
+                    b.HasData(
+                        new
+                        {
+                            CardType = "DogParks",
+                            SortOrder = 1,
+                            Title = "Hondenparken"
+                        },
+                        new
+                        {
+                            CardType = "Parks",
+                            SortOrder = 2,
+                            Title = "Parken"
+                        },
+                        new
+                        {
+                            CardType = "Vets",
+                            SortOrder = 3,
+                            Title = "Dierenartsen"
+                        },
+                        new
+                        {
+                            CardType = "PetStores",
+                            SortOrder = 4,
+                            Title = "Dierenwinkels"
+                        },
+                        new
+                        {
+                            CardType = "Supermarkets",
+                            SortOrder = 5,
+                            Title = "Supermarkten"
+                        },
+                        new
+                        {
+                            CardType = "Transit",
+                            SortOrder = 6,
+                            Title = "Openbaar vervoer"
+                        });
                 });
 #pragma warning restore 612, 618
         }
