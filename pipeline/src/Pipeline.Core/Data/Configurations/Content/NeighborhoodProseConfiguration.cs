@@ -21,6 +21,7 @@ public class NeighborhoodProseConfiguration : IEntityTypeConfiguration<Neighborh
         builder.Property(e => e.Intro).IsRequired();
         builder.Property(e => e.Subtitle).HasMaxLength(400).IsRequired();
         builder.Property(e => e.QualityScore).HasPrecision(4, 1);
+        builder.Property(e => e.SeoQualityScore).HasPrecision(4, 1);
         builder.Property(e => e.PromptVersion).HasMaxLength(20);
         builder.Property(e => e.ModifiedBy).HasMaxLength(100);
 

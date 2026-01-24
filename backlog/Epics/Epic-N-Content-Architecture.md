@@ -147,22 +147,62 @@ dotnet ef database update --project src/Pipeline.Core --startup-project src/Pipe
 
 > As a pipeline operator, I want existing AI-generated content migrated to the new schema, so that we don't lose work already done.
 
-**Migration Script:**
-
-```csharp
-// For each 4-brand-reviewer.json in pipeline-outputs/
-// Extract: intro, subtitle, slug, quality scores
-// Insert into neighborhood_prose
-```
-
 **Acceptance Criteria:**
 
-- [ ] Script reads all `4-brand-reviewer.json` files
-- [ ] Extracts prose fields (intro, subtitle)
-- [ ] Extracts metadata (slug, quality_score, generated timestamp)
-- [ ] Inserts into `neighborhood_prose` table
-- [ ] Handles duplicates gracefully (upsert)
-- [ ] Reports migration statistics (count, skipped, errors)
+- [x] Script reads all `4-brand-reviewer.json` files
+- [x] Extracts prose fields (intro, subtitle)
+- [x] Extracts metadata (slug, quality_score, generated timestamp)
+- [x] Inserts into `neighborhood_prose` table
+- [x] Handles duplicates gracefully (skip existing — preserves manual edits)
+- [x] Reports migration statistics (count, skipped, errors)
+
+**Implementation Notes (completed 2026-01-24):**
+
+*Schema addition:*
+- Added `seo_quality_score` column to store both SEO and Brand quality scores separately
+- Migration: `20260124094828_AddSeoQualityScore`
+
+*CLI Command:*
+```bash
+cd pipeline
+dotnet run --project src/Pipeline.Cli -- migrate-content --input-path "../agents/pipeline-outputs"
+dotnet run --project src/Pipeline.Cli -- migrate-content --dry-run  # Preview only
+```
+
+*Migration Results:*
+```
+Total files found:    90
+Inserted:             80
+Skipped (duplicate):  0
+Invalid NIS code:     10 (malformed folder names from early pipeline runs)
+```
+
+*Skipped neighborhoods (malformed NIS codes):*
+
+| Folder | Neighborhood | City |
+|--------|--------------|------|
+| 11002C21- | Atheneum (Stationswijk) | Antwerpen |
+| 11002D31- | Astrid Bad (Oostwijk) | Antwerpen |
+| 11002F62- | Beerschot - Stadion (Kiel) | Antwerpen |
+| 11002G59- | Albertpark (Oostwijk) | Antwerpen |
+| 11002J85- | 't Eilandje | Antwerpen |
+| 11002K171 | Albertdok | Antwerpen |
+| 11002Q39- | 't Fort | Antwerpen |
+| 11002R30- | 't Mestputteke | Antwerpen |
+
+These are early pipeline outputs with incorrectly named folders. Rename folders to valid 7-char NIS codes to migrate them.
+
+*Code structure:*
+- Command: `Pipeline.Cli/Commands/MigrateContentCommand.cs`
+- DTO: `Pipeline.Cli/Dtos/BrandReviewerOutputDto.cs`
+- Title case converter: `Pipeline.Cli/Services/DutchTitleCaseConverter.cs`
+
+*Key decisions:*
+- Skip existing records (preserves manual edits) vs upsert
+- Convert UPPERCASE names to Title Case (Dutch language rules)
+- Store both `quality_score` (brand) and `seo_quality_score` (SEO)
+- Validate NIS codes (exactly 7 alphanumeric chars)
+- No GIS validation (deferred to Epic O when FK added)
 
 ---
 

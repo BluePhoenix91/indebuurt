@@ -39,10 +39,16 @@ public class NeighborhoodProse
     public required string Subtitle { get; set; }
 
     /// <summary>
-    /// Quality score from AI review (0-100).
+    /// Brand quality score from AI review (0-100).
     /// Nullable until reviewed.
     /// </summary>
     public decimal? QualityScore { get; set; }
+
+    /// <summary>
+    /// SEO quality score from AI review (0-100).
+    /// Nullable until reviewed.
+    /// </summary>
+    public decimal? SeoQualityScore { get; set; }
 
     /// <summary>
     /// Version identifier of the prompt used for generation.
