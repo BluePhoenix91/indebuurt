@@ -3,10 +3,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Pipeline.Cli.Commands;
 using Pipeline.Core.Data;
 using Pipeline.Core.Repositories;
 using Pipeline.Core.Services;
+using Pipeline.Core.Services.PoiImport;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -22,6 +25,24 @@ builder.Services.AddDbContext<PipelineDbContext>(options =>
         connectionString,
         npgsql => npgsql.UseNetTopologySuite()
     ));
+
+// Overpass API configuration (Story O1)
+builder.Services.Configure<OverpassOptions>(
+    builder.Configuration.GetSection(OverpassOptions.SectionName));
+
+// HTTP client for Overpass API
+builder.Services.AddHttpClient<IOverpassClient, OverpassClient>((sp, client) =>
+{
+    var options = sp.GetRequiredService<IOptions<OverpassOptions>>().Value;
+    client.Timeout = TimeSpan.FromSeconds(options.TimeoutSeconds);
+});
+
+// POI Import services (Story O1)
+builder.Services.AddScoped<OverpassToPoisConverter>();
+builder.Services.AddScoped<IPoiStagingRepository>(sp => new PoiStagingRepository(
+    connectionString!,
+    sp.GetRequiredService<ILogger<PoiStagingRepository>>()));
+builder.Services.AddScoped<IPoiImportService, PoiImportService>();
 
 // Services (Story N3)
 builder.Services.AddScoped<IGisRepository, GisRepository>();
@@ -49,5 +70,8 @@ rootCommand.Add(MigrateContentCommand.Create(host.Services));
 
 // Refresh views command (Story N3)
 rootCommand.Add(RefreshViewsCommand.Create(host.Services));
+
+// Import OSM command (Story O1)
+rootCommand.Add(ImportOsmCommand.Create(host.Services));
 
 return await rootCommand.Parse(args).InvokeAsync();

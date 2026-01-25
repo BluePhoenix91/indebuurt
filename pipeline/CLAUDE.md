@@ -258,3 +258,178 @@ Maps `CardType` to POI category strings for GIS queries.
 PoiCategoryMapper.GetPoiCategory(CardType.Vets)  // "veterinary"
 PoiCategoryMapper.GetPoiCategory(CardType.Transit)  // null (not POI-based)
 ```
+
+## Service Classes
+
+### Constructor Style
+
+Use **primary constructors** (C# 12) for all service classes:
+
+```csharp
+public class MyService(
+    ILogger<MyService> logger,
+    IOptions<MyOptions> options) : IMyService
+{
+    // Reference parameters directly: logger, options
+    // Use readonly field only if you need to unwrap (e.g., options.Value)
+    private readonly MyOptions _options = options.Value;
+}
+```
+
+### HttpClient Configuration
+
+Configure `HttpClient` settings (timeout, base address) in DI registration, not in the service class:
+
+```csharp
+// Program.cs
+builder.Services.AddHttpClient<IMyClient, MyClient>((sp, client) =>
+{
+    var options = sp.GetRequiredService<IOptions<MyOptions>>().Value;
+    client.Timeout = TimeSpan.FromSeconds(options.TimeoutSeconds);
+});
+```
+
+### Interface Extraction
+
+Extract interfaces for:
+- Services that have external dependencies (HTTP clients, databases)
+- Repository classes used by other services
+
+This enables testing and follows dependency inversion.
+
+### File Organization
+
+For services with multiple concerns, split into focused files:
+
+```
+Services/
+├── MyService.cs              # Orchestrator (implements IMyService)
+├── MyOptions.cs              # Configuration class
+└── MyFeature/
+    ├── FeatureConverter.cs   # Data transformation
+    └── FeatureRepository.cs  # Database operations (implements IFeatureRepository)
+```
+
+## CLI Commands
+
+### Structure
+
+CLI commands live in `Pipeline.Cli/Commands/`. Each command:
+- Is a static class with an `ExecuteAsync` method
+- Receives `IServiceProvider` to resolve dependencies
+- Uses `IConsole` for output (testable)
+- Returns `int` exit code (0 = success)
+
+```csharp
+public static class MyCommand
+{
+    public static async Task<int> ExecuteAsync(
+        IServiceProvider services,
+        bool dryRun,
+        CancellationToken cancellationToken)
+    {
+        var service = services.GetRequiredService<IMyService>();
+        // ...
+        return 0;
+    }
+}
+```
+
+### Progress Reporting
+
+Use `IProgress<T>` for reporting progress from services to CLI:
+
+```csharp
+// In command
+var progress = new Progress<string>(msg => console.WriteLine($"  {msg}"));
+await service.DoWorkAsync(progress: progress);
+
+// In service
+public async Task DoWorkAsync(IProgress<string>? progress = null)
+{
+    progress?.Report("Starting...");
+}
+```
+
+## Database Operations
+
+### Bulk Inserts
+
+For large inserts (1000+ rows), use PostgreSQL binary COPY via Npgsql:
+
+```csharp
+await using var writer = await conn.BeginBinaryImportAsync(
+    "COPY my_table (col1, col2) FROM STDIN (FORMAT BINARY)",
+    cancellationToken);
+
+foreach (var item in items)
+{
+    await writer.StartRowAsync(cancellationToken);
+    await writer.WriteAsync(item.Col1, NpgsqlDbType.Bigint, cancellationToken);
+    await writer.WriteAsync(item.Col2, NpgsqlDbType.Varchar, cancellationToken);
+}
+
+await writer.CompleteAsync(cancellationToken);
+```
+
+### Geometry Support
+
+When using NetTopologySuite geometries with raw Npgsql (not EF), configure the data source:
+
+```csharp
+var dataSourceBuilder = new NpgsqlDataSourceBuilder(connectionString);
+dataSourceBuilder.UseNetTopologySuite();
+var dataSource = dataSourceBuilder.Build();
+
+// Then use dataSource.OpenConnectionAsync() for connections
+```
+
+### Staging Table Pattern
+
+For atomic data refreshes:
+1. Create staging table with same structure
+2. Bulk insert into staging
+3. Swap tables in a transaction:
+   ```sql
+   BEGIN;
+   DROP TABLE IF EXISTS my_table_old;
+   ALTER TABLE my_table RENAME TO my_table_old;
+   ALTER TABLE my_table_staging RENAME TO my_table;
+   DROP TABLE IF EXISTS my_table_old;
+   COMMIT;
+   ```
+
+### Column Sizing
+
+For OSM/external data, use generous column sizes — data quality varies:
+- Names, addresses, URLs: `TEXT`
+- Codes (postal, phone): `VARCHAR(50)`
+- Categories, enums: `VARCHAR(50)`
+
+## External APIs
+
+### Rate Limiting
+
+For APIs with rate limits (like Overpass), implement delays between requests:
+
+```csharp
+private async Task EnforceRateLimitAsync(CancellationToken ct)
+{
+    var elapsed = DateTime.UtcNow - _lastRequestTime;
+    var delay = TimeSpan.FromMilliseconds(_options.DelayMs) - elapsed;
+
+    if (delay > TimeSpan.Zero)
+        await Task.Delay(delay, ct);
+
+    _lastRequestTime = DateTime.UtcNow;
+}
+```
+
+### Retry with Backoff
+
+For transient failures (429, 503, timeouts), retry with exponential backoff:
+
+```csharp
+var retryDelay = baseDelay * Math.Pow(2, attempt - 1);  // 5s, 10s, 20s...
+await Task.Delay(retryDelay, cancellationToken);
+```
