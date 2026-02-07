@@ -41,6 +41,7 @@
       "mcp__pipeline__execute_rollback",
       "mcp__pipeline__list_tables",
       "mcp__pipeline__describe_table",
+      "mcp__buurtkompas_dev__query",
       "Bash(dir:*)",
       "Write(agents/pipeline-outputs/**)",
       "Write(agents/**)",
@@ -64,6 +65,7 @@
   "enabledMcpjsonServers": [
     "gis",
     "pipeline",
+    "buurtkompas_dev",
     "astro-docs"
   ]
 }

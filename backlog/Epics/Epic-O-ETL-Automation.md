@@ -73,7 +73,7 @@ dotnet run -- import osm --force              # Skip count validation warnings
 
 ---
 
-## Story O2: Statbel Statistics Import Command
+## Story O2: Statbel Statistics Import Command ✅
 
 > As a pipeline operator, I want to import statistics from Statbel via a CLI command, so that I can refresh demographic and price data annually.
 
@@ -85,24 +85,49 @@ dotnet run -- import osm --force              # Skip count validation warnings
 
 **New Process:**
 ```bash
-dotnet run -- import statbel
-dotnet run -- import statbel --dataset population   # Single dataset
-dotnet run -- import statbel --dataset house-prices
+dotnet run -- import-statbel
+dotnet run -- import-statbel --dataset population   # Single dataset
+dotnet run -- import-statbel --dataset house-prices
+dotnet run -- import-statbel --year 2024            # Specific year
+dotnet run -- import-statbel --dry-run              # Preview without writing
 ```
 
 **Acceptance Criteria:**
-- [ ] Command downloads latest datasets from Statbel if not present
-- [ ] Imports population data at sector level, aggregates to neighborhoods
-- [ ] Imports house prices at municipality level, inherits to neighborhoods
-- [ ] Applies NIS code mappings from `nis_code_mapping_2025.csv`
-- [ ] Uses staging table, then atomic merge to `gis.neighborhood_statistics`
-- [ ] Reports: rows imported, neighborhoods updated, missing data warnings
-- [ ] Supports `--dataset` flag for single dataset refresh
+- [x] Command downloads latest datasets from Statbel if not present
+- [x] Imports population data at sector level, aggregates to neighborhoods
+- [x] Imports house prices at municipality level, inherits to neighborhoods
+- [x] Applies NIS code mappings from `nis_code_mapping_2025.csv` — **via `statbel_municipality_nis` table join**
+- [x] Uses staging table, then atomic merge to `gis.neighborhood_statistics`
+- [x] Reports: rows imported, neighborhoods updated, missing data warnings
+- [x] Supports `--dataset` flag for single dataset refresh
+- [x] Supports `--year` flag for specific year import — **Added beyond original spec**
+- [x] Supports `--dry-run` to preview without writing — **Added beyond original spec**
 
-**Technical Notes:**
-- Statbel URLs may change; store in configuration
-- Consider caching downloaded files with expiry
-- Reuse logic from existing Python script
+**Implementation Notes:**
+- **Auto-detect latest year** via HTTP HEAD probes on Statbel URLs (2020→current year), with `--year` override
+- **Caching** in system temp directory (`%TEMP%/statbel_cache/`) to avoid re-downloading
+- **Belgian decimal format** handled (comma as decimal separator in population files)
+- **Population file format:** Pipe-delimited with BOM encoding, area in hectares (converted to km²)
+- **House prices file format:** Excel (.xlsx) with year-specific sheets, filtered to municipality level + regular houses
+- **Separate transactions** for population and house prices — partial results kept on failure
+- **Staging table pattern:** Temp table → COPY binary insert → INSERT...ON CONFLICT DO UPDATE with year-specific merge
+- **NIS code mapping:** Uses existing `gis.statbel_municipality_nis` table (populated in Epic L4) for 2025 municipality mergers
+
+**Key Files:**
+- `Pipeline.Cli/Commands/ImportStatbelCommand.cs` — CLI command
+- `Pipeline.Core/Services/Statbel/StatbelOptions.cs` — Configuration (URLs, timeout)
+- `Pipeline.Core/Services/Statbel/StatbelModels.cs` — Data records
+- `Pipeline.Core/Services/Statbel/StatbelDownloader.cs` — HTTP client with year detection + caching
+- `Pipeline.Core/Services/Statbel/PopulationDataParser.cs` — Parse pipe-delimited population files
+- `Pipeline.Core/Services/Statbel/HousePriceDataParser.cs` — Parse Excel house price files
+- `Pipeline.Core/Services/Statbel/StatbelStagingRepository.cs` — Staging table + bulk insert + merge
+- `Pipeline.Core/Services/Statbel/StatbelImportService.cs` — Orchestrates download → parse → stage → merge
+
+**NuGet Packages Added:**
+- `CsvHelper 33.0.1` — CSV parsing (used for pipe-delimited files)
+- `ExcelDataReader 3.7.0` + `ExcelDataReader.DataSet 3.7.0` — Excel parsing
+
+**Tests:** 75 tests total (9 new for Statbel components)
 
 ---
 

@@ -15,8 +15,8 @@ public static class PoiCategoryMapper
     {
         CardType.DogParks => "dog_park",
         CardType.Parks => "park",
-        CardType.Vets => "veterinary",
-        CardType.PetStores => "pet_shop",
+        CardType.Vets => "vet",
+        CardType.PetStores => "pet_store",
         CardType.Supermarkets => "supermarket",
         CardType.Transit => null, // Handled specially via GetTransitCategories
         _ => null

@@ -10,6 +10,7 @@ using Pipeline.Core.Data;
 using Pipeline.Core.Repositories;
 using Pipeline.Core.Services;
 using Pipeline.Core.Services.PoiImport;
+using Pipeline.Core.Services.Statbel;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -44,6 +45,23 @@ builder.Services.AddScoped<IPoiStagingRepository>(sp => new PoiStagingRepository
     sp.GetRequiredService<ILogger<PoiStagingRepository>>()));
 builder.Services.AddScoped<IPoiImportService, PoiImportService>();
 
+// Statbel Import services (Story O2)
+builder.Services.Configure<StatbelOptions>(
+    builder.Configuration.GetSection(StatbelOptions.SectionName));
+
+builder.Services.AddHttpClient<IStatbelDownloader, StatbelDownloader>((sp, client) =>
+{
+    var options = sp.GetRequiredService<IOptions<StatbelOptions>>().Value;
+    client.Timeout = TimeSpan.FromSeconds(options.TimeoutSeconds);
+});
+
+builder.Services.AddScoped<IPopulationDataParser, PopulationDataParser>();
+builder.Services.AddScoped<IHousePriceDataParser, HousePriceDataParser>();
+builder.Services.AddScoped<IStatbelStagingRepository>(sp => new StatbelStagingRepository(
+    connectionString!,
+    sp.GetRequiredService<ILogger<StatbelStagingRepository>>()));
+builder.Services.AddScoped<IStatbelImportService, StatbelImportService>();
+
 // Services (Story N3)
 builder.Services.AddScoped<IGisRepository, GisRepository>();
 builder.Services.AddScoped<ValueCardBuilder>();
@@ -73,5 +91,8 @@ rootCommand.Add(RefreshViewsCommand.Create(host.Services));
 
 // Import OSM command (Story O1)
 rootCommand.Add(ImportOsmCommand.Create(host.Services));
+
+// Import Statbel command (Story O2)
+rootCommand.Add(ImportStatbelCommand.Create(host.Services));
 
 return await rootCommand.Parse(args).InvokeAsync();

@@ -48,9 +48,9 @@ public class ValueCardBuilderTests
     {
         // Arrange: Vet at 400m (5 min walk)
         var template = CreateTemplate(CardType.Vets);
-        _gisRepository.GetPoiCountAsync("44021A0", "veterinary", default)
+        _gisRepository.GetPoiCountAsync("44021A0", "vet", default)
             .Returns(new PoiCount(3, 400));
-        _gisRepository.GetNearestPoiAsync("44021A0", "veterinary", default)
+        _gisRepository.GetNearestPoiAsync("44021A0", "vet", default)
             .Returns(new NearestPoi(456, "Dierenkliniek Gent", 400, IsInside: true));
 
         // Act
@@ -131,9 +131,9 @@ public class ValueCardBuilderTests
     {
         // Arrange: No vets at all
         var template = CreateTemplate(CardType.Vets);
-        _gisRepository.GetPoiCountAsync("44021A0", "veterinary", default)
+        _gisRepository.GetPoiCountAsync("44021A0", "vet", default)
             .Returns((PoiCount?)null);
-        _gisRepository.GetNearestPoiAsync("44021A0", "veterinary", default)
+        _gisRepository.GetNearestPoiAsync("44021A0", "vet", default)
             .Returns((NearestPoi?)null);
 
         // Act
