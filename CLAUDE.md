@@ -32,9 +32,12 @@ The platform provides a **SmartScore** system that quantifies neighborhood livea
 
 **Database (PostGIS):**
 - PostgreSQL 14+ with PostGIS extension
-- MCP integration for Claude Code queries (read-only)
-- Tables: `neighborhoods`, `statistical_sectors`, `pois`, `neighborhood_statistics`
-- Helper functions: `find_nearest_pois()`, `get_pois_in_neighborhood()`
+- **Single database: `buurtkompas_dev`** — all schemas live here. Do NOT use the legacy `GIS` database or other databases on the server.
+- Schema management via EF Core migrations in the .NET pipeline project (not raw SQL scripts)
+- The `database/` folder is legacy reference only — do not run those SQL scripts
+- MCP integration for Claude Code queries (read-only, via `buurtkompas_dev` MCP server)
+- Schemas: `gis` (spatial data, POIs, neighborhoods), `content` (prose, templates, label rules)
+- Tables: `gis.neighborhoods`, `gis.statistical_sectors`, `gis.pois`, `gis.neighborhood_statistics`, `content.value_card_templates`, `content.label_rules`, `content.neighborhood_prose`
 
 **Frontend (Astro):**
 - Static site generation with Content Collections

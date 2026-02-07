@@ -107,18 +107,20 @@ public class StatbelStagingRepository : IStatbelStagingRepository
             await createCmd.ExecuteNonQueryAsync(cancellationToken);
 
             // Bulk insert to staging
-            await using var writer = await conn.BeginBinaryImportAsync(
-                "COPY pop_staging (nis_code, population, population_density) FROM STDIN (FORMAT BINARY)",
-                cancellationToken);
-
-            foreach (var row in data)
             {
-                await writer.StartRowAsync(cancellationToken);
-                await writer.WriteAsync(row.NisCode, NpgsqlTypes.NpgsqlDbType.Varchar, cancellationToken);
-                await writer.WriteAsync(row.Population, NpgsqlTypes.NpgsqlDbType.Integer, cancellationToken);
-                await writer.WriteAsync(row.PopulationDensity, NpgsqlTypes.NpgsqlDbType.Numeric, cancellationToken);
+                await using var writer = await conn.BeginBinaryImportAsync(
+                    "COPY pop_staging (nis_code, population, population_density) FROM STDIN (FORMAT BINARY)",
+                    cancellationToken);
+
+                foreach (var row in data)
+                {
+                    await writer.StartRowAsync(cancellationToken);
+                    await writer.WriteAsync(row.NisCode, NpgsqlTypes.NpgsqlDbType.Varchar, cancellationToken);
+                    await writer.WriteAsync(row.Population, NpgsqlTypes.NpgsqlDbType.Integer, cancellationToken);
+                    await writer.WriteAsync(row.PopulationDensity, NpgsqlTypes.NpgsqlDbType.Numeric, cancellationToken);
+                }
+                await writer.CompleteAsync(cancellationToken);
             }
-            await writer.CompleteAsync(cancellationToken);
 
             // Merge into main table
             await using var mergeCmd = new NpgsqlCommand("""
@@ -135,19 +137,21 @@ public class StatbelStagingRepository : IStatbelStagingRepository
             updated = await mergeCmd.ExecuteNonQueryAsync(cancellationToken);
 
             // Find skipped records (NIS codes not in neighborhoods table)
-            await using var skippedCmd = new NpgsqlCommand("""
-                SELECT s.nis_code
-                FROM pop_staging s
-                LEFT JOIN gis.neighborhoods n ON n.nis_code = s.nis_code
-                WHERE n.id IS NULL
-                """, conn, transaction);
-            await using var reader = await skippedCmd.ExecuteReaderAsync(cancellationToken);
-
             var skippedCodes = new List<string>();
-            while (await reader.ReadAsync(cancellationToken))
             {
-                skippedCodes.Add(reader.GetString(0));
-                skipped++;
+                await using var skippedCmd = new NpgsqlCommand("""
+                    SELECT s.nis_code
+                    FROM pop_staging s
+                    LEFT JOIN gis.neighborhoods n ON n.nis_code = s.nis_code
+                    WHERE n.id IS NULL
+                    """, conn, transaction);
+                await using var reader = await skippedCmd.ExecuteReaderAsync(cancellationToken);
+
+                while (await reader.ReadAsync(cancellationToken))
+                {
+                    skippedCodes.Add(reader.GetString(0));
+                    skipped++;
+                }
             }
 
             if (skippedCodes.Count > 0)
@@ -200,17 +204,19 @@ public class StatbelStagingRepository : IStatbelStagingRepository
             await createCmd.ExecuteNonQueryAsync(cancellationToken);
 
             // Bulk insert to staging
-            await using var writer = await conn.BeginBinaryImportAsync(
-                "COPY price_staging (municipality_nis, median_house_price) FROM STDIN (FORMAT BINARY)",
-                cancellationToken);
-
-            foreach (var row in data)
             {
-                await writer.StartRowAsync(cancellationToken);
-                await writer.WriteAsync(row.MunicipalityNis, NpgsqlTypes.NpgsqlDbType.Varchar, cancellationToken);
-                await writer.WriteAsync(row.MedianHousePrice, NpgsqlTypes.NpgsqlDbType.Integer, cancellationToken);
+                await using var writer = await conn.BeginBinaryImportAsync(
+                    "COPY price_staging (municipality_nis, median_house_price) FROM STDIN (FORMAT BINARY)",
+                    cancellationToken);
+
+                foreach (var row in data)
+                {
+                    await writer.StartRowAsync(cancellationToken);
+                    await writer.WriteAsync(row.MunicipalityNis, NpgsqlTypes.NpgsqlDbType.Varchar, cancellationToken);
+                    await writer.WriteAsync(row.MedianHousePrice, NpgsqlTypes.NpgsqlDbType.Integer, cancellationToken);
+                }
+                await writer.CompleteAsync(cancellationToken);
             }
-            await writer.CompleteAsync(cancellationToken);
 
             // Update existing neighborhood_statistics rows
             // Join via neighborhoods.statbel_municipality_nis to handle 2025 mergers
@@ -226,19 +232,21 @@ public class StatbelStagingRepository : IStatbelStagingRepository
             updated = await updateCmd.ExecuteNonQueryAsync(cancellationToken);
 
             // Find municipalities without any matching neighborhoods
-            await using var unmatchedCmd = new NpgsqlCommand("""
-                SELECT ps.municipality_nis
-                FROM price_staging ps
-                LEFT JOIN gis.neighborhoods n ON n.statbel_municipality_nis = ps.municipality_nis
-                WHERE n.id IS NULL
-                GROUP BY ps.municipality_nis
-                """, conn, transaction);
-            await using var reader = await unmatchedCmd.ExecuteReaderAsync(cancellationToken);
-
             var unmatchedMunicipalities = new List<string>();
-            while (await reader.ReadAsync(cancellationToken))
             {
-                unmatchedMunicipalities.Add(reader.GetString(0));
+                await using var unmatchedCmd = new NpgsqlCommand("""
+                    SELECT ps.municipality_nis
+                    FROM price_staging ps
+                    LEFT JOIN gis.neighborhoods n ON n.statbel_municipality_nis = ps.municipality_nis
+                    WHERE n.id IS NULL
+                    GROUP BY ps.municipality_nis
+                    """, conn, transaction);
+                await using var reader = await unmatchedCmd.ExecuteReaderAsync(cancellationToken);
+
+                while (await reader.ReadAsync(cancellationToken))
+                {
+                    unmatchedMunicipalities.Add(reader.GetString(0));
+                }
             }
 
             if (unmatchedMunicipalities.Count > 0)

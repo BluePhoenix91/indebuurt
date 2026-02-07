@@ -10,6 +10,7 @@ using Pipeline.Core.Data;
 using Pipeline.Core.Repositories;
 using Pipeline.Core.Services;
 using Pipeline.Core.Services.PoiImport;
+using Pipeline.Core.Services.Boundaries;
 using Pipeline.Core.Services.Statbel;
 
 var builder = Host.CreateApplicationBuilder(args);
@@ -62,6 +63,23 @@ builder.Services.AddScoped<IStatbelStagingRepository>(sp => new StatbelStagingRe
     sp.GetRequiredService<ILogger<StatbelStagingRepository>>()));
 builder.Services.AddScoped<IStatbelImportService, StatbelImportService>();
 
+// Boundary Import services (Story O3)
+builder.Services.Configure<BoundaryOptions>(
+    builder.Configuration.GetSection(BoundaryOptions.SectionName));
+
+builder.Services.AddHttpClient<IBoundaryDownloader, BoundaryDownloader>((sp, client) =>
+{
+    var options = sp.GetRequiredService<IOptions<BoundaryOptions>>().Value;
+    client.Timeout = TimeSpan.FromSeconds(options.TimeoutSeconds);
+});
+
+builder.Services.AddScoped<IGeoJsonSectorReader, GeoJsonSectorReader>();
+builder.Services.AddScoped<ISlugGenerator, SlugGenerator>();
+builder.Services.AddScoped<IBoundaryStagingRepository>(sp => new BoundaryStagingRepository(
+    connectionString!,
+    sp.GetRequiredService<ILogger<BoundaryStagingRepository>>()));
+builder.Services.AddScoped<IBoundaryImportService, BoundaryImportService>();
+
 // Services (Story N3)
 builder.Services.AddScoped<IGisRepository, GisRepository>();
 builder.Services.AddScoped<ValueCardBuilder>();
@@ -94,5 +112,8 @@ rootCommand.Add(ImportOsmCommand.Create(host.Services));
 
 // Import Statbel command (Story O2)
 rootCommand.Add(ImportStatbelCommand.Create(host.Services));
+
+// Import Boundaries command (Story O3)
+rootCommand.Add(ImportBoundariesCommand.Create(host.Services));
 
 return await rootCommand.Parse(args).InvokeAsync();
