@@ -269,5 +269,5 @@ After M2:
 
 - ETL import commands (Epic O)
 - Content processing endpoints (Epic P)
-- Materialized views (Epic L, Story L6)
+- Materialized views (Epic O, Story O4)
 - Content schema tables (Epic N)

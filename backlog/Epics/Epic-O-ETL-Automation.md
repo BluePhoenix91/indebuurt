@@ -224,11 +224,57 @@ dotnet run -- import-boundaries --dry-run
 
 ---
 
-## Story O4: Materialized Views Refresh Command
+## Story O4: Create POI Materialized Views
+
+> As a pipeline operator, I want pre-computed POI aggregates per neighborhood, so that value card generation queries run in milliseconds instead of seconds.
+
+**Context:** The `GisRepository` and `RefreshViewsCommand` already reference two materialized views that don't exist yet. This story creates them via an EF Core migration. Originally planned as Story L6 in Epic L (pre-.NET era), now absorbed here.
+
+**Views to create:**
+
+1. `gis.mv_neighborhood_poi_counts` — POI count + nearest distance per neighborhood per category
+2. `gis.mv_neighborhood_nearest_pois` — Nearest POI details per neighborhood per category
+
+**Schema (must match existing `GisRepository` queries):**
+
+| View | Columns |
+|------|---------|
+| `mv_neighborhood_poi_counts` | `nis_code`, `category`, `poi_count` (int), `nearest_distance_m` (double) |
+| `mv_neighborhood_nearest_pois` | `nis_code`, `category`, `poi_id` (int), `poi_name` (text), `distance_m` (double), `is_inside` (bool) |
+
+**Acceptance Criteria:**
+
+- [ ] EF Core migration creates `gis.mv_neighborhood_poi_counts` with `WITH NO DATA`
+- [ ] EF Core migration creates `gis.mv_neighborhood_nearest_pois` with `WITH NO DATA`
+- [ ] Unique indexes on `(nis_code, category)` for both views (enables `REFRESH CONCURRENTLY`)
+- [ ] Migration Down drops both views
+- [ ] Column names match `GisRepository` query expectations exactly
+- [ ] Uses `ST_DistanceSphere` for meter-accurate distances
+- [ ] Uses KNN operator (`<->`) with `CROSS JOIN LATERAL` for nearest-POI lookups
+- [ ] Categories derived from `SELECT DISTINCT category FROM gis.pois`
+
+**Technical Notes:**
+
+- `WITH NO DATA` keeps the migration fast — views are populated by `refresh-views` (O5)
+- Views live in `gis` schema (matches `search_path` so `GisRepository` unqualified references resolve correctly)
+- `tram_stop` is in `PoiCategoryMapper` but not in POI data — naturally absent from views, no issue
+- If `pois` table is empty, CROSS JOIN produces zero categories → empty but structurally valid views
+
+**Key Files:**
+
+- `Pipeline.Core/Migrations/{timestamp}_CreateGisMaterializedViews.cs` — New migration
+- `Pipeline.Core/Repositories/GisRepository.cs` — Consumer (read-only reference)
+- `Pipeline.Core/Mappers/PoiCategoryMapper.cs` — Category list reference
+
+**Depends on:** O1 (POI data), O3 (neighborhoods)
+
+---
+
+## Story O5: Materialized Views Refresh Command
 
 > As a pipeline operator, I want to refresh materialized views via a CLI command, so that pre-computed aggregates reflect the latest data.
 
-**Context:** Epic L6 creates materialized views for POI counts and nearest POIs. These need refreshing after any data import.
+**Context:** O4 creates the materialized views. This command refreshes them after data imports.
 
 **New Process:**
 
@@ -243,7 +289,7 @@ dotnet run -- refresh views --concurrent   # Non-blocking refresh
 - [ ] Command refreshes `mv_neighborhood_nearest_pois`
 - [ ] Supports `--concurrent` flag for `REFRESH MATERIALIZED VIEW CONCURRENTLY`
 - [ ] Reports: refresh duration, row counts
-- [ ] Fails gracefully if views don't exist yet (Epic L6 not done)
+- [ ] Fails gracefully if views don't exist yet (O4 migration not applied)
 
 **Technical Notes:**
 
@@ -253,7 +299,7 @@ dotnet run -- refresh views --concurrent   # Non-blocking refresh
 
 ---
 
-## Story O5: Full Refresh Command
+## Story O6: Full Refresh Command
 
 > As a pipeline operator, I want to run a full data refresh with a single command, so that I can update everything before a batch processing run.
 
@@ -267,7 +313,7 @@ dotnet run -- import all --skip boundaries   # Skip unchanged data
 **Acceptance Criteria:**
 
 - [ ] Command runs O1 (OSM), O2 (Statbel), O3 (Boundaries) in sequence
-- [ ] Refreshes materialized views (O4) after all imports
+- [ ] Refreshes materialized views (O5) after all imports
 - [ ] Supports `--skip` flag to exclude specific imports
 - [ ] Reports: total duration, summary of all imports
 - [ ] Continues on non-fatal errors, reports at end
@@ -285,7 +331,7 @@ import all
 
 ---
 
-## Story O6: Import Scheduling
+## Story O7: Import Scheduling
 
 > As a pipeline operator, I want imports to run on a schedule, so that data stays fresh without manual intervention.
 
@@ -314,7 +360,7 @@ import all
 
 ---
 
-## Story O7: Content Seed from Astro JSON
+## Story O8: Content Seed from Astro JSON
 
 > As a pipeline operator, I want to import published content from Astro JSON files into the database, so that I can recover content if the database is lost or repopulate after a fresh install.
 
@@ -356,13 +402,11 @@ Epic M (Server Infrastructure)
         └── O1 (OSM Import)
         └── O2 (Statbel Import)
         └── O3 (Boundaries Import)
-              └── O4 (Materialized Views) — depends on L6 for view creation
-                    └── O5 (Full Refresh)
-                          └── O6 (Scheduling) — depends on Hangfire from Epic P
-        └── O7 (Content Seed) — depends on O3 for slug→nis_code lookup
-
-Epic L
-  └── L6 (Materialized Views) — creates the views that O4 refreshes
+              └── O4 (Create Materialized Views)
+                    └── O5 (Refresh Materialized Views)
+                          └── O6 (Full Refresh)
+                                └── O7 (Scheduling) — depends on Hangfire from Epic P
+        └── O8 (Content Seed) — depends on O3 for slug→nis_code lookup
 ```
 
 ---
@@ -381,5 +425,4 @@ Epic L
 ## Out of Scope
 
 - Content processing (Epic P)
-- Materialized view creation (Epic L, Story L6)
 - API endpoints (Epic P)

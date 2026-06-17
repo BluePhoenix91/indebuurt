@@ -226,7 +226,9 @@ Files created/modified:
 
 ---
 
-## Story L6: Materialized Views for POI Aggregates
+## Story L6: Materialized Views for POI Aggregates — *Absorbed by Epic O, Story O4*
+
+> **Note:** This story was written before the .NET pipeline existed. View creation has been moved to **Epic O, Story O4** (EF Core migration). The "update Researcher queries" criterion is no longer relevant since `GisRepository` already queries the views. This story is kept for historical reference only.
 
 > As a pipeline operator, I want pre-computed POI counts per neighborhood, so that researcher queries run faster and use fewer database round-trips.
 
@@ -423,7 +425,7 @@ Epic J (Agent Pipeline)
   └── L3 (Ralph Loop)
   └── L4 (Statbel NIS Mapping)
   └── L5 (Prompt Token Reduction)
-  └── L6 (Materialized Views)
+  └── L6 (Materialized Views) — *absorbed by Epic O, Story O4*
   └── L7 (Qualitative Language)
   └── L8 (Merge Reviewers)
 ```

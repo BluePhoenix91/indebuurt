@@ -38,7 +38,7 @@ GET /api/research/{nis_code}
 
 **Acceptance Criteria:**
 - [ ] Endpoint returns POI counts, nearest POIs, statistics for neighborhood
-- [ ] Uses materialized views (L6) for efficient queries
+- [ ] Uses materialized views (Epic O, Story O4) for efficient queries
 - [ ] Response matches `ResearcherOutput` JSON schema exactly
 - [ ] Returns 404 for unknown NIS codes
 - [ ] Caches response (POI data changes weekly, not per-request)
@@ -260,7 +260,7 @@ POST /api/jobs/{nis_code}/retry             # Retry failed job
 
 **Technical Notes:**
 - Uses Hangfire recurring jobs
-- Coordinates with ETL schedule (O6) — run after data refresh
+- Coordinates with ETL schedule (O7) — run after data refresh
 
 ---
 
@@ -290,10 +290,9 @@ Epic M (Server Infrastructure)
   └── M3 (ASP.NET Core Project)
 
 Epic O (ETL Automation)
-  └── O4 (Materialized Views) — P1 uses these for efficient queries
+  └── O4 (Create Materialized Views) — P1 uses these for efficient queries
 
 Epic L (Agent Fine-Tuning)
-  └── L6 (Materialized Views) — creates views used by P1
   └── L7 (Qualitative Language) — improves prose quality
   └── L8 (Merged Reviewers) — reduces token costs
 
@@ -360,4 +359,4 @@ Epic P (Content Pipeline API)
 
 - ETL import commands (Epic O)
 - Content architecture changes (Epic N)
-- Materialized view creation (Epic L)
+- Materialized view creation (Epic O, Story O4)
