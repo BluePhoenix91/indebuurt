@@ -9,7 +9,6 @@ import ParkCard from "../../../components/ParkCard.astro";
 import PetStoreCard from "../../../components/PetStoreCard.astro";
 import SectionHeading from "../../../components/SectionHeading.astro";
 import StatisticCard from "../../../components/StatisticCard.astro";
-import TypeformEmbed from "../../../components/TypeformEmbed.astro";
 import ValueCard from "../../../components/ValueCard.astro";
 import VetCard from "../../../components/VetCard.astro";
 import {
@@ -94,9 +93,6 @@ const ogImage = `${siteUrl}/og/${slug}.png`;
         <a href="#inleiding" class="sidebar-link"> Inleiding </a>
         <a href="#voorzieningen" class="sidebar-link"> Voorzieningen </a>
         <a href="#dagelijks-leven" class="sidebar-link"> Dagelijks leven </a>
-        <a href="#contribution" class="sidebar-link">
-          Baasjes helpen baasjes
-        </a>
         <a href="#statistieken" class="sidebar-link"> Buurtstatistieken </a>
         <a href="#aangrenzende-buurten" class="sidebar-link">
           Aangrenzende buurten
@@ -283,28 +279,7 @@ const ogImage = `${siteUrl}/og/${slug}.png`;
         </div>
       </section>
 
-      <section id="contribution" class="contribution-section">
-        <SectionHeading level={2}>
-          {neighborhood.contributionCTA.heading}
-        </SectionHeading>
-        <p class="contribution-intro">{neighborhood.contributionCTA.intro}</p>
-        <div class="contribution-content">
-          <div class="contribution-form">
-            <TypeformEmbed
-              typeformId={neighborhood.contributionCTA.typeformId}
-            />
-          </div>
-          <div class="contribution-image">
-            <img
-              src="/images/stamp_texture_paw_prints 1.png"
-              alt="Pootafdrukken decoratie"
-              width="400"
-              height="600"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </section>
+      {/* Contribution / Typeform section hidden until a valid form ID is available */}
 
       <section id="statistieken" class="statistics-section">
         <SectionHeading level={2}>Buurtstatistieken</SectionHeading>

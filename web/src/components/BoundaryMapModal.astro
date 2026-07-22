@@ -149,6 +149,14 @@ const modalId = `map-modal-${id}`;
 
   // Re-initialize after Astro page navigation
   document.addEventListener("astro:page-load", initBoundaryMapModal);
+
+  // Modals are moved to <body>, so remove them before swap or they orphan
+  document.addEventListener("astro:before-swap", function () {
+    document.querySelectorAll("#" + modalId).forEach(function (el) {
+      el.remove();
+    });
+    delete window[`openMapModal_${modalId}`];
+  });
 </script>
 
 <style>

@@ -46,25 +46,29 @@ const modalId = `map-modal-${id}`;
 </div>
 
 <script define:vars={{ modalId }}>
-  document.addEventListener("DOMContentLoaded", function() {
+  function initMapModal() {
     const modal = document.getElementById(modalId);
-    if (!modal) return;
+    if (!modal || modal._initialized) return;
+    modal._initialized = true;
+
+    // Escape stacking contexts so the full-screen modal covers the viewport
+    if (modal.parentElement !== document.body) {
+      document.body.appendChild(modal);
+    }
 
     // Open modal function
-    window[`openMapModal_${modalId}`] = function() {
+    window[`openMapModal_${modalId}`] = function () {
       modal.classList.add("is-open");
       document.body.style.overflow = "hidden";
-      
+
       // Initialize any pending maps in this modal and invalidate existing maps
-      setTimeout(function() {
-        // Initialize pending maps
+      setTimeout(function () {
         if (window.initPendingMaps) {
           window.initPendingMaps(modal);
         }
-        
-        // Invalidate size of existing maps (in case they were initialized but container was hidden)
-        const maps = modal.querySelectorAll('[data-map-id]');
-        maps.forEach(function(mapContainer) {
+
+        const maps = modal.querySelectorAll("[data-map-id]");
+        maps.forEach(function (mapContainer) {
           if (mapContainer._leafletMap) {
             mapContainer._leafletMap.invalidateSize();
           }
@@ -72,36 +76,53 @@ const modalId = `map-modal-${id}`;
       }, 100);
     };
 
-    // Close modal function
     function closeModal() {
       modal.classList.remove("is-open");
       document.body.style.overflow = "";
     }
 
-    // Close buttons
-    const closeButtons = modal.querySelectorAll(`[data-close-modal="${modalId}"]`);
-    closeButtons.forEach(function(button) {
+    const closeButtons = modal.querySelectorAll(
+      `[data-close-modal="${modalId}"]`
+    );
+    closeButtons.forEach(function (button) {
       button.addEventListener("click", closeModal);
     });
 
-    // Close on ESC key
-    document.addEventListener("keydown", function(e) {
+    document.addEventListener("keydown", function (e) {
       if (e.key === "Escape" && modal.classList.contains("is-open")) {
         closeModal();
       }
     });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initMapModal);
+  } else {
+    initMapModal();
+  }
+
+  // Re-initialize after Astro ClientRouter navigations
+  document.addEventListener("astro:page-load", initMapModal);
+
+  // Modals are moved to <body>, so remove them before swap or they orphan
+  document.addEventListener("astro:before-swap", function () {
+    document.querySelectorAll("#" + modalId).forEach(function (el) {
+      el.remove();
+    });
+    delete window[`openMapModal_${modalId}`];
   });
 </script>
 
 <style>
   .map-modal {
-    position: fixed;
-    inset: 0;
-    z-index: 9999;
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: 9999 !important;
     display: flex;
     visibility: hidden;
     align-items: center;
     justify-content: center;
+    isolation: isolate;
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0.3s ease;
   }
